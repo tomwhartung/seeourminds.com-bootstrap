@@ -1,0 +1,1 @@
+. ~/.virtualenvs/seeourmindsenv/bin/activate
