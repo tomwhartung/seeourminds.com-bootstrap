@@ -205,6 +205,13 @@ git commit -m 'Adding the default, generated version of files created running dj
 
 ## Step 4. Edit important files to get a hello-world-type view working
 
+Make the following edits:
+
+1. Add routes to content/urls.py, so that visitors are "taken to" views.index
+2. Edit content/views.py
+3. Edit Site/urls.py, so that we use the routes in content/urls.py
+4. Edit Site/settings.py , adding "content" as one of the "INSTALLED_APPS" and commenting out the db stuff for now
+
 ## Step 5. Add in the html5boilerplate (initializr-responsive) code
 
 
