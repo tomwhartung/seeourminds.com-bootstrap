@@ -79,48 +79,72 @@ virtualenv --python=`which python3` ~/.virtualenvs/seeourmindsenv
 
 #### Activate the virtual environment and install the current stable version of django in it:
 
+The command to activate our virtual environment is:
+
 ```
 . ~/.virtualenvs/seeourmindsenv/bin/activate
 ```
 
 > "Anything you install through pip from now on will be installed in your new virtualenv, isolated from other environments and system-wide packages. Also, the name of the currently activated virtualenv is displayed on the command line to help you keep track of which one you are using. Go ahead and install the previously cloned copy of Django:"
 
+**Rather than rely on our memory or hope that we see this part of this README.md file, we create a small shell script to run this:**
+
 ```
-. ~/.virtualenvs/djangodev/bin/activate
-cd /var/www/learn/django/github/customizations/always_learning_python/
+cd /var/www/seeourminds.com/htdocs/seeourminds.com
+mkdir virtualenvs
+echo  '. ~/.virtualenvs/seeourmindsenv/bin/activate' > virtualenvs/seeourmindsenv.sh
+chmod 755 virtualenvs/seeourmindsenv.sh
+```
+
+Then we enter the environment, clone django, checkout the stable version of it, and use pip to install it.
+
+**NOTE: Ensure that "django" is in our .gitignore, we do NOT want to check that it!**
+
+```
+cd /var/www/seeourminds.com/htdocs/seeourminds.com
+. virtualenvs/seeourmindsenv.sh
+mkdir djangostable
+cd djangostable/
 git clone git://github.com/django/django.git
-sudo pip install -e django/
+cd django
+git checkout stable/1.10.x
+git branch    ## verify we are on the stable branch
+cd ..
+pip install -e django/
 ```
 
-#### Verify the virtual environment:
+(Wow I forgot how complicated all this is, and am glad I made copious notes of what I did last time!)
 
-Before entering virtual environment:
+#### Verify the virtual environment has the correct version of django installed in it:
+
+In a **new** terminal window, before entering virtual environment, our PATH should be "pointing to" the old version:
 
 ```
 which python   ## /usr/bin/python
 python -V      ## Python 2.7.12
-python         ## skipping output before prompt
->>> import django
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ImportError: No module named django
->>>
 ```
 
-After entering virtual environment:
+After entering virtual environment, our PATH should be "pointing to" the new version:
 
 ```
 . ~/.virtualenvs/djangodev/bin/activate
-which python                 ## /home/tomh/.virtualenvs/djangodev/bin/python
+which python                 ## /home/tomh/.virtualenvs/seeourmindsenv/bin/python
 python -V                    ## Python 3.5.2
-python -m django --version   ## 1.11.dev20160903160000
+python -m django --version   ## 1.10.3.dev20161004180341
 python                       ## skipping output before prompt
 >>> import django
 >>> print(django.get_version())
-1.11.dev20160903160000
+1.10.3.dev20161004180341
 >>> django.__path__
-['/var/www/learn/django/github/customizations/always_learning_python/django/django']
+['/var/www/seeourminds.com/htdocs/seeourminds.com/djangostable/django/django']
 >>>
+```
+
+If the verification works as expected, commit our one-liner shell script virtualenvs.
+
+```
+git add virtualenvs/seeourmindsenv.sh
+git commit 'Adding a small shell script in virtualenvs/ to make it easy to remember which virtualenv want to use for this site.'
 ```
 
 
