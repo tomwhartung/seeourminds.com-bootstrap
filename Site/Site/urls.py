@@ -32,7 +32,7 @@ from django.conf.urls import *
 urlpatterns = [
     url(r'', include('content.urls')),
     url(r'^home/', include('content.urls')),
-    url(r'^index/', include('content.urls')),
+    url(r'^quiz/', include('content.urls')),
 ]
 
 
