@@ -6,7 +6,8 @@ from django.conf.urls import *
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
-    url(r'^index$', views.index, name='index'),
+    url(r'^$', views.home, name='home'),
+    url(r'^home$', views.home, name='home'),
+    url(r'^quiz$', views.quiz, name='quiz'),
 ]
 
