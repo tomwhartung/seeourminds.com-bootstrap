@@ -14,14 +14,14 @@ from django.template import loader
 #
 def home(request):
   context_heading = 'New!'
-  content_s1 = 'Welcome to the NEW SeeOurMinds.com!  '
-  content_s2 = 'Sorry to disappoint you, but we upgraded our server and there is nothing here right now!  '
-  content_s3 = 'We are busy learning and playing around with the latest technologies, so check back again soon!  '
-  context_content = content_s1 + content_s2 + content_s3
+  context_ptags_01 = 'Welcome to the NEW SeeOurMinds.com!  '
+  context_ptags_02 = 'Sorry to disappoint you, but we upgraded our server and there is nothing here right now!  '
+  context_ptags_03 = 'We are busy learning and playing around with the latest technologies, so check back again soon!  '
+  context_leading_ptags = [ context_ptags_01, context_ptags_02, context_ptags_03 ]
   template = loader.get_template('content/index.html')
   context = {
     'context_heading': context_heading,
-    'context_content': context_content,
+    'context_leading_ptags': context_leading_ptags,
   }
   return HttpResponse(template.render(context, request))
 
