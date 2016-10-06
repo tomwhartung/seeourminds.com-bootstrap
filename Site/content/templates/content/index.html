@@ -34,6 +34,12 @@
       <article>
         <header>
           <h1>{{ context_heading }}</h1>
+
+          {% if context_leading_ptags %}
+            {% for ptag_content in context_leading_ptags %}
+              <p>{{ ptag_content }}</p>
+            {% endfor %}
+          {% endif %}
           <p>{{ context_content }}</p>
         </header>
       </article>
