@@ -214,6 +214,17 @@ Make the following edits:
 
 ## Step 5. Add in the html5boilerplate (initializr-responsive) code
 
+This step uses files edited earlier in the 2-seeourminds-prototype directory of the always_learning_python repo.
 
+1. Copy the edited html5boilerplate index.html into content/templates/content and edit as appropriate
+2. Copy the supporting html5boilerplate css and js into the proper directories (static/content/css and static/content/js)
+3. Update views.py to use the template instead of just returning the "hello world" text
 
+## Conclusion
+
+We are just about done with setting this all up, except for getting it to run through apache instead of just the development server.
+
+Reference: https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
+
+We will probably add the detailed steps needed to get that going to the ubuntu host setup docs in the jmwa_accoutrements repo.
 
