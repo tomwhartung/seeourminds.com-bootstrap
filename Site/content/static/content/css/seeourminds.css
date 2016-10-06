@@ -1,0 +1,69 @@
+/*
+ * According to comments in main.css, we are "supposed" to 
+ * add our custom styles into the middle of that file.
+ * I decided to put them here, instead.
+ */
+
+/*
+ * ==========================
+ *  Overriding styles in the
+ *   "ALL: Orange Theme"
+ *  section of main.css .
+ * ==========================
+ */
+
+.header-container {
+    border-bottom: 20px solid maroon;   /* was: #e44d26; */
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid maroon;   /* was: #e44d26; */
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: firebrick;   /* was: #f16529; */
+}
+
+.title {
+    color: white;
+}
+
+/*
+ * ==========================
+ *  Overriding styles in the
+ *   "MOBILE: Menu"
+ *  section of main.css .
+ * ==========================
+ */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: maroon;   /* was: #e44d26; */
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
