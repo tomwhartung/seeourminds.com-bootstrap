@@ -5,6 +5,17 @@
  */
 
 /*
+ * Adding a few styles for the header, to get the look and feel I want
+ */
+nav {
+    margin-top: 2.2em;
+}
+img.site-header {
+    float: left;
+    margin: .6em;
+}
+
+/*
  * ==========================
  *  Overriding styles in the
  *   "ALL: Orange Theme"
@@ -47,7 +58,7 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     padding: 15px 0;
 
     text-align: center;
