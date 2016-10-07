@@ -11,6 +11,13 @@ h1, h2, h3, h4, h5, h6 {
 /*
  * Adding a few styles for the header, to get the look and feel I want
  */
+h1.site-name {
+    text-align: left;
+}
+h1 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
 .title {
     display: block;
     text-align: left;
@@ -18,10 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 .tagline {
     color: white;
     display: block;
-    font-size: 0.5em;
     font-style: italic;
     font-weight: normal;
-    margin-top: 0.66em;
+    margin-top: 0;
 }
 nav {
     margin-top: 2.2em;
