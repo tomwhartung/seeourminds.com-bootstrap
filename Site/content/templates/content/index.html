@@ -40,6 +40,18 @@
               <p>{{ ptag_content }}</p>
             {% endfor %}
           {% endif %}
+          {% if context_main_litags %}
+            <ul>
+            {% for litag_content in context_main_litags %}
+              <li>{{ litag_content }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+          {% if context_trailing_ptags %}
+            {% for ptag_content in context_trailing_ptags %}
+              <p>{{ ptag_content }}</p>
+            {% endfor %}
+          {% endif %}
         </header>
       </article>
     </div><!-- .main .wrapper .clearfix -->
