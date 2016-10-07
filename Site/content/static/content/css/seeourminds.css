@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * Adding a few styles for the header, to get the look and feel I want
+ * Adding styles for the header, to get the look and feel I want
  */
 h1.site-name {
     text-align: left;
@@ -35,6 +35,17 @@ nav {
 img.site-header {
     float: left;
     margin: .6em;
+}
+/*
+ * Right now, all of our links are in the aside.
+ */
+a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgrey;
+    text-decoration: underline;
 }
 
 /*
