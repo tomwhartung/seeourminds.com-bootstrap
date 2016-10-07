@@ -8,6 +8,7 @@ unpack/
 # Trying something a little different with the django settings -
 # using a hidden placeholder file so we do not have to mkdir so much.
 #
+gitignored/Site/Site/RCS
 gitignored/Site/Site/settings.py
 
 # I like to switch between netbeans, eclipse, and vim
