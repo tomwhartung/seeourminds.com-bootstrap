@@ -4,9 +4,25 @@
  * I decided to put them here, instead.
  */
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
 /*
  * Adding a few styles for the header, to get the look and feel I want
  */
+.title {
+    display: block;
+    text-align: left;
+}
+.tagline {
+    color: white;
+    display: block;
+    font-size: 0.5em;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0.66em;
+}
 nav {
     margin-top: 2.2em;
 }
