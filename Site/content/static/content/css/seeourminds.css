@@ -37,7 +37,7 @@ img.site-header {
     margin: .6em;
 }
 /*
- * Right now, all of our links are in the aside.
+ * Right now, all of our links are in the aside and footer, which have backgrounds.
  */
 a {
     color: lightskyblue;
@@ -46,6 +46,18 @@ a {
 a:hover {
     color: lightgrey;
     text-decoration: underline;
+}
+/*
+ * Styles for footer (also see the .footer-container class below)
+ */
+footer {
+    border: 6px double firebrickred;
+    border-radius: 1em;
+    color: white;
+    margin: 3em auto;
+    padding: 1em;
+    text-align: center;
+    width: 80%;
 }
 
 /*
