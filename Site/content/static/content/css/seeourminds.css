@@ -63,8 +63,6 @@ a:hover {
  * Styles for footer (also see the .footer-container class below)
  */
 footer {
-    border: 6px double firebrickred;
-    border-radius: 1em;
     color: white;
     margin: 3em auto;
     padding: 1em;
@@ -81,12 +79,15 @@ footer {
  */
 
 .header-container {
-    border-bottom: 20px solid maroon;   /* was: #e44d26; */
+    border: 20px solid maroon;  /* was: #e44d26; */
+    border-width: 20px 0;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid maroon;   /* was: #e44d26; */
+    border: 20px solid maroon;  /* was: #e44d26; */
+    border-radius: 10px;
+    border-width: 20px 0;
 }
 
 .header-container,
