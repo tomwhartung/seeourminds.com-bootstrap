@@ -36,6 +36,18 @@ img.site-header {
     float: left;
     margin: .6em;
 }
+@media only screen and (max-width: 479px) {
+    img.site-header {
+        display: block;
+        float: none;
+        margin: .5em auto;
+    }
+    h1.site-name,
+    .tagline {
+        text-align: center;
+    }
+}
+
 /*
  * Right now, all of our links are in the aside and footer, which have backgrounds.
  */
