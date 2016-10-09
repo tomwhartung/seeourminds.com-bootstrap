@@ -79,15 +79,15 @@ footer {
  */
 
 .header-container {
-    border: 20px solid maroon;  /* was: #e44d26; */
-    border-width: 20px 0;
+    border: 12px solid maroon;  /* was: #e44d26; */
+    border-width: 12px 0;
 }
 
 .footer-container,
 .main aside {
-    border: 20px solid maroon;  /* was: #e44d26; */
-    border-radius: 10px;
-    border-width: 20px 0;
+    border: 12px solid maroon;  /* was: #e44d26; */
+    border-radius: 6px;
+    border-width: 12px 0;
 }
 
 .header-container,
