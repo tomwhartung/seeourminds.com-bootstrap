@@ -14,10 +14,12 @@ from django.template import loader
 #
 def home(request):
   context_heading = 'New!'
-  context_ptags_01 = 'Welcome to the NEW SeeOurMinds.com!'
-  context_ptags_02 = 'Sorry to disappoint you, but we upgraded our server and there is nothing here right now!'
-  context_ptags_03 = 'We are busy learning and playing around with new technologies such as the following:'
-  context_leading_ptags = [ context_ptags_01, context_ptags_02, context_ptags_03 ]
+  context_leading_ptags = [
+    'Welcome to the NEW SeeOurMinds.com!',
+    'We recently upgraded our server.  The old, clunky joomla site is gone, and this is now a (minimal) django site!',
+    'So there is not much here right now; currently there is not even a database.  Move along hackers, nothing to see here!',
+    'We are busy learning about and playing around with technologies such as the following:',
+  ]
   context_main_litags = [
     'LAMP CMSes', 'AWD, RESS, and Device Detection', 'https', 'REST',
     'ES6', 'React', 'PWAs', 'python', 'node', 'django', 'PostgreSql',
