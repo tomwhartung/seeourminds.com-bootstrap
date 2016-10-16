@@ -220,11 +220,16 @@ This step uses files edited earlier in the 2-seeourminds-prototype directory of 
 2. Copy the supporting html5boilerplate css and js into the proper directories (static/content/css and static/content/js)
 3. Update views.py to use the template instead of just returning the "hello world" text
 
-## Conclusion
-
-We are just about done with setting this all up, except for getting it to run through apache instead of just the development server.
+## Step 6. Get site to run through apache instead of just the development server.
 
 Reference: https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
 
-We will probably add the detailed steps needed to get that going to the ubuntu host setup docs in the jmwa_accoutrements repo.
+For the detailed steps needed to get that going, see :
+
+* https://github.com/tomwhartung/jmws_accoutrements/blob/master/doc/ubuntu/general/2-hosting_django-jane.txt and
+* https://github.com/tomwhartung/jmws_accoutrements/blob/master/doc/ubuntu/specific_hosts/2-hosting_django-barbara.txt
+
+## Conclusion
+
+Along with all the experimentation/playing-around/work done in the various always_learning_python projects, this has been quite the learning experience!
 
