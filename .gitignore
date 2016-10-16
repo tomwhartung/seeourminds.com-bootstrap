@@ -26,7 +26,8 @@ __pycache__/
 *~
 
 # ###############################################################
-# We have a local clone of that here, no sense checking it in
+# We have a local clone of that in djangostable, for installing
+# on the server, and we do NOT want to commit that to github!
 #
 django
 

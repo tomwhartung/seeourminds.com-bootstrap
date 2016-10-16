@@ -13,7 +13,7 @@ cd django/
 git checkout stable/1.10.x
 git status   # check status
 git branch   # check branch
-git log      # commit 8f428c82969d6f1e90f9fe2cbaff346d5d8c711a
+git log      # commit 8f428c82969d6f1e90f9fe2cbaff346d5d8c711a - dated Sat Oct 15
 cd ..
 sudo -H pip3 install django
 ```
