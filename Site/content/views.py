@@ -13,23 +13,11 @@ from django.template import loader
 # heading and content specific to the home page
 #
 def home(request):
-  context_heading = 'New!'
-  context_leading_ptags = [
-    'Welcome to the NEW SeeOurMinds.com!',
-  ]
-  context_main_litags = [
-    'new main litag 1',
-    'new main litag 2',
-    'new main litag 3'
-  ]
   context_trailing_ptags = [
     'New trailing ptags!'
   ]
   template = loader.get_template('content/home.html')
   context = {
-    'context_heading': context_heading,
-    'context_leading_ptags': context_leading_ptags,
-    'context_main_litags': context_main_litags,
     'context_trailing_ptags': context_trailing_ptags,
   }
   return HttpResponse(template.render(context, request))
