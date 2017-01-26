@@ -1,40 +1,6 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>seeourminds.com</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% extends 'content/base.html' %}
 
-  {% load static %}
-  <link rel="stylesheet" href="{% static 'content/css/normalize.min.css' %}">
-  <link rel="stylesheet" href="{% static 'content/css/main.css' %}">
-  <link rel="stylesheet" href="{% static 'content/css/seeourminds.css' %}">
-  <link rel="shortcut icon" href="{% static 'content/favicon.ico' %}">
-</head>
-<body>
-
-  <div class="header-container">
-    <header class="wrapper clearfix">
-      <a href="#">
-        <img class="site-header" src="{% static 'content/images/intp-generic-scaled-81x81.gif' %}"></a>
-      <div class="title">
-        <h1 class="site-name">SeeOurMinds.com</h1>
-        <span class="tagline">'Visualizing Personalities Since 1989'&trade;</span>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="home">Home</a></li>
-          <li><a href="quiz">Quiz</a></li>
-          <li><a href="http://groja.com">Grojas</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div><!-- .header-container -->
-
-  <main class="main-container">
-    <div class="main wrapper clearfix">
+{% block content %}
 
       <article>
         <header>
@@ -59,6 +25,9 @@
           {% endif %}
         </header>
       </article>
+{% endblock %}
+
+{% block aside %}
       <aside>
         <h3>What?!?</h3>
         <p>
@@ -94,31 +63,4 @@
           <button type="submit" class="btn btn-success">Sign in</button>
         </form>
       </aside>
-    </div><!-- .main .wrapper .clearfix -->
-  </main><!-- .main-container -->
-
-  <footer class="footer-container">
-    Copyright &copy; 2016
-    <a href="http://www.TomWHartung.com" target="_blank" title"TomWHartung.com home page">Tom W. Hartung</a>
-    and
-    <a href="http://www.joomoowebsites.com" target="_blank" title"JooMooWebSites.com home page">JooMooWebSites.com</a>.
-    All Rights Reserved.
-  </footer>
-
-  <script src="{% static 'content/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
-  <script src="{% static 'content/js/vendor/jquery-1.11.2.min.js' %}"></script>
-  <script src="{% static 'content/js/main.js' %}"></script>
-
-  <!-- For google analytics: -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-87860502-4', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-</body>
-</html>
+{% endblock %}
