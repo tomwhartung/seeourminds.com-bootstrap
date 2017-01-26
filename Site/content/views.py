@@ -16,20 +16,16 @@ def home(request):
   context_heading = 'New!'
   context_leading_ptags = [
     'Welcome to the NEW SeeOurMinds.com!',
-    'We recently upgraded our server.  The old, clunky joomla site is gone, and this is now a (minimal) django site!',
-    'So there is not much here right now; currently there is not even a database.  Move along hackers, nothing to see here!',
-    'We are busy learning about and playing around with technologies such as the following:',
   ]
   context_main_litags = [
-    'LAMP CMSes', 'AWD, RESS, and Device Detection', 'https', 'REST',
-    'ES6', 'React', 'PWAs', 'python', 'node', 'django', 'PostgreSql',
-    'and many more...'
+    'new main litag 1',
+    'new main litag 2',
+    'new main litag 3'
   ]
   context_trailing_ptags = [
-    'We are also delving deeply into some face-to-face user experience (UX) and use case studies.  Never a dull moment!',
-    'So, check back in a bit and hopefully we will have something new for you!',
+    'New trailing ptags!'
   ]
-  template = loader.get_template('content/index.html')
+  template = loader.get_template('content/home.html')
   context = {
     'context_heading': context_heading,
     'context_leading_ptags': context_leading_ptags,
@@ -54,4 +50,3 @@ def quiz(request):
     'context_leading_ptags': context_leading_ptags,
   }
   return HttpResponse(template.render(context, request))
-
