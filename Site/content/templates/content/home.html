@@ -3,54 +3,18 @@
 {% block content %}
   <article>
     <header>
-      <h1>{{ context_heading }}</h1>
+      <h1>See Our Minds</h1>
 
-      {% if context_leading_ptags %}
-        {% for ptag_content in context_leading_ptags %}
-          <p>{{ ptag_content }}</p>
-        {% endfor %}
-      {% endif %}
-      {% if context_main_litags %}
-        <ul>
-        {% for litag_content in context_main_litags %}
-          <li>{{ litag_content }}</li>
-        {% endfor %}
-        </ul>
-      {% endif %}
-      {% if context_trailing_ptags %}
-        {% for ptag_content in context_trailing_ptags %}
-          <p>{{ ptag_content }}</p>
-        {% endfor %}
-      {% endif %}
+      <p>Pick a gallery to see our minds.</p>
+      <p>To see what this is all about, visit
+        <a href="http://www.groja.com" title="groja.com home page.".>groja.com</a>.</p>
     </header>
   </article>
 {% endblock %}
 
 {% block aside %}
   <aside>
-    <h3>What?!?</h3>
-    <p>
-      If you miss the old site and want to ressurect it on your own server, you can do it:
-      most of the code is available
-      <a href="https://github.com/tomwhartung" title="My github page" target="blank">
-        on github</a>!
-    </p>
-    <p>
-      The
-      <a href="https://github.com/tomwhartung/seeourminds.com-joomla"
-         title="The seeourminds.com-joomla repo on github" target="blank">
-        seeourminds.com-joomla repo</a>,
-      contains the core code used by the old site, and the
-      <a href="https://github.com/tomwhartung?page=1&q=joomoo&tab=repositories&utf8=%E2%9C%93&utf8=%E2%9C%93&q=joomoo"
-         title="List of my github repos with names containing 'joomoo'" target="blank">
-        joomoo* repos</a>
-      contain the code for most of the extensions.
-      For more information about these, see my
-      <a href="https://tomwhartung.github.io/joomla-1x/"
-         title="My github.io page about the joomla 1.x extensions I wrote" target="blank">
-        github.io/joomla-1x page</a>.
-    </p>
-    <h3>For Updates</h3>
+    <h3>Join our email list!</h3>
     <p>
       To stay up-to-date on all this, join our email list!</p>
     <!-- This code was copied from groja.com and uses bootstrap classes -->
@@ -59,7 +23,7 @@
       <div class="form-group">
         <input type="text" placeholder="Email" class="form-control">
       </div>
-      <button type="submit" class="btn btn-success">Sign in</button>
+      <button type="submit" class="btn btn-success">Sign up</button>
     </form>
   </aside>
 {% endblock %}
