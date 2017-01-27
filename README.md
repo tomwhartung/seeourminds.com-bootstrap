@@ -4,7 +4,45 @@ Reinventing seeourminds.com from scratch, in python/django.
 
 ## Overview of This Site
 
+After reading a lot about marketing and the new Google Analytics, etc., I've learned how to define this site's purpose.  Cool!
+
+### Combo site
+
+As learned in the Google Analytics (GA) "Getting Started" class, we can define this site as having two purposes:
+
+* Content site - show ads
+* Lead generation site - gather email addresses for occasional emails containing newly drawn personalities
+
+We use GA to learn which one or both of these purposes is working.
+If it turns out that we are better off having only one purpose per site, we may make modifications accordingly.
+
+#### Content site
+
+As a content site, this site has the following purposes:
+
+* Drive traffic to groja.com our parallel lead generation and e-commerce site
+* Show Google AdSense ads
+
+To begin with, this is the primary purpose.
+
+#### Lead-generation site
+
+As a lead-generation site, this site has the following purposes:
+
+* Drive traffic to groja.com our parallel lead generation and e-commerce site
+* Gather email addresses for an occasional emails containing newly drawn personalities
+
+To begin with, this is a secondary purpose.
+
+### Technical
+
 Right now the site uses django to deliver minimal html5boilerplate (initializr) content.
+
+**Let's keep it as simple as possible!**
+
+## Setup Notes
+
+Following is some more background, if you're interested.
 
 ### Previous experimental efforts
 
