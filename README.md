@@ -40,6 +40,34 @@ Right now the site uses django to deliver minimal html5boilerplate (initializr) 
 
 **Let's keep it as simple as possible!**
 
+## New Version
+
+I've decided to move the gallery from groja.com to here.
+
+### Gallery Specifics
+
+From the README.md file for groja.com:
+
+* Galleries: `galleries`
+  * Friends: `galleries/gallery.html?gallery=friends`
+  * Generics: `galleries/gallery.html?gallery=generics`
+  * TV Shows: `galleries/gallery.html?gallery=tvshows`
+  * Politicians: `galleries/gallery.html?gallery=politicians`
+
+### Other possible menu options:
+
+Thoughts while contemplating what the other menu options should be:
+
+* Quiz (keep)
+* All - allow sorting, searching, and filtering all of the images in all of the galleries
+
+Links to groja.com:
+
+* Last link in menu: "Your Portrait" - to groja.com/yourportrait
+* In addition, we should also have a link in aside area in one or more pages: to groja.com/hom
+
+Use GA to see which one is working for us, and maybe switch them in the future.
+
 ## Setup Notes
 
 Following is some more background, if you're interested.
