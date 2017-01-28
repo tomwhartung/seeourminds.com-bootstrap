@@ -26,15 +26,8 @@ def home(request):
 #
 def quiz(request):
   context_quiz_selected = 'selected'
-  context_heading = 'The SeeOurMinds.com Quiz'
-  context_leading_ptags = [
-    'Welcome to the quiz page.',
-    'We are working on this, so please try again later.',
-  ]
   template = loader.get_template('content/quiz.html')
   context = {
     'context_quiz_selected': context_quiz_selected,
-    'context_heading': context_heading,
-    'context_leading_ptags': context_leading_ptags,
   }
   return HttpResponse(template.render(context, request))
