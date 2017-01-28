@@ -1,29 +1,15 @@
 {% extends 'content/base.html' %}
 
 {% block content %}
-
       <article>
         <header>
-          <h1>{{ context_heading }}</h1>
-
-          {% if context_leading_ptags %}
-            {% for ptag_content in context_leading_ptags %}
-              <p>{{ ptag_content }}</p>
-            {% endfor %}
-          {% endif %}
-          {% if context_main_litags %}
-            <ul>
-            {% for litag_content in context_main_litags %}
-              <li>{{ litag_content }}</li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-          {% if context_trailing_ptags %}
-            {% for ptag_content in context_trailing_ptags %}
-              <p>{{ ptag_content }}</p>
-            {% endfor %}
-          {% endif %}
+          <h1>The SeeOurMinds.com Quiz</h1>
+          <p>Welcome to the SeeOurMinds Quiz&sup1;.</p>
+          <p>The SeeOurMinds Quiz is a work in progress,
+            so please check back later.</p>
         </header>
+        <p>&sup1; The SeeOurMinds Quiz is also known as the Graphical Representations of Jungian Archetypes
+           (GRoJA) Quiz.</p>
       </article>
 {% endblock %}
 
