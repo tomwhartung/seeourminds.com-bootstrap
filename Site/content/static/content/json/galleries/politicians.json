@@ -1,0 +1,138 @@
+{
+  "name_of_gallery": "Politicians",
+  "description_of_gallery": "This gallery contains images of ... Politicians ... and so on.",
+  "image_list":
+  [
+    {
+      "id": "113",
+      "image_name": "George H. W. Bush",
+      "image_file_name": "istj-george_h_w_bush-41st_president.jpeg",
+      "composition": "O",
+      "e_score": "9",
+      "n_score": "3",
+      "f_score": "0",
+      "j_score": "16",
+      "four_letter_type": "ISTJ",
+      "archetype": "Si",
+      "quiz_type": "K",
+      "frontpage_blurb": "When I wrote the original version of this program (for grad school in 1988) sometimes we would fill out the Keirsey Temperament Sorter guessing how famous people might answer the questions.  This is a portrait of George H. W. Bush, the 41st president (1989-1993) and father of George W. Bush, the 43rd president.  The Green shows that he is a very Logical person and the Yellow shows that he is very Pragmatic and down-to-earth."
+    }, {
+      "id": "124",
+      "image_name": "Bill Clinton, 'Verified'",
+      "image_file_name": "enfp-bill_clinton.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "11",
+      "f_score": "11",
+      "j_score": "8",
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "J",
+      "frontpage_blurb": "This article at personalitydesk.com claims that Bill Clinton is an ENFP: http:\/\/www.personalitydesk.com\/enfp-type-description.php .  The Blue represents his Idealistic view and the Red represents his Emotion.  These traits are evident in his enthusiasm, compassion, and love of freedom."
+    }, {
+      "id": "125",
+      "image_name": "Hillary Clinton",
+      "image_file_name": "estj-hillary_clinton.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "8",
+      "f_score": "8",
+      "j_score": "11",
+      "four_letter_type": "ESTJ",
+      "archetype": "Te",
+      "quiz_type": "J",
+      "frontpage_blurb": "This article at slate.com claims that Hillary is an ESTJ: http:\/\/www.slate.com\/id\/2184696\/ , and this seems reasonable and believable.  The Green represents her Logical decision-making and the Yellow represents her Pragmatic views.  These traits are evident in her reliability, devotion, attention to detail, and willingness to take charge."
+    }, {
+      "id": "126",
+      "image_name": "George W. Bush",
+      "image_file_name": "estp-george_w_bush.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "8",
+      "f_score": "8",
+      "j_score": "8",
+      "four_letter_type": "ESTP",
+      "archetype": "Se",
+      "quiz_type": "J",
+      "frontpage_blurb": "This article claims that George W. Bush is an ESTP: http:\/\/www.slate.com\/id\/2184696\/ .  It also claims that 'They are a common presidential type: Both Roosevelts, JFK, and LBJ were ESTPs.'  The Yellow in the image represents their down-to-earth Pragmatism, and the Green represents their use of Logic when making decisions."
+    }, {
+      "id": "127",
+      "image_name": "John McCain",
+      "image_file_name": "estp-john_mccain.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "8",
+      "f_score": "8",
+      "j_score": "8",
+      "four_letter_type": "ESTP",
+      "archetype": "Se",
+      "quiz_type": "J",
+      "frontpage_blurb": "This article at Slate claims that John McCain is an ESTP: http:\/\/www.slate.com\/id\/2184696\/ , and that sounds reasonable and believable to us.  The Yellow represents his Pragmatic views and the Green represents his Logical decision making.  Both of these traits are evident in his practicality and willingness to take risks."
+    }, {
+      "id": "128",
+      "image_name": "Barack Obama",
+      "image_file_name": "enfp-barack_obama.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "11",
+      "f_score": "11",
+      "j_score": "8",
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "J",
+      "frontpage_blurb": "This article claims Barack Obama is an ENFP: http:\/\/www.slate.com\/id\/2184696\/ , and we believe this is a reasonable and believable assessment.  The Blue in the image represents his Idealism and hope for the future, and the Red represents his Emotion.  Both of these qualities are evident in his support of legislation supporting making health care available to all people."
+    }, {
+      "id": "129",
+      "image_name": "Ralph Nader",
+      "image_file_name": "enfj-ralph_nader.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "11",
+      "f_score": "11",
+      "j_score": "11",
+      "four_letter_type": "ENFJ",
+      "archetype": "Fe",
+      "quiz_type": "J",
+      "frontpage_blurb": "According to keirsey.com, Ralph Nader is an ENFJ.  The Blue in the image represents his Idealism, and the Red represents his Emotional decision making.  These traits are evident in his political views, such as his hope for the future and concern for people."
+    }, {
+      "id": "130",
+      "image_name": "Abraham Lincoln - INTP",
+      "image_file_name": "intp-abraham_lincoln.jpeg",
+      "composition": "O",
+      "e_score": "8",
+      "n_score": "11",
+      "f_score": "8",
+      "j_score": "8",
+      "four_letter_type": "INTP",
+      "archetype": "Ti",
+      "quiz_type": "J",
+      "frontpage_blurb": "David Keirsey identifies Abraham Lincoln as an INTP. The Blue in the portrait represents his Idealism and the Green his Logical decision making.  His Idealism is evident in his speeches, such as the Gettysburg address and his Logic surely served him well during the time he spent as a lawyer."
+    }, {
+      "id": "131",
+      "image_name": "George Washington: ESTJ",
+      "image_file_name": "estj-george_washington.jpeg",
+      "composition": "O",
+      "e_score": "11",
+      "n_score": "8",
+      "f_score": "8",
+      "j_score": "11",
+      "four_letter_type": "ESTJ",
+      "archetype": "Te",
+      "quiz_type": "J",
+      "frontpage_blurb": "In his book <i>Please Understand Me II,<\/i> David Keirsey picks George Washington to represent the archetypal ESTJ.  The green vertical line in the portrait represents Washington's logical decision-making and the yellow represents his practical and down-to-earth views.  This decisiveness and awareness served him well during difficult times, such as those at Valley Forge."
+    }, {
+      "id": "151",
+      "image_name": "Thomas Jefferson - INTP",
+      "image_file_name": "intj-thomas_jefferson.jpeg",
+      "composition": "O",
+      "e_score": "8",
+      "n_score": "11",
+      "f_score": "8",
+      "j_score": "8",
+      "four_letter_type": "INTP",
+      "archetype": "Ti",
+      "quiz_type": "J",
+      "frontpage_blurb": "David Keirsey identifies Jefferson as an INTP.  The Blue in the portrait represents his Idealism and the Green his Logical decision making.  These characteristics are evident in his interests in topics such as philosophy, science and technology."
+    }
+  ]
+}
