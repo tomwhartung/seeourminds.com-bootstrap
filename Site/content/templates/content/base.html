@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="{% static 'content/css/seeourminds.css' %}">
   <link rel="shortcut icon" href="{% static 'content/favicon.ico' %}">
 </head>
-<body>
 
+<body>
   <div class="header-container">
     <header class="wrapper clearfix">
       <a href="#">
@@ -28,8 +28,8 @@
       <nav>
         <ul>
           <li><a href="home" {{ context_home_selected }}>Home</a></li>
+          <li><a href="galleries" {{ context_galleries_selected }}>Galleries</a></li>
           <li><a href="quiz" {{ context_quiz_selected }}>Quiz</a></li>
-          <li><a href="http://groja.com">Grojas</a></li>
         </ul>
       </nav>
     </header>
