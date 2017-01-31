@@ -1,0 +1,18 @@
+/*
+ * Styles for the gallery only.
+ * Even if there are not that many of them, I decided to put these in their own separate file,
+ * for consistency and so as to not "bog down" the other pages with irrelevant css rules.
+ */
+
+.gallery-image {
+   border: 2px solid midnightblue;
+   border-radius: 1em;
+   margin: 1em;
+   padding: 2em;
+   text-align: left;
+}
+
+img.gallery-img {
+   height: 125px;
+   width: 125px;
+}
