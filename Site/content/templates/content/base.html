@@ -39,8 +39,13 @@
     <div class="main wrapper clearfix">
       {% block content %}
       {% endblock %}
-      {% block aside %}
-      {% endblock %}
+      <aside>
+        {% block aside %}
+          <div>
+            Code for Google AdSense ads goes here.
+          </div>
+        {% endblock %}
+      </aside>
     </div><!-- .main .wrapper .clearfix -->
   </main><!-- .main-container -->
 
