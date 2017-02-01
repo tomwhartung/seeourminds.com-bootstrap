@@ -31,6 +31,14 @@ def galleries(request):
   return HttpResponse(template.render(context, request))
 
 ##
+# load and render the template for a single Gallery page
+#
+def gallery(request):
+  template = loader.get_template('content/gallery.html')
+  context = { }
+  return HttpResponse(template.render(context, request))
+
+##
 # load and render the Quiz page template
 #
 def quiz(request):
