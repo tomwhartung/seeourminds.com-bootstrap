@@ -34,8 +34,12 @@ def galleries(request):
 # load and render the template for a single Gallery page
 #
 def gallery(request):
+  gallery_name = request.GET.get('name', '')
+  context_gallery_name = gallery_name
   template = loader.get_template('content/gallery.html')
-  context = { }
+  context = {
+    'context_gallery_name': context_gallery_name,
+  }
   return HttpResponse(template.render(context, request))
 
 ##
