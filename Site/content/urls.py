@@ -9,5 +9,6 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^home$', views.home, name='home'),
     url(r'^galleries$', views.galleries, name='galleries'),
+    url(r'^gallery$', views.gallery, name='gallery'),
     url(r'^quiz$', views.quiz, name='quiz'),
 ]
