@@ -1,0 +1,27 @@
+
+  <!-- Start of handlbars template - based on the static image -->
+  <script id="gallery-image-template" type="text/x-handlebars-template">
+    <section id="gallery-description">
+      <h3>{{name_of_gallery}} Gallery</h3>
+      <p>{{description_of_gallery}}</p>
+    </section><!-- #gallery-description -->
+    <div class="row">
+      {{#each image_list}}
+        {{#if add_row_separator}}
+          </div><!-- .row -->
+          <div class="row">
+        {{/if}}
+        <div class="col-md-3">
+          <div class="gallery-image">
+            <figure>
+              <img src="{{full_path_to_image}}" class="gallery-img">
+              <figcaption>{{image_name}}
+                </figcaption>
+            </figure>
+            <p>{{frontpage_blurb}}</p>
+          </div><!-- .gallery-image -->
+        </div><!-- .col-md-3 -->
+      {{/each}}
+    </div><!-- .row -->
+  </script>
+  <!-- End of handlbars template - based on the static image -->
