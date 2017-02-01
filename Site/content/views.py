@@ -9,8 +9,7 @@ from django.views.generic.base import View
 from django.template import loader
 
 ##
-# load and render the template with a context containing
-# heading and content specific to the home page
+# load and render the Home page template
 #
 def home(request):
   context_home_selected = 'selected'
@@ -21,8 +20,7 @@ def home(request):
   return HttpResponse(template.render(context, request))
 
 ##
-# load and render the template with a context containing
-# heading and content specific to the quiz page
+# load and render the Galleries page template
 #
 def galleries(request):
   context_galleries_selected = 'selected'
@@ -33,8 +31,7 @@ def galleries(request):
   return HttpResponse(template.render(context, request))
 
 ##
-# load and render the template with a context containing
-# heading and content specific to the quiz page
+# load and render the Quiz page template
 #
 def quiz(request):
   context_quiz_selected = 'selected'
