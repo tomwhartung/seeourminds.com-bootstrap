@@ -34,9 +34,17 @@ def galleries(request):
 # load and render the template for a single Gallery page
 #
 def gallery(request, gallery_name='all'):
+  ## import json
+  from django.contrib.staticfiles.templatetags.staticfiles import static
   context_gallery_name = gallery_name
+  ## data_file_name = '/static/content/json/galleries/' + context_gallery_name + '.json'
+  data_file_name = gallery_name + '.json'
+  data_file_path = static( data_file_name )
+  gallery_json_data = open(data_file_path)
   template = loader.get_template('content/gallery.html')
   context = {
+    'data_file_name': data_file_name,
+    'data_file_path': data_file_path,
     'context_gallery_name': context_gallery_name,
   }
   return HttpResponse(template.render(context, request))
