@@ -33,8 +33,7 @@ def galleries(request):
 ##
 # load and render the template for a single Gallery page
 #
-def gallery(request):
-  gallery_name = request.GET.get('name', '')
+def gallery(request, gallery_name='all'):
   context_gallery_name = gallery_name
   template = loader.get_template('content/gallery.html')
   context = {
