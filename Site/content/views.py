@@ -38,7 +38,7 @@ def gallery(request, gallery_name='all'):
   from django.contrib.staticfiles.templatetags.staticfiles import static
   context_gallery_name = gallery_name
   ## data_file_name = '/static/content/json/galleries/' + context_gallery_name + '.json'
-  data_file_name = gallery_name + '.json'
+  data_file_name = 'content/json/galleries/' + gallery_name + '.json'
   data_file_path = static( data_file_name )
   gallery_json_data = open(data_file_path)
   template = loader.get_template('content/gallery.html')
