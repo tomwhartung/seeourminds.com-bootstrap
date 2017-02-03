@@ -39,17 +39,22 @@ def gallery(request, gallery_name='all'):
   context_gallery_name = gallery_name
   data_file_name = 'content/json/galleries/' + gallery_name + '.json'
   data_file_path = static( data_file_name )
-  gallery_json_data = open( data_file_path )
-  gallery_json_deserialized = json.load( gallery_json_data )
-  gallery_json_type = type( gallery_json_deserialized )
-  gallery_json_len = len( gallery_json_deserialized )
+  gallery_json_file = open( data_file_path )
+  gallery_json_string = gallery_json_file.read()
+  gallery_dictionary = json.loads(gallery_json_string)
+  name_of_gallery = gallery_dictionary['name_of_gallery']
+  description_of_gallery = gallery_dictionary['description_of_gallery']
+  image_list = gallery_dictionary['image_list']
+  image_list_type = type( image_list )
+  image_list_len = len( image_list )
   template = loader.get_template('content/gallery.html')
   context = {
-    'context_gallery_name': context_gallery_name,
-    'gallery_json_type': gallery_json_type,
-    'gallery_json_len': gallery_json_len,
+    'name_of_gallery': name_of_gallery,
+    'description_of_gallery': description_of_gallery,
+    'image_list_type': image_list_type,
+    'image_list_len': image_list_len,
     'data_file_path': data_file_path,
-    'gallery_json_deserialized': gallery_json_deserialized,
+    'image_list': image_list,
   }
   return HttpResponse(template.render(context, request))
 
