@@ -1,11 +1,11 @@
 {% extends 'content/base.html' %}
+{% load static %}
 
 {% block content %}
     <div class="container">
       <p>name_of_gallery: {{ name_of_gallery }}</p>
       <p>description_of_gallery: {{ description_of_gallery }}</p>
-      <p>image_list_type: {{ image_list_type }}</p>
-      <p>image_list_len: {{ image_list_len }}</p>
+      <p>image_file_path: {{ image_file_path }}</p>
       <section id="all-gallery-images">
         <section id="gallery-description">
           <h3>{{ name_of_gallery }} Gallery</h3>
@@ -14,9 +14,11 @@
         <div class="row">
           {% for img in image_list %}
             <div class="col-md-3">
+              <p>img.image_file_name: {{ img.image_file_name }}</p>
+              <p>img.image_file_path: {{ img.image_file_path }}</p>
               <div class="gallery-image">
                 <figure>
-                  <img src="{{ full_path_to_image }}" class="gallery-img">
+                  <img src="{% static img.image_file_name %}" class="gallery-img">
                   <figcaption>{{ img.image_name }}
                     </figcaption>
                 </figure>
