@@ -52,6 +52,7 @@ def gallery(request, gallery_name='all'):
     img_to_add = img
     img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
     image_list_with_path.append( img_to_add )
+  row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
   template = loader.get_template('content/gallery.html')
   context = {
     'name_of_gallery': name_of_gallery,
@@ -59,6 +60,7 @@ def gallery(request, gallery_name='all'):
     'image_file_dir': image_file_dir,
     'data_file_path': data_file_path,
     'image_list_with_path': image_list_with_path,
+    'row_separator_markup': row_separator_markup,
   }
   return HttpResponse(template.render(context, request))
 
