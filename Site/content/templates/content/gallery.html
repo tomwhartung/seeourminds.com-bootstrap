@@ -25,6 +25,7 @@
               <p>{{ img.frontpage_blurb }}</p>
             </div><!-- .gallery-image -->
           </div><!-- .col-md-3 -->
+          {% cycle '' '' '' row_separator_markup|safe %}
         {% endfor %}
       </div><!-- .row -->
     </section><!-- #all-gallery-images -->
