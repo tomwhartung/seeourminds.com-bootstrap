@@ -7,34 +7,34 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-      <p>name_of_gallery: {{ name_of_gallery }}</p>
-      <p>description_of_gallery: {{ description_of_gallery }}</p>
-      <p>image_file_path: {{ image_file_path }}</p>
-      <section id="all-gallery-images">
-        <section id="gallery-description">
-          <h3>{{ name_of_gallery }} Gallery</h3>
-          <p>{{ description_of_gallery }}</p>
-        </section><!-- #gallery-description -->
-        <div class="row">
-          {% for img in image_list_with_path %}
-            <div class="col-md-3">
-              <p>img.image_file_name: {{ img.image_file_name }}</p>
-              <p>img.image_file_path: {{ img.image_file_path }}</p>
-              <div class="gallery-image">
-                <figure>
-                  <img src="{% static img.image_file_path %}" class="gallery-img">
-                  <figcaption>{{ img.image_name }}
-                    </figcaption>
-                </figure>
-                <p>{{ img.frontpage_blurb }}</p>
-              </div><!-- .gallery-image -->
-            </div><!-- .col-md-3 -->
-          {% endfor %}
-        </div><!-- .row -->
-      </section><!-- #all-gallery-images -->
+  <div class="container">
+    <p>name_of_gallery: {{ name_of_gallery }}</p>
+    <p>description_of_gallery: {{ description_of_gallery }}</p>
+    <p>image_file_path: {{ image_file_path }}</p>
+    <section id="all-gallery-images">
+      <section id="gallery-description">
+        <h3>{{ name_of_gallery }} Gallery</h3>
+        <p>{{ description_of_gallery }}</p>
+      </section><!-- #gallery-description -->
+      <div class="row">
+        {% for img in image_list_with_path %}
+          <div class="col-md-3">
+            <p>img.image_file_name: {{ img.image_file_name }}</p>
+            <p>img.image_file_path: {{ img.image_file_path }}</p>
+            <div class="gallery-image">
+              <figure>
+                <img src="{% static img.image_file_path %}" class="gallery-img">
+                <figcaption>{{ img.image_name }}
+                  </figcaption>
+              </figure>
+              <p>{{ img.frontpage_blurb }}</p>
+            </div><!-- .gallery-image -->
+          </div><!-- .col-md-3 -->
+        {% endfor %}
+      </div><!-- .row -->
+    </section><!-- #all-gallery-images -->
 
-    </div><!-- .container -->
+  </div><!-- .container -->
 {% endblock %}
 
 {% block aside %}
