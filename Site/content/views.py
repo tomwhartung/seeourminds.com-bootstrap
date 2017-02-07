@@ -58,7 +58,7 @@ def gallery(request, gallery_name='all'):
     'description_of_gallery': description_of_gallery,
     'image_file_dir': image_file_dir,
     'data_file_path': data_file_path,
-    'image_list': image_list_with_path,
+    'image_list_with_path': image_list_with_path,
   }
   return HttpResponse(template.render(context, request))
 
