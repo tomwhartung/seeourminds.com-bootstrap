@@ -41,6 +41,7 @@ def gallery(request, gallery_name='all'):
   data_file_path = static( data_file_name )
   gallery_json_file = open( data_file_path )
   gallery_json_string = gallery_json_file.read()
+  gallery_json_file.close()
   gallery_dictionary = json.loads(gallery_json_string)
   name_of_gallery = gallery_dictionary['name_of_gallery']
   description_of_gallery = gallery_dictionary['description_of_gallery']
