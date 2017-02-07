@@ -12,7 +12,7 @@
           <p>{{ description_of_gallery }}</p>
         </section><!-- #gallery-description -->
         <div class="row">
-          {% for img in image_list %}
+          {% for img in image_list_with_path %}
             <div class="col-md-3">
               <p>img.image_file_name: {{ img.image_file_name }}</p>
               <p>img.image_file_path: {{ img.image_file_path }}</p>
@@ -27,7 +27,6 @@
             </div><!-- .col-md-3 -->
           {% endfor %}
         </div><!-- .row -->
-        <p>image_list: {{ image_list }}</p>
       </section><!-- #all-gallery-images -->
 
     </div><!-- .container -->
