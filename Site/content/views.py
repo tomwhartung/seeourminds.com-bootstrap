@@ -45,17 +45,20 @@ def gallery(request, gallery_name='all'):
   gallery_dictionary = json.loads(gallery_json_string)
   name_of_gallery = gallery_dictionary['name_of_gallery']
   description_of_gallery = gallery_dictionary['description_of_gallery']
-  image_file_path = 'content/images/galleries/' + gallery_name + '/'
+  image_file_dir = 'content/images/galleries/' + gallery_name + '/'
   image_list = gallery_dictionary['image_list']
+  image_list_with_path = []
   for img in image_list:
-      img['image_file_name'] = image_file_path + img['image_file_name']
+    img_to_add = img
+    img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
+    image_list_with_path.append( img_to_add )
   template = loader.get_template('content/gallery.html')
   context = {
     'name_of_gallery': name_of_gallery,
     'description_of_gallery': description_of_gallery,
-    'image_file_path': image_file_path,
+    'image_file_dir': image_file_dir,
     'data_file_path': data_file_path,
-    'image_list': image_list,
+    'image_list': image_list_with_path,
   }
   return HttpResponse(template.render(context, request))
 
