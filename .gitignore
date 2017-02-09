@@ -9,7 +9,8 @@ unpack/
 # directory for serving outside of wsgi.
 # So we do not want to check these generated copies into git.
 #
-Site/static/
+Site/static/admin
+Site/static/content
 
 #
 # Trying something a little different with the django settings -
