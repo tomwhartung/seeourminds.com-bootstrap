@@ -10,7 +10,7 @@
   <article>
     <section id="all-gallery-images">
       <section id="gallery-description">
-        <h2>{{ name_of_gallery }} Gallery</h2>
+        <h2>{{ name_of_gallery }}</h2>
         <p>{{ description_of_gallery }}</p>
       </section><!-- #gallery-description -->
       <div class="row">
@@ -19,8 +19,7 @@
             <div class="gallery-image">
               <figure>
                 <img src="{% static img.image_file_path %}" class="gallery-img">
-                <figcaption>{{ img.image_name }}
-                  </figcaption>
+                <figcaption><q>{{ img.image_name }}</q></figcaption>
               </figure>
               <p>{{ img.frontpage_blurb }}</p>
             </div><!-- .gallery-image -->
