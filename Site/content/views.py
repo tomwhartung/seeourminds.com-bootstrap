@@ -35,10 +35,11 @@ def galleries(request):
 #
 def gallery(request, gallery_name='all'):
   import json
-  from django.contrib.staticfiles.templatetags.staticfiles import static
+  import os
   context_gallery_name = gallery_name
-  data_file_name = 'content/json/galleries/' + gallery_name + '.json'
-  data_file_path = static( data_file_name )
+  site_content_dir = os.path.abspath(os.path.dirname(__file__))
+  data_file_name = gallery_name + '.json'
+  data_file_path = site_content_dir + '/static/content/json/galleries/' + data_file_name
   gallery_json_file = open( data_file_path )
   gallery_json_string = gallery_json_file.read()
   gallery_json_file.close()
