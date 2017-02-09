@@ -5,6 +5,13 @@ tmp/
 unpack/
 
 #
+# We are now using collectstatic to copy static files to this
+# directory for serving outside of wsgi.
+# So we do not want to check these generated copies into git.
+#
+Site/static/
+
+#
 # Trying something a little different with the django settings -
 # using a hidden placeholder file so we do not have to mkdir so much.
 #
