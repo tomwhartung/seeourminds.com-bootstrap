@@ -75,3 +75,11 @@ def quiz(request):
     'context_quiz_selected': context_quiz_selected,
   }
   return HttpResponse(template.render(context, request))
+
+##
+# load and render the google verification template
+#
+def google_verification(request):
+  template = loader.get_template('content/google428ef5aab2bc0870.html')
+  context = { }
+  return HttpResponse(template.render(context, request))
