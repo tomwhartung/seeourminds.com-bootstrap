@@ -136,3 +136,35 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/*
+ * ========================
+ * Styles for the Quiz Page
+ * ========================
+ */
+/*
+ * We can only style the widget i.e., the input tag, hence the negative value
+ */
+input.quiz_answer {
+    margin-left: -1.5em;
+}
+#id_question_01, #id_question_02, #id_question_03, #id_question_04, #id_question_05,
+#id_question_06, #id_question_07, #id_question_08, #id_question_09, #id_question_10,
+#id_question_11, #id_question_12, #id_question_13, #id_question_14, #id_question_15,
+#id_question_16, #id_question_17, #id_question_18, #id_question_19, #id_question_20,
+#id_question_21, #id_question_22, #id_question_23, #id_question_24, #id_question_25,
+#id_question_26, #id_question_27, #id_question_28, #id_question_29, #id_question_30,
+#id_question_31, #id_question_32, #id_question_33, #id_question_34, #id_question_35,
+#id_question_36, #id_question_37, #id_question_38, #id_question_39, #id_question_40,
+#id_question_41, #id_question_42, #id_question_43, #id_question_44, #id_question_45,
+#id_question_46, #id_question_47, #id_question_48, #id_question_49, #id_question_50,
+#id_question_51, #id_question_52, #id_question_53, #id_question_54, #id_question_55,
+#id_question_56, #id_question_57, #id_question_58, #id_question_59, #id_question_60,
+#id_question_61, #id_question_62, #id_question_63, #id_question_64, #id_question_65,
+#id_question_66, #id_question_67, #id_question_68, #id_question_69, #id_question_70,
+#id_question_71, #id_question_72, #id_question_73, #id_question_74, #id_question_75,
+#id_question_76, #id_question_77, #id_question_78, #id_question_79, #id_question_80,
+#id_question_81, #id_question_82, #id_question_83, #id_question_84, #id_question_85,
+#id_question_86, #id_question_87, #id_question_88 {
+    list-style: none;
+}
+
