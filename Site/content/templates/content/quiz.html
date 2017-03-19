@@ -4,13 +4,26 @@
   <article>
     <header>
       <h1>The SeeOurMinds.com Quiz</h1>
-      <p>Welcome to the SeeOurMinds Quiz&sup1;.</p>
-      <p>The SeeOurMinds Quiz is a work in progress,
-        so please check back later.</p>
+      <p>
+         Answer the questions to the best of your ability.</p>
+      <p>
+         Note: sorry, but scoring is not yet implemented!
+         We promise to get that working asap!</p>
     </header>
+    <form action="" method="POST">
+      {% csrf_token %}
+      {% for field in quiz_form %}
+        <div class="fieldWrapper">
+          {{ field.errors }}
+          {{ field.label_tag }} {{ field }}
+          {% if field.help_text %}
+          <p class="help">{{ field.help_text|safe }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+      <input type="submit" value="Submit" />
+    </form>
     <hr />
-    <p>&sup1; The SeeOurMinds Quiz is also known as the Graphical Representations of Jungian Archetypes
-       or "Groja" Quiz.</p>
   </article>
 {% endblock %}
 
