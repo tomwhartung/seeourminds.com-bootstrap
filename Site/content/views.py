@@ -66,15 +66,34 @@ def gallery(request, gallery_name='all'):
   return HttpResponse(template.render(context, request))
 
 ##
-# load and render the Quiz page template
+#  load and render the Quiz page template
 #
+from .forms import QuizForm
 def quiz(request):
-  context_quiz_selected = 'selected'
-  template = loader.get_template('content/quiz.html')
-  context = {
-    'context_quiz_selected': context_quiz_selected,
-  }
-  return HttpResponse(template.render(context, request))
+   context_quiz_selected = 'selected'
+   template = loader.get_template('content/quiz.html')
+   context = {
+     'context_quiz_selected': context_quiz_selected,
+   }
+   ## return HttpResponse(template.render(context, request))
+   if request.method == 'POST':
+      quiz_form = QuizForm( request.POST )
+      #
+      #  Form processing is tbd (using javascript to score the quiz in the browser)
+      #  We are not yet doing anything with this data on the server
+      #
+      if quiz_form.is_valid():
+         name = quiz_form.cleaned_data['name']
+         email = quiz_form.cleaned_data['email']
+         print( 'form is valid, got name:', name )
+         print( 'form is valid, got email:', email )
+         # redirect to a new URL:
+         return HttpResponseRedirect('/quiz/')
+   else:
+      quiz_form = QuizForm()
+
+   return render(request, 'content/quiz.html', {'quiz_form': quiz_form})
+
 
 ##
 # load and render the google verification template
