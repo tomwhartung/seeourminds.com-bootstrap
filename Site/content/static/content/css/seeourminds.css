@@ -1,5 +1,5 @@
 /*
- * According to comments in main.css, we are "supposed" to 
+ * According to comments in main.css, we are "supposed" to
  * add our custom styles into the middle of that file.
  * I decided to put them here, instead.
  */
@@ -49,13 +49,15 @@ img.site-header {
 }
 
 /*
- * Right now, all of our links are in the aside and footer, which have backgrounds.
+ * For links in the aside and footer, which have backgrounds.
  */
-a {
+a.aside,
+a.footer {
     color: lightskyblue;
     text-decoration: none;
 }
-a:hover {
+a.aside:hover,
+a.footer:hover {
     color: lightgrey;
     text-decoration: underline;
 }
@@ -167,4 +169,3 @@ input.quiz_answer {
 #id_question_86, #id_question_87, #id_question_88 {
     list-style: none;
 }
-
