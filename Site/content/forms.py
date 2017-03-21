@@ -67,8 +67,8 @@ class QuizForm( forms.Form ):
 
       return choices
 
-   name = forms.CharField( max_length=50 )
-   email = forms.EmailField()
+   ## name = forms.CharField( max_length=50 )
+   ## email = forms.EmailField()
    quiz_dictionary = read_quiz_json()
    ## print( 'quiz_dictionary:', quiz_dictionary )
    print( 'len(quiz_dictionary):', len(quiz_dictionary) )
@@ -94,6 +94,8 @@ class QuizForm( forms.Form ):
    choices_04 = get_choices( quiz_dictionary[3] )
    question_04 = forms.ChoiceField( widget=radio_widget, label=label_04, choices=choices_04 )
 
+##### SAVING THIS CODE FOR LATER #####
+def code_for_later():
    radio_widget = forms.RadioSelect(attrs={'class':'quiz_answer'})
    label_05 = get_label( 5, quiz_dictionary[4] )
    choices_05 = get_choices( quiz_dictionary[4] )
@@ -513,6 +515,3 @@ class QuizForm( forms.Form ):
    label_88 = get_label( 88, quiz_dictionary[87] )
    choices_88 = get_choices( quiz_dictionary[87] )
    question_88 = forms.ChoiceField( widget=radio_widget, label=label_88, choices=choices_88 )
-
-
-
