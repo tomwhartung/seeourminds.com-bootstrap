@@ -1,17 +1,27 @@
+""" views.py for our content app
+
+Purpose: define the views for this app
+Author: Tom W. Hartung
+Date: Winter, 2017.
+Copyright: (c) 2017 Tom W. Hartung, Groja.com, and JooMoo Websites LLC.
+Reference:
+  (none)
+"""
+
 from django.shortcuts import render
-
-# Create your views here.
-
 import textwrap
 
 from django.http import HttpResponse
 from django.views.generic.base import View
 from django.template import loader
 
-##
-# load and render the Home page template
-#
+from .forms import QuizForm
+
+
 def home(request):
+
+  """ Load and render the Home page template """
+
   context_home_selected = 'selected'
   template = loader.get_template('content/home.html')
   context = {
@@ -19,10 +29,11 @@ def home(request):
   }
   return HttpResponse(template.render(context, request))
 
-##
-# load and render the Galleries page template
-#
+
 def galleries(request):
+
+  """ Load and render the Galleries page template """
+
   context_galleries_selected = 'selected'
   template = loader.get_template('content/galleries.html')
   context = {
@@ -30,10 +41,11 @@ def galleries(request):
   }
   return HttpResponse(template.render(context, request))
 
-##
-# load and render the template for a single Gallery page
-#
+
 def gallery(request, gallery_name='all'):
+
+  """ Load and render the template for a single Gallery page """
+
   import json
   import os
   context_gallery_name = gallery_name
@@ -65,21 +77,21 @@ def gallery(request, gallery_name='all'):
   }
   return HttpResponse(template.render(context, request))
 
-##
-#  load and render the Quiz page template
-#
-from .forms import QuizForm
+
 def quiz(request):
+
+   """ Load and render the Quiz page template """
+
    context_quiz_selected = 'selected'
    template = loader.get_template('content/quiz.html')
    context = {
      'context_quiz_selected': context_quiz_selected,
    }
-   ## return HttpResponse(template.render(context, request))
+   # return HttpResponse(template.render(context, request))
    if request.method == 'POST':
       quiz_form = QuizForm( request.POST )
       #
-      #  Form processing is tbd (using javascript to score the quiz in the browser)
+      #  Form processing is tbd...
       #  We are not yet doing anything with this data on the server
       #
       if quiz_form.is_valid():
@@ -95,10 +107,10 @@ def quiz(request):
    return render(request, 'content/quiz.html', {'quiz_form': quiz_form})
 
 
-##
-# load and render the google verification template
-#
 def google_verification(request):
+
+  """ Load and render the google verification template """
+
   template = loader.get_template('content/google428ef5aab2bc0870.html')
   context = { }
   return HttpResponse(template.render(context, request))
