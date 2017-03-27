@@ -51,8 +51,9 @@ def gallery(request, gallery_name='all'):
     context_gallery_name = gallery_name
     site_content_dir = os.path.abspath(os.path.dirname(__file__))
     data_file_name = gallery_name + '.json'
-    data_file_path = site_content_dir + '/static/content/json/galleries/' + data_file_name
-    gallery_json_file = open( data_file_path )
+    data_file_dir = site_content_dir + '/static/content/json/galleries/'
+    data_file_path = data_file_dir + data_file_name
+    gallery_json_file = open(data_file_path)
     gallery_json_string = gallery_json_file.read()
     gallery_json_file.close()
     gallery_dictionary = json.loads(gallery_json_string)
@@ -64,7 +65,7 @@ def gallery(request, gallery_name='all'):
     for img in image_list:
         img_to_add = img
         img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
-        image_list_with_path.append( img_to_add )
+        image_list_with_path.append(img_to_add)
     row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
     template = loader.get_template('content/gallery.html')
     context = {
@@ -89,7 +90,7 @@ def quiz(request):
     }
     # return HttpResponse(template.render(context, request))
     if request.method == 'POST':
-        quiz_form = QuizForm( request.POST )
+        quiz_form = QuizForm(request.POST)
         #
         #  Form processing is tbd...
         #  We are not yet doing anything with this data on the server
@@ -97,8 +98,8 @@ def quiz(request):
         if quiz_form.is_valid():
             # name = quiz_form.cleaned_data['name']
             # email = quiz_form.cleaned_data['email']
-            # print( 'form is valid, got name:', name )
-            # print( 'form is valid, got email:', email )
+            # print('form is valid, got name:', name)
+            # print('form is valid, got email:', email)
             # redirect to a new URL:
             return HttpResponseRedirect('/quiz/')
     else:
@@ -112,5 +113,5 @@ def google_verification(request):
     """ Load and render the google verification template """
 
     template = loader.get_template('content/google428ef5aab2bc0870.html')
-    context = { }
+    context = {}
     return HttpResponse(template.render(context, request))
