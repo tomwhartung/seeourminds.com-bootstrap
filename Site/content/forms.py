@@ -25,80 +25,95 @@ class QuizForm(forms.Form):
 
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         quiz_file_name = 'seeourminds_quiz.json'
-        quiz_file_path = site_content_dir + '/static/content/json/quiz/' + quiz_file_name
-        quiz_json_file = open( quiz_file_path )
+        quiz_file_dir = site_content_dir + '/static/content/json/quiz/'
+        quiz_file_path = quiz_file_dir + quiz_file_name
+        quiz_json_file = open(quiz_file_path)
         quiz_json_string = quiz_json_file.read()
         quiz_json_file.close()
-        quiz_dictionary = json.loads( quiz_json_string )
-        return( quiz_dictionary )
+        quiz_dictionary = json.loads(quiz_json_string)
+        return(quiz_dictionary)
 
-    def get_label( question_no, quiz_question ):
+    def get_label(question_no, quiz_question):
 
         """ Get and return the question_text ("label") for the question """
 
-        # print( 'get_label - question_no:', question_no )
+        # print('get_label - question_no:', question_no)
         label = str(question_no) + '. ' + quiz_question['question_text']
         return label
 
-    def get_choices( quiz_question ):
+    def get_choices(quiz_question):
 
         """ Get and return the answers from the json for the given question """
 
-        # print( 'get_choices - quiz_question:', quiz_question )
+        # print('get_choices - quiz_question:', quiz_question)
         choices = []
 
-        if len(quiz_question['answer_1_text']) > 0 and int(quiz_question['answer_1_weight']) > 0 :
-            choice_1 = [ '1', quiz_question['answer_1_text'] ]
-            choices.append( choice_1 )
+        if len(quiz_question['answer_1_text']) > 0 and \
+           int(quiz_question['answer_1_weight']) > 0:
+            choice_1 = ['1', quiz_question['answer_1_text']]
+            choices.append(choice_1)
 
-        if len(quiz_question['answer_2_text']) > 0 and int(quiz_question['answer_2_weight']) > 0 :
-            choice_2 = [ '2', quiz_question['answer_2_text'] ]
-            choices.append( choice_2 )
+        if len(quiz_question['answer_2_text']) > 0 and \
+           int(quiz_question['answer_2_weight']) > 0:
+            choice_2 = ['2', quiz_question['answer_2_text']]
+            choices.append(choice_2)
 
-        if len(quiz_question['answer_3_text']) > 0 and int(quiz_question['answer_3_weight']) > 0 :
-            choice_3 = [ '3', quiz_question['answer_3_text'] ]
-            choices.append( choice_3 )
+        if len(quiz_question['answer_3_text']) > 0 and \
+           int(quiz_question['answer_3_weight']) > 0:
+            choice_3 = ['3', quiz_question['answer_3_text']]
+            choices.append(choice_3)
 
-        if len(quiz_question['answer_4_text']) > 0 and int(quiz_question['answer_4_weight']) > 0 :
-            choice_4 = [ '4', quiz_question['answer_4_text'] ]
-            choices.append( choice_4 )
+        if len(quiz_question['answer_4_text']) > 0 and \
+           int(quiz_question['answer_4_weight']) > 0:
+            choice_4 = ['4', quiz_question['answer_4_text']]
+            choices.append(choice_4)
 
-        if len(quiz_question['answer_5_text']) > 0 and int(quiz_question['answer_5_weight']) > 0 :
-            choice_5 = [ '5', quiz_question['answer_5_text'] ]
-            choices.append( choice_5 )
+        if len(quiz_question['answer_5_text']) > 0 and \
+           int(quiz_question['answer_5_weight']) > 0:
+            choice_5 = ['5', quiz_question['answer_5_text']]
+            choices.append(choice_5)
 
-        if len(quiz_question['answer_6_text']) > 0 and int(quiz_question['answer_6_weight']) > 0 :
-            choice_6 = [ '6', quiz_question['answer_6_text'] ]
-            choices.append( choice_6 )
+        if len(quiz_question['answer_6_text']) > 0 and \
+           int(quiz_question['answer_6_weight']) > 0:
+            choice_6 = ['6', quiz_question['answer_6_text']]
+            choices.append(choice_6)
 
         return choices
 
-    # name = forms.CharField( max_length=50 )
+    # name = forms.CharField(max_length=50)
     # email = forms.EmailField()
     quiz_dictionary = read_quiz_json()
-    # print( 'quiz_dictionary:', quiz_dictionary )
-    print( 'len(quiz_dictionary):', len(quiz_dictionary) )
-    # print( 'quiz_dictionary[0]:', quiz_dictionary[0] )
+    # print('quiz_dictionary:', quiz_dictionary)
+    print('len(quiz_dictionary):', len(quiz_dictionary))
+    # print('quiz_dictionary[0]:', quiz_dictionary[0])
 
-    radio_widget = forms.RadioSelect(attrs={'class':'quiz_answer'})
-    label_01 = get_label( 1, quiz_dictionary[0] )
-    choices_01 = get_choices( quiz_dictionary[0] )
-    question_01 = forms.ChoiceField( widget=radio_widget, label=label_01, choices=choices_01 )
+    radio_widget = forms.RadioSelect(attrs={'class': 'quiz_answer'})
+    label_01 = get_label(1, quiz_dictionary[0])
+    choices_01 = get_choices(quiz_dictionary[0])
+    question_01 = forms.ChoiceField(
+            widget=radio_widget, label=label_01, choices=choices_01
+    )
 
-    radio_widget = forms.RadioSelect(attrs={'class':'quiz_answer'})
-    label_02 = get_label( 2, quiz_dictionary[1] )
-    choices_02 = get_choices( quiz_dictionary[1] )
-    question_02 = forms.ChoiceField( widget=radio_widget, label=label_02, choices=choices_02 )
+    radio_widget = forms.RadioSelect(attrs={'class': 'quiz_answer'})
+    label_02 = get_label(2, quiz_dictionary[1])
+    choices_02 = get_choices(quiz_dictionary[1])
+    question_02 = forms.ChoiceField(
+            widget=radio_widget, label=label_02, choices=choices_02
+    )
 
-    radio_widget = forms.RadioSelect(attrs={'class':'quiz_answer'})
-    label_03 = get_label( 3, quiz_dictionary[2] )
-    choices_03 = get_choices( quiz_dictionary[2] )
-    question_03 = forms.ChoiceField( widget=radio_widget, label=label_03, choices=choices_03 )
+    radio_widget = forms.RadioSelect(attrs={'class': 'quiz_answer'})
+    label_03 = get_label(3, quiz_dictionary[2])
+    choices_03 = get_choices(quiz_dictionary[2])
+    question_03 = forms.ChoiceField(
+            widget=radio_widget, label=label_03, choices=choices_03
+    )
 
-    radio_widget = forms.RadioSelect(attrs={'class':'quiz_answer'})
-    label_04 = get_label( 4, quiz_dictionary[3] )
-    choices_04 = get_choices( quiz_dictionary[3] )
-    question_04 = forms.ChoiceField( widget=radio_widget, label=label_04, choices=choices_04 )
+    radio_widget = forms.RadioSelect(attrs={'class': 'quiz_answer'})
+    label_04 = get_label(4, quiz_dictionary[3])
+    choices_04 = get_choices(quiz_dictionary[3])
+    question_04 = forms.ChoiceField(
+            widget=radio_widget, label=label_04, choices=choices_04
+    )
 
 
     def code_for_later():
