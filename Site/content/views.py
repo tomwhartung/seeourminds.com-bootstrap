@@ -101,7 +101,8 @@ def quiz(request):
             # print('form is valid, got name:', name)
             # print('form is valid, got email:', email)
             # redirect to a new URL:
-            return HttpResponseRedirect('/quiz/')
+            print('quiz_form.cleaned_data:', quiz_form.cleaned_data)
+            return HttpResponseRedirect('/quiz')
     else:
         quiz_form = QuizForm()
 
