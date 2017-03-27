@@ -37,7 +37,8 @@ class QuizForm(forms.Form):
 
         """ Get and return the question_text ("label") for the question """
 
-        # print('get_label - question_no:', question_no)
+        print('get_label - question_no:', question_no)
+        print('get_label - quiz_question:', quiz_question)
         label = str(question_no) + '. ' + quiz_question['question_text']
         return label
 
@@ -85,7 +86,7 @@ class QuizForm(forms.Form):
     quiz_dictionary = read_quiz_json()
     # print('quiz_dictionary:', quiz_dictionary)
     print('len(quiz_dictionary):', len(quiz_dictionary))
-    # print('quiz_dictionary[0]:', quiz_dictionary[0])
+    print('quiz_dictionary[0]:', quiz_dictionary[0])
 
     radio_widget = forms.RadioSelect(attrs={'class': 'quiz_answer'})
     label_01 = get_label(1, quiz_dictionary[0])
