@@ -18,24 +18,6 @@
         "answer_6_weight": "0",
         "ordering": "2"
     }, {
-        "id": "11",
-        "question_text": "When under attack, what type of action is most appropriate?",
-        "comment": "Original question based on my understanding of the archetypes and perceptions of others.",
-        "answer_123_type": "J",
-        "answer_1_text": "Immediate retaliation regardless of the cost.",
-        "answer_1_weight": "3",
-        "answer_2_text": "Firm, well-reasoned but decisive action.",
-        "answer_2_weight": "1",
-        "answer_3_text": "",
-        "answer_3_weight": "0",
-        "answer_4_text": "Tough talk followed a short waiting period, followed by retaliation only if it is deemed necessary in the long run.",
-        "answer_4_weight": "1",
-        "answer_5_text": "Evasive maneuvers if at all possible, followed by negotiations (if communication is possible), so that an appropriate response can be planned.",
-        "answer_5_weight": "3",
-        "answer_6_text": "",
-        "answer_6_weight": "0",
-        "ordering": "26"
-    }, {
         "id": "2",
         "question_text": "Facts are:",
         "comment": "Inspired by Jung's GDotT, 'Inuition' (pp. 221-222). Answer 4 might could use some work.",
@@ -197,6 +179,24 @@
         "answer_6_text": "",
         "answer_6_weight": "0",
         "ordering": "20"
+    }, {
+        "id": "11",
+        "question_text": "When under attack, what type of action is most appropriate?",
+        "comment": "Original question based on my understanding of the archetypes and perceptions of others.",
+        "answer_123_type": "J",
+        "answer_1_text": "Immediate retaliation regardless of the cost.",
+        "answer_1_weight": "3",
+        "answer_2_text": "Firm, well-reasoned but decisive action.",
+        "answer_2_weight": "1",
+        "answer_3_text": "",
+        "answer_3_weight": "0",
+        "answer_4_text": "Tough talk followed a short waiting period, followed by retaliation only if it is deemed necessary in the long run.",
+        "answer_4_weight": "1",
+        "answer_5_text": "Evasive maneuvers if at all possible, followed by negotiations (if communication is possible), so that an appropriate response can be planned.",
+        "answer_5_weight": "3",
+        "answer_6_text": "",
+        "answer_6_weight": "0",
+        "ordering": "26"
     }, {
         "id": "12",
         "question_text": "Grooming and dressing well is:",
