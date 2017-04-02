@@ -1,0 +1,38 @@
+{% extends 'content/base.html' %}
+
+{% block content %}
+  <article>
+    <header>
+      <h1>Thanks for taking the SeeOurMinds.com Quiz!</h1>
+      <hr />
+      <p>
+        Note that this quiz is totally experimental,
+          so please do not take these results too seriously.</p>
+    </header>
+    <section>
+      <ul>
+        <li>At this time, we do not save results in a database.</li>
+      </ul>
+      <hr />
+      <h4>
+        If you want to save these results,
+         you need to write them down!</h4>
+      <hr />
+    </section>
+    <section>
+      {% if messages %}
+        <ul class="messages">
+          {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+              {{ message|safe }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </section>
+    <hr />
+  </article>
+{% endblock %}
+
+{% block aside %}
+  {{ block.super }}
+{% endblock %}
