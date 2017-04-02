@@ -56,8 +56,8 @@ class Score(models.Model):
 
         # print('Score.tally_answer - answer_123_type:', answer_123_type)
         # print('Score.tally_answer - answer_selected_int:', answer_selected_int)
-        print('Score.tally_answer - answer_weight_int:', answer_weight_int)
-        print('Score.tally_answer - type_for_answer:', type_for_answer)
+        # print('Score.tally_answer - answer_weight_int:', answer_weight_int)
+        # print('Score.tally_answer - type_for_answer:', type_for_answer)
 
         if type_for_answer is "E":
             self.e_score += answer_weight_int
@@ -76,6 +76,8 @@ class Score(models.Model):
         elif type_for_answer is "P":
             self.p_score += answer_weight_int
 
+        print('Score.tally_answer -',
+                'adding', answer_weight_int, 'to', type_for_answer)
         print('Score.tally_answer - self.__str__():',  self.__str__())
 
     def as_four_letter_type(self):
@@ -359,7 +361,7 @@ class Quiz(models.Model):
         """ Process the data from the form and set the scores """
         """ question_list is 0 based, the form questions are 1-based """
 
-        self.print_cleaned_data(cleaned_data)
+        # self.print_cleaned_data(cleaned_data)
         score = Score()
 
         for form_question_str in sorted(cleaned_data):
@@ -383,9 +385,10 @@ class Quiz(models.Model):
             # print('Quiz.score_quiz - answer_weight_int:',  answer_weight_int)
             # print('Quiz.score_quiz - score:',  score)
 
-            print('Quiz.score_quiz - form_question_int:', str(form_question_int))
-            print('Quiz.score_quiz - answer_123_type:',  answer_123_type)
-            print('Quiz.score_quiz - answer_selected_int:', answer_selected_int)
+            print('Quiz.score_quiz -',
+                    'question: ' + str(form_question_int) + ',',
+                    'type: ' + answer_123_type + ', ',
+                    'answer: ' + str(answer_selected_int))
 
             score.tally_answer(answer_123_type, answer_selected_int, answer_weight_int)
 
