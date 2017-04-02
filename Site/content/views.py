@@ -11,11 +11,13 @@ Reference:
 from django.shortcuts import render
 import textwrap
 
+from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
-from django.views.generic.base import View
 from django.template import loader
+from django.views.generic.base import View
 
 from .forms import QuizForm
+from .models import Quiz
 
 
 def home(request):
@@ -101,12 +103,52 @@ def quiz(request):
             # print('form is valid, got name:', name)
             # print('form is valid, got email:', email)
             # redirect to a new URL:
-            print('quiz_form.cleaned_data:', quiz_form.cleaned_data)
-            return HttpResponseRedirect('/quiz')
+            # print('quiz_form.cleaned_data:', quiz_form.cleaned_data)
+            print('views.quiz() - len(quiz_form.cleaned_data):',
+                    len(quiz_form.cleaned_data))
+            quiz_model = Quiz()
+            score = quiz_model.score_quiz(quiz_form.cleaned_data)
+            four_letter_type = "Type: " + score.as_four_letter_type()
+            # quiz_results_counts = "Counts: " + score.__str__()
+            # quiz_results_pcts = "Percentages: " + score.as_percentages()
+            # counts_and_pcts = "Score: " + score.as_counts_and_pcts()
+            messages.add_message(request, messages.INFO, four_letter_type)
+            # messages.add_message(request, messages.INFO, quiz_results_counts)
+            # messages.add_message(request, messages.INFO, quiz_results_pcts)
+            # messages.add_message(request, messages.INFO, counts_and_pcts)
+            # score_list = score.as_list_of_counts_and_pcts()
+            # counts_and_pcts_html = '<ul>'
+            # for score_pair in score_list:
+            #     counts_and_pcts_html += '<li>'
+            #     for single_score in score_pair:
+            #         counts_and_pcts_html += single_score + '&nbsp;'
+            #     counts_and_pcts_html += '</li>'
+            # counts_and_pcts_html += '</ul>'
+            # messages.add_message(request, messages.INFO, counts_and_pcts_html)
+            score_list = score.as_list_of_pcts_and_counts()
+            pcts_and_counts_html = '<ul>'
+            for score_pair in score_list:
+                pcts_and_counts_html += '<li>'
+                for single_score in score_pair:
+                    pcts_and_counts_html += single_score + '&nbsp;'
+                pcts_and_counts_html += '</li>'
+            pcts_and_counts_html += '</ul>'
+            messages.add_message(request, messages.INFO, pcts_and_counts_html)
+            return HttpResponseRedirect('/quiz/results')
     else:
         quiz_form = QuizForm()
+        # quiz_form_str = quiz_form.__repl__()
+        # print('views.quiz() - quiz_form_str.count("<tr><th>"):',
+        #         quiz_form_str.count("<tr><th>"))
 
     return render(request, 'content/quiz.html', {'quiz_form': quiz_form})
+
+
+def quiz_results(request):
+    """ Render the Quiz results template """
+    # quiz_results = request.session['quiz_results']
+    quiz_results = 'quiz results here'
+    return render(request, 'content/quiz_results.html', {'quiz_results': quiz_results})
 
 
 def google_verification(request):
