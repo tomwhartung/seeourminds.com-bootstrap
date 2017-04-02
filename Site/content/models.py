@@ -347,12 +347,19 @@ class Quiz(models.Model):
         answer_weight = quiz_question[answer_weight_key]
         return answer_weight
 
+    def print_cleaned_data(self, cleaned_data):
+        """ print out the cleaned data, in order by question number """
+        print('Quiz.print_cleaned_data - cleaned_data:')
+
+        for question_xx in sorted(cleaned_data):
+            print('\tanswer for ' + question_xx + ': ' + cleaned_data[question_xx])
+
     def score_quiz(self, cleaned_data):
 
         """ Process the data from the form and set the scores """
         """ question_list is 0 based, the form questions are 1-based """
 
-        print('Quiz.score_quiz - cleaned_data:', cleaned_data)
+        self.print_cleaned_data(cleaned_data)
         score = Score()
 
         for form_question_str in sorted(cleaned_data):
@@ -375,6 +382,10 @@ class Quiz(models.Model):
             # print('Quiz.score_quiz - answer_weight_str:',  answer_weight_str)
             # print('Quiz.score_quiz - answer_weight_int:',  answer_weight_int)
             # print('Quiz.score_quiz - score:',  score)
+
+            print('Quiz.score_quiz - form_question_int:', str(form_question_int))
+            print('Quiz.score_quiz - answer_123_type:',  answer_123_type)
+            print('Quiz.score_quiz - answer_selected_int:', answer_selected_int)
 
             score.tally_answer(answer_123_type, answer_selected_int, answer_weight_int)
 
