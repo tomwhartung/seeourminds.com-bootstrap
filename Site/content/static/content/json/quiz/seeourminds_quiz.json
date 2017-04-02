@@ -680,8 +680,8 @@
         "question_text": "With which type of 'wild west' character can you most easily identify?",
         "comment": "Original question based on popular culture (it has a very low weight and includes an answer allowing user to opt-out)",
         "answer_123_type": "E",
-        "answer_1_text": "A sociable city-dweller, like many of the regular characters in Gunsmoke.",
-        "answer_1_weight": "2",
+        "answer_1_text": "A sociable city-dweller, like many of the regular characters in any western.",
+        "answer_1_weight": "1",
         "answer_2_text": "A merchant in a small city, who enjoys serving and socializing with customers.",
         "answer_2_weight": "1",
         "answer_3_text": "",
@@ -689,11 +689,9 @@
         "answer_4_text": "A farmer, living alone or with a small family far from the city.",
         "answer_4_weight": "1",
         "answer_5_text": "A quiet loner, maybe a hermit or possibly a drifter.",
-        "answer_5_weight": "2",
+        "answer_5_weight": "1",
         "answer_6_text": "",
         "answer_6_weight": "0",
-        "answer_7_text": "Decline to answer.",
-        "answer_7_weight": "0",
         "ordering": "68"
     }, {
         "id": "39",
@@ -1180,8 +1178,10 @@
         "answer_4_weight": "1",
         "answer_5_text": "I can dance anyplace as long as the music and the mood are right.",
         "answer_5_weight": "2",
-        "answer_6_text": "I never dance.",
+        "answer_6_text": "",
         "answer_6_weight": "0",
+        "answer_7_text": "I never dance.",
+        "answer_7_weight": "0",
         "ordering": "140"
     }, {
         "id": "66",
