@@ -24,7 +24,7 @@ def home(request):
 
     """ Load and render the Home page template """
 
-    context_home_selected = 'selected'
+    context_home_selected = 'selected-option'      # see seeourminds.css
     template = loader.get_template('content/home.html')
     context = {
         'context_home_selected': context_home_selected,
@@ -36,7 +36,7 @@ def galleries(request):
 
     """ Load and render the Galleries page template """
 
-    context_galleries_selected = 'selected'
+    context_galleries_selected = 'selected-option'      # see seeourminds.css
     template = loader.get_template('content/galleries.html')
     context = {
         'context_galleries_selected': context_galleries_selected,
@@ -85,12 +85,6 @@ def quiz(request):
 
     """ Load and render the Quiz page template """
 
-    context_quiz_selected = 'selected'
-    template = loader.get_template('content/quiz.html')
-    context = {
-     'context_quiz_selected': context_quiz_selected,
-    }
-    # return HttpResponse(template.render(context, request))
     if request.method == 'POST':
         quiz_form = QuizForm(request.POST)
         #
@@ -137,11 +131,14 @@ def quiz(request):
             return HttpResponseRedirect('/quiz/results')
     else:
         quiz_form = QuizForm()
-        # quiz_form_str = quiz_form.__repl__()
-        # print('views.quiz() - quiz_form_str.count("<tr><th>"):',
-        #         quiz_form_str.count("<tr><th>"))
 
-    return render(request, 'content/quiz.html', {'quiz_form': quiz_form})
+    context_quiz_selected = 'class="selected-option"'    # see seeourminds.css
+    template = loader.get_template('content/quiz.html')
+    context = {
+        'context_quiz_selected': context_quiz_selected,
+        'quiz_form': quiz_form
+    }
+    return HttpResponse(template.render(context, request))
 
 
 def quiz_results(request):
