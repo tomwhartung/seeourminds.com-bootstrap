@@ -12,6 +12,7 @@ import json
 import os
 from django.db import models
 
+DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
 site_content_dir = os.path.abspath(os.path.dirname(__file__))
 QUIZ_FILE_DIR = site_content_dir + '/static/content/json/quiz/'
 QUIZ_FILE_NAME = 'seeourminds_quiz.json'
@@ -76,9 +77,10 @@ class Score(models.Model):
         elif type_for_answer is "P":
             self.p_score += answer_weight_int
 
-        print('Score.tally_answer -',
-                'adding', answer_weight_int, 'to', type_for_answer)
-        print('Score.tally_answer - self.__str__():',  self.__str__())
+        if DJANGO_DEBUG:
+            print('Score.tally_answer -',
+                    'adding', answer_weight_int, 'to', type_for_answer)
+            print('Score.tally_answer - self.__str__():',  self.__str__())
 
     def as_four_letter_type(self):
         """ Return a string containing the four letter type """
@@ -385,10 +387,11 @@ class Quiz(models.Model):
             # print('Quiz.score_quiz - answer_weight_int:',  answer_weight_int)
             # print('Quiz.score_quiz - score:',  score)
 
-            print('Quiz.score_quiz -',
-                    'question: ' + str(form_question_int) + ',',
-                    'type: ' + answer_123_type + ', ',
-                    'answer: ' + str(answer_selected_int))
+            if DJANGO_DEBUG:
+                print('Quiz.score_quiz -',
+                        'question: ' + str(form_question_int) + ',',
+                        'type: ' + answer_123_type + ', ',
+                        'answer: ' + str(answer_selected_int))
 
             score.tally_answer(answer_123_type, answer_selected_int, answer_weight_int)
 
