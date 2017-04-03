@@ -4,3 +4,4 @@
 #
 export PYTHONPATH="..:${PYTHONPATH}"
 python3 -m manage collectstatic --noinput --clear
+touch ../static/.this_dir_intentionally_left_empty
