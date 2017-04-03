@@ -124,16 +124,37 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
-    color: white;
     background: maroon;   /* was: #e44d26; */
 }
 
-nav a:hover,
-nav a:visited {
-    color: white;
+/*
+ * I should be able to use "disabled" to indicate the option is disabled
+ *   (it is built in to bootstrap)
+ *   but that did not work
+ * I should be able to specify my own class (e.g, "selected-option", below)
+ *   but that did not work
+ * If I take the ".selected-option" off the following
+ *   all options turn grey, so that works
+ *   (i.e., this sheet being included last and thus overriding the others)
+ * But I just want to turn the .selected-option grey, and I cannot
+ *   figure out why (after repeated attempts!)
+ * Used "Inspect" option to verify that the class is showing up in the source
+ *   Spent way too much time on something that should be simple!
+ * *** This is not important enough to try to figure out wtf is going on here
+ * *** So we are moving on...
+ * SUMMARY:
+ * These turn *all* the links grey, but the more-specific ".selected-option"
+ *   class specifications do not work for turning just the selected option grey.
+ * Seriously wtf.
+ nav a,
+ nav a:hover,
+ nav a:visited,
+ */
+nav a.selected-option,
+nav a.selected-option:hover,
+nav a.selected-option:visited {
+    color: grey;
 }
-
 nav a:hover {
     text-decoration: underline;
 }
