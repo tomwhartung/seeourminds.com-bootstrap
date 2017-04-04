@@ -128,6 +128,24 @@ nav a {
 }
 
 /*
+ * Semantic styles
+ */
+.air-quotes::before { content: '"'; }
+.air-quotes {
+    font-style: italic;
+}
+.air-quotes::after { content: '"'; }
+
+.superscript::before { content: "["; }
+.superscript {
+    font-variant-position: super;
+}
+.superscript::after { content: "]"; }
+ul.notes {
+    list-style-type: none;
+}
+
+/*
  * Reference:
  *   http://stackoverflow.com/questions/15648329/how-to-make-a-bootstrap-nav-link-inactive
  * I should be able to use "disabled" to indicate the option is disabled
