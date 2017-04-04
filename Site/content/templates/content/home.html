@@ -1,10 +1,21 @@
 {% extends 'content/base.html' %}
 
-{% block leading_content %}
-  <section class="jumbotron">
-    <h2>SeeOurMinds.com</h2>
-    <p>Revealing our inner light.</p>
-  </section>
+{% block top_content_left %}
+    <div class="col-md-8">
+      <section class="jumbotron">
+        <h2>SeeOurMinds.com</h2>
+        <p>Shedding light on the things we cannot see.</p>
+        <p>
+          To stay up-to-date, join our email list!</p>
+        <form method="GET" action="http://groja.com/contactme"
+            class="navbar-form navbar-right" role="form">
+          <div class="form-group">
+            <input name="email" type="text" placeholder="Email" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Sign up</button>
+        </form>
+      </section>
+    </div><!-- .col-md-8 -->
 {% endblock %}
 
 {% block aside %}
@@ -26,7 +37,7 @@
         <h2>To See Their Minds...</h2>
         <p>... visit the galleries.</p>
       </div><!-- .col-md-3 -->
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h2>To See My Mind...</h2>
         <p>
           ... see the
@@ -36,7 +47,7 @@
           <a href="http://www.groja.com" target="_blank"
              title="groja.com Home page.".>Home page</a>
           of groja.com.</p>
-      </div><!-- .col-md-3 -->
+      </div><!-- .col-md-2 -->
       <div class="col-md-3">
         <h2>To See Your Mind...</h2>
         <p>
@@ -46,10 +57,12 @@
              Your Portrait page</a>
           on groja.com to get your own, personalized Spiritual Portrait.</p>
       </div><!-- .col-md-3 -->
-    </section><!-- #options ->
-  </div><!-- .row -->
+    </section><!-- #options -->
+{% endblock %}
+
+{% block bottom_content %}
   <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-8">
       <section id="learn-more">
         <h2>To learn more about all this ...</h2>
         <p>
@@ -57,7 +70,6 @@
           <a href="http://www.groja.com" target="_blank"
              title="groja.com About page.".>About page
           </a>on groja.com.</p>
-      </section><!-- #learn-more ->
-    </div><!-- .col-md-9 -->
+      </section><!-- #learn-more -->
+    </div><!-- .col-md-8 -->
 {% endblock %}
-
