@@ -24,7 +24,7 @@ def home(request):
 
     """ Load and render the Home page template """
 
-    context_home_selected = 'selected-option'      # see seeourminds.css
+    context_home_selected = 'class="disabled"'      # see seeourminds.css
     template = loader.get_template('content/home.html')
     context = {
         'context_home_selected': context_home_selected,
@@ -36,7 +36,7 @@ def galleries(request):
 
     """ Load and render the Galleries page template """
 
-    context_galleries_selected = 'selected-option'      # see seeourminds.css
+    context_galleries_selected = 'class="disabled"'      # see seeourminds.css
     template = loader.get_template('content/galleries.html')
     context = {
         'context_galleries_selected': context_galleries_selected,
@@ -132,7 +132,7 @@ def quiz(request):
     else:
         quiz_form = QuizForm()
 
-    context_quiz_selected = 'class="selected-option"'    # see seeourminds.css
+    context_quiz_selected = 'class="disabled"'    # see seeourminds.css
     template = loader.get_template('content/quiz.html')
     context = {
         'context_quiz_selected': context_quiz_selected,
