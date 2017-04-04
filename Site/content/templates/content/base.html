@@ -47,7 +47,7 @@
 
   <main class="main-container container">
     <div class="main wrapper clearfix">
-      {% block top_content %}
+      {% block top_row_ad %}
       {% endblock %}
       <div class="row">
         {% block top_content_left %}
@@ -64,14 +64,18 @@
         {% block top_content_right %}
         {% endblock %}
       </div><!-- .row -->
+      {% block middle_row_ad %}
+      {% endblock %}
       <div class="row">
-        {% block main_content %}
+        {% block middle_content %}
         {% endblock %}
        </div><!-- .row -->
        <div class="row">
          {% block bottom_content %}
          {% endblock %}
      </div><!-- .row -->
+     {% block bottom_row_ad %}
+     {% endblock %}
     </div><!-- .main .wrapper .clearfix -->
   </main><!-- .main-container .container -->
 
