@@ -49,6 +49,16 @@ img.site-header {
 }
 
 /*
+ * For the home landing page, which must look just exactly perfect
+ */
+dl.did-you-ever {
+     margin-bottom: 1em;
+}
+dl.did-you-ever dd {
+    margin-left: 1.5em;
+}
+
+/*
  * For links in the aside and footer, which have backgrounds.
  */
 a.aside,
