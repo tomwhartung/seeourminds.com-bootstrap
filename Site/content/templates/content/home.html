@@ -3,17 +3,19 @@
 {% block top_content_left %}
     <div class="col-md-8">
       <section class="jumbotron">
-        <h2>SeeOurMinds.com</h2>
+        <h2>SeeOurMinds!</h2>
+        <dl>
+          <dt>Did you ever wonder</dt>
+          <dd>What a person's personality might look like,
+            if you could see it?</dd>
+          <dt>Did you ever wish</dt>
+          <dd>You could better understand why your friends, loved-ones, and
+             co-workers say and do the things they do and say?</dd>
+          <dt>Did you ever want</dt>
+          <dd>To learn more about what makes us tick?</dd>
+        <dl>
         <p>
-          Did you ever wonder what a person's personality might look like,
-            if you could see it?</p>
-        <p>
-          Did you ever wish you could better understand why your friends,
-            loved-ones, and co-workers say and do the things they do and say?</p>
-        <p>
-          Did you ever want to learn about what makes us tick?</p>
-        <p>
-          If so, welcome to SeeOurMinds.com, a site dedicated to
+          If so, welcome to SeeOurMinds.com, the site dedicated to
         <p class="air-quotes">Shedding light on the things we cannot see.</p>
       </section>
     </div><!-- .col-md-8 -->
@@ -21,9 +23,10 @@
 
 {% block top_aside %}
   {{ block.super }}
+  <hr>
   <h3>Join our email list!</h3>
   <p>
-    Stay up-to-date and join our email list!</p>
+    Join our email list to stay up-to-date!</p>
   <form method="POST" action="http://groja.com/contactme"
       class="navbar-form navbar-right" role="form">
     <div class="form-group">
