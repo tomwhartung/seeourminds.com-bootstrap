@@ -47,17 +47,27 @@
 
   <main class="main-container container">
     <div class="main wrapper clearfix">
-      {% block content %}
-      {% endblock %}
-      <aside>
-        {% block aside %}
-          <div>
-            Code for Google AdSense ads goes here.
-          </div>
+      <div class="row">
+        <div class="col-md-8">
+          {% block leading_content %}
+          {% endblock %}
+        </div><!-- .col-md-9 -->
+        <div class="md-4">
+          <aside>
+          {% block aside %}
+            <div>
+              Code for Google AdSense ads goes here.
+            </div>
+          {% endblock %}
+          </aside>
+        </div><!-- .md-3 -->
+      </div><!-- .row -->
+      <div class="row">
+        {% block main_content %}
         {% endblock %}
-      </aside>
+     </div><!-- .row -->
     </div><!-- .main .wrapper .clearfix -->
-  </main><!-- .main-container -->
+  </main><!-- .main-container .container -->
 
   <footer class="footer-container">
     Copyright &copy; 2016-2017
