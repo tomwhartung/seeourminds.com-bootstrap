@@ -152,6 +152,11 @@ nav a {
  nav a:hover,
  nav a:visited,
  */
+/*
+ * To reiterate: NONE OF THESE WORK!
+ * Just leaving this code in here so I don't waste time trying this again!
+ * -----------------------------------------------------------------------
+ */
 li.disabled,
 li.disabled:hover,
 li.disabled:visited,
