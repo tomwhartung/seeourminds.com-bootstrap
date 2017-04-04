@@ -37,9 +37,9 @@
       </div>
       <nav>
         <ul>
-          <li><a href="/home" {{ context_home_selected }}>Home</a></li>
-          <li><a href="/galleries" {{ context_galleries_selected }}>Galleries</a></li>
-          <li><a href="/quiz" {{ context_quiz_selected }}>Quiz</a></li>
+          <li {{ context_home_selected }}><a href="/home">Home</a></li>
+          <li {{ context_galleries_selected }}><a href="/galleries">Galleries</a></li>
+          <li {{ context_quiz_selected }}><a href="/quiz">Quiz</a></li>
         </ul>
       </nav>
     </header>
