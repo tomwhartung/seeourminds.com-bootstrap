@@ -37,13 +37,13 @@
   </form>
 {% endblock %}
 
-{% block main_content %}
-    <section id="options">
-      <div class="col-md-3">
+{% block middle_content %}
+    <section id="middle-content">
+      <div class="col-md-6">
         <h2>To See Their Minds...</h2>
         <p>... visit the galleries.</p>
-      </div><!-- .col-md-3 -->
-      <div class="col-md-2">
+      </div><!-- .col-md-6 -->
+      <div class="col-md-6">
         <h2>To See My Mind...</h2>
         <p>
           ... see the
@@ -53,8 +53,13 @@
           <a href="http://www.groja.com" target="_blank"
              title="groja.com Home page.".>Home page</a>
           of groja.com.</p>
-      </div><!-- .col-md-2 -->
-      <div class="col-md-3">
+      </div><!-- .col-md-6 -->
+    </section><!-- #middle-content -->
+{% endblock %}
+
+{% block bottom_content %}
+  <section id="bottom-content">
+      <div class="col-md-6">
         <h2>To See Your Mind...</h2>
         <p>
           ... visit the
@@ -62,20 +67,17 @@
              title="groja.com Your Portrait page.".>
              Your Portrait page</a>
           on groja.com to get your own, personalized Spiritual Portrait.</p>
-      </div><!-- .col-md-3 -->
-    </section><!-- #options -->
-{% endblock %}
-
-{% block bottom_content %}
-  <div class="row">
-    <div class="col-md-8">
-      <section id="learn-more">
-        <h2>To learn more about all this ...</h2>
-        <p>
-          ... visit the
-          <a href="http://www.groja.com" target="_blank"
-             title="groja.com About page.".>About page
-          </a>on groja.com.</p>
-      </section><!-- #learn-more -->
-    </div><!-- .col-md-8 -->
+      </div><!-- .col-md-6 -->
+      <div class="row">
+        <div class="col-md-6">
+          <section id="learn-more">
+            <h2>To learn more about all this ...</h2>
+            <p>
+              ... visit the
+              <a href="http://www.groja.com" target="_blank"
+                 title="groja.com About page.".>About page
+              </a>on groja.com.</p>
+          </section><!-- #learn-more -->
+        </div><!-- .col-md-6 -->
+    </section><!-- #bottom-content -->
 {% endblock %}
