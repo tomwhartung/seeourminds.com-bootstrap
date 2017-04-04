@@ -128,6 +128,8 @@ nav a {
 }
 
 /*
+ * Reference:
+ *   http://stackoverflow.com/questions/15648329/how-to-make-a-bootstrap-nav-link-inactive
  * I should be able to use "disabled" to indicate the option is disabled
  *   (it is built in to bootstrap)
  *   but that did not work
@@ -150,9 +152,9 @@ nav a {
  nav a:hover,
  nav a:visited,
  */
-nav a.selected-option,
-nav a.selected-option:hover,
-nav a.selected-option:visited {
+nav a.disabled,
+nav a.disabled:hover,
+nav a.disabled:visited {
     color: grey;
 }
 nav a:hover {
