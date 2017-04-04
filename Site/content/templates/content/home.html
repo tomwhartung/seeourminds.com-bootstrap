@@ -5,8 +5,6 @@
       <section class="jumbotron">
         <h2>SeeOurMinds.com</h2>
         <p>
-          Shedding light on the things we cannot see.</p>
-        <p>
           Did you ever wonder what a person's personality might look like,
             if you could see it?</p>
         <p>
@@ -15,34 +13,24 @@
         <p>
           Did you ever want to learn about what makes us tick?</p>
         <p>
-         If so, welcome to SeeOurMinds.com, a site dedicated to
-         <span class="air-quotes">
-           revealing the light that shines in us all.</span></p>
-        <hr>
-        <p>
-          Stay up-to-date and join our email list!</p>
-        <form method="GET" action="http://groja.com/contactme"
-            class="navbar-form navbar-right" role="form">
-          <div class="form-group">
-            <input name="email" type="text" placeholder="Email" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-success">Sign up</button>
-        </form>
+          If so, welcome to SeeOurMinds.com, a site dedicated to
+        <p class="air-quotes">Shedding light on the things we cannot see.</p>
       </section>
     </div><!-- .col-md-8 -->
 {% endblock %}
 
-{% block aside %}
+{% block top_aside %}
+  {{ block.super }}
   <h3>Join our email list!</h3>
   <p>
-    To stay up-to-date, join our email list!</p>
-  <form class="navbar-form navbar-right" role="form">
+    Stay up-to-date and join our email list!</p>
+  <form method="POST" action="http://groja.com/contactme"
+      class="navbar-form navbar-right" role="form">
     <div class="form-group">
-      <input type="text" placeholder="Email" class="form-control">
+      <input name="email" type="text" placeholder="Email" class="form-control">
     </div>
     <button type="submit" class="btn btn-success">Sign up</button>
   </form>
-  {{ block.super }}
 {% endblock %}
 
 {% block main_content %}
