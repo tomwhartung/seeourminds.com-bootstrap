@@ -152,9 +152,18 @@ nav a {
  nav a:hover,
  nav a:visited,
  */
-nav a.disabled,
-nav a.disabled:hover,
-nav a.disabled:visited {
+li.disabled,
+li.disabled:hover,
+li.disabled:visited,
+li.disabled a,
+li.disabled:hover a,
+li.disabled:visited a,
+nav li.disabled,
+nav li.disabled:hover,
+nav li.disabled:visited,
+nav li.disabled a,
+nav li.disabled:hover a,
+nav li.disabled:visited a {
     color: grey;
 }
 nav a:hover {
