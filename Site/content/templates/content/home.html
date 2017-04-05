@@ -38,6 +38,7 @@
 {% endblock %}
 
 {% block middle_content %}
+  {% load static %}
   <section id="middle-content">
     <div class="col-md-6">
       <h2>To See Their Minds...</h2>
@@ -47,12 +48,22 @@
       <h2>To See My Mind...</h2>
       <p>
         ... see the
-        <a href="http://www.groja.com/#top-row-sidebox" target="_blank"
-           title="groja.com Home page.".>"Tom H: INFP"</a>
-        image (in the aside/sidebox) on the
-        <a href="http://www.groja.com" target="_blank"
-           title="groja.com Home page.".>Home page</a>
-        of groja.com.</p>
+        <a href="{% static 'content/images/header/infp-tomh_1987-515x515.gif' %}"
+           target="_blank" title="Close up of INFP image in the site header.">
+          image in the page header.</a></p>
+      <p>
+        a &gt; img tag:
+        <a href="{% static 'content/images/header/infp-tomh_1987-515x515.gif' %}"
+           target="_blank" title="Close up of INFP image in the site header.">
+          <img src="{% static 'content/images/header/infp-tomh_1987-81x81.gif' %}"
+               alt="Image of INFP containing more blue and red squares and fewer yellow and green squares.">
+          </img></a></p>
+      <p>
+        span tag with class icon-infp:
+            <a href="{% static 'content/images/header/infp-tomh_1987-515x515.gif' %}"
+               target="_blank" title="Close up of INFP image in the site header.">
+              <span class="icon-infp">&nbsp;x&nbsp;
+              </span></a></p>
     </div><!-- .col-md-6 -->
   </section><!-- #middle-content -->
 {% endblock %}
