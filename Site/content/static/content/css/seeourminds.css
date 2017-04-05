@@ -59,6 +59,12 @@ dl.did-you-ever dd {
 }
 
 /*
+ * The middle and bottom content are just a little too close together for me.
+ */
+#bottom-content {
+    margin-top: 2em;
+}
+/*
  * Try making an icon with one of my portraits
  * Reference: http://stackoverflow.com/questions/10393325/how-to-add-custom-icon-in-twitter-bootstrap
  * ** This is *not* working and *not* being used right now! **  Saving for possible future reference
