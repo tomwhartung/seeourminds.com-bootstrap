@@ -59,6 +59,16 @@ dl.did-you-ever dd {
 }
 
 /*
+ * Try making an icon with one of my portraits
+ * Reference: http://stackoverflow.com/questions/10393325/how-to-add-custom-icon-in-twitter-bootstrap
+ * ** This is *not* working and *not* being used right now! **  Saving for possible future reference
+ */
+.icon-infp {
+    background-image: url("content/images/header/infp-tomh_1987-515x515.gif");
+    background-position: center center;
+}
+
+/*
  * For links in the aside and footer, which have backgrounds.
  */
 a.aside,
