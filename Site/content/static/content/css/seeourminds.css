@@ -160,13 +160,18 @@ nav a {
  *    http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/
  *    http://www.kodingmadesimple.com/2014/11/create-stylish-bootstrap-3-social-media-icons.html
  */
-i.fa-2x {
-    margin: 3px;
+.social-media-icons {
+    float: right;
+    margin-left: auto;
+    margin-right: 10px;
 }
-i.fa-2x:hover {
-    font-size: 2.5em;
+i.fa-lg {
+    margin: .1em;
+}
+i.fa-lg:hover {
+    font-size: 1.5em;
     margin: 0px;
-    text-shadow: 4px 4px lightgrey;
+    text-shadow: 2px 2px lightgrey;
 }
 .fa-facebook, .fa-facebook-square {
     color: #3b5998;
