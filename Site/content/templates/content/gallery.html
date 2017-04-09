@@ -6,8 +6,7 @@
   <link rel="stylesheet" href="{% static 'content/css/gallery.css' %}">
 {% endblock %}
 
-{% block content %}
-  <article>
+{% block top_content_left %}
     <section id="all-gallery-images">
       <section id="gallery-description">
         <h2>{{ name_of_gallery }}</h2>
@@ -28,10 +27,9 @@
         {% endfor %}
       </div><!-- .row -->
     </section><!-- #all-gallery-images -->
-  </article>
 {% endblock %}
 
-{% block aside %}
+{% block top_aside %}
   <h3>Join our email list!</h3>
   <p>
     To be the first to see new personalities, join our email list!</p>
