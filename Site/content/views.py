@@ -161,8 +161,14 @@ def image(request, image_path=None):
 
     text = 'descriptive text here'
 
+    ads["above_middle_row_ad"] = '<p>This is "above_middle_row_ad" markup.</p>'
+    ads["middle_left_ad"] = '<p>This is "middle_left_ad" markup.</p>'
+    ads["middle_right_ad"] = '<p>This is "middle_right_ad" markup.</p>'
+    ads["below_middle_row_ad"] = '<p>This is "below_middle_row_ad" markup.</p>'
+
     return render(request, 'content/image.html',
-         {'image_name': image_name,
+         {'ads': ads,
+          'image_name': image_name,
           'image_path': image_path,
           'text': text,
          })
