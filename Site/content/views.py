@@ -16,16 +16,9 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 from django.views.generic.base import View
 
+from .adsense import adsense_ads
 from .forms import QuizForm
 from .models import Quiz
-
-ads = {}
-ads["top_aside_top_ad"] = '<p>This is "top_aside_top_ad" Google AdSense markup.</p>'
-ads["top_aside_bottom_ad"] = '<p>This is "top_aside_bottom_ad" Google AdSense markup.</p>'
-ads["above_middle_row_ad"] = '<p>This is "above_middle_row_ad" markup.</p>'
-ads["middle_left_ad"] = '<p>This is "middle_left_ad" markup.</p>'
-ads["middle_right_ad"] = '<p>This is "middle_right_ad" markup.</p>'
-ads["below_middle_row_ad"] = '<p>This is "below_middle_row_ad" markup.</p>'
 
 
 def home(request):
@@ -35,7 +28,7 @@ def home(request):
     context_home_selected = 'class="disabled"'      # see seeourminds.css
     template = loader.get_template('content/home.html')
     context = {
-        'ads': ads,
+        'adsense_ads': adsense_ads,
         'context_home_selected': context_home_selected,
     }
     return HttpResponse(template.render(context, request))
@@ -48,7 +41,7 @@ def galleries(request):
     context_galleries_selected = 'class="disabled"'      # see seeourminds.css
     template = loader.get_template('content/galleries.html')
     context = {
-        'ads': ads,
+        'adsense_ads': adsense_ads,
         'context_galleries_selected': context_galleries_selected,
     }
     return HttpResponse(template.render(context, request))
@@ -81,7 +74,7 @@ def gallery(request, gallery_name='all'):
     row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
     template = loader.get_template('content/gallery.html')
     context = {
-        'ads': ads,
+        'adsense_ads': adsense_ads,
         'name_of_gallery': name_of_gallery,
         'description_of_gallery': description_of_gallery,
         'image_file_dir': image_file_dir,
@@ -146,7 +139,7 @@ def quiz(request):
     context_quiz_selected = 'class="disabled"'    # see seeourminds.css
     template = loader.get_template('content/quiz.html')
     context = {
-        'ads': ads,
+        'adsense_ads': adsense_ads,
         'context_quiz_selected': context_quiz_selected,
         'quiz_form': quiz_form
     }
@@ -174,7 +167,7 @@ def image(request, image_path=None):
     text = 'descriptive text here'
 
     return render(request, 'content/image.html',
-         {'ads': ads,
+         {'adsense_ads': adsense_ads,
           'image_name': image_name,
           'image_path': image_path,
           'text': text,
