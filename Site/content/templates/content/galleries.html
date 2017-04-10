@@ -15,7 +15,9 @@
 {% endblock %}
 
 {% block top_aside %}
-  {{ block.super }}
+  {% block top_aside_email %}
+    {{ block.super }}
+  {% endblock %}
 {% endblock %}
 
 {% block above_middle_row_ad %}
