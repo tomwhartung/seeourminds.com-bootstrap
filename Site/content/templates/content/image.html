@@ -7,37 +7,19 @@
 {% endblock %}
 
 {% block top_content_left %}
-    <section id="all-gallery-images">
-      <section id="gallery-description">
-        <h2>{{ name_of_gallery }}</h2>
-        <p>{{ description_of_gallery }}</p>
-      </section><!-- #gallery-description -->
-      <div class="row">
-        {% for img in image_list_with_path %}
-          <div class="col-md-6">
-            <div class="gallery-image">
-              <figure>
-                <img src="{% static img.image_file_path %}" class="gallery-img">
-                <figcaption><q>{{ img.image_name }}</q></figcaption>
-              </figure>
-              <p>{{ img.frontpage_blurb }}</p>
-            </div><!-- .gallery-image -->
-          </div><!-- .col-md-3 -->
-          {% cycle '' row_separator_markup|safe %}
-        {% endfor %}
-      </div><!-- .row -->
+    <section id="image">
+      <div class="col-md-6">
+        <div class="gallery-image">
+          <figure>
+            <img src="{% static image_path %}" class="gallery-img">
+            <figcaption><q>{{ image_name }}</q></figcaption>
+          </figure>
+          <p>{{ text }}</p>
+        </div><!-- .gallery-image -->
+      </div><!-- .col-md-6 -->
     </section><!-- #all-gallery-images -->
 {% endblock %}
 
 {% block top_aside %}
-  <h3>Join our email list!</h3>
-  <p>
-    To be the first to see new personalities, join our email list!</p>
-  <form class="navbar-form navbar-right" role="form">
-    <div class="form-group">
-      <input type="text" placeholder="Email" class="form-control">
-    </div>
-    <button type="submit" class="btn btn-success">Sign up</button>
-  </form>
   {{ block.super }}
 {% endblock %}
