@@ -161,6 +161,7 @@ def image(request, image_path=None):
 
     text = 'descriptive text here'
 
+    ads = {}
     ads["above_middle_row_ad"] = '<p>This is "above_middle_row_ad" markup.</p>'
     ads["middle_left_ad"] = '<p>This is "middle_left_ad" markup.</p>'
     ads["middle_right_ad"] = '<p>This is "middle_right_ad" markup.</p>'
