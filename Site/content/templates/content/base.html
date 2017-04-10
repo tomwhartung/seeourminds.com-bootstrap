@@ -84,8 +84,8 @@
 
           <aside>
             {% block top_aside %}
-              {% block top_aside_ad %}
-                {{ ads.top_aside_ad }}
+              {% block top_aside_top_ad %}
+                {{ ads.top_aside_top_ad }}
               {% endblock %}
               {% block top_aside_email %}
               <h3>Join our email list!</h3>
@@ -98,6 +98,9 @@
                 </div>
                 <button type="submit" class="btn btn-success">Sign up</button>
               </form>
+              {% endblock %}
+              {% block top_aside_bottom_ad %}
+                {{ ads.top_aside_bottom_ad }}
               {% endblock %}
             {% endblock %}
           </aside>
