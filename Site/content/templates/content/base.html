@@ -85,7 +85,7 @@
           <aside>
             {% block top_aside %}
               {% block top_aside_top_ad %}
-                {{ ads.top_aside_top_ad }}
+                {{ ads.top_aside_top_ad | safe }}
               {% endblock %}
               {% block top_aside_email %}
               <h3>Join our email list!</h3>
@@ -100,7 +100,7 @@
               </form>
               {% endblock %}
               {% block top_aside_bottom_ad %}
-                {{ ads.top_aside_bottom_ad }}
+                {{ ads.top_aside_bottom_ad | safe }}
               {% endblock %}
             {% endblock %}
           </aside>
@@ -109,20 +109,20 @@
         {% endblock %}
       </div><!-- .row -->
       {% block above_middle_row_ad %}
-        {{ ads.above_middle_row_ad }}
+        {{ ads.above_middle_row_ad | safe }}
       {% endblock %}
       <div class="row">
         {% block middle_left_ad %}
-          {{ ads.middle_left_ad }}
+          {{ ads.middle_left_ad | safe }}
         {% endblock %}
         {% block middle_content %}
         {% endblock %}
         {% block middle_right_ad %}
-          {{ ads.middle_right_ad }}
+          {{ ads.middle_right_ad | safe }}
         {% endblock %}
       </div><!-- .row -->
       {% block below_middle_row_ad %}
-        {{ ads.above_middle_row_ad }}
+        {{ ads.above_middle_row_ad | safe }}
       {% endblock %}
       <div class="row">
          {% block bottom_content %}
