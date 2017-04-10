@@ -148,6 +148,24 @@ def quiz_results(request):
     return render(request, 'content/quiz_results.html', {'quiz_results': quiz_results})
 
 
+def image(request, image_path=None):
+    """ Render the single image template """
+
+    if image_path == None:
+        image_name = 'Unknown image!'
+        image_path = 'No image_path given'
+    else:
+        image_name = 'A known image'
+
+    text = 'descriptive text here'
+
+    return render(request, 'content/image.html',
+         {'image_name': image_name,
+          'image_path': image_path,
+          'text': text,
+         })
+
+
 def google_verification(request):
 
     """ Load and render the google verification template """
