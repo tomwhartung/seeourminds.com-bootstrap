@@ -216,6 +216,16 @@ ul.notes {
 }
 
 /*
+ * =================
+ * For the Home page
+ * =================
+ */
+.see-my-mind {
+    float: left;
+    margin: .5em;
+    padding: .5em;
+}
+/*
  * =========================
  * For the single image page
  * =========================
@@ -230,8 +240,8 @@ ul.notes {
     border-color: blue;
     border-style: solid;
     border-width: 4px;
-	 margin: 4px;
-	 padding: 4px;
+    margin: 4px;
+    padding: 4px;
     height: 515px;
     width: 515px;
 }
