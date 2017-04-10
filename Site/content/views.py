@@ -20,7 +20,8 @@ from .forms import QuizForm
 from .models import Quiz
 
 ads = {}
-ads["top_aside_ad"] = '<p>This is "top_aside_ad" Google AdSense markup.</p>'
+ads["top_aside_top_ad"] = '<p>This is "top_aside_top_ad" Google AdSense markup.</p>'
+ads["top_aside_bottom_ad"] = '<p>This is "top_aside_bottom_ad" Google AdSense markup.</p>'
 ads["above_middle_row_ad"] = '<p>This is "above_middle_row_ad" markup.</p>'
 ads["middle_left_ad"] = '<p>This is "middle_left_ad" markup.</p>'
 ads["middle_right_ad"] = '<p>This is "middle_right_ad" markup.</p>'
@@ -47,6 +48,7 @@ def galleries(request):
     context_galleries_selected = 'class="disabled"'      # see seeourminds.css
     template = loader.get_template('content/galleries.html')
     context = {
+        'ads': ads,
         'context_galleries_selected': context_galleries_selected,
     }
     return HttpResponse(template.render(context, request))
@@ -79,6 +81,7 @@ def gallery(request, gallery_name='all'):
     row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
     template = loader.get_template('content/gallery.html')
     context = {
+        'ads': ads,
         'name_of_gallery': name_of_gallery,
         'description_of_gallery': description_of_gallery,
         'image_file_dir': image_file_dir,
@@ -143,6 +146,7 @@ def quiz(request):
     context_quiz_selected = 'class="disabled"'    # see seeourminds.css
     template = loader.get_template('content/quiz.html')
     context = {
+        'ads': ads,
         'context_quiz_selected': context_quiz_selected,
         'quiz_form': quiz_form
     }
