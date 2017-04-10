@@ -155,7 +155,9 @@ nav a {
 
 
 /*
+ * ==========================
  * For the social media icons
+ * ==========================
  * Inspired by code on these pages:
  *    http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/
  *    http://www.kodingmadesimple.com/2014/11/create-stylish-bootstrap-3-social-media-icons.html
@@ -213,6 +215,26 @@ ul.notes {
     list-style-type: none;
 }
 
+/*
+ * =========================
+ * For the single image page
+ * =========================
+ */
+.single-image {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+}
+.single-img {
+    border-color: blue;
+    border-style: solid;
+    border-width: 4px;
+	 margin: 4px;
+	 padding: 4px;
+    height: 515px;
+    width: 515px;
+}
 /*
  * ========================
  * Styles for the Quiz Page
