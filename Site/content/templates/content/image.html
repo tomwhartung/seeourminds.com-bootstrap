@@ -6,7 +6,11 @@
   <link rel="stylesheet" href="{% static 'content/css/gallery.css' %}">
 {% endblock %}
 
-{% block top_content_left %}
+{% block middle_left_ad %}
+  {{ block.super }}
+{% endblock %}
+
+{% block middle_content %}
     <section id="image">
       <div class="col-md-6">
         <div class="single-image">
@@ -20,6 +24,6 @@
     </section><!-- #all-gallery-images -->
 {% endblock %}
 
-{% block top_aside %}
+{% block middle_right_ad %}
   {{ block.super }}
 {% endblock %}
