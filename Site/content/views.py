@@ -149,13 +149,15 @@ def quiz_results(request):
 
 
 def image(request, image_path=None):
+
     """ Render the single image template """
 
     if image_path == None:
-        image_name = 'Unknown image!'
-        image_path = 'No image_path given'
+        image_name = 'infp-tomh_1987-515x515.gif'
+        image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
     else:
-        image_name = 'A known image'
+        image_name = 'image_path from url: ' + image_path
+        image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
 
     text = 'descriptive text here'
 
