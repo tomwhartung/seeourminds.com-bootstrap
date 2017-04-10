@@ -84,9 +84,21 @@
 
           <aside>
             {% block top_aside %}
-              <div>
-                Code for Google AdSense ads goes here.
-              </div>
+              {% block top_aside_ad %}
+                {{ ads.top_aside_ad }}
+              {% endblock %}
+              {% block top_aside_email %}
+              <h3>Join our email list!</h3>
+              <p>
+                Join our email list to stay up-to-date!</p>
+              <form method="POST" action="http://groja.com/conversion/seeourminds"
+                  class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input name="email" type="text" placeholder="Email" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Sign up</button>
+              </form>
+              {% endblock %}
             {% endblock %}
           </aside>
         </div><!-- .col-md-4 -->
