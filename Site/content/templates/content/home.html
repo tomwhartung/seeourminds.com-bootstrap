@@ -23,10 +23,13 @@
 {% endblock %}
 
 {% block top_aside %}
+  {% block top_aside_top_ad %}
+    {{ block.super }}
+  {% endblock %}
   {% block top_aside_email %}
     {{ block.super }}
   {% endblock %}
-  {% block top_aside_ad %}
+  {% block top_aside_bottom_ad %}
     {{ block.super }}
   {% endblock %}
 {% endblock %}
