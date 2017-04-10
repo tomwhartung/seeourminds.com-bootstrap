@@ -96,7 +96,13 @@
       {% block above_middle_row_ad %}
       {% endblock %}
       <div class="row">
+        {% block middle_left_ad %}
+          {{ ads.middle_left }}
+        {% endblock %}
         {% block middle_content %}
+        {% endblock %}
+        {% block middle_right_ad %}
+          {{ ads.middle_right }}
         {% endblock %}
       </div><!-- .row -->
       {% block below_middle_row_ad %}
