@@ -19,6 +19,13 @@ from django.views.generic.base import View
 from .forms import QuizForm
 from .models import Quiz
 
+ads = {}
+ads["top_aside_ad"] = '<p>This is "top_aside_ad" Google AdSense markup.</p>'
+ads["above_middle_row_ad"] = '<p>This is "above_middle_row_ad" markup.</p>'
+ads["middle_left_ad"] = '<p>This is "middle_left_ad" markup.</p>'
+ads["middle_right_ad"] = '<p>This is "middle_right_ad" markup.</p>'
+ads["below_middle_row_ad"] = '<p>This is "below_middle_row_ad" markup.</p>'
+
 
 def home(request):
 
@@ -27,6 +34,7 @@ def home(request):
     context_home_selected = 'class="disabled"'      # see seeourminds.css
     template = loader.get_template('content/home.html')
     context = {
+        'ads': ads,
         'context_home_selected': context_home_selected,
     }
     return HttpResponse(template.render(context, request))
@@ -160,12 +168,6 @@ def image(request, image_path=None):
         image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
 
     text = 'descriptive text here'
-
-    ads = {}
-    ads["above_middle_row_ad"] = '<p>This is "above_middle_row_ad" markup.</p>'
-    ads["middle_left_ad"] = '<p>This is "middle_left_ad" markup.</p>'
-    ads["middle_right_ad"] = '<p>This is "middle_right_ad" markup.</p>'
-    ads["below_middle_row_ad"] = '<p>This is "below_middle_row_ad" markup.</p>'
 
     return render(request, 'content/image.html',
          {'ads': ads,
