@@ -216,6 +216,15 @@ ul.notes {
 }
 
 /*
+ * Keep images etc. from overflowing their containers
+ * Reference:
+ *   https://developers.google.com/web/fundamentals/design-and-ui/responsive/images#use_relative_sizes_for_images
+ */
+img, embed, object, video {
+    max-width: 100%;
+}
+
+/*
  * =================
  * For the Home page
  * =================
