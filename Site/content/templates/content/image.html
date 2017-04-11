@@ -15,17 +15,17 @@
 {% endblock %}
 
 {% block middle_content %}
+  <div class="col-md-8">
     <section id="image">
-      <div class="col-md-6">
-        <div class="single-image">
-          <figure>
-            <img src="{% static image_path %}" class="single-img">
-            <figcaption><q>{{ image_name }}</q></figcaption>
-          </figure>
-          <p>{{ text }}</p>
-        </div><!-- .gallery-image -->
-      </div><!-- .col-md-6 -->
-    </section><!-- #all-gallery-images -->
+      <div class="single-image">
+        <figure>
+          <img src="{% static image_path %}" class="single-img">
+          <figcaption><q>{{ image_name }}</q></figcaption>
+        </figure>
+        <p>{{ text }}</p>
+      </div><!-- .single-image -->
+    </section><!-- #image -->
+  </div><!-- .col-md-8 -->
 {% endblock %}
 
 {% block middle_right_ad %}
