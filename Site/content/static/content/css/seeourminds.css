@@ -235,6 +235,23 @@ img, embed, object, video {
     padding: .5em;
 }
 /*
+ * ====================
+ * For the Gallery page
+ * ====================
+ */
+.gallery-image {
+    border: 2px solid midnightblue;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    text-align: left;
+}
+img.gallery-img {
+    height: 125px;
+    width: 125px;
+}
+
+/*
  * =========================
  * For the single image page
  * =========================
