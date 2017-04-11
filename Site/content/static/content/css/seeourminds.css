@@ -257,15 +257,9 @@ img.gallery-img {
  * =========================
  */
 .single-image {
-    border-color: red;
-    border-style: solid;
-    border-width: 2px;
     width: 100%;
 }
 .single-img {
-    border-color: blue;
-    border-style: solid;
-    border-width: 4px;
     margin: 4px;
     padding: 4px;
     height: 515px;
