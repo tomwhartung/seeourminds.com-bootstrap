@@ -113,12 +113,16 @@
       {% endblock %}
       <div class="row">
         {% block middle_left_ad %}
-          {{ adsense_ads.middle_left_ad | safe }}
+          <div class="col-md-2">
+            {{ adsense_ads.middle_left_ad | safe }}
+          </div><!-- .col-md-2 -->
         {% endblock %}
         {% block middle_content %}
         {% endblock %}
         {% block middle_right_ad %}
-          {{ adsense_ads.middle_right_ad | safe }}
+          <div class="col-md-2">
+            {{ adsense_ads.middle_right_ad | safe }}
+          </div><!-- .col-md-2 -->
         {% endblock %}
       </div><!-- .row -->
       {% block below_middle_row_ad %}
