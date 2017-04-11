@@ -8,17 +8,39 @@ Reference:
   (none)
 """
 
-adsense_ads = {
-    "top_aside_top_ad":
-        '<h4>Google AdSense markup for the "top_aside_top_ad" block.</h4>',
-    "top_aside_bottom_ad":
-        '<h4>Google AdSense markup for the "top_aside_bottom_ad" block.</h4>',
-    "above_middle_row_ad":
-        '<h4>Google AdSense markup for the "above_middle_row_ad" block.</h4>',
-    "middle_left_ad":
-        '<h4>Google AdSense markup for the "middle_left_ad" block.</h4>',
-    "middle_right_ad":
-        '<h4>Google AdSense markup for the "middle_right_ad" block.</h4>',
-    "below_middle_row_ad":
-        '<h4>Google AdSense markup for the "below_middle_row_ad" block.</h4>',
-}
+import os
+USE_AD_PLACEHOLDERS = os.environ.get('USE_AD_PLACEHOLDERS')
+
+adsense_ads = {}
+
+if USE_AD_PLACEHOLDERS:
+    adsense_ads = {
+        "top_aside_top_ad":
+            '<h4>Google AdSense "top_aside_top_ad" placeholder.</h4>',
+        "top_aside_bottom_ad":
+            '<h4>Google AdSense "top_aside_bottom_ad" placeholder.</h4>',
+        "above_middle_row_ad":
+            '<h4>Google AdSense "above_middle_row_ad" placeholder.</h4>',
+        "middle_left_ad":
+            '<h4>Google AdSense "middle_left_ad" placeholder.</h4>',
+        "middle_right_ad":
+            '<h4>Google AdSense "middle_right_ad" placeholder.</h4>',
+        "below_middle_row_ad":
+            '<h4>Google AdSense "below_middle_row_ad" placeholder.</h4>',
+    }
+else:
+    adsense_ads = {
+        "top_aside_top_ad":
+            '<h4>Future Google AdSense "top_aside_top_ad" code.</h4>',
+        "top_aside_bottom_ad":
+            '<h4>Future Google AdSense "top_aside_bottom_ad" code.</h4>',
+        "above_middle_row_ad":
+            '<h4>Future Google AdSense "above_middle_row_ad" code.</h4>',
+        "middle_left_ad":
+            '<h4>Future Google AdSense "middle_left_ad" code.</h4>',
+        "middle_right_ad":
+            '<h4>Future Google AdSense "middle_right_ad" code.</h4>',
+        "below_middle_row_ad":
+            '<h4>Future Google AdSense "below_middle_row_ad" code.</h4>',
+    }
+
