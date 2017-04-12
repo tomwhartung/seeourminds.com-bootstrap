@@ -9,11 +9,11 @@ Reference:
 """
 
 import os
-USE_AD_PLACEHOLDERS = os.environ.get('USE_AD_PLACEHOLDERS')
+RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 
 adsense_ads = {}
 
-if USE_AD_PLACEHOLDERS:
+if RUNNING_LOCALLY:
     adsense_ads = {
         "top_aside_top_ad":
             '<h4>Google AdSense "top_aside_top_ad" placeholder.</h4>',
