@@ -31,16 +31,16 @@ if RUNNING_LOCALLY:
 else:
     adsense_ads = {
         "top_aside_top_ad":
-            '<h4>Future Google AdSense "top_aside_top_ad" code.</h4>',
+            '<p>["top_aside_top_ad"].</p>',
         "top_aside_bottom_ad":
-            '<h4>Future Google AdSense "top_aside_bottom_ad" code.</h4>',
+            '<p>["top_aside_bottom_ad"].</p>',
         "above_middle_row_ad":
-            '<h4>Future Google AdSense "above_middle_row_ad" code.</h4>',
+            '<p>["above_middle_row_ad"].</p>',
         "middle_left_ad":
-            '<h4>Future Google AdSense "middle_left_ad" code.</h4>',
+            '<p>["middle_left_ad"].</p>',
         "middle_right_ad":
-            '<h4>Future Google AdSense "middle_right_ad" code.</h4>',
+            '<p>["middle_right_ad"].</p>',
         "below_middle_row_ad":
-            '<h4>Future Google AdSense "below_middle_row_ad" code.</h4>',
+            '<p>["below_middle_row_ad"].</p>',
     }
 
