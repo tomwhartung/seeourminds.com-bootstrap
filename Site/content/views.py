@@ -163,20 +163,21 @@ def image(request, image_id=0):
         print('views.image: non-numeric "image_id" from url: ' + image_id)
         image_id_int = 0
 
-    if image_id_int == 0:
-        image_name = 'infp-tomh_1987-515x515.gif'
-        image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
-    else:
-        image_name = 'image_id_int from url: ' + str(image_id_int)
-        image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
+    image = {}
+    image["id"] = image_id_int
 
-    text = 'descriptive text here'
+    if image_id_int == 0:
+        image["name"] = 'infp-tomh_1987-515x515.gif'
+        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+    else:
+        image["name"] = 'image_id_int from url: ' + str(image_id_int)
+        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+
+    image["description"] = 'description goes here'
 
     return render(request, 'content/image.html',
          {'adsense_ads': adsense_ads,
-          'image_name': image_name,
-          'image_path': image_path,
-          'text': text,
+          'image': image,
          })
 
 
