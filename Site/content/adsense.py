@@ -54,7 +54,16 @@ else:
                 '(adsbygoogle = window.adsbygoogle || []).push({});' \
             '</script>',
         "top_aside_bottom_ad":
-            '<p>["top_aside_bottom_ad"].</p>',
+            '<script async ' \
+                'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
+            '<!-- Top Aside Bottom Ad - Large Mobile Banner -->' \
+            '<ins class="adsbygoogle"' \
+                'style="display:inline-block;width:320px;height:100px" ' \
+                'data-ad-client="ca-pub-2594011034406643" ' \
+                'data-ad-slot="1243096048"></ins>' \
+            '<script>' \
+                '(adsbygoogle = window.adsbygoogle || []).push({});' \
+            '</script>',
         "above_middle_row_ad":
             '<p>["above_middle_row_ad"].</p>',
         "middle_left_ad":
