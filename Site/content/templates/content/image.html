@@ -21,10 +21,10 @@
     <section id="image">
       <div class="single-image">
         <figure>
-          <img src="{% static image_path %}" class="single-img">
-          <figcaption><q>{{ image_name }}</q></figcaption>
+          <img src="{% static image.path %}" class="single-img">
+          <figcaption><q>{{ image.name }}</q></figcaption>
         </figure>
-        <p>{{ text }}</p>
+        <p>{{ image.description }}</p>
       </div><!-- .single-image -->
     </section><!-- #image -->
   </div><!-- .col-md-8 -->
