@@ -30,8 +30,29 @@ if RUNNING_LOCALLY:
     }
 else:
     adsense_ads = {
+        # "top_aside_top_ad":
+        #     '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
+        #     '<!-- Top Aside Top Ad - Responsive -->' \
+        #     '<ins class="adsbygoogle" ' \
+        #          'style="display:block" ' \
+        #          'data-ad-client="ca-pub-2594011034406643" ' \
+        #          'data-ad-slot="4475764040" ' \
+        #          'data-ad-format="auto"></ins>' \
+        #     '<script>' \
+        #         '(adsbygoogle = window.adsbygoogle || []).push({});' \
+        #     '</script>',
         "top_aside_top_ad":
-            '<p>["top_aside_top_ad"].</p>',
+            '<script async ' \
+                'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+            '</script>' \
+            '<!-- Top Aside Top Ad - Large Rectangle -->' \
+            '<ins class="adsbygoogle" ' \
+                'style="display:inline-block;width:336px;height:280px" ' \
+                'data-ad-client="ca-pub-2594011034406643" ' \
+                'data-ad-slot="5812896448"></ins>' \
+            '<script>' \
+                '(adsbygoogle = window.adsbygoogle || []).push({});' \
+            '</script>',
         "top_aside_bottom_ad":
             '<p>["top_aside_bottom_ad"].</p>',
         "above_middle_row_ad":
