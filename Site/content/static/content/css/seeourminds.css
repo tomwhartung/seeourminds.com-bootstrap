@@ -163,9 +163,13 @@ nav a {
  *    http://www.kodingmadesimple.com/2014/11/create-stylish-bootstrap-3-social-media-icons.html
  */
 .social-media-icons {
-    float: right;
-    margin-left: auto;
-    margin-right: 10px;
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    padding: .1em .3em;
+    z-index: 1;
 }
 i.fa-lg {
     margin: .1em;
