@@ -153,15 +153,21 @@ def quiz_results(request):
     return render(request, 'content/quiz_results.html', {'quiz_results': quiz_results})
 
 
-def image(request, image_path=None):
+def image(request, image_id=0):
 
     """ Render the single image template """
 
-    if image_path == None:
+    try:
+        image_id_int = int(image_id)
+    except:
+        print('views.image: non-numeric "image_id" from url: ' + image_id)
+        image_id_int = 0
+
+    if image_id_int == 0:
         image_name = 'infp-tomh_1987-515x515.gif'
         image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
     else:
-        image_name = 'image_path from url: ' + image_path
+        image_name = 'image_id_int from url: ' + str(image_id_int)
         image_path = 'content/images/header/infp-tomh_1987-515x515.gif'
 
     text = 'descriptive text here'
