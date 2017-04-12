@@ -167,13 +167,20 @@ def image(request, image_id=0):
     image["id"] = image_id_int
 
     if image_id_int == 0:
-        image["name"] = 'infp-tomh_1987-515x515.gif'
+        image["name"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
         image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+        image["description"] = 'The image contains mostly blue and red, ' \
+           'indicating I am idealistic and passionate.  ' \
+           'There is also plenty of green and yellow, however, indicating ' \
+           'I can be logical and down-to-earth when the situation calls ' \
+           'for it.' \
+           'This is just the sort of person who can both conceive of ' \
+           'this idea and follow through and learn the details needed to ' \
+           'implement it.'
     else:
         image["name"] = 'image_id_int from url: ' + str(image_id_int)
         image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
-
-    image["description"] = 'description goes here'
+        image["description"] = 'description goes here'
 
     return render(request, 'content/image.html',
          {'adsense_ads': adsense_ads,
