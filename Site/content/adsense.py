@@ -11,7 +11,12 @@ Reference:
 import os
 RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 
-
+#
+# We define global constants to contain the code we get from google.
+# This makes it easier to format the code itself for PEP8 compliance, and
+# makes it easier to turn add types off and on as we zero in on how
+# we want them to look.
+#
 TOP_ASIDE_TOP_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -86,51 +91,13 @@ if RUNNING_LOCALLY:
 else:
     adsense_ads = {
         "top_aside_top_ad":
-            '<script async ' \
-                'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
-            '</script>' \
-            '<!-- Top Aside Top Ad - Large Rectangle -->' \
-            '<ins class="adsbygoogle" ' \
-                'style="display:inline-block;width:336px;height:280px" ' \
-                'data-ad-client="ca-pub-2594011034406643" ' \
-                'data-ad-slot="5812896448"></ins>' \
-            '<script>' \
-                '(adsbygoogle = window.adsbygoogle || []).push({});' \
-            '</script>',
+            TOP_ASIDE_TOP_AD,
         "top_aside_top_responsive_ad":
-            '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
-            '<!-- Top Aside Top Ad - Responsive -->' \
-            '<ins class="adsbygoogle" ' \
-                 'style="display:block" ' \
-                 'data-ad-client="ca-pub-2594011034406643" ' \
-                 'data-ad-slot="4475764040" ' \
-                 'data-ad-format="auto"></ins>' \
-            '<script>' \
-                '(adsbygoogle = window.adsbygoogle || []).push({});' \
-            '</script>',
+            TOP_ASIDE_TOP_RESPONSIVE_AD,
         "top_aside_bottom_ad":
-            '<script async ' \
-                'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
-            '<!-- Top Aside Bottom Ad - Large Mobile Banner -->' \
-            '<ins class="adsbygoogle"' \
-                'style="display:inline-block;width:320px;height:100px" ' \
-                'data-ad-client="ca-pub-2594011034406643" ' \
-                'data-ad-slot="1243096048"></ins>' \
-            '<script>' \
-                '(adsbygoogle = window.adsbygoogle || []).push({});' \
-            '</script>',
+            TOP_ASIDE_BOTTOM_AD,
         "top_aside_bottom_responsive_ad":
-            '<script async '\
-                'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
-            '<!-- Top Aside Bottom Ad - Responsive -->' \
-            '<ins class="adsbygoogle" ' \
-                'style="display:block" ' \
-                'data-ad-client="ca-pub-2594011034406643" ' \
-                'data-ad-slot="4416888448" ' \
-                'data-ad-format="auto"></ins>' \
-            '<script>' \
-                '(adsbygoogle = window.adsbygoogle || []).push({});' \
-            '</script>',
+            TOP_ASIDE_BOTTOM_RESPONSIVE_AD,
         "above_middle_row_ad":
             '<p>["above_middle_row_ad"].</p>',
         "middle_left_ad":
