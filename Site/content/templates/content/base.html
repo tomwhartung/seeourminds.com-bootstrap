@@ -79,16 +79,17 @@
       <div class="row">
         {% block top_content_left %}
         {% endblock %}
-        <div class="md-4">
-          {% block top_aside %}
-            <aside>
-              {% block top_aside_top_ad %}
-                {{ adsense_ads.top_aside_top_ad | safe }}
-              {% endblock %}
-              {% block top_aside_top_responsive_ad %}
-                {{ adsense_ads.top_aside_top_responsive_ad | safe }}
-              {% endblock %}
-              {% block top_aside_email %}
+        {% block top_aside %}
+          <div class="col-md-4">
+            {% block top_aside_top_ad %}
+              {{ adsense_ads.top_aside_top_ad | safe }}
+            {% endblock %}
+            {% block top_aside_top_responsive_ad %}
+              {{ adsense_ads.top_aside_top_responsive_ad | safe }}
+            {% endblock %}
+          </div><!-- .col-md-4 -->
+          {% block top_aside_email %}
+              <aside>
                 <h3>Join our email list!</h3>
                 <p>
                  Join our email list to stay up-to-date!</p>
@@ -99,16 +100,17 @@
                    </div>
                    <button type="submit" class="btn btn-success">Sign up</button>
                 </form>
-              {% endblock %}
-              {% block top_aside_bottom_responsive_ad %}
-                {{ adsense_ads.top_aside_bottom_responsive_ad | safe }}
-              {% endblock %}
-              {% block top_aside_bottom_ad %}
-                {{ adsense_ads.top_aside_bottom_ad | safe }}
-              {% endblock %}
-            </aside>
+              </aside>
           {% endblock %}
-        </div><!-- .col-md-4 -->
+          <div class="col-md-4">
+            {% block top_aside_bottom_responsive_ad %}
+              {{ adsense_ads.top_aside_bottom_responsive_ad | safe }}
+            {% endblock %}
+            {% block top_aside_bottom_ad %}
+              {{ adsense_ads.top_aside_bottom_ad | safe }}
+            {% endblock %}
+          </div><!-- .col-md-4 -->
+        {% endblock %}
         {% block top_content_right %}
         {% endblock %}
       </div><!-- .row -->
