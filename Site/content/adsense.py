@@ -53,8 +53,18 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
-TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD = \
-    ''
+TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Top Aside Bottom Ad - Responsive Links -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:block" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="5662962444" ' \
+        'data-ad-format="link"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
 
 TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD = \
     '<script async ' \
@@ -106,11 +116,12 @@ else:
     adsense_ads = {
         "top_aside_top_ad":
             # TOP_ASIDE_TOP_LARGE_RECTANGLE_AD,
-            TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD = \
+            TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD,
         "top_aside_top_responsive_ad":
             TOP_ASIDE_TOP_RESPONSIVE_AD,
         "top_aside_bottom_ad":
-            TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD,
+            # TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD,
+            TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_AD,
         "top_aside_bottom_responsive_ad":
             TOP_ASIDE_BOTTOM_RESPONSIVE_AD,
         "above_middle_row_ad":
