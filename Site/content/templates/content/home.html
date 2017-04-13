@@ -24,26 +24,18 @@
 
 {% block top_aside %}
   <aside>
-    {% block top_aside_top_ad %}
-      {{ block.super }}
-    {% endblock %}
-    {% block top_aside_top_responsive_ad %}
-    {% endblock %}
+    {% block top_aside_top_ad %}{{ block.super }}{% endblock %}
+    {% block top_aside_top_responsive_ad %}{% endblock %}
     {% block top_aside_email %}
       {{ block.super }}
     {% endblock %}
-    {% block top_aside_bottom_ad %}
-      {{ block.super }}
-    {% endblock %}
-    {% block top_aside_bottom_responsive_ad %}
-    {% endblock %}
+    {% block top_aside_bottom_ad %}{{ block.super }}{% endblock %}
+    {% block top_aside_bottom_responsive_ad %}{% endblock %}
   </aside>
 {% endblock %}
 
-{% block above_middle_row_ad %}
-{% endblock %}
-{% block middle_left_ad %}
-{% endblock %}
+{% block above_middle_row_ad %}{% endblock %}
+{% block middle_left_ad %}{% endblock %}
 
 {% block middle_content %}
   {% load static %}
@@ -102,10 +94,8 @@
   </section><!-- #middle-content -->
 {% endblock %}
 
-{% block middle_right_ad %}
-{% endblock %}
-{% block below_middle_row_ad %}
-{% endblock %}
+{% block middle_right_ad %}{% endblock %}
+{% block below_middle_row_ad %}{% endblock %}
 
 {% block bottom_content %}
   <section id="bottom-content">
