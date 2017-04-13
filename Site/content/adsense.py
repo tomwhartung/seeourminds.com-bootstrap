@@ -56,8 +56,13 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+#
+# Responsive ads may vary in size.
+# At first I thought this one was 190x130, now it's 322x90, and
+#   I suppose it may change again
+#
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_IFRAME = \
-    '<iframe width="190" height="130" allowtransparency="true" ' \
+    '<iframe width="322" height="90" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_AD = \
     '<script async ' \
