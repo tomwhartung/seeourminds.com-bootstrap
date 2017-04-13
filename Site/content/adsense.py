@@ -17,8 +17,12 @@ if RUNNING_LOCALLY:
     adsense_ads = {
         "top_aside_top_ad":
             '<h4>Google AdSense "top_aside_top_ad" placeholder.</h4>',
+        "top_aside_top_responsive_ad":
+            '<h4>Google AdSense "top_aside_top_responsive_ad" placeholder.</h4>',
         "top_aside_bottom_ad":
             '<h4>Google AdSense "top_aside_bottom_ad" placeholder.</h4>',
+        "top_aside_bottom_responsive_ad":
+            '<h4>Google AdSense "top_aside_bottom_responsive_ad" placeholder.</h4>',
         "above_middle_row_ad":
             '<h4>Google AdSense "above_middle_row_ad" placeholder.</h4>',
         "middle_left_ad":
@@ -30,17 +34,6 @@ if RUNNING_LOCALLY:
     }
 else:
     adsense_ads = {
-        # "top_aside_top_ad":
-        #     '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
-        #     '<!-- Top Aside Top Ad - Responsive -->' \
-        #     '<ins class="adsbygoogle" ' \
-        #          'style="display:block" ' \
-        #          'data-ad-client="ca-pub-2594011034406643" ' \
-        #          'data-ad-slot="4475764040" ' \
-        #          'data-ad-format="auto"></ins>' \
-        #     '<script>' \
-        #         '(adsbygoogle = window.adsbygoogle || []).push({});' \
-        #     '</script>',
         "top_aside_top_ad":
             '<script async ' \
                 'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -53,6 +46,17 @@ else:
             '<script>' \
                 '(adsbygoogle = window.adsbygoogle || []).push({});' \
             '</script>',
+        "top_aside_top_responsive_ad":
+            '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
+            '<!-- Top Aside Top Ad - Responsive -->' \
+            '<ins class="adsbygoogle" ' \
+                 'style="display:block" ' \
+                 'data-ad-client="ca-pub-2594011034406643" ' \
+                 'data-ad-slot="4475764040" ' \
+                 'data-ad-format="auto"></ins>' \
+            '<script>' \
+                '(adsbygoogle = window.adsbygoogle || []).push({});' \
+            '</script>',
         "top_aside_bottom_ad":
             '<script async ' \
                 'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
@@ -61,6 +65,18 @@ else:
                 'style="display:inline-block;width:320px;height:100px" ' \
                 'data-ad-client="ca-pub-2594011034406643" ' \
                 'data-ad-slot="1243096048"></ins>' \
+            '<script>' \
+                '(adsbygoogle = window.adsbygoogle || []).push({});' \
+            '</script>',
+        "top_aside_bottom_responsive_ad":
+            '<script async '\
+                'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
+            '<!-- Top Aside Bottom Ad - Responsive -->' \
+            '<ins class="adsbygoogle" ' \
+                'style="display:block" ' \
+                'data-ad-client="ca-pub-2594011034406643" ' \
+                'data-ad-slot="4416888448" ' \
+                'data-ad-format="auto"></ins>' \
             '<script>' \
                 '(adsbygoogle = window.adsbygoogle || []).push({});' \
             '</script>',
