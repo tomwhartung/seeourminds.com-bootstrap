@@ -85,6 +85,9 @@
               {% block top_aside_top_ad %}
                 {{ adsense_ads.top_aside_top_ad | safe }}
               {% endblock %}
+              {% block top_aside_top_responsive_ad %}
+                {{ adsense_ads.top_aside_top_responsive_ad | safe }}
+              {% endblock %}
               {% block top_aside_email %}
                 <h3>Join our email list!</h3>
                 <p>
@@ -96,6 +99,9 @@
                    </div>
                    <button type="submit" class="btn btn-success">Sign up</button>
                 </form>
+              {% endblock %}
+              {% block top_aside_bottom_responsive_ad %}
+                {{ adsense_ads.top_aside_bottom_responsive_ad | safe }}
               {% endblock %}
               {% block top_aside_bottom_ad %}
                 {{ adsense_ads.top_aside_bottom_ad | safe }}
