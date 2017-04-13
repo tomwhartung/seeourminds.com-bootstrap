@@ -11,18 +11,25 @@ Reference:
 import os
 RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 
+# #############################################################################
 #
 # We define global constants to contain the code we get from google.
 # This makes it easier to format the code itself for PEP8 compliance, and
 # makes it easier to turn ad types off and on as we zero in on how
 # we want them to look.
 #
+# #############################################################################
+#
+# Ads for the aside(s) on the home page, etc.
+# -------------------------------------------
+#
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_IFRAME = \
     '<iframe width="320" height="100" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD = \
     '<script async ' \
-        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
     '<!-- Top Aside Top Ad -->' \
     '<ins class="adsbygoogle" ' \
         'style="display:inline-block;width:320px;height:100px" ' \
@@ -102,6 +109,26 @@ TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+# #############################################################################
+#
+# Leaderboard ads for the single image page, etc.
+# -----------------------------------------------
+#
+ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
+    '<iframe width="970" height="90" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Above Middle Row Ad - Large Leaderboard -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:inline-block;width:970px;height:90px" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="7360021648"></ins> ' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
 ABOVE_MIDDLE_ROW_LEADERBOARD_IFRAME = \
     '<iframe width="728" height="90" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
@@ -117,6 +144,17 @@ ABOVE_MIDDLE_ROW_LEADERBOARD_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
+    '<iframe width="970" height="90" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
+    ''
+
+# #############################################################################
+#
+# Define the dictionary that contains the ad code, and
+# populate it appropriately, based on whether we are running locally
+#
 adsense_ads = {}
 
 if RUNNING_LOCALLY:
@@ -130,7 +168,7 @@ if RUNNING_LOCALLY:
         "top_aside_bottom_responsive_ad":
             '<h4>Google AdSense "top_aside_bottom_responsive_ad" placeholder.</h4>',
         "above_middle_row_ad":
-            ABOVE_MIDDLE_ROW_LEADERBOARD_IFRAME,
+            ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
         "middle_left_ad":
             '<h4>Google AdSense "middle_left_ad" placeholder.</h4>',
         "middle_right_ad":
@@ -151,7 +189,7 @@ else:
         "top_aside_bottom_responsive_ad":
             TOP_ASIDE_BOTTOM_RESPONSIVE_AD,
         "above_middle_row_ad":
-            ABOVE_MIDDLE_ROW_LEADERBOARD_AD,
+            ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD,
         "middle_left_ad":
             '<p>["middle_left_ad"].</p>',
         "middle_right_ad":
