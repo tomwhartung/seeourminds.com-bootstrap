@@ -18,20 +18,18 @@
           welcome to</p>
       <h1>SeeOurMinds!</h1>
       <p class="air-quotes">Shedding light on the things we cannot see.</p>
-	 </section><!-- .jumbotron -->
+    </section><!-- .jumbotron -->
   </div><!-- .col-md-8 -->
 {% endblock %}
 
 {% block top_aside %}
-  <aside>
-    {% block top_aside_top_ad %}{{ block.super }}{% endblock %}
-    {% block top_aside_top_responsive_ad %}{% endblock %}
-    {% block top_aside_email %}
-      {{ block.super }}
-    {% endblock %}
-    {% block top_aside_bottom_ad %}{{ block.super }}{% endblock %}
-    {% block top_aside_bottom_responsive_ad %}{% endblock %}
-  </aside>
+  {% block top_aside_top_ad %}{{ block.super }}{% endblock %}
+  {% block top_aside_top_responsive_ad %}{% endblock %}
+  {% block top_aside_email %}
+    {{ block.super }}
+  {% endblock %}
+  {% block top_aside_bottom_ad %}{{ block.super }}{% endblock %}
+  {% block top_aside_bottom_responsive_ad %}{% endblock %}
 {% endblock %}
 
 {% block above_middle_row_ad %}{% endblock %}
