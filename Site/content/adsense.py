@@ -17,6 +17,8 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 # makes it easier to turn ad types off and on as we zero in on how
 # we want them to look.
 #
+TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_DIV = \
+    '<div width="320" height="100" background-color="#CCCCCC">'
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>' \
@@ -53,6 +55,8 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_DIV = \
+    '<div width="190" height="130" background-color="#CCCCCC">'
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -96,11 +100,11 @@ adsense_ads = {}
 if RUNNING_LOCALLY:
     adsense_ads = {
         "top_aside_top_ad":
-            '<h4>Google AdSense "top_aside_top_ad" placeholder.</h4>',
+            TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_DIV,
         "top_aside_top_responsive_ad":
             '<h4>Google AdSense "top_aside_top_responsive_ad" placeholder.</h4>',
         "top_aside_bottom_ad":
-            '<h4>Google AdSense "top_aside_bottom_ad" placeholder.</h4>',
+            TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_DIV,
         "top_aside_bottom_responsive_ad":
             '<h4>Google AdSense "top_aside_bottom_responsive_ad" placeholder.</h4>',
         "above_middle_row_ad":
