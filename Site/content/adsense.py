@@ -102,6 +102,21 @@ TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+ABOVE_MIDDLE_ROW_LEADERBOARD_IFRAME = \
+    '<iframe width="728" height="90" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+ABOVE_MIDDLE_ROW_LEADERBOARD_AD = \
+    '<script async ' \
+       'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Above Middle Row Ad - Leaderboard -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:inline-block;width:728px;height:90px" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="2929822048"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
 adsense_ads = {}
 
 if RUNNING_LOCALLY:
@@ -115,7 +130,7 @@ if RUNNING_LOCALLY:
         "top_aside_bottom_responsive_ad":
             '<h4>Google AdSense "top_aside_bottom_responsive_ad" placeholder.</h4>',
         "above_middle_row_ad":
-            '<h4>Google AdSense "above_middle_row_ad" placeholder.</h4>',
+            ABOVE_MIDDLE_ROW_LEADERBOARD_IFRAME,
         "middle_left_ad":
             '<h4>Google AdSense "middle_left_ad" placeholder.</h4>',
         "middle_right_ad":
@@ -136,7 +151,7 @@ else:
         "top_aside_bottom_responsive_ad":
             TOP_ASIDE_BOTTOM_RESPONSIVE_AD,
         "above_middle_row_ad":
-            '<p>["above_middle_row_ad"].</p>',
+            ABOVE_MIDDLE_ROW_LEADERBOARD_AD,
         "middle_left_ad":
             '<p>["middle_left_ad"].</p>',
         "middle_right_ad":
