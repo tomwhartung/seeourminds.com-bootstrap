@@ -14,10 +14,10 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 #
 # We define global constants to contain the code we get from google.
 # This makes it easier to format the code itself for PEP8 compliance, and
-# makes it easier to turn add types off and on as we zero in on how
+# makes it easier to turn ad types off and on as we zero in on how
 # we want them to look.
 #
-TOP_ASIDE_TOP_AD = \
+TOP_ASIDE_TOP_LARGE_RECTANGLE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
     '</script>' \
@@ -42,7 +42,7 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
-TOP_ASIDE_BOTTOM_AD = \
+TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
     '</script>' \
@@ -91,11 +91,11 @@ if RUNNING_LOCALLY:
 else:
     adsense_ads = {
         "top_aside_top_ad":
-            TOP_ASIDE_TOP_AD,
+            TOP_ASIDE_TOP_LARGE_RECTANGLE_AD,
         "top_aside_top_responsive_ad":
             TOP_ASIDE_TOP_RESPONSIVE_AD,
         "top_aside_bottom_ad":
-            TOP_ASIDE_BOTTOM_AD,
+            TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD,
         "top_aside_bottom_responsive_ad":
             TOP_ASIDE_BOTTOM_RESPONSIVE_AD,
         "above_middle_row_ad":
