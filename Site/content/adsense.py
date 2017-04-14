@@ -50,6 +50,9 @@ TOP_ASIDE_TOP_LARGE_RECTANGLE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+TOP_ASIDE_TOP_RESPONSIVE_IFRAME = \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -96,6 +99,9 @@ TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+TOP_ASIDE_BOTTOM_RESPONSIVE_IFRAME = \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -206,11 +212,11 @@ if RUNNING_LOCALLY:
         "top_aside_top_ad":
             TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_IFRAME,
         "top_aside_top_responsive_ad":
-            '<h4>Google AdSense "top_aside_top_responsive_ad" placeholder.</h4>',
+            TOP_ASIDE_TOP_RESPONSIVE_IFRAME,
         "top_aside_bottom_ad":
             TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_IFRAME,
         "top_aside_bottom_responsive_ad":
-            '<h4>Google AdSense "top_aside_bottom_responsive_ad" placeholder.</h4>',
+            TOP_ASIDE_BOTTOM_RESPONSIVE_IFRAME,
         "above_middle_row_ad":
             ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
         "middle_left_ad":
