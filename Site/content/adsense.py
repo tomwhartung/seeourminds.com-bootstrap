@@ -169,7 +169,7 @@ BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 #
 #
 MIDDLE_LEFT_RESPONSIVE_IFRAME = \
-    '<iframe width="320" height="320" allowtransparency="true" ' \
+    '<iframe width="147" height="548" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
 MIDDLE_LEFT_RESPONSIVE_AD = \
     '<script async ' \
@@ -185,7 +185,7 @@ MIDDLE_LEFT_RESPONSIVE_AD = \
     '</script>'
 
 MIDDLE_RIGHT_RESPONSIVE_IFRAME = \
-    '<iframe width="320" height="320" allowtransparency="true" ' \
+    '<iframe width="147" height="548" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
 MIDDLE_RIGHT_RESPONSIVE_AD = \
     '<script async ' \
