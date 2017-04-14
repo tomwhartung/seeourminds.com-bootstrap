@@ -163,9 +163,8 @@ BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 #
 #
 MIDDLE_LEFT_RESPONSIVE_IFRAME = \
-    '<iframe width="322" height="90" allowtransparency="true" ' \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
-
 MIDDLE_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -179,8 +178,21 @@ MIDDLE_LEFT_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+MIDDLE_RIGHT_RESPONSIVE_IFRAME = \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
 MIDDLE_RIGHT_RESPONSIVE_AD = \
-    ''
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Right Ad - Responsive -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:block" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="2092217240" ' \
+        'data-ad-format="auto"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
 
 # #############################################################################
 #
