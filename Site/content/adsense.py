@@ -161,6 +161,29 @@ BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 
 # #############################################################################
 #
+#
+MIDDLE_LEFT_RESPONSIVE_IFRAME = \
+    '<iframe width="322" height="90" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+
+MIDDLE_LEFT_RESPONSIVE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Left Ad - Responsive -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:block" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="5324885242" ' \
+        'data-ad-format="auto"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+MIDDLE_RIGHT_RESPONSIVE_AD = \
+    ''
+
+# #############################################################################
+#
 # Define the dictionary that contains the ad code, and
 # populate it appropriately, based on whether we are running locally
 #
@@ -179,9 +202,9 @@ if RUNNING_LOCALLY:
         "above_middle_row_ad":
             ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
         "middle_left_ad":
-            '<h4>Google AdSense "middle_left_ad" placeholder.</h4>',
+            MIDDLE_LEFT_RESPONSIVE_IFRAME,
         "middle_right_ad":
-            '<h4>Google AdSense "middle_right_ad" placeholder.</h4>',
+            MIDDLE_RIGHT_RESPONSIVE_IFRAME,
         "below_middle_row_ad":
             BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
     }
@@ -200,9 +223,9 @@ else:
         "above_middle_row_ad":
             ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD,
         "middle_left_ad":
-            '<p>["middle_left_ad"].</p>',
+            MIDDLE_LEFT_RESPONSIVE_AD,
         "middle_right_ad":
-            '<p>["middle_right_ad"].</p>',
+            MIDDLE_RIGHT_RESPONSIVE_AD,
         "below_middle_row_ad":
             BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD,
     }
