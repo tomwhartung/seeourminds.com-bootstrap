@@ -87,7 +87,7 @@
             {{ adsense_ads.top_aside_top_responsive_ad | safe }}
           {% endblock %}
           {% block top_aside_email %}
-            <aside>
+            <aside id="top_aside_email">
               <h3>Join our email list!</h3>
               <p>
                 Join our email list to stay up-to-date!</p>
@@ -115,14 +115,14 @@
       {% endblock %}
       <div class="row">
         {% block middle_left_ad %}
-          <div class="col-md-2">
+          <div id="middle_left_ad" class="col-md-2">
             {{ adsense_ads.middle_left_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
         {% block middle_content %}
         {% endblock %}
         {% block middle_right_ad %}
-          <div class="col-md-2">
+          <div id="middle_right_ad" class="col-md-2">
             {{ adsense_ads.middle_right_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
@@ -132,14 +132,14 @@
       {% endblock %}
       <div class="row">
         {% block bottom_left_ad %}
-          <div class="col-md-2">
+          <div id="bottom_left_ad" class="col-md-2">
             {{ adsense_ads.bottom_left_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
         {% block bottom_content %}
         {% endblock %}
         {% block bottom_right_ad %}
-          <div class="col-md-2">
+          <div id="bottom_right_ad" class="col-md-2">
             {{ adsense_ads.bottom_right_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
