@@ -231,6 +231,21 @@ BOTTOM_LEFT_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+BOTTOM_RIGHT_RESPONSIVE_IFRAME = \
+    '<iframe width="147" height="548" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+BOTTOM_RIGHT_RESPONSIVE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Bottom Right Ad - Responsive -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:block" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="5030507249" ' \
+        'data-ad-format="auto"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
 
 # #############################################################################
 #
@@ -259,6 +274,8 @@ if RUNNING_LOCALLY:
             BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
         "bottom_left_ad":
             BOTTOM_LEFT_RESPONSIVE_IFRAME,
+        "bottom_right_ad":
+            BOTTOM_RIGHT_RESPONSIVE_IFRAME,
         "bottom_row_ad":
             BOTTOM_ROW_LARGE_LEADERBOARD_IFRAME,
     }
@@ -284,6 +301,8 @@ else:
             BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD,
         "bottom_left_ad":
             BOTTOM_LEFT_RESPONSIVE_AD,
+        "bottom_right_ad":
+            BOTTOM_RIGHT_RESPONSIVE_AD,
         "bottom_row_ad":
             BOTTOM_ROW_LARGE_LEADERBOARD_AD,
     }
