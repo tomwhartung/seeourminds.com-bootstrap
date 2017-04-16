@@ -215,6 +215,23 @@ MIDDLE_RIGHT_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+BOTTOM_LEFT_RESPONSIVE_IFRAME = \
+    '<iframe width="147" height="548" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+BOTTOM_LEFT_RESPONSIVE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Bottom Left Ad - Responsive -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:block" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="2216641649" ' \
+        'data-ad-format="auto"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+
 # #############################################################################
 #
 # Define the dictionary that contains the ad code, and
@@ -240,6 +257,8 @@ if RUNNING_LOCALLY:
             MIDDLE_RIGHT_RESPONSIVE_IFRAME,
         "below_middle_row_ad":
             BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
+        "bottom_left_ad":
+            BOTTOM_LEFT_RESPONSIVE_IFRAME,
         "bottom_row_ad":
             BOTTOM_ROW_LARGE_LEADERBOARD_IFRAME,
     }
@@ -263,6 +282,8 @@ else:
             MIDDLE_RIGHT_RESPONSIVE_AD,
         "below_middle_row_ad":
             BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD,
+        "bottom_left_ad":
+            BOTTOM_LEFT_RESPONSIVE_AD,
         "bottom_row_ad":
             BOTTOM_ROW_LARGE_LEADERBOARD_AD,
     }
