@@ -280,12 +280,24 @@ figcaption {
  * Styles for the Quiz Page
  * ========================
  */
+.help-text {
+   margin-left: 2em;
+   font-size: .9em;
+   font-style: italic;
+}
+.quiz-error {
+   border: red solid 2px;
+   font-size: 1.25em;
+   list-style-type: none;
+   padding: 0.5em;
+}
 /*
  * We can only style the widget i.e., the input tag, hence the negative value
  */
 input.quiz_answer {
     margin-left: -1.5em;
 }
+#id_question_00,
 #id_question_01, #id_question_02, #id_question_03, #id_question_04, #id_question_05,
 #id_question_06, #id_question_07, #id_question_08, #id_question_09, #id_question_10,
 #id_question_11, #id_question_12, #id_question_13, #id_question_14, #id_question_15,
@@ -303,7 +315,7 @@ input.quiz_answer {
 #id_question_71, #id_question_72, #id_question_73, #id_question_74, #id_question_75,
 #id_question_76, #id_question_77, #id_question_78, #id_question_79, #id_question_80,
 #id_question_81, #id_question_82, #id_question_83, #id_question_84, #id_question_85,
-#id_question_86, #id_question_87, #id_question_88 {
+#id_question_86, #id_question_87 {
     list-style: none;
 }
 
