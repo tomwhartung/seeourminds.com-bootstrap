@@ -17,8 +17,9 @@ from django.template import loader
 from django.views.generic.base import View
 
 from .adsense import adsense_ads
-from .forms import QuizForm
-from .models import Quiz
+from .database import Questionnaire
+from .forms import QuestionnaireForm
+from .models import Score
 
 
 def home(request):
@@ -85,63 +86,82 @@ def gallery(request, gallery_name='all'):
     return HttpResponse(template.render(context, request))
 
 
-def quiz(request):
+def quiz(request, quiz_size_slug=None):
 
     """ Load and render the Quiz page template """
 
+    quiz_form = None
     if request.method == 'POST':
-        quiz_form = QuizForm(request.POST)
-        #
-        #  Form processing is tbd...
-        #  We are not yet doing anything with this data on the server
-        #
-        if quiz_form.is_valid():
-            # name = quiz_form.cleaned_data['name']
-            # email = quiz_form.cleaned_data['email']
-            # print('form is valid, got name:', name)
-            # print('form is valid, got email:', email)
-            # redirect to a new URL:
-            # print('quiz_form.cleaned_data:', quiz_form.cleaned_data)
-            print('views.quiz() - len(quiz_form.cleaned_data):',
-                    len(quiz_form.cleaned_data))
-            quiz_model = Quiz()
-            score = quiz_model.score_quiz(quiz_form.cleaned_data)
-            four_letter_type = "Type: " + score.as_four_letter_type()
-            # quiz_results_counts = "Counts: " + score.__str__()
-            # quiz_results_pcts = "Percentages: " + score.as_percentages()
-            # counts_and_pcts = "Score: " + score.as_counts_and_pcts()
-            messages.add_message(request, messages.INFO, four_letter_type)
-            # messages.add_message(request, messages.INFO, quiz_results_counts)
-            # messages.add_message(request, messages.INFO, quiz_results_pcts)
-            # messages.add_message(request, messages.INFO, counts_and_pcts)
-            # score_list = score.as_list_of_counts_and_pcts()
-            # counts_and_pcts_html = '<ul>'
-            # for score_pair in score_list:
-            #     counts_and_pcts_html += '<li>'
-            #     for single_score in score_pair:
-            #         counts_and_pcts_html += single_score + '&nbsp;'
-            #     counts_and_pcts_html += '</li>'
-            # counts_and_pcts_html += '</ul>'
-            # messages.add_message(request, messages.INFO, counts_and_pcts_html)
-            score_list = score.as_list_of_pcts_and_counts()
-            pcts_and_counts_html = '<ul>'
-            for score_pair in score_list:
-                pcts_and_counts_html += '<li>'
-                for single_score in score_pair:
-                    pcts_and_counts_html += single_score + '&nbsp;'
-                pcts_and_counts_html += '</li>'
-            pcts_and_counts_html += '</ul>'
-            messages.add_message(request, messages.INFO, pcts_and_counts_html)
-            return HttpResponseRedirect('/quiz/results')
-    else:
-        quiz_form = QuizForm()
+        print('views.quiz() - request.POST:', request.POST)
+        try:
+            email = request.POST["email"]
+            load_answers = request.POST["load-answers"]
+        except:
+            email = ''
+            load_answers = ''
+        if load_answers == '':
+            quiz_form = QuestionnaireForm(
+                    quiz_size_slug=quiz_size_slug, data=request.POST)
+            if quiz_form.is_valid():
+                print('views.quiz() - quiz_form is_valid')
+                score = Score()
+                score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
+                if score.is_complete():
+                    print('views.quiz() - score is_complete')
+                    score.save_questionnaire(quiz_form.cleaned_data, quiz_size_slug)
+                    score.set_quiz_results_messages(request)
+                    return HttpResponseRedirect('/quiz/results')
+                else:
+                    print('views.quiz() - score is NOT complete')
+                    score.set_incomplete_message(request)
+        else:
+            if email == '':
+                need_email_msg = 'ERROR: email is required to load the answers'
+                print('views.quiz() -', need_email_msg)
+                messages.add_message(request, messages.ERROR, need_email_msg)
+            else:
+                questionnaire = Questionnaire()
+                new_request_post = questionnaire.add_answers(email, request)
+                # print('views.quiz() - new_request_post:', new_request_post)
+                quiz_form = QuestionnaireForm(
+                        quiz_size_slug=quiz_size_slug, data=new_request_post)
 
-    context_quiz_selected = 'class="disabled"'    # see seeourminds.css
+    quiz_size_slugs = Questionnaire.get_quiz_size_slugs_list()
+    quiz_info = {}
+    quiz_info["quiz_size_slug"] = quiz_size_slug
+    quiz_slug_text_counts = []
+    #
+    # If there's no quiz_size_slug, display the quiz landing page,
+    # I.e., list the sizes and allows the visitor to select the one they want
+    #
+    if quiz_size_slug == None:
+        quiz_form = None
+        quiz_info["size_abbreviation"] = ''
+        quiz_info["question_count"] = 0
+        quiz_info["size_text"] = ''
+        for quiz_size_slug in quiz_size_slugs:
+            size_text = Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
+            question_count = Questionnaire.get_question_count_for_slug(quiz_size_slug)
+            print('view.quiz - quiz_size_slug/size_text/question_count:',
+                quiz_size_slug + '/' + size_text + '/' + str(question_count))
+            size_text_and_count = [quiz_size_slug, size_text, question_count]
+            quiz_slug_text_counts.append(size_text_and_count)
+    else:
+        if quiz_form == None:
+            quiz_form = QuestionnaireForm(quiz_size_slug=quiz_size_slug)
+        quiz_info["size_abbreviation"] = \
+            Questionnaire.get_quiz_size_abbreviation_for_slug(quiz_size_slug)
+        quiz_info["question_count"] = \
+            Questionnaire.get_question_count_for_slug(quiz_size_slug)
+        quiz_info["size_text"] = \
+            Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
+
     template = loader.get_template('content/quiz.html')
     context = {
         'adsense_ads': adsense_ads,
-        'context_quiz_selected': context_quiz_selected,
-        'quiz_form': quiz_form
+        'quiz_form': quiz_form,
+        'quiz_info': quiz_info,
+        'quiz_slug_text_counts': quiz_slug_text_counts,
     }
     return HttpResponse(template.render(context, request))
 
