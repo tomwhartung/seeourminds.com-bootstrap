@@ -10,4 +10,8 @@ Reference:
 
 from django.contrib import admin
 
-# Register your models here.
+from .database import Answer
+from .database import Questionnaire
+
+admin.site.register(Answer)
+admin.site.register(Questionnaire)
