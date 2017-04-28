@@ -63,11 +63,42 @@
         <span class="tagline">'Visualizing the Invisible'&nbsp;&trade;</span>
       </div>
       <nav>
-        <ul>
-          <li {{ context_home_selected }}><a href="/home">Home</a></li>
-          <li {{ context_galleries_selected }}><a href="/galleries">Galleries</a></li>
-          <li {{ context_quiz_selected }}><a href="/quiz">Quiz</a></li>
-        </ul>
+        <div class="dropdown">
+          <ul>
+            <li role="presentation"><a href="/home">Home</a></li>
+            <li role="presentation">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle"
+                 data-target=".galleries-collapse">
+               Galleries<b class="caret"></b></a>
+              <div class="galleries-collapse">
+                <ul class="dropdown-menu">
+                  <a href="/galleries"><li>All</li></a>
+                  <a href="/gallery/sixteen_types"><li>Sixteen Types</li></a>
+                  <a href="/gallery/tv_shows"><li>TV Shows</li></a>
+                  <a href="/gallery/politicians"><li>Politicians</li></a>
+                  <a href="/gallery/friends"><li>Friends</li></a>
+                </ul>
+              </div>
+            </li>
+            <li role="presentation">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle"
+                 data-target=".quizzes-collapse">
+                 Quizzes<b class="caret"></b></a>
+              <div class="quizzes-collapse">
+                <ul class="dropdown-menu">
+                  <a href="/quiz"><li>About</li></a>
+                  <a href="/quiz/xx-small"><li>XX Small</li></a>
+                  <a href="/quiz/extra-small"><li>Extra Small</li></a>
+                  <a href="/quiz/small"><li>Small</li></a>
+                  <a href="/quiz/medium"><li>Medium</li></a>
+                  <a href="/quiz/large"><li>Large</li></a>
+                  <a href="/quiz/extra-large"><li>Extra Large</li></a>
+                  <a href="/quiz/xx-large"><li>XX Large</li></a>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   </div><!-- .header-container -->
