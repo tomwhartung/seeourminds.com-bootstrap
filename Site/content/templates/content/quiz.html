@@ -3,50 +3,155 @@
 {% block top_content_left %}
   <article>
     <header>
-      <h1>The SeeOurMinds.com Quiz</h1>
-      <p>
-         Answer all 88 questions to the best of your ability.</p>
-      <p>
-        This is an experimental quiz!
-        (The main reason it's online at this time is so I can
-         get some feedback on it.&sup1;)
-        So please do not take the results too seriously!</p>
+      <h1>The SeeOurMinds.com Quiz
+        {% if quiz_info.size_abbreviation %}
+          ({{ quiz_info.size_abbreviation }})
+        {% endif %}
+      </h1>
+      {% if quiz_info.quiz_size_slug == None %}
+        <p>
+          Pick one of the following versions of the quiz:
+        </p>
+        <ul>
+          {% for quiz_size_slug, size_text, question_count in quiz_slug_text_counts %}
+            <li>
+              The
+                <a href="/quiz/{{ quiz_size_slug }}"
+                   title="Link to {{ size_text }} version">
+                  {{ size_text }}</a>
+              version has {{ question_count }} questions.
+            </li>
+          {% endfor %}
+        </ul>
+        <p>
+          We should make bootstrap buttons for each of these,
+           maybe changing in color or increasing in size as apporpriate.
+        </p>
+      {% else %}
+        <ul>
+          <li>
+            The <span class="air-quotes">{{ quiz_info.size_text }}</span>
+             version contains {{ quiz_info.question_count }} questions.
+            <ul>
+              <li>
+                {% if quiz_info.quiz_size_slug == 'xx-large' %}
+                  This is the longest version currently available.
+                {% else %}
+                  For more questions, pick a larger quiz.
+                {% endif %}
+              </li>
+              <li>
+                {% if quiz_info.quiz_size_slug == 'xx-small' %}
+                  This is the shortest version currently available.
+                {% else %}
+                  For fewer questions, pick a smaller quiz.
+                {% endif %}
+              </li>
+            </ul>
+          </li>
+          <li>
+            There are no right-or-wrong answers, just answer each one to the
+             best of your ability.</li>
+          <li>
+            This quiz is a
+              <a href="#disclaimer">
+               <span class="air-quotes">work in progress,</span></a>
+              so definitely do not take the results too seriously!
+             </li>
+        </ul>
+      {% endif %}
     </header>
     <hr />
-    <form action="" method="POST">
-      {% csrf_token %}
-      {% for field in quiz_form %}
-        <div class="fieldWrapper">
-          {{ field.errors }}
-          {{ field.label_tag }} {{ field }}
-          {% if field.help_text %}
-          <p class="help">{{ field.help_text|safe }}</p>
+    {% if quiz_form == None %}
+      <h1>Sharing Your Email Address</h1>
+      <p>
+        Sharing your email address on the quiz page
+          enables you to save and retrieve your answers.</p>
+      <p>
+        Stay tuned &mdash; and return in a week or two &mdash; we are actively
+          developing this functionality!</p>
+      <p>
+        Note that entering your email address on the quiz page
+          will NOT sign you up for our newsletter!
+        To do that, use the form in the aside that is
+          labeled specifically for that purpose.</p>
+    {% else %}
+      <form action="" method="POST">
+        {% csrf_token %}
+        {% for field in quiz_form %}
+          <div class="fieldWrapper">
+            {{ field.errors }}
+            {{ field.label_tag }} {{ field }}
+            {% if field.label == 'Email' %}
+              <input type="submit" name="load-answers" value="Load Saved Answers" />
+            {% endif %}
+            {% if field.help_text %}
+              <p class="help-text">{{ field.help_text|safe }}</p>
+            {% endif %}
+          </div>
+          {% if field.label == 'Email' %}
+            {% if messages %}
+              <section>
+                <ul class="quiz-error">
+                  {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                      {{ message|safe }}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
           {% endif %}
-        </div>
-      {% endfor %}
-      <input type="submit" value="Submit" />
-    </form>
+        {% endfor %}
+        <input type="submit" value="Submit" />
+      </form>
+    {% endif %}
     <hr />
+    <a name="disclaimer"></a>
+    <h1>Disclaimer, Accuracy, Etc.</h1>
     <p>
-      &sup1; We will come up with some sort of official disclaimer some day,
-      for now, please just take things with a grain of salt.</p>
+      To be perfectly honest, the main reason this quiz is online at this time
+        is so I can get some feedback on it.
+      I suppose we will come up with some sort of official disclaimer some day,
+       for now, please just take things with a grain of salt.</p>
+    <h3>Disclaimer</h3>
     <p>
-      Moreover, this quiz is a work in progress, and at this time
+      <span class="air-quotes">Most importantly, this quiz is a work in progress, and at this time
         I am not by any means ready to guarantee that it
-        will give you an accurate result.
-      I've had a lot of fun writing this quiz, coming up with the
-       questions, without stealing from Briggs-Meyers and Keirsey, and even
-       more so with writing code to support having a varying number of options
-       to some of the questions (rather than just either/or options).
-      But it definitely needs more work!</p>
+        will give you an accurate result!</span></p>
+    <h3>If accuracy is important to you...</h3>
     <p>
       If accuracy is important to you, please take other quizzes and
         get a variety of opinions.
       And if you really want to learn exactly what your four letter type is,
-       by all means take the
-       <a href="http://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/"
-          target="_blank" title="Site where you can take the real MBTI">
-         real MBTI&reg; instrument</a>!</p>
+        by all means take the
+        <a href="http://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/"
+           target="_blank" title="Site where you can take the real MBTI instrument">
+        real MBTI&reg; instrument</a>!</p>
+    <h3>
+      I've had a lot of fun writing this quiz!</h3>
+    <p>
+      It's been a real challenge to come up with the questions
+       without borrowing too heavily from Briggs-Meyers and Keirsey &mdash; and
+       I love a good challenge!</p>
+    <p>
+      And I've had even more fun with writing the code to support having a
+       different type of quiz!
+      Note that it allows visitors to:</p>
+    <ul>
+      <li>
+        Answer a varying number of questions.</li>
+      <li>
+        Pick from a varying number of options
+        (rather than just two either/or options).
+      </li>
+      <li>
+        Opt-out of answering some of the more experimental (fun) questions that
+        appear towards the end, in the longer versions.
+      </li>
+    </ul>
+    <p>
+      But I am definitely not willing to claim it is accurate,
+        at least, not yet!</p>
     <hr />
   </article>
 {% endblock %}
