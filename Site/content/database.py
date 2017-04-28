@@ -11,6 +11,7 @@ Reference:
 import os
 from django.contrib import messages
 from django.db import models
+from django.http import QueryDict
 from django.utils import timezone
 
 DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
@@ -105,35 +106,38 @@ class Questionnaire(models.Model):
         return self
 
     def add_answers(self, email, request):
-        """ Load answers from db and add them to the request.POST """
+        """
+        Load answers from db and add them to the request.POST
+        If there are no answers found,
+            return only the email address in the request
+        """
         answers_dict = self.load_answers(email, request)
-        new_request_post = request.POST.copy()
-        for question_key in answers_dict:
-            new_request_post[question_key] = answers_dict[question_key]
-        return new_request_post
 
-    def load_questionnaire(self, email):
-        """ Load and return the questionnaire for the passed-in email """
-        print('Questionnaire - load_questionnaire(), email:', email)
-        try:
-            questionnaire = Questionnaire.objects.get(email__iexact=email)
-            print('load_questionnaire - questionnaire:', questionnaire)
-        except:
-            questionnaire = None
-        return questionnaire
+        if answers_dict == None:
+            new_request_post = QueryDict('', mutable=True)
+            new_data = { 'email': request.POST['email']}
+            new_request_post.update(new_data)
+            print('add_answers - new_request_post:', new_request_post)
+        else:
+            new_request_post = request.POST.copy()
+            for question_key in answers_dict:
+                new_request_post[question_key] = answers_dict[question_key]
+
+        return new_request_post
 
     def load_answers(self, email, request):
         """ Load and return the answers for the passed-in email """
         # print('Questionnaire - load_answers(), email:', email)
         questionnaire = self.load_questionnaire(email)
         ans_query_set = None
-        answers_dict = {}
 
         if questionnaire == None:
             not_found_msg = 'Unable to find questionnaire for ' + email
             print('load_answers: ', not_found_msg)
             messages.add_message(request, messages.ERROR, not_found_msg)
+            answers_dict = None
         else:
+            answers_dict = {}
             try:
                 ans_query_set = Answer.objects.filter(questionnaire=questionnaire)
                 print('load_answers - ans_query_set:', ans_query_set)
@@ -151,6 +155,16 @@ class Questionnaire(models.Model):
                 answers_dict[question_key] = answer_str
 
         return answers_dict
+
+    def load_questionnaire(self, email):
+        """ Load and return the questionnaire for the passed-in email """
+        print('Questionnaire - load_questionnaire(), email:', email)
+        try:
+            questionnaire = Questionnaire.objects.get(email__iexact=email)
+            print('load_questionnaire - questionnaire:', questionnaire)
+        except:
+            questionnaire = None
+        return questionnaire
 
     @classmethod
     def get_quiz_size_slugs_list(cls):
