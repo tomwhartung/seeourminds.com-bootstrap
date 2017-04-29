@@ -86,7 +86,98 @@ def gallery(request, gallery_name='all'):
     return HttpResponse(template.render(context, request))
 
 
-def quiz(request, quiz_size_slug=None):
+def quiz_about(request):
+
+    """ Load and render the quiz_about page template """
+
+    quiz_info = {}
+    quiz_info["size_abbreviation"] = ''
+    quiz_info["question_count"] = 0
+    quiz_info["size_text"] = ''
+    quiz_size_slugs = Questionnaire.get_quiz_size_slugs_list()
+    quiz_slug_text_counts = []
+
+    for quiz_size_slug in quiz_size_slugs:
+        size_text = Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
+        question_count = Questionnaire.get_question_count_for_slug(quiz_size_slug)
+        # print('view.quiz - quiz_size_slug/size_text/question_count:',
+        #     quiz_size_slug + '/' + size_text + '/' + str(question_count))
+        size_text_and_count = [quiz_size_slug, size_text, question_count]
+        quiz_slug_text_counts.append(size_text_and_count)
+
+    template = loader.get_template('content/quiz_about.html')
+    context = {
+        'adsense_ads': adsense_ads,
+        'quiz_info': quiz_info,
+        'quiz_slug_text_counts': quiz_slug_text_counts,
+    }
+    return HttpResponse(template.render(context, request))
+
+
+def quiz_form(request, quiz_size_slug=None):
+# def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
+
+    """ Load and render the quiz_form page template """
+
+    quiz_form = None
+    if request.method == 'POST':
+        # print('views.quiz() - request.POST:', request.POST)
+        try:
+            email = request.POST["email"]
+            load_answers = request.POST["load-answers"]
+        except:
+            email = ''
+            load_answers = ''
+        if load_answers == '':
+            quiz_form = QuestionnaireForm(
+                    quiz_size_slug=quiz_size_slug, data=request.POST)
+            if quiz_form.is_valid():
+                # print('views.quiz() - quiz_form is_valid')
+                score = Score()
+                score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
+                if score.is_complete():
+                    # print('views.quiz() - score is_complete')
+                    score.save_questionnaire(
+                            quiz_form.cleaned_data, quiz_size_slug)
+                    score.set_quiz_results_messages(request)
+                    return HttpResponseRedirect('/quiz/results')
+                else:
+                    # print('views.quiz() - score is NOT complete')
+                    score.set_incomplete_message(request)
+        else:  # try to load answers for the specified email address
+            if email == '':
+                need_email_msg = 'ERROR: email is required to load the answers'
+                # print('views.quiz() -', need_email_msg)
+                messages.add_message(request, messages.ERROR, need_email_msg)
+            else:
+                questionnaire = Questionnaire()
+                new_request_post = questionnaire.add_answers(email, request)
+                # print('views.quiz() - new_request_post:', new_request_post)
+                quiz_form = QuestionnaireForm(
+                        quiz_size_slug=quiz_size_slug, data=new_request_post)
+
+    if quiz_form == None:
+        quiz_form = QuestionnaireForm(quiz_size_slug=quiz_size_slug)
+
+    quiz_info = {}
+    quiz_info["quiz_size_slug"] = quiz_size_slug
+    quiz_info["size_abbreviation"] = \
+        Questionnaire.get_quiz_size_abbreviation_for_slug(quiz_size_slug)
+    quiz_info["question_count"] = \
+        Questionnaire.get_question_count_for_slug(quiz_size_slug)
+    quiz_info["size_text"] = \
+        Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
+
+    template = loader.get_template('content/quiz_form.html')
+    context = {
+        'adsense_ads': adsense_ads,
+        'quiz_form': quiz_form,
+        'quiz_info': quiz_info,
+    }
+    return HttpResponse(template.render(context, request))
+
+
+def quiz_old_delete_me(request, quiz_size_slug=None):
 
     """ Load and render the Quiz page template """
 
@@ -108,7 +199,8 @@ def quiz(request, quiz_size_slug=None):
                 score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
                 if score.is_complete():
                     # print('views.quiz() - score is_complete')
-                    score.save_questionnaire(quiz_form.cleaned_data, quiz_size_slug)
+                    score.save_questionnaire(
+                            quiz_form.cleaned_data, quiz_size_slug)
                     score.set_quiz_results_messages(request)
                     return HttpResponseRedirect('/quiz/results')
                 else:
