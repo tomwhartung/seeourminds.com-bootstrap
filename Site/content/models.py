@@ -78,19 +78,23 @@ class Score:
                         question_text, '/',
                         answer_text)
 
-        print('Score - score_quiz: questions_answered/questions_in_form',
-                str(questions_answered) + '/' + str(questions_in_form))
+        if DJANGO_DEBUG:
+            print('Score - score_quiz: questions_answered/questions_in_form',
+                    str(questions_answered) + '/' + str(questions_in_form))
+
         self.unanswered_question_count = questions_in_form - questions_answered
         if self.unanswered_question_count == 0:
             self.score_is_complete = True
         return self
 
     def save_questionnaire(self, cleaned_data, quiz_size_slug):
+        """
+        If we have an email address, save the questionnaire to the db
+        (It's a tiny method, but we want to keep logic in the view to a minimum)
+        """
         email = cleaned_data["email"]
-        if email == '':
-            print( 'Score - save_questionnaire: No email given, not saving quiz')
-        else:
-            print( 'Score - save_questionnaire: saving quiz for "' + email + '"')
+        if email != '':
+            # print( 'Score - save_questionnaire: saving quiz for "' + email + '"')
             quiz_db = Questionnaire()
             quiz_db.save_questionnaire(cleaned_data, quiz_size_slug)
 
