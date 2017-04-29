@@ -93,10 +93,20 @@ class Score:
         (It's a tiny method, but we want to keep logic in the view to a minimum)
         """
         email = cleaned_data["email"]
-        if email != '':
+        if email == '':
+            saved_msg = 'You did not share your email address, so ' + \
+            'your answers were not saved on the server.' + \
+            'If you want to save these results, you need to write them down.'
+        else:
             # print( 'Score - save_questionnaire: saving quiz for "' + email + '"')
-            quiz_db = Questionnaire()
-            quiz_db.save_questionnaire(cleaned_data, quiz_size_slug)
+            questionnaire = Questionnaire()
+            questionnaire.save_questionnaire(cleaned_data, quiz_size_slug)
+            question_count = questionnaire.get_question_count_for_slug(quiz_size_slug)
+            saved_msg = 'Saved the questionnaire and ' + \
+                str(question_count) + ' questions on the server for email ' + email
+
+        return saved_msg
+
 
     def print_cleaned_data(self, cleaned_data):
         """ print out the cleaned data, in order by question number """
