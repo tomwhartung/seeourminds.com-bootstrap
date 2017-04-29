@@ -94,7 +94,7 @@ class Questionnaire(models.Model):
         self.email = email
         self.size = self.get_quiz_size_abbreviation_for_slug(quiz_size_slug)
         self.save()
-        print('Questionnaire.save_questionnaire - saved:', self.__str__())
+        # print('Questionnaire.save_questionnaire - saved:', self.__str__())
 
         for form_field_name in sorted(cleaned_data):
             if form_field_name.startswith("question_"):
@@ -106,18 +106,16 @@ class Questionnaire(models.Model):
         return self
 
     def add_answers(self, email, request):
-        """
-        Load answers from db and add them to the request.POST
-        If there are no answers found,
-            return only the email address in the request
-        """
+        """ Load answers from db and add them to the request.POST """
         answers_dict = self.load_answers(email, request)
-
+        #
+        # If there are no answers found,
+        #   return only the email address in the request
+        #
         if answers_dict == None:
             new_request_post = QueryDict('', mutable=True)
             new_data = { 'email': request.POST['email']}
             new_request_post.update(new_data)
-            print('add_answers - new_request_post:', new_request_post)
         else:
             new_request_post = request.POST.copy()
             for question_key in answers_dict:
@@ -133,16 +131,18 @@ class Questionnaire(models.Model):
 
         if questionnaire == None:
             not_found_msg = 'Unable to find questionnaire for ' + email
-            print('load_answers: ', not_found_msg)
             messages.add_message(request, messages.ERROR, not_found_msg)
             answers_dict = None
         else:
             answers_dict = {}
             try:
                 ans_query_set = Answer.objects.filter(questionnaire=questionnaire)
-                print('load_answers - ans_query_set:', ans_query_set)
-            except:
-                print('load_answers - ERROR getting ans_query_set')
+                # print('load_answers - ans_query_set:', ans_query_set)
+            except BaseException as exc:
+                print('Questionnaire.load_answers ERROR',
+                    '(email = "' + email + '"):',
+                    'Questionnaire found but unable to get ans_query_set!',
+                    'exc: "' + str(exc) + '"')
 
         if ans_query_set != None:
             for ans in ans_query_set:
@@ -150,18 +150,17 @@ class Questionnaire(models.Model):
                 question_no_2_chars = question_no_str.zfill(2)
                 question_key = 'question_' + question_no_2_chars
                 answer_str = str(ans.answer)
-                print('Questionnaire - question_key-str(answer_list):',
-                    question_key + '-' + str(answer_str))
+                # print('Questionnaire - question_key-str(answer_list):',
+                #    question_key + '-' + str(answer_str))
                 answers_dict[question_key] = answer_str
 
         return answers_dict
 
     def load_questionnaire(self, email):
         """ Load and return the questionnaire for the passed-in email """
-        print('Questionnaire - load_questionnaire(), email:', email)
+        # print('Questionnaire - load_questionnaire(), email:', email)
         try:
             questionnaire = Questionnaire.objects.get(email__iexact=email)
-            print('load_questionnaire - questionnaire:', questionnaire)
         except:
             questionnaire = None
         return questionnaire
@@ -258,7 +257,6 @@ class Answer(models.Model):
         try:
             existing_answer = Answer.objects.get(
                 questionnaire_id=questionnaire_id, question_id=question_id)
-            # print('load_answer - existing_answer:', existing_answer)
         except:
             existing_answer = None
         return existing_answer
