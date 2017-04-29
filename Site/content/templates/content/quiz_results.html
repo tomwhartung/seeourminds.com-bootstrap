@@ -6,11 +6,10 @@
       <h1>Thanks for taking the SeeOurMinds.com Quiz!</h1>
     </header>
     <section>
-      <h2>Your Results:</h2>
       {% if messages %}
+        <h2>Your Results:</h2>
         <ul class="results-messages">
           {% for message in messages %}
-            <hr />
             <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
               {{ message|safe }}</li>
           {% endfor %}

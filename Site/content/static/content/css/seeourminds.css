@@ -289,7 +289,16 @@ figcaption {
    border: red solid 2px;
    font-size: 1.25em;
    list-style-type: none;
-   padding: 0.5em;
+   padding: .5em;
+}
+.results-messages {
+   border: black solid 2px;
+   font-size: 1.25em;
+   list-style-type: none;
+   padding: 1.5em;
+}
+ul.results-messages > li {
+   padding: .5em;
 }
 /*
  * We can only style the widget i.e., the input tag, hence the negative value
