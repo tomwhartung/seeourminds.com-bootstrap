@@ -92,7 +92,7 @@ def quiz(request, quiz_size_slug=None):
 
     quiz_form = None
     if request.method == 'POST':
-        print('views.quiz() - request.POST:', request.POST)
+        # print('views.quiz() - request.POST:', request.POST)
         try:
             email = request.POST["email"]
             load_answers = request.POST["load-answers"]
@@ -103,21 +103,21 @@ def quiz(request, quiz_size_slug=None):
             quiz_form = QuestionnaireForm(
                     quiz_size_slug=quiz_size_slug, data=request.POST)
             if quiz_form.is_valid():
-                print('views.quiz() - quiz_form is_valid')
+                # print('views.quiz() - quiz_form is_valid')
                 score = Score()
                 score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
                 if score.is_complete():
-                    print('views.quiz() - score is_complete')
+                    # print('views.quiz() - score is_complete')
                     score.save_questionnaire(quiz_form.cleaned_data, quiz_size_slug)
                     score.set_quiz_results_messages(request)
                     return HttpResponseRedirect('/quiz/results')
                 else:
-                    print('views.quiz() - score is NOT complete')
+                    # print('views.quiz() - score is NOT complete')
                     score.set_incomplete_message(request)
-        else:
+        else:  # try to load answers for the specified email address
             if email == '':
                 need_email_msg = 'ERROR: email is required to load the answers'
-                print('views.quiz() -', need_email_msg)
+                # print('views.quiz() -', need_email_msg)
                 messages.add_message(request, messages.ERROR, need_email_msg)
             else:
                 questionnaire = Questionnaire()
@@ -142,8 +142,8 @@ def quiz(request, quiz_size_slug=None):
         for quiz_size_slug in quiz_size_slugs:
             size_text = Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
             question_count = Questionnaire.get_question_count_for_slug(quiz_size_slug)
-            print('view.quiz - quiz_size_slug/size_text/question_count:',
-                quiz_size_slug + '/' + size_text + '/' + str(question_count))
+            # print('view.quiz - quiz_size_slug/size_text/question_count:',
+            #     quiz_size_slug + '/' + size_text + '/' + str(question_count))
             size_text_and_count = [quiz_size_slug, size_text, question_count]
             quiz_slug_text_counts.append(size_text_and_count)
     else:
@@ -179,8 +179,10 @@ def image(request, image_id=0):
 
     try:
         image_id_int = int(image_id)
-    except:
-        print('views.image: non-numeric "image_id" from url: ' + image_id)
+    except BaseException as exc:
+        # TODO: Test this (just cleaning up some print statements right now)
+        print('views.image ERROR: exception processing "image_id" from url:',
+            image_id, 'exception:', str(exc))
         image_id_int = 0
 
     image = {}
