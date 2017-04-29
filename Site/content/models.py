@@ -88,9 +88,9 @@ class Score:
     def save_questionnaire(self, cleaned_data, quiz_size_slug):
         email = cleaned_data["email"]
         if email == '':
-            print( 'views.quiz: No email given, not saving quiz')
+            print( 'Score - save_questionnaire: No email given, not saving quiz')
         else:
-            print( 'views.quiz: saving quiz for "' + email + '"')
+            print( 'Score - save_questionnaire: saving quiz for "' + email + '"')
             quiz_db = Questionnaire()
             quiz_db.save_questionnaire(cleaned_data, quiz_size_slug)
 
