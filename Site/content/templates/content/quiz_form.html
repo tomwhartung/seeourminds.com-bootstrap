@@ -45,7 +45,11 @@
       {% csrf_token %}
       {% for field in quiz_form %}
         <div class="fieldWrapper">
-          {{ field.errors }}
+          {% if field.errors %}
+            <ul class="quiz-error">
+              <li>{{ field.errors }}</li>
+            </ul>
+          {% endif %}
           {{ field.label_tag }} {{ field }}
           {% if field.label == 'Email' %}
             <input type="submit" name="load-answers" value="Load Saved Answers" />
