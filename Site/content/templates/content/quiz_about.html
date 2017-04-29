@@ -1,0 +1,67 @@
+{% extends 'content/quiz_base.html' %}
+
+{% block top_content_left %}
+  {{ block.super }}
+  <article>
+    <p>
+      Pick one of the following versions of the quiz:
+    </p>
+    <ul>
+      {% for quiz_size_slug, size_text, question_count in quiz_slug_text_counts %}
+        <li>
+          The
+            <a href="/quiz/{{ quiz_size_slug }}"
+               title="Link to {{ size_text }} version">
+              {{ size_text }}</a>
+          version has {{ question_count }} questions.
+        </li>
+      {% endfor %}
+    </ul>
+    <p>
+      We should make bootstrap buttons for each of these,
+       maybe changing in color or increasing in size as apporpriate.
+    </p>
+    <hr />
+    <h1>Sharing Your Email Address</h1>
+    <p>
+      Sharing your email address on the quiz page
+        enables you to save and retrieve your answers.</p>
+    <p>
+      Note that entering your email address on the quiz page
+        will NOT sign you up for our newsletter!
+      To do that, use the form in the aside that is
+        labeled specifically for that purpose.</p>
+  </article>
+{% endblock %}
+
+{% block top_aside %}
+  <div class="col-md-4">
+    {% block top_aside_top_ad %}{{ block.super }}{% endblock %}
+  </div><!-- .col-md-4 -->
+  {% block top_aside_email %}
+    {{ block.super }}
+  {% endblock %}
+  <div class="col-md-4">
+    {% block top_aside_bottom_ad %}{{ block.super }}{% endblock %}
+  </div><!-- .col-md-4 -->
+{% endblock %}
+
+{% block above_middle_row_ad %}{% endblock %}
+{% block middle_left_ad %}{% endblock %}
+{% block middle_right_ad %}{% endblock %}
+{% block below_middle_row_ad %}{% endblock %}
+
+{% block bottom_left_ad %}
+  {{ block.super }}
+{% endblock %}
+{% block bottom_content %}
+  {{ block.super }}
+{% endblock %}
+{% block bottom_right_ad %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bottom_row_ad %}
+  {{ block.super }}
+{% endblock %}
+
