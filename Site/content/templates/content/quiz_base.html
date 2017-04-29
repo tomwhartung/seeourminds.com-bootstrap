@@ -1,0 +1,92 @@
+{% extends 'content/base.html' %}
+
+{% block top_content_left %}
+  <header>
+    <h1>The SeeOurMinds.com Quiz</h1>
+  </header>
+{% endblock %}
+
+
+{% block top_aside %}
+   <div class="col-md-4">
+     {% block top_aside_top_ad %}{{ block.super }}{% endblock %}
+     {% block top_aside_top_responsive_ad %}{{ block.super }}{% endblock %}
+   </div><!-- .col-md-4 -->
+   {% block top_aside_email %}
+     {{ block.super }}
+   {% endblock %}
+   <div class="col-md-4">My suspicion
+     {% block top_aside_bottom_ad %}{{ block.super }}{% endblock %}
+     {% block top_aside_bottom_responsive_ad %}{{ block.super }}{% endblock %}
+   </div><!-- .col-md-4 -->
+{% endblock %}
+
+
+{% block above_middle_row_ad %}{% endblock %}
+{% block middle_left_ad %}{% endblock %}
+{% block middle_right_ad %}{% endblock %}
+{% block below_middle_row_ad %}{% endblock %}
+
+
+{% block bottom_left_ad %}
+  {{ block.super }}
+{% endblock %}
+{% block bottom_content %}
+  <div class="col-md-8">
+  <article id="disclaimer">
+    <a name="disclaimer"></a>
+    <h1>Disclaimer, Accuracy, Etc.</h1>
+    <p>
+      To be perfectly honest, the main reason this quiz is online at this time
+        is so I can get some feedback on it.
+      I suppose we will come up with some sort of official disclaimer some day,
+       for now, please just take things with a grain of salt.</p>
+    <h3>Disclaimer</h3>
+    <p>
+      <span class="air-quotes">Most importantly, this quiz is a work in progress, and at this time
+        I am not by any means ready to guarantee that it
+        will give you an accurate result!</span></p>
+    <h3>If accuracy is important to you...</h3>
+    <p>
+      If accuracy is important to you, please take other quizzes and
+        get a variety of opinions.
+      And if you really want to learn exactly what your four letter type is,
+        by all means take the
+        <a href="http://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/"
+           target="_blank" title="Site where you can take the real MBTI instrument">
+        real MBTI&reg; instrument</a>!</p>
+    <h3>
+      I've had a lot of fun writing this quiz!</h3>
+    <p>
+      It's been a real challenge to come up with the questions
+       without borrowing too heavily from Briggs-Meyers and Keirsey &mdash; and
+       I love a good challenge!</p>
+    <p>
+      And I've had even more fun with writing the code to support having a
+       different type of quiz!
+      Note that it allows visitors to:</p>
+    <ul>
+      <li>
+        Answer a varying number of questions.</li>
+      <li>
+        Pick from a varying number of options
+        (rather than just two either/or options).
+      </li>
+      <li>
+        Opt-out of answering some of the more experimental (fun) questions that
+        appear towards the end, in the longer versions.
+      </li>
+    </ul>
+    <p>
+      But I am definitely not willing to claim it is accurate,
+        at least, not yet!</p>
+  </article>
+  </div><!-- .col-md-8 -->
+{% endblock %}
+{% block bottom_right_ad %}
+  {{ block.super }}
+{% endblock %}
+
+{% block bottom_row_ad %}
+  {{ block.super }}
+{% endblock %}
