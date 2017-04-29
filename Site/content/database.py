@@ -75,13 +75,12 @@ class Questionnaire(models.Model):
         """
         If we have an email, save the questionnaire data, along with the answers
         There is no sense saving it if we do not have an email address!
-        The check here may be redundant, but this is very important!
-        Note also: the validation criteria for the db is stronger than
-          it is for forms...!
+        (We also do this check in the view, so it's redundant I know.)
+        Note: the validation criteria for emails used by the db is stronger
+            than it is for forms...!
         """
         email = cleaned_data['email']
-        if len(email) < 4:    # "blank=False" does not seem to work?!?
-            print('Questionnaire.save_questionnaire - not saving! email:', '"' + email + '"')
+        if email == '':
             return False
 
         existing_questionnaire = self.load_questionnaire(email)
@@ -110,11 +109,14 @@ class Questionnaire(models.Model):
         answers_dict = self.load_answers(email, request)
         #
         # If there are no answers found,
-        #   return only the email address in the request
+        #   return only the name email address in the request
         #
         if answers_dict == None:
             new_request_post = QueryDict('', mutable=True)
-            new_data = { 'email': request.POST['email']}
+            new_data = {
+                'name': request.POST['name'],
+                'email': request.POST['email'],
+            }
             new_request_post.update(new_data)
         else:
             new_request_post = request.POST.copy()
