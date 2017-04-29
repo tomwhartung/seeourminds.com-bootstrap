@@ -137,17 +137,18 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
                 score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
                 if score.is_complete():
                     # print('views.quiz() - score is_complete')
-                    score.save_questionnaire(
+                    saved_msg = score.save_questionnaire(
                             quiz_form.cleaned_data, quiz_size_slug)
                     score.set_quiz_results_messages(request)
+                    messages.add_message(request, messages.INFO, saved_msg)
                     return HttpResponseRedirect('/quiz/results')
                 else:
                     # print('views.quiz() - score is NOT complete')
                     score.set_incomplete_message(request)
         else:  # try to load answers for the specified email address
             if email == '':
-                need_email_msg = 'ERROR: email is required to load the answers'
-                # print('views.quiz() -', need_email_msg)
+                need_email_msg = 'ERROR: you must enter a valid ' + \
+                    'email address to load the answers'
                 messages.add_message(request, messages.ERROR, need_email_msg)
             else:
                 questionnaire = Questionnaire()
