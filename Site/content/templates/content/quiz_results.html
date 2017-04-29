@@ -4,25 +4,13 @@
   <article>
     <header>
       <h1>Thanks for taking the SeeOurMinds.com Quiz!</h1>
-      <hr />
-      <p>
-        Note that this quiz is totally experimental,
-          so please do not take these results too seriously.</p>
     </header>
     <section>
-      <ul>
-        <li>At this time, we do not save results in a database.</li>
-      </ul>
-      <hr />
-      <h4>
-        If you want to save these results,
-         you need to write them down!</h4>
-      <hr />
-    </section>
-    <section>
+      <h2>Your Results:</h2>
       {% if messages %}
-        <ul class="messages">
+        <ul class="results-messages">
           {% for message in messages %}
+            <hr />
             <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
               {{ message|safe }}</li>
           {% endfor %}
