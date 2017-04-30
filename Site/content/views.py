@@ -128,7 +128,18 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
         except:
             email = ''
             load_answers = ''
-        if load_answers == '':
+        if "Load" in load_answers:
+            if email == '':
+                need_email_msg = 'ERROR: you must enter a valid ' + \
+                    'email address to load the answers'
+                messages.add_message(request, messages.ERROR, need_email_msg)
+            else:
+                questionnaire = Questionnaire()
+                new_request_data = questionnaire.add_answers(email, request)
+                # print('views.quiz() - new_request_data:', new_request_data)
+                quiz_form = QuestionnaireForm(
+                        quiz_size_slug=quiz_size_slug, data=new_request_data)
+        else:  # Not loading answers, this is a questionnaire form submission
             quiz_form = QuestionnaireForm(
                     quiz_size_slug=quiz_size_slug, data=request.POST)
             if quiz_form.is_valid():
@@ -143,19 +154,7 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
                     messages.add_message(request, messages.INFO, saved_msg)
                     return HttpResponseRedirect('/quiz/results')
                 else:
-                    # print('views.quiz() - score is NOT complete')
                     score.set_incomplete_message(request)
-        else:  # try to load answers for the specified email address
-            if email == '':
-                need_email_msg = 'ERROR: you must enter a valid ' + \
-                    'email address to load the answers'
-                messages.add_message(request, messages.ERROR, need_email_msg)
-            else:
-                questionnaire = Questionnaire()
-                new_request_post = questionnaire.add_answers(email, request)
-                # print('views.quiz() - new_request_post:', new_request_post)
-                quiz_form = QuestionnaireForm(
-                        quiz_size_slug=quiz_size_slug, data=new_request_post)
 
     if quiz_form == None:
         quiz_form = QuestionnaireForm(quiz_size_slug=quiz_size_slug)
