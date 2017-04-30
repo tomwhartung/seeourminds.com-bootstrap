@@ -15,6 +15,7 @@ from django.http import QueryDict
 from django.utils import timezone
 
 DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
+RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 
 """
 There are 88 questions, and the ones I have the most confidence in are
@@ -22,8 +23,9 @@ nearer the beginning, with the "fun," experimental ones at the end.
 It is desireable that the number of questions be divisible by 4 but not 8,
 so that there is an odd number of questions for each pair of opposites.
 """
-XX_SMALL = '2XS'       # 4 = 1*4 (for testing, keep off menu in production)
-EXTRA_SMALL = 'XS'     # 12 = 3 * 4
+TINY = 'T'             # 4 = 1*4 (for testing, not available in production)
+XX_SMALL = '2XS'       # 12 = 3 * 4
+EXTRA_SMALL = 'XS'     # 20 = 5 * 4
 SMALL = 'S'            # 28 = 7 * 4
 MEDIUM = 'M'           # 44 = 11 * 4
 LARGE = 'L'            # 60 = 15 * 4
@@ -38,6 +40,7 @@ class Questionnaire(models.Model):
     """
 
     QUIZ_SIZE_CHOICES = (
+        (TINY, 'Tiny'),
         (XX_SMALL, '2X Small'),
         (EXTRA_SMALL, 'Extra Small'),
         (SMALL, 'Small'),
@@ -132,8 +135,6 @@ class Questionnaire(models.Model):
 
     def load_answers(self, questionnaire, request):
         """ Load and return the answers for the passed-in questionnaire """
-        print('Questionnaire - load_answers(), self:', self)
-        print('Questionnaire - load_answers(), questionnaire:', questionnaire)
         ans_query_set = None
 
         if questionnaire == None:
@@ -142,7 +143,6 @@ class Questionnaire(models.Model):
             answers_dict = {}
             try:
                 ans_query_set = Answer.objects.filter(questionnaire=questionnaire)
-                # print('load_answers - ans_query_set:', ans_query_set)
             except BaseException as exc:
                 print('Questionnaire.load_answers ERROR',
                     '(questionnaire = "' + questionnaire + '"):',
@@ -163,7 +163,6 @@ class Questionnaire(models.Model):
 
     def load_questionnaire(self, email):
         """ Load and return the questionnaire for the passed-in email """
-        # print('Questionnaire - load_questionnaire(), email:', email)
         try:
             questionnaire = Questionnaire.objects.get(email__iexact=email)
         except:
@@ -173,21 +172,25 @@ class Questionnaire(models.Model):
     @classmethod
     def get_quiz_size_slugs_list(cls):
         """ Returns a list of the available quiz size choices """
-        quiz_size_slugs = [
-            'xx-small',
-            'extra-small',
-            'small',
-            'medium',
-            'large',
-            'extra-large',
-            'xx-large',
-        ]
+        quiz_size_slugs = []
+
+        if RUNNING_LOCALLY:
+            quiz_size_slugs.append('tiny')
+
+        quiz_size_slugs.append('xx-small')
+        quiz_size_slugs.append('extra-small')
+        quiz_size_slugs.append('small')
+        quiz_size_slugs.append('medium')
+        quiz_size_slugs.append('large')
+        quiz_size_slugs.append('extra-large')
+        quiz_size_slugs.append('xx-large')
         return quiz_size_slugs
 
     @classmethod
     def get_quiz_size_abbreviation_for_slug(cls, quiz_size_slug):
         """ Returns the corresponding constant for passed in quiz_size_slug """
         quiz_size_constant_for_slug = {
+            "tiny": TINY,
             "xx-small": XX_SMALL,
             "extra-small": EXTRA_SMALL,
             "small": SMALL,
@@ -202,8 +205,9 @@ class Questionnaire(models.Model):
     def get_question_count_for_slug(cls, quiz_size_slug):
         """ Returns the number of questions for passed in quiz_size_slug """
         question_count_for_slug = {
-            "xx-small": 4,
-            "extra-small": 12,
+            "tiny": 4,
+            "xx-small": 12,
+            "extra-small": 20,
             "small": 28,
             "medium": 44,
             "large": 60,
@@ -216,6 +220,7 @@ class Questionnaire(models.Model):
     def get_quiz_size_text_for_slug(cls, quiz_size_slug):
         """ Returns the quiz size_text for the passed in quiz_size_slug """
         quiz_size_slugs_to_text = {
+            'tiny': 'Tiny',
             'xx-small': '2X Small',
             'extra-small': 'Extra Small',
             'small': 'Small',
