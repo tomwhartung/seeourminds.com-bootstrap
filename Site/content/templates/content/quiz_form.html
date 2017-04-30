@@ -8,70 +8,82 @@
           ({{ quiz_info.size_abbreviation }})
         {% endif %}
       </h1>
+    </header>
+    <section id="introduction">
+      <p>
+        The <span class="air-quotes">{{ quiz_info.size_text }}</span>
+        version contains {{ quiz_info.question_count }} questions.</p>
       <ul>
         <li>
-          The <span class="air-quotes">{{ quiz_info.size_text }}</span>
-           version contains {{ quiz_info.question_count }} questions.
-          <ul>
-            <li>
-              {% if quiz_info.quiz_size_slug == 'xx-large' %}
-                This is the longest version currently available.
-              {% else %}
-                For more questions, pick a larger quiz.
-              {% endif %}
-            </li>
-            <li>
-              {% if quiz_info.quiz_size_slug == 'xx-small' %}
-                This is the shortest version currently available.
-              {% else %}
-                For fewer questions, pick a smaller quiz.
-              {% endif %}
-            </li>
-          </ul>
+          {% if quiz_info.quiz_size_slug == 'xx-large' %}
+            This is the longest version currently available.
+          {% else %}
+            For more questions, pick a larger quiz.
+          {% endif %}
         </li>
         <li>
-          There are no right-or-wrong answers, just answer each one to the
-           best of your ability.</li>
+          {% if quiz_info.quiz_size_slug == 'xx-small' %}
+            This is the shortest version currently available.
+          {% else %}
+            For fewer questions, pick a smaller quiz.
+          {% endif %}
+        </li>
         <li>
           This quiz is a
             <a href="#disclaimer">
              <span class="air-quotes">work in progress!</span></a>
         </li>
       </ul>
-    </header>
+      <p>
+        There are
+          <a href="http://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/no-right-or-wrong-answers.htm"
+             title="Article on myersbriggs.org about how this sort of questionnaire is not concerned with right or wrong"
+             target="_blank">no right-or-wrong answers</a>,
+          just
+          <a href="http://www.wikihow.com/Be-Yourself"
+             title="A very cute illustrated article, literally about how to be yourself, on wikihow.com"
+             target="_blank">be yourself</a>.</p>
+    </section>
     <hr />
-    <form action="" method="POST">
-      {% csrf_token %}
-      {% for field in quiz_form %}
-        <div class="fieldWrapper">
-          {% if field.errors %}
-            <ul class="quiz-error">
-              <li>{{ field.errors }}</li>
-            </ul>
-          {% endif %}
-          {{ field.label_tag }} {{ field }}
-          {% if field.label == 'Email' %}
-            <input type="submit" name="load-answers" value="Load Saved Answers" />
-          {% endif %}
-          {% if field.help_text %}
-            <p class="help-text">{{ field.help_text|safe }}</p>
-          {% endif %}
-        </div>
-        {% if field.label == 'Email' %}
-          {% if messages %}
-            <section>
+    <p class="quiz-form-opt-req">Optional:</p>
+    <section id="form">
+      <form action="" method="POST">
+        {% csrf_token %}
+        {% for field in quiz_form %}
+          <div class="fieldWrapper">
+            {% if field.errors %}
               <ul class="quiz-error">
-                {% for message in messages %}
-                  <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
-                    {{ message|safe }}</li>
-                {% endfor %}
+                <li>{{ field.errors }}</li>
               </ul>
-            </section>
+            {% endif %}
+            {{ field.label_tag }} {{ field }}
+            {% if field.label == 'Email' %}
+              <input type="submit" name="load-answers" class="btn btn-info"
+                     id="load-answers" value="Load Saved Answers"></input>
+            {% endif %}
+            {% if field.help_text %}
+              <p class="help-text">{{ field.help_text|safe }}</p>
+            {% endif %}
+          </div>
+          {% if field.label == 'Email' %}
+            {% if messages %}
+              <section>
+                <ul class="quiz-error">
+                  {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                      {{ message|safe }}</li>
+                  {% endfor %}
+                </ul>
+              </section>
+            {% endif %}
+            <hr />
+            <p class="quiz-form-opt-req">Required:</p>
           {% endif %}
-        {% endif %}
-      {% endfor %}
-      <input type="submit" value="Submit" />
-    </form>
+        {% endfor %}
+        <input type="submit" class="btn btn-primary btn-lg"
+               id="score-questionnaire" value="Score Questionnaire"></input>
+      </form>
+    </section>
     <hr />
   </article>
 {% endblock %}
