@@ -114,7 +114,6 @@ def quiz_about(request):
     return HttpResponse(template.render(context, request))
 
 
-# def quiz_form(request, quiz_size_slug=None):
 def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
 
     """ Load and render the quiz_form page template """
@@ -148,10 +147,11 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
                 score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
                 if score.is_complete():
                     # print('views.quiz() - score is_complete')
-                    saved_msg = score.save_questionnaire(
+                    saved_messages = score.save_questionnaire(
                             quiz_form.cleaned_data, quiz_size_slug)
                     score.set_quiz_results_messages(request)
-                    messages.add_message(request, messages.INFO, saved_msg)
+                    for saved_msg in saved_messages:
+                        messages.add_message(request, messages.INFO, saved_msg)
                     return HttpResponseRedirect('/quiz/results')
                 else:
                     score.set_incomplete_message(request)
