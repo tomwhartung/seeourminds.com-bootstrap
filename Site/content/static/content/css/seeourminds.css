@@ -216,8 +216,22 @@ i.fa-lg:hover {
     font-variant-position: super;
 }
 .superscript::after { content: "]"; }
+
 ul.notes {
     list-style-type: none;
+}
+ul.no-bullets, ul.debugging, ul.square-bullets {
+   margin: 0.5em;
+   padding: 0.5em;
+}
+ul.no-bullets, ul.debugging {
+   list-style-type: none;
+}
+ul.debugging {
+   border: 3px solid red;
+}
+ul.square-bullets {
+   list-style-type: square;
 }
 
 /*
@@ -280,6 +294,13 @@ figcaption {
  * Styles for the Quiz Page
  * ========================
  */
+li.quiz-sizes-list {
+   margin: .15em;
+   padding: .15em;
+}
+a.quiz-size-text {
+   font-size: 1.2em;
+}
 .help-text {
    margin-left: 2em;
    font-size: .9em;
