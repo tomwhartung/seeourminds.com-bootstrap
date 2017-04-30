@@ -112,18 +112,18 @@ class Questionnaire(models.Model):
         #   return only the name email address in the request
         #
         if answers_dict == None:
-            new_request_post = QueryDict('', mutable=True)
+            new_request_data = QueryDict('', mutable=True)
             new_data = {
                 'name': request.POST['name'],
                 'email': request.POST['email'],
             }
-            new_request_post.update(new_data)
+            new_request_data.update(new_data)
         else:
-            new_request_post = request.POST.copy()
+            new_request_data = request.POST.copy()
             for question_key in answers_dict:
-                new_request_post[question_key] = answers_dict[question_key]
+                new_request_data[question_key] = answers_dict[question_key]
 
-        return new_request_post
+        return new_request_data
 
     def load_answers(self, email, request):
         """ Load and return the answers for the passed-in email """
