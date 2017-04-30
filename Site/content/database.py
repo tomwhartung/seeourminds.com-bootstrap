@@ -106,7 +106,8 @@ class Questionnaire(models.Model):
 
     def add_answers(self, email, request):
         """ Load answers from db and add them to the request.POST """
-        answers_dict = self.load_answers(email, request)
+        questionnaire = self.load_questionnaire(email)
+        answers_dict = self.load_answers(questionnaire, request)
         #
         # If there are no answers found,
         #   return only the name email address in the request
@@ -120,15 +121,17 @@ class Questionnaire(models.Model):
             new_request_data.update(new_data)
         else:
             new_request_data = request.POST.copy()
+            if new_request_data['name'] == '':
+                new_request_data['name'] = questionnaire.name
             for question_key in answers_dict:
                 new_request_data[question_key] = answers_dict[question_key]
 
         return new_request_data
 
-    def load_answers(self, email, request):
-        """ Load and return the answers for the passed-in email """
-        # print('Questionnaire - load_answers(), email:', email)
-        questionnaire = self.load_questionnaire(email)
+    def load_answers(self, questionnaire, request):
+        """ Load and return the answers for the passed-in questionnaire """
+        print('Questionnaire - load_answers(), self:', self)
+        print('Questionnaire - load_answers(), questionnaire:', questionnaire)
         ans_query_set = None
 
         if questionnaire == None:
