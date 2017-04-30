@@ -11,42 +11,43 @@
         Technically speaking</a>,
         this is not a
         <a href="https://en.wikipedia.org/wiki/Quiz" target="_blank"
-                title="Page about Quizzes at en.wikipedia.org"><span class="air-quotes">
-           quiz</span></a>
+           title="Page about Quizzes at en.wikipedia.org">
+          <span class="air-quotes">quiz</span></a>
         but a
         <a href="https://en.wikipedia.org/wiki/Questionnaire" target="_blank"
-                title="Page about Questionnaires at "><span class="air-quotes">
-           questionnaire.</span></a>
+           title="Page about Questionnaires at wikipedia.org">
+          <span class="air-quotes">questionnaire.</span></a>
        Big whoop, right?  Just sayin'!
     </p>
     <h3>Pick a Version</h3>
     <p>
-    <p>
       Pick one of the following versions of the quiz:
     </p>
-    <ul>
+    <ul class="no-bullets">
       {% for quiz_size_slug, size_text, question_count in quiz_slug_text_counts %}
-        <li>
-          The
-            <a href="/quiz/{{ quiz_size_slug }}"
-               title="Link to {{ size_text }} version">
-              {{ size_text }}</a>
-          version has {{ question_count }} questions.
+        <li class="quiz-sizes-list">
+          <a href="/quiz/{{ quiz_size_slug }}" class="btn btn-primary"
+             id="quiz-size-button-{{ quiz_size_slug }}"
+             title="Link to {{ size_text }} version">{{ size_text }}</a>
+            &ndash; contains
+          <a href="/quiz/{{ quiz_size_slug }}" class="quiz-size-text"
+             id="quiz-size-link-{{ quiz_size_slug }}"
+             title="Link to {{ size_text }} version">
+              {{ question_count }} questions</a>
         </li>
       {% endfor %}
     </ul>
     <p>
-      We should make bootstrap buttons for each of these,
-       maybe changing in color or increasing in size as apporpriate.
+      You can use your email address to save your answers on our server!
     </p>
-    <hr />
     <h1>Sharing Your Email Address</h1>
     <p>
       Sharing your email address on the quiz page
-        enables you to save and retrieve your answers.</p>
+        enables you to save your answers on our server and
+        retrieve, change, and add to them when you return.</p>
     <p>
-      Note that entering your email address on the quiz page
-        will NOT sign you up for our newsletter!
+      Note: sharing your email address on the quiz page
+        does NOT sign you up for our newsletter!
       To do that, use the form in the aside that is
         labeled specifically for that purpose.</p>
   </article>
