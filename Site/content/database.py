@@ -113,6 +113,8 @@ class Questionnaire(models.Model):
         #   return only the name email address in the request
         #
         if answers_dict == None:
+            not_found_msg = 'Unable to find questionnaire for ' + email
+            messages.add_message(request, messages.ERROR, not_found_msg)
             new_request_data = QueryDict('', mutable=True)
             new_data = {
                 'name': request.POST['name'],
@@ -135,8 +137,6 @@ class Questionnaire(models.Model):
         ans_query_set = None
 
         if questionnaire == None:
-            not_found_msg = 'Unable to find questionnaire for ' + email
-            messages.add_message(request, messages.ERROR, not_found_msg)
             answers_dict = None
         else:
             answers_dict = {}
@@ -145,7 +145,7 @@ class Questionnaire(models.Model):
                 # print('load_answers - ans_query_set:', ans_query_set)
             except BaseException as exc:
                 print('Questionnaire.load_answers ERROR',
-                    '(email = "' + email + '"):',
+                    '(questionnaire = "' + questionnaire + '"):',
                     'Questionnaire found but unable to get ans_query_set!',
                     'exc: "' + str(exc) + '"')
 
