@@ -87,13 +87,10 @@
               <div class="quizzes-collapse">
                 <ul class="dropdown-menu">
                   <a href="/quiz"><li>About</li></a>
-                  <a href="/quiz/xx-small"><li>XX Small</li></a>
-                  <a href="/quiz/extra-small"><li>Extra Small</li></a>
-                  <a href="/quiz/small"><li>Small</li></a>
-                  <a href="/quiz/medium"><li>Medium</li></a>
-                  <a href="/quiz/large"><li>Large</li></a>
-                  <a href="/quiz/extra-large"><li>Extra Large</li></a>
-                  <a href="/quiz/xx-large"><li>XX Large</li></a>
+                  {% for quiz_size_slug, size_text in quiz_menu_data %}
+                    <a href="/quiz/{{ quiz_size_slug }}"><li>
+                      {{ size_text }}</li></a>
+                  {% endfor %}
                 </ul>
               </div>
             </li>
