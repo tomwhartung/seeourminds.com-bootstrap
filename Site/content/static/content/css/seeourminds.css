@@ -301,12 +301,20 @@ li.quiz-sizes-list {
 a.quiz-size-text {
    font-size: 1.2em;
 }
-.help-text {
+input#load-answers {
+   margin-left: .5em;
+}
+p.quiz-form-opt-req {
+   font-size: 1.1em;
+   font-style: italic;
+   text-decoration: underline;
+}
+.quiz-help-text {
    margin-left: 2em;
    font-size: .9em;
    font-style: italic;
 }
-.quiz-error {
+.errorlist, .quiz-error {
    border: red solid 2px;
    font-size: 1.25em;
    list-style-type: none;
