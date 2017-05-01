@@ -24,11 +24,12 @@
       Pick one of the following versions of the quiz:
     </p>
     <ul class="no-bullets">
-      {% for quiz_size_slug, size_text, question_count in quiz_slug_text_counts %}
+      {% for quiz_size_slug, size_text, question_count, size_abbr, button_classes in quiz_list_data %}
         <li class="quiz-sizes-list">
-          <a href="/quiz/{{ quiz_size_slug }}" class="btn btn-primary"
+          <a href="/quiz/{{ quiz_size_slug }}" class="{{ button_classes }}"
              id="quiz-size-button-{{ quiz_size_slug }}"
-             title="Link to {{ size_text }} version">{{ size_text }}</a>
+             title="Link to {{ size_text }} version">
+            {{ size_text }} ({{ size_abbr }})</a>
             &ndash; contains
           <a href="/quiz/{{ quiz_size_slug }}" class="quiz-size-text"
              id="quiz-size-link-{{ quiz_size_slug }}"
@@ -83,4 +84,3 @@
 {% block bottom_row_ad %}
   {{ block.super }}
 {% endblock %}
-
