@@ -187,6 +187,18 @@ class Questionnaire(models.Model):
         return quiz_size_slugs
 
     @classmethod
+    def get_quiz_menu_data(cls):
+        """ Returns a list of the quiz size data needed to create the menu """
+        quiz_menu_data = []
+        quiz_size_slugs = cls.get_quiz_size_slugs_list()
+
+        for quiz_size_slug in quiz_size_slugs:
+            size_text = cls.get_quiz_size_text_for_slug(quiz_size_slug)
+            quiz_menu_data.append([quiz_size_slug, size_text])
+
+        return quiz_menu_data
+
+    @classmethod
     def get_quiz_size_abbreviation_for_slug(cls, quiz_size_slug):
         """ Returns the corresponding constant for passed in quiz_size_slug """
         quiz_size_constant_for_slug = {
