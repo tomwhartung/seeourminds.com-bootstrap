@@ -99,27 +99,18 @@ def quiz_about(request):
     """ Load and render the quiz_about page template """
 
     quiz_info = {}
-    quiz_info["size_abbreviation"] = ''
+    quiz_info["quiz_size_abbr"] = ''
     quiz_info["question_count"] = 0
     quiz_info["size_text"] = ''
-    quiz_size_slugs = Questionnaire.get_quiz_size_slugs_list()
-    quiz_slug_text_counts = []
 
-    for quiz_size_slug in quiz_size_slugs:
-        size_text = Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
-        question_count = Questionnaire.get_question_count_for_slug(quiz_size_slug)
-        # print('view.quiz - quiz_size_slug/size_text/question_count:',
-        #     quiz_size_slug + '/' + size_text + '/' + str(question_count))
-        size_text_and_count = [quiz_size_slug, size_text, question_count]
-        quiz_slug_text_counts.append(size_text_and_count)
-
+    quiz_list_data = Questionnaire.get_quiz_list_data()
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_about.html')
     context = {
         'adsense_ads': adsense_ads,
         'quiz_info': quiz_info,
         'quiz_menu_data': quiz_menu_data,
-        'quiz_slug_text_counts': quiz_slug_text_counts,
+        'quiz_list_data': quiz_list_data,
     }
     return HttpResponse(template.render(context, request))
 
@@ -171,8 +162,8 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
 
     quiz_info = {}
     quiz_info["quiz_size_slug"] = quiz_size_slug
-    quiz_info["size_abbreviation"] = \
-        Questionnaire.get_quiz_size_abbreviation_for_slug(quiz_size_slug)
+    quiz_info["quiz_size_abbr"] = \
+        Questionnaire.get_quiz_size_abbr_for_slug(quiz_size_slug)
     quiz_info["question_count"] = \
         Questionnaire.get_question_count_for_slug(quiz_size_slug)
     quiz_info["size_text"] = \
