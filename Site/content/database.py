@@ -23,7 +23,7 @@ nearer the beginning, with the "fun," experimental ones at the end.
 It is desireable that the number of questions be divisible by 4 but not 8,
 so that there is an odd number of questions for each pair of opposites.
 """
-TINY = 'T'             # 4 = 1*4 (for testing, not available in production)
+TINY = 'T'             # 4 = 1 * 4 (for testing, not available in production)
 XX_SMALL = '2XS'       # 12 = 3 * 4
 EXTRA_SMALL = 'XS'     # 20 = 5 * 4
 SMALL = 'S'            # 28 = 7 * 4
@@ -94,7 +94,7 @@ class Questionnaire(models.Model):
         name = cleaned_data['name']
         self.name = name
         self.email = email
-        self.size = self.get_quiz_size_abbreviation_for_slug(quiz_size_slug)
+        self.size = self.get_quiz_size_abbr_for_slug(quiz_size_slug)
         self.save()
         # print('Questionnaire.save_questionnaire - saved:', self.__str__())
 
@@ -199,7 +199,28 @@ class Questionnaire(models.Model):
         return quiz_menu_data
 
     @classmethod
-    def get_quiz_size_abbreviation_for_slug(cls, quiz_size_slug):
+    def get_quiz_list_data(cls):
+        quiz_size_slugs = cls.get_quiz_size_slugs_list()
+        quiz_list_data = []
+
+        for quiz_size_slug in quiz_size_slugs:
+            size_text = cls.get_quiz_size_text_for_slug(quiz_size_slug)
+            question_count = cls.get_question_count_for_slug(quiz_size_slug)
+            quiz_size_abbr = cls.get_quiz_size_abbr_for_slug(quiz_size_slug)
+            button_classes = cls.get_button_classes_for_slug(quiz_size_slug)
+            data_for_slug = [
+                quiz_size_slug,
+                size_text,
+                question_count,
+                quiz_size_abbr,
+                button_classes
+            ]
+            quiz_list_data.append(data_for_slug)
+
+        return quiz_list_data
+
+    @classmethod
+    def get_quiz_size_abbr_for_slug(cls, quiz_size_slug):
         """ Returns the corresponding constant for passed in quiz_size_slug """
         quiz_size_constant_for_slug = {
             "tiny": TINY,
@@ -242,6 +263,21 @@ class Questionnaire(models.Model):
             'xx-large': '2X Large',
         }
         return quiz_size_slugs_to_text[quiz_size_slug]
+
+    @classmethod
+    def get_button_classes_for_slug(cls, quiz_size_slug):
+        """ Returns the quiz button_classes for the passed in quiz_size_slug """
+        quiz_size_slugs_to_button_classes = {
+            'tiny': 'btn btn-danger btn-xs',
+            'xx-small': 'btn btn-warning btn-sm',
+            'extra-small': 'btn btn-warning btn-sm',
+            'small': 'btn btn-success btn-md',
+            'medium': 'btn btn-success btn-md',
+            'large': 'btn btn-success btn-md',
+            'extra-large': 'btn btn-primary btn-lg',
+            'xx-large': 'btn btn-primary btn-lg',
+        }
+        return quiz_size_slugs_to_button_classes[quiz_size_slug]
 
     def __str__(self):
         name_email_size = self.name + '/' + self.email + '/' + self.size
