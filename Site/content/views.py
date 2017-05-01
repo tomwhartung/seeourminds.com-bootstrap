@@ -27,10 +27,12 @@ def home(request):
     """ Load and render the Home page template """
 
     context_home_selected = 'class="disabled"'      # see seeourminds.css
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/home.html')
     context = {
         'adsense_ads': adsense_ads,
         'context_home_selected': context_home_selected,
+        'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
 
@@ -40,10 +42,12 @@ def galleries(request):
     """ Load and render the Galleries page template """
 
     context_galleries_selected = 'class="disabled"'      # see seeourminds.css
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries.html')
     context = {
         'adsense_ads': adsense_ads,
         'context_galleries_selected': context_galleries_selected,
+        'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
 
@@ -68,11 +72,14 @@ def gallery(request, gallery_name='all'):
     image_file_dir = 'content/images/galleries/' + gallery_name + '/'
     image_list = gallery_dictionary['image_list']
     image_list_with_path = []
+
     for img in image_list:
         img_to_add = img
         img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
         image_list_with_path.append(img_to_add)
+
     row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/gallery.html')
     context = {
         'adsense_ads': adsense_ads,
@@ -82,6 +89,7 @@ def gallery(request, gallery_name='all'):
         'data_file_path': data_file_path,
         'image_list_with_path': image_list_with_path,
         'row_separator_markup': row_separator_markup,
+        'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
 
@@ -105,10 +113,12 @@ def quiz_about(request):
         size_text_and_count = [quiz_size_slug, size_text, question_count]
         quiz_slug_text_counts.append(size_text_and_count)
 
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_about.html')
     context = {
         'adsense_ads': adsense_ads,
         'quiz_info': quiz_info,
+        'quiz_menu_data': quiz_menu_data,
         'quiz_slug_text_counts': quiz_slug_text_counts,
     }
     return HttpResponse(template.render(context, request))
@@ -168,11 +178,13 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
     quiz_info["size_text"] = \
         Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
 
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_form.html')
     context = {
         'adsense_ads': adsense_ads,
         'quiz_form': quiz_form,
         'quiz_info': quiz_info,
+        'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
 
@@ -180,8 +192,12 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
 def quiz_results(request):
     """ Render the Quiz results template """
     # quiz_results = request.session['quiz_results']
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     quiz_results = 'quiz results here'
-    return render(request, 'content/quiz_results.html', {'quiz_results': quiz_results})
+    return render(request, 'content/quiz_results.html', {
+        'quiz_results': quiz_results,
+        'quiz_menu_data': quiz_menu_data,
+    })
 
 
 def image(request, image_id=0):
@@ -215,10 +231,12 @@ def image(request, image_id=0):
         image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
         image["description"] = 'description goes here'
 
-    return render(request, 'content/image.html',
-         {'adsense_ads': adsense_ads,
-          'image': image,
-         })
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
+    return render(request, 'content/image.html', {
+        'adsense_ads': adsense_ads,
+        'image': image,
+        'quiz_menu_data': quiz_menu_data,
+    })
 
 
 def google_verification(request):
