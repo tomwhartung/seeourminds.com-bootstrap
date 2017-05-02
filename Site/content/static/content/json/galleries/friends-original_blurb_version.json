@@ -1,0 +1,125 @@
+{
+  "name_of_gallery": "Friends",
+  "description_of_gallery": "This gallery contains images of ... Friends and Family ... and so on.",
+  "image_list":
+  [
+    {
+      "id": "111",
+      "image_name": "A Boss Who Didn't Like Me",
+      "image_file_name": "infj-manager_b-a_boss_who_did_not_like_me.jpeg",
+      "composition": "O",
+      "e_score": "2",
+      "n_score": "12",
+      "f_score": "15",
+      "j_score": "18",
+      "four_letter_type": "INFJ",
+      "archetype": "Ni",
+      "quiz_type": "K",
+      "frontpage_blurb": "Once upon a time long long ago in a faraway place I was hired by Manager A. After about three months the department reorganized and I found myself working for Manager B. It turned out to be a challenging job, sometimes I felt I could not do anything right! Much later, I found out from Manager C that Manager A and Manager B argued a lot. Then I remembered that Manager A had hired me while Manager B was on vacation!!  The red in this image of Manager B makes it obvious to me that, Manager B had such strong feelings and after the reorg I never really had a chance."
+    }, {
+      "id": "110",
+      "image_name": "Tom 87",
+      "image_file_name": "infp-tomh_1987.jpeg",
+      "composition": "O",
+      "e_score": "9",
+      "n_score": "13",
+      "f_score": "10",
+      "j_score": "9",
+      "four_letter_type": "INFP",
+      "archetype": "Fi",
+      "quiz_type": "K",
+      "frontpage_blurb": "This image is based on a score from one of the first times I took the Keirsey Temperament Sorter.  Like many, at first I was surprised to learn I was an INFP!"
+    }, {
+      "id": "86",
+      "image_name": "mildred (my kitty cat) 1",
+      "image_file_name": "isfp-mildred_my_warm_soft_kitty_cat_friends.jpeg",
+      "composition": "O",
+      "e_score": "2",
+      "n_score": "8",
+      "f_score": "17",
+      "j_score": "9",
+      "four_letter_type": "ISFP",
+      "archetype": "Fi",
+      "quiz_type": "Q",
+      "frontpage_blurb": "Just for fun I took the Groja Quiz, answering the questions as I imagine my cat (Mildred) might.  I thought her portrait would look a bit shy but \"warm\" nonetheless, and sure enough it does!"
+    }, {
+      "id": "112",
+      "image_name": "A Boss Who Liked Me",
+      "image_file_name": "enfp-manager_a-a_boss_who_liked_me.jpeg",
+      "composition": "O",
+      "e_score": "13",
+      "n_score": "15",
+      "f_score": "12",
+      "j_score": "7",
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "K",
+      "frontpage_blurb": "Once upon a time long long ago in a faraway place I was hired by Manager A. After about three months the department reorganized and I found myself working for Manager B. It turned out to be a challenging job, sometimes I felt I could not do anything right! Much later, I found out from Manager C that Manager A and Manager B argued a lot. Then I remembered that Manager A had hired me while Manager B was on vacation!!  This is an image of Manager A, who was very friendly to me."
+    }, {
+      "id": "114",
+      "image_name": "Roy B. Scherer",
+      "image_file_name": "estp-roy_b_scherer-libertarian_lobbyist.jpeg",
+      "composition": "O",
+      "e_score": "15",
+      "n_score": "8",
+      "f_score": "4",
+      "j_score": "6",
+      "four_letter_type": "ESTP",
+      "archetype": "Se",
+      "quiz_type": "K",
+      "frontpage_blurb": "Back in college during the 1980s I was very interested in Libertarianism.  During that time I managed to get Roy B. Scherer to take the Keirsey Temperament Sorter.  A quick googling confirms that Roy is still a Libertarian who continues to lobby in Richmond Virginia for gun rights and the legalization of marijuana.  Here is an image of his personality."
+    }, {
+      "id": "118",
+      "image_name": "Jim Armstrong",
+      "image_file_name": "esfj-jim_armstrong-a_best_friend_forever.jpeg",
+      "composition": "O",
+      "e_score": "19",
+      "n_score": "8",
+      "f_score": "10",
+      "j_score": "11",
+      "four_letter_type": "ESFJ",
+      "archetype": "Fe",
+      "quiz_type": "K",
+      "frontpage_blurb": "When I lived in Richmond, Jim was one of my best friends. He was the center of a group of us and the only one I have seen to score 100% Extraverted on the Keirsey Temperament Sorter.  The portrait shows that Jim was a very warm, open person.  And I regret to note that I say \"was\" because Jim passed away April 5th, 2002.  I am certain that I am not alone in missing him very much!"
+    }, {
+      "id": "120",
+      "image_name": "Dr. Loren Carrier",
+      "image_file_name": "intp-dr_loren_carrier-electronic_music_teacher.jpeg",
+      "composition": "O",
+      "e_score": "4",
+      "n_score": "18",
+      "f_score": "9",
+      "j_score": "4",
+      "four_letter_type": "INTP",
+      "archetype": "Ti",
+      "quiz_type": "K",
+      "frontpage_blurb": "When I started college, playing music was my favorite hobby.  For awhile I even made a few bucks playing bass in a bluegrass band!  When I started grad school I took some electronic music classes with Dr. Carrier.  As a former Assembly language programmer for NASA, he knew a great deal about the digital world, but valued his analog stereo equipment (yes I am talking not just vinyl but TUBES, people) a great deal.  I suppose one could call him \"eccentric,\" and the large amount of blue in his image attests to that."
+    }, {
+      "id": "121",
+      "image_name": "Walter Wright",
+      "image_file_name": "intp-walter_wright-computer_graphics_design_teacher.jpeg",
+      "composition": "O",
+      "e_score": "9",
+      "n_score": "17",
+      "f_score": "9",
+      "j_score": "7",
+      "four_letter_type": "INTP",
+      "archetype": "Ti",
+      "quiz_type": "K",
+      "frontpage_blurb": "During grad school, classes in Photography and Art History gradually caused me to lose interest in music and gain interest in the visual arts.  The conversion became complete probably about the time I read Point and Line to Plane by Wassily Kandinsky for a Computer Graphic Design class in VCU's Art Department.  The original version of this site (written in Lisp for an old 8088-based PC) wound up being the final project for a Masters of Interdisciplinary Studies degree.  Walter Wright was my academic advisor for this degree."
+    }, {
+      "id": "123",
+      "image_name": "Tom H - Latest Humanmetrics",
+      "image_file_name": "infj-tom_2008-humanmetrics.jpeg",
+      "composition": "O",
+      "e_score": "3",
+      "n_score": "17",
+      "f_score": "12",
+      "j_score": "12",
+      "four_letter_type": "INFJ",
+      "archetype": "Ni",
+      "quiz_type": "P",
+      "frontpage_blurb": "Having considered myself an INFP for many years, I've taken the quiz at humanmetrics.com  a few times recently, and keep coming out as an INFJ.  The two types are fairly similar, and my J\/P scores are fairly close.  Here is an image of my most recent results from that quiz."
+    }
+  ]
+}
