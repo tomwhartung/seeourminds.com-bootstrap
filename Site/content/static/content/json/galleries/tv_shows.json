@@ -5,7 +5,7 @@
   [
     {
       "id": "152",
-      "image_name": "Special Agent Fox Mulder",
+      "title": "Special Agent Fox Mulder",
       "image_file_name": "infp-agent_fox_mulder-x_files.jpeg",
       "composition": "O",
       "e_score": "2",
@@ -15,10 +15,12 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "Q",
-      "frontpage_blurb": "I always suspected that Agent Mulder was an INFP - like me!"
+      "tweet": "",
+		"explanation": "",
+		"story": "I always suspected that Agent Mulder was an INFP - like me!"
     }, {
       "id": "153",
-      "image_name": "Agent Dana Scully - The X-Files - ESTJ?",
+      "title": "Agent Dana Scully - The X-Files - ESTJ?",
       "image_file_name": "estj-agent_dana_scully-x_files.jpeg",
       "composition": "O",
       "e_score": "10",
@@ -28,10 +30,12 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "Q",
-      "frontpage_blurb": "So Scully is the opposite of Mulder - who've guessed?"
+      "tweet": "",
+		"explanation": "",
+		"story": "So Scully is the opposite of Mulder - who've guessed?"
     }, {
       "id": "115",
-      "image_name": "Dr. McCoy",
+      "title": "Dr. McCoy",
       "image_file_name": "esfp-dr_mccoy-star_trek.jpeg",
       "composition": "O",
       "e_score": "11",
@@ -41,10 +45,12 @@
       "four_letter_type": "ESFP",
       "archetype": "Se",
       "quiz_type": "K",
-      "frontpage_blurb": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
+      "tweet": "",
+		"explanation": "",
+		"story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
     }, {
       "id": "116",
-      "image_name": "Mr. Spock",
+      "title": "Mr. Spock",
       "image_file_name": "istj-mr_spock-star_trek.jpeg",
       "composition": "O",
       "e_score": "9",
@@ -54,10 +60,12 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "K",
-      "frontpage_blurb": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
+      "tweet": "",
+		"explanation": "",
+		"story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
     }, {
       "id": "117",
-      "image_name": "Captain Kirk",
+      "title": "Captain Kirk",
       "image_file_name": "estj-captain_kirk-star_trek.jpeg",
       "composition": "O",
       "e_score": "17",
@@ -67,7 +75,9 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "K",
-      "frontpage_blurb": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
+      "tweet": "",
+		"explanation": "",
+		"story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
     }
   ]
 }
