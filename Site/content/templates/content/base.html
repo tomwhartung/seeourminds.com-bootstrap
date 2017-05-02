@@ -103,6 +103,11 @@
   <main class="main-container container">
     <div class="main wrapper clearfix">
       {% block top_row_ad %}
+        <div class="row">
+          <div class="col-md-12">
+            {{ adsense_ads.top_row_ad | safe }}
+         </div><!-- col-md-12 -->
+        </div><!-- .row -->
       {% endblock %}
       <div class="row">
         {% block top_left_ad %}
