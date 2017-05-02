@@ -6,7 +6,6 @@
 {% endblock %}
 
 {% block top_row_ad %}{{ block.super }}{% endblock %}
-
 {% block top_left_ad %}{% endblock %}
 
 {% block top_content_left %}
@@ -17,15 +16,15 @@
       </section><!-- #gallery-description -->
       <div class="row">
         {% for img in image_list_with_path %}
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="gallery-image">
               <figure>
                 <img src="{% static img.image_file_path %}" class="gallery-img">
-                <figcaption><q>{{ img.image_name }}</q></figcaption>
+                <figcaption><q>{{ img.title }}</q></figcaption>
               </figure>
-              <p>{{ img.frontpage_blurb }}</p>
+              <p>{{ img.story }}</p>
             </div><!-- .gallery-image -->
-          </div><!-- .col-md-3 -->
+         </div><!-- .col-md-4 -->
           {% cycle '' row_separator_markup|safe %}
         {% endfor %}
       </div><!-- .row -->
