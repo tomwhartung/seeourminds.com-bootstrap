@@ -1,5 +1,10 @@
 {% extends 'content/base.html' %}
 
+{% block head %}
+  {{ block.super }}
+  {% load static %}
+{% endblock %}
+
 {% block top_row_ad %}{{ block.super }}{% endblock %}
 
 {% block top_left_ad %}
@@ -42,10 +47,23 @@
     </h2>
     <p>
       A generic image of each of the sixteen types.</p>
-    <div class="text-center">
-      <a class="btn-lg btn-primary" href="gallery/sixteen_types/" role="button">
+    <div class="gallery-image">
+      <div class="text-center">
+        <figure>
+          <img src="{% static 'content/images/galleries/sixteen_types/enfj.jpg' %}"
+               class="gallery-img">
+          <figcaption><q>Generic ENFJ</q></figcaption>
+        </figure>
+      </div><!-- .text-center -->
+      <p>
+         This generic ENFJ is typical of the generic images, which all have
+          a fairly well-balanced score.
+      </p>
+      <div class="text-center">
+        <a class="btn-lg btn-primary" href="gallery/sixteen_types/" role="button">
           View the Gallery &raquo;</a>
-    </div><!-- .text-center -->
+      </div><!-- .text-center -->
+    </div><!-- .gallery-image -->
   </div><!-- col-md-4 -->
   <div class="col-md-4">
     <h2>
