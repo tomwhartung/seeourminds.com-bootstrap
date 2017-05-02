@@ -105,7 +105,9 @@
       {% block top_row_ad %}
         <div class="row">
           <div class="col-md-12">
-            {{ adsense_ads.top_row_ad | safe }}
+            <div class="text-center">
+              {{ adsense_ads.top_row_ad | safe }}
+            </div><!-- .text-center -->
          </div><!-- col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
@@ -149,7 +151,9 @@
       {% block above_middle_row_ad %}
         <div class="row">
           <div class="col-md-12">
-            {{ adsense_ads.above_middle_row_ad | safe }}
+            <div class="text-center">
+              {{ adsense_ads.above_middle_row_ad | safe }}
+            </div><!-- .text-center -->
          </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
@@ -168,7 +172,13 @@
         {% endblock %}
       </div><!-- .row -->
       {% block below_middle_row_ad %}
-        {{ adsense_ads.below_middle_row_ad | safe }}
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              {{ adsense_ads.below_middle_row_ad | safe }}
+            </div><!-- .text-center -->
+          </div><!-- .col-md-12 -->
+        </div><!-- .row -->
       {% endblock %}
       <div class="row">
         {% block bottom_left_ad %}
@@ -185,7 +195,13 @@
         {% endblock %}
       </div><!-- .row -->
       {% block bottom_row_ad %}
-        {{ adsense_ads.bottom_row_ad | safe }}
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              {{ adsense_ads.bottom_row_ad | safe }}
+            </div><!-- .text-center -->
+          </div><!-- .col-md-12 -->
+        </div><!-- .row -->
       {% endblock %}
     </div><!-- .main .wrapper .clearfix -->
   </main><!-- .main-container .container -->
