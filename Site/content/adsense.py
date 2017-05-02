@@ -20,6 +20,25 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 #
 # #############################################################################
 #
+# Ad for the upper left corner on the galleries page (and maybe others?)
+# ----------------------------------------------------------------------
+#
+TOP_LEFT_RESPONSIVE_IFRAME = \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+TOP_LEFT_RESPONSIVE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Top Left Ad - Responsive -->' \
+    '<ins class="adsbygoogle" ' \
+         'style="display:block" ' \
+         'data-ad-client="ca-pub-2594011034406643" ' \
+         'data-ad-slot="7003644444" ' \
+         'data-ad-format="auto"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+#
 # Ads for the aside(s) on the home page, etc.
 # -------------------------------------------
 #
@@ -256,6 +275,8 @@ adsense_ads = {}
 
 if RUNNING_LOCALLY:
     adsense_ads = {
+        "top_left_ad":
+            TOP_LEFT_RESPONSIVE_IFRAME,
         "top_aside_top_ad":
             TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_IFRAME,
         "top_aside_top_responsive_ad":
@@ -281,6 +302,8 @@ if RUNNING_LOCALLY:
     }
 else:
     adsense_ads = {
+        "top_left_ad":
+            TOP_LEFT_RESPONSIVE_AD,
         "top_aside_top_ad":
             # TOP_ASIDE_TOP_LARGE_RECTANGLE_AD,
             TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD,
@@ -306,4 +329,3 @@ else:
         "bottom_row_ad":
             BOTTOM_ROW_LARGE_LEADERBOARD_AD,
     }
-
