@@ -5,7 +5,7 @@
   [
     {
       "id": "133",
-      "image_name": "enfj",
+      "title": "enfj",
       "image_file_name": "enfj.jpg",
       "composition": "O",
       "e_score": "11",
@@ -15,10 +15,12 @@
       "four_letter_type": "ENFJ",
       "archetype": "Fe",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ENFJ, created for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ENFJ, created for the Gallery."
     }, {
       "id": "134",
-      "image_name": "enfp",
+      "title": "enfp",
       "image_file_name": "enfp.jpg",
       "composition": "O",
       "e_score": "11",
@@ -28,10 +30,12 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ENFP for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ENFP for the Gallery."
     }, {
       "id": "135",
-      "image_name": "entj",
+      "title": "entj",
       "image_file_name": "entj.jpg",
       "composition": "O",
       "e_score": "11",
@@ -41,10 +45,12 @@
       "four_letter_type": "ENTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ENTJ for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ENTJ for the Gallery."
     }, {
       "id": "136",
-      "image_name": "entp",
+      "title": "entp",
       "image_file_name": "entp.jpg",
       "composition": "O",
       "e_score": "11",
@@ -54,10 +60,12 @@
       "four_letter_type": "ENTP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ENTP for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ENTP for the Gallery."
     }, {
       "id": "137",
-      "image_name": "esfj",
+      "title": "esfj",
       "image_file_name": "esfj.jpg",
       "composition": "O",
       "e_score": "11",
@@ -67,10 +75,12 @@
       "four_letter_type": "ESFJ",
       "archetype": "Fe",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ESFJ, created for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ESFJ, created for the Gallery."
     }, {
       "id": "138",
-      "image_name": "esfp",
+      "title": "esfp",
       "image_file_name": "esfp.jpg",
       "composition": "O",
       "e_score": "11",
@@ -80,10 +90,12 @@
       "four_letter_type": "ESFP",
       "archetype": "Se",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ESFP, created for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ESFP, created for the Gallery."
     }, {
       "id": "139",
-      "image_name": "estj",
+      "title": "estj",
       "image_file_name": "estj.jpg",
       "composition": "O",
       "e_score": "11",
@@ -93,10 +105,12 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ESTJ, created for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ESTJ, created for the Gallery."
     }, {
       "id": "140",
-      "image_name": "estp",
+      "title": "estp",
       "image_file_name": "estp.jpg",
       "composition": "O",
       "e_score": "11",
@@ -106,10 +120,12 @@
       "four_letter_type": "ESTP",
       "archetype": "Se",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ESTP, created for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ESTP, created for the Gallery."
     }, {
       "id": "141",
-      "image_name": "infj",
+      "title": "infj",
       "image_file_name": "infj.jpg",
       "composition": "O",
       "e_score": "8",
@@ -119,10 +135,12 @@
       "four_letter_type": "INFJ",
       "archetype": "Ni",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic INFJ, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic INFJ, for the Gallery."
     }, {
       "id": "142",
-      "image_name": "infp",
+      "title": "infp",
       "image_file_name": "infp.jpg",
       "composition": "O",
       "e_score": "8",
@@ -132,10 +150,12 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic INFP, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic INFP, for the Gallery."
     }, {
       "id": "143",
-      "image_name": "intj",
+      "title": "intj",
       "image_file_name": "intj.jpg",
       "composition": "O",
       "e_score": "8",
@@ -145,10 +165,12 @@
       "four_letter_type": "INTJ",
       "archetype": "Ni",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic INTJ, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic INTJ, for the Gallery."
     }, {
       "id": "144",
-      "image_name": "intp",
+      "title": "intp",
       "image_file_name": "intp.jpg",
       "composition": "O",
       "e_score": "8",
@@ -158,10 +180,12 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic INTP, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic INTP, for the Gallery."
     }, {
       "id": "145",
-      "image_name": "isfj",
+      "title": "isfj",
       "image_file_name": "isfj.jpg",
       "composition": "O",
       "e_score": "8",
@@ -171,10 +195,12 @@
       "four_letter_type": "ISFJ",
       "archetype": "Si",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ISFJ, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ISFJ, for the Gallery."
     }, {
       "id": "146",
-      "image_name": "isfp",
+      "title": "isfp",
       "image_file_name": "isfp.jpg",
       "composition": "O",
       "e_score": "8",
@@ -184,10 +210,12 @@
       "four_letter_type": "ISFP",
       "archetype": "Fi",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ISFP, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ISFP, for the Gallery."
     }, {
       "id": "147",
-      "image_name": "istj",
+      "title": "istj",
       "image_file_name": "istj.jpg",
       "composition": "O",
       "e_score": "8",
@@ -197,10 +225,12 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ISTJ, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ISTJ, for the Gallery."
     }, {
       "id": "148",
-      "image_name": "istp",
+      "title": "istp",
       "image_file_name": "istp.jpg",
       "composition": "O",
       "e_score": "8",
@@ -210,7 +240,9 @@
       "four_letter_type": "ISTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "frontpage_blurb": "Image of a Generic ISTP, for the Gallery."
+      "tweet": "",
+		"explanation": "",
+		"story": "Image of a Generic ISTP, for the Gallery."
     }
   ]
 }
