@@ -25,7 +25,7 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 #
 TOP_ROW_LARGE_BILLBOARD_IFRAME = \
     '<iframe width="970" height="250" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="top-row-ad" style="background: #CCCCCC"></iframe>'
 TOP_ROW_LARGE_BILLBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -43,7 +43,7 @@ TOP_ROW_LARGE_BILLBOARD_AD = \
 #
 TOP_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="top-left-ad" style="background: #CCCCCC"></iframe>'
 TOP_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -62,7 +62,7 @@ TOP_LEFT_RESPONSIVE_AD = \
 #
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_IFRAME = \
     '<iframe width="320" height="100" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="top-aside-top-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -89,7 +89,7 @@ TOP_ASIDE_TOP_LARGE_RECTANGLE_AD = \
 
 TOP_ASIDE_TOP_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="top-aside-top-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -110,7 +110,7 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
 #
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_IFRAME = \
     '<iframe width="322" height="90" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="top-aside-bottom" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -138,7 +138,7 @@ TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD = \
 
 TOP_ASIDE_BOTTOM_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="top-aside-bottom-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -159,7 +159,7 @@ TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
 #
 ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="above-middle-row-ad" style="background: #CCCCCC"></iframe>'
 ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -174,7 +174,7 @@ ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 
 ABOVE_MIDDLE_ROW_LEADERBOARD_IFRAME = \
     '<iframe width="728" height="90" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="above-middle-row-ad" style="background: #CCCCCC"></iframe>'
 ABOVE_MIDDLE_ROW_LEADERBOARD_AD = \
     '<script async ' \
        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -189,7 +189,7 @@ ABOVE_MIDDLE_ROW_LEADERBOARD_AD = \
 
 BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="below-middle-row-ad" style="background: #CCCCCC"></iframe>'
 BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -204,7 +204,7 @@ BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 
 BOTTOM_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="bottom-row-ad" style="background: #CCCCCC"></iframe>'
 BOTTOM_ROW_LARGE_LEADERBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -222,7 +222,7 @@ BOTTOM_ROW_LARGE_LEADERBOARD_AD = \
 #
 MIDDLE_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="middle-left-ad" style="background: #CCCCCC"></iframe>'
 MIDDLE_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -238,7 +238,7 @@ MIDDLE_LEFT_RESPONSIVE_AD = \
 
 MIDDLE_RIGHT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="middle-right-ad" style="background: #CCCCCC"></iframe>'
 MIDDLE_RIGHT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -254,7 +254,7 @@ MIDDLE_RIGHT_RESPONSIVE_AD = \
 
 BOTTOM_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="bottom-left-ad" style="background: #CCCCCC"></iframe>'
 BOTTOM_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -270,7 +270,7 @@ BOTTOM_LEFT_RESPONSIVE_AD = \
 
 BOTTOM_RIGHT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'style="background: #CCCCCC"></iframe>'
+        'id="bottom-right-ad" style="background: #CCCCCC"></iframe>'
 BOTTOM_RIGHT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
