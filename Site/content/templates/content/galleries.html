@@ -72,10 +72,23 @@
     </h2>
     <p>
      What do personalities of the characters on some of our TV shows look like?</p>
-    <div class="text-center">
-      <a class="btn-lg btn-primary" href="gallery/tv_shows/" role="button">
-        View the Gallery &raquo;</a></p>
-    </div><!-- .text-center -->
+    <div class="gallery-image">
+      <div class="text-center">
+        <figure>
+          <img src="{% static 'content/images/galleries/tv_shows/istj-mr_spock-star_trek.jpeg' %}"
+               class="gallery-img">
+          <figcaption><q>Mr. Spock of Star Trek</q></figcaption>
+        </figure>
+      </div><!-- .text-center -->
+      <p>
+         The large amount of green shows that Mr. Spock is a very logical person.
+         Visit the gallery to see other members of the Star Trek crew!
+      </p>
+      <div class="text-center">
+        <a class="btn-lg btn-primary" href="gallery/tv_shows/" role="button">
+          View the Gallery &raquo;</a></p>
+      </div><!-- .text-center -->
+    </div><!-- .gallery-image -->
   </div><!-- col-md-4 -->
 {% endblock %}
 
