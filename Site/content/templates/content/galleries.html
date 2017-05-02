@@ -4,14 +4,20 @@
   {{ block.super }}
 {% endblock %}
 
+{% block top_left_ad %}
+  <div class="col-md-4">
+    {{ block.super }}
+  </div><!-- col-md-4 -->
+{% endblock %}
+
 {% block top_content_left %}
-    <div class="col-md-8">
+    <div class="col-md-4">
       <h2>Galleries</h2>
       <p>
         See the Spiritual Portraits of some of my friends, or
         some fictional or famous people,
         by visiting one of the galleries.</p>
-    </div><!-- col-md-8 -->
+    </div><!-- col-md-4 -->
 {% endblock %}
 
 {% block top_aside %}
