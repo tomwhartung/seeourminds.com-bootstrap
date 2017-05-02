@@ -23,6 +23,24 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 # Ad for the upper left corner on the galleries page (and maybe others?)
 # ----------------------------------------------------------------------
 #
+TOP_ROW_LARGE_BILLBOARD_IFRAME = \
+    '<iframe width="970" height="250" allowtransparency="true" ' \
+        'style="background: #CCCCCC"></iframe>'
+TOP_ROW_LARGE_BILLBOARD_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Top Row Ad - Billboard -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:inline-block;width:970px;height:250px" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="9898235241"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+#
+# Ad for the upper left corner on the galleries page (and maybe others?)
+# ----------------------------------------------------------------------
+#
 TOP_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
         'style="background: #CCCCCC"></iframe>'
@@ -275,6 +293,8 @@ adsense_ads = {}
 
 if RUNNING_LOCALLY:
     adsense_ads = {
+        "top_row_ad":
+            TOP_ROW_LARGE_BILLBOARD_IFRAME,
         "top_left_ad":
             TOP_LEFT_RESPONSIVE_IFRAME,
         "top_aside_top_ad":
@@ -302,6 +322,8 @@ if RUNNING_LOCALLY:
     }
 else:
     adsense_ads = {
+        "top_row_ad":
+            TOP_ROW_LARGE_BILLBOARD_AD,
         "top_left_ad":
             TOP_LEFT_RESPONSIVE_AD,
         "top_aside_top_ad":
