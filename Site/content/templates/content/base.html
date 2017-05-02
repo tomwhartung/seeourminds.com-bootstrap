@@ -147,7 +147,11 @@
         {% endblock %}
       </div><!-- .row -->
       {% block above_middle_row_ad %}
-        {{ adsense_ads.above_middle_row_ad | safe }}
+        <div class="row">
+          <div class="col-md-12">
+            {{ adsense_ads.above_middle_row_ad | safe }}
+         </div><!-- .col-md-12 -->
+        </div><!-- .row -->
       {% endblock %}
       <div class="row">
         {% block middle_left_ad %}
