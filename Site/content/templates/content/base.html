@@ -105,6 +105,9 @@
       {% block top_row_ad %}
       {% endblock %}
       <div class="row">
+        {% block top_left_ad %}
+          {{ adsense_ads.top_left_ad | safe }}
+        {% endblock %}
         {% block top_content_left %}
         {% endblock %}
         {% block top_aside %}
