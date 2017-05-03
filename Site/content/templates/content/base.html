@@ -103,18 +103,24 @@
   <main class="main-container container">
     <div class="main wrapper clearfix">
       {% block top_row_ad %}
-        <div class="row">
-          <div class="col-md-12">
-            <div class="text-center">
-              {% block top_row_large_billboard_ad %}
-                {{ adsense_ads.top_row_large_billboard_ad | safe }}
-              {% endblock %}
-              {% block top_row_large_leaderboard_ad %}
-                {{ adsense_ads.top_row_large_leaderboard_ad | safe }}
-              {% endblock %}
-            </div><!-- .text-center -->
-          </div><!-- col-md-12 -->
-        </div><!-- .row -->
+        {% block top_row_large_billboard_ad %}
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-center">
+                  {{ adsense_ads.top_row_large_billboard_ad | safe }}
+              </div><!-- .text-center -->
+            </div><!-- col-md-12 -->
+          </div><!-- .row -->
+        {% endblock %}
+        {% block top_row_large_leaderboard_ad %}
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-center">
+                  {{ adsense_ads.top_row_large_leaderboard_ad | safe }}
+              </div><!-- .text-center -->
+            </div><!-- col-md-12 -->
+          </div><!-- .row -->
+        {% endblock %}
       {% endblock %}
       <div class="row">
         {% block top_left_ad %}
