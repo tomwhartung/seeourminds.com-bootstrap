@@ -5,7 +5,10 @@
   {% load static %}
 {% endblock %}
 
-{% block top_row_ad %}{{ block.super }}{% endblock %}
+{% block top_row_ad %}
+  {% block top_row_large_billboard_ad %}{{ block.super }}{% endblock %}
+  {% block top_row_large_leaderboard_ad %}{% endblock %}
+{% endblock %}
 
 {% block top_left_ad %}
   <div class="col-md-4">
