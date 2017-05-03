@@ -18,14 +18,17 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 # makes it easier to turn ad types off and on as we zero in on how
 # we want them to look.
 #
+# RTFMIW - Read The Freakin Manual I Wrote:
+#   https://github.com/tomwhartung/jmws_accoutrements/blob/master/doc/google/adsense.md
+#
 # #############################################################################
 #
-# Ad for the upper left corner on the galleries page (and maybe others?)
-# ----------------------------------------------------------------------
+# Ads for the top of pages (galleries and quiz, for now...)
+# ---------------------------------------------------------
 #
 TOP_ROW_LARGE_BILLBOARD_IFRAME = \
     '<iframe width="970" height="250" allowtransparency="true" ' \
-        'id="top-row-ad" style="background: #CCCCCC"></iframe>'
+        'id="top-row-large-billboard-ad" style="background: #CCCCCC"></iframe>'
 TOP_ROW_LARGE_BILLBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -37,13 +40,29 @@ TOP_ROW_LARGE_BILLBOARD_AD = \
         'data-ad-slot="9898235241"></ins>' \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
+
+TOP_ROW_LARGE_LEADERBOARD_IFRAME = \
+    '<iframe width="970" height="90" allowtransparency="true" ' \
+        'id="top-row-large-leaderboard-ad" style="background: #CCCCCC"></iframe>'
+TOP_ROW_LARGE_LEADERBOARD_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Top Row Ad - Large Leaderboard -->' \
+    '<ins class="adsbygoogle" ' \
+        'style="display:inline-block;width:970px;height:90px" ' \
+        'data-ad-client="ca-pub-2594011034406643" ' \
+        'data-ad-slot="6194562442"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
 #
 # Ad for the upper left corner on the galleries page (and maybe others?)
 # ----------------------------------------------------------------------
 #
 TOP_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
-        'id="top-left-ad" style="background: #CCCCCC"></iframe>'
+        'id="top-left-responsive-ad" style="background: #CCCCCC"></iframe>'
 TOP_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -62,7 +81,7 @@ TOP_LEFT_RESPONSIVE_AD = \
 #
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_IFRAME = \
     '<iframe width="320" height="100" allowtransparency="true" ' \
-        'id="top-aside-top-ad" style="background: #CCCCCC"></iframe>'
+        'id="top-aside-top-large-mobile-banner-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -89,7 +108,7 @@ TOP_ASIDE_TOP_LARGE_RECTANGLE_AD = \
 
 TOP_ASIDE_TOP_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
-        'id="top-aside-top-ad" style="background: #CCCCCC"></iframe>'
+        'id="top-aside-top-responsive-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -110,7 +129,7 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
 #
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_IFRAME = \
     '<iframe width="322" height="90" allowtransparency="true" ' \
-        'id="top-aside-bottom" style="background: #CCCCCC"></iframe>'
+        'id="top-aside-bottom-responsive-links-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_BOTTOM_RESPONSIVE_LINKS_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -138,7 +157,7 @@ TOP_ASIDE_BOTTOM_LARGE_MOBILE_BANNER_AD = \
 
 TOP_ASIDE_BOTTOM_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
-        'id="top-aside-bottom-ad" style="background: #CCCCCC"></iframe>'
+        'id="top-aside-bottom-responsive-ad" style="background: #CCCCCC"></iframe>'
 TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -154,12 +173,12 @@ TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
 
 # #############################################################################
 #
-# Leaderboard ads for the single image page, etc.
-# -----------------------------------------------
+# These Leaderboard ads are for the single image page, etc.
+# ---------------------------------------------------------
 #
 ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
-        'id="above-middle-row-ad" style="background: #CCCCCC"></iframe>'
+        'id="above-middle-row-large-leaderboard-ad" style="background: #CCCCCC"></iframe>'
 ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -174,7 +193,7 @@ ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 
 ABOVE_MIDDLE_ROW_LEADERBOARD_IFRAME = \
     '<iframe width="728" height="90" allowtransparency="true" ' \
-        'id="above-middle-row-ad" style="background: #CCCCCC"></iframe>'
+        'id="above-middle-row-leaderboard-ad" style="background: #CCCCCC"></iframe>'
 ABOVE_MIDDLE_ROW_LEADERBOARD_AD = \
     '<script async ' \
        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -189,7 +208,7 @@ ABOVE_MIDDLE_ROW_LEADERBOARD_AD = \
 
 BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
-        'id="below-middle-row-ad" style="background: #CCCCCC"></iframe>'
+        'id="below-middle-row-large-leaderboard-ad" style="background: #CCCCCC"></iframe>'
 BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -204,7 +223,7 @@ BELOW_MIDDLE_ROW_LARGE_LEADERBOARD_AD = \
 
 BOTTOM_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
-        'id="bottom-row-ad" style="background: #CCCCCC"></iframe>'
+        'id="bottom-row-large-leaderboard-ad" style="background: #CCCCCC"></iframe>'
 BOTTOM_ROW_LARGE_LEADERBOARD_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -222,7 +241,7 @@ BOTTOM_ROW_LARGE_LEADERBOARD_AD = \
 #
 MIDDLE_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'id="middle-left-ad" style="background: #CCCCCC"></iframe>'
+        'id="middle-left-responsive-ad" style="background: #CCCCCC"></iframe>'
 MIDDLE_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -238,7 +257,7 @@ MIDDLE_LEFT_RESPONSIVE_AD = \
 
 MIDDLE_RIGHT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'id="middle-right-ad" style="background: #CCCCCC"></iframe>'
+        'id="middle-right-responsive-ad" style="background: #CCCCCC"></iframe>'
 MIDDLE_RIGHT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -254,7 +273,7 @@ MIDDLE_RIGHT_RESPONSIVE_AD = \
 
 BOTTOM_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'id="bottom-left-ad" style="background: #CCCCCC"></iframe>'
+        'id="bottom-left-responsive-ad" style="background: #CCCCCC"></iframe>'
 BOTTOM_LEFT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -270,7 +289,7 @@ BOTTOM_LEFT_RESPONSIVE_AD = \
 
 BOTTOM_RIGHT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
-        'id="bottom-right-ad" style="background: #CCCCCC"></iframe>'
+        'id="bottom-right-responsive-ad" style="background: #CCCCCC"></iframe>'
 BOTTOM_RIGHT_RESPONSIVE_AD = \
     '<script async ' \
         'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
@@ -293,8 +312,10 @@ adsense_ads = {}
 
 if RUNNING_LOCALLY:
     adsense_ads = {
-        "top_row_ad":
+        "top_row_large_billboard_ad":
             TOP_ROW_LARGE_BILLBOARD_IFRAME,
+        "top_row_large_leaderboard_ad":
+            TOP_ROW_LARGE_LEADERBOARD_IFRAME,
         "top_left_ad":
             TOP_LEFT_RESPONSIVE_IFRAME,
         "top_aside_top_ad":
@@ -322,8 +343,10 @@ if RUNNING_LOCALLY:
     }
 else:
     adsense_ads = {
-        "top_row_ad":
+        "top_row_large_billboard_ad":
             TOP_ROW_LARGE_BILLBOARD_AD,
+        "top_row_large_leaderboard_ad":
+            TOP_ROW_LARGE_LEADERBOARD_AD,
         "top_left_ad":
             TOP_LEFT_RESPONSIVE_AD,
         "top_aside_top_ad":
