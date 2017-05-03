@@ -1,6 +1,10 @@
 {% extends 'content/base.html' %}
 
-{% block top_row_ad %}{{ block.super }}{% endblock %}
+{% block top_row_ad %}
+  {% block top_row_large_billboard_ad %}{% endblock %}
+  {% block top_row_large_leaderboard_ad %}{{ block.super }}{% endblock %}
+{% endblock %}
+
 {% block top_left_ad %}{% endblock %}
 
 {% block top_content_left %}
