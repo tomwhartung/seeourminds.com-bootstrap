@@ -105,19 +105,15 @@
       {% block top_row_ad %}
         {% block top_row_large_billboard_ad %}
           <div class="row" id="top-row-large-billboard-ad-block">
-            <div class="col-md-12">
-              <div class="text-center">
-                  {{ adsense_ads.top_row_large_billboard_ad | safe }}
-              </div><!-- .text-center -->
+            <div class="col-md-12 text-center">
+              {{ adsense_ads.top_row_large_billboard_ad | safe }}
             </div><!-- col-md-12 -->
           </div><!-- .row -->
         {% endblock %}
         {% block top_row_large_leaderboard_ad %}
           <div class="row" id="top-row-large-leaderboard-ad-block">
-            <div class="col-md-12">
-              <div class="text-center">
-                  {{ adsense_ads.top_row_large_leaderboard_ad | safe }}
-              </div><!-- .text-center -->
+            <div class="col-md-12 text-center">
+              {{ adsense_ads.top_row_large_leaderboard_ad | safe }}
             </div><!-- col-md-12 -->
           </div><!-- .row -->
         {% endblock %}
@@ -159,10 +155,8 @@
       </div><!-- .row #top-content-left-top-aside -->
       {% block above_middle_row_ad %}
         <div class="row" id="above-middle-row-ad-block">
-          <div class="col-md-12">
-            <div class="text-center">
-              {{ adsense_ads.above_middle_row_ad | safe }}
-            </div><!-- .text-center -->
+          <div class="col-md-12 text-center">
+           {{ adsense_ads.above_middle_row_ad | safe }}
          </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
@@ -175,17 +169,15 @@
         {% block middle_content %}
         {% endblock %}
         {% block middle_right_ad %}
-		  <div class="col-md-2" id="middle-right-ad-block">
+          <div class="col-md-2" id="middle-right-ad-block">
             {{ adsense_ads.middle_right_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
       </div><!-- .row -->
       {% block below_middle_row_ad %}
         <div class="row" id="below-middle-row-ad-block">
-          <div class="col-md-12">
-            <div class="text-center">
-              {{ adsense_ads.below_middle_row_ad | safe }}
-            </div><!-- .text-center -->
+          <div class="col-md-12 text-center">
+            {{ adsense_ads.below_middle_row_ad | safe }}
           </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
@@ -205,10 +197,8 @@
       </div><!-- .row -->
       {% block bottom_row_ad %}
         <div class="row" id="bottom-row-ad-block">
-          <div class="col-md-12">
-            <div class="text-center">
-              {{ adsense_ads.bottom_row_ad | safe }}
-            </div><!-- .text-center -->
+          <div class="col-md-12 text-center">
+            {{ adsense_ads.bottom_row_ad | safe }}
           </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
