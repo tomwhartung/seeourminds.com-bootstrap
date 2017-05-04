@@ -1,43 +1,25 @@
-{% extends 'content/base.html' %}
+{% extends 'content/galleries_base.html' %}
 
 {% block head %}
   {{ block.super }}
   {% load static %}
 {% endblock %}
 
-{% block top_row_ad %}
-  {% block top_row_large_billboard_ad %}{{ block.super }}{% endblock %}
-  {% block top_row_large_leaderboard_ad %}{% endblock %}
-{% endblock %}
-
-{% block top_left_ad %}
-  <div class="col-md-4">
-    {{ block.super }}
-  </div><!-- col-md-4 -->
-{% endblock %}
-
 {% block top_content_left %}
-    <div class="col-md-4">
+  {% block top_left_ad %}{{ block.super }}{% endblock %}
+  <div class="col-md-4">
+    <header id="galleries-introduction">
       <h2>Galleries</h2>
       <p>
         See the Spiritual Portraits of some of my friends, or
-        some fictional or famous people,
-        by visiting one of the galleries.</p>
-    </div><!-- col-md-4 -->
+          some fictional or famous people,
+          by visiting one of the galleries.</p>
+    </header><!-- #galleries-introduction -->
+  </div><!-- col-md-4 -->
 {% endblock %}
 
 {% block top_aside %}
-   <div class="col-md-4">
-     {% block top_aside_top_ad %}{% endblock %}
-     {% block top_aside_top_responsive_ad %}{% endblock %}
-   </div><!-- .col-md-4 -->
-   {% block top_aside_email %}
-     {{ block.super }}
-   {% endblock %}
-   <div class="col-md-4">
-     {% block top_aside_bottom_ad %}{% endblock %}
-     {% block top_aside_bottom_responsive_ad %}{% endblock %}
-   </div><!-- .col-md-4 -->
+  {{ block.super }}
 {% endblock %}
 
 {% block above_middle_row_ad %}{% endblock %}
@@ -64,7 +46,7 @@
       </p>
       <div class="text-center">
         <a class="btn-lg btn-primary" href="gallery/sixteen_types/" role="button">
-          View the Gallery &raquo;</a>
+          See Their Minds &raquo;</a>
       </div><!-- .text-center -->
     </div><!-- .gallery-image -->
   </div><!-- col-md-4 -->
@@ -89,13 +71,13 @@
       </p>
       <div class="text-center">
         <a class="btn-lg btn-primary" href="gallery/tv_shows/" role="button">
-          View the Gallery &raquo;</a></p>
+          See Their Minds &raquo;</a></p>
       </div><!-- .text-center -->
     </div><!-- .gallery-image -->
   </div><!-- col-md-4 -->
 {% endblock %}
 
-{% block below_middle_row_ad %}{{ block.super }}{% endblock %}
+{% block below_middle_row_ad %}{% endblock %}
 
 {% block bottom_content %}
   <div class="col-md-4">
@@ -117,12 +99,12 @@
       </div><!-- .text-center -->
       <p>
          The blue shows us Honest Abe was idealistic, and
-			 the green shows us he was logical and believed in fairness for all.
+          the green shows us he was logical and believed in fairness for all.
          Visit the gallery to see other presidents and politicans, both old and new!
       </p>
       <div class="text-center">
         <a class="btn-lg btn-primary" href="gallery/politicians/" role="button">
-          View the Gallery &raquo;</a></p>
+          See Their Minds &raquo;</a></p>
       </div><!-- .text-center -->
     </div><!-- .gallery-image -->
   </div><!-- col-md-4 -->
@@ -148,7 +130,7 @@
       </p>
       <div class="text-center">
         <a class="btn-lg btn-primary" href="gallery/friends/" role="button">
-          View the Gallery &raquo;</a></p>
+          See Their Minds &raquo;</a></p>
       </div><!-- .text-center -->
     </div><!-- .gallery-image -->
   </div><!-- col-md-4 -->
