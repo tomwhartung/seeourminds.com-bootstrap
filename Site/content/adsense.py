@@ -12,6 +12,7 @@ import os
 RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 
 # #############################################################################
+# #############################################################################
 #
 # We define global constants to contain the code we get from google.
 # This makes it easier to format the code itself for PEP8 compliance, and
@@ -22,9 +23,10 @@ RUNNING_LOCALLY = os.environ.get('RUNNING_LOCALLY')
 #   https://github.com/tomwhartung/jmws_accoutrements/blob/master/doc/google/adsense.md
 #
 # #############################################################################
+# #############################################################################
 #
-# Ads for the top of pages (galleries and quiz, for now...)
-# ---------------------------------------------------------
+# TOP_ROW_LARGE_*BOARD_ADs: for the very tops of pages
+# ----------------------------------------------------
 #
 TOP_ROW_LARGE_BILLBOARD_IFRAME = \
     '<iframe width="970" height="250" allowtransparency="true" ' \
@@ -56,9 +58,10 @@ TOP_ROW_LARGE_LEADERBOARD_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+# #############################################################################
 #
-# Ad for the upper left corner on the galleries page (and maybe others?)
-# ----------------------------------------------------------------------
+# TOP_LEFT_RESPONSIVE_AD for the upper left corner on the galleries pages
+# -----------------------------------------------------------------------
 #
 TOP_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="320" height="320" allowtransparency="true" ' \
@@ -75,9 +78,11 @@ TOP_LEFT_RESPONSIVE_AD = \
          'data-ad-format="auto"></ins>' \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
+
+# #############################################################################
 #
-# Ads for the aside(s) on the home page, etc.
-# -------------------------------------------
+# TOP_ASIDE_TOP_*_ADs: for above the email form
+# ---------------------------------------------
 #
 TOP_ASIDE_TOP_LARGE_MOBILE_BANNER_IFRAME = \
     '<iframe width="320" height="100" allowtransparency="true" ' \
@@ -122,8 +127,12 @@ TOP_ASIDE_TOP_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+# #############################################################################
 #
-# Responsive ads may vary in size.
+# TOP_ASIDE_BOTTOM_*_ADs: for below the email form
+# ------------------------------------------------
+# Responsive ads may vary in size (I think?)
+# At least, responsive ads may be a different size than responsive links
 # At first I thought this one was 190x130, now it's 322x90, and
 #   I suppose it may change again
 #
@@ -173,8 +182,8 @@ TOP_ASIDE_BOTTOM_RESPONSIVE_AD = \
 
 # #############################################################################
 #
-# These Leaderboard ads are for the single image page, etc.
-# ---------------------------------------------------------
+# *_ROW_LARGE_LEADERBOARD_ADs: for the single image page, etc.
+# ------------------------------------------------------------
 #
 ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME = \
     '<iframe width="970" height="90" allowtransparency="true" ' \
@@ -238,6 +247,8 @@ BOTTOM_ROW_LARGE_LEADERBOARD_AD = \
 
 # #############################################################################
 #
+# MIDDLE_*_RESPONSIVE_ADs: for the image page
+# -------------------------------------------
 #
 MIDDLE_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
@@ -271,6 +282,106 @@ MIDDLE_RIGHT_RESPONSIVE_AD = \
     '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
     '</script>'
 
+# #############################################################################
+#
+# MIDDLE_CONTENT_*_ADs: for the galleries -> gallery page, and ???
+# ----------------------------------------------------------------
+# Because that page is built using a for loop to create multiple columns,
+#    we couldn't get the ads to work on the sides the way we wanted to.
+# (NOT saying that is impossible, just that we decided to try something new.)
+# So we are going to try mixing rectangular ads in with the grojas!
+# Notes:
+#   We are setting up a few different sizes, to see how they look
+#   We may not actually get code for and use all these sizes right away...
+#
+MIDDLE_CONTENT_RESPONSIVE_IFRAME = \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
+        'id="gallery-page-responsive-ad" style="background: #CCCCCC">' \
+    '</iframe>'
+MIDDLE_CONTENT_RESPONSIVE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Content Ad - Responsive -->' \
+    '<ins class="adsbygoogle" ' \
+         'style="display:block" ' \
+         'data-ad-client="ca-pub-2594011034406643" ' \
+         'data-ad-slot="4092047248" ' \
+         'data-ad-format="auto"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+MIDDLE_CONTENT_LARGE_RECTANGLE_IFRAME = \
+    '<iframe width="320" height="320" allowtransparency="true" ' \
+        'id="gallery-page-large-rectangle-ad" style="background: #CCCCCC">' \
+    '</iframe>'
+MIDDLE_CONTENT_LARGE_RECTANGLE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Content Ad - Large Rectangle -->' \
+    '<ins class="adsbygoogle" ' \
+         'style="display:inline-block;width:336px;height:280px" ' \
+         'data-ad-client="ca-pub-2594011034406643" ' \
+         'data-ad-slot="9998980048"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+MIDDLE_CONTENT_MEDIUM_RECTANGLE_IFRAME = \
+    '<iframe width="300" height="250" allowtransparency="true" ' \
+        'id="gallery-page-medium-rectangle-ad" style="background: #CCCCCC">' \
+    '</iframe>'
+MIDDLE_CONTENT_MEDIUM_RECTANGLE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Content Ad - Medium Rectangle -->' \
+    '<ins class="adsbygoogle" ' \
+         'style="display:inline-block;width:300px;height:250px" ' \
+         'data-ad-client="ca-pub-2594011034406643" ' \
+         'data-ad-slot="6626711244"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+MIDDLE_CONTENT_SQUARE_IFRAME = \
+    '<iframe width="250" height="250" allowtransparency="true" ' \
+        'id="gallery-page-square-ad" style="background: #CCCCCC">' \
+    '</iframe>'
+MIDDLE_CONTENT_SQUARE_AD = \
+    '<script async ' \
+        'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Content Ad - Square -->' \
+    '<ins class="adsbygoogle" ' \
+         'style="display:inline-block;width:250px;height:250px" ' \
+         'data-ad-client="ca-pub-2594011034406643" ' \
+         'data-ad-slot="9580177644"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+MIDDLE_CONTENT_SMALL_SQUARE_IFRAME = \
+    '<iframe width="200" height="200" allowtransparency="true" ' \
+        'id="gallery-page-small-square-ad" style="background: #CCCCCC">' \
+    '</iframe>'
+MIDDLE_CONTENT_SMALL_SQUARE_AD = \
+    '<script async ' \
+    'src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">' \
+    '</script>' \
+    '<!-- Middle Content Ad - Small Square -->' \
+    '<ins class="adsbygoogle" ' \
+         'style="display:inline-block;width:200px;height:200px" ' \
+         'data-ad-client="ca-pub-2594011034406643" ' \
+         'data-ad-slot="3533644042"></ins>' \
+    '<script>(adsbygoogle = window.adsbygoogle || []).push({});' \
+    '</script>'
+
+# #############################################################################
+#
+# BOTTOM_*_RESPONSIVE_ADs: for the quiz pages, on either side of the disclaimer
+# When I see these ads, they appear to be tall and narrow, hence the given
+#   width and height, even though they are the same "size" (responsive)
+#   as ads we use above these, in the aside.  Interesting.
+#
 BOTTOM_LEFT_RESPONSIVE_IFRAME = \
     '<iframe width="147" height="548" allowtransparency="true" ' \
         'id="bottom-left-responsive-ad" style="background: #CCCCCC"></iframe>'
@@ -304,7 +415,10 @@ BOTTOM_RIGHT_RESPONSIVE_AD = \
     '</script>'
 
 # #############################################################################
+# #############################################################################
 #
+# Define the adsense_ads dictionary
+# ---------------------------------
 # Define the dictionary that contains the ad code, and
 # populate it appropriately, based on whether we are running locally
 #
@@ -330,6 +444,16 @@ if RUNNING_LOCALLY:
             ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_IFRAME,
         "middle_left_ad":
             MIDDLE_LEFT_RESPONSIVE_IFRAME,
+        "middle_content_responsive_ad":
+            MIDDLE_CONTENT_RESPONSIVE_IFRAME,
+        "middle_content_large_rectangle_ad":
+            MIDDLE_CONTENT_LARGE_RECTANGLE_IFRAME,
+        "middle_content_medium_rectangle_ad":
+            MIDDLE_CONTENT_MEDIUM_RECTANGLE_IFRAME,
+        "middle_content_square_ad":
+            MIDDLE_CONTENT_SQUARE_IFRAME,
+        "middle_content_small_square_ad":
+            MIDDLE_CONTENT_SMALL_SQUARE_IFRAME,
         "middle_right_ad":
             MIDDLE_RIGHT_RESPONSIVE_IFRAME,
         "below_middle_row_ad":
@@ -363,6 +487,16 @@ else:
             ABOVE_MIDDLE_ROW_LARGE_LEADERBOARD_AD,
         "middle_left_ad":
             MIDDLE_LEFT_RESPONSIVE_AD,
+        "middle_content_responsive_ad":
+            MIDDLE_CONTENT_RESPONSIVE_AD,
+        "middle_content_large_rectangle_ad":
+            MIDDLE_CONTENT_LARGE_RECTANGLE_AD,
+        "middle_content_medium_rectangle_ad":
+            MIDDLE_CONTENT_MEDIUM_RECTANGLE_AD,
+        "middle_content_square_ad":
+            MIDDLE_CONTENT_SQUARE_AD,
+        "middle_content_small_square_ad":
+            MIDDLE_CONTENT_SMALL_SQUARE_AD,
         "middle_right_ad":
             MIDDLE_RIGHT_RESPONSIVE_AD,
         "below_middle_row_ad":
@@ -374,3 +508,4 @@ else:
         "bottom_row_ad":
             BOTTOM_ROW_LARGE_LEADERBOARD_AD,
     }
+
