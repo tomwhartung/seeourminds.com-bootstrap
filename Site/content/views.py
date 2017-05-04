@@ -39,11 +39,11 @@ def home(request):
 
 def galleries(request):
 
-    """ Load and render the Galleries page template """
+    """ Load and render the template displaying the List of Galleries """
 
     context_galleries_selected = 'class="disabled"'      # see seeourminds.css
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
-    template = loader.get_template('content/galleries.html')
+    template = loader.get_template('content/galleries_list.html')
     context = {
         'adsense_ads': adsense_ads,
         'context_galleries_selected': context_galleries_selected,
@@ -80,7 +80,7 @@ def gallery(request, gallery_name='all'):
 
     row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
-    template = loader.get_template('content/gallery.html')
+    template = loader.get_template('content/galleries_gallery.html')
     context = {
         'adsense_ads': adsense_ads,
         'name_of_gallery': name_of_gallery,
