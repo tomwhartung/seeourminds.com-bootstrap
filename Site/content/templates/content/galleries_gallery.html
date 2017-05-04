@@ -26,20 +26,18 @@
 {% block middle_left_ad %}{% endblock %}
 
 {% block middle_content %}
-  <div class="col-md-12">
-    {% for img in image_list_with_path %}
-      <div class="col-md-4">
-        <div class="gallery-image">
-          <figure>
-            <img src="{% static img.image_file_path %}" class="gallery-img">
-            <figcaption><q>{{ img.title }}</q></figcaption>
-          </figure>
-          <p>{{ img.story }}</p>
-        </div><!-- .gallery-image -->
-      </div><!-- .col-md-4 -->
-		{% cycle '' '' '</div><!-- .row --><div class="row">' %}
-    {% endfor %}
-  </div><!-- .col-md-12 -->
+  {% for img in image_list_with_path %}
+    <div class="col-md-4">
+      <div class="gallery-image">
+        <figure>
+          <img src="{% static img.image_file_path %}" class="gallery-img">
+          <figcaption><q>{{ img.title }}</q></figcaption>
+        </figure>
+        <p>{{ img.story }}</p>
+      </div><!-- .gallery-image -->
+    </div><!-- .col-md-4 -->
+    {% cycle '' '' '</div><!-- .row --><div class="row">' %}
+  {% endfor %}
 {% endblock %}
 
 {% block middle_right_ad %}{% endblock %}
