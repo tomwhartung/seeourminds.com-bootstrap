@@ -49,6 +49,21 @@
 		"explanation": "",
 		"story": "Image of a Generic ENTJ for the Gallery."
     }, {
+      "id": "1034",
+      "title": "responsive_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+		"explanation": "",
+		"story": ""
+    }, {
       "id": "136",
       "title": "entp",
       "image_file_name": "entp.jpg",
@@ -109,6 +124,21 @@
 		"explanation": "",
 		"story": "Image of a Generic ESTJ, created for the Gallery."
     }, {
+      "id": "1034",
+      "title": "large_rectangle_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+		"explanation": "",
+		"story": ""
+    }, {
       "id": "140",
       "title": "estp",
       "image_file_name": "estp.jpg",
@@ -153,6 +183,21 @@
       "tweet": "",
 		"explanation": "",
 		"story": "Image of a Generic INFP, for the Gallery."
+    }, {
+      "id": "1034",
+      "title": "medium_rectangle_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+		"explanation": "",
+		"story": ""
     }, {
       "id": "143",
       "title": "intj",
@@ -199,6 +244,21 @@
 		"explanation": "",
 		"story": "Image of a Generic ISFJ, for the Gallery."
     }, {
+      "id": "1034",
+      "title": "square_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+		"explanation": "",
+		"story": ""
+    }, {
       "id": "146",
       "title": "isfp",
       "image_file_name": "isfp.jpg",
@@ -243,6 +303,21 @@
       "tweet": "",
 		"explanation": "",
 		"story": "Image of a Generic ISTP, for the Gallery."
+    }, {
+      "id": "1034",
+      "title": "small_square_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+		"explanation": "",
+		"story": ""
     }
   ]
 }
