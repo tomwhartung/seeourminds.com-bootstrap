@@ -19,9 +19,7 @@
      {% block top_aside_top_ad %}{{ block.super }}{% endblock %}
      {% block top_aside_top_responsive_ad %}{{ block.super }}{% endblock %}
    </div><!-- .col-md-4 -->
-   {% block top_aside_email %}
-     {{ block.super }}
-   {% endblock %}
+   {% block top_aside_email %}{{ block.super }}{% endblock %}
    <div class="col-md-4">
      {% block top_aside_bottom_ad %}{{ block.super }}{% endblock %}
      {% block top_aside_bottom_responsive_ad %}{{ block.super }}{% endblock %}
@@ -31,13 +29,12 @@
 
 {% block above_middle_row_ad %}{% endblock %}
 {% block middle_left_ad %}{% endblock %}
+{% block middle_content %}{% endblock %}
 {% block middle_right_ad %}{% endblock %}
 {% block below_middle_row_ad %}{% endblock %}
 
 
-{% block bottom_left_ad %}
-  {{ block.super }}
-{% endblock %}
+{% block bottom_left_ad %}{{ block.super }}{% endblock %}
 {% block bottom_content %}
   <div class="col-md-8">
   <article id="disclaimer">
@@ -90,10 +87,6 @@
   </article>
   </div><!-- .col-md-8 -->
 {% endblock %}
-{% block bottom_right_ad %}
-  {{ block.super }}
-{% endblock %}
+{% block bottom_right_ad %}{{ block.super }}{% endblock %}
 
-{% block bottom_row_ad %}
-  {{ block.super }}
-{% endblock %}
+{% block bottom_row_ad %}{{ block.super }}{% endblock %}
