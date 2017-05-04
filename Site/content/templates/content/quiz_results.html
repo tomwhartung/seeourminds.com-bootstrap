@@ -21,21 +21,16 @@
 {% endblock %}
 
 {% block top_aside %}
-  {% block top_aside_email %}
-    {{ block.super }}
-  {% endblock %}
+  {% block top_aside_email %}{{ block.super }}{% endblock %}
 {% endblock %}
 
 {% block above_middle_row_ad %}{% endblock %}
 {% block middle_left_ad %}{% endblock %}
+{% block middle_content %}{% endblock %}
 {% block middle_right_ad %}{% endblock %}
 {% block below_middle_row_ad %}{% endblock %}
 
-{% block bottom_left_ad %}
-{% endblock %}
-{% block bottom_content %}
-  {{ block.super }}
-{% endblock %}
-{% block bottom_right_ad %}
-{% endblock %}
+{% block bottom_left_ad %}{% endblock %}
+{% block bottom_content %}{{ block.super }}{% endblock %}
+{% block bottom_right_ad %}{% endblock %}
 
