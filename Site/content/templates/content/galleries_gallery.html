@@ -1,41 +1,32 @@
-{% extends 'content/base.html' %}
+{% extends 'content/galleries_base.html' %}
 
 {% block head %}
   {{ block.super }}
   {% load static %}
 {% endblock %}
 
-{% block top_row_ad %}
-  {% block top_row_large_billboard_ad %}{{ block.super }}{% endblock %}
-  {% block top_row_large_leaderboard_ad %}{% endblock %}
-{% endblock %}
-
-{% block top_left_ad %}
-  <div class="col-md-4">
-    {{ block.super }}
-  </div><!-- col-md-4 -->
-{% endblock %}
 {% block top_content_left %}
+  {% block top_left_ad %}{{ block.super }}{% endblock %}
   <div class="col-md-4">
     <header id="gallery-description">
-      <h2>{{ name_of_gallery }}</h2>
-      <p>{{ description_of_gallery }}</p>
+      <h2>
+        {{ name_of_gallery }}</h2>
+      <p>
+        {{ description_of_gallery }}</p>
     </header><!-- #gallery-description -->
   </div><!-- col-md-4 -->
 {% endblock %}
+
 {% block top_aside %}
-  {% block top_aside_top_ad %}{% endblock %}
-  {% block top_aside_top_responsive_ad %}{% endblock %}
-  {% block top_aside_email %}{{ block.super }}{% endblock %}
-  {% block top_aside_bottom_responsive_ad %}{% endblock %}
-  {% block top_aside_bottom_ad %}{% endblock %}
+  {{ block.super }}
 {% endblock %}
 
 {% block above_middle_row_ad %}{% endblock %}
-{% block middle_left_ad %}{{ block.super }}{% endblock %}
+
+{% block middle_left_ad %}{% endblock %}
 
 {% block middle_content %}
-  <article id="all-gallery-images">
+  <div class="col-md-12">
     {% for img in image_list_with_path %}
       <div class="col-md-4">
         <div class="gallery-image">
@@ -46,12 +37,12 @@
           <p>{{ img.story }}</p>
         </div><!-- .gallery-image -->
       </div><!-- .col-md-4 -->
-		{% cycle '' '</div><div class="row">' %}
+		{% cycle '' '' '</div><!-- .row --><div class="row">' %}
     {% endfor %}
-  </article><!-- #all-gallery-images -->
+  </div><!-- .col-md-12 -->
 {% endblock %}
 
-{% block middle_right_ad %}{{ block.super }}{% endblock %}
+{% block middle_right_ad %}{% endblock %}
 
 {% block below_middle_row_ad %}{{ block.super }}{% endblock %}
 {% block bottom_left_ad %}{% endblock %}
