@@ -121,7 +121,9 @@
       <div class="row" id="top-row-ads-and-content-blocks">
         {% block top_content_left %}
           {% block top_left_ad %}
-            {{ adsense_ads.top_left_ad | safe }}
+            <div class="col-md-4">
+              {{ adsense_ads.top_left_ad | safe }}
+            </div><!-- col-md-4 -->
           {% endblock %}
         {% endblock %}
         {% block top_aside %}
@@ -157,7 +159,7 @@
         <div class="row" id="above-middle-row-ad-block">
           <div class="col-md-12 text-center">
            {{ adsense_ads.above_middle_row_ad | safe }}
-         </div><!-- .col-md-12 -->
+          </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
       <div class="row" id="middle-row-ads-and-content-blocks">
@@ -167,6 +169,31 @@
           </div><!-- .col-md-2 -->
         {% endblock %}
         {% block middle_content %}
+          {% block middle_content_responsive_ad %}
+            <div class="col-md-4 text-center">
+              {{ adsense_ads.middle_content_responsive_ad | safe }}
+            </div><!-- .col-md-4 -->
+          {% endblock %}
+          {% block middle_content_large_rectangle_ad %}
+            <div class="col-md-4 text-center">
+              {{ adsense_ads.middle_content_large_rectangle_ad | safe }}
+            </div><!-- .col-md-4 -->
+          {% endblock %}
+          {% block middle_content_medium_rectangle_ad %}
+            <div class="col-md-4 text-center">
+              {{ adsense_ads.middle_content_medium_rectangle_ad | safe }}
+            </div><!-- .col-md-4 -->
+          {% endblock %}
+          {% block middle_content_square_ad %}
+            <div class="col-md-4 text-center">
+              {{ adsense_ads.middle_content_square_ad | safe }}
+            </div><!-- .col-md-4 -->
+          {% endblock %}
+          {% block middle_content_small_square_ad %}
+            <div class="col-md-4 text-center">
+              {{ adsense_ads.middle_content_small_square_ad | safe }}
+            </div><!-- .col-md-4 -->
+          {% endblock %}
         {% endblock %}
         {% block middle_right_ad %}
           <div class="col-md-2" id="middle-right-ad-block">
