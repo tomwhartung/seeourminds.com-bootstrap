@@ -27,15 +27,27 @@
 
 {% block middle_content %}
   {% for img in image_list_with_path %}
-    <div class="col-md-4">
-      <div class="gallery-image">
-        <figure>
-          <img src="{% static img.image_file_path %}" class="gallery-img">
-          <figcaption><q>{{ img.title }}</q></figcaption>
-        </figure>
-        <p>{{ img.story }}</p>
-      </div><!-- .gallery-image -->
-    </div><!-- .col-md-4 -->
+    {% if img.title == 'responsive_ad' %}
+      {% block middle_content_responsive_ad %}{{ block.super }}{% endblock %}
+    {% elif img.title == 'large_rectangle_ad' %}
+      {% block middle_content_large_rectangle_ad %}{{ block.super }}{% endblock %}
+    {% elif img.title == 'medium_rectangle_ad' %}
+      {% block middle_content_medium_rectangle_ad %}{{ block.super }}{% endblock %}
+    {% elif img.title == 'square_ad' %}
+      {% block middle_content_square_ad %}{{ block.super }}{% endblock %}
+    {% elif img.title == 'small_square_ad' %}
+      {% block middle_content_small_square_ad %}{{ block.super }}{% endblock %}
+    {% else %}
+      <div class="col-md-4">
+        <div class="gallery-image">
+          <figure>
+            <img src="{% static img.image_file_path %}" class="gallery-img">
+            <figcaption><q>{{ img.title }}</q></figcaption>
+          </figure>
+          <p>{{ img.story }}</p>
+        </div><!-- .gallery-image -->
+      </div><!-- .col-md-4 -->
+    {% endif %}
     {% cycle '' '' '</div><!-- .row --><div class="row">' %}
   {% endfor %}
 {% endblock %}
