@@ -10,11 +10,7 @@
 {% endblock %}
 
 {% block top_content_left %}
-  {% block top_left_ad %}
-    <div class="col-md-4">
-      {{ block.super }}
-    </div><!-- col-md-4 -->
-  {% endblock %}
+  {% block top_left_ad %}{{ block.super }}{% endblock %}
 {% endblock %}
 
 {% block top_aside %}
