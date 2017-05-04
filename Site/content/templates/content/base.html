@@ -122,11 +122,11 @@
           </div><!-- .row -->
         {% endblock %}
       {% endblock %}
-      <div class="row">
-        {% block top_left_ad %}
-          {{ adsense_ads.top_left_ad | safe }}
-        {% endblock %}
+      <div class="row" id="top-content-left-top-aside">
         {% block top_content_left %}
+          {% block top_left_ad %}
+            {{ adsense_ads.top_left_ad | safe }}
+          {% endblock %}
         {% endblock %}
         {% block top_aside %}
           {% block top_aside_top_ad %}
@@ -156,9 +156,7 @@
             {{ adsense_ads.top_aside_bottom_ad | safe }}
           {% endblock %}
         {% endblock %}
-        {% block top_content_right %}
-        {% endblock %}
-      </div><!-- .row -->
+      </div><!-- .row #top-content-left-top-aside -->
       {% block above_middle_row_ad %}
         <div class="row">
           <div class="col-md-12">
