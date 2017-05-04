@@ -2,7 +2,6 @@
 
 {% block head %}
   {{ block.super }}
-  {% load static %}
 {% endblock %}
 
 {% block top_row_ad %}
@@ -10,20 +9,12 @@
   {% block top_row_large_leaderboard_ad %}{% endblock %}
 {% endblock %}
 
-{% block top_left_ad %}
-  <div class="col-md-4">
-    {{ block.super }}
-  </div><!-- col-md-4 -->
-{% endblock %}
-
 {% block top_content_left %}
+  {% block top_left_ad %}
     <div class="col-md-4">
-      <h2>Galleries</h2>
-      <p>
-        See the Spiritual Portraits of some of my friends, or
-        some fictional or famous people,
-        by visiting one of the galleries.</p>
+      {{ block.super }}
     </div><!-- col-md-4 -->
+  {% endblock %}
 {% endblock %}
 
 {% block top_aside %}
@@ -40,118 +31,14 @@
    </div><!-- .col-md-4 -->
 {% endblock %}
 
-{% block above_middle_row_ad %}{% endblock %}
+{% block above_middle_row_ad %}{{ block.super }}{% endblock %}
 
 {% block middle_content %}
-  <div class="col-md-4">
-    <h2>
-      <a href="gallery/sixteen_types/" title="View the Sixteen Types gallery" class="gallery-title">
-        Sixteen Types</a>
-    </h2>
-    <p>
-      A generic image of each of the sixteen types.</p>
-    <div class="gallery-image">
-      <div class="text-center">
-        <figure>
-          <img src="{% static 'content/images/galleries/sixteen_types/enfj.jpg' %}"
-               class="gallery-img">
-          <figcaption><q>Generic ENFJ</q></figcaption>
-        </figure>
-      </div><!-- .text-center -->
-      <p>
-         This generic ENFJ is typical of the generic images, which all have
-          a fairly well-balanced score.
-      </p>
-      <div class="text-center">
-        <a class="btn-lg btn-primary" href="gallery/sixteen_types/" role="button">
-          View the Gallery &raquo;</a>
-      </div><!-- .text-center -->
-    </div><!-- .gallery-image -->
-  </div><!-- col-md-4 -->
-  <div class="col-md-4">
-    <h2>
-      <a href="gallery/tv_shows/" title="View the TV Shows gallery" class="gallery-title">
-        TV Shows</a>
-    </h2>
-    <p>
-     What do personalities of the characters on some of our TV shows look like?</p>
-    <div class="gallery-image">
-      <div class="text-center">
-        <figure>
-          <img src="{% static 'content/images/galleries/tv_shows/istj-mr_spock-star_trek.jpeg' %}"
-               class="gallery-img">
-          <figcaption><q>Mr. Spock of Star Trek</q></figcaption>
-        </figure>
-      </div><!-- .text-center -->
-      <p>
-         The large amount of green shows that Mr. Spock is a very logical person.
-         Visit the gallery to see other members of the Star Trek crew!
-      </p>
-      <div class="text-center">
-        <a class="btn-lg btn-primary" href="gallery/tv_shows/" role="button">
-          View the Gallery &raquo;</a></p>
-      </div><!-- .text-center -->
-    </div><!-- .gallery-image -->
-  </div><!-- col-md-4 -->
 {% endblock %}
 
 {% block below_middle_row_ad %}{{ block.super }}{% endblock %}
 
 {% block bottom_content %}
-  <div class="col-md-4">
-    <h2>
-      <a href="gallery/politicians/" title="View the gallery of politicians" class="gallery-title">
-        Politicians</a>
-    </h2>
-    <p>
-      Some spiritual portraits of our politicans.
-      Which ones are your favorites?
-      How does your personality compare to theirs?</p>
-    <div class="gallery-image">
-      <div class="text-center">
-        <figure>
-          <img src="{% static 'content/images/galleries/politicians/intp-abraham_lincoln.jpeg' %}"
-               class="gallery-img">
-          <figcaption><q>Abraham Lincoln: INTP</q></figcaption>
-        </figure>
-      </div><!-- .text-center -->
-      <p>
-         The blue shows us Honest Abe was idealistic, and
-			 the green shows us he was logical and believed in fairness for all.
-         Visit the gallery to see other presidents and politicans, both old and new!
-      </p>
-      <div class="text-center">
-        <a class="btn-lg btn-primary" href="gallery/politicians/" role="button">
-          View the Gallery &raquo;</a></p>
-      </div><!-- .text-center -->
-    </div><!-- .gallery-image -->
-  </div><!-- col-md-4 -->
-  <div class="col-md-4">
-    <h2>
-      <a href="gallery/friends/" title="View the gallery of friends" class="gallery-title">
-        Friends</a>
-    </h2>
-    <p>
-      Over the years I have gotten some friends to take the quiz so that I could do their portraits.
-      Here are the results.</p>
-    <div class="gallery-image">
-      <div class="text-center">
-        <figure>
-          <img src="{% static 'content/images/galleries/friends/esfj-jim_armstrong-a_best_friend_forever.jpeg' %}"
-               class="gallery-img">
-          <figcaption><q>Jim Armstrong, Best Friend to Many</q></figcaption>
-        </figure>
-      </div><!-- .text-center -->
-      <p>
-         This very warm portrait is of our friend Jim, a very warm friend to many of us.
-         Visit the gallery to see some of the other friends I've met over the years!
-      </p>
-      <div class="text-center">
-        <a class="btn-lg btn-primary" href="gallery/friends/" role="button">
-          View the Gallery &raquo;</a></p>
-      </div><!-- .text-center -->
-    </div><!-- .gallery-image -->
-  </div><!-- col-md-4 -->
 {% endblock %}
 
 {% block bottom_row_ad %}{{ block.super }}{% endblock %}
