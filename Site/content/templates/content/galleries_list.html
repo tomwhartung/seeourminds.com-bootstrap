@@ -22,7 +22,7 @@
   {{ block.super }}
 {% endblock %}
 
-{% block above_middle_row_ad %}{% endblock %}
+{% block above_middle_row_ad %}{{ block.super }}{% endblock %}
 
 {% block middle_content %}
   <div class="col-md-4">
@@ -77,7 +77,7 @@
   </div><!-- col-md-4 -->
 {% endblock %}
 
-{% block below_middle_row_ad %}{% endblock %}
+{% block below_middle_row_ad %}{{ block.super }}{% endblock %}
 
 {% block bottom_content %}
   <div class="col-md-4">
