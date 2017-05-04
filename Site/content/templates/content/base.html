@@ -104,7 +104,7 @@
     <div class="main wrapper clearfix">
       {% block top_row_ad %}
         {% block top_row_large_billboard_ad %}
-          <div class="row">
+          <div class="row" id="top-row-large-billboard-ad-block">
             <div class="col-md-12">
               <div class="text-center">
                   {{ adsense_ads.top_row_large_billboard_ad | safe }}
@@ -113,7 +113,7 @@
           </div><!-- .row -->
         {% endblock %}
         {% block top_row_large_leaderboard_ad %}
-          <div class="row">
+          <div class="row" id="top-row-large-leaderboard-ad-block">
             <div class="col-md-12">
               <div class="text-center">
                   {{ adsense_ads.top_row_large_leaderboard_ad | safe }}
@@ -122,7 +122,7 @@
           </div><!-- .row -->
         {% endblock %}
       {% endblock %}
-      <div class="row" id="top-content-left-top-aside">
+      <div class="row" id="top-row-ads-and-content-blocks">
         {% block top_content_left %}
           {% block top_left_ad %}
             {{ adsense_ads.top_left_ad | safe }}
@@ -136,7 +136,7 @@
             {{ adsense_ads.top_aside_top_responsive_ad | safe }}
           {% endblock %}
           {% block top_aside_email %}
-            <aside id="top_aside_email">
+            <aside id="top-aside-email-block">
               <h3>Join our email list!</h3>
               <p>
                 Join our email list to stay up-to-date!</p>
@@ -158,7 +158,7 @@
         {% endblock %}
       </div><!-- .row #top-content-left-top-aside -->
       {% block above_middle_row_ad %}
-        <div class="row">
+        <div class="row" id="above-middle-row-ad-block">
           <div class="col-md-12">
             <div class="text-center">
               {{ adsense_ads.above_middle_row_ad | safe }}
@@ -166,22 +166,22 @@
          </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
-      <div class="row">
+      <div class="row" id="middle-row-ads-and-content-blocks">
         {% block middle_left_ad %}
-          <div id="middle_left_ad" class="col-md-2">
+          <div class="col-md-2" id="middle-left-ad-block">
             {{ adsense_ads.middle_left_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
         {% block middle_content %}
         {% endblock %}
         {% block middle_right_ad %}
-          <div id="middle_right_ad" class="col-md-2">
+		  <div class="col-md-2" id="middle-right-ad-block">
             {{ adsense_ads.middle_right_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
       </div><!-- .row -->
       {% block below_middle_row_ad %}
-        <div class="row">
+        <div class="row" id="below-middle-row-ad-block">
           <div class="col-md-12">
             <div class="text-center">
               {{ adsense_ads.below_middle_row_ad | safe }}
@@ -189,22 +189,22 @@
           </div><!-- .col-md-12 -->
         </div><!-- .row -->
       {% endblock %}
-      <div class="row">
+      <div class="row" id="bottom-row-ads-and-content-blocks">
         {% block bottom_left_ad %}
-          <div id="bottom_left_ad" class="col-md-2">
+          <div class="col-md-2" id="bottom-left-ad-block">
             {{ adsense_ads.bottom_left_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
         {% block bottom_content %}
         {% endblock %}
         {% block bottom_right_ad %}
-          <div id="bottom_right_ad" class="col-md-2">
+          <div class="col-md-2" id="bottom-right-ad-block">
             {{ adsense_ads.bottom_right_ad | safe }}
           </div><!-- .col-md-2 -->
         {% endblock %}
       </div><!-- .row -->
       {% block bottom_row_ad %}
-        <div class="row">
+        <div class="row" id="bottom-row-ad-block">
           <div class="col-md-12">
             <div class="text-center">
               {{ adsense_ads.bottom_row_ad | safe }}
