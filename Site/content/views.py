@@ -37,36 +37,11 @@ def home(request):
     return HttpResponse(template.render(context, request))
 
 
-def image(request, image_id=0):
+def image(request, gallery_name=None, image_id=None):
 
     """ Render the single image template """
 
-    try:
-        image_id_int = int(image_id)
-    except BaseException as exc:
-        # TODO: Test this (just cleaning up some print statements right now)
-        print('views.image ERROR: exception processing "image_id" from url:',
-            image_id, 'exception:', str(exc))
-        image_id_int = 0
-
-    image = {}
-    image["id"] = image_id_int
-
-    if image_id_int == 0:
-        image["name"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
-        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
-        image["description"] = 'The image contains mostly blue and red, ' \
-           'indicating I am idealistic and passionate.  ' \
-           'There is also plenty of green and yellow, however, indicating ' \
-           'I can be logical and down-to-earth when the situation calls ' \
-           'for it.' \
-           'This is just the sort of person who can both conceive of ' \
-           'this idea and follow through and learn the details needed to ' \
-           'implement it.'
-    else:
-        image["name"] = 'image_id_int from url: ' + str(image_id_int)
-        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
-        image["description"] = 'description goes here'
+    image = Image(image_id)
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     return render(request, 'content/image.html', {
@@ -97,11 +72,11 @@ def gallery(request, gallery_name='None'):
         gallery_name = 'tv_shows'
 
     this_gallery = Gallery(gallery_name)
-    gallery_dictionary = this_gallery.gallery_dictionary
-    name_of_gallery = gallery_dictionary['name_of_gallery']
-    description_of_gallery = gallery_dictionary['description_of_gallery']
+    gallery_dict = this_gallery.gallery_dict
+    name_of_gallery = gallery_dict['name_of_gallery']
+    description_of_gallery = gallery_dict['description_of_gallery']
     image_file_dir = 'content/images/galleries/' + gallery_name + '/'
-    image_list = gallery_dictionary['image_list']
+    image_list = gallery_dict['image_list']
     image_list_with_path = []
 
     for img in image_list:
@@ -109,7 +84,6 @@ def gallery(request, gallery_name='None'):
         img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
         image_list_with_path.append(img_to_add)
 
-    row_separator_markup = "\n</div><!-- .row -->\n<div class='row'>\n"
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
     context = {
