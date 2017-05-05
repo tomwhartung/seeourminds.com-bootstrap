@@ -19,6 +19,7 @@ urlpatterns = [
     url(r'^gallery/(?P<gallery_name>\w+)/$', views.gallery, name='gallery'),
     url(r'^image/$', views.image, name='image'),
     url(r'^image/(?P<image_id>\w+)/$', views.image, name='image'),
+    url(r'^image/(?P<gallery_name>\w+)/(?P<image_id>\w+)/$', views.image, name='image'),
     url(r'^quiz$', views.quiz_about, name='quiz_about'),
     url(r'^quiz/results$', views.quiz_results, name='quiz_results'),
     url(r'^quiz/(?P<quiz_size_slug>[\w-]+)/$', views.quiz_form, name='quiz_form'),
