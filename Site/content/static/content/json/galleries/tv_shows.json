@@ -16,8 +16,8 @@
       "archetype": "Fi",
       "quiz_type": "Q",
       "tweet": "",
-		"explanation": "",
-		"story": "I always suspected that Agent Mulder was an INFP - like me!"
+      "explanation": "",
+      "story": "I always suspected that Agent Mulder was an INFP - like me!"
     }, {
       "id": "153",
       "title": "Agent Dana Scully - The X-Files - ESTJ?",
@@ -31,8 +31,38 @@
       "archetype": "Te",
       "quiz_type": "Q",
       "tweet": "",
-		"explanation": "",
-		"story": "So Scully is the opposite of Mulder - who've guessed?"
+      "explanation": "",
+      "story": "So Scully is the opposite of Mulder - who've guessed?"
+    }, {
+      "id": "1034",
+      "title": "small_square_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+      "explanation": "",
+      "story": ""
+    }, {
+      "id": "1034",
+      "title": "responsive_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+      "explanation": "",
+      "story": ""
     }, {
       "id": "115",
       "title": "Dr. McCoy",
@@ -46,8 +76,8 @@
       "archetype": "Se",
       "quiz_type": "K",
       "tweet": "",
-		"explanation": "",
-		"story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
+      "explanation": "",
+      "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
     }, {
       "id": "116",
       "title": "Mr. Spock",
@@ -61,8 +91,8 @@
       "archetype": "Si",
       "quiz_type": "K",
       "tweet": "",
-		"explanation": "",
-		"story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
+      "explanation": "",
+      "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
     }, {
       "id": "117",
       "title": "Captain Kirk",
@@ -76,8 +106,23 @@
       "archetype": "Te",
       "quiz_type": "K",
       "tweet": "",
-		"explanation": "",
-		"story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
+      "explanation": "",
+      "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
+    }, {
+      "id": "1034",
+      "title": "square_ad",
+      "image_file_name": "",
+      "composition": "O",
+      "e_score": "",
+      "n_score": "",
+      "f_score": "",
+      "j_score": "",
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "tweet": "",
+      "explanation": "",
+      "story": ""
     }
   ]
 }
