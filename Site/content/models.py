@@ -36,12 +36,15 @@ class Gallery:
             self.gallery_dict = json.loads(gallery_json_string)
 
     def find_image(self, image_id=None):
-        if image_id == None:
-            image = None
-        else:
-            image = None
-            print('find_image: Need to find image_id = "', image_id,
-                'in self.gallery_dict =', self.gallery_dict)
+        """ Returns all data from the json for image, or None if not found """
+        image = None
+        if image_id != None:
+            # print('find_image: Looking for image_id = "' + image_id + '"')
+            for img in self.gallery_dict["image_list"]:
+                if img["id"] == image_id:
+                    image = img
+                    print('find_image returning image:', image )
+                    break
 
         return image
 
@@ -57,8 +60,14 @@ class Image:
             gallery = Gallery(gallery_name)
             # gallery_dict = this_gallery.gallery_dict
             image_dict = gallery.find_image(image_id)
-            if this_image == None:
+            if image_dict == None:
                 self.set_default_image()
+            else:
+                self.id = image_dict["id"]
+                self.name = image_dict["title"]
+                self.path = 'content/images/galleries/' + \
+                    gallery_name + '/' + image_dict["image_file_name"]
+                self.description = image_dict["story"]
 
     def set_default_image(self):
         """ Set self data members to values used for the default image """
