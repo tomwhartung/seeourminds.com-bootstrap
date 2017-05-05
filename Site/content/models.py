@@ -17,6 +17,139 @@ from .database import Questionnaire
 DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
 
 
+class Gallery:
+
+    """ Read in and work with all the images, etc. in a single gallery """
+
+    def __init__(self):
+        pass
+
+
+class Image:
+
+    """ Code for working with individual images, e.g., for image.html """
+
+    def __init__(self):
+        pass
+
+
+class Questions:
+
+    """ Read in and work with all the questions in the entire quiz """
+
+    def __init__(self):
+
+        """ Populate the question_list with questions from the json file """
+
+        self.question_list = self.read_quiz_json()
+
+    def read_quiz_json(self):
+
+        """ Read the quiz questions and answers from the json file """
+
+        site_content_dir = os.path.abspath(os.path.dirname(__file__))
+        QUIZ_FILE_DIR = site_content_dir + '/static/content/json/quiz/'
+        QUIZ_FILE_NAME = 'seeourminds_quiz.json'
+
+        quiz_file_path = QUIZ_FILE_DIR + QUIZ_FILE_NAME
+        quiz_json_file = open(quiz_file_path)
+        quiz_json_string = quiz_json_file.read()
+        quiz_json_file.close()
+        question_list = json.loads(quiz_json_string)
+        return(question_list)
+
+    def get_quiz_question(self, question_int):
+
+        """ Return the entire quiz question (answers, weights, etc.)"""
+
+        quiz_question = self.question_list[question_int]
+        # print('Questions.get_quiz_question - question_int:', question_int)
+        # print('Questions.get_quiz_question - quiz_question:', quiz_question)
+        return quiz_question
+
+    def get_question_text(self, question_int):
+
+        """ Get and return the question_text for the question """
+
+        quiz_question = self.get_quiz_question(question_int)
+        question_text = quiz_question['question_text']
+        return question_text
+
+    def get_choices(self, question_int):
+
+        """ Return the answer choices for the given question """
+
+        quiz_question = self.get_quiz_question(question_int)
+        choices = []
+
+        if len(quiz_question['answer_1_text']) > 0 and \
+           int(quiz_question['answer_1_weight']) > 0:
+            choice_1 = ['1', quiz_question['answer_1_text']]
+            choices.append(choice_1)
+
+        if len(quiz_question['answer_2_text']) > 0 and \
+           int(quiz_question['answer_2_weight']) > 0:
+            choice_2 = ['2', quiz_question['answer_2_text']]
+            choices.append(choice_2)
+
+        if len(quiz_question['answer_3_text']) > 0 and \
+           int(quiz_question['answer_3_weight']) > 0:
+            choice_3 = ['3', quiz_question['answer_3_text']]
+            choices.append(choice_3)
+
+        if len(quiz_question['answer_4_text']) > 0 and \
+           int(quiz_question['answer_4_weight']) > 0:
+            choice_4 = ['4', quiz_question['answer_4_text']]
+            choices.append(choice_4)
+
+        if len(quiz_question['answer_5_text']) > 0 and \
+           int(quiz_question['answer_5_weight']) > 0:
+            choice_5 = ['5', quiz_question['answer_5_text']]
+            choices.append(choice_5)
+
+        if len(quiz_question['answer_6_text']) > 0 and \
+           int(quiz_question['answer_6_weight']) > 0:
+            choice_6 = ['6', quiz_question['answer_6_text']]
+            choices.append(choice_6)
+
+        answer_7_text = quiz_question.get('answer_7_text')
+        # print("answer_7_text:", answer_7_text)
+
+        if answer_7_text is not None:
+            choice_7 = ['7', answer_7_text]
+            choices.append(choice_7)
+
+        # print('Questions.get_choices - question_int:', question_int)
+        # print('Questions.get_choices - len(choices):', len(choices))
+        return choices
+
+    def get_answer_123_type(self, question_int):
+
+        """ Get and return the answer_123_type (e.g., "E") for the question """
+
+        quiz_question = self.get_quiz_question(question_int)
+        answer_123_type = quiz_question['answer_123_type']
+        return answer_123_type
+
+    def get_answer_text(self, question_int, answer_str):
+
+        """ Get and return the answer_X_text for the selected answer 'X' """
+
+        quiz_question = self.get_quiz_question(question_int)
+        answer_text_key = "answer_" + answer_str + "_text"
+        answer_text = quiz_question[answer_text_key]
+        return answer_text
+
+    def get_answer_weight(self, question_int, answer_str):
+
+        """ Get and return the answer_X_weight for the selected answer 'X' """
+
+        quiz_question = self.get_quiz_question(question_int)
+        answer_weight_key = "answer_" + answer_str + "_weight"
+        answer_weight = quiz_question[answer_weight_key]
+        return answer_weight
+
+
 class Score:
 
     """ Class to calculate, contain, and display the score for the quiz """
@@ -299,121 +432,3 @@ class Score:
         score_str += 'F/T: ' + str(self.f_score) + '/' + str(self.t_score) + '; '
         score_str += 'J/P: ' + str(self.j_score) + '/' + str(self.p_score)
         return score_str
-
-
-class Questions:
-
-    """ Read in and work with all the questions in the entire quiz """
-
-
-    def __init__(self):
-
-        """ Populate the question_list with questions from the json file """
-
-        self.question_list = self.read_quiz_json()
-
-    def read_quiz_json(self):
-
-        """ Read the quiz questions and answers from the json file """
-
-        site_content_dir = os.path.abspath(os.path.dirname(__file__))
-        QUIZ_FILE_DIR = site_content_dir + '/static/content/json/quiz/'
-        QUIZ_FILE_NAME = 'seeourminds_quiz.json'
-
-        quiz_file_path = QUIZ_FILE_DIR + QUIZ_FILE_NAME
-        quiz_json_file = open(quiz_file_path)
-        quiz_json_string = quiz_json_file.read()
-        quiz_json_file.close()
-        question_list = json.loads(quiz_json_string)
-        return(question_list)
-
-    def get_quiz_question(self, question_int):
-
-        """ Return the entire quiz question (answers, weights, etc.)"""
-
-        quiz_question = self.question_list[question_int]
-        # print('Questions.get_quiz_question - question_int:', question_int)
-        # print('Questions.get_quiz_question - quiz_question:', quiz_question)
-        return quiz_question
-
-    def get_question_text(self, question_int):
-
-        """ Get and return the question_text for the question """
-
-        quiz_question = self.get_quiz_question(question_int)
-        question_text = quiz_question['question_text']
-        return question_text
-
-    def get_choices(self, question_int):
-
-        """ Return the answer choices for the given question """
-
-        quiz_question = self.get_quiz_question(question_int)
-        choices = []
-
-        if len(quiz_question['answer_1_text']) > 0 and \
-           int(quiz_question['answer_1_weight']) > 0:
-            choice_1 = ['1', quiz_question['answer_1_text']]
-            choices.append(choice_1)
-
-        if len(quiz_question['answer_2_text']) > 0 and \
-           int(quiz_question['answer_2_weight']) > 0:
-            choice_2 = ['2', quiz_question['answer_2_text']]
-            choices.append(choice_2)
-
-        if len(quiz_question['answer_3_text']) > 0 and \
-           int(quiz_question['answer_3_weight']) > 0:
-            choice_3 = ['3', quiz_question['answer_3_text']]
-            choices.append(choice_3)
-
-        if len(quiz_question['answer_4_text']) > 0 and \
-           int(quiz_question['answer_4_weight']) > 0:
-            choice_4 = ['4', quiz_question['answer_4_text']]
-            choices.append(choice_4)
-
-        if len(quiz_question['answer_5_text']) > 0 and \
-           int(quiz_question['answer_5_weight']) > 0:
-            choice_5 = ['5', quiz_question['answer_5_text']]
-            choices.append(choice_5)
-
-        if len(quiz_question['answer_6_text']) > 0 and \
-           int(quiz_question['answer_6_weight']) > 0:
-            choice_6 = ['6', quiz_question['answer_6_text']]
-            choices.append(choice_6)
-
-        answer_7_text = quiz_question.get('answer_7_text')
-        # print("answer_7_text:", answer_7_text)
-
-        if answer_7_text is not None:
-            choice_7 = ['7', answer_7_text]
-            choices.append(choice_7)
-
-        # print('Questions.get_choices - question_int:', question_int)
-        # print('Questions.get_choices - len(choices):', len(choices))
-        return choices
-
-    def get_answer_123_type(self, question_int):
-
-        """ Get and return the answer_123_type (e.g., "E") for the question """
-
-        quiz_question = self.get_quiz_question(question_int)
-        answer_123_type = quiz_question['answer_123_type']
-        return answer_123_type
-
-    def get_answer_text(self, question_int, answer_str):
-
-        """ Get and return the answer_X_text for the selected answer 'X' """
-
-        quiz_question = self.get_quiz_question(question_int)
-        answer_text_key = "answer_" + answer_str + "_text"
-        answer_text = quiz_question[answer_text_key]
-        return answer_text
-
-    def get_answer_weight(self, question_int, answer_str):
-
-        """ Get and return the answer_X_weight for the selected answer 'X' """
-
-        quiz_question = self.get_quiz_question(question_int)
-        answer_weight_key = "answer_" + answer_str + "_weight"
-        answer_weight = quiz_question[answer_weight_key]
-        return answer_weight
