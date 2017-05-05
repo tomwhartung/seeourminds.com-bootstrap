@@ -21,7 +21,7 @@ from django.views.generic.base import View
 from .adsense import adsense_ads
 from .database import Questionnaire
 from .forms import QuestionnaireForm
-from .models import Score
+from .models import Gallery, Image, Score
 
 
 def home(request):
@@ -96,15 +96,8 @@ def gallery(request, gallery_name='None'):
     if gallery_name == 'None':
         gallery_name = 'tv_shows'
 
-    context_gallery_name = gallery_name
-    site_content_dir = os.path.abspath(os.path.dirname(__file__))
-    data_file_name = gallery_name + '.json'
-    data_file_dir = site_content_dir + '/static/content/json/galleries/'
-    data_file_path = data_file_dir + data_file_name
-    gallery_json_file = open(data_file_path)
-    gallery_json_string = gallery_json_file.read()
-    gallery_json_file.close()
-    gallery_dictionary = json.loads(gallery_json_string)
+    this_gallery = Gallery(gallery_name)
+    gallery_dictionary = this_gallery.gallery_dictionary
     name_of_gallery = gallery_dictionary['name_of_gallery']
     description_of_gallery = gallery_dictionary['description_of_gallery']
     image_file_dir = 'content/images/galleries/' + gallery_name + '/'
