@@ -217,6 +217,11 @@ i.fa-lg:hover {
 }
 .superscript::after { content: "]"; }
 
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
 ul.notes {
     list-style-type: none;
 }
@@ -258,14 +263,14 @@ img, embed, object, video {
  * For the Gallery page
  * ====================
  */
-.gallery-image {
+div.gallery-image {
     border: 2px solid midnightblue;
     border-radius: 1em;
     margin: 1em;
     padding: 2em;
     text-align: left;
 }
-img.gallery-img {
+img.gallery-image {
     height: 125px;
     width: 125px;
 }
