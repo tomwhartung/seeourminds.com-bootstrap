@@ -8,11 +8,13 @@ Reference:
   (none)
 """
 
-from django.shortcuts import render
+import json
+import os
 import textwrap
 
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render
 from django.template import loader
 from django.views.generic.base import View
 
@@ -26,12 +28,10 @@ def home(request):
 
     """ Load and render the Home page template """
 
-    context_home_selected = 'class="disabled"'      # see seeourminds.css
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/home.html')
     context = {
         'adsense_ads': adsense_ads,
-        'context_home_selected': context_home_selected,
         'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
@@ -41,23 +41,22 @@ def galleries(request):
 
     """ Load and render the template displaying the List of Galleries """
 
-    context_galleries_selected = 'class="disabled"'      # see seeourminds.css
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_list.html')
     context = {
         'adsense_ads': adsense_ads,
-        'context_galleries_selected': context_galleries_selected,
         'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
 
 
-def gallery(request, gallery_name='all'):
+def gallery(request, gallery_name='None'):
 
     """ Load and render the template for a single Gallery page """
 
-    import json
-    import os
+    if gallery_name == 'None':
+        gallery_name = 'tv_shows'
+
     context_gallery_name = gallery_name
     site_content_dir = os.path.abspath(os.path.dirname(__file__))
     data_file_name = gallery_name + '.json'
