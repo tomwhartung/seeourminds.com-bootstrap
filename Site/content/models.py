@@ -21,8 +21,16 @@ class Gallery:
 
     """ Read in and work with all the images, etc. in a single gallery """
 
-    def __init__(self):
-        pass
+    def __init__(self, gallery_name):
+        data_file_name = gallery_name + '.json'
+        site_content_dir = os.path.abspath(os.path.dirname(__file__))
+        data_file_dir = site_content_dir + '/static/content/json/galleries/'
+        data_file_path = data_file_dir + data_file_name
+        gallery_json_file = open(data_file_path)
+        gallery_json_string = gallery_json_file.read()
+        gallery_json_file.close()
+        self.gallery_dictionary = json.loads(gallery_json_string)
+
 
 
 class Image:
