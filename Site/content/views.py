@@ -41,7 +41,7 @@ def image(request, gallery_name=None, image_id=None):
 
     """ Render the single image template """
 
-    image = Image(image_id)
+    image = Image(gallery_name, image_id)
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     return render(request, 'content/image.html', {
