@@ -21,24 +21,61 @@ class Gallery:
 
     """ Read in and work with all the images, etc. in a single gallery """
 
-    def __init__(self, gallery_name):
-        data_file_name = gallery_name + '.json'
-        site_content_dir = os.path.abspath(os.path.dirname(__file__))
-        data_file_dir = site_content_dir + '/static/content/json/galleries/'
-        data_file_path = data_file_dir + data_file_name
-        gallery_json_file = open(data_file_path)
-        gallery_json_string = gallery_json_file.read()
-        gallery_json_file.close()
-        self.gallery_dictionary = json.loads(gallery_json_string)
+    def __init__(self, gallery_name=None):
+        """ Read in all the json for the passed-in gallery_name """
+        if gallery_name == None:
+            self.gallery_dict = {}
+        else:
+            data_file_name = gallery_name + '.json'
+            site_content_dir = os.path.abspath(os.path.dirname(__file__))
+            data_file_dir = site_content_dir + '/static/content/json/galleries/'
+            data_file_path = data_file_dir + data_file_name
+            gallery_json_file = open(data_file_path)
+            gallery_json_string = gallery_json_file.read()
+            gallery_json_file.close()
+            self.gallery_dict = json.loads(gallery_json_string)
 
+    def find_image(self, image_id=None):
+        if image_id == None:
+            image = None
+        else:
+            image = None
+            print('find_image: Need to find image_id = "', image_id,
+                'in self.gallery_dict =', self.gallery_dict)
 
+        return image
 
 class Image:
 
     """ Code for working with individual images, e.g., for image.html """
 
-    def __init__(self):
-        pass
+    def __init__(self, gallery_name=None, image_id=None):
+        """ Find image in the json file or use default image """
+        if gallery_name == None or image_id == None:
+            self.set_default_image()
+        else:
+            gallery = Gallery(gallery_name)
+            # gallery_dict = this_gallery.gallery_dict
+            image_dict = gallery.find_image(image_id)
+            if this_image == None:
+                self.set_default_image()
+
+    def set_default_image(self):
+        """ Set self data members to values used for the default image """
+        self.id = 0   # default image
+        self.name = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
+        self.path = 'content/images/header/infp-tomh_1987-515x515.gif'
+        self.description = 'The image contains mostly blue and red, ' \
+           'indicating I am idealistic and passionate.  ' \
+           'There is also plenty of green and yellow, however, indicating ' \
+           'I can be logical and down-to-earth when the situation calls ' \
+           'for it.' \
+           'This is just the sort of person who can both conceive of ' \
+           'this idea and follow through and learn the details needed to ' \
+           'implement it.'
+        return self
+
+
 
 
 class Questions:
