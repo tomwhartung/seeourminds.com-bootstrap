@@ -1,10 +1,10 @@
 {
   "name_of_gallery": "Sixteen Types",
-  "description_of_gallery": "This gallery contains images of ... Sixteen Types ... and so on.",
+  "description_of_gallery": "This gallery contains generic images of each of the Sixteen Types.  They are in alphabetical order.  Although we should all be proud of who we are, I strongly believe that we should also never think for a second that one type is 'better' than another!",
   "image_list":
   [
     {
-      "id": "133",
+      "id": "1130",
       "title": "enfj",
       "image_file_name": "enfj.jpg",
       "composition": "O",
@@ -19,7 +19,7 @@
       "explanation": "",
       "story": "Image of a Generic ENFJ, created for the Gallery."
     }, {
-      "id": "134",
+      "id": "1160",
       "title": "enfp",
       "image_file_name": "enfp.jpg",
       "composition": "O",
@@ -34,7 +34,7 @@
       "explanation": "",
       "story": "Image of a Generic ENFP for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1200",
       "title": "responsive_ad",
       "image_file_name": "",
       "composition": "O",
@@ -49,7 +49,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "135",
+      "id": "1230",
       "title": "entj",
       "image_file_name": "entj.jpg",
       "composition": "O",
@@ -64,7 +64,7 @@
       "explanation": "",
       "story": "Image of a Generic ENTJ for the Gallery."
     }, {
-      "id": "136",
+      "id": "1260",
       "title": "entp",
       "image_file_name": "entp.jpg",
       "composition": "O",
@@ -79,7 +79,7 @@
       "explanation": "",
       "story": "Image of a Generic ENTP for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1300",
       "title": "large_rectangle_ad",
       "image_file_name": "",
       "composition": "O",
@@ -94,7 +94,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "137",
+      "id": "1330",
       "title": "esfj",
       "image_file_name": "esfj.jpg",
       "composition": "O",
@@ -109,7 +109,7 @@
       "explanation": "",
       "story": "Image of a Generic ESFJ, created for the Gallery."
     }, {
-      "id": "138",
+      "id": "1360",
       "title": "esfp",
       "image_file_name": "esfp.jpg",
       "composition": "O",
@@ -124,7 +124,7 @@
       "explanation": "",
       "story": "Image of a Generic ESFP, created for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1400",
       "title": "medium_rectangle_ad",
       "image_file_name": "",
       "composition": "O",
@@ -139,7 +139,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "139",
+      "id": "1430",
       "title": "estj",
       "image_file_name": "estj.jpg",
       "composition": "O",
@@ -154,7 +154,7 @@
       "explanation": "",
       "story": "Image of a Generic ESTJ, created for the Gallery."
     }, {
-      "id": "140",
+      "id": "1460",
       "title": "estp",
       "image_file_name": "estp.jpg",
       "composition": "O",
@@ -169,7 +169,7 @@
       "explanation": "",
       "story": "Image of a Generic ESTP, created for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1500",
       "title": "large_rectangle_ad",
       "image_file_name": "",
       "composition": "O",
@@ -184,7 +184,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "141",
+      "id": "1530",
       "title": "infj",
       "image_file_name": "infj.jpg",
       "composition": "O",
@@ -199,7 +199,7 @@
       "explanation": "",
       "story": "Image of a Generic INFJ, for the Gallery."
     }, {
-      "id": "142",
+      "id": "1560",
       "title": "infp",
       "image_file_name": "infp.jpg",
       "composition": "O",
@@ -214,7 +214,7 @@
       "explanation": "",
       "story": "Image of a Generic INFP, for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1600",
       "title": "responsive_ad",
       "image_file_name": "",
       "composition": "O",
@@ -229,7 +229,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "143",
+      "id": "1630",
       "title": "intj",
       "image_file_name": "intj.jpg",
       "composition": "O",
@@ -244,7 +244,7 @@
       "explanation": "",
       "story": "Image of a Generic INTJ, for the Gallery."
     }, {
-      "id": "144",
+      "id": "1660",
       "title": "intp",
       "image_file_name": "intp.jpg",
       "composition": "O",
@@ -259,7 +259,7 @@
       "explanation": "",
       "story": "Image of a Generic INTP, for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1700",
       "title": "square_ad",
       "image_file_name": "",
       "composition": "O",
@@ -274,7 +274,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "145",
+      "id": "1730",
       "title": "isfj",
       "image_file_name": "isfj.jpg",
       "composition": "O",
@@ -289,7 +289,7 @@
       "explanation": "",
       "story": "Image of a Generic ISFJ, for the Gallery."
     }, {
-      "id": "146",
+      "id": "1760",
       "title": "isfp",
       "image_file_name": "isfp.jpg",
       "composition": "O",
@@ -304,7 +304,7 @@
       "explanation": "",
       "story": "Image of a Generic ISFP, for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1800",
       "title": "small_square_ad",
       "image_file_name": "",
       "composition": "O",
@@ -319,7 +319,7 @@
       "explanation": "",
       "story": ""
     }, {
-      "id": "147",
+      "id": "1830",
       "title": "istj",
       "image_file_name": "istj.jpg",
       "composition": "O",
@@ -334,7 +334,7 @@
       "explanation": "",
       "story": "Image of a Generic ISTJ, for the Gallery."
     }, {
-      "id": "148",
+      "id": "1860",
       "title": "istp",
       "image_file_name": "istp.jpg",
       "composition": "O",
@@ -349,7 +349,7 @@
       "explanation": "",
       "story": "Image of a Generic ISTP, for the Gallery."
     }, {
-      "id": "1034",
+      "id": "1900",
       "title": "square_ad",
       "image_file_name": "",
       "composition": "O",
