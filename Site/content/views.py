@@ -37,6 +37,45 @@ def home(request):
     return HttpResponse(template.render(context, request))
 
 
+def image(request, image_id=0):
+
+    """ Render the single image template """
+
+    try:
+        image_id_int = int(image_id)
+    except BaseException as exc:
+        # TODO: Test this (just cleaning up some print statements right now)
+        print('views.image ERROR: exception processing "image_id" from url:',
+            image_id, 'exception:', str(exc))
+        image_id_int = 0
+
+    image = {}
+    image["id"] = image_id_int
+
+    if image_id_int == 0:
+        image["name"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
+        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+        image["description"] = 'The image contains mostly blue and red, ' \
+           'indicating I am idealistic and passionate.  ' \
+           'There is also plenty of green and yellow, however, indicating ' \
+           'I can be logical and down-to-earth when the situation calls ' \
+           'for it.' \
+           'This is just the sort of person who can both conceive of ' \
+           'this idea and follow through and learn the details needed to ' \
+           'implement it.'
+    else:
+        image["name"] = 'image_id_int from url: ' + str(image_id_int)
+        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+        image["description"] = 'description goes here'
+
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
+    return render(request, 'content/image.html', {
+        'adsense_ads': adsense_ads,
+        'image': image,
+        'quiz_menu_data': quiz_menu_data,
+    })
+
+
 def galleries(request):
 
     """ Load and render the template displaying the List of Galleries """
@@ -81,13 +120,10 @@ def gallery(request, gallery_name='None'):
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
     context = {
-        'adsense_ads': adsense_ads,
         'name_of_gallery': name_of_gallery,
         'description_of_gallery': description_of_gallery,
-        'image_file_dir': image_file_dir,
-        'data_file_path': data_file_path,
         'image_list_with_path': image_list_with_path,
-        'row_separator_markup': row_separator_markup,
+        'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
@@ -106,9 +142,9 @@ def quiz_about(request):
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_about.html')
     context = {
-        'adsense_ads': adsense_ads,
         'quiz_info': quiz_info,
         'quiz_menu_data': quiz_menu_data,
+        'adsense_ads': adsense_ads,
         'quiz_list_data': quiz_list_data,
     }
     return HttpResponse(template.render(context, request))
@@ -171,60 +207,24 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_form.html')
     context = {
-        'adsense_ads': adsense_ads,
         'quiz_form': quiz_form,
         'quiz_info': quiz_info,
+        'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
     }
     return HttpResponse(template.render(context, request))
 
 
 def quiz_results(request):
-    """ Render the Quiz results template """
+    """
+    Render the Quiz results template
+    Note: THERE ARE NO ADS ON THIS PAGE!
+    """
     # quiz_results = request.session['quiz_results']
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     quiz_results = 'quiz results here'
     return render(request, 'content/quiz_results.html', {
         'quiz_results': quiz_results,
-        'quiz_menu_data': quiz_menu_data,
-    })
-
-
-def image(request, image_id=0):
-
-    """ Render the single image template """
-
-    try:
-        image_id_int = int(image_id)
-    except BaseException as exc:
-        # TODO: Test this (just cleaning up some print statements right now)
-        print('views.image ERROR: exception processing "image_id" from url:',
-            image_id, 'exception:', str(exc))
-        image_id_int = 0
-
-    image = {}
-    image["id"] = image_id_int
-
-    if image_id_int == 0:
-        image["name"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
-        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
-        image["description"] = 'The image contains mostly blue and red, ' \
-           'indicating I am idealistic and passionate.  ' \
-           'There is also plenty of green and yellow, however, indicating ' \
-           'I can be logical and down-to-earth when the situation calls ' \
-           'for it.' \
-           'This is just the sort of person who can both conceive of ' \
-           'this idea and follow through and learn the details needed to ' \
-           'implement it.'
-    else:
-        image["name"] = 'image_id_int from url: ' + str(image_id_int)
-        image["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
-        image["description"] = 'description goes here'
-
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
-    return render(request, 'content/image.html', {
-        'adsense_ads': adsense_ads,
-        'image': image,
         'quiz_menu_data': quiz_menu_data,
     })
 
