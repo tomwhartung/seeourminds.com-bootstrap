@@ -176,15 +176,14 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
 
 
 def quiz_results(request):
+
     """
     Render the Quiz results template
     Note: THERE ARE NO ADS ON THIS PAGE!
     """
-    # quiz_results = request.session['quiz_results']
+
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
-    quiz_results = 'quiz results here'
     return render(request, 'content/quiz_results.html', {
-        'quiz_results': quiz_results,
         'quiz_menu_data': quiz_menu_data,
     })
 
