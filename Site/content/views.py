@@ -78,22 +78,17 @@ def gallery(request, gallery_name='None'):
     this_gallery = Gallery(gallery_name)
     gallery_dict = this_gallery.gallery_dict
     image_file_dir = 'content/images/galleries/' + gallery_name + '/'
-    image_list = gallery_dict['image_list']
-    image_list_with_path = []
 
-    for img in image_list:
-        img_to_add = img
-        img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
-        img_to_add['image_link_href'] = '/image/' + \
+    for img in gallery_dict['image_list']:
+        img['image_file_path'] = image_file_dir + img['image_file_name']
+        img['image_link_href'] = '/image/' + \
             gallery_name + '/' + img['id']
-        img_to_add['image_link_title'] = 'A larger copy of this image on a ' + \
+        img['image_link_title'] = 'A larger copy of this image on a ' + \
             'page featuring more information about it'
-        image_list_with_path.append(img_to_add)
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
     context = {
-        'image_list_with_path': image_list_with_path,
         'gallery_dict': gallery_dict,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
