@@ -45,8 +45,8 @@ def image(request, gallery_name=None, image_id=None):
     image_dict = this_image.image_dict
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     return render(request, 'content/image.html', {
-        'adsense_ads': adsense_ads,
         'image_dict': image_dict,
+        'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
     })
 
@@ -76,15 +76,8 @@ def gallery(request, gallery_name='None'):
         gallery_name = 'tv_shows'
 
     this_gallery = Gallery(gallery_name)
+    this_gallery.set_image_link_values()
     gallery_dict = this_gallery.gallery_dict
-    image_file_dir = 'content/images/galleries/' + gallery_name + '/'
-
-    for img in gallery_dict['image_list']:
-        img['image_file_path'] = image_file_dir + img['image_file_name']
-        img['image_link_href'] = '/image/' + \
-            gallery_name + '/' + img['id']
-        img['image_link_title'] = 'A larger copy of this image on a ' + \
-            'page featuring more information about it'
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
