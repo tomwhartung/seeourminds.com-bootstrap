@@ -82,6 +82,10 @@ def gallery(request, gallery_name='None'):
     for img in image_list:
         img_to_add = img
         img_to_add['image_file_path'] = image_file_dir + img['image_file_name']
+        img_to_add['image_link_href'] = '/image/' + \
+            gallery_name + '/' + img['id']
+        img_to_add['image_link_title'] = 'A larger copy of this image on a ' + \
+            'page featuring more information about it'
         image_list_with_path.append(img_to_add)
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
