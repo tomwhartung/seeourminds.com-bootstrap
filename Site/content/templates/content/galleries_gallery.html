@@ -25,7 +25,7 @@
 
 {% block middle_left_ad %}{% endblock %}
 {% block middle_content %}
-  {% for img in image_list_with_path %}
+  {% for img in gallery_dict.image_list %}
     {% if img.title == 'responsive_ad' %}
       {% block middle_content_responsive_ad %}{{ block.super }}{% endblock %}
     {% elif img.title == 'large_rectangle_ad' %}
