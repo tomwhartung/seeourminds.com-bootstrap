@@ -27,6 +27,7 @@ class Gallery:
 
         """ Read in all the json for the passed-in gallery_name """
 
+        self.gallery_name = gallery_name
         if gallery_name == None:
             self.gallery_dict = {}
         else:
@@ -52,6 +53,19 @@ class Gallery:
                     # print('find_image returning image_dict:', image_dict )
                     break
         return image_dict
+
+    def set_image_link_values(self):
+
+        """ Set derived values in the image list in the gallery_dict """
+
+        image_file_dir = 'content/images/galleries/' + self.gallery_name + '/'
+        for img in self.gallery_dict['image_list']:
+            img['image_file_path'] = image_file_dir + img['image_file_name']
+            img['image_link_href'] = '/image/' + \
+                self.gallery_name + '/' + img['id']
+            img['image_link_title'] = 'A larger copy of this image on a ' + \
+                'page featuring more information about it'
+        return self
 
 
 class Image:
