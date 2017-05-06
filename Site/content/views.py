@@ -41,19 +41,23 @@ def image(request, gallery_name=None, image_id=None):
 
     """ Render the single image template """
 
-    image = Image(gallery_name, image_id)
-
+    this_image = Image(gallery_name, image_id)
+    image_dict = this_image.image_dict
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     return render(request, 'content/image.html', {
         'adsense_ads': adsense_ads,
-        'image': image,
+        'image_dict': image_dict,
         'quiz_menu_data': quiz_menu_data,
     })
 
 
 def galleries(request):
 
-    """ Load and render the template displaying the List of Galleries """
+    """
+    Load and render the template displaying the list of Galleries
+    Note that this page is hard coded, so we pass in
+    only the data all pages need, for the ads and the menu.
+    """
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_list.html')
