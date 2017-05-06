@@ -70,22 +70,23 @@ class Image:
             gallery = Gallery(gallery_name)
             image_dict = gallery.find_image(image_id)
             if image_dict == None:
-                self.set_default_image()
+                self.set_default_image_dict()
             else:
-                self.id = image_dict["id"]
-                self.name = image_dict["title"]
-                self.path = self.IMAGES_DIRECTORY + gallery_name + '/' + \
-                    image_dict["image_file_name"]
-                self.description = image_dict["story"]
+                self.image_dict = image_dict
+                self.image_dict["path"] = self.IMAGES_DIRECTORY + \
+                    gallery_name + '/' + image_dict["image_file_name"]
 
-    def set_default_image(self):
+    def set_default_image_dict(self):
 
-        """ Set self data members to values used for the default image """
+        """ Set self.image_dict data to values used for the default image """
 
-        self.id = 0
-        self.name = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
-        self.path = 'content/images/header/infp-tomh_1987-515x515.gif'
-        self.description = 'The image contains mostly blue and red, ' \
+        self.image_dict["id"] = 0
+        self.image_dict["title"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
+        self.image_dict["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+        self.image_dict["four_letter_type"] = 'INFP'
+        self.image_dict["tweet"] = '"default image tweet - FIX ME"'
+        self.image_dict["explanation"] = '"default image explanation - FIX ME"'
+        self.image_dict["story"] = 'The image contains mostly blue and red, ' \
            'indicating I am idealistic and passionate.  ' \
            'There is also plenty of green and yellow, however, indicating ' \
            'I can be logical and down-to-earth when the situation calls ' \
