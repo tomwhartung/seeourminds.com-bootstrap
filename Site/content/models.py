@@ -21,6 +21,8 @@ class Gallery:
 
     """ Read in and work with all the images, etc. in a single gallery """
 
+    GALLERIES_DIRECTORY = '/static/content/json/galleries/'
+
     def __init__(self, gallery_name=None):
         """ Read in all the json for the passed-in gallery_name """
         if gallery_name == None:
@@ -28,7 +30,7 @@ class Gallery:
         else:
             data_file_name = gallery_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
-            data_file_dir = site_content_dir + '/static/content/json/galleries/'
+            data_file_dir = site_content_dir + self.GALLERIES_DIRECTORY
             data_file_path = data_file_dir + data_file_name
             gallery_json_file = open(data_file_path)
             gallery_json_string = gallery_json_file.read()
@@ -45,12 +47,14 @@ class Gallery:
                     image = img
                     print('find_image returning image:', image )
                     break
-
         return image
+
 
 class Image:
 
     """ Code for working with individual images, e.g., for image.html """
+
+    IMAGES_DIRECTORY = 'content/images/galleries/'
 
     def __init__(self, gallery_name=None, image_id=None):
         """ Find image in the json file or use default image """
@@ -65,8 +69,8 @@ class Image:
             else:
                 self.id = image_dict["id"]
                 self.name = image_dict["title"]
-                self.path = 'content/images/galleries/' + \
-                    gallery_name + '/' + image_dict["image_file_name"]
+                self.path = self.IMAGES_DIRECTORY + gallery_name + '/' + \
+                    image_dict["image_file_name"]
                 self.description = image_dict["story"]
 
     def set_default_image(self):
@@ -83,8 +87,6 @@ class Image:
            'this idea and follow through and learn the details needed to ' \
            'implement it.'
         return self
-
-
 
 
 class Questions:
