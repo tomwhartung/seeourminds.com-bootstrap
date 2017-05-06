@@ -65,7 +65,7 @@ class Image:
         """ Find image in the json file or use default image """
 
         if gallery_name == None or image_id == None:
-            self.set_default_image()
+            self.set_default_image_dict()
         else:
             gallery = Gallery(gallery_name)
             image_dict = gallery.find_image(image_id)
@@ -80,6 +80,7 @@ class Image:
 
         """ Set self.image_dict data to values used for the default image """
 
+        self.image_dict = {}
         self.image_dict["id"] = 0
         self.image_dict["title"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
         self.image_dict["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
