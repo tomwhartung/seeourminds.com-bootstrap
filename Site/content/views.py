@@ -77,8 +77,6 @@ def gallery(request, gallery_name='None'):
 
     this_gallery = Gallery(gallery_name)
     gallery_dict = this_gallery.gallery_dict
-    name_of_gallery = gallery_dict['name_of_gallery']
-    description_of_gallery = gallery_dict['description_of_gallery']
     image_file_dir = 'content/images/galleries/' + gallery_name + '/'
     image_list = gallery_dict['image_list']
     image_list_with_path = []
@@ -95,9 +93,8 @@ def gallery(request, gallery_name='None'):
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
     context = {
-        'name_of_gallery': name_of_gallery,
-        'description_of_gallery': description_of_gallery,
         'image_list_with_path': image_list_with_path,
+        'gallery_dict': gallery_dict,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
     }
