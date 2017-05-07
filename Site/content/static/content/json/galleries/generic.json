@@ -1,6 +1,6 @@
 {
-  "name_of_gallery": "Sixteen Types",
-  "description_of_gallery": "This gallery contains generic images of each of the Sixteen Types.  They are in alphabetical order.  Although we should all be proud of who we are, I strongly believe that we should also never think for a second that one type is 'better' than another!",
+  "gallery_title": "Sixteen Generic Images",
+  "description_html": "<p>This gallery contains a generic image of each of the Sixteen Types.</p><p>They are in alphabetical order, and the preference ratio used in all images is 58% to 42%.  This makes all the images quite colorful, while solidly expressing the personality's preferences.</p><p>Although we should all be proud of who we are, I strongly believe that we should never think for a second that one type is 'better' than another!</p>",
   "image_list":
   [
     {
