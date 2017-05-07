@@ -73,7 +73,7 @@ def gallery(request, gallery_name='None'):
     """ Load and render the template for a single Gallery page """
 
     if gallery_name == 'None':
-        gallery_name = 'tv_shows'
+        gallery_name = 'generic'
 
     this_gallery = Gallery(gallery_name)
     this_gallery.set_image_link_values()
