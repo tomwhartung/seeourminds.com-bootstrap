@@ -8,13 +8,16 @@
       "title": "Special Agent Fox Mulder",
       "image_file_name": "infp-agent_fox_mulder-x_files.jpeg",
       "composition": "O",
-      "e_score": "2",
-      "n_score": "14",
-      "f_score": "11",
-      "j_score": "5",
+      "score": [
+         { "e_score": "2", "i_score": "17" },
+         { "n_score": "14", "s_score": "5" },
+         { "f_score": "11", "t_score": "8" },
+         { "j_score": "5", "p_score": "14" }
+      ],
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "Q",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": "I always suspected that Agent Mulder was an INFP - like me!"
@@ -23,13 +26,16 @@
       "title": "Agent Dana Scully - The X-Files - ESTJ?",
       "image_file_name": "estj-agent_dana_scully-x_files.jpeg",
       "composition": "O",
-      "e_score": "10",
-      "n_score": "4",
-      "f_score": "3",
-      "j_score": "13",
+      "score": [
+         { "e_score": "10", "i_score": "9" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "13", "p_score": "6" }
+      ],
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "Q",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": "So Scully is the opposite of Mulder - who've guessed?"
@@ -38,13 +44,14 @@
       "title": "small_square_ad",
       "image_file_name": "",
       "composition": "O",
-      "e_score": "",
-      "n_score": "",
-      "f_score": "",
-      "j_score": "",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": ""
@@ -53,13 +60,16 @@
       "title": "Dr. McCoy",
       "image_file_name": "esfp-dr_mccoy-star_trek.jpeg",
       "composition": "O",
-      "e_score": "11",
-      "n_score": "4",
-      "f_score": "18",
-      "j_score": "9",
+      "score": [
+         { "e_score": "11", "i_score": "8" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "18", "t_score": "1" },
+         { "j_score": "9", "p_score": "10" }
+      ],
       "four_letter_type": "ESFP",
       "archetype": "Se",
       "quiz_type": "K",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
@@ -68,13 +78,16 @@
       "title": "Captain Kirk",
       "image_file_name": "estj-captain_kirk-star_trek.jpeg",
       "composition": "O",
-      "e_score": "17",
-      "n_score": "9",
-      "f_score": "2",
-      "j_score": "13",
+      "score": [
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "9", "s_score": "10" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "13", "p_score": "6" }
+      ],
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "K",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
@@ -83,13 +96,16 @@
       "title": "Mr. Spock",
       "image_file_name": "istj-mr_spock-star_trek.jpeg",
       "composition": "O",
-      "e_score": "9",
-      "n_score": "4",
-      "f_score": "2",
-      "j_score": "17",
+      "score": [
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "17", "p_score": "2" }
+      ],
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "K",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
@@ -98,13 +114,14 @@
       "title": "responsive_ad",
       "image_file_name": "",
       "composition": "O",
-      "e_score": "",
-      "n_score": "",
-      "f_score": "",
-      "j_score": "",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": ""
@@ -113,13 +130,14 @@
       "title": "square_ad",
       "image_file_name": "",
       "composition": "O",
-      "e_score": "",
-      "n_score": "",
-      "f_score": "",
-      "j_score": "",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": ""
@@ -128,13 +146,14 @@
       "title": "responsive_ad",
       "image_file_name": "",
       "composition": "O",
-      "e_score": "",
-      "n_score": "",
-      "f_score": "",
-      "j_score": "",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "subject_line": "",
       "tweet": "",
       "explanation": "",
       "story": ""
