@@ -10,9 +10,9 @@
   <div class="col-md-4">
     <header id="gallery-description">
       <h2>
-        {{ gallery_dict.name_of_gallery }}</h2>
+        {{ gallery_dict.gallery_title }}</h2>
       <p>
-        {{ gallery_dict.description_of_gallery }}</p>
+        {{ gallery_dict.description_html | safe }}</p>
     </header><!-- #gallery-description -->
   </div><!-- col-md-4 -->
 {% endblock %}
