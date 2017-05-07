@@ -1,6 +1,6 @@
 {
-  "name_of_gallery": "Friends",
-  "description_of_gallery": "This gallery contains images of ... Friends and Family ... and so on.",
+  "gallery_title": "Real People",
+  "description_html": "<p>This gallery contains images of real people</p><p>Some of these images are of my friends but there are also some images of my teachers, coworkers, and even a couple of bosses.</p><p>My plan is to add more friends to this page, as I gather their scores and get their ok to add them, so check back soon!</p>",
   "image_list":
   [
     {
