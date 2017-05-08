@@ -20,6 +20,11 @@
           <img src="{% static image_dict.path %}" class="single-img center">
           <figcaption>{{ image_dict.title }}</figcaption>
         </figure>
+        {% if image_dict.score %}
+          {% for pair in image_dict.score %}
+            <p>score.pair: "{{ pair }}"</p>
+          {% endfor %}
+        {% endif %}
         <p>{{ image_dict.four_letter_type }}</p>
         <p>{{ image_dict.tweet }}</p>
         <p>{{ image_dict.explanation }}</p>
