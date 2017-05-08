@@ -25,27 +25,38 @@
 
 {% block middle_left_ad %}{% endblock %}
 {% block middle_content %}
-  {% for img in gallery_dict.image_list %}
-    {% if img.title == 'responsive_ad' %}
+  {% for image_dict in gallery_dict.image_list %}
+    {% if image_dict.title == 'responsive_ad' %}
       {% block middle_content_responsive_ad %}{{ block.super }}{% endblock %}
-    {% elif img.title == 'large_rectangle_ad' %}
+    {% elif image_dict.title == 'large_rectangle_ad' %}
       {% block middle_content_large_rectangle_ad %}{{ block.super }}{% endblock %}
-    {% elif img.title == 'medium_rectangle_ad' %}
+    {% elif image_dict.title == 'medium_rectangle_ad' %}
       {% block middle_content_medium_rectangle_ad %}{{ block.super }}{% endblock %}
-    {% elif img.title == 'square_ad' %}
+    {% elif image_dict.title == 'square_ad' %}
       {% block middle_content_square_ad %}{{ block.super }}{% endblock %}
-    {% elif img.title == 'small_square_ad' %}
+    {% elif image_dict.title == 'small_square_ad' %}
       {% block middle_content_small_square_ad %}{{ block.super }}{% endblock %}
     {% else %}
       <div class="col-md-4">
         <div class="gallery-image">
           <figure>
-            <a href="{{ img.image_link_href }}" title="{{ img.image_link_title }}">
-              <img src="{% static img.image_file_path %}"
+            <a href="{{ image_dict.image_link_href }}" title="{{ image_dict.image_link_title }}">
+              <img src="{% static image_dict.image_file_path %}"
                    class="center gallery-image"></a>
-              <figcaption><q>{{ img.title }}</q></figcaption>
+              <figcaption><q>{{ image_dict.title }}</q></figcaption>
           </figure>
-          <p>{{ img.story }}</p>
+          {% if image_dict.score %}
+            {% for pair in image_dict.score %}
+              <p>score.pair: "{{ pair }}"</p>
+            {% endfor %}
+          {% endif %}
+          {% if image_dict.subject_line %}
+            <p>{{ image_dict.subject_line }}</p>
+          {% endif %}
+          {% if image_dict.tweet %}
+            <p>{{ image_dict.tweet }}</p>
+          {% endif %}
+          <p>{{ image_dict.explanation }}</p>
         </div><!-- .gallery-image -->
       </div><!-- .col-md-4 -->
     {% endif %}
