@@ -1,4 +1,4 @@
-/*
+/**
  * According to comments in main.css, we are "supposed" to
  * add our custom styles into the middle of that file.
  * I decided to put them here, instead.
@@ -6,6 +6,15 @@
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+}
+
+/*
+ * Keep images etc. from overflowing their containers
+ * Reference:
+ *   https://developers.google.com/web/fundamentals/design-and-ui/responsive/images#use_relative_sizes_for_images
+ */
+img, embed, object, video {
+    max-width: 100%;
 }
 
 /*
@@ -154,7 +163,6 @@ nav a {
     background: maroon;   /* was: #e44d26; */
 }
 
-
 /*
  * ==========================
  * For the social media icons
@@ -203,7 +211,57 @@ i.fa-lg:hover {
 }
 
 /*
+ * ====================================
+ * For the D3 SVG score_bars
+ * From 25-d3_tutorials_to_score_bars/04-final_d3v4/css/score_bars.css
+ *   in the always_learning_python repo
+ * ====================================
+ */
+ .score-svg {
+    border: solid blue 3px;
+    margin: 1em;
+    padding: 0;
+ }
+ .score-bar {
+    display: block;
+    font: 10px sans-serif;
+ }
+ .score-bar .function-letter {
+    fill: #000077;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .score-bar .function-name {
+    fill: #770000;
+ }
+ .score-bar .score-pct {
+    stroke: #777777;
+    stroke-width: 1px;
+ }
+ .score-bar .tick line {
+    stroke: #111111;
+    stroke-width: .5px;
+ }
+ .n-score {
+    fill: #0000FF;
+ }
+ .s-score {
+    fill: #FFFF00;
+ }
+ .f-score {
+    fill: #FF0000;
+ }
+ .t-score {
+    fill: #00FF00;
+ }
+ .x-score {
+    fill: #777777;
+ }
+
+/*
+ * ===============
  * Semantic styles
+ * ===============
  */
 .air-quotes::before { content: '"'; }
 .air-quotes {
@@ -237,15 +295,6 @@ ul.debugging {
 }
 ul.square-bullets {
    list-style-type: square;
-}
-
-/*
- * Keep images etc. from overflowing their containers
- * Reference:
- *   https://developers.google.com/web/fundamentals/design-and-ui/responsive/images#use_relative_sizes_for_images
- */
-img, embed, object, video {
-    max-width: 100%;
 }
 
 /*
@@ -295,9 +344,9 @@ figcaption {
     width: 515px;
 }
 /*
- * ========================
- * Styles for the Quiz Page
- * ========================
+ * =================
+ * For the Quiz Page
+ * =================
  */
 li.quiz-sizes-list {
    margin: .15em;
