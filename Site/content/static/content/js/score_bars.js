@@ -31,8 +31,8 @@
         score_value_arr = []              // data() fcn expects an array
         score_value_arr.push(score_value);
 
-        console.log('d3.score - score_bars - check check 123 123');
-        console.log('d3.score - score_bars - width x height: ' + width + ' x ' + height)
+        // console.log('d3.score - score_bars - check check 123 123');
+        // console.log('d3.score - score_bars - width x height: ' + width + ' x ' + height)
 
         var x_scale = d3.scaleLinear()
             .domain([0, 100])
@@ -264,7 +264,7 @@ var score_bars = {
          tick_format_fcn = function(tick_data) {return tick_data + "%";}
       }
 
-      console.log('create_chart_svg - selector: ' + selector);
+      // console.log('create_chart_svg - selector: ' + selector);
       console.log('create_chart_svg - total_width x total_height: ' + total_width + ' x ' + total_height);
       console.log('create_chart_svg - bar_width x bar_height: ' + bar_width + ' x ' + bar_height);
       //
@@ -272,12 +272,10 @@ var score_bars = {
       // Create the chart
       //
       var score_bars_data = score_bars.score_to_bars_data(score);
-      console.log('create_chart_svg - checkpoint 1');
       var score_bars_chart = d3.score_bars()
          .tick_format(tick_format_fcn)
          .width(bar_width)
          .height(bar_height);
-      console.log('create_chart_svg - checkpoint 2');
       //
       // Create the svg chart elements, setting attributes as appropriate
       //
@@ -294,17 +292,14 @@ var score_bars = {
       // Add the "g" elements for the score bar labels
       // Add the personality function letter and name to the chart
       //
-      console.log('create_chart_svg - checkpoint 3');
       var function_letter_elt = score_bars_svg.append("g")
          .style("text-anchor", "end")
          .attr("transform", "translate(-6," + bar_height / 2 + ")");
-      console.log('create_chart_svg - checkpoint 4');
 
       function_letter_elt.append("text")
          .attr("class", "function-letter")
          .text(function(data) { return data.function_letter; });
 
-      console.log('create_chart_svg - checkpoint 5');
       function_letter_elt.append("text")
          .attr("class", "function-name")
          .attr("dy", "1em")
