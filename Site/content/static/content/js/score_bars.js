@@ -356,18 +356,18 @@ var score_bars = {
       // Find and save the values in the passed-in score object
       //
       for (var index in score ) {
-         pair = score[index];
-         for (var x_score_key in pair) {
-            score_value = pair[x_score_key];
-            if (x_score_key == 'e_score') { e_score_value = parseInt(score_value); }
-            else if (x_score_key == 'i_score') { i_score_value = parseInt(score_value); }
-            else if (x_score_key == 'n_score') { n_score_value = parseInt(score_value); }
-            else if (x_score_key == 's_score') { s_score_value = parseInt(score_value); }
-            else if (x_score_key == 'f_score') { f_score_value = parseInt(score_value); }
-            else if (x_score_key == 't_score') { t_score_value = parseInt(score_value); }
-            else if (x_score_key == 'j_score') { j_score_value = parseInt(score_value); }
-            else if (x_score_key == 'p_score') { p_score_value = parseInt(score_value); }
-         }
+        pair = score[index];
+        for (var x_score_key in pair) {
+          score_value = pair[x_score_key];
+          if (x_score_key == 'e_score') { e_score_value = parseInt(score_value); }
+          else if (x_score_key == 'i_score') { i_score_value = parseInt(score_value); }
+          else if (x_score_key == 'n_score') { n_score_value = parseInt(score_value); }
+          else if (x_score_key == 's_score') { s_score_value = parseInt(score_value); }
+          else if (x_score_key == 'f_score') { f_score_value = parseInt(score_value); }
+          else if (x_score_key == 't_score') { t_score_value = parseInt(score_value); }
+          else if (x_score_key == 'j_score') { j_score_value = parseInt(score_value); }
+          else if (x_score_key == 'p_score') { p_score_value = parseInt(score_value); }
+        }
       }
       //
       // All values are required!
@@ -407,71 +407,71 @@ var score_bars = {
       j_p_total = j_score_value + p_score_value;
 
       if (e_score_value > i_score_value) {
-         e_or_i_letter = 'E';
-         e_or_i_name = 'Extraversion';
-         e_or_i_score_pct = Math.round(100 * e_score_value / e_i_total);
+        e_or_i_letter = 'E';
+        e_or_i_name = 'Extraversion';
+        e_or_i_score_pct = Math.round(100 * e_score_value / e_i_total);
       }
       else {
-         e_or_i_letter = 'I';
-         e_or_i_name = 'Introversion';
-         e_or_i_score_pct = Math.round(100 * i_score_value / e_i_total);
+        e_or_i_letter = 'I';
+        e_or_i_name = 'Introversion';
+        e_or_i_score_pct = Math.round(100 * i_score_value / e_i_total);
       }
 
       if (n_score_value > s_score_value) {
-         n_or_s_letter = 'N';
-         n_or_s_name = 'iNtuition';
-         n_or_s_score_pct = Math.round(100 * n_score_value / n_s_total);
+        n_or_s_letter = 'N';
+        n_or_s_name = 'iNtuition';
+        n_or_s_score_pct = Math.round(100 * n_score_value / n_s_total);
       }
       else {
-         n_or_s_letter = 'S';
-         n_or_s_name = 'Sensing';
-         n_or_s_score_pct = Math.round(100 * s_score_value / n_s_total);
+        n_or_s_letter = 'S';
+        n_or_s_name = 'Sensing';
+        n_or_s_score_pct = Math.round(100 * s_score_value / n_s_total);
       }
 
       if (f_score_value > t_score_value) {
-         f_or_t_letter = 'F';
-         f_or_t_name = 'Feeling';
-         f_or_t_score_pct = Math.round(100 * f_score_value / f_t_total);
+        f_or_t_letter = 'F';
+        f_or_t_name = 'Feeling';
+        f_or_t_score_pct = Math.round(100 * f_score_value / f_t_total);
       }
       else {
-         f_or_t_letter = 'T';
-         f_or_t_name = 'Thinking';
-         f_or_t_score_pct = Math.round(100 * t_score_value / f_t_total);
+        f_or_t_letter = 'T';
+        f_or_t_name = 'Thinking';
+        f_or_t_score_pct = Math.round(100 * t_score_value / f_t_total);
       }
 
       if (j_score_value > p_score_value) {
-         j_or_p_letter = 'J';
-         j_or_p_name = 'Judging';
-         j_or_p_score_pct = Math.round(100 * j_score_value / j_p_total);
+        j_or_p_letter = 'J';
+        j_or_p_name = 'Judging';
+        j_or_p_score_pct = Math.round(100 * j_score_value / j_p_total);
       }
       else {
-         j_or_p_letter = 'P';
-         j_or_p_name = 'Perceiving';
-         j_or_p_score_pct = Math.round(100 * p_score_value / j_p_total);
+        j_or_p_letter = 'P';
+        j_or_p_name = 'Perceiving';
+        j_or_p_score_pct = Math.round(100 * p_score_value / j_p_total);
       }
 
       //
       // Use these values to construct the score_bars_data array
       //
       e_or_i_entry = {
-         "function_letter": e_or_i_letter,
-         "function_name": e_or_i_name,
-         "score_pct": e_or_i_score_pct
+        "function_letter": e_or_i_letter,
+        "function_name": e_or_i_name,
+        "score_pct": e_or_i_score_pct
       };
       n_or_s_entry = {
-         "function_letter": n_or_s_letter,
-         "function_name": n_or_s_name,
-         "score_pct": n_or_s_score_pct
+        "function_letter": n_or_s_letter,
+        "function_name": n_or_s_name,
+        "score_pct": n_or_s_score_pct
       };
       f_or_t_entry = {
-         "function_letter": f_or_t_letter,
-         "function_name": f_or_t_name,
-         "score_pct": f_or_t_score_pct
+        "function_letter": f_or_t_letter,
+        "function_name": f_or_t_name,
+        "score_pct": f_or_t_score_pct
       };
       j_or_p_entry = {
-         "function_letter": j_or_p_letter,
-         "function_name": j_or_p_name,
-         "score_pct": j_or_p_score_pct
+        "function_letter": j_or_p_letter,
+        "function_name": j_or_p_name,
+        "score_pct": j_or_p_score_pct
       };
 
       score_bars_data.push(e_or_i_entry);
