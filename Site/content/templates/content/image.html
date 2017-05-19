@@ -27,9 +27,15 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
-        <p>{{ image_dict.tweet }}</p>
-        <p>{{ image_dict.explanation }}</p>
-        <p>{{ image_dict.story }}</p>
+        {% if image_dict.tweet %}
+          <p>{{ image_dict.tweet }}</p>
+        {% endif %}
+        {% if image_dict.explanation  %}
+          <p>{{ image_dict.explanation }}</p>
+        {% endif %}
+        {% if image_dict.story %}
+          <p>{{ image_dict.story }}</p>
+        {% endif %}
       </div><!-- .single-image -->
     </section><!-- #image -->
   </div><!-- .col-md-8 -->
