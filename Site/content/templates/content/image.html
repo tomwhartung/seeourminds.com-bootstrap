@@ -24,13 +24,9 @@
         </figure>
         {% if image_dict.score %}
           <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
+        {% else %}
+          <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
-        {% if image_dict.score %}
-          {% for pair in image_dict.score %}
-            <p>score.pair: "{{ pair }}"</p>
-          {% endfor %}
-        {% endif %}
-        <p>{{ image_dict.four_letter_type }}</p>
         <p>{{ image_dict.tweet }}</p>
         <p>{{ image_dict.explanation }}</p>
         <p>{{ image_dict.story }}</p>
@@ -48,34 +44,29 @@
 
 {% block footer %}
   {{ block.super }}
-   <p>Before the "if image_dict.score"</p>
-   {% if image_dict.score %}
-     <p>Before the script</p>
-      <script>
+  {% if image_dict.score %}
+    <script>
       //
       // Define positioning parameters and create the score_bars d3 svg chart
       //
       var positioning_params = {
-         selector: '#score-bars',
-         total_width: 600,
-         total_height: 35,
-         margin_top: 8,
-         margin_right: 21,
-         margin_bottom: 15,
-         margin_left: 62,
+        selector: '#score-bars',
+        total_width: 600,
+        total_height: 35,
+        margin_top: 8,
+        margin_right: 21,
+        margin_bottom: 15,
+        margin_left: 62,
       };
-       var image_score = [
-         {% for pair in image_dict.score %}
-           {{ pair|safe }},
-         {% endfor %}
-       ];
-
+      var image_score = [
+        {% for pair in image_dict.score %}
+          {{ pair|safe }},
+        {% endfor %}
+      ];
       score_bars.create_chart_svg(
-         positioning_params,
-         image_score
+        positioning_params,
+        image_score
       );
-      </script>
-      <p>After the script</p>
-   {% endif %}
-   <p>After the "if image_dict.score"</p>
+    </script>
+  {% endif %}
 {% endblock %}
