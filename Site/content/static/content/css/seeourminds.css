@@ -218,7 +218,7 @@ i.fa-lg:hover {
  * ====================================
  */
  .score-svg {
-    border: solid blue 3px;
+    /* border: solid blue 3px; */
     margin: 1em;
     padding: 0;
  }
