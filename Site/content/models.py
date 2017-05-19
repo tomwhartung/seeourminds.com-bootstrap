@@ -98,6 +98,12 @@ class Image:
         self.image_dict["id"] = 0
         self.image_dict["title"] = 'Tom H., Creator of SeeOurMinds.com and Groja.com'
         self.image_dict["path"] = 'content/images/header/infp-tomh_1987-515x515.gif'
+        self.image_dict["score"] = [
+            { "e_score": "9", "i_score": "10" },
+            { "n_score": "13", "s_score": "6" },
+            { "f_score": "10", "t_score": "9" },
+            { "j_score": "9", "p_score": "10" }
+        ]
         self.image_dict["four_letter_type"] = 'INFP'
         self.image_dict["tweet"] = '"default image tweet - FIX ME"'
         self.image_dict["explanation"] = '"default image explanation - FIX ME"'
