@@ -46,7 +46,7 @@
 
 {% block footer %}
   {{ block.super }}
-  {% if image_dict.score %}
+  {% if score %}
     <script>
       //
       // Define positioning parameters and create the score_bars d3 svg chart
@@ -61,7 +61,7 @@
         margin_left: 62,
       };
       var image_score = [
-        {% for pair in image_dict.score %}
+        {% for pair in score %}
           {{ pair|safe }},
         {% endfor %}
       ];
