@@ -392,9 +392,8 @@ class Score:
         messages.add_message(request, messages.INFO, pcts_and_counts_html)
         return True
 
-    def set_quiz_results_cookies(self, request):
+    def set_quiz_results_cookie(self, response):
         """ Set a cookie so we can display score bars on the results page """
-        response = HttpResponse('/quiz/results')
         response.set_cookie('score', 'score from cookie!')
         return True
 
