@@ -114,6 +114,7 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
 
     """ Load and render the quiz_form page template """
 
+    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     quiz_form = None
     if request.method == 'POST':
         # print('views.quiz() - request.POST:', request.POST)
@@ -148,7 +149,13 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
                     score.set_quiz_results_messages(request)
                     for saved_msg in saved_messages:
                         messages.add_message(request, messages.INFO, saved_msg)
-                    return HttpResponseRedirect('/quiz/results')
+                    # score.set_quiz_results_cookies(request)
+                    template = loader.get_template('content/quiz_results.html')
+                    context = {'quiz_menu_data': quiz_menu_data,}
+                    response = HttpResponse(template.render(context, request))
+                    response.set_cookie('score', 'score from cookie!')
+                    # return HttpResponseRedirect('/quiz/results')
+                    return response
                 else:
                     score.set_incomplete_message(request)
 
@@ -164,7 +171,6 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
     quiz_info["size_text"] = \
         Questionnaire.get_quiz_size_text_for_slug(quiz_size_slug)
 
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_form.html')
     context = {
         'quiz_form': quiz_form,
@@ -183,7 +189,11 @@ def quiz_results(request):
     """
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
+    score = 'sorry our cookie is not working yet'
+    if 'cookie_name' in request.COOKIES:
+        score = request.COOKIES.get('cookie_name')
     return render(request, 'content/quiz_results.html', {
+        'score': score,
         'quiz_menu_data': quiz_menu_data,
     })
 
