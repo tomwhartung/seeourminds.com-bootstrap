@@ -374,13 +374,13 @@ p.quiz-form-opt-req {
    list-style-type: none;
    padding: .5em;
 }
-.results-messages {
+div.quiz-results {
    border: black solid 2px;
    font-size: 1.25em;
-   list-style-type: none;
    padding: 1.5em;
 }
 ul.results-messages > li {
+   list-style-type: none;
    padding: .5em;
 }
 /*
