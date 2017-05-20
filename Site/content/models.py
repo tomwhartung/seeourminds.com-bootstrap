@@ -393,11 +393,6 @@ class Score:
         messages.add_message(request, messages.INFO, pcts_and_counts_html)
         return True
 
-    def set_quiz_results_cookie(self, response):
-        """ Set a cookie so we can display score bars on the results page """
-        response.set_cookie('score', 'score from cookie!')
-        return True
-
     def as_four_letter_type(self):
         """ Return a string containing the four letter type """
         four_letter_type = ''
