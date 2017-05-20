@@ -13,18 +13,18 @@
       <h1>Thanks for taking the SeeOurMinds.com Quiz!</h1>
     </header>
     <section>
-      {% if messages %}
-        <h2>Your Results:</h2>
-        <ul class="results-messages">
-          {% for message in messages %}
-            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
-              {{ message|safe }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-      <p>
-        score for drawing score bars: --&gt;{{ score }}&lt;--</p>
+      <h2>Your Results:</h2>
+      <div class="quiz-results">
         <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
+        {% if messages %}
+          <ul class="results-messages">
+            {% for message in messages %}
+              <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+                {{ message|safe }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div><!-- .quiz-results" -->
     </section>
     <hr />
   </article>
