@@ -149,11 +149,11 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
                     score.set_quiz_results_messages(request)
                     for saved_msg in saved_messages:
                         messages.add_message(request, messages.INFO, saved_msg)
-                    # score.set_quiz_results_cookies(request)
                     template = loader.get_template('content/quiz_results.html')
-                    context = {'quiz_menu_data': quiz_menu_data,}
+                    context = {'score':'score in context', 'quiz_menu_data': quiz_menu_data,}
                     response = HttpResponse(template.render(context, request))
-                    response.set_cookie('score', 'score from cookie!')
+                    # score.set_quiz_results_cookie(response)
+                    response.set_cookie('score', 'could be a score from a cookie!')
                     # return HttpResponseRedirect('/quiz/results')
                     return response
                 else:
