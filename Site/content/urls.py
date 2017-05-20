@@ -21,7 +21,6 @@ urlpatterns = [
     url(r'^image/(?P<image_id>\w+)/$', views.image, name='image'),
     url(r'^image/(?P<gallery_name>\w+)/(?P<image_id>\w+)/$', views.image, name='image'),
     url(r'^quiz$', views.quiz_about, name='quiz_about'),
-    url(r'^quiz/results$', views.quiz_results, name='quiz_results'),
     url(r'^quiz/(?P<quiz_size_slug>[\w-]+)/$', views.quiz_form, name='quiz_form'),
     url(r'^google428ef5aab2bc0870.html$',
         views.google_verification, name='google_verification'),
