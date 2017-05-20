@@ -331,7 +331,6 @@ class Score:
 
         return saved_messages
 
-
     def print_cleaned_data(self, cleaned_data):
         """ print out the cleaned data, in order by question number """
         print('Score.print_cleaned_data - cleaned_data:')
@@ -372,9 +371,11 @@ class Score:
         return True
 
     def is_complete(self):
+        """ Returns the boolean data member score_is_complete """
         return self.score_is_complete
 
     def set_incomplete_message(self, request):
+        """ Returns message saying how many questions were not answered """
         if self.unanswered_question_count == 1:
             incomplete_msg = 'There is ' + \
                 str(self.unanswered_question_count) + ' unanswered question'
