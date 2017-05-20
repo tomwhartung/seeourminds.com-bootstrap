@@ -513,14 +513,14 @@ class Score:
     def as_list_of_pairs(self):
         """ Return a list of pairs, formatted like the scores in the json """
         score_list = [
-            {'e_score': '"' + str(self.e_score) + '"',
-             'i_score': '"' + str(self.i_score) + '"'},
-            {'n_score': '"' + str(self.n_score) + '"',
-             's_score': '"' + str(self.s_score) + '"'},
-            {'f_score': '"' + str(self.f_score) + '"',
-             't_score': '"' + str(self.t_score) + '"'},
-            {'j_score': '"' + str(self.j_score) + '"',
-             'p_score': '"' + str(self.p_score) + '"'}
+            {'e_score': str(self.e_score),
+             'i_score': str(self.i_score)},
+            {'n_score': str(self.n_score),
+             's_score': str(self.s_score)},
+            {'f_score': str(self.f_score),
+             't_score': str(self.t_score)},
+            {'j_score': str(self.j_score),
+             'p_score': str(self.p_score)}
         ]
         return score_list
 
