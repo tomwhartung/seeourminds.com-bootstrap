@@ -479,16 +479,48 @@ class Score:
         if self.e_pct is None:
             self.calculate_percentages()
 
-        score_list = [
-            ['E: ' + str(self.e_pct) + '%&nbsp;(' + str(self.e_score) + ')',
-             'I: ' + str(self.i_pct) + '%&nbsp;(' + str(self.i_score) + ')'],
-            ['N: ' + str(self.n_pct) + '%&nbsp;(' + str(self.n_score) + ')',
-             'S: ' + str(self.s_pct) + '%&nbsp;(' + str(self.s_score) + ')'],
-            ['F: ' + str(self.f_pct) + '%&nbsp;(' + str(self.f_score) + ')',
-             'T: ' + str(self.t_pct) + '%&nbsp;(' + str(self.t_score) + ')'],
-            ['J: ' + str(self.j_pct) + '%&nbsp;(' + str(self.j_score) + ')',
-             'P: ' + str(self.p_pct) + '%&nbsp;(' + str(self.p_score) + ')']
-        ]
+        score_list = []
+
+        if self.e_score > self.i_score:
+            e_i_score_list = \
+                ['E: ' + str(self.e_pct) + '%&nbsp;(' + str(self.e_score) + ')',
+                'I: ' + str(self.i_pct) + '%&nbsp;(' + str(self.i_score) + ')']
+        else:
+            e_i_score_list = \
+                ['I: ' + str(self.i_pct) + '%&nbsp;(' + str(self.i_score) + ')',
+                'E: ' + str(self.e_pct) + '%&nbsp;(' + str(self.e_score) + ')']
+
+        if self.e_score > self.i_score:
+            n_s_score_list = \
+                ['N: ' + str(self.n_pct) + '%&nbsp;(' + str(self.n_score) + ')',
+                 'S: ' + str(self.s_pct) + '%&nbsp;(' + str(self.s_score) + ')']
+        else:
+            n_s_score_list = \
+                ['S: ' + str(self.s_pct) + '%&nbsp;(' + str(self.s_score) + ')',
+                 'N: ' + str(self.n_pct) + '%&nbsp;(' + str(self.n_score) + ')']
+
+        if self.e_score > self.i_score:
+            f_t_score_list = \
+                ['F: ' + str(self.f_pct) + '%&nbsp;(' + str(self.f_score) + ')',
+                 'T: ' + str(self.t_pct) + '%&nbsp;(' + str(self.t_score) + ')']
+        else:
+            f_t_score_list = \
+                ['T: ' + str(self.t_pct) + '%&nbsp;(' + str(self.t_score) + ')',
+                 'F: ' + str(self.f_pct) + '%&nbsp;(' + str(self.f_score) + ')']
+
+        if self.e_score > self.i_score:
+            j_p_score_list = \
+                ['J: ' + str(self.j_pct) + '%&nbsp;(' + str(self.j_score) + ')',
+                 'P: ' + str(self.p_pct) + '%&nbsp;(' + str(self.p_score) + ')']
+        else:
+            j_p_score_list = \
+                ['P: ' + str(self.p_pct) + '%&nbsp;(' + str(self.p_score) + ')',
+                 'J: ' + str(self.j_pct) + '%&nbsp;(' + str(self.j_score) + ')']
+
+        score_list.append(e_i_score_list)
+        score_list.append(n_s_score_list)
+        score_list.append(f_t_score_list)
+        score_list.append(j_p_score_list)
         return score_list
 
     def to_kv_pairs(self):
