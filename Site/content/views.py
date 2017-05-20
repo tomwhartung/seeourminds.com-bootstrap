@@ -180,23 +180,6 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
     return HttpResponse(template.render(context, request))
 
 
-def quiz_results(request):
-
-    """
-    Render the Quiz results template
-    Note: THERE ARE NO ADS ON THIS PAGE!
-    """
-
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
-    score = 'sorry our cookie is not working yet'
-    if 'cookie_name' in request.COOKIES:
-        score = request.COOKIES.get('cookie_name')
-    return render(request, 'content/quiz_results.html', {
-        'score': score,
-        'quiz_menu_data': quiz_menu_data,
-    })
-
-
 def google_verification(request):
 
     """ Load and render the google verification template """
