@@ -11,6 +11,7 @@ Reference:
 import json
 import os
 from django.contrib import messages
+from django.http import HttpResponse
 
 from .database import Questionnaire
 
@@ -389,6 +390,12 @@ class Score:
         pcts_and_counts_html = self.get_pcts_and_counts_html()
         messages.add_message(request, messages.INFO, four_letter_type)
         messages.add_message(request, messages.INFO, pcts_and_counts_html)
+        return True
+
+    def set_quiz_results_cookies(self, request):
+        """ Set a cookie so we can display score bars on the results page """
+        response = HttpResponse('/quiz/results')
+        response.set_cookie('score', 'score from cookie!')
         return True
 
     def as_four_letter_type(self):
