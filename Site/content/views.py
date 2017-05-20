@@ -144,17 +144,18 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
                 score.score_quiz(quiz_size_slug, quiz_form.cleaned_data)
                 if score.is_complete():
                     # print('views.quiz() - score is_complete')
+                    score.set_quiz_results_messages(request)
                     saved_messages = score.save_questionnaire(
                             quiz_form.cleaned_data, quiz_size_slug)
-                    score.set_quiz_results_messages(request)
                     for saved_msg in saved_messages:
                         messages.add_message(request, messages.INFO, saved_msg)
                     template = loader.get_template('content/quiz_results.html')
                     score_for_context = score.as_list_of_pairs()
-                    context = {'score': score_for_context, 'quiz_menu_data': quiz_menu_data,}
-                    response = HttpResponse(template.render(context, request))
-                    # return HttpResponseRedirect('/quiz/results')
-                    return response
+                    return HttpResponse(template.render(
+                        { 'score': score_for_context,
+                          'quiz_menu_data': quiz_menu_data,},
+                        request
+                    ))
                 else:
                     score.set_incomplete_message(request)
 
