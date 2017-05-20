@@ -1,5 +1,12 @@
 {% extends 'content/quiz_base.html' %}
 
+{% block head %}
+  {{ block.super }}
+  {% load static %}
+  <script src="{% static 'content/js/vendor/d3.v4.min.js' %}"></script>
+  <script src="{% static 'content/js/score_bars.js' %}"></script>
+{% endblock %}
+
 {% block top_content_left %}
   <article>
     <header>
@@ -15,6 +22,9 @@
           {% endfor %}
         </ul>
       {% endif %}
+      <p>
+        score (from cookie): {{ score }}</p>
+        <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
     </section>
     <hr />
   </article>
@@ -34,3 +44,31 @@
 {% block bottom_content %}{{ block.super }}{% endblock %}
 {% block bottom_right_ad %}{% endblock %}
 
+{% block footer %}
+  {{ block.super }}
+  {% if image_dict.score %}
+    <script>
+      //
+      // Define positioning parameters and create the score_bars d3 svg chart
+      //
+      var positioning_params = {
+        selector: '#score-bars',
+        total_width: 575,
+        total_height: 35,
+        margin_top: 8,
+        margin_right: 21,
+        margin_bottom: 15,
+        margin_left: 62,
+      };
+      var image_score = [
+        {% for pair in image_dict.score %}
+          {{ pair|safe }},
+        {% endfor %}
+      ];
+      score_bars.create_chart_svg(
+        positioning_params,
+        image_score
+      );
+    </script>
+  {% endif %}
+{% endblock %}
