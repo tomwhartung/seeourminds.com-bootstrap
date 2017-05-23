@@ -299,11 +299,15 @@ var score_bars = {
     function_letter_elt.append("text")
       .attr("class", "function-letter")
       .text(function(data) { return data.function_letter; });
-
-    function_letter_elt.append("text")
-      .attr("class", "function-name")
-      .attr("dy", "1em")
-      .text(function(data) { return data.function_name; });
+    //
+    // Add the text "Extraversion," "Thinking," etc. only if there's enough room
+    //
+    if (margin_left > 50) {
+      function_letter_elt.append("text")
+        .attr("class", "function-name")
+        .attr("dy", "1em")
+        .text(function(data) { return data.function_name; });
+    }
 
   },
   /**
