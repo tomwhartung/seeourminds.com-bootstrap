@@ -18,9 +18,10 @@
       "archetype": "Fi",
       "quiz_type": "Q",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": "I always suspected that Agent Mulder was an INFP - like me!"
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "I always suspected that Agent Mulder was an INFP - like me!"
     }, {
       "id": "4020",
       "title": "Agent Dana Scully - The X-Files - ESTJ?",
@@ -36,9 +37,10 @@
       "archetype": "Te",
       "quiz_type": "Q",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": "So Scully is the opposite of Mulder - who've guessed?"
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "So Scully is the opposite of Mulder - who've guessed?"
     }, {
       "id": "4060",
       "title": "small_square_ad",
@@ -52,9 +54,10 @@
       "archetype": "",
       "quiz_type": "",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "4200",
       "title": "Dr. McCoy",
@@ -70,9 +73,10 @@
       "archetype": "Se",
       "quiz_type": "K",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
     }, {
       "id": "4220",
       "title": "Captain Kirk",
@@ -88,9 +92,10 @@
       "archetype": "Te",
       "quiz_type": "K",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
     }, {
       "id": "4240",
       "title": "Mr. Spock",
@@ -106,9 +111,10 @@
       "archetype": "Si",
       "quiz_type": "K",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
     }, {
       "id": "4300",
       "title": "responsive_ad",
@@ -122,9 +128,10 @@
       "archetype": "",
       "quiz_type": "",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "4310",
       "title": "square_ad",
@@ -138,9 +145,10 @@
       "archetype": "",
       "quiz_type": "",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "4320",
       "title": "responsive_ad",
@@ -154,9 +162,10 @@
       "archetype": "",
       "quiz_type": "",
       "subject_line": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }
   ]
 }
