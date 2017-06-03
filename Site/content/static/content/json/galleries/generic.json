@@ -17,9 +17,10 @@
       "four_letter_type": "ENFJ",
       "archetype": "Fe",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ENFJ, created for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ENFJ, created for the Gallery."
     }, {
       "id": "1160",
       "title": "enfp",
@@ -34,9 +35,10 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ENFP for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ENFP for the Gallery."
     }, {
       "id": "1200",
       "title": "responsive_ad",
@@ -49,9 +51,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1230",
       "title": "entj",
@@ -66,9 +69,10 @@
       "four_letter_type": "ENTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ENTJ for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ENTJ for the Gallery."
     }, {
       "id": "1260",
       "title": "entp",
@@ -83,9 +87,10 @@
       "four_letter_type": "ENTP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ENTP for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ENTP for the Gallery."
     }, {
       "id": "1300",
       "title": "large_rectangle_ad",
@@ -98,9 +103,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1330",
       "title": "esfj",
@@ -115,9 +121,10 @@
       "four_letter_type": "ESFJ",
       "archetype": "Fe",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ESFJ, created for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ESFJ, created for the Gallery."
     }, {
       "id": "1360",
       "title": "esfp",
@@ -132,9 +139,10 @@
       "four_letter_type": "ESFP",
       "archetype": "Se",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ESFP, created for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ESFP, created for the Gallery."
     }, {
       "id": "1400",
       "title": "medium_rectangle_ad",
@@ -147,9 +155,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1430",
       "title": "estj",
@@ -164,9 +173,10 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ESTJ, created for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ESTJ, created for the Gallery."
     }, {
       "id": "1460",
       "title": "estp",
@@ -181,9 +191,10 @@
       "four_letter_type": "ESTP",
       "archetype": "Se",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ESTP, created for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ESTP, created for the Gallery."
     }, {
       "id": "1500",
       "title": "large_rectangle_ad",
@@ -196,9 +207,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1530",
       "title": "infj",
@@ -213,9 +225,10 @@
       "four_letter_type": "INFJ",
       "archetype": "Ni",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic INFJ, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic INFJ, for the Gallery."
     }, {
       "id": "1560",
       "title": "infp",
@@ -230,9 +243,10 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic INFP, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic INFP, for the Gallery."
     }, {
       "id": "1600",
       "title": "responsive_ad",
@@ -245,9 +259,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1630",
       "title": "intj",
@@ -262,9 +277,10 @@
       "four_letter_type": "INTJ",
       "archetype": "Ni",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic INTJ, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic INTJ, for the Gallery."
     }, {
       "id": "1660",
       "title": "intp",
@@ -279,9 +295,10 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic INTP, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic INTP, for the Gallery."
     }, {
       "id": "1700",
       "title": "square_ad",
@@ -294,9 +311,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1730",
       "title": "isfj",
@@ -311,9 +329,10 @@
       "four_letter_type": "ISFJ",
       "archetype": "Si",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ISFJ, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ISFJ, for the Gallery."
     }, {
       "id": "1760",
       "title": "isfp",
@@ -328,9 +347,10 @@
       "four_letter_type": "ISFP",
       "archetype": "Fi",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ISFP, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ISFP, for the Gallery."
     }, {
       "id": "1800",
       "title": "small_square_ad",
@@ -343,9 +363,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }, {
       "id": "1830",
       "title": "istj",
@@ -360,9 +381,10 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ISTJ, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ISTJ, for the Gallery."
     }, {
       "id": "1860",
       "title": "istp",
@@ -377,9 +399,10 @@
       "four_letter_type": "ISTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "tweet": "",
-      "explanation": "",
-      "story": "Image of a Generic ISTP, for the Gallery."
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "Image of a Generic ISTP, for the Gallery."
     }, {
       "id": "1900",
       "title": "square_ad",
@@ -392,9 +415,10 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
-      "tweet": "",
-      "explanation": "",
-      "story": ""
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
     }
   ]
 }
