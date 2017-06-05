@@ -2,6 +2,9 @@
 
 {% block head %}
   {{ block.super }}
+  {% block title %}
+    {{ image_dict.title }}
+  {% endblock %}
   {% load static %}
   <script src="{% static 'content/js/vendor/d3.v4.min.js' %}"></script>
   <script src="{% static 'content/js/score_bars.js' %}"></script>
