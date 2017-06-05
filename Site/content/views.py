@@ -48,6 +48,7 @@ def image(request, gallery_name=None, image_id=None):
         'image_dict': image_dict,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
+        'title': image_dict.get('title'),
     })
 
 
