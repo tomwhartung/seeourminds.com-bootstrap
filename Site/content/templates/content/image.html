@@ -27,14 +27,16 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
-        {% if image_dict.tweet %}
-          <p>{{ image_dict.tweet }}</p>
+        {% if image_dict.tweet_html %}
+          <p>{{ image_dict.tweet_html | safe }}</p>
+        {% elif image_dict.subject_line %}
+          <p>{{ image_dict.subject_line }}</p>
         {% endif %}
         {% if image_dict.explanation  %}
           <p>{{ image_dict.explanation }}</p>
         {% endif %}
-        {% if image_dict.story %}
-          <p>{{ image_dict.story }}</p>
+        {% if image_dict.story_html %}
+          <p>{{ image_dict.story_html | safe }}</p>
         {% endif %}
       </div><!-- .single-image -->
     </section><!-- #image -->
