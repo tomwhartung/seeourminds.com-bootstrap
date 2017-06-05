@@ -35,8 +35,11 @@
         {% elif image_dict.subject_line %}
           <p>{{ image_dict.subject_line }}</p>
         {% endif %}
-        {% if image_dict.explanation  %}
-          <p>{{ image_dict.explanation }}</p>
+        {% if image_dict.explain_dom  %}
+          <p>{{ image_dict.explain_dom }}</p>
+        {% endif %}
+        {% if image_dict.explain_aux  %}
+          <p>{{ image_dict.explain_aux }}</p>
         {% endif %}
         {% if image_dict.story_html %}
           <p>{{ image_dict.story_html | safe }}</p>
