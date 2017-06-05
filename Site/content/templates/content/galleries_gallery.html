@@ -50,14 +50,19 @@
           {% if image_dict.score %}
             <div class="score-svg" id="score-bars-{{ image_dict.id }}">
             </div><!-- #score-bars-{{ image_dict.id }} -->
+          {% else %}
+            <p>{{ image_dict.four_letter_type }}</p>
           {% endif %}
           {% if image_dict.subject_line %}
             <p>{{ image_dict.subject_line }}</p>
           {% endif %}
-          {% if image_dict.tweet %}
-            <p>{{ image_dict.tweet }}</p>
+          {% if image_dict.subject_line %}
+            <p>{{ image_dict.subject_line }}</p>
+          {% elif image_dict.tweet_html %}
+            <p>{{ image_dict.tweet_html }}</p>
           {% endif %}
-          <p>{{ image_dict.explanation }}</p>
+          <p>{{ image_dict.explain_dom }}</p>
+          <p>{{ image_dict.explain_aux }}</p>
         </div><!-- .gallery-image -->
       </div><!-- .col-md-4 -->
     {% endif %}
