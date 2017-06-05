@@ -25,15 +25,17 @@
           <img src="{% static image_dict.path %}" class="single-img center">
           <figcaption>{{ image_dict.title }}</figcaption>
         </figure>
+        <div class="text-center">
+          {% if image_dict.tweet_html %}
+            <p>{{ image_dict.tweet_html | safe }}</p>
+          {% elif image_dict.subject_line %}
+            <p>{{ image_dict.subject_line }}</p>
+          {% endif %}
+        </div><!-- .text-center -->
         {% if image_dict.score %}
           <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
-        {% endif %}
-        {% if image_dict.tweet_html %}
-          <p>{{ image_dict.tweet_html | safe }}</p>
-        {% elif image_dict.subject_line %}
-          <p>{{ image_dict.subject_line }}</p>
         {% endif %}
         {% if image_dict.explain_dom  %}
           <p>{{ image_dict.explain_dom }}</p>
