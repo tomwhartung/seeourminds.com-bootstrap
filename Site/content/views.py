@@ -44,11 +44,12 @@ def image(request, gallery_name=None, image_id=None):
     this_image = Image(gallery_name, image_id)
     image_dict = this_image.image_dict
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
+    title = 'Image: ' + image_dict.get('title')
     return render(request, 'content/image.html', {
         'image_dict': image_dict,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
-        'title': image_dict.get('title'),
+        'title': title,
     })
 
 
@@ -61,10 +62,12 @@ def galleries(request):
     """
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
+    title = 'Galleries'
     template = loader.get_template('content/galleries_list.html')
     context = {
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
+        'title': title,
     }
     return HttpResponse(template.render(context, request))
 
@@ -79,6 +82,7 @@ def gallery(request, gallery_name='None'):
     this_gallery = Gallery(gallery_name)
     this_gallery.set_image_link_values()
     gallery_dict = this_gallery.gallery_dict
+    title = gallery_dict.get('gallery_title')
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
@@ -86,6 +90,7 @@ def gallery(request, gallery_name='None'):
         'gallery_dict': gallery_dict,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
+        'title': title,
     }
     return HttpResponse(template.render(context, request))
 
