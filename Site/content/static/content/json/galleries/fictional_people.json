@@ -6,6 +6,7 @@
     {
       "id": "4000",
       "title": "Special Agent Fox Mulder",
+      "subtitle_html": "",
       "image_file_name": "infp-agent_fox_mulder-x_files.jpeg",
       "composition": "O",
       "score": [
@@ -25,6 +26,7 @@
     }, {
       "id": "4020",
       "title": "Agent Dana Scully - The X-Files - ESTJ?",
+      "subtitle_html": "",
       "image_file_name": "estj-agent_dana_scully-x_files.jpeg",
       "composition": "O",
       "score": [
@@ -44,6 +46,7 @@
     }, {
       "id": "4060",
       "title": "small_square_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -61,6 +64,7 @@
     }, {
       "id": "4200",
       "title": "Dr. McCoy",
+      "subtitle_html": "",
       "image_file_name": "esfp-dr_mccoy-star_trek.jpeg",
       "composition": "O",
       "score": [
@@ -80,6 +84,7 @@
     }, {
       "id": "4220",
       "title": "Captain Kirk",
+      "subtitle_html": "",
       "image_file_name": "estj-captain_kirk-star_trek.jpeg",
       "composition": "O",
       "score": [
@@ -99,6 +104,7 @@
     }, {
       "id": "4240",
       "title": "Mr. Spock",
+      "subtitle_html": "",
       "image_file_name": "istj-mr_spock-star_trek.jpeg",
       "composition": "O",
       "score": [
@@ -118,6 +124,7 @@
     }, {
       "id": "4300",
       "title": "responsive_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -135,6 +142,7 @@
     }, {
       "id": "4310",
       "title": "square_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -152,6 +160,7 @@
     }, {
       "id": "4320",
       "title": "responsive_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
