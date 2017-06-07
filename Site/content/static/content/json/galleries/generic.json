@@ -19,8 +19,8 @@
       "quiz_type": "J",
       "subject_line": "Image of an ENFJ using fixed percentages.",
       "tweet_html": "",
-      "explain_dom": "The long vertical Red lines in this image represent the ENFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and social connections, making ENFJs outgoing, polite, friendly, charming, and loyal.",
-      "explain_aux": "",
+      "explain_dom": "The long vertical Red lines in this image represent the ENFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes and enables them to seek harmonious relationships and make strong social connections.  ENFJs are hence outgoing, polite, friendly, charming, and loyal.",
+      "explain_aux": "The shorter horizontal Blue lines represent the ENFJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness and ability to reconcile seemingly contradictory evidence and ideas gives them sometimes sudden insight into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFJ</em> personality types."
     }, {
       "id": "1160",
@@ -39,7 +39,7 @@
       "subject_line": "Image of an ENFP using fixed percentages.",
       "tweet_html": "",
       "explain_dom": "The long vertical Blue lines in this image represent the ENFP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  ENFPs are perceptive, charismatic, versatile, clever, and are enthusiastic about making things happen.",
-      "explain_aux": "",
+      "explain_aux": "The shorter horizontal Red lines represent the ENFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFP</em> personality types."
     }, {
       "id": "1200",
@@ -75,7 +75,7 @@
       "subject_line": "Image of an ENTJ using fixed percentages.",
       "tweet_html": "",
       "explain_dom": "The long vertical Green lines in this image represent the ENTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  ENTJs seek logical explanations, are analytical and decisive, work well in organizations, and can make excellent leaders.",
-      "explain_aux": "",
+      "explain_aux": "The shorter horizontal Blue lines represent the ENTJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness and ability to reconcile seemingly contradictory evidence and ideas gives them sometimes sudden insight into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTJ</em> personality types."
     }, {
       "id": "1260",
@@ -129,7 +129,7 @@
       "quiz_type": "J",
       "subject_line": "Image of an ESFJ using fixed percentages.",
       "tweet_html": "",
-      "explain_dom": "The long vertical Red lines in this image represent the ESFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and social connections, making ESFJs outgoing, polite, friendly, considerate, and loyal.",
+      "explain_dom": "The long vertical Red lines in this image represent the ESFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes and enables them to seek harmonious relationships and make strong social connections.  ESFJs are hence outgoing, polite, friendly, considerate, and loyal.",
       "explain_aux": "",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJs'>ESFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFJ</em> personality types."
     }, {
@@ -149,7 +149,7 @@
       "subject_line": "Image of an ESFP using fixed percentages.",
       "tweet_html": "",
       "explain_dom": "The long vertical Yellow lines in this image represent the ESFP's Dominant personality trait, their Extraverted Sensation.  Their awareness of the here-and-now makes them practical and realistic, and can lead to spontaneous action.  ESFPs are observant, adaptable, tolerant, persuasive, fun, and generous.",
-      "explain_aux": "",
+      "explain_aux": "The shorter horizontal Red lines represent the ESFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFPs'>ESFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFP</em> personality types."
     }, {
       "id": "1400",
@@ -259,7 +259,7 @@
       "subject_line": "Image of an INFP using fixed percentages.",
       "tweet_html": "",
       "explain_dom": "The long horizontal Red lines in this image represent the INFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality takes precedence, so the opinions of others matter little.  INFPs are idealistic, authentic and faithful, and have a strong sense of duty.",
-      "explain_aux": "The shorter vertical Red lines represent the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their quest for insight makes them open to others' thoughts, experiences, ideas, and feelings.",
+      "explain_aux": "The shorter vertical Blue lines represent the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their quest for insight makes them open to others' thoughts, experiences, ideas, and feelings.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFP</em> personality types."
     }, {
       "id": "1600",
@@ -314,7 +314,7 @@
       "subject_line": "Image of an INTP using fixed percentages.",
       "tweet_html": "",
       "explain_dom": "The long horizontal Green lines in this image represent the INTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  INTPs are quiet, curious, adaptable, perceptive, and interested in finding underlying principles.",
-      "explain_aux": "The shorter vertical Red lines represent the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their quest for insight makes them open to others' thoughts, experiences, ideas, and feelings.",
+      "explain_aux": "The shorter vertical Blue lines represent the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their quest for insight makes them open to others' thoughts, experiences, ideas, and feelings.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTP</em> personality types."
     }, {
       "id": "1700",
