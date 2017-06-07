@@ -6,6 +6,7 @@
     {
       "id": "7000",
       "title": "Jim Armstrong",
+      "subtitle_html": "",
       "image_file_name": "esfj-jim_armstrong-a_best_friend_forever.jpeg",
       "composition": "O",
       "score": [
@@ -25,6 +26,7 @@
     }, {
       "id": "7020",
       "title": "mildred (my kitty cat) 1",
+      "subtitle_html": "",
       "image_file_name": "isfp-mildred_my_warm_soft_kitty_cat_friends.jpeg",
       "composition": "O",
       "score": [
@@ -44,6 +46,7 @@
     }, {
       "id": "7100",
       "title": "responsive_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -61,6 +64,7 @@
     }, {
       "id": "7120",
       "title": "small_square_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -78,6 +82,7 @@
     }, {
       "id": "7220",
       "title": "Dr. Loren Carrier",
+      "subtitle_html": "",
       "image_file_name": "intp-dr_loren_carrier-electronic_music_teacher.jpeg",
       "composition": "O",
       "score": [
@@ -97,6 +102,7 @@
     }, {
       "id": "7240",
       "title": "Walter Wright",
+      "subtitle_html": "",
       "image_file_name": "intp-walter_wright-computer_graphics_design_teacher.jpeg",
       "composition": "O",
       "score": [
@@ -116,6 +122,7 @@
     }, {
       "id": "7420",
       "title": "A Boss Who Liked Me",
+      "subtitle_html": "",
       "image_file_name": "enfp-manager_a-a_boss_who_liked_me.jpeg",
       "composition": "O",
       "score": [
@@ -135,6 +142,7 @@
     }, {
       "id": "7440",
       "title": "A Boss Who Didn't Like Me",
+      "subtitle_html": "",
       "image_file_name": "infj-manager_b-a_boss_who_did_not_like_me.jpeg",
       "composition": "O",
       "score": [
@@ -154,6 +162,7 @@
     }, {
       "id": "7460",
       "title": "medium_rectangle_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -171,6 +180,7 @@
     }, {
       "id": "7600",
       "title": "Roy B. Scherer",
+      "subtitle_html": "",
       "image_file_name": "estp-roy_b_scherer-libertarian_lobbyist.jpeg",
       "composition": "O",
       "score": [
@@ -190,6 +200,7 @@
     }, {
       "id": "7800",
       "title": "Tom",
+      "subtitle_html": "",
       "image_file_name": "infp-tomh_1987.jpeg",
       "composition": "O",
       "score": [
@@ -209,6 +220,7 @@
     }, {
       "id": "7990",
       "title": "responsive_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
