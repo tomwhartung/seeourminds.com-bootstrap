@@ -6,6 +6,7 @@
     {
       "id": "1130",
       "title": "ENFJ",
+      "subtitle_html": "Image of an ENFJ using fixed percentages.",
       "image_file_name": "enfj.jpg",
       "composition": "O",
       "score": [
@@ -17,7 +18,7 @@
       "four_letter_type": "ENFJ",
       "archetype": "Fe",
       "quiz_type": "J",
-      "subject_line": "Image of an ENFJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Red lines in this image represent the ENFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and enables them to make strong social connections.  This Extraverted Feeling makes ENFJs outgoing, polite, friendly, charming, and loyal.",
       "explain_aux": "The shorter horizontal Blue lines represent the ENFJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
@@ -25,6 +26,7 @@
     }, {
       "id": "1160",
       "title": "ENFP",
+      "subtitle_html": "Image of an ENFP using fixed percentages.",
       "image_file_name": "enfp.jpg",
       "composition": "O",
       "score": [
@@ -36,7 +38,7 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "subject_line": "Image of an ENFP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Blue lines in this image represent the ENFP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  This Extraverted iNtuition makes ENFPs perceptive, charismatic, versatile, clever, and enthusiastic about making things happen.",
       "explain_aux": "The shorter horizontal Red lines represent the ENFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
@@ -44,6 +46,7 @@
     }, {
       "id": "1200",
       "title": "responsive_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -61,6 +64,7 @@
     }, {
       "id": "1230",
       "title": "ENTJ",
+      "subtitle_html": "Image of an ENTJ using fixed percentages.",
       "image_file_name": "entj.jpg",
       "composition": "O",
       "score": [
@@ -72,7 +76,7 @@
       "four_letter_type": "ENTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "subject_line": "Image of an ENTJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Green lines in this image represent the ENTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  This Extraverted Thinking makes ENTJs analytical and decisive.  They value truth, seek logical explanations, work well in organizations, and can make excellent leaders.",
       "explain_aux": "The shorter horizontal Blue lines represent the ENTJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
@@ -80,6 +84,7 @@
     }, {
       "id": "1260",
       "title": "ENTP",
+      "subtitle_html": "Image of an ENTP using fixed percentages.",
       "image_file_name": "entp.jpg",
       "composition": "O",
       "score": [
@@ -91,7 +96,7 @@
       "four_letter_type": "ENTP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "subject_line": "Image of an ENTP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Blue lines in this image represent the ENTP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  This Extraverted iNtuition makes ENTPs perceptive, charismatic, versatile, clever, and enthusiastic about making things happen.",
       "explain_aux": "The shorter horizontal Green lines represent the ENTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
@@ -99,6 +104,7 @@
     }, {
       "id": "1300",
       "title": "large_rectangle_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -116,6 +122,7 @@
     }, {
       "id": "1330",
       "title": "ESFJ",
+      "subtitle_html": "Image of an ESFJ using fixed percentages.",
       "image_file_name": "esfj.jpg",
       "composition": "O",
       "score": [
@@ -127,7 +134,7 @@
       "four_letter_type": "ESFJ",
       "archetype": "Fe",
       "quiz_type": "J",
-      "subject_line": "Image of an ESFJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Red lines in this image represent the ESFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and enables them to make strong social connections.  This Extraverted Feeling makes ESFJs outgoing, polite, friendly, considerate, and loyal.",
       "explain_aux": "The shorter horizontal Yellow lines represent the ESFJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
@@ -135,6 +142,7 @@
     }, {
       "id": "1360",
       "title": "ESFP",
+      "subtitle_html": "Image of an ESFP using fixed percentages.",
       "image_file_name": "esfp.jpg",
       "composition": "O",
       "score": [
@@ -146,7 +154,7 @@
       "four_letter_type": "ESFP",
       "archetype": "Se",
       "quiz_type": "J",
-      "subject_line": "Image of an ESFP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Yellow lines in this image represent the ESFP's Dominant personality trait, their Extraverted Sensation.  Their curiousity and preference for living in the present moment makes them practical and realistic, and can lead to spontaneous action.  This Extraverted Sensation makes ESFPs observant, adaptable, tolerant, persuasive, fun, and generous.",
       "explain_aux": "The shorter horizontal Red lines represent the ESFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
@@ -154,6 +162,7 @@
     }, {
       "id": "1400",
       "title": "medium_rectangle_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -171,6 +180,7 @@
     }, {
       "id": "1430",
       "title": "ESTJ",
+      "subtitle_html": "Image of an ESTJ using fixed percentages.",
       "image_file_name": "estj.jpg",
       "composition": "O",
       "score": [
@@ -182,7 +192,7 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "subject_line": "Image of an ESTJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Green lines in this image represent the ESTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  This Extraverted Thinking makes ESTJs analytical and decisive.  They value truth, seek logical explanations, are natural leaders, and can be superior administrators.",
       "explain_aux": "The shorter horizontal Yellow lines represent the ESTJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
@@ -190,6 +200,7 @@
     }, {
       "id": "1460",
       "title": "ESTP",
+      "subtitle_html": "Image of an ESTP using fixed percentages.",
       "image_file_name": "estp.jpg",
       "composition": "O",
       "score": [
@@ -201,7 +212,7 @@
       "four_letter_type": "ESTP",
       "archetype": "Se",
       "quiz_type": "J",
-      "subject_line": "Image of an ESTP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long vertical Yellow lines in this image represent the ESTP's Dominant personality trait, their Extraverted Sensation.  Their curiousity and preference for living in the present moment makes them practical and realistic, and can lead to spontaneous action.  This Extraverted Sensation makes ESTPs resourceful, tolerant, outgoing and popular, persuasive, fun, and generous.",
       "explain_aux": "The shorter horizontal Green lines represent the ESTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
@@ -209,6 +220,7 @@
     }, {
       "id": "1500",
       "title": "large_rectangle_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -226,6 +238,7 @@
     }, {
       "id": "1530",
       "title": "INFJ",
+      "subtitle_html": "Image of an INFJ using fixed percentages.",
       "image_file_name": "infj.jpg",
       "composition": "O",
       "score": [
@@ -237,7 +250,7 @@
       "four_letter_type": "INFJ",
       "archetype": "Ni",
       "quiz_type": "J",
-      "subject_line": "Image of an INFJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Blue lines in this image represent the INFJ's Dominant personality trait, their Introverted iNtuition.  Their inner vision makes them insightful, ingenious, and individualistic.  This Introverted iNtuition makes INFJs driven, inspired, and determined.  When properly motivated, they can overcome difficulties and find new paths in any field they choose.",
       "explain_aux": "The shorter vertical Red lines represent the INFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
@@ -245,6 +258,7 @@
     }, {
       "id": "1560",
       "title": "INFP",
+      "subtitle_html": "Image of an INFP using fixed percentages.",
       "image_file_name": "infp.jpg",
       "composition": "O",
       "score": [
@@ -256,7 +270,7 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "J",
-      "subject_line": "Image of an INFP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Red lines in this image represent the INFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality or 'gut feeling' takes precedence, so the opinions of others may matter little.  This Introverted Feeling makes INFPs idealistic, authentic and faithful, and gives them a strong sense of duty.",
       "explain_aux": "The shorter vertical Blue lines represent the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
@@ -264,6 +278,7 @@
     }, {
       "id": "1600",
       "title": "responsive_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -281,6 +296,7 @@
     }, {
       "id": "1630",
       "title": "INTJ",
+      "subtitle_html": "Image of an INTJ using fixed percentages.",
       "image_file_name": "intj.jpg",
       "composition": "O",
       "score": [
@@ -292,7 +308,7 @@
       "four_letter_type": "INTJ",
       "archetype": "Ni",
       "quiz_type": "J",
-      "subject_line": "Image of an INTJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Blue lines in this image represent the INTJ's Dominant personality trait, their Introverted iNtuition.  Their inner vision makes them insightful, ingenious, and individualistic.  This Introverted iNtuition makes INTJs driven, inspired, and determined.  When properly motivated, they can overcome difficulties and find new paths in any field they choose.",
       "explain_aux": "The shorter vertical Green lines represent the INTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
@@ -300,6 +316,7 @@
     }, {
       "id": "1660",
       "title": "INTP",
+      "subtitle_html": "Image of an INTP using fixed percentages.",
       "image_file_name": "intp.jpg",
       "composition": "O",
       "score": [
@@ -311,7 +328,7 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "subject_line": "Image of an INTP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Green lines in this image represent the INTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  This Introverted Thinking makes INTPs quiet, curious, adaptable, perceptive, and interested in finding underlying principles.",
       "explain_aux": "The shorter vertical Blue lines represent the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
@@ -319,6 +336,7 @@
     }, {
       "id": "1700",
       "title": "square_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -336,6 +354,7 @@
     }, {
       "id": "1730",
       "title": "ISFJ",
+      "subtitle_html": "Image of an ISFJ using fixed percentages.",
       "image_file_name": "isfj.jpg",
       "composition": "O",
       "score": [
@@ -347,7 +366,7 @@
       "four_letter_type": "ISFJ",
       "archetype": "Si",
       "quiz_type": "J",
-      "subject_line": "Image of an ISFJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Yellow lines in this image represent the ISFJ's Dominant personality trait, their Introverted Sensation.  Their practical perceptions and deeply stored impressions make them protective of all things they find familiar.  This Introverted Sensation makes ISFJs systematic, responsible, hard-working, and adaptable to routine.",
       "explain_aux": "The shorter vertical Red lines represent the ISFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
@@ -355,6 +374,7 @@
     }, {
       "id": "1760",
       "title": "ISFP",
+      "subtitle_html": "Image of an ISFP using fixed percentages.",
       "image_file_name": "isfp.jpg",
       "composition": "O",
       "score": [
@@ -366,7 +386,7 @@
       "four_letter_type": "ISFP",
       "archetype": "Fi",
       "quiz_type": "J",
-      "subject_line": "Image of an ISFP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Red lines in this image represent the ISFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality or 'gut feeling' takes precedence, so the opinions of others may matter little.  This Introverted Feeling makes ISFPs authentic, faithful, idealistic, and gives them a strong sense of duty.",
       "explain_aux": "The shorter vertical Yellow lines represent the ISFP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
@@ -374,6 +394,7 @@
     }, {
       "id": "1800",
       "title": "small_square_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
@@ -391,6 +412,7 @@
     }, {
       "id": "1830",
       "title": "ISTJ",
+      "subtitle_html": "Image of an ISTJ using fixed percentages.",
       "image_file_name": "istj.jpg",
       "composition": "O",
       "score": [
@@ -402,7 +424,7 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "J",
-      "subject_line": "Image of an ISTJ using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Yellow lines in this image represent the ISTJ's Dominant personality trait, their Introverted Sensation.  Their practical perceptions and deeply stored impressions make them protective of all things they find familiar.  This Introverted Sensation makes ISTJs systematic, responsible, hard-working, and adaptable to routine.",
       "explain_aux": "The shorter vertical Green lines represent the ISTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
@@ -410,6 +432,7 @@
     }, {
       "id": "1860",
       "title": "ISTP",
+      "subtitle_html": "Image of an ISTP using fixed percentages.",
       "image_file_name": "istp.jpg",
       "composition": "O",
       "score": [
@@ -421,7 +444,7 @@
       "four_letter_type": "ISTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "subject_line": "Image of an ISTP using fixed percentages.",
+      "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The long horizontal Green lines in this image represent the ISTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  This Introverted Thinking makes ISTPs quiet, curious, adaptable, perceptive, and interested in solving problems efficiently.",
       "explain_aux": "The shorter vertical Yellow lines represent the ISTP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
@@ -429,6 +452,7 @@
     }, {
       "id": "1900",
       "title": "square_ad",
+      "subtitle_html": "",
       "image_file_name": "",
       "composition": "O",
       "score": [
