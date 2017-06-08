@@ -47,20 +47,21 @@
                    class="center gallery-image"></a>
               <figcaption><q>{{ image_dict.title }}</q></figcaption>
           </figure>
+          {% if image_dict.subtitle_html %}
+            <div class="text-center">
+              <p>{{ image_dict.subtitle_html | safe }}</p>
+            </div><!-- .text-center -->
+          {% endif %}
           {% if image_dict.score %}
             <div class="score-svg" id="score-bars-{{ image_dict.id }}">
             </div><!-- #score-bars-{{ image_dict.id }} -->
           {% else %}
             <p>{{ image_dict.four_letter_type }}</p>
           {% endif %}
-          {% if image_dict.subtitle_html %}
-            <p>{{ image_dict.subtitle_html | safe }}</p>
-          {% else %}
-            {% if image_dict.subject_line %}
-              <p>{{ image_dict.subject_line }}</p>
-            {% elif image_dict.tweet_html %}
-              <p>{{ image_dict.tweet_html }}</p>
-            {% endif %}
+          {% if image_dict.subject_line %}
+            <p>{{ image_dict.subject_line }}</p>
+          {% elif image_dict.tweet_html %}
+            <p>{{ image_dict.tweet_html }}</p>
           {% endif %}
           <p>{{ image_dict.explain_dom }}</p>
           <p>{{ image_dict.explain_aux }}</p>
