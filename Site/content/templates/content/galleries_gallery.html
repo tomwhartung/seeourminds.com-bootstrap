@@ -53,10 +53,14 @@
           {% else %}
             <p>{{ image_dict.four_letter_type }}</p>
           {% endif %}
-          {% if image_dict.subject_line %}
-            <p>{{ image_dict.subject_line }}</p>
-          {% elif image_dict.tweet_html %}
-            <p>{{ image_dict.tweet_html }}</p>
+          {% if image_dict.subtitle_html %}
+            <p>{{ image_dict.subtitle_html | safe }}</p>
+          {% else %}
+            {% if image_dict.subject_line %}
+              <p>{{ image_dict.subject_line }}</p>
+            {% elif image_dict.tweet_html %}
+              <p>{{ image_dict.tweet_html }}</p>
+            {% endif %}
           {% endif %}
           <p>{{ image_dict.explain_dom }}</p>
           <p>{{ image_dict.explain_aux }}</p>
