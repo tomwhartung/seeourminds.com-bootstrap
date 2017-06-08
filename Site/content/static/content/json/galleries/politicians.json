@@ -6,7 +6,7 @@
     {
       "id": "11000",
       "title": "George Washington: ESTJ",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President of the USA - Apr. 30, 1789 to Mar. 4, 1797</a>",
       "image_file_name": "estj-george_washington.jpeg",
       "composition": "O",
       "score": [
@@ -44,7 +44,7 @@
     }, {
       "id": "11040",
       "title": "Thomas Jefferson - INTP",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President of the USA - Mar. 4, 1801 to Mar. 4, 1809</a>",
       "image_file_name": "intj-thomas_jefferson.jpeg",
       "composition": "O",
       "score": [
@@ -64,7 +64,7 @@
     }, {
       "id": "11200",
       "title": "Abraham Lincoln - INTP",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President of the USA - Mar. 4, 1861 to Apr. 15, 1865</a>",
       "image_file_name": "intp-abraham_lincoln.jpeg",
       "composition": "O",
       "score": [
@@ -101,8 +101,8 @@
       "story_html": ""
    }, {
       "id": "11700",
-      "title": "George H. W. Bush",
-      "subtitle_html": "",
+      "title": "George Herbert Walker Bush",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President of the USA - Jan. 20, 1989 to Jan. 20 1993</a>",
       "image_file_name": "istj-george_h_w_bush-41st_president.jpeg",
       "composition": "O",
       "score": [
@@ -122,7 +122,7 @@
     }, {
       "id": "11720",
       "title": "Bill Clinton, 'Verified'",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President of the USA - Jan. 20, 1993 to Jan. 20, 2001</a>",
       "image_file_name": "enfp-bill_clinton.jpeg",
       "composition": "O",
       "score": [
@@ -160,7 +160,7 @@
     }, {
       "id": "11800",
       "title": "George W. Bush",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_W._Bush' target='_blank' title='Wikipedia page for George W. Bush'>43rd President of the USA - Jan. 20, 2001 to Jan. 20, 2009</a>",
       "image_file_name": "estp-george_w_bush.jpeg",
       "composition": "O",
       "score": [
@@ -180,7 +180,7 @@
     }, {
       "id": "11820",
       "title": "Barack Obama",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>44th President of the USA - Jan. 20, 2009 to Jan. 20, 2017</a>",
       "image_file_name": "enfp-barack_obama.jpeg",
       "composition": "O",
       "score": [
