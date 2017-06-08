@@ -23,10 +23,14 @@
           <figcaption>{{ image_dict.title }}</figcaption>
         </figure>
         <div class="text-center">
-          {% if image_dict.tweet_html %}
-            <p>{{ image_dict.tweet_html | safe }}</p>
-          {% elif image_dict.subject_line %}
-            <p>{{ image_dict.subject_line }}</p>
+          {% if image_dict.subtitle_html %}
+            <p>{{ image_dict.subtitle_html | safe }}</p>
+          {% else %}
+            {% if image_dict.tweet_html %}
+              <p>{{ image_dict.tweet_html | safe }}</p>
+            {% elif image_dict.subject_line %}
+              <p>{{ image_dict.subject_line }}</p>
+            {% endif %}
           {% endif %}
         </div><!-- .text-center -->
         {% if image_dict.score %}
