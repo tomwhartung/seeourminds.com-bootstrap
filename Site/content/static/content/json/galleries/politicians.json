@@ -5,7 +5,7 @@
   [
     {
       "id": "11000",
-      "title": "George Washington: ESTJ",
+      "title": "George Washington",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President of the USA - Apr. 30, 1789 to Mar. 4, 1797</a>",
       "image_file_name": "estj-george_washington.jpeg",
       "composition": "O",
@@ -43,7 +43,7 @@
       "story_html": ""
     }, {
       "id": "11040",
-      "title": "Thomas Jefferson - INTP",
+      "title": "Thomas Jefferson",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President of the USA - Mar. 4, 1801 to Mar. 4, 1809</a>",
       "image_file_name": "intj-thomas_jefferson.jpeg",
       "composition": "O",
@@ -63,7 +63,7 @@
       "story_html": "David Keirsey identifies Jefferson as an INTP.  The Blue in the portrait represents his Idealism and the Green his Logical decision making.  These characteristics are evident in his interests in topics such as philosophy, science and technology."
     }, {
       "id": "11200",
-      "title": "Abraham Lincoln - INTP",
+      "title": "Abraham Lincoln",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President of the USA - Mar. 4, 1861 to Apr. 15, 1865</a>",
       "image_file_name": "intp-abraham_lincoln.jpeg",
       "composition": "O",
@@ -121,7 +121,7 @@
       "story_html": "When I wrote the original version of this program (for grad school in 1988) sometimes we would fill out the Keirsey Temperament Sorter guessing how famous people might answer the questions.  This is a portrait of George H. W. Bush, the 41st president (1989-1993) and father of George W. Bush, the 43rd president.  The Green shows that he is a very Logical person and the Yellow shows that he is very Pragmatic and down-to-earth."
     }, {
       "id": "11720",
-      "title": "Bill Clinton, 'Verified'",
+      "title": "Bill Clinton",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President of the USA - Jan. 20, 1993 to Jan. 20, 2001</a>",
       "image_file_name": "enfp-bill_clinton.jpeg",
       "composition": "O",
@@ -218,7 +218,7 @@
     }, {
       "id": "11900",
       "title": "Hillary Clinton",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>Presidential Contender</a>",
       "image_file_name": "estj-hillary_clinton.jpeg",
       "composition": "O",
       "score": [
@@ -238,7 +238,7 @@
     }, {
       "id": "11920",
       "title": "John McCain",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_McCain' target='_blank' title='Wikipedia page for John McCain'>Presidential Contender</a>",
       "image_file_name": "estp-john_mccain.jpeg",
       "composition": "O",
       "score": [
@@ -276,7 +276,7 @@
     }, {
       "id": "11960",
       "title": "Ralph Nader",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ralph_Nader' target='_blank' title='Wikipedia page for Ralph Nader'>Presidential Contender</a>",
       "image_file_name": "enfj-ralph_nader.jpeg",
       "composition": "O",
       "score": [
