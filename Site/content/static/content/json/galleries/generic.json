@@ -258,7 +258,7 @@
     }, {
       "id": "1560",
       "title": "INFP",
-      "subtitle_html": "Image of an INFP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> using fixed percentages.",
       "image_file_name": "infp.jpg",
       "composition": "O",
       "score": [
@@ -296,7 +296,7 @@
     }, {
       "id": "1630",
       "title": "INTJ",
-      "subtitle_html": "Image of an INTJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> using fixed percentages.",
       "image_file_name": "intj.jpg",
       "composition": "O",
       "score": [
@@ -316,7 +316,7 @@
     }, {
       "id": "1660",
       "title": "INTP",
-      "subtitle_html": "Image of an INTP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> using fixed percentages.",
       "image_file_name": "intp.jpg",
       "composition": "O",
       "score": [
@@ -354,7 +354,7 @@
     }, {
       "id": "1730",
       "title": "ISFJ",
-      "subtitle_html": "Image of an ISFJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> using fixed percentages.",
       "image_file_name": "isfj.jpg",
       "composition": "O",
       "score": [
@@ -374,7 +374,7 @@
     }, {
       "id": "1760",
       "title": "ISFP",
-      "subtitle_html": "Image of an ISFP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> using fixed percentages.",
       "image_file_name": "isfp.jpg",
       "composition": "O",
       "score": [
@@ -412,7 +412,7 @@
     }, {
       "id": "1830",
       "title": "ISTJ",
-      "subtitle_html": "Image of an ISTJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> using fixed percentages.",
       "image_file_name": "istj.jpg",
       "composition": "O",
       "score": [
@@ -432,7 +432,7 @@
     }, {
       "id": "1860",
       "title": "ISTP",
-      "subtitle_html": "Image of an ISTP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> using fixed percentages.",
       "image_file_name": "istp.jpg",
       "composition": "O",
       "score": [
