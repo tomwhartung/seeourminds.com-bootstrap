@@ -6,7 +6,7 @@
     {
       "id": "1130",
       "title": "ENFJ",
-      "subtitle_html": "Image of an ENFJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> using fixed percentages.",
       "image_file_name": "enfj.jpg",
       "composition": "O",
       "score": [
@@ -26,7 +26,7 @@
     }, {
       "id": "1160",
       "title": "ENFP",
-      "subtitle_html": "Image of an ENFP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> using fixed percentages.",
       "image_file_name": "enfp.jpg",
       "composition": "O",
       "score": [
@@ -64,7 +64,7 @@
     }, {
       "id": "1230",
       "title": "ENTJ",
-      "subtitle_html": "Image of an ENTJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> using fixed percentages.",
       "image_file_name": "entj.jpg",
       "composition": "O",
       "score": [
@@ -84,7 +84,7 @@
     }, {
       "id": "1260",
       "title": "ENTP",
-      "subtitle_html": "Image of an ENTP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> using fixed percentages.",
       "image_file_name": "entp.jpg",
       "composition": "O",
       "score": [
@@ -122,7 +122,7 @@
     }, {
       "id": "1330",
       "title": "ESFJ",
-      "subtitle_html": "Image of an ESFJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJ'>ESFJ</a> using fixed percentages.",
       "image_file_name": "esfj.jpg",
       "composition": "O",
       "score": [
@@ -142,7 +142,7 @@
     }, {
       "id": "1360",
       "title": "ESFP",
-      "subtitle_html": "Image of an ESFP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFP'>ESFP</a> using fixed percentages.",
       "image_file_name": "esfp.jpg",
       "composition": "O",
       "score": [
@@ -180,7 +180,7 @@
     }, {
       "id": "1430",
       "title": "ESTJ",
-      "subtitle_html": "Image of an ESTJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJ'>ESTJ</a> using fixed percentages.",
       "image_file_name": "estj.jpg",
       "composition": "O",
       "score": [
@@ -200,7 +200,7 @@
     }, {
       "id": "1460",
       "title": "ESTP",
-      "subtitle_html": "Image of an ESTP using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> using fixed percentages.",
       "image_file_name": "estp.jpg",
       "composition": "O",
       "score": [
@@ -238,7 +238,7 @@
     }, {
       "id": "1530",
       "title": "INFJ",
-      "subtitle_html": "Image of an INFJ using fixed percentages.",
+      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> using fixed percentages.",
       "image_file_name": "infj.jpg",
       "composition": "O",
       "score": [
