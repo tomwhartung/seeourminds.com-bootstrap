@@ -4,7 +4,7 @@
   "image_list":
   [
     {
-      "id": "1130",
+      "id": "1",
       "title": "ENFJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> using fixed percentages.",
       "image_file_name": "enfj.jpg",
@@ -24,7 +24,7 @@
       "explain_aux": "The shorter horizontal Blue lines represent the ENFJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFJ</em> personality types."
     }, {
-      "id": "1160",
+      "id": "4",
       "title": "ENFP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> using fixed percentages.",
       "image_file_name": "enfp.jpg",
@@ -44,7 +44,7 @@
       "explain_aux": "The shorter horizontal Red lines represent the ENFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFP</em> personality types."
     }, {
-      "id": "1200",
+      "id": "7",
       "title": "responsive_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -62,7 +62,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1230",
+      "id": "11",
       "title": "ENTJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> using fixed percentages.",
       "image_file_name": "entj.jpg",
@@ -82,7 +82,7 @@
       "explain_aux": "The shorter horizontal Blue lines represent the ENTJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTJ</em> personality types."
     }, {
-      "id": "1260",
+      "id": "14",
       "title": "ENTP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> using fixed percentages.",
       "image_file_name": "entp.jpg",
@@ -102,7 +102,7 @@
       "explain_aux": "The shorter horizontal Green lines represent the ENTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTP</em> personality types."
     }, {
-      "id": "1300",
+      "id": "17",
       "title": "large_rectangle_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -120,7 +120,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1330",
+      "id": "21",
       "title": "ESFJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJ'>ESFJ</a> using fixed percentages.",
       "image_file_name": "esfj.jpg",
@@ -140,7 +140,7 @@
       "explain_aux": "The shorter horizontal Yellow lines represent the ESFJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJs'>ESFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFJ</em> personality types."
     }, {
-      "id": "1360",
+      "id": "24",
       "title": "ESFP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFP'>ESFP</a> using fixed percentages.",
       "image_file_name": "esfp.jpg",
@@ -160,7 +160,7 @@
       "explain_aux": "The shorter horizontal Red lines represent the ESFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFPs'>ESFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFP</em> personality types."
     }, {
-      "id": "1400",
+      "id": "27",
       "title": "medium_rectangle_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -178,7 +178,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1430",
+      "id": "31",
       "title": "ESTJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJ'>ESTJ</a> using fixed percentages.",
       "image_file_name": "estj.jpg",
@@ -198,7 +198,7 @@
       "explain_aux": "The shorter horizontal Yellow lines represent the ESTJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJs'>ESTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTJ</em> personality types."
     }, {
-      "id": "1460",
+      "id": "34",
       "title": "ESTP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> using fixed percentages.",
       "image_file_name": "estp.jpg",
@@ -218,7 +218,7 @@
       "explain_aux": "The shorter horizontal Green lines represent the ESTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTP</em> personality types."
     }, {
-      "id": "1500",
+      "id": "37",
       "title": "large_rectangle_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -236,7 +236,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1530",
+      "id": "41",
       "title": "INFJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> using fixed percentages.",
       "image_file_name": "infj.jpg",
@@ -256,7 +256,7 @@
       "explain_aux": "The shorter vertical Red lines represent the INFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFJ</em> personality types."
     }, {
-      "id": "1560",
+      "id": "44",
       "title": "INFP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> using fixed percentages.",
       "image_file_name": "infp.jpg",
@@ -276,7 +276,7 @@
       "explain_aux": "The shorter vertical Blue lines represent the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFP</em> personality types."
     }, {
-      "id": "1600",
+      "id": "47",
       "title": "responsive_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -294,7 +294,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1630",
+      "id": "51",
       "title": "INTJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> using fixed percentages.",
       "image_file_name": "intj.jpg",
@@ -314,7 +314,7 @@
       "explain_aux": "The shorter vertical Green lines represent the INTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTJ</em> personality types."
     }, {
-      "id": "1660",
+      "id": "54",
       "title": "INTP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> using fixed percentages.",
       "image_file_name": "intp.jpg",
@@ -334,7 +334,7 @@
       "explain_aux": "The shorter vertical Blue lines represent the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTP</em> personality types."
     }, {
-      "id": "1700",
+      "id": "57",
       "title": "square_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -352,7 +352,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1730",
+      "id": "61",
       "title": "ISFJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> using fixed percentages.",
       "image_file_name": "isfj.jpg",
@@ -372,7 +372,7 @@
       "explain_aux": "The shorter vertical Red lines represent the ISFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFJ</em> personality types."
     }, {
-      "id": "1760",
+      "id": "64",
       "title": "ISFP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> using fixed percentages.",
       "image_file_name": "isfp.jpg",
@@ -392,7 +392,7 @@
       "explain_aux": "The shorter vertical Yellow lines represent the ISFP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFP</em> personality types."
     }, {
-      "id": "1800",
+      "id": "67",
       "title": "small_square_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -410,7 +410,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "1830",
+      "id": "71",
       "title": "ISTJ",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> using fixed percentages.",
       "image_file_name": "istj.jpg",
@@ -430,7 +430,7 @@
       "explain_aux": "The shorter vertical Green lines represent the ISTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTJ</em> personality types."
     }, {
-      "id": "1860",
+      "id": "74",
       "title": "ISTP",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> using fixed percentages.",
       "image_file_name": "istp.jpg",
@@ -450,7 +450,7 @@
       "explain_aux": "The shorter vertical Yellow lines represent the ISTP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTP</em> personality types."
     }, {
-      "id": "1900",
+      "id": "77",
       "title": "square_ad",
       "subtitle_html": "",
       "image_file_name": "",
