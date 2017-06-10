@@ -1,68 +1,10 @@
 {
-  "gallery_title": "Fictional People",
-  "description_html": "<p>Are you like me, and sometimes find it easy to relate to the characters in a movie or TV show, and other times find it difficult to relate to them?</p><p>As an INFP, I definitely find it fairly easy to relate to characters like Raymond Chandler's Phillip Marlowe, or Agent Fox Mulder of the X-Files.  Watching an ESTJ like Tony Soprano, however, is like taking a glimpse into a foreign universe!</p><p>Of course, even if I can't relate to a character like Tony, I still enjoy watching anyway, and am sure I'll always be a fan of the Sopranos!</p>",
+  "gallery_title": "Star Trek",
+  "description_html": "<p>Archetypal characters like Dr. McCoy and Mr. Spock give <a href='' title='' target='_blank'>Star Trek</a> a lasting appeal.</p>",
   "image_list":
   [
     {
-      "id": "4000",
-      "title": "Special Agent Fox Mulder",
-      "subtitle_html": "",
-      "image_file_name": "infp-agent_fox_mulder-x_files.jpeg",
-      "composition": "O",
-      "score": [
-         { "e_score": "2", "i_score": "17" },
-         { "n_score": "14", "s_score": "5" },
-         { "f_score": "11", "t_score": "8" },
-         { "j_score": "5", "p_score": "14" }
-      ],
-      "four_letter_type": "INFP",
-      "archetype": "Fi",
-      "quiz_type": "Q",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "I always suspected that Agent Mulder was an INFP - like me!"
-    }, {
-      "id": "4020",
-      "title": "Agent Dana Scully - The X-Files - ESTJ?",
-      "subtitle_html": "",
-      "image_file_name": "estj-agent_dana_scully-x_files.jpeg",
-      "composition": "O",
-      "score": [
-         { "e_score": "10", "i_score": "9" },
-         { "n_score": "4", "s_score": "15" },
-         { "f_score": "3", "t_score": "16" },
-         { "j_score": "13", "p_score": "6" }
-      ],
-      "four_letter_type": "ESTJ",
-      "archetype": "Te",
-      "quiz_type": "Q",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "So Scully is the opposite of Mulder - who've guessed?"
-    }, {
-      "id": "4060",
-      "title": "small_square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
-    }, {
-      "id": "4200",
+      "id": "2600",
       "title": "Dr. McCoy",
       "subtitle_html": "",
       "image_file_name": "esfp-dr_mccoy-star_trek.jpeg",
@@ -82,7 +24,7 @@
       "explain_aux": "",
       "story_html": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Dr. McCoy's warm, Emotional personality."
     }, {
-      "id": "4220",
+      "id": "2610",
       "title": "Captain Kirk",
       "subtitle_html": "",
       "image_file_name": "estj-captain_kirk-star_trek.jpeg",
@@ -102,7 +44,7 @@
       "explain_aux": "",
       "story_html": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Captain Kirk's score.  His personality is much like Mr. Spock's but more Extraverted (the largest line is vertical line) and more balanced (more colorful)."
     }, {
-      "id": "4240",
+      "id": "2620",
       "title": "Mr. Spock",
       "subtitle_html": "",
       "image_file_name": "istj-mr_spock-star_trek.jpeg",
@@ -122,7 +64,7 @@
       "explain_aux": "",
       "story_html": "Back in the day we enjoyed answering the Keirsey Temperament Sorter questions the way we thought certain Star Trek characters might answer them.  Here is an image of Mr. Spock's score.  I always considered him more of a scientist - that is, more blue, preferring ideas to facts - and was surprised how much his image looks like George H. W. Bush's.  It's interesting to note that Mr. Spock has a bit more Feeling (Red) than GHW Bush...."
     }, {
-      "id": "4300",
+      "id": "2630",
       "title": "responsive_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -140,7 +82,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "4310",
+      "id": "2633",
       "title": "square_ad",
       "subtitle_html": "",
       "image_file_name": "",
@@ -158,7 +100,7 @@
       "explain_aux": "",
       "story_html": ""
     }, {
-      "id": "4320",
+      "id": "2636",
       "title": "responsive_ad",
       "subtitle_html": "",
       "image_file_name": "",
