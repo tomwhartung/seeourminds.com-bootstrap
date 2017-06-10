@@ -1,0 +1,120 @@
+{
+  "gallery_title": "X-Files",
+  "description_html": "<p>As an INFP, I definitely find it fairly easy to relate to characters like Raymond Chandler's Phillip Marlowe, or Agent Fox Mulder of the X-Files.</p>",
+  "image_list":
+  [
+    {
+      "id": "2300",
+      "title": "Special Agent Fox Mulder",
+      "subtitle_html": "",
+      "image_file_name": "infp-agent_fox_mulder-x_files.jpeg",
+      "composition": "O",
+      "score": [
+         { "e_score": "2", "i_score": "17" },
+         { "n_score": "14", "s_score": "5" },
+         { "f_score": "11", "t_score": "8" },
+         { "j_score": "5", "p_score": "14" }
+      ],
+      "four_letter_type": "INFP",
+      "archetype": "Fi",
+      "quiz_type": "Q",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "I always suspected that Agent Mulder was an INFP - like me!"
+    }, {
+      "id": "2310",
+      "title": "square_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }, {
+      "id": "2320",
+      "title": "Agent Dana Scully - The X-Files - ESTJ?",
+      "subtitle_html": "",
+      "image_file_name": "estj-agent_dana_scully-x_files.jpeg",
+      "composition": "O",
+      "score": [
+         { "e_score": "10", "i_score": "9" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "13", "p_score": "6" }
+      ],
+      "four_letter_type": "ESTJ",
+      "archetype": "Te",
+      "quiz_type": "Q",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "So Scully is the opposite of Mulder - who've guessed?"
+    }, {
+      "id": "2330",
+      "title": "responsive_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }, {
+      "id": "2333",
+      "title": "square_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }, {
+      "id": "2336",
+      "title": "responsive_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }
+  ]
+}
