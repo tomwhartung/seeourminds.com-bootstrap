@@ -1,0 +1,122 @@
+{
+  "gallery_title": "USA Presidential Contenders",
+  "description_html": "<p>These are images of people who have recently run for President unsuccessfully.</p>",
+  "image_list":
+  [
+    {
+      "id": "5100",
+      "title": "Hillary Clinton",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>Presidential Contender</a>",
+      "image_file_name": "estj-hillary_clinton.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "11", "i_score": "8" },
+        { "n_score": "8", "s_score": "11" },
+        { "f_score": "8", "t_score": "11" },
+        { "j_score": "11", "p_score": "8" }
+      ],
+      "four_letter_type": "ESTJ",
+      "archetype": "Te",
+      "quiz_type": "J",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "This article at slate.com claims that Hillary is an ESTJ: http:\/\/www.slate.com\/id\/2184696\/ , and this seems reasonable and believable.  The Green represents her Logical decision-making and the Yellow represents her Pragmatic views.  These traits are evident in her reliability, devotion, attention to detail, and willingness to take charge."
+    }, {
+      "id": "5110",
+      "title": "John McCain",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_McCain' target='_blank' title='Wikipedia page for John McCain'>Presidential Contender</a>",
+      "image_file_name": "estp-john_mccain.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "11", "i_score": "8" },
+        { "n_score": "8", "s_score": "11" },
+        { "f_score": "8", "t_score": "11" },
+        { "j_score": "8", "p_score": "11" }
+      ],
+      "four_letter_type": "ESTP",
+      "archetype": "Se",
+      "quiz_type": "J",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "This article at Slate claims that John McCain is an ESTP: http:\/\/www.slate.com\/id\/2184696\/ , and that sounds reasonable and believable to us.  The Yellow represents his Pragmatic views and the Green represents his Logical decision making.  Both of these traits are evident in his practicality and willingness to take risks."
+    }, {
+      "id": "5120",
+      "title": "Ralph Nader",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ralph_Nader' target='_blank' title='Wikipedia page for Ralph Nader'>Presidential Contender</a>",
+      "image_file_name": "enfj-ralph_nader.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "11", "i_score": "8" },
+        { "n_score": "11", "s_score": "8" },
+        { "f_score": "11", "t_score": "8" },
+        { "j_score": "11", "p_score": "8" }
+      ],
+      "four_letter_type": "ENFJ",
+      "archetype": "Fe",
+      "quiz_type": "J",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "According to keirsey.com, Ralph Nader is an ENFJ.  The Blue in the image represents his Idealism, and the Red represents his Emotional decision making.  These traits are evident in his political views, such as his hope for the future and concern for people."
+    }, {
+      "id": "5130",
+      "title": "responsive_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }, {
+      "id": "5133",
+      "title": "square_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }, {
+      "id": "5136",
+      "title": "responsive_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }
+  ]
+}
