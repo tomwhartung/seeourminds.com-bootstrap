@@ -1,0 +1,64 @@
+{
+  "gallery_title": "Self Portraits",
+  "description_html": "<p>These are images of <a href='https://plus.google.com/+TomHartung' title='Link to my page on google plus' target='_blank'>Tom W. Hartung</a>, the creator of this site!</p>",
+  "image_list":
+  [
+    {
+      "id": "7990",
+      "title": "responsive_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }, {
+      "id": "7993",
+      "title": "Tom",
+      "subtitle_html": "",
+      "image_file_name": "infp-tomh_1987.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "9", "i_score": "10" },
+        { "n_score": "13", "s_score": "6" },
+        { "f_score": "10", "t_score": "9" },
+        { "j_score": "9", "p_score": "10" }
+      ],
+      "four_letter_type": "INFP",
+      "archetype": "Fi",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": "This image is based on a score from one of the first times I took the Keirsey Temperament Sorter.  Like many, at first I was surprised to learn I was an INFP!"
+    }, {
+      "id": "7996",
+      "title": "responsive_ad",
+      "subtitle_html": "",
+      "image_file_name": "",
+      "composition": "O",
+      "score": [
+        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
+        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
+      ],
+      "four_letter_type": "",
+      "archetype": "",
+      "quiz_type": "",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "",
+      "explain_aux": "",
+      "story_html": ""
+    }
+  ]
+}
