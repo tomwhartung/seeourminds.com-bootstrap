@@ -43,12 +43,8 @@ class Galleries:
             this_gallery = Gallery(gal_file_name)
             this_gallery.set_image_link_values()
             gallery_dict = this_gallery.gallery_dict
-            print('gal_file_name:', gal_file_name)
-            print('gallery_dict:', gallery_dict)
-            # print('gallery_dict.image_list[0]:', gallery_dict.image_list[0])
-            # print('gallery_dict.gallery_title:', gallery_dict.gallery_title)
-            # print('gallery_dict.get("gallery_title"):', gallery_dict.get("gallery_title"))
-            # data_this_gallery.gallery_title = this_gallery.gallery_title
+            # print('gal_file_name:', gal_file_name)
+            # print('gallery_dict:', gallery_dict)
             self.all_galleries_data.append(gallery_dict)
 
         return self.all_galleries_data
