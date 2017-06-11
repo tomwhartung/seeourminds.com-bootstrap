@@ -63,12 +63,10 @@ def galleries(request):
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     title = 'All Galleries'
     galleries = Galleries()
-    gallery_files = galleries.gallery_files
     all_galleries_data = galleries.get_all_galleries_data()
     template = loader.get_template('content/galleries_list.html')
     context = {
         'all_galleries_data': all_galleries_data,
-        'gallery_files': gallery_files,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
         'title': title,
