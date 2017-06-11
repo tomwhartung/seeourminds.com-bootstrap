@@ -31,6 +31,27 @@ class Galleries:
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         self.gallery_files = sorted(os.listdir(galleries_root_dir))
+        self.all_galleries_data = []
+
+    def get_all_galleries_data(self):
+
+        """ Get all the data needed for the All Galleries list page """
+
+        for gal_file in self.gallery_files:
+            gal_file_name, gal_file_ext = os.path.splitext(gal_file)
+            data_this_gallery = {}
+            this_gallery = Gallery(gal_file_name)
+            this_gallery.set_image_link_values()
+            gallery_dict = this_gallery.gallery_dict
+            print('gal_file_name:', gal_file_name)
+            print('gallery_dict:', gallery_dict)
+            # print('gallery_dict.image_list[0]:', gallery_dict.image_list[0])
+            # print('gallery_dict.gallery_title:', gallery_dict.gallery_title)
+            # print('gallery_dict.get("gallery_title"):', gallery_dict.get("gallery_title"))
+            # data_this_gallery.gallery_title = this_gallery.gallery_title
+            self.all_galleries_data.append(gallery_dict)
+
+        return self.all_galleries_data
 
 
 class Gallery:
