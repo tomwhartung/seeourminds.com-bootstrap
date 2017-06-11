@@ -10,6 +10,11 @@
   <div class="col-md-4">
     <header id="galleries-introduction">
       <h2>Galleries</h2>
+      <ul>
+        {% for gal_file in gallery_files %}
+          <li>{{ gal_file }}</li>
+        {% endfor %}
+      </ul>
       <p>
         These are the Spiritual Portraits of some of my friends, and
           some fictional and famous people.
