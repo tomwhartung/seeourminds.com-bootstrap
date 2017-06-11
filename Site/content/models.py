@@ -28,7 +28,8 @@ class Galleries:
 
         """ Read in all the json for the passed-in gallery_name """
 
-        galleries_root_dir = '../' + self.GALLERIES_DIRECTORY
+        site_content_dir = os.path.abspath(os.path.dirname(__file__))
+        galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         self.gallery_files = sorted(os.listdir(galleries_root_dir))
 
 
