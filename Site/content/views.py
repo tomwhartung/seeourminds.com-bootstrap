@@ -9,7 +9,6 @@ Reference:
 """
 
 import json
-from os import listdir
 import textwrap
 
 from django.contrib import messages
@@ -21,7 +20,7 @@ from django.views.generic.base import View
 from .adsense import adsense_ads
 from .database import Questionnaire
 from .forms import QuestionnaireForm
-from .models import Gallery, Image, Score
+from .models import Galleries, Gallery, Image, Score
 
 
 def home(request):
@@ -63,8 +62,8 @@ def galleries(request):
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     title = 'All Galleries'
-    galleries_root_dir = '../' + Gallery.GALLERIES_DIRECTORY
-    gallery_files = sorted(listdir(galleries_root_dir))
+    all_galleries = Galleries()
+    gallery_files = all_galleries.gallery_files
     template = loader.get_template('content/galleries_list.html')
     context = {
         'gallery_files': gallery_files,
