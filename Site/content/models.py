@@ -18,11 +18,23 @@ from .database import Questionnaire
 DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
 
 
+class Galleries:
+
+    """ Read in all the galleries and support listing them on a single page """
+
+    GALLERIES_DIRECTORY = '/static/content/json/galleries/'
+
+    def __init__(self):
+
+        """ Read in all the json for the passed-in gallery_name """
+
+        galleries_root_dir = '../' + self.GALLERIES_DIRECTORY
+        self.gallery_files = sorted(os.listdir(galleries_root_dir))
+
+
 class Gallery:
 
     """ Read in and work with all the images, etc. in a single gallery """
-
-    GALLERIES_DIRECTORY = '/static/content/json/galleries/'
 
     def __init__(self, gallery_name=None):
 
@@ -34,7 +46,7 @@ class Gallery:
         else:
             data_file_name = gallery_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
-            data_file_dir = site_content_dir + self.GALLERIES_DIRECTORY
+            data_file_dir = site_content_dir + Galleries.GALLERIES_DIRECTORY
             data_file_path = data_file_dir + data_file_name
             gallery_json_file = open(data_file_path)
             gallery_json_string = gallery_json_file.read()
