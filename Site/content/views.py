@@ -9,7 +9,7 @@ Reference:
 """
 
 import json
-import os
+from os import listdir
 import textwrap
 
 from django.contrib import messages
@@ -62,9 +62,12 @@ def galleries(request):
     """
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
-    title = 'Galleries'
+    title = 'All Galleries'
+    galleries_root_dir = '../' + Gallery.GALLERIES_DIRECTORY
+    gallery_files = sorted(listdir(galleries_root_dir))
     template = loader.get_template('content/galleries_list.html')
     context = {
+        'gallery_files': gallery_files,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': quiz_menu_data,
         'title': title,
