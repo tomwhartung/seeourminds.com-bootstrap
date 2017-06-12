@@ -24,7 +24,7 @@ class Galleries:
 
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
 
-    def __init__(self):
+    def __init__(self, gallery_name=None):
 
         """ Read in all the json for the passed-in gallery_name """
 
@@ -54,15 +54,15 @@ class Gallery:
 
     """ Read in and work with all the images, etc. in a single gallery """
 
-    def __init__(self, gallery_name=None):
+    def __init__(self, gallery_file_name=None):
 
-        """ Read in all the json for the passed-in gallery_name """
+        """ Read in all the json for the passed-in gallery_file_name """
 
-        self.gallery_name = gallery_name
-        if gallery_name == None:
+        self.gallery_file_name = gallery_file_name
+        if gallery_file_name == None:
             self.gallery_dict = {}
         else:
-            data_file_name = gallery_name + '.json'
+            data_file_name = gallery_file_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
             data_file_dir = site_content_dir + Galleries.GALLERIES_DIRECTORY
             data_file_path = data_file_dir + data_file_name
@@ -87,13 +87,17 @@ class Gallery:
 
     def set_image_link_values(self):
 
-        """ Set derived values in the image list in the gallery_dict """
+        """
+        Set derived values in the image list in the gallery_dict
+        NOTE: the image_file_directory equals the passed-in gallery_file_name!
+        """
 
-        image_file_dir = 'content/images/galleries/' + self.gallery_name + '/'
+        image_file_directory = self.gallery_file_name
+        image_file_dir = 'content/images/galleries/' + image_file_directory + '/'
         for img in self.gallery_dict['image_list']:
             img['image_file_path'] = image_file_dir + img['image_file_name']
             img['image_link_href'] = '/image/' + \
-                self.gallery_name + '/' + img['id']
+                self.gallery_file_name + '/' + img['id']
             img['image_link_title'] = 'A larger copy of this image on a ' + \
                 'page featuring more information about it'
         return self
@@ -105,21 +109,25 @@ class Image:
 
     IMAGES_DIRECTORY = 'content/images/galleries/'
 
-    def __init__(self, gallery_name=None, image_id=None):
+    def __init__(self, gallery_file_name=None, image_id=None):
 
-        """ Find image in the json file or use default image """
+        """
+        Find image in the json file or use default image
+        NOTE: the image_file_directory equals the passed-in gallery_file_name!
+        """
 
-        if gallery_name == None or image_id == None:
+        if gallery_file_name == None or image_id == None:
             self.set_default_image_dict()
         else:
-            gallery = Gallery(gallery_name)
+            gallery = Gallery(gallery_file_name)
             image_dict = gallery.find_image(image_id)
             if image_dict == None:
                 self.set_default_image_dict()
             else:
                 self.image_dict = image_dict
+                image_file_directory = gallery_file_name
                 self.image_dict["path"] = self.IMAGES_DIRECTORY + \
-                    gallery_name + '/' + image_dict["image_file_name"]
+                    image_file_directory + '/' + image_dict["image_file_name"]
 
     def set_default_image_dict(self):
 
@@ -143,9 +151,11 @@ class Image:
            'There is also plenty of green and yellow, however, indicating ' \
            'I can be logical and down-to-earth when the situation calls ' \
            'for it.' \
-           'This is just the sort of person who can both conceive of ' \
-           'this idea and follow through and learn the details needed to ' \
-           'implement it.'
+           'This image is one of someone who is exactly the sort of person ' \
+           'who can not just conceive of an idea such as this ' \
+           'but also follow through and learn the technical details ' \
+           'needed to implement it multiple times and in multiple ' \
+           'programming languages.'
         return self
 
 
