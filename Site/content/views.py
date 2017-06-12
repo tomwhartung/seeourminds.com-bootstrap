@@ -36,11 +36,11 @@ def home(request):
     return HttpResponse(template.render(context, request))
 
 
-def image(request, gallery_name=None, image_id=None):
+def image(request, gallery_file_name=None, image_id=None):
 
     """ Render the single image template """
 
-    this_image = Image(gallery_name, image_id)
+    this_image = Image(gallery_file_name, image_id)
     image_dict = this_image.image_dict
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     title = 'Image: ' + image_dict.get('title')
@@ -74,14 +74,14 @@ def galleries(request):
     return HttpResponse(template.render(context, request))
 
 
-def gallery(request, gallery_name='None'):
+def gallery(request, gallery_file_name='None'):
 
     """ Load and render the template for a single Gallery page """
 
-    if gallery_name == 'None':
-        gallery_name = 'generic'
+    if gallery_file_name == 'None':
+        gallery_file_name = '0000-generic_images'
 
-    this_gallery = Gallery(gallery_name)
+    this_gallery = Gallery(gallery_file_name)
     this_gallery.set_image_link_values()
     gallery_dict = this_gallery.gallery_dict
     title = gallery_dict.get('gallery_title')
