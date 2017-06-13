@@ -31,7 +31,7 @@ class Galleries:
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         self.gallery_files = sorted(os.listdir(galleries_root_dir))
-        self.all_galleries_data = []
+        self.galleries_list_data = []
 
     def get_galleries_list_data(self):
 
@@ -44,10 +44,10 @@ class Galleries:
             this_gallery.set_image_link_values()
             gallery_dict = this_gallery.gallery_dict
             # print('gal_file_name:', gal_file_name)
-            # print('gallery_dict:', gallery_dict)
-            self.all_galleries_data.append(gallery_dict)
+            print('gallery_dict:', gallery_dict)
+            self.galleries_list_data.append(gallery_dict)
 
-        return self.all_galleries_data
+        return self.galleries_list_data
 
 
 class Gallery:
