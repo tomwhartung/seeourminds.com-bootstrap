@@ -63,10 +63,11 @@ class Galleries:
             gal_file_name, gal_file_ext = os.path.splitext(gal_file)
             data_this_gallery = {}
             this_gallery = Gallery(gal_file_name)
+            this_gallery.remove_all_but_first_image()
             this_gallery.set_image_link_values()
             gallery_dict = this_gallery.gallery_dict
             # print('gal_file_name:', gal_file_name)
-            # print('gallery_dict:', gallery_dict)
+            print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
 
         return self.galleries_list_data
@@ -77,9 +78,7 @@ class Gallery:
     """ Read in and work with all the images, etc. in a single gallery """
 
     def __init__(self, gallery_file_name=None):
-
         """ Read in all the json for the passed-in gallery_file_name """
-
         self.gallery_file_name = gallery_file_name
         if gallery_file_name == None:
             self.gallery_dict = {}
@@ -95,9 +94,7 @@ class Gallery:
             self.gallery_dict = json.loads(gallery_json_string)
 
     def find_image(self, image_id=None):
-
         """ Returns all data from the json for image, or None if not found """
-
         image_dict = None
         if image_id != None:
             # print('find_image: Looking for image_id = "' + image_id + '"')
@@ -108,13 +105,20 @@ class Gallery:
                     break
         return image_dict
 
-    def set_image_link_values(self):
+    def remove_all_but_first_image(self):
+        """ When listing galleries, we need only the first image """
+        new_single_image_list = []
+        for img_dict in self.gallery_dict["image_list"]:
+            if img_dict.get('image_file_name') != '':
+                new_single_image_list.append(img_dict)
+                break
+        self.gallery_dict["image_list"] = new_single_image_list
 
+    def set_image_link_values(self):
         """
         Set derived values in the image list in the gallery_dict
         NOTE: the image_file_directory equals the passed-in gallery_file_name!
         """
-
         image_file_directory = self.gallery_file_name
         image_file_dir = 'content/images/galleries/' + image_file_directory + '/'
         for img in self.gallery_dict['image_list']:
