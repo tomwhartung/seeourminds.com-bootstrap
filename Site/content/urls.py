@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^home$', views.home, name='home'),
     url(r'^galleries$', views.galleries, name='galleries'),
+    url(r'^galleries/(?P<galleries_list_name>\S+)/$', views.galleries, name='galleries'),
     url(r'^gallery/(?P<gallery_file_name>\S+)/$', views.gallery, name='gallery'),
     url(r'^image/$', views.image, name='image'),
     url(r'^image/(?P<image_id>\w+)/$', views.image, name='image'),
