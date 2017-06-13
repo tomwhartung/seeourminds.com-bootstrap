@@ -52,17 +52,16 @@ def image(request, gallery_file_name=None, image_id=None):
     })
 
 
-def galleries(request):
+def galleries(request, galleries_list_name='all'):
 
     """
     Load and render the template displaying the list of Galleries
-    Note that this page is hard coded, so we pass in
-    only the data all pages need, for the ads and the menu.
+        appropriate for the passed-in galleries_list_name
     """
 
     quiz_menu_data = Questionnaire.get_quiz_menu_data()
     title = 'All Galleries'
-    galleries = Galleries()
+    galleries = Galleries(galleries_list_name)
     galleries_list_data = galleries.get_galleries_list_data()
     template = loader.get_template('content/galleries_list.html')
     context = {
