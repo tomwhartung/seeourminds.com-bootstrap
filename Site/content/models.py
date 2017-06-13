@@ -8,6 +8,7 @@ Reference:
   (none, yet)
 """
 
+import fnmatch
 import json
 import os
 from django.contrib import messages
@@ -20,17 +21,38 @@ DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
 
 class Galleries:
 
-    """ Read in all the galleries and support listing them on a single page """
+    """
+    Read in the gallery files appropriate for the (optional) specified
+    galleries_list_name and support listing them on a single page
+    """
 
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
 
-    def __init__(self, gallery_name=None):
+    def __init__(self, galleries_list_name='all'):
 
-        """ Read in all the json for the passed-in gallery_name """
+        """ Read in all the json for the passed-in galleries_list_name """
 
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
-        self.gallery_files = sorted(os.listdir(galleries_root_dir))
+        gallery_files = sorted(os.listdir(galleries_root_dir))
+
+        if galleries_list_name == 'fictional_people':
+            fnmatch_string = '*fictional*'
+        elif galleries_list_name == 'politicians':
+            fnmatch_string = '*politicians*'
+        elif galleries_list_name == 'real_people':
+            fnmatch_string = '*real*'
+        else: # default: get all galleries
+            fnmatch_string = '*'
+
+        self.gallery_files = []
+        for gal_file in gallery_files:
+            if fnmatch.fnmatch(gal_file, fnmatch_string):
+                self.gallery_files.append(gal_file)
+
+        print('Galleries - __init__ - galleries_list_name:', galleries_list_name)
+        print('Galleries - __init__ - gallery_files:', gallery_files)
+        print('Galleries - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
 
     def get_galleries_list_data(self):
@@ -44,7 +66,7 @@ class Galleries:
             this_gallery.set_image_link_values()
             gallery_dict = this_gallery.gallery_dict
             # print('gal_file_name:', gal_file_name)
-            print('gallery_dict:', gallery_dict)
+            # print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
 
         return self.galleries_list_data
@@ -62,6 +84,7 @@ class Gallery:
         if gallery_file_name == None:
             self.gallery_dict = {}
         else:
+            print('gallery_file_name:', gallery_file_name)
             data_file_name = gallery_file_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
             data_file_dir = site_content_dir + Galleries.GALLERIES_DIRECTORY
