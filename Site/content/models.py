@@ -33,9 +33,9 @@ class Galleries:
         self.gallery_files = sorted(os.listdir(galleries_root_dir))
         self.all_galleries_data = []
 
-    def get_all_galleries_data(self):
+    def get_galleries_list_data(self):
 
-        """ Get all the data needed for the All Galleries list page """
+        """ Get the data needed for the galleries list page """
 
         for gal_file in self.gallery_files:
             gal_file_name, gal_file_ext = os.path.splitext(gal_file)
