@@ -111,9 +111,9 @@ class Gallery:
         new_single_image_list = []
         for img_dict in self.gallery_dict["image_list"]:
             if img_dict.get('image_file_name') != '':
-                new_single_image_list.append(img_dict)
+                self.gallery_dict["image_dict"] = img_dict
                 break
-        self.gallery_dict["image_list"] = new_single_image_list
+        return self
 
     def set_image_link_values(self):
         """
