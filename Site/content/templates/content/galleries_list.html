@@ -27,6 +27,36 @@
 {% block above_middle_row_ad %}{% endblock %}
 
 {% block middle_content %}
+{% for gal_dict in galleries_list_data %}
+<div class="col-md-4">
+  <h2>
+    <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+       title="View the {{ gal_dict.gallery_title }} gallery"
+       class="gallery-title">
+      {{ gal_dict.gallery_title }}</a>
+  </h2>
+  <div>{{ gal_dict.story_html | safe }}</div>
+  <div>{{ gal_dict.description_html | safe }}</div>
+  <div class="gallery-image">
+    <div class="text-center">
+      <figure>
+        <img src="{% static 'content/images/galleries/generic/enfj.jpg' %}"
+             class="gallery-image">
+        <figcaption><q>Generic ENFJ</q></figcaption>
+      </figure>
+    </div><!-- .text-center -->
+    <p>
+       This generic ENFJ is typical of the generic images, which all have
+        a fairly well-balanced score.
+    </p>
+    <div class="text-center">
+      <a class="btn-lg btn-primary" href="gallery/generic/" role="button">
+        See Their Minds &raquo;</a>
+    </div><!-- .text-center -->
+  </div><!-- .gallery-image -->
+</div><!-- col-md-4 -->
+{% endfor %}
+
   <div class="col-md-4">
     <h2>
       <a href="gallery/generic/" title="View the Generic Sixteen Types gallery"
