@@ -27,11 +27,10 @@ def home(request):
 
     """ Load and render the Home page template """
 
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/home.html')
     context = {
         'adsense_ads': adsense_ads,
-        'quiz_menu_data': quiz_menu_data,
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
     }
     return HttpResponse(template.render(context, request))
 
@@ -42,12 +41,11 @@ def image(request, gallery_file_name=None, image_id=None):
 
     this_image = Image(gallery_file_name, image_id)
     image_dict = this_image.image_dict
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     title = 'Image: ' + image_dict.get('title')
     return render(request, 'content/image.html', {
         'image_dict': image_dict,
         'adsense_ads': adsense_ads,
-        'quiz_menu_data': quiz_menu_data,
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
         'title': title,
     })
 
@@ -59,7 +57,6 @@ def galleries(request, galleries_list_name='all'):
         appropriate for the passed-in galleries_list_name
     """
 
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     title = 'All Galleries'
     galleries = Galleries(galleries_list_name)
     galleries_list_data = galleries.get_galleries_list_data()
@@ -67,7 +64,7 @@ def galleries(request, galleries_list_name='all'):
     context = {
         'galleries_list_data': galleries_list_data,
         'adsense_ads': adsense_ads,
-        'quiz_menu_data': quiz_menu_data,
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
         'title': title,
     }
     return HttpResponse(template.render(context, request))
@@ -85,12 +82,11 @@ def gallery(request, gallery_file_name='None'):
     gallery_dict = this_gallery.gallery_dict
     title = gallery_dict.get('gallery_title')
 
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/galleries_gallery.html')
     context = {
         'gallery_dict': gallery_dict,
         'adsense_ads': adsense_ads,
-        'quiz_menu_data': quiz_menu_data,
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
         'title': title,
     }
     return HttpResponse(template.render(context, request))
@@ -106,11 +102,10 @@ def quiz_about(request):
     quiz_info["size_text"] = ''
 
     quiz_list_data = Questionnaire.get_quiz_list_data()
-    quiz_menu_data = Questionnaire.get_quiz_menu_data()
     template = loader.get_template('content/quiz_about.html')
     context = {
         'quiz_info': quiz_info,
-        'quiz_menu_data': quiz_menu_data,
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
         'adsense_ads': adsense_ads,
         'quiz_list_data': quiz_list_data,
     }
