@@ -57,9 +57,9 @@ def galleries(request, galleries_list_name='all'):
         appropriate for the passed-in galleries_list_name
     """
 
-    title = 'All Galleries'
     galleries = Galleries(galleries_list_name)
     galleries_list_data = galleries.get_galleries_list_data()
+    title = galleries.galleries_list_title
     template = loader.get_template('content/galleries_list.html')
     context = {
         'galleries_list_data': galleries_list_data,
