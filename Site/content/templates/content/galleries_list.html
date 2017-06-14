@@ -27,32 +27,33 @@
 {% block above_middle_row_ad %}{% endblock %}
 
 {% block middle_content %}
-{% for gal_dict in galleries_list_data %}
-<div class="col-md-4">
-  <h2>
-    <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
-       title="View the {{ gal_dict.gallery_title }} gallery"
-       class="gallery-title">
-      {{ gal_dict.gallery_title }}</a>
-  </h2>
-  <div>{{ gal_dict.story_html | safe }}</div>
-  <div>{{ gal_dict.description_html | safe }}</div>
-  <div class="gallery-image">
-    <div class="text-center">
-      <figure>
-        <img src="{% static gal_dict.image_dict.image_file_path %}"
-             class="gallery-image">
-        <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
-      </figure>
-    </div><!-- .text-center -->
-  </div><!-- .gallery-image -->
-  <div class="text-center">
-    <a class="btn-lg btn-primary"
-       href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
-      See Their Minds &raquo;</a>
-  </div><!-- .text-center -->
-</div><!-- col-md-4 -->
-{% endfor %}
+  {% for gal_dict in galleries_list_data %}
+    <div class="col-md-4">
+      <h2>
+        <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+           title="View the {{ gal_dict.gallery_title }} gallery"
+           class="gallery-title">
+          {{ gal_dict.gallery_title }}</a>
+      </h2>
+      <div>{{ gal_dict.story_html | safe }}</div>
+      <div>{{ gal_dict.description_html | safe }}</div>
+      <div class="gallery-image">
+        <div class="text-center">
+          <figure>
+            <img src="{% static gal_dict.image_dict.image_file_path %}"
+                 class="gallery-image">
+            <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
+          </figure>
+        </div><!-- .text-center -->
+      </div><!-- .gallery-image -->
+      <div class="text-center">
+        <a class="btn-lg btn-primary"
+           href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
+          See Their Minds &raquo;</a>
+      </div><!-- .text-center -->
+    </div><!-- col-md-4 -->
+    {% cycle '' '' '</div><!-- .row --><div class="row">' %}
+  {% endfor %}
 
   <div class="col-md-4">
     <h2>
