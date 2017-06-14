@@ -45,15 +45,12 @@
         <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
       </figure>
     </div><!-- .text-center -->
-    <p>
-       {{ gal_dict.image_dict.story_html | safe }}
-    </p>
-    <div class="text-center">
-      <a class="btn-lg btn-primary"
-         href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
-        See Their Minds &raquo;</a>
-    </div><!-- .text-center -->
   </div><!-- .gallery-image -->
+  <div class="text-center">
+    <a class="btn-lg btn-primary"
+       href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
+      See Their Minds &raquo;</a>
+  </div><!-- .text-center -->
 </div><!-- col-md-4 -->
 {% endfor %}
 
