@@ -40,17 +40,17 @@
   <div class="gallery-image">
     <div class="text-center">
       <figure>
-        <img src="{% static 'content/images/galleries/generic/enfj.jpg' %}"
+        <img src="{{ gal_dict.image_dict.image_file_path }}"
              class="gallery-image">
-        <figcaption><q>Generic ENFJ</q></figcaption>
+        <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
       </figure>
     </div><!-- .text-center -->
     <p>
-       This generic ENFJ is typical of the generic images, which all have
-        a fairly well-balanced score.
+       {{ gal_dict.image_dict.story_html | safe }}
     </p>
     <div class="text-center">
-      <a class="btn-lg btn-primary" href="gallery/generic/" role="button">
+      <a class="btn-lg btn-primary"
+         href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
         See Their Minds &raquo;</a>
     </div><!-- .text-center -->
   </div><!-- .gallery-image -->
