@@ -66,6 +66,7 @@ class Galleries:
             this_gallery.remove_all_but_first_image()
             this_gallery.set_image_link_values()
             gallery_dict = this_gallery.gallery_dict
+            gallery_dict['gallery_file_name'] = gal_file_name
             # print('gal_file_name:', gal_file_name)
             print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
