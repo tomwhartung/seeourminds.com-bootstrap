@@ -67,8 +67,8 @@ class Galleries:
             gal_file_name, gal_file_ext = os.path.splitext(gal_file)
             data_this_gallery = {}
             this_gallery = Gallery(gal_file_name)
-            this_gallery.set_gallery_image_dictionary()
             this_gallery.set_image_link_values()
+            this_gallery.set_gallery_image_dictionary()
             gallery_dict = this_gallery.gallery_dict
             gallery_dict['gallery_file_name'] = gal_file_name
             # print('gal_file_name:', gal_file_name)
