@@ -63,7 +63,7 @@ class Galleries:
             gal_file_name, gal_file_ext = os.path.splitext(gal_file)
             data_this_gallery = {}
             this_gallery = Gallery(gal_file_name)
-            this_gallery.remove_all_but_first_image()
+            this_gallery.set_gallery_image_dictionary()
             this_gallery.set_image_link_values()
             gallery_dict = this_gallery.gallery_dict
             gallery_dict['gallery_file_name'] = gal_file_name
@@ -106,9 +106,8 @@ class Gallery:
                     break
         return image_dict
 
-    def remove_all_but_first_image(self):
-        """ When listing galleries, we need only the first image """
-        new_single_image_list = []
+    def set_gallery_image_dictionary(self):
+        """ When listing galleries, set image_dict equal to the first image """
         for img_dict in self.gallery_dict["image_list"]:
             if img_dict.get('image_file_name') != '':
                 self.gallery_dict["image_dict"] = img_dict
