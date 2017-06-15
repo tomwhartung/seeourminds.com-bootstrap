@@ -13,7 +13,7 @@
       <p>
         This page lists and links to <b>all</b> available galleries!</p>
       <ul>
-        {% for gal_dict in galleries_list_data %}
+        {% for gal_dict in galleries_list_obj.galleries_list_data %}
           <li>
             <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
                title="View the {{ gal_dict.gallery_title }} gallery">
@@ -31,7 +31,7 @@
 {% block above_middle_row_ad %}{% endblock %}
 
 {% block middle_content %}
-  {% for gal_dict in galleries_list_data %}
+  {% for gal_dict in galleries_list_obj.galleries_list_data %}
     <div class="col-md-4">
       <div class="gallery-image">
         <h2>
