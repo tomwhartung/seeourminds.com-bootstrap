@@ -19,7 +19,7 @@ from .database import Questionnaire
 DJANGO_DEBUG = os.environ.get('DJANGO_DEBUG')
 
 
-class Galleries:
+class GalleriesList:
 
     """
     Read in the gallery files appropriate for the (optional) specified
@@ -54,9 +54,9 @@ class Galleries:
             if fnmatch.fnmatch(gal_file, fnmatch_string):
                 self.gallery_files.append(gal_file)
 
-        print('Galleries - __init__ - galleries_list_name:', galleries_list_name)
-        print('Galleries - __init__ - gallery_files:', gallery_files)
-        print('Galleries - __init__ - self.gallery_files:', self.gallery_files)
+        print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
+        print('GalleriesList - __init__ - gallery_files:', gallery_files)
+        print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
 
     def get_galleries_list_data(self):
@@ -91,7 +91,7 @@ class Gallery:
             print('gallery_file_name:', gallery_file_name)
             data_file_name = gallery_file_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
-            data_file_dir = site_content_dir + Galleries.GALLERIES_DIRECTORY
+            data_file_dir = site_content_dir + GalleriesList.GALLERIES_DIRECTORY
             data_file_path = data_file_dir + data_file_name
             gallery_json_file = open(data_file_path)
             gallery_json_string = gallery_json_file.read()
