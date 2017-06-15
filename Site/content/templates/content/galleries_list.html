@@ -40,8 +40,6 @@
            class="gallery-title">
           {{ gal_dict.gallery_title }}</a>
       </h2>
-      <div>{{ gal_dict.story_html | safe }}</div>
-      <div>{{ gal_dict.description_html | safe }}</div>
       <div class="gallery-image">
         <div class="text-center">
           <figure>
@@ -51,6 +49,7 @@
           </figure>
         </div><!-- .text-center -->
       </div><!-- .gallery-image -->
+      <div>{{ gal_dict.description_html | safe }}</div>
       <div class="text-center">
         <a class="btn-lg btn-primary"
            href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
