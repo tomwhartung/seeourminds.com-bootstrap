@@ -9,7 +9,7 @@
   {% block top_left_ad %}{{ block.super }}{% endblock %}
   <div class="col-md-4">
     <header id="galleries-introduction">
-      <h2>Galleries</h2>
+      <h2>{{ galleries_list_obj.galleries_list_title }}</h2>
       <p>
         This page lists and links to <b>all</b> available galleries!</p>
       <ul>
@@ -21,7 +21,7 @@
         {% endfor %}
       </ul>
       <p>
-        Below are sample thumbnails with a brief description of each of these.
+        Below are sample thumbnails and a brief description of each of these.
         Pick one and enjoy!</p>
     </header><!-- #galleries-introduction -->
   </div><!-- col-md-4 -->
