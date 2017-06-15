@@ -20,7 +20,7 @@ from django.views.generic.base import View
 from .adsense import adsense_ads
 from .database import Questionnaire
 from .forms import QuestionnaireForm
-from .models import Galleries, Gallery, Image, Score
+from .models import GalleriesList, Gallery, Image, Score
 
 
 def home(request):
@@ -57,7 +57,7 @@ def galleries(request, galleries_list_name='all'):
         appropriate for the passed-in galleries_list_name
     """
 
-    galleries = Galleries(galleries_list_name)
+    galleries = GalleriesList(galleries_list_name)
     galleries_list_data = galleries.get_galleries_list_data()
     title = galleries.galleries_list_title
     template = loader.get_template('content/galleries_list.html')
