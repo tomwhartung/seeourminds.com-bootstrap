@@ -63,7 +63,6 @@ def galleries_list(request, galleries_list_name='all'):
     template = loader.get_template('content/galleries_list.html')
     context = {
         'galleries_list_obj': galleries_list_obj,
-        'galleries_list_data': galleries_list_data,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
         'title': title,
