@@ -11,6 +11,7 @@ Reference:
 import fnmatch
 import json
 import os
+import random
 from django.contrib import messages
 from django.http import HttpResponse
 
@@ -61,18 +62,31 @@ class GalleriesList:
 
     def set_galleries_list_data(self):
 
-        """ Get the data needed for the galleries list page """
+        """
+        Get the data needed for the galleries list page
+        Show ads randomly intermingled with the galleries, but NOT two in a row
+        """
 
+        ad_shown_last_time = False
         for gal_file in self.gallery_files:
-            gal_file_name, gal_file_ext = os.path.splitext(gal_file)
+            if ad_shown_last_time:
+                ad_shown_last_time = False
+            else:
+                random_int_1_3 = random.randint(1,3)
+                print("random_int_1_3:", random_int_1_3)
+                if random_int_1_3 == 2:
+                    ad_shown_last_time = True
+                    gallery_dict = { "gallery_title": "responsive_ad" }
+                    self.galleries_list_data.append(gallery_dict)
             data_this_gallery = {}
+            gal_file_name, gal_file_ext = os.path.splitext(gal_file)
             this_gallery = Gallery(gal_file_name)
             this_gallery.set_image_link_values()
             this_gallery.set_gallery_image_dictionary()
             gallery_dict = this_gallery.gallery_dict
             gallery_dict['gallery_file_name'] = gal_file_name
             # print('gal_file_name:', gal_file_name)
-            print('gallery_dict:', gallery_dict)
+            # print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
 
         return self.galleries_list_data
