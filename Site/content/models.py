@@ -67,17 +67,16 @@ class GalleriesList:
         Show ads randomly intermingled with the galleries, but NOT two in a row
         """
 
-        ad_shown_last_time = False
+        ad_added_last_time = False
         for gal_file in self.gallery_files:
-            if ad_shown_last_time:
-                ad_shown_last_time = False
-            else:
+            add_ad_this_time = False
+            if ad_added_last_time:   # do NOT show an ad until MAYBE next time
+                ad_added_last_time = False
+            else:  # MAYBE add an ad, randomly
                 random_int_1_3 = random.randint(1,3)
                 print("random_int_1_3:", random_int_1_3)
                 if random_int_1_3 == 2:
-                    ad_shown_last_time = True
-                    gallery_dict = { "gallery_title": "responsive_ad" }
-                    self.galleries_list_data.append(gallery_dict)
+                    add_ad_this_time = True
             gal_file_name, gal_file_ext = os.path.splitext(gal_file)
             this_gallery = Gallery(gal_file_name)
             this_gallery.set_image_link_values()
@@ -87,6 +86,10 @@ class GalleriesList:
             # print('gal_file_name:', gal_file_name)
             # print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
+            if add_ad_this_time:
+                gallery_dict = { "gallery_title": "responsive_ad" }
+                self.galleries_list_data.append(gallery_dict)
+                ad_added_last_time = True
 
         return self.galleries_list_data
 
