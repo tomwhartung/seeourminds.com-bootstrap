@@ -58,7 +58,7 @@ def galleries_list(request, galleries_list_name='all'):
     """
 
     galleries_list_obj = GalleriesList(galleries_list_name)
-    galleries_list_data = galleries_list_obj.get_galleries_list_data()
+    galleries_list_obj.set_galleries_list_data()
     title = galleries_list_obj.galleries_list_title
     template = loader.get_template('content/galleries_list.html')
     context = {
