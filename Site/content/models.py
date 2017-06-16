@@ -59,7 +59,7 @@ class GalleriesList:
         print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
 
-    def get_galleries_list_data(self):
+    def set_galleries_list_data(self):
 
         """ Get the data needed for the galleries list page """
 
