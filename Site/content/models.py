@@ -56,8 +56,8 @@ class GalleriesList:
                 self.gallery_files.append(gal_file)
 
         print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
-        print('GalleriesList - __init__ - gallery_files:', gallery_files)
-        print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
+        # print('GalleriesList - __init__ - gallery_files:', gallery_files)
+        # print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
 
     def set_galleries_list_data(self):
@@ -78,7 +78,6 @@ class GalleriesList:
                     ad_shown_last_time = True
                     gallery_dict = { "gallery_title": "responsive_ad" }
                     self.galleries_list_data.append(gallery_dict)
-            data_this_gallery = {}
             gal_file_name, gal_file_ext = os.path.splitext(gal_file)
             this_gallery = Gallery(gal_file_name)
             this_gallery.set_image_link_values()
