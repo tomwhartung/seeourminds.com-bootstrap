@@ -33,29 +33,33 @@
 
 {% block middle_content %}
   {% for gal_dict in galleries_list_obj.galleries_list_data %}
-    <div class="col-md-4">
-      <div class="gallery-image">
-        <h2>
-          <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
-             title="View the {{ gal_dict.gallery_title }} gallery"
-             class="gallery-title">
-            {{ gal_dict.gallery_title }}</a>
-        </h2>
-        <div class="text-center">
-          <figure>
-            <img src="{% static gal_dict.image_dict.image_file_path %}"
-                 class="gallery-image">
-            <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
-          </figure>
-        </div><!-- .text-center -->
-        <div>{{ gal_dict.list_page_teaser }}</div>
-        <div class="text-center">
-          <a class="btn-lg btn-primary"
-             href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
-            See Their Minds &raquo;</a>
-        </div><!-- .text-center -->
-      </div><!-- .gallery-image -->
-    </div><!-- col-md-4 -->
+    {% if gal_dict.gallery_title == 'responsive_ad' %}
+      {% block middle_content_responsive_ad %}{{ block.super }}{% endblock %}
+    {% else %}
+      <div class="col-md-4">
+        <div class="gallery-image">
+          <h2>
+            <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+               title="View the {{ gal_dict.gallery_title }} gallery"
+               class="gallery-title">
+              {{ gal_dict.gallery_title }}</a>
+          </h2>
+          <div class="text-center">
+            <figure>
+              <img src="{% static gal_dict.image_dict.image_file_path %}"
+                   class="gallery-image">
+              <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
+            </figure>
+          </div><!-- .text-center -->
+          <div>{{ gal_dict.list_page_teaser }}</div>
+          <div class="text-center">
+            <a class="btn-lg btn-primary"
+               href="gallery/{{ gal_dict.gallery_file_name }}/" role="button">
+              See Their Minds &raquo;</a>
+          </div><!-- .text-center -->
+        </div><!-- .gallery-image -->
+      </div><!-- col-md-4 -->
+    {% endif %}
     {% cycle '' '' '</div><!-- .row --><div class="row">' %}
   {% endfor %}
 {% endblock %}
