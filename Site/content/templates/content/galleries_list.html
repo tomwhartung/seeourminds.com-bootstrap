@@ -14,10 +14,12 @@
         This page lists and links to <b>all</b> available galleries!</p>
       <ul>
         {% for gal_dict in galleries_list_obj.galleries_list_data %}
-          <li>
-            <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
-               title="View the {{ gal_dict.gallery_title }} gallery">
-              {{ gal_dict.gallery_title }}</a></li>
+          {% if gal_dict.gallery_title != 'responsive_ad' %}
+            <li>
+              <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+                 title="View the {{ gal_dict.gallery_title }} gallery">
+                {{ gal_dict.gallery_title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
       <p>
