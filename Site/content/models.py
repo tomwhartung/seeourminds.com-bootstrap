@@ -39,16 +39,16 @@ class GalleriesList:
 
         if galleries_list_name == 'fictional_people':
             self.galleries_list_title = 'Fictional People'
-            fnmatch_string = '*fictional*'
+            fnmatch_string = '[0-9]*fictional*'
         elif galleries_list_name == 'politicians':
             self.galleries_list_title = 'American Politicians'
-            fnmatch_string = '*politicians*'
+            fnmatch_string = '[0-9]*politicians*'
         elif galleries_list_name == 'real_people':
             self.galleries_list_title = 'Real People'
-            fnmatch_string = '*real*'
+            fnmatch_string = '[0-9]*real*'
         else: # default: get all galleries
             self.galleries_list_title = 'All Galleries'
-            fnmatch_string = '*'
+            fnmatch_string = '[0-9]*'
 
         self.gallery_files = []
         for gal_file in gallery_files:
