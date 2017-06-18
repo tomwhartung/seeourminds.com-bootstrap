@@ -54,8 +54,16 @@
               <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
             </figure>
           </div><!-- .text-center -->
-          <p class="list-page-teaser" id="{{ gal_dict.gallery_file_name }}-lpt">
-            {{ gal_dict.list_page_teaser }}</p>
+          <p class="list-page-teaser-truncated show"
+             id="{{ gal_dict.gallery_file_name }}-lpt-truncated">
+            {{ gal_dict.list_page_teaser | truncatewords:12 }}
+            <a href="#" id="{{ gal_dict.gallery_file_name }}-lpt-more">[More]
+            </a></p>
+          <p class="list-page-teaser-all hide"
+             id="{{ gal_dict.gallery_file_name }}-lpt-all">
+            {{ gal_dict.list_page_teaser }}
+            <a href="#" id="{{ gal_dict.gallery_file_name }}-lpt-less">[Less]
+            </a></p>
           <div class="text-center">
             <a class="btn-lg btn-primary"
                href="/gallery/{{ gal_dict.gallery_file_name }}/" role="button">
