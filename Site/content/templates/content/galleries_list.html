@@ -54,7 +54,8 @@
               <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
             </figure>
           </div><!-- .text-center -->
-          <div>{{ gal_dict.list_page_teaser }}</div>
+          <p class="list-page-teaser" id="{{ gal_dict.gallery_file_name }}-lpt">
+            {{ gal_dict.list_page_teaser }}</p>
           <div class="text-center">
             <a class="btn-lg btn-primary"
                href="/gallery/{{ gal_dict.gallery_file_name }}/" role="button">
