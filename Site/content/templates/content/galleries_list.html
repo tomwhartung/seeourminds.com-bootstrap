@@ -54,15 +54,15 @@
               <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
             </figure>
           </div><!-- .text-center -->
-          <p class="list-page-teaser-truncated show"
+          <p class="list-page-teaser-truncated"
              id="{{ gal_dict.gallery_file_name }}-lpt-truncated">
             {{ gal_dict.list_page_teaser | truncatewords:12 }}
-            <a href="#" id="{{ gal_dict.gallery_file_name }}-lpt-more">[More]
+            <a id="{{ gal_dict.gallery_file_name }}-lpt-more">[More]
             </a></p>
-          <p class="list-page-teaser-all hide"
+          <p class="list-page-teaser-all"
              id="{{ gal_dict.gallery_file_name }}-lpt-all">
             {{ gal_dict.list_page_teaser }}
-            <a href="#" id="{{ gal_dict.gallery_file_name }}-lpt-less">[Less]
+            <a id="{{ gal_dict.gallery_file_name }}-lpt-less">[Less]
             </a></p>
           <div class="text-center">
             <a class="btn-lg btn-primary"
@@ -81,3 +81,21 @@
 {% block bottom_right_ad %}{% endblock %}
 
 {% block bottom_row_ad %}{{ block.super }}{% endblock %}
+
+{% block footer %}
+  {{ block.super }}
+  {% for gal_dict in galleries_list_obj.galleries_list_data %}
+    {% if gal_dict.gallery_title != 'responsive_ad' %}
+      <script>
+        $("#{{ gal_dict.gallery_file_name }}-lpt-more").on("click", function() {
+          $("#{{ gal_dict.gallery_file_name }}-lpt-truncated").fadeOut("slow");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-all").fadeIn("slow");
+        });
+        $("#{{ gal_dict.gallery_file_name }}-lpt-less").on("click", function() {
+          $("#{{ gal_dict.gallery_file_name }}-lpt-all").fadeOut("slow");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-truncated").fadeIn("slow");
+        });
+      </script>
+    {% endif %}
+  {% endfor %}
+{% endblock %}
