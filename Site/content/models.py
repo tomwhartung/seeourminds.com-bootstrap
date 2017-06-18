@@ -28,6 +28,7 @@ class GalleriesList:
     """
 
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
+    LIST_PAGE_TEXT_INTRO_LENGTH = 60
 
     def __init__(self, galleries_list_name='all'):
 
@@ -75,6 +76,11 @@ class GalleriesList:
             this_gallery.set_gallery_image_dictionary()
             gallery_dict = this_gallery.gallery_dict
             gallery_dict['gallery_file_name'] = gal_file_name
+            list_page_teaser = gallery_dict['list_page_teaser']
+            gallery_dict['list_page_teaser_intro'] \
+                = list_page_teaser[:self.LIST_PAGE_TEXT_INTRO_LENGTH]
+            gallery_dict['list_page_teaser_remainder'] \
+                = list_page_teaser[self.LIST_PAGE_TEXT_INTRO_LENGTH:]
             # print('gal_file_name:', gal_file_name)
             # print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
