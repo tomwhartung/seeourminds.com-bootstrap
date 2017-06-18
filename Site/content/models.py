@@ -81,9 +81,9 @@ class GalleriesList:
             if ad_added_last_time:   # do NOT show an ad until MAYBE next time
                 ad_added_last_time = False
             else:  # MAYBE add an ad, randomly
-                random_int_1_3 = random.randint(1,3)
-                print("random_int_1_3:", random_int_1_3)
-                if random_int_1_3 == 2:
+                random_int_1_2 = random.randint(1,2)
+                print("random_int_1_2:", random_int_1_2)
+                if random_int_1_2 == 2:
                     gallery_dict = { "gallery_title": "responsive_ad" }
                     self.galleries_list_data.append(gallery_dict)
                     ad_added_last_time = True
