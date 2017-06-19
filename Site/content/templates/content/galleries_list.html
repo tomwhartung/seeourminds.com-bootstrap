@@ -60,8 +60,10 @@
               {{ gal_dict.list_page_teaser_intro }}<span
                 id="{{ gal_dict.gallery_file_name }}-lpt-remainder">{{ gal_dict.list_page_teaser_remainder }}
               </span>
-              <a id="{{ gal_dict.gallery_file_name }}-lpt-link">
-                [More]</a>
+              <a class="{{ gal_dict.gallery_file_name }}-lpt-link"
+                 id="{{ gal_dict.gallery_file_name }}-lpt-more"> [More]</a>
+              <a class="{{ gal_dict.gallery_file_name }}-lpt-link"
+                 id="{{ gal_dict.gallery_file_name }}-lpt-less"> [Less]</a>
             </p>
           {% endspaceless %}
           <div class="text-center">
@@ -89,10 +91,15 @@
       <script>
         $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").animate(
           {opacity: 'toggle'}, "fast");
-        $("#{{ gal_dict.gallery_file_name }}-lpt-link").on("click", function() {
+        $("#{{ gal_dict.gallery_file_name }}-lpt-less").animate(
+          {opacity: 'toggle'}, "fast");
+        $(".{{ gal_dict.gallery_file_name }}-lpt-link").on("click", function() {
           $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").animate(
             {opacity: 'toggle'}, "slow");
-          $("#{{ gal_dict.gallery_file_name }}-lpt-link").text("[Less]");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-more").animate(
+            {opacity: 'toggle'}, "slow");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-less").animate(
+            {opacity: 'toggle'}, "slow");
         });
       </script>
     {% endif %}
