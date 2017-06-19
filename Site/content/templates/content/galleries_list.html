@@ -54,14 +54,16 @@
               <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
             </figure>
           </div><!-- .text-center -->
-          <p class="list-page-teaser"
-             id="{{ gal_dict.gallery_file_name }}-lpt-intro">
-            {{ gal_dict.list_page_teaser_intro }}
-            <span id="{{ gal_dict.gallery_file_name }}-lpt-remainder">
-              {{ gal_dict.list_page_teaser_remainder }}</span>
-            <a id="{{ gal_dict.gallery_file_name }}-lpt-link">
-              [More]</a>
-          </p>
+          {% spaceless %}
+            <p class="list-page-teaser"
+               id="{{ gal_dict.gallery_file_name }}-lpt-intro">
+              {{ gal_dict.list_page_teaser_intro }}<span
+                id="{{ gal_dict.gallery_file_name }}-lpt-remainder">{{ gal_dict.list_page_teaser_remainder }}
+              </span>
+              <a id="{{ gal_dict.gallery_file_name }}-lpt-link">
+                [More]</a>
+            </p>
+          {% endspaceless %}
           <div class="text-center">
             <a class="btn-lg btn-primary"
                href="/gallery/{{ gal_dict.gallery_file_name }}/" role="button">
@@ -85,6 +87,8 @@
   {% for gal_dict in galleries_list_obj.galleries_list_data %}
     {% if gal_dict.gallery_title != 'responsive_ad' %}
       <script>
+        $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").animate(
+          {opacity: 'toggle'}, "fast");
         $("#{{ gal_dict.gallery_file_name }}-lpt-link").on("click", function() {
           $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").animate(
             {opacity: 'toggle'}, "slow");
