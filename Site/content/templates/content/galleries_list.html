@@ -11,7 +11,8 @@
     <header id="galleries-introduction">
       <h2>{{ galleries_list_obj.galleries_list_title }}</h2>
       <p>
-        This page lists and links to <b>all</b> available galleries!</p>
+        This page lists and links to
+          {{ galleries_list_obj.descriptive_phrase_html | safe }}</p>
       <ul>
         {% for gal_dict in galleries_list_obj.galleries_list_data %}
           {% if gal_dict.gallery_title != 'responsive_ad' %}
