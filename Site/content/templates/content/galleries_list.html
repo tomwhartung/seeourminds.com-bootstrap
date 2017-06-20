@@ -24,13 +24,15 @@
         {% endfor %}
       </ul>
       <p>
-        Below are sample thumbnails and a brief description of each of these.
-        Pick one and enjoy!</p>
+        Below are sample thumbnails and a brief description of
+          each of these galleries.</p>
+      <p>
+        Pick one to visit, learn, and enjoy!</p>
     </header><!-- #galleries-introduction -->
   </div><!-- col-md-4 -->
 {% endblock %}
 
-{% block top_aside %}{% endblock %}
+{% block top_aside %}{{ block.super }}{% endblock %}
 {% block above_middle_row_ad %}{% endblock %}
 {% block middle_left_ad %}{% endblock %}
 {% block middle_right_ad %}{% endblock %}
