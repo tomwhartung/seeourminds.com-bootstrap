@@ -14,9 +14,10 @@
       <h2>
         {{ gallery_dict.gallery_title }}</h2>
       <p>
-        description_html: {{ gallery_dict.description_html | safe }}</p>
+        {{ gallery_dict.description_html | safe }}</p>
+      <hr/>
       <p>
-        story_html: {{ gallery_dict.story_html | safe }}</p>
+        {{ gallery_dict.story_html | safe }}</p>
     </header><!-- #gallery-description -->
   </div><!-- col-md-4 -->
 {% endblock %}
