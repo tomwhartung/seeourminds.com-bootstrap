@@ -15,9 +15,17 @@
         {{ gallery_dict.gallery_title }}</h2>
       <p>
         {{ gallery_dict.description_html | safe }}</p>
-      <hr/>
-      <p>
-        {{ gallery_dict.story_html | safe }}</p>
+      {% if gallery_dict.story_html %}
+        <div id="story-html">
+          {{ gallery_dict.story_html | safe }}
+        </div><!-- #story-html -->
+        <div class="text-center">
+          <a class="btn btn-success btn-md" id="show-story-html"
+            title="Show the story behind these images">Show the Story</a>
+          <a class="btn btn-danger btn-md" id="hide-story-html"
+            title="Hide the story behind these images">Hide the Story</a>
+        </div><!-- .text-center -->
+      {% endif %}
     </header><!-- #gallery-description -->
   </div><!-- col-md-4 -->
 {% endblock %}
@@ -85,12 +93,27 @@
 
 {% block footer %}
   {{ block.super }}
+  {% if gallery_dict.story_html %}
+    <script>
+      /*
+       * For the Show and Hide Story buttons:
+       * ------------------------------------
+       * Initialize by hiding the story_html and Hide Story button
+       */
+      // $("#story-html").animate({opacity: 'toggle'}, "fast");
+      // $("#hide-story-html").animate({opacity: 'toggle'}, "fast");
+      $("#story-html").hide("fast");
+      $("#hide-story-html").hide("fast");
+    </script>
+  {% endif %}
   {% for image_dict in gallery_dict.image_list %}
     {% if image_dict.score %}
       <script>
-        //
-        // Define positioning parameters and create the score_bars d3 svg chart
-        //
+        /*
+         * For the Score Bars:
+         * -------------------
+         * Define positioning parameters and create the score_bars d3 svg chart
+         */
         var positioning_params_{{ image_dict.id }} = {
           selector: '#score-bars-{{ image_dict.id }}',
           total_width: 150,
