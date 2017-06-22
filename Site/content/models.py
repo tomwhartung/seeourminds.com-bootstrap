@@ -44,7 +44,7 @@ class GalleriesList:
             fnmatch_string = '[0-9]*fictional*'
         elif galleries_list_name == 'politicians':
             self.galleries_list_title = 'American Politicians'
-            phrase = 'these galleries that have images of American politicians:'
+            phrase = 'these galleries, containing images of American politicians:'
             fnmatch_string = '[0-9]*politicians*'
         elif galleries_list_name == 'real_people':
             self.galleries_list_title = 'Real People'
