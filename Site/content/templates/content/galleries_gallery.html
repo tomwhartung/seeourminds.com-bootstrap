@@ -21,9 +21,7 @@
         </div><!-- #story-html -->
         <div class="text-center">
           <a class="btn btn-success btn-md" id="show-story-html"
-            title="Show the story behind these images">Show the Story</a>
-          <a class="btn btn-danger btn-md" id="hide-story-html"
-            title="Hide the story behind these images">Hide the Story</a>
+            title="Show the story behind these images">See the Story</a>
         </div><!-- .text-center -->
       {% endif %}
     </header><!-- #gallery-description -->
@@ -101,9 +99,17 @@
        * Initialize by hiding the story_html and Hide Story button
        */
       // $("#story-html").animate({opacity: 'toggle'}, "fast");
+      $("#story-html").slideToggle("fast");
       // $("#hide-story-html").animate({opacity: 'toggle'}, "fast");
-      $("#story-html").hide("fast");
-      $("#hide-story-html").hide("fast");
+      // $("#story-html").removeClass("hide");
+      // $("#hide-story-html").removeClass("hide");
+      $("#show-story-html").click(function() {
+        $("#story-html").slideToggle("slow");
+        // $("#story-html").animate({opacity: 'toggle'}, "slow");
+        $("#show-story-html").removeClass("btn-warning");
+        $("#show-story-html").addClass("btn-danger");
+        $("#show-story-html").text("Hide the Story");
+      });
     </script>
   {% endif %}
   {% for image_dict in gallery_dict.image_list %}
