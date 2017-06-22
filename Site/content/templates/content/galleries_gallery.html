@@ -20,7 +20,7 @@
           <a class="btn btn-success btn-md" id="toggle-story-html"
             title="Show the story behind these images">See the Story</a>
         </div><!-- .text-center -->
-        <div id="story-html">
+        <div id="story-html" style="display:none;">
           {{ gallery_dict.story_html | safe }}
         </div><!-- #story-html -->
       {% endif %}
@@ -94,15 +94,8 @@
   {% if gallery_dict.story_html %}
     <script>
       /*
-       * For the Show and Hide Story buttons:
-       * ------------------------------------
-       * Initialize by hiding the story_html and Hide Story button
+       * Event handler for the Toggle Story button:
        */
-      // $("#story-html").animate({opacity: 'toggle'}, "fast");
-      $("#story-html").slideToggle("fast");
-      // $("#hide-story-html").animate({opacity: 'toggle'}, "fast");
-      // $("#story-html").removeClass("hide");
-      // $("#hide-story-html").removeClass("hide");
       $("#toggle-story-html").click(function() {
         $("#story-html").slideToggle("slow");
         var button_text = $("#toggle-story-html").text();
