@@ -20,7 +20,7 @@
           {{ gallery_dict.story_html | safe }}
         </div><!-- #story-html -->
         <div class="text-center">
-          <a class="btn btn-success btn-md" id="show-story-html"
+          <a class="btn btn-success btn-md" id="toggle-story-html"
             title="Show the story behind these images">See the Story</a>
         </div><!-- .text-center -->
       {% endif %}
@@ -103,12 +103,18 @@
       // $("#hide-story-html").animate({opacity: 'toggle'}, "fast");
       // $("#story-html").removeClass("hide");
       // $("#hide-story-html").removeClass("hide");
-      $("#show-story-html").click(function() {
+      $("#toggle-story-html").click(function() {
         $("#story-html").slideToggle("slow");
-        // $("#story-html").animate({opacity: 'toggle'}, "slow");
-        $("#show-story-html").removeClass("btn-warning");
-        $("#show-story-html").addClass("btn-danger");
-        $("#show-story-html").text("Hide the Story");
+        var button_text = $("#toggle-story-html").text();
+        if ( button_text === 'See the Story' ) {
+          $("#toggle-story-html").removeClass("btn-success");
+          $("#toggle-story-html").addClass("btn-danger");
+          $("#toggle-story-html").text("Hide the Story");
+        } else {
+          $("#toggle-story-html").removeClass("btn-danger");
+          $("#toggle-story-html").addClass("btn-success");
+          $("#toggle-story-html").text("See the Story");
+        }
       });
     </script>
   {% endif %}
