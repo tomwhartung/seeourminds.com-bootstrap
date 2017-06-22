@@ -16,13 +16,13 @@
       <p>
         {{ gallery_dict.description_html | safe }}</p>
       {% if gallery_dict.story_html %}
-        <div id="story-html">
-          {{ gallery_dict.story_html | safe }}
-        </div><!-- #story-html -->
         <div class="text-center">
           <a class="btn btn-success btn-md" id="toggle-story-html"
             title="Show the story behind these images">See the Story</a>
         </div><!-- .text-center -->
+        <div id="story-html">
+          {{ gallery_dict.story_html | safe }}
+        </div><!-- #story-html -->
       {% endif %}
     </header><!-- #gallery-description -->
   </div><!-- col-md-4 -->
