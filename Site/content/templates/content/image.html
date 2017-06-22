@@ -48,7 +48,13 @@
             {{ image_dict.explain_dom }}</p>
         {% endif %}
         {% if image_dict.explain_aux  %}
-          <p>{{ image_dict.explain_aux }}</p>
+        <div class="text-center">
+          <a class="btn btn-success btn-md" id="toggle-explain-aux"
+            title="Toggle explanation of how the image represents the auxiliary personality function">
+            Explain Auxiliary Function</a>
+        </div><!-- .text-center -->
+        <p id="explain-aux" style="display:none;">
+          {{ image_dict.explain_aux }}</p>
         {% endif %}
         {% if image_dict.story_html %}
           <p>{{ image_dict.story_html | safe }}</p>
@@ -83,6 +89,22 @@
           $("#toggle-explain-dom").removeClass("btn-danger");
           $("#toggle-explain-dom").addClass("btn-success");
           $("#toggle-explain-dom").text("Explain Dominant Function");
+        }
+      });
+      /*
+       * Event handler for the Explain Auxiliary Function button:
+       */
+      $("#toggle-explain-aux").click(function() {
+        $("#explain-aux").slideToggle("slow");
+        var button_text = $("#toggle-explain-aux").text();
+        if ( button_text.includes('Explain') ) {
+          $("#toggle-explain-aux").removeClass("btn-success");
+          $("#toggle-explain-aux").addClass("btn-danger");
+          $("#toggle-explain-aux").text("Hide Explanation");
+        } else {
+          $("#toggle-explain-aux").removeClass("btn-danger");
+          $("#toggle-explain-aux").addClass("btn-success");
+          $("#toggle-explain-aux").text("Explain Auxiliary Function");
         }
       });
     </script>
