@@ -40,7 +40,7 @@
         {% endif %}
         {% if image_dict.explain_dom  %}
           <div class="text-center">
-            <a class="btn btn-success btn-md" id="toggle-explain-dom"
+            <a class="btn btn-md" id="toggle-explain-dom"
               title="Toggle explanation of how the image represents the dominant personality function">
               Explain Dominant Function</a>
           </div><!-- .text-center -->
@@ -49,7 +49,7 @@
         {% endif %}
         {% if image_dict.explain_aux  %}
         <div class="text-center">
-          <a class="btn btn-success btn-md" id="toggle-explain-aux"
+          <a class="btn btn-md" id="toggle-explain-aux"
             title="Toggle explanation of how the image represents the auxiliary personality function">
             Explain Auxiliary Function</a>
         </div><!-- .text-center -->
@@ -75,6 +75,14 @@
   {{ block.super }}
   {% if image_dict.explain_dom  %}
     <script>
+      /*
+       * Set the bootstrap classes for the colors corresponding to the type
+       */
+      var class_for_dom = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"]
+      // var class_for_aux = seeourminds.bootstrap_class_for_aux["{{ image_dict.four_letter_type }}"]
+      var class_for_aux = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"]
+      $("#toggle-explain-dom").addClass(class_for_dom);
+      $("#toggle-explain-aux").addClass(class_for_aux);
       /*
        * Event handler for the Explain Dominant Function button:
        */
