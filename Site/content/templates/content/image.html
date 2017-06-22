@@ -39,7 +39,13 @@
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
         {% if image_dict.explain_dom  %}
-          <p>{{ image_dict.explain_dom }}</p>
+          <div class="text-center">
+            <a class="btn btn-success btn-md" id="toggle-explain-dom"
+              title="Toggle explanation of how the image represents the dominant personality function">
+              Explain Dominant Function</a>
+          </div><!-- .text-center -->
+          <p id="explain-dom" style="display:none;">
+            {{ image_dict.explain_dom }}</p>
         {% endif %}
         {% if image_dict.explain_aux  %}
           <p>{{ image_dict.explain_aux }}</p>
@@ -61,11 +67,34 @@
 
 {% block footer %}
   {{ block.super }}
+  {% if image_dict.explain_dom  %}
+    <script>
+      /*
+       * Event handler for the Explain Dominant Function button:
+       */
+      $("#toggle-explain-dom").click(function() {
+        $("#explain-dom").slideToggle("slow");
+        var button_text = $("#toggle-explain-dom").text();
+        if ( button_text.includes('Explain') ) {
+          $("#toggle-explain-dom").removeClass("btn-success");
+          $("#toggle-explain-dom").addClass("btn-danger");
+          $("#toggle-explain-dom").text("Hide Explanation");
+        } else {
+          $("#toggle-explain-dom").removeClass("btn-danger");
+          $("#toggle-explain-dom").addClass("btn-success");
+          $("#toggle-explain-dom").text("Explain Dominant Function");
+        }
+      });
+    </script>
+  {% endif %}
+
   {% if image_dict.score %}
     <script>
-      //
-      // Define positioning parameters and create the score_bars d3 svg chart
-      //
+      /*
+       * For the Score Bars:
+       * -------------------
+       * Define positioning parameters and create the score_bars d3 svg chart
+       */
       var positioning_params = {
         selector: '#score-bars',
         total_width: 575,
