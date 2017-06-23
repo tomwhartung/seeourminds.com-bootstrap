@@ -17,10 +17,10 @@
         {{ gallery_dict.description_html | safe }}</p>
       {% if gallery_dict.story_html %}
         <div class="text-center">
-          <a class="btn btn-success btn-md" id="toggle-story-html"
+          <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
             title="Show the story behind these images">See the Story</a>
         </div><!-- .text-center -->
-        <div id="story-html" style="display:none;">
+        <div id="story-html" class="som-text-to-toggle">
           {{ gallery_dict.story_html | safe }}
         </div><!-- #story-html -->
       {% endif %}
