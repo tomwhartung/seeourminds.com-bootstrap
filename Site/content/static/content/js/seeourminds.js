@@ -4,6 +4,30 @@
 var seeourminds = {};
 
 /**
+ * Set the name of the transition effect desired
+ * for each four letter type, to add some variety
+ * Note: the "pulsate" effect is a bit annoying.
+ */
+seeourminds.effect_for_type = {
+  'ENFJ': 'shake',
+  'ENFP': 'bounce',
+  'ENTJ': 'explode',
+  'ENTP': 'drop',
+  'ESFJ': 'puff',
+  'ESFP': 'explode',
+  'ESTJ': 'shake',
+  'ESTP': 'highlight',
+  'INFJ': 'blind',
+  'INFP': 'fold',
+  'INTJ': 'scale',
+  'INTP': 'fade',
+  'ISFJ': 'size',
+  'ISFP': 'slide',
+  'ISTJ': 'highlight',
+  'ISTP': 'clip',
+}
+
+/**
  * Set the name of the color corresponding to the
  * dominant function for each four letter type
  */
