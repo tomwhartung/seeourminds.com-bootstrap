@@ -4,6 +4,52 @@
 var seeourminds = {};
 
 /**
+ * Set the name of the color corresponding to the
+ * dominant function for each four letter type
+ */
+seeourminds.color_name_for_dom = {
+  'ENFJ': 'Red',
+  'ENFP': 'Blue',
+  'ENTJ': 'Green',
+  'ENTP': 'Blue',
+  'ESFJ': 'Red',
+  'ESFP': 'Yellow',
+  'ESTJ': 'Green',
+  'ESTP': 'Yellow',
+  'INFJ': 'Blue',
+  'INFP': 'Red',
+  'INTJ': 'Blue',
+  'INTP': 'Green',
+  'ISFJ': 'Yellow',
+  'ISFP': 'Red',
+  'ISTJ': 'Yellow',
+  'ISTP': 'Green',
+}
+
+/**
+ * Set the name of the color corresponding to the
+ * auxiliary function for each four letter type
+ */
+seeourminds.color_name_for_aux = {
+  'ENFJ': 'Blue',
+  'ENFP': 'Red',
+  'ENTJ': 'Blue',
+  'ENTP': 'Green',
+  'ESFJ': 'Yellow',
+  'ESFP': 'Red',
+  'ESTJ': 'Yellow',
+  'ESTP': 'Green',
+  'INFJ': 'Red',
+  'INFP': 'Blue',
+  'INTJ': 'Green',
+  'INTP': 'Blue',
+  'ISFJ': 'Red',
+  'ISFP': 'Yellow',
+  'ISTJ': 'Green',
+  'ISTP': 'Yellow',
+}
+
+/**
  * Set the bootstrap class for the color corresponding to the
  * dominant function for each four letter type
  */
