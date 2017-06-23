@@ -84,11 +84,17 @@
   {{ block.super }}
   {% if image_dict.explain_dom  %}
     <script>
+      // var toggle_text_effect = "clip";
+      // var toggle_text_effect = "clip";
+      // var toggle_text_effect = "explode";
+      // var toggle_text_effect = "fade";
+      var toggle_text_effect = "fold";
+      // var toggle_text_effect = "slide";
       /*
        * Event handler for the Toggle Story button:
        */
       $("#toggle-story-html").click(function() {
-        $("#story-html").toggle("slide", "slow");
+        $("#story-html").toggle(toggle_text_effect, "slow");
         var button_text = $("#toggle-story-html").text();
         if ( button_text.includes('See') ) {
           $("#toggle-story-html").removeClass("btn-success");
@@ -118,7 +124,7 @@
        * Event handler for the Explain Dominant Function button:
        */
       $("#toggle-explain-dom").click(function() {
-        $("#explain-dom").toggle("slide", "slow");
+        $("#explain-dom").toggle(toggle_text_effect, "slow");
         var button_text = $("#toggle-explain-dom").text();
         if ( button_text.includes('Explain') ) {
           $("#toggle-explain-dom").text("Hide Explanation");
@@ -130,7 +136,7 @@
        * Event handler for the Explain Auxiliary Function button:
        */
       $("#toggle-explain-aux").click(function() {
-        $("#explain-aux").toggle("slide", "slow");
+        $("#explain-aux").toggle(toggle_text_effect, "slow");
         var button_text = $("#toggle-explain-aux").text();
         if ( button_text.includes('Explain') ) {
           $("#toggle-explain-aux").text("Hide Explanation");
