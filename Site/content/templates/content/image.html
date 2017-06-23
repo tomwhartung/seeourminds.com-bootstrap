@@ -84,15 +84,10 @@
   {{ block.super }}
   {% if image_dict.explain_dom  %}
     <script>
-      // var toggle_text_effect = "clip";
-      // var toggle_text_effect = "clip";
-      // var toggle_text_effect = "explode";
-      // var toggle_text_effect = "fade";
-      var toggle_text_effect = "fold";
-      // var toggle_text_effect = "slide";
       /*
        * Event handler for the Toggle Story button:
        */
+      var toggle_text_effect = seeourminds.effect_for_type["{{ image_dict.four_letter_type }}"];
       $("#toggle-story-html").click(function() {
         $("#story-html").toggle(toggle_text_effect, "slow");
         var button_text = $("#toggle-story-html").text();
@@ -109,15 +104,15 @@
       /*
        * Set the color names for the dominant and auxiliary based on the type
        */
-      var color_name_for_dom = seeourminds.color_name_for_dom["{{ image_dict.four_letter_type }}"]
-      var color_name_for_aux = seeourminds.color_name_for_aux["{{ image_dict.four_letter_type }}"]
+      var color_name_for_dom = seeourminds.color_name_for_dom["{{ image_dict.four_letter_type }}"];
+      var color_name_for_aux = seeourminds.color_name_for_aux["{{ image_dict.four_letter_type }}"];
       $("#toggle-explain-dom").text("Explain the " + color_name_for_dom);
       $("#toggle-explain-aux").text("Explain the " + color_name_for_aux);
       /*
        * Set the bootstrap classes for the colors corresponding to the type
        */
-      var class_for_dom = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"]
-      var class_for_aux = seeourminds.bootstrap_class_for_aux["{{ image_dict.four_letter_type }}"]
+      var class_for_dom = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"];
+      var class_for_aux = seeourminds.bootstrap_class_for_aux["{{ image_dict.four_letter_type }}"];
       $("#toggle-explain-dom").addClass(class_for_dom);
       $("#toggle-explain-aux").addClass(class_for_aux);
       /*
