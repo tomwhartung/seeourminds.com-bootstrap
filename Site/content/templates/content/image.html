@@ -38,6 +38,14 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
+        {% if image_dict.story_html %}
+          <div class="text-center">
+            <a class="btn btn-success btn-md" id="toggle-story-html"
+              title="Show the story behind these images">See the Story</a>
+          </div><!-- .text-center -->
+          <div id="story-html" style="display:none;">
+            {{ image_dict.story_html | safe }}</div>
+        {% endif %}
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
@@ -77,6 +85,22 @@
   {% if image_dict.explain_dom  %}
     <script>
       /*
+       * Event handler for the Toggle Story button:
+       */
+      $("#toggle-story-html").click(function() {
+        $("#story-html").toggle("slide", "slow");
+        var button_text = $("#toggle-story-html").text();
+        if ( button_text.includes('See') ) {
+          $("#toggle-story-html").removeClass("btn-success");
+          $("#toggle-story-html").addClass("btn-danger");
+          $("#toggle-story-html").text("Hide the Story");
+        } else {
+          $("#toggle-story-html").removeClass("btn-danger");
+          $("#toggle-story-html").addClass("btn-success");
+          $("#toggle-story-html").text("See the Story");
+        }
+      });
+      /*
        * Set the color names for the dominant and auxiliary based on the type
        */
       var color_name_for_dom = seeourminds.color_name_for_dom["{{ image_dict.four_letter_type }}"]
@@ -94,7 +118,7 @@
        * Event handler for the Explain Dominant Function button:
        */
       $("#toggle-explain-dom").click(function() {
-        $("#explain-dom").slideToggle("slow");
+        $("#explain-dom").toggle("slide", "slow");
         var button_text = $("#toggle-explain-dom").text();
         if ( button_text.includes('Explain') ) {
           $("#toggle-explain-dom").text("Hide Explanation");
@@ -106,7 +130,7 @@
        * Event handler for the Explain Auxiliary Function button:
        */
       $("#toggle-explain-aux").click(function() {
-        $("#explain-aux").slideToggle("slow");
+        $("#explain-aux").toggle("slide", "slow");
         var button_text = $("#toggle-explain-aux").text();
         if ( button_text.includes('Explain') ) {
           $("#toggle-explain-aux").text("Hide Explanation");
