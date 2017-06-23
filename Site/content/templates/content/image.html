@@ -79,8 +79,7 @@
        * Set the bootstrap classes for the colors corresponding to the type
        */
       var class_for_dom = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"]
-      // var class_for_aux = seeourminds.bootstrap_class_for_aux["{{ image_dict.four_letter_type }}"]
-      var class_for_aux = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"]
+      var class_for_aux = seeourminds.bootstrap_class_for_aux["{{ image_dict.four_letter_type }}"]
       $("#toggle-explain-dom").addClass(class_for_dom);
       $("#toggle-explain-aux").addClass(class_for_aux);
       /*
@@ -90,12 +89,8 @@
         $("#explain-dom").slideToggle("slow");
         var button_text = $("#toggle-explain-dom").text();
         if ( button_text.includes('Explain') ) {
-          $("#toggle-explain-dom").removeClass("btn-success");
-          $("#toggle-explain-dom").addClass("btn-danger");
           $("#toggle-explain-dom").text("Hide Explanation");
         } else {
-          $("#toggle-explain-dom").removeClass("btn-danger");
-          $("#toggle-explain-dom").addClass("btn-success");
           $("#toggle-explain-dom").text("Explain Dominant Function");
         }
       });
@@ -106,12 +101,8 @@
         $("#explain-aux").slideToggle("slow");
         var button_text = $("#toggle-explain-aux").text();
         if ( button_text.includes('Explain') ) {
-          $("#toggle-explain-aux").removeClass("btn-success");
-          $("#toggle-explain-aux").addClass("btn-danger");
           $("#toggle-explain-aux").text("Hide Explanation");
         } else {
-          $("#toggle-explain-aux").removeClass("btn-danger");
-          $("#toggle-explain-aux").addClass("btn-success");
           $("#toggle-explain-aux").text("Explain Auxiliary Function");
         }
       });
