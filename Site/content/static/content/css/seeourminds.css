@@ -344,6 +344,28 @@ figcaption {
     width: 515px;
 }
 /*
+ * Create our own bootstrap button colors that match the colors in the images
+ */
+.btn-blue {
+  background: #0000FF;
+  color: #FFFFFF;
+}
+.btn-blue::hover, .btn-blue::selection {
+  color: #111111;
+}
+.btn-green {
+  background: #00FF00;
+  color: #000000;
+}
+.btn-red {
+  background: #FF0000;
+  color: #FFFFFF;
+}
+.btn-yellow {
+  background: #FFFF00;
+  color: #000000;
+}
+/*
  * =================
  * For the Quiz Page
  * =================
