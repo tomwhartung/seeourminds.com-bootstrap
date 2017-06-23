@@ -76,6 +76,13 @@
   {% if image_dict.explain_dom  %}
     <script>
       /*
+       * Set the color names for the dominant and auxiliary based on the type
+       */
+      var color_name_for_dom = seeourminds.color_name_for_dom["{{ image_dict.four_letter_type }}"]
+      var color_name_for_aux = seeourminds.color_name_for_aux["{{ image_dict.four_letter_type }}"]
+      $("#toggle-explain-dom").text("Explain the " + color_name_for_dom);
+      $("#toggle-explain-aux").text("Explain the " + color_name_for_aux);
+      /*
        * Set the bootstrap classes for the colors corresponding to the type
        */
       var class_for_dom = seeourminds.bootstrap_class_for_dom["{{ image_dict.four_letter_type }}"]
@@ -91,7 +98,7 @@
         if ( button_text.includes('Explain') ) {
           $("#toggle-explain-dom").text("Hide Explanation");
         } else {
-          $("#toggle-explain-dom").text("Explain Dominant Function");
+          $("#toggle-explain-dom").text("Explain the " + color_name_for_dom);
         }
       });
       /*
@@ -103,7 +110,7 @@
         if ( button_text.includes('Explain') ) {
           $("#toggle-explain-aux").text("Hide Explanation");
         } else {
-          $("#toggle-explain-aux").text("Explain Auxiliary Function");
+          $("#toggle-explain-aux").text("Explain the " + color_name_for_aux);
         }
       });
     </script>
