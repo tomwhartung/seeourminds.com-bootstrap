@@ -40,7 +40,7 @@
         {% endif %}
         {% if image_dict.story_html %}
           <div class="text-center">
-            <a class="btn btn-success btn-md" id="toggle-story-html"
+            <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
               title="Show the story behind these images">See the Story</a>
           </div><!-- .text-center -->
           <div id="story-html" style="display:none;">
@@ -49,12 +49,12 @@
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
-              <a class="btn btn-md" id="toggle-explain-dom"
+              <a class="btn btn-md som-btn-all" id="toggle-explain-dom"
                  title="Toggle explanation of how the image represents the dominant personality function">
                 Explain Dominant Color</a>
             {% endif %}
             {% if image_dict.explain_aux %}
-              <a class="btn btn-md" id="toggle-explain-aux"
+              <a class="btn btn-md som-btn-all" id="toggle-explain-aux"
                  title="Toggle explanation of how the image represents the auxiliary personality function">
                 Explain Auxiliary Color</a>
             {% endif %}
