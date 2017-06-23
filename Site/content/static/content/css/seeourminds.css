@@ -346,22 +346,22 @@ figcaption {
 /*
  * Create our own bootstrap button colors that match the colors in the images
  */
-.btn-blue {
+.som-btn-blue {
   background: #0000FF;
   color: #FFFFFF;
 }
-.btn-blue::hover, .btn-blue::selection {
+.som-btn-blue:hover, .som-btn-blue::selection {
   color: #111111;
 }
-.btn-green {
+.som-btn-green {
   background: #00FF00;
   color: #000000;
 }
-.btn-red {
+.som-btn-red {
   background: #FF0000;
   color: #FFFFFF;
 }
-.btn-yellow {
+.som-btn-yellow {
   background: #FFFF00;
   color: #000000;
 }
