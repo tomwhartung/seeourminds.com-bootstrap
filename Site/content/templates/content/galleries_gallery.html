@@ -99,7 +99,7 @@
       $("#toggle-story-html").click(function() {
         $("#story-html").slideToggle("slow");
         var button_text = $("#toggle-story-html").text();
-        if ( button_text === 'See the Story' ) {
+        if ( button_text.includes('See') ) {
           $("#toggle-story-html").removeClass("btn-success");
           $("#toggle-story-html").addClass("btn-danger");
           $("#toggle-story-html").text("Hide the Story");
