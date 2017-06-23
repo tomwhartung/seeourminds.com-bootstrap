@@ -38,26 +38,27 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
-        {% if image_dict.explain_dom  %}
+        {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
-            <a class="btn btn-md" id="toggle-explain-dom"
-              title="Toggle explanation of how the image represents the dominant personality function">
-              Explain Dominant Function</a>
+            {% if image_dict.explain_dom  %}
+              <a class="btn btn-md" id="toggle-explain-dom"
+                 title="Toggle explanation of how the image represents the dominant personality function">
+                Explain Dominant Color</a>
+            {% endif %}
+            {% if image_dict.explain_aux %}
+              <a class="btn btn-md" id="toggle-explain-aux"
+                 title="Toggle explanation of how the image represents the auxiliary personality function">
+                Explain Auxiliary Color</a>
+            {% endif %}
           </div><!-- .text-center -->
-          <p id="explain-dom" style="display:none;">
-            {{ image_dict.explain_dom }}</p>
-        {% endif %}
-        {% if image_dict.explain_aux  %}
-        <div class="text-center">
-          <a class="btn btn-md" id="toggle-explain-aux"
-            title="Toggle explanation of how the image represents the auxiliary personality function">
-            Explain Auxiliary Function</a>
-        </div><!-- .text-center -->
-        <p id="explain-aux" style="display:none;">
-          {{ image_dict.explain_aux }}</p>
-        {% endif %}
-        {% if image_dict.story_html %}
-          <p>{{ image_dict.story_html | safe }}</p>
+          {% if image_dict.explain_dom  %}
+            <p id="explain-dom" style="display:none;">
+              {{ image_dict.explain_dom }}</p>
+          {% endif %}
+          {% if image_dict.explain_aux %}
+            <p id="explain-aux" style="display:none;">
+              {{ image_dict.explain_aux }}</p>
+          {% endif %}
         {% endif %}
       </div><!-- .single-image -->
     </section><!-- #image -->
