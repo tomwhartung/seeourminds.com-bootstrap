@@ -43,7 +43,7 @@
             <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
               title="Show the story behind these images">See the Story</a>
           </div><!-- .text-center -->
-          <div id="story-html" style="display:none;">
+          <div id="story-html" class="som-text-to-toggle">
             {{ image_dict.story_html | safe }}</div>
         {% endif %}
         {% if image_dict.explain_dom or image_dict.explain_aux %}
@@ -60,11 +60,11 @@
             {% endif %}
           </div><!-- .text-center -->
           {% if image_dict.explain_dom  %}
-            <p id="explain-dom" style="display:none;">
+            <p id="explain-dom" class="som-text-to-toggle">
               {{ image_dict.explain_dom }}</p>
           {% endif %}
           {% if image_dict.explain_aux %}
-            <p id="explain-aux" style="display:none;">
+            <p id="explain-aux" class="som-text-to-toggle">
               {{ image_dict.explain_aux }}</p>
           {% endif %}
         {% endif %}
