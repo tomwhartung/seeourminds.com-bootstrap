@@ -346,6 +346,9 @@ figcaption {
 /*
  * Create our own bootstrap button colors that match the colors in the images
  */
+ .som-btn-all {
+   margin: .33em;
+ }
 .som-btn-blue {
   background: #0000FF;
   color: #FFFFFF;
@@ -364,6 +367,9 @@ figcaption {
 .som-btn-yellow {
   background: #FFFF00;
   color: #000000;
+}
+.som-text-to-toggle {
+  display: none;
 }
 /*
  * =================
