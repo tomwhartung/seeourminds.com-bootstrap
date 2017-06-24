@@ -106,6 +106,8 @@ class Gallery:
 
     """ Read in and work with all the images, etc. in a single gallery """
 
+    GALLERY_PAGE_TEXT_INTRO_LENGTH = 60
+
     def __init__(self, gallery_file_name=None):
         """ Read in all the json for the passed-in gallery_file_name """
         self.gallery_file_name = gallery_file_name
@@ -149,12 +151,24 @@ class Gallery:
         """
         image_file_directory = self.gallery_file_name
         image_file_dir = 'content/images/galleries/' + image_file_directory + '/'
-        for img in self.gallery_dict['image_list']:
-            img['image_file_path'] = image_file_dir + img['image_file_name']
-            img['image_link_href'] = '/image/' + \
-                self.gallery_file_name + '/' + img['id']
-            img['image_link_title'] = 'A larger copy of this image on a ' + \
+        for image_dict in self.gallery_dict['image_list']:
+            image_dict['image_file_path'] = image_file_dir + image_dict['image_file_name']
+            image_dict['image_link_href'] = '/image/' + \
+                self.gallery_file_name + '/' + image_dict['id']
+            image_dict['image_link_title'] = 'A larger copy of this image on a ' + \
                 'page featuring more information about it'
+        return self
+
+    def set_image_list_data(self):
+        """ Update the raw image list data for display on the gallery page """
+        self.set_image_link_values()
+        for image_dict in self.gallery_dict['image_list']:
+            gallery_page_teaser = image_dict['gallery_page_teaser']
+            image_dict['gallery_page_teaser_intro'] \
+                = gallery_page_teaser[:self.GALLERY_PAGE_TEXT_INTRO_LENGTH]
+            image_dict['gallery_page_teaser_remainder'] \
+                = gallery_page_teaser[self.GALLERY_PAGE_TEXT_INTRO_LENGTH:]
+            print('image_dict:', image_dict)
         return self
 
 
