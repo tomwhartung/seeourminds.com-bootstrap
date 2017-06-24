@@ -97,12 +97,9 @@
          * lpt-remainder text and both the "More" and "Less" links
          */
         $(".{{ gal_dict.gallery_file_name }}-lpt-link").on("click", function() {
-          $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").animate(
-            {opacity: 'toggle'}, "slow");
-          $("#{{ gal_dict.gallery_file_name }}-lpt-more").animate(
-            {opacity: 'toggle'}, "slow");
-          $("#{{ gal_dict.gallery_file_name }}-lpt-less").animate(
-            {opacity: 'toggle'}, "slow");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").toggle("fade", "slow");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-more").toggle("fade", "slow");
+          $("#{{ gal_dict.gallery_file_name }}-lpt-less").toggle("fade", "slow");
         });
       </script>
     {% endif %}
