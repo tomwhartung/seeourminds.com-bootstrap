@@ -307,6 +307,16 @@ ul.square-bullets {
     margin: .5em;
     padding: .5em;
 }
+
+/*
+ * =========================
+ * For the Gallery List page
+ * =========================
+ */
+.list-page-text-remainder,
+.list-page-less-link {
+  display: none;
+}
 /*
  * ====================
  * For the Gallery page
@@ -323,8 +333,8 @@ img.gallery-image {
     height: 125px;
     width: 125px;
 }
-.list-page-text-remainder,
-.list-page-less-link {
+.gallery-page-text-remainder,
+.gallery-page-less-link {
   display: none;
 }
 
