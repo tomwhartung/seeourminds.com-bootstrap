@@ -60,12 +60,12 @@
           {% spaceless %}
             <p class="list-page-teaser"
                id="{{ gal_dict.gallery_file_name }}-lpt-intro">
-              {{ gal_dict.list_page_teaser_intro }}<span
+              {{ gal_dict.list_page_teaser_intro }}<span class="list-page-text-remainder"
                 id="{{ gal_dict.gallery_file_name }}-lpt-remainder">{{ gal_dict.list_page_teaser_remainder }}
               </span>
               <a class="{{ gal_dict.gallery_file_name }}-lpt-link"
                  id="{{ gal_dict.gallery_file_name }}-lpt-more">.... [More]</a>
-              <a class="{{ gal_dict.gallery_file_name }}-lpt-link"
+              <a class="list-page-less-link {{ gal_dict.gallery_file_name }}-lpt-link"
                  id="{{ gal_dict.gallery_file_name }}-lpt-less"> [Less]</a>
             </p>
           {% endspaceless %}
@@ -92,13 +92,6 @@
   {% for gal_dict in galleries_list_obj.galleries_list_data %}
     {% if gal_dict.gallery_title != 'responsive_ad' %}
       <script>
-        /*
-         * Hide (toggle opacity) of the lpt-remainder and the "Less" link
-         */
-        $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").animate(
-          {opacity: 'toggle'}, "fast");
-        $("#{{ gal_dict.gallery_file_name }}-lpt-less").animate(
-          {opacity: 'toggle'}, "fast");
         /*
          * Add an on click event handler to toggle the opacity of the
          * lpt-remainder text and both the "More" and "Less" links
