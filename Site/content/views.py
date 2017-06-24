@@ -78,7 +78,7 @@ def gallery(request, gallery_file_name='None'):
         gallery_file_name = '0000-generic_images'
 
     this_gallery = Gallery(gallery_file_name)
-    this_gallery.set_image_link_values()
+    this_gallery.set_image_list_data()
     gallery_dict = this_gallery.gallery_dict
     title = gallery_dict.get('gallery_title')
 
