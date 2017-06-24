@@ -72,6 +72,20 @@
           {% elif image_dict.tweet_html %}
             <p>{{ image_dict.tweet_html }}</p>
           {% endif %}
+          {% if image_dict.gallery_page_teaser %}
+            {% spaceless %}
+              <p class="gallery-page-teaser"
+                 id="{{ image_dict.id }}-gpt-intro">
+                {{ image_dict.gallery_page_teaser_intro }}<span class="gallery-page-text-remainder"
+                  id="{{ image_dict.id }}-gpt-remainder">{{ image_dict.gallery_page_teaser_remainder }}
+                </span>
+                <a class="{{ image_dict.id }}-gpt-link"
+                   id="{{ image_dict.id }}-gpt-more">.... [More]</a>
+                <a class="gallery-page-less-link {{ image_dict.id }}-gpt-link"
+                   id="{{ image_dict.id }}-gpt-less"> [Less]</a>
+              </p>
+            {% endspaceless %}
+          {% endif %}
         </div><!-- .gallery-image -->
       </div><!-- .col-md-4 -->
     {% endif %}
@@ -110,6 +124,17 @@
     </script>
   {% endif %}
   {% for image_dict in gallery_dict.image_list %}
+    <script>
+      /*
+       * Add an on click event handler to toggle the opacity of the
+       * gpt-remainder text and both the "More" and "Less" links
+       */
+      $(".{{ image_dict.id }}-gpt-link").on("click", function() {
+        $("#{{ image_dict.id }}-gpt-remainder").toggle("fade", "slow");
+        $("#{{ image_dict.id }}-gpt-more").toggle("fade", "slow");
+        $("#{{ image_dict.id }}-gpt-less").toggle("fade", "slow");
+      });
+    </script>
     {% if image_dict.score %}
       <script>
         /*
