@@ -323,6 +323,10 @@ img.gallery-image {
     height: 125px;
     width: 125px;
 }
+.list-page-text-remainder,
+.list-page-less-link {
+  display: none;
+}
 
 /*
  * =========================
