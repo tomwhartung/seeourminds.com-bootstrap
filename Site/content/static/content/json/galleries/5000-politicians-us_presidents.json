@@ -9,7 +9,7 @@
     {
       "id": "5000",
       "title": "George Washington",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President of the USA - Apr. 30, 1789 to Mar. 4, 1797</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President</a> of the USA - Apr. 30, 1789 to Mar. 4, 1797",
       "image_file_name": "estj-george_washington.jpeg",
       "composition": "O",
       "score": [
@@ -21,11 +21,12 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "J",
+      "gallery_page_teaser": "The Green and Yellow in this spiritual portrait of George Washington shows that he was a strong leader.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "In his book <i>Please Understand Me II,<\/i> David Keirsey picks George Washington to represent the archetypal ESTJ.  The green vertical line in the portrait represents Washington's logical decision-making and the yellow represents his practical and down-to-earth views.  This decisiveness and awareness served him well during difficult times, such as those at Valley Forge."
+      "story_html": "<p>In his book <i>Please Understand Me II,<\/i> David Keirsey picks George Washington to represent the archetypal ESTJ.  His decisiveness, realism, and attention to details served him well during difficult times, such as those at Valley Forge.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "explain_dom": "The Green in this image represents Washington's rationality.  In Extraverts, the dominant function is directed outwardly.  He was a strong leader and his tendency to be logical enabled him to keep a cool head during the many trials and difficulties he expereicned in leading the Continental Army during the American Revolution.",
+      "explain_aux": "The Yellow in this image represents Washington's tendency to be down-to-earth.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  Being able to keep track of things like the number of men and the supplies they would need contributed greatly to his ability to be a great leader."
     }, {
       "id": "5003",
       "title": "medium_rectangle_ad",
@@ -39,6 +40,7 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "",
@@ -47,7 +49,7 @@
     }, {
       "id": "5006",
       "title": "Thomas Jefferson",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President of the USA - Mar. 4, 1801 to Mar. 4, 1809</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President</a> of the USA - Mar. 4, 1801 to Mar. 4, 1809",
       "image_file_name": "intj-thomas_jefferson.jpeg",
       "composition": "O",
       "score": [
@@ -59,15 +61,16 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
+      "gallery_page_teaser": "The Blue and Green in this portrait of Thomas Jefferson shows that he was a logical thinker and open to new ideas.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "David Keirsey identifies Jefferson as an INTP.  The Blue in the portrait represents his Idealism and the Green his Logical decision making.  These characteristics are evident in his interests in topics such as philosophy, science and technology."
+      "story_html": "<p>David Keirsey identifies Jefferson as an INTP.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "explain_dom": "The Green in this image represents Jefferson's tendency to be logical.  In Introverts, the dominant function is directed inwardly.  This preference is evident in his interests in topics such as philosophy, science, and technology.",
+      "explain_aux": "The Blue in this image represents Jefferson's idealism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This tendency is evident in his authoring of the Declaration of Independence and his support of religious freedom and being able to see the possibility that people with different religious beliefs could overcome their differences and learn to live together."
     }, {
       "id": "5010",
       "title": "Abraham Lincoln",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President of the USA - Mar. 4, 1861 to Apr. 15, 1865</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President</a> of the USA - Mar. 4, 1861 to Apr. 15, 1865",
       "image_file_name": "intp-abraham_lincoln.jpeg",
       "composition": "O",
       "score": [
@@ -79,11 +82,12 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
+      "gallery_page_teaser": "The Blue and Green in this portrait of Abraham Lincoln show that he was, like Jefferson, a logical person and open to new ideas.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "David Keirsey identifies Abraham Lincoln as an INTP. The Blue in the portrait represents his Idealism and the Green his Logical decision making.  His Idealism is evident in his speeches, such as the Gettysburg address and his Logic surely served him well during the time he spent as a lawyer."
+      "explain_dom": "In Introverts, the dominant function is directed inwardly.",
+      "explain_aux": "In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
+      "story_html": "<p>David Keirsey identifies Abraham Lincoln as an INTP. The Blue in the portrait represents his Idealism and the Green his Logical decision making.  His Idealism is evident in his speeches, such as the Gettysburg address and his Logic surely served him well during the time he spent as a lawyer.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>"
     }, {
       "id": "5013",
       "title": "responsive_ad",
@@ -97,6 +101,7 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "",
@@ -105,7 +110,7 @@
    }, {
       "id": "5020",
       "title": "George Herbert Walker Bush",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President of the USA - Jan. 20, 1989 to Jan. 20 1993</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA - Jan. 20, 1989 to Jan. 20 1993",
       "image_file_name": "istj-george_h_w_bush-41st_president.jpeg",
       "composition": "O",
       "score": [
@@ -117,15 +122,16 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "K",
+      "gallery_page_teaser": "The preponderance of Green in this spiritual portrait of George Herbert Walker Bush (George W.'s father) shows that he is a very logical thinker.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "When I wrote the original version of this program (for grad school in 1988) sometimes we would fill out the Keirsey Temperament Sorter guessing how famous people might answer the questions.  This is a portrait of George H. W. Bush, the 41st president (1989-1993) and father of George W. Bush, the 43rd president.  The Green shows that he is a very Logical person and the Yellow shows that he is very Pragmatic and down-to-earth."
+      "story_html": "When I wrote the original version of this program (for grad school in 1988) sometimes we would fill out the Keirsey Temperament Sorter guessing how famous people might answer the questions.  This is a portrait of George H. W. Bush, the 41st president (1989-1993) and father of George W. Bush, the 43rd president.  The Green shows that he is a very Logical person and the Yellow shows that he is very Pragmatic and down-to-earth.",
+      "explain_dom": "In Introverts, the dominant function is directed inwardly.",
+      "explain_aux": "In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function."
     }, {
       "id": "5023",
       "title": "Bill Clinton",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President of the USA - Jan. 20, 1993 to Jan. 20, 2001</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President</a> of the USA - Jan. 20, 1993 to Jan. 20, 2001",
       "image_file_name": "enfp-bill_clinton.jpeg",
       "composition": "O",
       "score": [
@@ -137,11 +143,12 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
+      "gallery_page_teaser": "The Blue and Red in this spiritual portrait of Bill Clinton shows that he is idealistic and desires harmonious human relationships.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "This article at personalitydesk.com claims that Bill Clinton is an ENFP: http:\/\/www.personalitydesk.com\/enfp-type-description.php .  The Blue represents his Idealistic view and the Red represents his Emotion.  These traits are evident in his enthusiasm, compassion, and love of freedom."
+      "story_html": "<p>This article at personalitydesk.com claims that Bill Clinton is an ENFP: http:\/\/www.personalitydesk.com\/enfp-type-description.php .  The Blue represents his Idealistic view and the Red represents his Emotion.  These traits are evident in his enthusiasm, compassion, and love of freedom.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
+      "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
     }, {
       "id": "5026",
       "title": "responsive_ad",
@@ -155,6 +162,7 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "",
@@ -163,7 +171,7 @@
     }, {
       "id": "5030",
       "title": "George W. Bush",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_W._Bush' target='_blank' title='Wikipedia page for George W. Bush'>43rd President of the USA - Jan. 20, 2001 to Jan. 20, 2009</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_W._Bush' target='_blank' title='Wikipedia page for George W. Bush'>43rd President</a> of the USA - Jan. 20, 2001 to Jan. 20, 2009",
       "image_file_name": "estp-george_w_bush.jpeg",
       "composition": "O",
       "score": [
@@ -175,15 +183,16 @@
       "four_letter_type": "ESTP",
       "archetype": "Se",
       "quiz_type": "J",
+      "gallery_page_teaser": "The Yellow and Green in this image of George W. Bush shows that he is down-to-earth and logical thinker.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "This article claims that George W. Bush is an ESTP: http:\/\/www.slate.com\/id\/2184696\/ .  It also claims that 'They are a common presidential type: Both Roosevelts, JFK, and LBJ were ESTPs.'  The Yellow in the image represents their down-to-earth Pragmatism, and the Green represents their use of Logic when making decisions."
+      "story_html": "<p>This article claims that George W. Bush is an ESTP: http:\/\/www.slate.com\/id\/2184696\/ .  It also claims that 'They are a common presidential type: Both Roosevelts, JFK, and LBJ were ESTPs.'  The Yellow in the image represents their down-to-earth Pragmatism, and the Green represents their use of Logic when making decisions.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
+      "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
     }, {
       "id": "5033",
       "title": "Barack Obama",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>44th President of the USA - Jan. 20, 2009 to Jan. 20, 2017</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>44th President</a> of the USA - Jan. 20, 2009 to Jan. 20, 2017",
       "image_file_name": "enfp-barack_obama.jpeg",
       "composition": "O",
       "score": [
@@ -195,11 +204,12 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
+      "gallery_page_teaser": "The Blue and Red in this spiritual portrait of Barack Obama shows that he is open to new possibilities and desires harmonious human relationships.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "This article claims Barack Obama is an ENFP: http:\/\/www.slate.com\/id\/2184696\/ , and we believe this is a reasonable and believable assessment.  The Blue in the image represents his Idealism and hope for the future, and the Red represents his Emotion.  Both of these qualities are evident in his support of legislation supporting making health care available to all people."
+      "story_html": "<p>This article claims Barack Obama is an ENFP: http:\/\/www.slate.com\/id\/2184696\/ , and we believe this is a reasonable and believable assessment.  The Blue in the image represents his Idealism and hope for the future, and the Red represents his Emotion.  Both of these qualities are evident in his support of legislation supporting making health care available to all people.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
+      "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
     }, {
       "id": "5036",
       "title": "responsive_ad",
@@ -213,6 +223,7 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "",
@@ -231,6 +242,7 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "",
