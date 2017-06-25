@@ -43,9 +43,9 @@
       "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "5006",
       "title": "Thomas Jefferson",
@@ -64,7 +64,7 @@
       "gallery_page_teaser": "The Blue and Green in this portrait of Thomas Jefferson shows that he was a logical thinker and open to new ideas.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "<p>David Keirsey identifies Jefferson as an INTP.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "story_html": "<p>I find Jefferson to be remarkable in many ways, certainly at least in part because his name was the same as mine ('Tom') and he was from Virginia (where I grew up).  David Keirsey identifies Jefferson as an INTP, and that certainly seems reasonable to me.</p><p>Although we should all be familiar with the <a href='http://www.ushistory.org/declaration/document/' title='Full text of the Declaration of Independence at ushistory.org' target='_blank'>Declaration of Independence</a>, a letter he wrote to <a href='https://en.wikipedia.org/wiki/Maria_Cosway' title='Wikipedia page for Maria Cosway' target='_blank'>Maria Cosway</a> in the spring of 1786 articulates quite well the distinction between Thinking (Green) and Feeling (Red) functions in these four-letter-types.</p><p>Entitled <a href='http://www.pbs.org/jefferson/archives/documents/frame_ih195811.htm' title='Copy of the My Head and My Heart letter at in the archives at pbs.org' target='_blank'>My Head and My Heart</a>, it demonstrates how he was well aware of, and struggled with, the dichotomy between reason and emotion over a century before Carl Jung wrote about them in his book, <a href='https://archive.org/details/PsychologicalTypes' title='Link to the book by Jung at archive.org' target='_blank'>General Description of the Types</a>.  This is a <a href='https://founders.archives.gov/documents/Jefferson/01-10-02-0309' title='Link to a copy of the letter at founders.archives.gov' target='_blank'>wonderful letter</a>, and I strongly encourage you to read it!</p><p>Note that this is a portrait of a 'generic' INTP, and is based on fixed percentages.  Based on this letter I believe that Jefferson's F-T score on the quiz could be closer to 50%/50% than the 58%/42% shown here.</p>",
       "explain_dom": "The Green in this image represents Jefferson's tendency to be logical.  In Introverts, the dominant function is directed inwardly.  This preference is evident in his interests in topics such as philosophy, science, and technology.",
       "explain_aux": "The Blue in this image represents Jefferson's idealism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This tendency is evident in his authoring of the Declaration of Independence and his support of religious freedom and being able to see the possibility that people with different religious beliefs could overcome their differences and learn to live together."
     }, {
@@ -85,9 +85,9 @@
       "gallery_page_teaser": "The Blue and Green in this portrait of Abraham Lincoln show that he was, like Jefferson, a logical person and open to new ideas.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "In Introverts, the dominant function is directed inwardly.",
-      "explain_aux": "In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
-      "story_html": "<p>David Keirsey identifies Abraham Lincoln as an INTP. The Blue in the portrait represents his Idealism and the Green his Logical decision making.  His Idealism is evident in his speeches, such as the Gettysburg address and his Logic surely served him well during the time he spent as a lawyer.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>"
+      "story_html": "<p>David Keirsey identifies Abraham Lincoln as an INTP. The Blue in the portrait represents his Idealism and the Green his Logical decision making.  His Idealism is evident in his speeches, such as the Gettysburg address and his Logic surely served him well during the time he spent as a lawyer.</p><p>Note that this is a 'generic' image, based on fixed percentages.</p>",
+      "explain_dom": "The Green in this image represents Lincoln's preference for logic over emotion.  In Introverts, the dominant function is directed inwardly.",
+      "explain_aux": "In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function."
     }, {
       "id": "5013",
       "title": "responsive_ad",
@@ -104,9 +104,9 @@
       "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
    }, {
       "id": "5020",
       "title": "George Herbert Walker Bush",
@@ -165,9 +165,9 @@
       "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "5030",
       "title": "George W. Bush",
@@ -226,9 +226,9 @@
       "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "5037",
       "title": "responsive_ad",
@@ -245,9 +245,9 @@
       "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }
   ]
 }
