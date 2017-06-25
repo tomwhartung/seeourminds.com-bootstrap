@@ -150,13 +150,15 @@ class Gallery:
         NOTE: the image_file_directory equals the passed-in gallery_file_name!
         """
         image_file_directory = self.gallery_file_name
-        image_file_dir = 'content/images/galleries/' + image_file_directory + '/'
+        image_file_dir = 'content/images/galleries/' \
+            + image_file_directory + '/'
         for image_dict in self.gallery_dict['image_list']:
-            image_dict['image_file_path'] = image_file_dir + image_dict['image_file_name']
-            image_dict['image_link_href'] = '/image/' + \
-                self.gallery_file_name + '/' + image_dict['id']
-            image_dict['image_link_title'] = 'A larger copy of this image on a ' + \
-                'page featuring more information about it'
+            image_dict['image_file_path'] = image_file_dir \
+                + image_dict['image_file_name']
+            image_dict['image_link_href'] = '/image/' \
+                + self.gallery_file_name + '/' + image_dict['id']
+            image_dict['image_link_title'] = 'Click to see a larger copy of ' \
+                + 'this image on a page with more information about it'
         return self
 
     def set_image_list_data(self):
