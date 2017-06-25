@@ -8,8 +8,8 @@
   [
     {
       "id": "2300",
-      "title": "Special Agent Fox Mulder",
-      "subtitle_html": "",
+      "title": "Fox Mulder",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Fox_Mulder' title='Wikipedia page for Fox Mulder' target='_blank'>FBI Special Agent</a> - The X-Files",
       "image_file_name": "infp-agent_fox_mulder-x_files.jpeg",
       "composition": "O",
       "score": [
@@ -21,12 +21,12 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "Q",
-      "gallery_page_teaser": "The Blue shows that Agent Mulder is open to all sorts of possibilities, and the Red shows he can have strong 'gut feelings.'  Click on the image to learn more!",
+      "gallery_page_teaser": "The Blue in this image shows that Agent Mulder is open to all sorts of possibilities, and the Red shows he can have strong 'gut feelings.'  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Red in this image represent Agent Mulder's dominant function, Feeling.  In Introverts, the dominant function is directed inwardly.  His feelings show in the strong emotions he exhibits towards the people he is closest to, his sister Samantha Mulder and his partner, Special Agent Dana Scully.",
+      "explain_dom": "The Red in this image represents Agent Mulder's dominant function, Feeling.  In Introverts, the dominant function is directed inwardly.  His feelings show in the strong emotions he exhibits towards the people he is closest to, his sister Samantha Mulder and his partner, Special Agent Dana Scully.",
       "explain_aux": "The Blue in this image represents Agent Mulder's auxiliary function, his iNtuition.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This fuels his curiosity about aliens, the paranormal, and all the other 'spooky' things his more down-to-earth colleagues remain skeptical about.",
-      "story_html": "<p>I always found it easier to relate to <a href='https://en.wikipedia.org/wiki/Fox_Mulder' title='Page for Special Agent Fox Mulder on wikipedia.org' target='_blank'>Special Agent Fox Mulder</a> than to most other law enforcement characters, both fictional and in real life.  However, I was still suprised to learn that he's an INFP - like me!</p><p>It can be difficult to imagine how someone like him would want to pursue a career in law enforcement, but it's easy to see how Mulder would do something like this when we learn about his sister <a href='https://en.wikipedia.org/wiki/Samantha_Mulder' title='Wikipedia page for Samantha Mulder' target='_blank'>Samantha</a>.  His feelings for her dominate his life and explain why he made his uncharacteristic career choice.</p>"
+      "story_html": "<p>I always found it easier to relate to <a href='https://en.wikipedia.org/wiki/Fox_Mulder' title='Wikipedia page for Special Agent Fox Mulder' target='_blank'>Special Agent Fox Mulder</a> than to most other law enforcement characters, both fictional and in real life.  However, I was still suprised to learn that he's an INFP - like me!</p><p>It can be difficult to imagine how someone like him would want to pursue a career in law enforcement, but it's easy to see how Mulder would do something like this when we learn about his sister <a href='https://en.wikipedia.org/wiki/Samantha_Mulder' title='Wikipedia page for Samantha Mulder' target='_blank'>Samantha</a>.  His feelings for her dominate his life and explain why he made his uncharacteristic career choice.</p>"
     }, {
       "id": "2310",
       "title": "square_ad",
@@ -48,8 +48,8 @@
       "story_html": ""
     }, {
       "id": "2320",
-      "title": "Special Agent Dana Scully",
-      "subtitle_html": "",
+      "title": "Dana Scully",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Dana_Scully' title='Wikipedia page for Dana Scully' target='_blank'>FBI Special Agent</a> - The X-Files",
       "image_file_name": "estj-agent_dana_scully-x_files.jpeg",
       "composition": "O",
       "score": [
@@ -61,7 +61,7 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "Q",
-      "gallery_page_teaser": "The Green show that Agent Scully is more logical than emotional, and the yellow shows she is more down-to-earth than speculative.  Click on the image to learn more!",
+      "gallery_page_teaser": "The Green in this image shows that Agent Scully is more logical than emotional, and the Yellow shows she is more down-to-earth than speculative.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Green in this image represents Agent Scully's rationality, and this makes perfect sense for someone with her background in science and medicine.  In Extraverts, the dominant function is directed outwardly, and is the side of their personality that is most evident.",
