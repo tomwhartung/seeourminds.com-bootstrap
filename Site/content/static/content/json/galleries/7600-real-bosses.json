@@ -2,8 +2,8 @@
   "gallery_title": "Former Bosses",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Long ago and far away I was hired by one boss, who liked me, then transferred to work for a different boss, who didn't like me.  Contrast the images of these two bosses with one of my Self-Portraits.",
-  "description_html": "<p>This gallery contains images of a couple of my bosses at a job I had long long ago in a place far far away.  One of them liked me, and the other did not.</p><p>It's definitely not easy to work for a boss who doesn't like you!  I eventually learned from a third manager that these two argued a lot.</p><p>I do not feel it would be appropriate to share either of their names, and I hope this minimal story is enough to add context to the images, which show a fairly large contrast between the two, despite the fact that both are 'xNFx's.</p>",
-  "story_html": "",
+  "description_html": "<p>This gallery contains images of a couple of my bosses at a job I had long long ago in a place far far away.  One of them liked me, and the other did not.</p>",
+  "story_html": "<p>It's definitely not easy to work for a boss who doesn't like you!  I eventually learned from a third manager that these two argued a lot.</p><p>I do not feel it would be appropriate to share either of their names, and I hope this minimal story is enough to add context to the images, which show a fairly large contrast between the two people, despite the fact that both are 'xNFx's.</p>",
   "image_list":
   [
     {
@@ -19,15 +19,16 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "7620",
-      "title": "A Boss Who Liked Me",
-      "subtitle_html": "",
+      "title": "Manager A",
+      "subtitle_html": "A Boss Who Liked Me",
       "image_file_name": "enfp-manager_a-a_boss_who_liked_me.jpeg",
       "composition": "O",
       "score": [
@@ -39,15 +40,16 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "K",
+      "gallery_page_teaser": "A portrait like this, that has a mix of colors, usually indicates a well-rounded individual.  (The exception is when the image is based on just a four-letter-type and hence fixed percentages).  Click on the image to learn more.",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "Once upon a time long long ago in a faraway place I was hired by Manager A. After about three months the department reorganized and I found myself working for Manager B. It turned out to be a challenging job, sometimes I felt I could not do anything right! Much later, I found out from Manager C that Manager A and Manager B argued a lot. Then I remembered that Manager A had hired me while Manager B was on vacation!!  This is an image of Manager A, who was very friendly to me."
+      "story_html": "Once upon a time long long ago in a faraway place I was hired by Manager A. After about three months the department reorganized and I found myself working for Manager B. It turned out to be a challenging job, sometimes I felt I could not do anything right! Much later, I found out from Manager C that Manager A and Manager B argued a lot. Then I remembered that Manager A had hired me while Manager B was on vacation!!  This is an image of Manager A, who was very friendly to me.",
+      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
+      "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
     }, {
       "id": "7630",
-      "title": "A Boss Who Didn't Like Me",
-      "subtitle_html": "",
+      "title": "Manager B",
+      "subtitle_html": "A Boss Who Didn't Like Me",
       "image_file_name": "infj-manager_b-a_boss_who_did_not_like_me.jpeg",
       "composition": "O",
       "score": [
@@ -59,11 +61,12 @@
       "four_letter_type": "INFJ",
       "archetype": "Ni",
       "quiz_type": "K",
+      "gallery_page_teaser": "A portrait like this, that has a preponderance of a single color, indicates someone who is strong in one area, but as a result of this focused strength, weak in others.  Click on the image to learn more.",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "Once upon a time long long ago in a faraway place I was hired by Manager A. After about three months the department reorganized and I found myself working for Manager B. It turned out to be a challenging job, sometimes I felt I could not do anything right! Much later, I found out from Manager C that Manager A and Manager B argued a lot. Then I remembered that Manager A had hired me while Manager B was on vacation!!  The red in this image of Manager B makes it obvious to me that, Manager B had such strong feelings and after the reorg I never really had a chance."
+      "story_html": "Once upon a time long long ago in a faraway place I was hired by Manager A. After about three months the department reorganized and I found myself working for Manager B. It turned out to be a challenging job, sometimes I felt I could not do anything right! Much later, I found out from Manager C that Manager A and Manager B argued a lot. Then I remembered that Manager A had hired me while Manager B was on vacation!!  The red in this image of Manager B makes it obvious to me that, Manager B had such strong feelings and after the reorg I never really had a chance.",
+      "explain_dom": "In Introverts, the dominant function is directed inwardly.",
+      "explain_aux": "In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function."
     }, {
       "id": "7640",
       "title": "responsive_ad",
@@ -77,11 +80,12 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "7643",
       "title": "square_ad",
@@ -95,11 +99,12 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "7646",
       "title": "responsive_ad",
@@ -113,11 +118,12 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }
   ]
 }
