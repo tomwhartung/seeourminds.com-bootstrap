@@ -9,7 +9,7 @@
     {
       "id": "5100",
       "title": "Hillary Clinton",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>Presidential Contender</a>",
+      "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>2008 and 2016</a>",
       "image_file_name": "estj-hillary_clinton.jpeg",
       "composition": "O",
       "score": [
@@ -24,13 +24,13 @@
       "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "This article claims she is an ESTJ, sort of: http://www.celebritytypes.com/estj.php (there is some disagreement, and she self-identifies as an Introvert), and this article at slate.com also claims that Hillary is an ESTJ: http:\/\/www.slate.com\/id\/2184696\/ , and this seems reasonable and believable.  The Green represents her Logical decision-making and the Yellow represents her Pragmatic views.  These traits are evident in her reliability, devotion, attention to detail, and willingness to take charge.",
-      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
-      "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
+      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that Hillary is an ESTJ' target='_blank'> article at slate.com</a> claims that Hillary is an ESTJ.  This <a href='http://www.celebritytypes.com/estj.php' title='Link article at celebritytypes.com that also claims she is an ESTJ' target='_blank'</a>article at celebritytypes.com</a> also claims she is an ESTJ, but makes it evident there is some disagreement about this.</p><p>Importantly, the second article notes that she self-identifies as an Introvert.</p><p>As an Introvert myself, it is difficult to imagine running for president, and constantly being in the limelight, especially against an Extravert like Donald Trump.  She certainly has earned my respect for giving it a go, and I feel it's very important to note that even though she obviously had a significant number of things working against her, she did win the popular vote.</p>",
+      "explain_dom": "The Green represents her preference to make logical decisions.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This trait is evident in her decision to pursue a law degree at Yale University.",
+      "explain_aux": "The Yellow represents her pragmatism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  This trait is evident in her willingness to take 'hawkish' stances with regard to military measures."
     }, {
       "id": "5110",
       "title": "John McCain",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_McCain' target='_blank' title='Wikipedia page for John McCain'>Presidential Contender</a>",
+      "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/John_McCain' target='_blank' title='Wikipedia page for John McCain'>2000 and 2008</a>",
       "image_file_name": "estp-john_mccain.jpeg",
       "composition": "O",
       "score": [
@@ -46,12 +46,12 @@
       "subject_line": "",
       "tweet_html": "",
       "story_html": "This article at Slate claims that John McCain is an ESTP: http:\/\/www.slate.com\/id\/2184696\/ , and that sounds reasonable and believable to us.  The Yellow represents his Pragmatic views and the Green represents his Logical decision making.  Both of these traits are evident in his practicality and willingness to take risks.",
-      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
+      "explain_dom": "In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
       "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
     }, {
       "id": "5120",
       "title": "Ralph Nader",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ralph_Nader' target='_blank' title='Wikipedia page for Ralph Nader'>Presidential Contender</a>",
+      "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/Ralph_Nader' target='_blank' title='Wikipedia page for Ralph Nader'>1972-2008</a>",
       "image_file_name": "enfj-ralph_nader.jpeg",
       "composition": "O",
       "score": [
@@ -67,7 +67,7 @@
       "subject_line": "",
       "tweet_html": "",
       "story_html": "According to keirsey.com, Ralph Nader is an ENFJ.  The Blue in the image represents his Idealism, and the Red represents his Emotional decision making.  These traits are evident in his political views, such as his hope for the future and concern for people.",
-      "explain_dom": "In Extraverts, the dominant function is directed outwardly.  ",
+      "explain_dom": "In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
       "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
     }, {
       "id": "5130",
