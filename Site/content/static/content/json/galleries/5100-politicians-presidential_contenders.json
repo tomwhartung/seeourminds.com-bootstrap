@@ -2,8 +2,8 @@
   "gallery_title": "Presidential Contenders",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Not everyone who runs for president wins.  See the images of several recent contenders for this office who did not win, and compare them to the images of the winners in the Presidents gallery.",
-  "description_html": "<p>These are images of some candidates who have recently run for <a href='https://en.wikipedia.org/wiki/President_of_the_United_States' title='Wikipedia page describing the office of President of the United States' target='_blank'>President of the United States</a> and lost.</p>",
-  "story_html": "<p>Did one of your favorite candidates recently lose a presidential election?  If so, was their personality type more similar to yours than the winner?</p><p>Or do you think this personality type stuff is irrelevant to your politics?  Perhaps your voting habits are based strictly a candidate's political party, or their ideology or stance on a specific issue that has nothing to do with these preferences?</p><p>My hope is that sharing these images will help you answer these questions for yourself!</p>",
+  "description_html": "<p>These are images of some candidates who have recently run for <a href='https://en.wikipedia.org/wiki/President_of_the_United_States' title='Wikipedia page describing the office of President of the United States' target='_blank'>President of the United States</a> and lost.</p><p>It is important to note that all of the images in this gallery are based on a four-letter-types, and are therefore of 'generic' personalities using fixed percentages.",
+  "story_html": "<p>Did one of your favorite candidates recently lose a presidential election?  If so, was their personality type more similar to yours than the winner?</p><p>Are you someone who thinks those who run as a candidate of one of the two major parties offer no real choice, and that third parties offer the best options?  (If so, you might find this gallery particularly enlightening!)</p><p>Or do you think this personality type stuff is irrelevant to your politics?  Perhaps your voting habits are based strictly a candidate's political party, or their ideology or stance on a specific issue that has nothing to do with these preferences?</p><p>My hope is that sharing these images will help you answer these questions for yourself!</p>",
   "image_list":
   [
     {
@@ -21,10 +21,10 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "gallery_page_teaser": "Click on the image to learn more!",
+      "gallery_page_teaser": "Some articles claim that Hillary is an ESTJ, but this may not actually be true.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that Hillary is an ESTJ' target='_blank'> article at slate.com</a> claims that Hillary is an ESTJ.  This <a href='http://www.celebritytypes.com/estj.php' title='Link article at celebritytypes.com that also claims she is an ESTJ' target='_blank'</a>article at celebritytypes.com</a> also claims she is an ESTJ, but makes it evident there is some disagreement about this.</p><p>Importantly, the second article notes that she self-identifies as an Introvert.</p><p>As an Introvert myself, it is difficult to imagine running for president, and constantly being in the limelight, especially against an Extravert like Donald Trump.  She certainly has earned my respect for giving it a go, and I feel it's very important to note that even though she obviously had a significant number of things working against her, she did win the popular vote.</p>",
+      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that Hillary is an ESTJ' target='_blank'> article at slate.com</a> claims that Hillary is an ESTJ.  This <a href='http://www.celebritytypes.com/estj.php' title='Link article at celebritytypes.com that also claims she is an ESTJ' target='_blank'</a>article at celebritytypes.com</a> also claims she is an ESTJ, but makes it evident there is some disagreement about this.</p><p>Importantly, the second article notes that she self-identifies as an Introvert.</p><p>As an Introvert myself, it is difficult to imagine running for president, and constantly being in the limelight, especially against an Extravert like Donald Trump.  She certainly has earned my respect for giving it a go, and I feel it's very important to note that even though she obviously had a significant number of things working against her, she did win the popular vote.</p><p>Note that this is an image of a 'generic' personality, and is based on a four-letter-type (fixed percentages) only.</p>",
       "explain_dom": "The Green represents her preference to make logical decisions.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This trait is evident in her decision to pursue a law degree at Yale University.",
       "explain_aux": "The Yellow represents her pragmatism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  This trait is evident in her willingness to take 'hawkish' stances with regard to military measures."
     }, {
@@ -45,7 +45,7 @@
       "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that John is an ESTP' target='_blank'>article at slate.com</a>claims that John McCain is an ESTP, and that sounds reasonable.",
+      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that John is an ESTP' target='_blank'>article at slate.com</a> claims that John McCain is an ESTP, and that sounds reasonable.</p><p>Note that this is an image of a 'generic' personality, and is based on a four-letter-type (fixed percentages) only.</p>",
       "explain_dom": "The Yellow in this spiritual portrait represents McCain's pragmatism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This preference is apparent in his practicality.",
       "explain_aux": "The Green in this spiritual portrait represents McCain's preference for making logical decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  This preference is apparent in his willingness to take risks."
     }, {
@@ -66,9 +66,9 @@
       "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "According to keirsey.com, Ralph Nader is an ENFJ.  The Blue in the image represents his Idealism, and the Red represents his Emotional decision making.  These traits are evident in his political views, such as his hope for the future and concern for people.",
-      "explain_dom": "In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
-      "explain_aux": "In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  "
+      "story_html": "<p>According to this page about the <a href='http://www.keirsey.com/4temps/teacher.aspx' title='This page about the ENFJ Teacher temperament at keirsey.com' target='_blank'>ENFJ Teacher temperament at keirsey.com</a>, Ralph Nader is an ENFJ, and this certainly sounds reasonable.</p><p>Note that this is an image of a 'generic' personality, and is based on a four-letter-type (fixed percentages) only.</p>",
+      "explain_dom": "The Blue in this image represents Ralph's idealism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This trait is evident in his hope for a more compassionate future.",
+      "explain_aux": "The Red in this image represents Ralph's preference for using his emotions for making decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  This trait is evident in his concern about people over large corporations."
     }, {
       "id": "5130",
       "title": "responsive_ad",
