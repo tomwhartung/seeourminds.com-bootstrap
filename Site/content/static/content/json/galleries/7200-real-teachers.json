@@ -7,25 +7,26 @@
   "image_list":
   [
     {
-      "id": "7220",
-      "title": "Dr. Loren Carrier",
-      "subtitle_html": "",
-      "image_file_name": "intp-dr_loren_carrier-electronic_music_teacher.jpeg",
+      "id": "7210",
+      "title": "Walter Wright",
+      "subtitle_html": "Graphics Design Teacher at <a href='https://www.vcu.edu' title='Link to the home page at vcu.edu' target='_blank'>VCU</a>",
+      "image_file_name": "intp-walter_wright-computer_graphics_design_teacher.jpeg",
       "composition": "O",
       "score": [
-        { "e_score": "4", "i_score": "15" },
-        { "n_score": "18", "s_score": "1" },
+        { "e_score": "9", "i_score": "10" },
+        { "n_score": "17", "s_score": "2" },
         { "f_score": "9", "t_score": "10" },
-        { "j_score": "4", "p_score": "15" }
+        { "j_score": "7", "p_score": "12" }
       ],
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "K",
+      "gallery_page_teaser": "Walter Wright was one of the teachers who supported and encouraged my work on this project when I was in Graduate School at VCU.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "When I started college, playing music was my favorite hobby.  For awhile I even made a few bucks playing bass in a bluegrass band!  When I started grad school I took some electronic music classes with Dr. Carrier.  As a former Assembly language programmer for NASA, he knew a great deal about the digital world, but valued his analog stereo equipment (yes I am talking not just vinyl but TUBES, people) a great deal.  I suppose one could call him \"eccentric,\" and the large amount of blue in his image attests to that."
+      "story_html": "During grad school, classes in Photography and Art History gradually caused me to lose interest in music and gain interest in the visual arts.  The conversion became complete probably about the time I read Point and Line to Plane by Wassily Kandinsky for a Computer Graphic Design class in VCU's Art Department.  The original version of this site (written in Lisp for an old 8088-based PC) wound up being the final project for a Masters of Interdisciplinary Studies degree.  Walter Wright was my academic advisor for this degree.",
+      "explain_dom": "The Green in Mr. Wright's spiritual portrait represents his very slight preference for making logical decisions.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Being able to thing logically while still being sensitive to emotions is a very valuable quality in someone who is using technology to create art.",
+      "explain_aux": "The Blue in Mr. Wright's spiritual portrait represents his very strong iNtuition.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Being very open to new ideas is extremely important to someone working with technology and art."
     }, {
       "id": "7230",
       "title": "medium_rectangle_ad",
@@ -39,31 +40,33 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "7240",
-      "title": "Walter Wright",
-      "subtitle_html": "",
-      "image_file_name": "intp-walter_wright-computer_graphics_design_teacher.jpeg",
+      "title": "Dr. Loren Carrier",
+      "subtitle_html": "Electronic Music Teacher at <a href='https://www.vcu.edu' title='Link to the home page at vcu.edu' target='_blank'>VCU</a>",
+      "image_file_name": "intp-dr_loren_carrier-electronic_music_teacher.jpeg",
       "composition": "O",
       "score": [
-        { "e_score": "9", "i_score": "10" },
-        { "n_score": "17", "s_score": "2" },
+        { "e_score": "4", "i_score": "15" },
+        { "n_score": "18", "s_score": "1" },
         { "f_score": "9", "t_score": "10" },
-        { "j_score": "7", "p_score": "12" }
+        { "j_score": "4", "p_score": "15" }
       ],
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "K",
+      "gallery_page_teaser": "Dr. Carrier was one of the teachers who supported and encouraged my work on this project when I was in Graduate School at VCU.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": "During grad school, classes in Photography and Art History gradually caused me to lose interest in music and gain interest in the visual arts.  The conversion became complete probably about the time I read Point and Line to Plane by Wassily Kandinsky for a Computer Graphic Design class in VCU's Art Department.  The original version of this site (written in Lisp for an old 8088-based PC) wound up being the final project for a Masters of Interdisciplinary Studies degree.  Walter Wright was my academic advisor for this degree."
+      "story_html": "When I started college, playing music was my favorite hobby.  For awhile I even made a few bucks playing bass in a bluegrass band!  When I started grad school I took some electronic music classes with Dr. Carrier.  As a former Assembly language programmer for NASA, he knew a great deal about the digital world, but valued his analog stereo equipment (yes I am talking not just vinyl but TUBES, people) a great deal.  I suppose one could call him \"eccentric,\" and the large amount of blue in his image attests to that.",
+      "explain_dom": "The Green in Dr. Carrier's spiritual portrait represents his very slight preference for making logical decisions.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Being able to thing logically while still being sensitive to emotions is a very valuable quality in someone who is using technology to create art.",
+      "explain_aux": "The Blue in Dr. Carrier's spiritual portrait represents his very strong iNtuition.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Being very open to new ideas is extremely important to someone working with technology and art."
     }, {
       "id": "7250",
       "title": "responsive_ad",
@@ -77,11 +80,12 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "7253",
       "title": "medium_rectangle_ad",
@@ -95,11 +99,12 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }, {
       "id": "7256",
       "title": "responsive_ad",
@@ -113,11 +118,12 @@
       "four_letter_type": "",
       "archetype": "",
       "quiz_type": "",
+      "gallery_page_teaser": "",
       "subject_line": "",
       "tweet_html": "",
+      "story_html": "",
       "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "explain_aux": ""
     }
   ]
 }
