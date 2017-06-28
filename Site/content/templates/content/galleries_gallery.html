@@ -51,10 +51,10 @@
       <div class="col-md-4">
         <div class="gallery-image">
           <a href="{{ image_dict.image_link_href }}" title="{{ image_dict.image_link_title }}">
+            <figcaption>{{ image_dict.title }}</figcaption>
             <figure>
               <img src="{% static image_dict.image_file_path %}"
                    class="center gallery-image">
-              <figcaption>{{ image_dict.title }}</figcaption>
             </figure>
           </a>
           {% if image_dict.subtitle_html %}
