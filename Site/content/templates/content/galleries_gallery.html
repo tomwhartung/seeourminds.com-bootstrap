@@ -51,7 +51,7 @@
       <div class="col-md-4">
         <div class="gallery-image">
           <a href="{{ image_dict.image_link_href }}" title="{{ image_dict.image_link_title }}">
-            <h3 class='gallery-image'>{{ image_dict.title }}</h3>
+            <h3 class="gallery-image">{{ image_dict.title }}</h3>
             <figure>
               <img src="{% static image_dict.image_file_path %}"
                    class="center gallery-image">
@@ -59,7 +59,7 @@
           </a>
           {% if image_dict.subtitle_html %}
             <div class="text-center">
-              <p>{{ image_dict.subtitle_html | safe }}</p>
+              <h4 class="gallery-image">{{ image_dict.subtitle_html | safe }}</h4>
             </div><!-- .text-center -->
           {% endif %}
           {% if image_dict.score %}
