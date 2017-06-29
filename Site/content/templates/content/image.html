@@ -24,7 +24,7 @@
         </figure>
         <div class="text-center">
           {% if image_dict.subtitle_html %}
-            <p>{{ image_dict.subtitle_html | safe }}</p>
+            <h3 class="image-page">{{ image_dict.subtitle_html | safe }}</h3>
           {% else %}
             {% if image_dict.tweet_html %}
               <p>{{ image_dict.tweet_html | safe }}</p>
