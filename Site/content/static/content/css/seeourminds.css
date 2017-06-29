@@ -330,10 +330,12 @@ div.gallery-image {
     text-align: left;
 }
 h1.image-page,
+h3.image-page,
 h3.gallery-image {
    font-weight: bold;
    text-decoration: underline;
 }
+h3.image-page,
 h4.gallery-image {
    font-style: italic;
    text-decoration: underline;
