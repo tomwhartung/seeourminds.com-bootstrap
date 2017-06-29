@@ -329,6 +329,7 @@ div.gallery-image {
     padding: 2em;
     text-align: left;
 }
+h1.image-page,
 h3.gallery-image {
    font-weight: bold;
    text-decoration: underline;
