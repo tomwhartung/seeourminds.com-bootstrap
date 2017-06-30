@@ -79,7 +79,7 @@
             {% endif %}
             {% if image_dict.contrast_with %}
               <a class="btn btn-md btn-primary som-btn-all"
-                 href="/image/{{ image_dict.contrast_with.gallery_file_name }}/{{ image_dict.contrast_with.image_id }}/"
+                 href="{{ image_dict.contrast_with_path }}"
                  title="Click to see the image of someone with a very different personality">
                 Contrast With ....</a>
             {% endif %}
