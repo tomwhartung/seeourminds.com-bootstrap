@@ -38,18 +38,10 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
-        {% if image_dict.story_html %}
-          <div class="text-center">
-            <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
-              title="Show the story behind these images">See the Story</a>
-          </div><!-- .text-center -->
-          <div id="story-html" class="som-text-to-toggle">
-            {{ image_dict.story_html | safe }}</div>
-        {% endif %}
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
-              <a class="btn btn-md som-btn-all" id="toggle-explain-dom"
+            <a class="btn btn-md som-btn-all" id="toggle-explain-dom"
                  title="Toggle explanation of how the image represents the dominant personality function">
                 Explain Dominant Color</a>
             {% endif %}
@@ -68,6 +60,32 @@
               {{ image_dict.explain_aux }}</p>
           {% endif %}
         {% endif %}
+        {% if image_dict.story_html %}
+          <div class="text-center">
+            <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
+              title="Show the story behind these images">See the Story</a>
+          </div><!-- .text-center -->
+          <div id="story-html" class="som-text-to-toggle">
+            {{ image_dict.story_html | safe }}</div>
+        {% endif %}
+
+        {% if image_dict.compare_to or image_dict.contrast_with %}
+          <div class="text-center">
+            {% if image_dict.compare_to  %}
+              <a class="btn btn-md btn-primary som-btn-all"
+                 href="{{ image_dict.compare_to.gallery_file_name }}/{{ image_dict.compare_to.image_id }}"
+                 title="Click to see the image of someone with a similar personality">
+                Compare To ....</a>
+            {% endif %}
+            {% if image_dict.contrast_with %}
+              <a class="btn btn-md btn-primary som-btn-all"
+                 href="{{ image_dict.contrast_with.gallery_file_name }}/{{ image_dict.contrast_with.image_id }}"
+                 title="Click to see the image of someone with a very different personality">
+                Contrast With ....</a>
+            {% endif %}
+          </div><!-- .text-center -->
+        {% endif %}
+
       </div><!-- .single-image -->
     </section><!-- #image -->
   </div><!-- .col-md-8 -->
