@@ -75,13 +75,13 @@
               <a class="btn btn-md btn-primary som-btn-all"
                  href="{{ image_dict.compare_to_path }}"
                  title="Click to see the image of someone with a similar personality">
-                Compare To ....</a>
+                Compare to <q>{{ image_dict.compare_to_title }}'s</q> Image</a>
             {% endif %}
             {% if image_dict.contrast_with %}
               <a class="btn btn-md btn-primary som-btn-all"
                  href="{{ image_dict.contrast_with_path }}"
                  title="Click to see the image of someone with a very different personality">
-                Contrast With ....</a>
+                Contrast With <q>{{ image_dict.contrast_with_title }}'s</q> Image</a>
             {% endif %}
           </div><!-- .text-center -->
         {% endif %}
