@@ -199,13 +199,12 @@ class Image:
                 image_file_directory = gallery_file_name
                 self.image_dict["path"] = self.IMAGES_DIRECTORY \
                     + image_file_directory + '/' + image_dict["image_file_name"]
-                compare_to = self.image_dict["compare_to"]
+                compare_to = self.image_dict.get("compare_to")
                 print('compare_to:', compare_to)
-                if compare_to["gallery_file_name"] and compare_to["image_id"]:
+                if compare_to:
                     self.image_dict["compare_to_path"] = \
-                        '/images/' + compare_to["gallery_file_name"] \
-                        + '/' + compare_to["image_id"]
-                    print('self.image_dict["compare_to_path"]:', self.image_dict["compare_to_path"])
+                        '/image/' + compare_to.get("gallery_file_name") \
+                        + '/' + compare_to.get("image_id") + '/'
 
     def set_default_image_dict(self):
 
