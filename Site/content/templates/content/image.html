@@ -71,9 +71,9 @@
 
         {% if image_dict.compare_to or image_dict.contrast_with %}
           <div class="text-center">
-            {% if image_dict.compare_to  %}
+            {% if image_dict.compare_to_path  %}
               <a class="btn btn-md btn-primary som-btn-all"
-                 href="/image/{{ image_dict.compare_to.gallery_file_name }}/{{ image_dict.compare_to.image_id }}/"
+                 href="{{ image_dict.compare_to_path }}"
                  title="Click to see the image of someone with a similar personality">
                 Compare To ....</a>
             {% endif %}
