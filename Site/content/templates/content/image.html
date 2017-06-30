@@ -73,13 +73,13 @@
           <div class="text-center">
             {% if image_dict.compare_to  %}
               <a class="btn btn-md btn-primary som-btn-all"
-                 href="{{ image_dict.compare_to.gallery_file_name }}/{{ image_dict.compare_to.image_id }}"
+                 href="/image/{{ image_dict.compare_to.gallery_file_name }}/{{ image_dict.compare_to.image_id }}/"
                  title="Click to see the image of someone with a similar personality">
                 Compare To ....</a>
             {% endif %}
             {% if image_dict.contrast_with %}
               <a class="btn btn-md btn-primary som-btn-all"
-                 href="{{ image_dict.contrast_with.gallery_file_name }}/{{ image_dict.contrast_with.image_id }}"
+                 href="/image/{{ image_dict.contrast_with.gallery_file_name }}/{{ image_dict.contrast_with.image_id }}/"
                  title="Click to see the image of someone with a very different personality">
                 Contrast With ....</a>
             {% endif %}
