@@ -199,16 +199,6 @@ class Image:
                 image_file_directory = gallery_file_name
                 self.image_dict["path"] = self.IMAGES_DIRECTORY \
                     + image_file_directory + '/' + image_dict["image_file_name"]
-                compare_to = self.image_dict.get("compare_to")
-                contrast_with = self.image_dict.get("contrast_with")
-                if compare_to:
-                    self.image_dict["compare_to_path"] \
-                        = '/image/' + compare_to.get("gallery_file_name") \
-                            + '/' + compare_to.get("image_id") + '/'
-                if contrast_with:
-                    self.image_dict["contrast_with_path"] \
-                        = '/image/' + contrast_with.get("gallery_file_name") \
-                            + '/' + contrast_with.get("image_id") + '/'
 
     def set_default_image_dict(self):
 
@@ -238,6 +228,26 @@ class Image:
            'needed to implement it multiple times and in multiple ' \
            'programming languages.'
         return self
+
+    def set_compare_contrast(self):
+        compare_to = self.image_dict.get("compare_to")
+        if compare_to:
+            gal_fn = compare_to.get("gallery_file_name")
+            img_id = compare_to.get("image_id")
+            compare_to_image = Image(gal_fn, img_id)
+            compare_to_title = compare_to_image.image_dict.get("title")
+            compare_to_path = '/image/' + gal_fn + '/' + img_id + '/'
+            self.image_dict["compare_to_title"] = compare_to_title
+            self.image_dict["compare_to_path"] = compare_to_path
+        contrast_with = self.image_dict.get("contrast_with")
+        if contrast_with:
+            gal_fn = contrast_with.get("gallery_file_name")
+            img_id = contrast_with.get("image_id")
+            contrast_with_image = Image(gal_fn, img_id)
+            contrast_with_title = contrast_with_image.image_dict.get("title")
+            contrast_with_path = '/image/' + gal_fn + '/' + img_id + '/'
+            self.image_dict["contrast_with_title"] = contrast_with_title
+            self.image_dict["contrast_with_path"] = contrast_with_path
 
 
 class Questions:
