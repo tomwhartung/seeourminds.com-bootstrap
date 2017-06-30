@@ -40,6 +40,7 @@ def image(request, gallery_file_name=None, image_id=None):
     """ Render the single image template """
 
     this_image = Image(gallery_file_name, image_id)
+    this_image.set_compare_contrast()
     image_dict = this_image.image_dict
     title = 'Image: ' + image_dict.get('title')
     return render(request, 'content/image.html', {
