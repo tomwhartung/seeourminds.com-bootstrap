@@ -200,11 +200,15 @@ class Image:
                 self.image_dict["path"] = self.IMAGES_DIRECTORY \
                     + image_file_directory + '/' + image_dict["image_file_name"]
                 compare_to = self.image_dict.get("compare_to")
-                print('compare_to:', compare_to)
+                contrast_with = self.image_dict.get("contrast_with")
                 if compare_to:
-                    self.image_dict["compare_to_path"] = \
-                        '/image/' + compare_to.get("gallery_file_name") \
-                        + '/' + compare_to.get("image_id") + '/'
+                    self.image_dict["compare_to_path"] \
+                        = '/image/' + compare_to.get("gallery_file_name") \
+                            + '/' + compare_to.get("image_id") + '/'
+                if contrast_with:
+                    self.image_dict["contrast_with_path"] \
+                        = '/image/' + contrast_with.get("gallery_file_name") \
+                            + '/' + contrast_with.get("image_id") + '/'
 
     def set_default_image_dict(self):
 
