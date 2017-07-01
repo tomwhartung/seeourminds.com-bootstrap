@@ -31,23 +31,7 @@
       "contrast_with": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2720" }
     }, {
       "id": "2710",
-      "title": "square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "square_ad"
     }, {
       "id": "2720",
       "title": "Dana Scully",
@@ -73,61 +57,13 @@
       "contrast_with": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2700" }
     }, {
       "id": "2730",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "responsive_ad"
     }, {
       "id": "2733",
-      "title": "square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "square_ad"
     }, {
       "id": "2736",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "responsive_ad"
     }
   ]
 }
