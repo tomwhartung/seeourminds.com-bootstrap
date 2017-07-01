@@ -129,18 +129,18 @@ class Gallery:
         image_dict = None
         if image_id != None:
             # print('find_image: Looking for image_id = "' + image_id + '"')
-            for img_dict in self.gallery_dict["image_list"]:
-                if img_dict["id"] == image_id:
-                    image_dict = img_dict
+            for image_dict in self.gallery_dict["image_list"]:
+                if image_dict["id"] == image_id:
+                    image_dict = image_dict
                     # print('find_image returning image_dict:', image_dict )
                     break
         return image_dict
 
     def set_gallery_image_dictionary(self):
         """ When listing galleries, set image_dict equal to the first image """
-        for img_dict in self.gallery_dict["image_list"]:
-            if img_dict.get('image_file_name') != '':
-                self.gallery_dict["image_dict"] = img_dict
+        for image_dict in self.gallery_dict["image_list"]:
+            if image_dict.get('image_file_name') != '':
+                self.gallery_dict["image_dict"] = image_dict
                 break
         return self
 
@@ -153,12 +153,13 @@ class Gallery:
         image_file_dir = 'content/images/galleries/' \
             + image_file_directory + '/'
         for image_dict in self.gallery_dict['image_list']:
-            image_dict['image_file_path'] = image_file_dir \
-                + image_dict['image_file_name']
-            image_dict['image_link_href'] = '/image/' \
-                + self.gallery_file_name + '/' + image_dict['id']
-            image_dict['image_link_title'] = 'Click to see a larger copy of ' \
-                + 'this image on a page with more information about it'
+            if image_dict.get('image_file_name'):
+                image_dict['image_file_path'] = image_file_dir \
+                    + image_dict['image_file_name']
+                image_dict['image_link_href'] = '/image/' \
+                    + self.gallery_file_name + '/' + image_dict['id']
+                image_dict['image_link_title'] = 'Click to see a larger copy of ' \
+                    + 'this image on a page with more information about it'
         return self
 
     def set_image_list_data(self):
