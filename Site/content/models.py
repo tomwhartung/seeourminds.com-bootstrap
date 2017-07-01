@@ -166,12 +166,12 @@ class Gallery:
         """ Update the raw image list data for display on the gallery page """
         self.set_image_link_values()
         for image_dict in self.gallery_dict['image_list']:
-            gallery_page_teaser = image_dict['gallery_page_teaser']
-            image_dict['gallery_page_teaser_intro'] \
-                = gallery_page_teaser[:self.GALLERY_PAGE_TEXT_INTRO_LENGTH]
-            image_dict['gallery_page_teaser_remainder'] \
-                = gallery_page_teaser[self.GALLERY_PAGE_TEXT_INTRO_LENGTH:]
-            print('image_dict:', image_dict)
+            if image_dict.get("gallery_page_teaser"):
+                gallery_page_teaser = image_dict.get("gallery_page_teaser")
+                image_dict['gallery_page_teaser_intro'] \
+                    = gallery_page_teaser[:self.GALLERY_PAGE_TEXT_INTRO_LENGTH]
+                image_dict['gallery_page_teaser_remainder'] \
+                    = gallery_page_teaser[self.GALLERY_PAGE_TEXT_INTRO_LENGTH:]
         return self
 
 
