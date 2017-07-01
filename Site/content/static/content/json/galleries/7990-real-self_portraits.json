@@ -8,23 +8,7 @@
   [
     {
       "id": "7990",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "story_html": "",
-      "explain_dom": "",
-      "explain_aux": ""
+      "title": "responsive_ad"
     }, {
       "id": "7993",
       "title": "Tom H.",
@@ -50,23 +34,7 @@
       "contrast_with": { }
     }, {
       "id": "7996",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "story_html": "",
-      "explain_dom": "",
-      "explain_aux": ""
+      "title": "responsive_ad"
     }
   ]
 }
