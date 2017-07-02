@@ -50,6 +50,10 @@ class GalleriesList:
             self.galleries_list_title = 'Real People'
             phrase = 'these galleries containing images of <b>real people:</b>'
             fnmatch_string = '[0-9]*real*'
+        elif galleries_list_name == 'experiments':
+            self.galleries_list_title = 'Experimental Compositions'
+            phrase = 'these galleries containing <b>experimental</b> images:'
+            fnmatch_string = '[0-9]*experiments*'
         else: # default: get all galleries
             self.galleries_list_title = 'All Galleries'
             phrase = '<b>all</b> available galleries!'
