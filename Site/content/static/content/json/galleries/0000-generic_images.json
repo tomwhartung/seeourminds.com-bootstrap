@@ -50,23 +50,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFP</em> personality types."
     }, {
       "id": "7",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "responsive_ad"
     }, {
       "id": "11",
       "title": "ENTJ",
@@ -111,23 +95,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTP</em> personality types."
     }, {
       "id": "17",
-      "title": "large_rectangle_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "large_rectangle_ad"
     }, {
       "id": "21",
       "title": "ESFJ",
@@ -172,23 +140,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFPs'>ESFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFP</em> personality types."
     }, {
       "id": "27",
-      "title": "medium_rectangle_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "medium_rectangle_ad"
     }, {
       "id": "31",
       "title": "ESTJ",
@@ -233,23 +185,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTP</em> personality types."
     }, {
       "id": "37",
-      "title": "large_rectangle_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "large_rectangle_ad"
     }, {
       "id": "41",
       "title": "INFJ",
@@ -294,23 +230,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFP</em> personality types."
     }, {
       "id": "47",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "responsive_ad"
     }, {
       "id": "51",
       "title": "INTJ",
@@ -355,23 +275,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTP</em> personality types."
     }, {
       "id": "57",
-      "title": "square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "square_ad"
     }, {
       "id": "61",
       "title": "ISFJ",
@@ -416,23 +320,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFP</em> personality types."
     }, {
       "id": "67",
-      "title": "small_square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "small_square_ad"
     }, {
       "id": "71",
       "title": "ISTJ",
@@ -477,23 +365,7 @@
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTP</em> personality types."
     }, {
       "id": "77",
-      "title": "square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-        { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-        { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "",
-      "explain_aux": "",
-      "story_html": ""
+      "title": "square_ad"
     }
   ]
 }
