@@ -42,8 +42,10 @@ def image(request, gallery_file_name=None, image_id=None):
     this_image = Image(gallery_file_name, image_id)
     this_image.set_compare_contrast()
     image_dict = this_image.image_dict
+    back_to_gallery_href = '/gallery/' + gallery_file_name + '/'
     title = 'Image: ' + image_dict.get('title')
     return render(request, 'content/image.html', {
+        'back_to_gallery_href': back_to_gallery_href,
         'image_dict': image_dict,
         'adsense_ads': adsense_ads,
         'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
