@@ -38,6 +38,12 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
+        <div class="text-center">
+          <a class="btn btn-warning btn-md som-btn-all"
+             href="{{ back_to_gallery_href }}"
+             title="Go Back to the Gallery containing this image">
+            Back to Gallery</a>
+        </div><!-- .text-center -->
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
