@@ -143,7 +143,8 @@ class Gallery:
     def set_gallery_image_dictionary(self):
         """ When listing galleries, set image_dict equal to the first image """
         for image_dict in self.gallery_dict["image_list"]:
-            if image_dict.get('image_file_name') != '':
+            image_title = image_dict.get('title')
+            if image_title.find('_ad') == -1:
                 self.gallery_dict["image_dict"] = image_dict
                 break
         return self
