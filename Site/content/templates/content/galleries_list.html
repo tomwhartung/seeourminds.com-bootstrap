@@ -44,16 +44,19 @@
     {% else %}
       <div class="col-md-4">
         <div class="gallery-image">
-          <h2>
-            <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
-               title="View the {{ gal_dict.gallery_title }} gallery"
-               class="gallery-title">
-              {{ gal_dict.gallery_title }}</a>
-          </h2>
+          <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+             title="View the {{ gal_dict.gallery_title }} gallery"
+             class="gallery-title">
+            <h2>{{ gal_dict.gallery_title }}</h2>
+          </a>
           <div class="text-center">
             <figure>
-              <img src="{% static gal_dict.image_dict.image_file_path %}"
-                   class="gallery-image">
+              <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+                 title="View the {{ gal_dict.gallery_title }} gallery"
+                 class="gallery-title">
+                <img src="{% static gal_dict.image_dict.image_file_path %}"
+                     class="gallery-image">
+              </a>
               <figcaption><q>{{ gal_dict.image_dict.title }}</q></figcaption>
             </figure>
           </div><!-- .text-center -->
