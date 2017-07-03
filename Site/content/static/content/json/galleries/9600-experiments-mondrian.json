@@ -1,15 +1,15 @@
 {
-  "gallery_title": "Mondrianesque Composition",
+  "gallery_title": "Mondrianesque Compositions",
   "see_gallery_button_text": "See the Images",
-  "list_page_teaser": "The image of each of the Sixteen Types has its own unique characteristics that mirror each of the 16 archetypal personalities.  Learn how the Groja program uses primary colors to construct the image of each of these types.",
-  "description_html": "<p>This gallery contains a 'generic' image of each of the Sixteen Types.  They are in alphabetical order by four-letter-type, and the preference ratio used in all images is 58% to 42%.</p><p>Using a fixed percentage rather than a real personality can make the images look similar, in that all of them are quite colorful.  If you look closely, however, and read the stories and explanations, you can learn how each one definitively expresses the imaginary personality's preferences.</p>",
-  "story_html": "<p>In this context, calling these images 'generic' means they portray ficticious personalities whose preferences are set to a fixed percentage.  For example, the score used to generate the image of an ISTP in this gallery is I:58%/E:42%, S:58%/N:42%, T:58%/F:42%, and P:58%/J:42%.</p><p>It is <b>extremely important</b> to note that people in real life rarely look like this!</p><p>And although we should all be proud of who we are, I strongly believe that we should never think for a second that one type is 'better' than another!</p>",
+  "list_page_teaser": "This gallery presents images of each of the sixteen personality types drawn using an experimental composition based on one of Piet Mondrian's paintings.  Visit this gallery to see these alternate compositions.",
+  "description_html": "<p>This gallery contains an image of each of the Sixteen Types drawn using an experimental composition I call <q>Mondrianesque.</q>  The inspiration for this composition is the painting <a href='https://en.wikipedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg' title='Wikipedia page showing a fairly large-sized version of the painting Composition II in Red, Blue, and Yellow' target='_blank'>Composition II in Red, Blue, and Yellow</a> (1930) by <a href='https://en.wikipedia.org/wiki/Piet_Mondrian' title='Wikipedia page for Piet Mondrian' target='_blank'>Piet Mondrian</a>.</p><p>Although some of the images look good, some do not.  And this is definitely not fair to those types for which the composition does not <q>work</q> as well.</p><p>Therefore I consider this to be a failed experiment, and the option to use this composition is not available in the current version of the program.</p>",
+  "story_html": "<p>If you think about it, there can be any number of ways to represent a personality visually.  (Sometimes I wonder if I am the only person who thinks about these things!)</p><p>Naturally, some of these representations are going to work better than others.  And there's only one way to find out which ones will work and which won't &mdash; and that is to try them and see!</p><p>When I wrote the third version of this program (using PHP Nuke), I decided to try a couple of ideas I had for different compositions.  These images, and those in the <a href='/gallery/9700-experiments-rhythm/' title=''>Rhythm Composition Gallery</a>, are the results of those experiments.</p><p>Some of the images in this gallery do not look all that bad, but some are actually pretty horrible.  In my opinion, the images of the Introverts in particular are quite hideous!  (Note that these appear further down the page, due to the images being in alphabetical order by four-letter-type.)</p><p>It is an unfortunate fact of life that we must invest a considerable amount of time finding things that do not <q>work.</q>  Looking at the results of this experiment for the various types has a side effect of making it obvious that Mondrian's achievements were not by any means as easy as they might look!  If nothing else, this exercise served to increase my already high impression of him.</p><p>Things like this often remind me of ballet class.  The dancer's job is to make their art look effortless, but anyone who has tried to do what they do can appreciate that it is extremely difficult!</p>",
   "image_list":
   [
     {
       "id": "9601",
-      "title": "ENFJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> using fixed percentages.",
+      "title": "ENFJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a>.",
       "image_file_name": "enfj.jpg",
       "composition": "O",
       "score": [
@@ -28,11 +28,11 @@
       "explain_aux": "The shorter horizontal Blue lines represent the ENFJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9701" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9674" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9674" }
     }, {
       "id": "9604",
-      "title": "ENFP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> using fixed percentages.",
+      "title": "ENFP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a>.",
       "image_file_name": "enfp.jpg",
       "composition": "O",
       "score": [
@@ -51,14 +51,14 @@
       "explain_aux": "The shorter horizontal Red lines represent the ENFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9704" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9671" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9671" }
     }, {
       "id": "9607",
       "title": "responsive_ad"
     }, {
       "id": "9611",
-      "title": "ENTJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> using fixed percentages.",
+      "title": "ENTJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a>.",
       "image_file_name": "entj.jpg",
       "composition": "O",
       "score": [
@@ -77,11 +77,11 @@
       "explain_aux": "The shorter horizontal Blue lines represent the ENTJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9711" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9664" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9664" }
     }, {
       "id": "9614",
-      "title": "ENTP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> using fixed percentages.",
+      "title": "ENTP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a>.",
       "image_file_name": "entp.jpg",
       "composition": "O",
       "score": [
@@ -100,14 +100,14 @@
       "explain_aux": "The shorter horizontal Green lines represent the ENTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9714" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9661" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9661" }
     }, {
       "id": "9617",
       "title": "large_rectangle_ad"
     }, {
       "id": "9621",
-      "title": "ESFJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJ'>ESFJ</a> using fixed percentages.",
+      "title": "ESFJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJ'>ESFJ</a>.",
       "image_file_name": "esfj.jpg",
       "composition": "O",
       "score": [
@@ -126,11 +126,11 @@
       "explain_aux": "The shorter horizontal Yellow lines represent the ESFJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJs'>ESFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9721" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9654" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9654" }
     }, {
       "id": "9624",
-      "title": "ESFP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFP'>ESFP</a> using fixed percentages.",
+      "title": "ESFP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFP'>ESFP</a>.",
       "image_file_name": "esfp.jpg",
       "composition": "O",
       "score": [
@@ -149,14 +149,14 @@
       "explain_aux": "The shorter horizontal Red lines represent the ESFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFPs'>ESFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9724" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9651" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9651" }
     }, {
       "id": "9627",
       "title": "medium_rectangle_ad"
     }, {
       "id": "9631",
-      "title": "ESTJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJ'>ESTJ</a> using fixed percentages.",
+      "title": "ESTJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJ'>ESTJ</a>.",
       "image_file_name": "estj.jpg",
       "composition": "O",
       "score": [
@@ -175,11 +175,11 @@
       "explain_aux": "The shorter horizontal Yellow lines represent the ESTJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJs'>ESTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9731" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9644" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9644" }
     }, {
       "id": "9634",
-      "title": "ESTP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> using fixed percentages.",
+      "title": "ESTP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a>.",
       "image_file_name": "estp.jpg",
       "composition": "O",
       "score": [
@@ -198,14 +198,14 @@
       "explain_aux": "The shorter horizontal Green lines represent the ESTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9734" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9641" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9641" }
     }, {
       "id": "9637",
       "title": "large_rectangle_ad"
     }, {
       "id": "9641",
-      "title": "INFJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> using fixed percentages.",
+      "title": "INFJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a>.",
       "image_file_name": "infj.jpg",
       "composition": "O",
       "score": [
@@ -224,11 +224,11 @@
       "explain_aux": "The shorter vertical Red lines represent the INFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9741" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9634" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9634" }
     }, {
       "id": "9644",
-      "title": "INFP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> using fixed percentages.",
+      "title": "INFP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a>.",
       "image_file_name": "infp.jpg",
       "composition": "O",
       "score": [
@@ -247,14 +247,14 @@
       "explain_aux": "The shorter vertical Blue lines represent the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9744" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9631" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9631" }
     }, {
       "id": "9647",
       "title": "responsive_ad"
     }, {
       "id": "9651",
-      "title": "INTJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> using fixed percentages.",
+      "title": "INTJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a>.",
       "image_file_name": "intj.jpg",
       "composition": "O",
       "score": [
@@ -273,11 +273,11 @@
       "explain_aux": "The shorter vertical Green lines represent the INTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9751" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9624" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9624" }
     }, {
       "id": "9654",
-      "title": "INTP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> using fixed percentages.",
+      "title": "INTP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a>.",
       "image_file_name": "intp.jpg",
       "composition": "O",
       "score": [
@@ -296,14 +296,14 @@
       "explain_aux": "The shorter vertical Blue lines represent the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9754" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9621" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9621" }
     }, {
       "id": "9657",
       "title": "square_ad"
     }, {
       "id": "9661",
-      "title": "ISFJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> using fixed percentages.",
+      "title": "ISFJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a>.",
       "image_file_name": "isfj.jpg",
       "composition": "O",
       "score": [
@@ -322,11 +322,11 @@
       "explain_aux": "The shorter vertical Red lines represent the ISFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9761" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9614" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9614" }
     }, {
       "id": "9664",
-      "title": "ISFP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> using fixed percentages.",
+      "title": "ISFP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a>.",
       "image_file_name": "isfp.jpg",
       "composition": "O",
       "score": [
@@ -345,14 +345,14 @@
       "explain_aux": "The shorter vertical Yellow lines represent the ISFP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9764" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9611" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9611" }
     }, {
       "id": "9667",
       "title": "small_square_ad"
     }, {
       "id": "9671",
-      "title": "ISTJ",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> using fixed percentages.",
+      "title": "ISTJ - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a>.",
       "image_file_name": "istj.jpg",
       "composition": "O",
       "score": [
@@ -371,11 +371,11 @@
       "explain_aux": "The shorter vertical Green lines represent the ISTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9771" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9604" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9604" }
     }, {
       "id": "9674",
-      "title": "ISTP",
-      "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> using fixed percentages.",
+      "title": "ISTP - Mondrianesque",
+      "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a>.",
       "image_file_name": "istp.jpg",
       "composition": "O",
       "score": [
@@ -394,7 +394,7 @@
       "explain_aux": "The shorter vertical Yellow lines represent the ISTP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-experiments-rhythm", "image_id": "9774" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images", "image_id": "9601" }
+      "contrast_with": { "gallery_file_name": "9600-experiments-mondrian", "image_id": "9601" }
     }, {
       "id": "9677",
       "title": "square_ad"
