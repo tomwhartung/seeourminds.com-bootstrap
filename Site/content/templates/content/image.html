@@ -65,14 +65,16 @@
             <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
                title="Show the story behind these images">
               Tell the Story</a>
-            <div id="story-html" class="som-text-to-toggle">
-              {{ image_dict.story_html | safe }}</div>
           {% endif %}
           <a class="btn btn-warning btn-md som-btn-all"
              href="{{ back_to_gallery_href }}"
              title="Go Back to the Gallery containing this image">
             Go Back to the Gallery</a>
         </div><!-- .text-center -->
+        {% if image_dict.story_html %}
+          <div id="story-html" class="som-text-to-toggle">
+            {{ image_dict.story_html | safe }}</div>
+        {% endif %}
 
         {% if image_dict.compare_to or image_dict.contrast_with %}
           <div class="text-center">
@@ -115,14 +117,14 @@
         $("#toggle-story-html").click(function() {
           $("#story-html").toggle(toggle_text_effect, "slow");
           var button_text = $("#toggle-story-html").text();
-          if ( button_text.includes('See') ) {
+          if ( button_text.includes('Tell') ) {
             $("#toggle-story-html").removeClass("btn-success");
             $("#toggle-story-html").addClass("btn-danger");
             $("#toggle-story-html").text("Hide the Story");
           } else {
             $("#toggle-story-html").removeClass("btn-danger");
             $("#toggle-story-html").addClass("btn-success");
-            $("#toggle-story-html").text("See the Story");
+            $("#toggle-story-html").text("Tell the Story");
           }
         });
       {% endif %}
