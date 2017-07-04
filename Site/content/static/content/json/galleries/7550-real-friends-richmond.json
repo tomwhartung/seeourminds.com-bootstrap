@@ -1,13 +1,13 @@
 {
-  "gallery_title": "Friends",
+  "gallery_title": "Friends in Richmond",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "I often get my friends to answer the questionnaire so I can learn more about them and draw their image.  View this gallery to see the resultant images, and learn about them as well.",
-  "description_html": "<p>These are some images of my friends.</p><p>I will be adding more friends to this page, as I gather their scores and get their ok to add them, so check back soon!</p>",
+  "description_html": "<p>These are some images of my friends, from when I wrote the original version when I was in grad school.</p><p>I will be adding more friends to this page, as I gather their scores and get their ok to add them, so check back soon!</p>",
   "story_html": "",
   "image_list":
   [
     {
-      "id": "7010",
+      "id": "7550",
       "title": "Jim Armstrong",
       "subtitle_html": "A <a href='https://www.tomh.info/friends/friends.php' title='Link to the main friends page at tomh.info' target='_blank'>Best Friend</a> Forever",
       "image_file_name": "esfj-jim_armstrong-a_best_friend_forever.jpeg",
@@ -30,10 +30,10 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "7030",
+      "id": "7553",
       "title": "responsive_ad"
     }, {
-      "id": "7040",
+      "id": "7556",
       "title": "Roy B. Scherer",
       "subtitle_html": "Lobbyist for Liberty",
       "image_file_name": "estp-roy_b_scherer-libertarian_lobbyist.jpeg",
@@ -55,9 +55,6 @@
       "story_html": "<p>When I wrote the original version of the Groja &copy; Program in college in Richmond, Virginia, I was very interested in Libertarianism.  During that time I was able to get Roy B. Scherer to answer the questions in the Keirsey Temperament Sorter.  <a href='http://wtvr.com/2015/01/29/holmberg-roy-scherer-marijuana/' title='Link to a fairly recent article about Roy at wtvr.com' title='_blank'>Roy is still a Libertarian</a> who continues to lobby in Richmond Virginia for gun rights and the legalization of marijuana.<p></p>Here is an image of his personality.  One might think that marijuana legalization would be a passionate issue, but his portrait shows that, for him at least, it was largely a matter of logic.</p>",
       "compare_to": { },
       "contrast_with": { }
-    }, {
-      "id": "7050",
-      "title": "responsive_ad"
     }
   ]
 }
