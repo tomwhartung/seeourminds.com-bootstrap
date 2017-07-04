@@ -24,11 +24,14 @@
       "gallery_page_teaser": "Dr. McCoy's spiritual portrait looks so different from Mr. Spock's because their personalities are so different.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "<p>Once I finished writing the original program, I wanted to <q>test</q> it by seeing how it would draw characters like Dr. McCoy and Mr. Spock if I answered the questions as the character might answer them.</p><p>This image of Dr. McCoy's personality is one of the results.  As you can see, it is very warm and full of Feeling, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/2600-fictional-tv-star_trek/2620/' title='Link to the image of Mr. Spock on this site'>Mr. Spock</a>.</p>",
       "explain_dom": "The Yellow in Dr. McCoy's spiritual portrait represents his realism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  His realism makes him somewhat suspicious of technology, and he favors natural methods of healing to more intrusive methods.",
-      "explain_aux": "The Red in Dr. McCoy's spiritual portrait represents his strong emotions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  His emotions frequently cause him to get frustrated with the captain, and he expresses this frustration repeatedly in lines such as 'Dammit Jim!'"
+      "explain_aux": "The Red in Dr. McCoy's spiritual portrait represents his strong emotions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  His emotions frequently cause him to get frustrated with the captain, and he expresses this frustration repeatedly in lines such as 'Dammit Jim!'",
+      "story_html": "<p>Once I finished writing the original program, I wanted to <q>test</q> it by seeing how it would draw characters like Dr. McCoy and Mr. Spock if I answered the questions as the character might answer them.</p><p>This image of Dr. McCoy's personality is one of the results.  As you can see, it is very warm and full of Feeling, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/2600-fictional-tv-star_trek/2620/' title='Link to the image of Mr. Spock on this site'>Mr. Spock</a>.</p>",
+      "compare_to": { },
+      "contrast_with": { "gallery_file_name": "2800-fictional-tv-star_trek", "image_id": "2804" }
+
     }, {
-      "id": "2810",
+      "id": "2802",
       "title": "James T. Kirk",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/James_T._Kirk' title='Wikipedia page for James T. Kirk' target='_blank'>Captain</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "image_file_name": "estj-captain_kirk-star_trek.jpeg",
@@ -45,11 +48,13 @@
       "gallery_page_teaser": "The preponderance of Green in Kirk's spiritual portrait shows he is rational and decisive, but in practice he relies heavily on both Spock and Dr. McCoy for input to his decisions.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "<p>When I created this image, I was a bit surprised to see that Captain Kirk's personality turned out to be so similar to Spock's.  Despite the superficial similarity, it is important to note that Kirk is definitely more Extraverted &mdash; as the large vertical Green line indicates, and a bit more balanced &mdash; in that it is a bit more colorful.</p><p>Kirk and Spock's similarity makes sense, though, when you consider the duties performed by all three characters on the starship.  While Kirk and Spock's posts are on the bridge and involve working with the entire ship, McCoy's work as medical officer involves working exclusively with people.</p><p>By frequently consulting with McCoy when he faces a tough decision, Kirk shows he is truly wise.</p><p>I would expect to find a character with more iNtuition in this series.  I recently found all 80 episodes on DVD for a very reasonable price, and plan to rewatch them and create more images from the series soon.  To stay up-to-date when new images are added, <a href='https://groja.com/conversion/seeourminds' title='Link to join our email list' target='_blank'>join our email list!</p>",
       "explain_dom": "The Green in Kirk's spiritual portrait represents his strong tendency to make rational decisions.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  Spoiler Alert!  Although Kirk frequently has romantic encounters, his rationality always overrides his feelings and he always puts his crew and ship first.",
-      "explain_aux": "The Yellow in Kirk's spiritual portrait represents his realism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  His realism is evident in his willingness to bend and occasionally even break Starfleet regulations in situations that warrant it."
+      "explain_aux": "The Yellow in Kirk's spiritual portrait represents his realism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  His realism is evident in his willingness to bend and occasionally even break Starfleet regulations in situations that warrant it.",
+      "story_html": "<p>When I created this image, I was a bit surprised to see that Captain Kirk's personality turned out to be so similar to Spock's.  Despite the superficial similarity, it is important to note that Kirk is definitely more Extraverted &mdash; as the large vertical Green line indicates, and a bit more balanced &mdash; in that it is a bit more colorful.</p><p>Kirk and Spock's similarity makes sense, though, when you consider the duties performed by all three characters on the starship.  While Kirk and Spock's posts are on the bridge and involve working with the entire ship, McCoy's work as medical officer involves working exclusively with people.</p><p>By frequently consulting with McCoy when he faces a tough decision, Kirk shows he is truly wise.</p><p>I would expect to find a character with more iNtuition in this series.  I recently found all 80 episodes on DVD for a very reasonable price, and plan to rewatch them and create more images from the series soon.  To stay up-to-date when new images are added, <a href='https://groja.com/conversion/seeourminds' title='Link to join our email list' target='_blank'>join our email list!</p>",
+      "compare_to": { },
+      "contrast_with": { }
     }, {
-      "id": "2820",
+      "id": "2804",
       "title": "Spock",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Spock' title='Wikipedia page for Spock' target='_blank'>First Officer</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "image_file_name": "istj-mr_spock-star_trek.jpeg",
@@ -66,17 +71,19 @@
       "gallery_page_teaser": "Mr. Spock's spiritual portrait looks so different from Dr. McCoy's because their personalities are so different.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "story_html": "<p>Once I finished writing the original program, I wanted to <q>test</q> it by seeing how it would draw characters like Mr. Spock and Dr. McCoy if I answered the questions as the character might answer them.</p><p>This image of Spock's personality is one of the results.  As you can see, it is very cool and consistent, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/2600-fictional-tv-star_trek/2600/' title='Link to image of Dr. McCoy on this site'>Dr. McCoy</a>.</p><p>It is interesting to compare this image to the one of <a href='/image/5000-politicians-us_presidents/5020/' title='Link to the image of George Herbert Walker Bush on this site'>George Herbert Walker Bush</a>, who was our president at that time, in the late 1980s.</p>",
       "explain_dom": "The Yellow in Spock's spiritual portrait represents his preference to be practical and realistic.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  His realism shows in his interest in science and his role as chief science officer.",
-      "explain_aux": "The Green in Spock's spiritual portrait represents his strong tendency to make rational decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Due to his Vulcan heritage, Spock is extremely logical, and he perceives humans as being vulnerable and even flawed due to their emotions."
+      "explain_aux": "The Green in Spock's spiritual portrait represents his strong tendency to make rational decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Due to his Vulcan heritage, Spock is extremely logical, and he perceives humans as being vulnerable and even flawed due to their emotions.",
+      "story_html": "<p>Once I finished writing the original program, I wanted to <q>test</q> it by seeing how it would draw characters like Mr. Spock and Dr. McCoy if I answered the questions as the character might answer them.</p><p>This image of Spock's personality is one of the results.  As you can see, it is very cool and consistent, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/2600-fictional-tv-star_trek/2600/' title='Link to image of Dr. McCoy on this site'>Dr. McCoy</a>.</p><p>It is interesting to compare this image to the one of <a href='/image/5000-politicians-us_presidents/5020/' title='Link to the image of George Herbert Walker Bush on this site'>George Herbert Walker Bush</a>, who was our president at that time, in the late 1980s.</p>",
+      "compare_to": { },
+      "contrast_with": { "gallery_file_name": "2800-fictional-tv-star_trek", "image_id": "2800" }
     }, {
-      "id": "2830",
+      "id": "2806",
       "title": "responsive_ad"
     }, {
-      "id": "2833",
+      "id": "2807",
       "title": "square_ad"
     }, {
-      "id": "2836",
+      "id": "2808",
       "title": "responsive_ad"
     }
   ]
