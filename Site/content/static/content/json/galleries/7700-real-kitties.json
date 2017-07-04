@@ -1,0 +1,63 @@
+{
+  "gallery_title": "Kitties",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "I believe cats are people - there I said it!  View this gallery to see the images of a couple of my kitty cats, and learn about them as well.",
+  "description_html": "<p>These are some images of my kitty cats.</p><p>If you don't believe pets are people, then you should not look at them!</p>",
+  "story_html": "",
+  "image_list":
+  [
+    {
+      "id": "7700",
+      "title": "Mildred",
+      "subtitle_html": "Shy Grey Tabby Kitty Cat",
+      "image_file_name": "isfp-mildred_my_warm_soft_kitty_cat_friends.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "2", "i_score": "17" },
+        { "n_score": "8", "s_score": "11" },
+        { "f_score": "17", "t_score": "2" },
+        { "j_score": "9", "p_score": "10" }
+      ],
+      "four_letter_type": "ISFP",
+      "archetype": "Fi",
+      "quiz_type": "Q",
+      "gallery_page_teaser": "Some may disagree, but I feel pets are people, and am certain that my cat Mildred was an ISFP.  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Red in Mildred's spiritual portrait represents her Feeling preference.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  It's difficult for me to imagine a pet making logical decisions.",
+      "explain_aux": "The Yellow in Mildred's spiritual portrait represents her pragmatism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  It's difficult for me to imagine a pet being idealistic.",
+      "story_html": "<p>Just for fun I took the Groja Quiz, answering the questions as I imagine my cat, Mildred, might.</p><p>When I first got her, she was a bit timid.  She hid under my bed for two days, and would usually hide from strangers when they'd visit, so clearly she was Introverted.</p><p>But after awhile she'd warm up to people, and everyone eventually agreed that deep down she was a real sweetheart.</p><p>So I thought her portrait would look a bit shy but be quite <q>warm</q> nonetheless, and sure enough it does!</p><p>For what it's worth, I can see how pets can be Extraverted or Introverted, and Judging or Perceiving, but have difficulty imagining how they might be iNtuitive or logical (Thinking).</p>",
+      "compare_to": { "gallery_file_name": "7700-real-kitties", "image_id": "7706" },
+      "contrast_with": { }
+    }, {
+      "id": "7703",
+      "title": "responsive_ad"
+    }, {
+      "id": "7706",
+      "title": "Zeronimo",
+      "subtitle_html": "Outgoing Tuxedo Kitty Cat",
+      "image_file_name": "esfp-zeronimo.jpg",
+      "composition": "O",
+      "score": [
+        { "e_score": "17", "i_score": "2" },
+        { "n_score": "7", "s_score": "12" },
+        { "f_score": "12", "t_score": "7" },
+        { "j_score": "5", "p_score": "14" }
+      ],
+      "four_letter_type": "ESFP",
+      "archetype": "Se",
+      "quiz_type": "K",
+      "gallery_page_teaser": "Zeronimo is a black-and-white 'tuxedo' kitty who is very out-going and often follows me around the house.  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Yellow in Zeronimo's spiritual portrait represents his pragmatism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
+      "explain_aux": "The Red in Zeronimo's spiritual portrait represents his preference for making logical decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  ",
+      "story_html": "<p>I got Zeronimo from the Denver Dumb Friends League.  Zeronimo's name there was <q>Zero,</q> and when I saw it the song by the Smashing Pumpkins jumped into my head &mdash; a good omen if ever there was one!</p><p>After getting to know him a bit, I decided <q>Zero</q> was not appropriate.  He has serious jumping skills, and after giving it some thought, I decided <q>Zeronimo</q> was much more appropriate!</p>",
+      "compare_to": { "gallery_file_name": "7700-real-kitties", "image_id": "7700" },
+      "contrast_with": { }
+    }, {
+      "id": "7009",
+      "title": "responsive_ad"
+    }
+  ]
+}
