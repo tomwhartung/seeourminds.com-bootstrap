@@ -1,9 +1,9 @@
 {
   "gallery_title": "Kitties",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "I believe cats are people - there I said it!  View this gallery to see the images of a couple of my kitty cats, and learn about them as well.",
-  "description_html": "<p>These are some images of my kitty cats.</p><p>If you don't believe pets are people, then you should not look at them!</p>",
-  "story_html": "",
+  "list_page_teaser": "I believe cats are people - there I said it!  View this gallery to see the images of and learn about a couple of my kitty cats.",
+  "description_html": "<p>These are some images of my kitty cats.  I find it fun to go through the questions in the Keirsey Temperament Sorter and answer them as I believe my guys would.</p><p>If you don't believe pets are people, or think that this is just too silly for a serious person such as yourself, then you should not look at them!</p>",
+  "story_html": "<p>Mildred and Zeronimo never really got along.  At their best, he would approach her, their noses would almost touch, then she's smack him and run away.  Of course Zeronimo would have to give chase, and it became apparent that they might tolerate each other for brief periods when both were sleeping, but they would never really get along.</p><p>Towards the end, after Mildred went deaf and blind, I had to keep them apart physically.  Fortunately I live in a two-story house with small bedrooms, so this was possible &mdash; but not easy &mdash; to do.</p><p>I understand those who are skeptical of this idea of <q>pets as people.</q>  For what it's worth, I can see how pets can be Extraverted or Introverted, and Judging or Perceiving, but have difficulty imagining how they might be iNtuitive or logical (Thinking).</p><p><b>However,</b> I for one am used to looking at spiritual portraits such as these, and know for a fact that they can help me remember my friends when they are gone.  I cherish these images greatly, and don't give a hoot what the doubters might say!</p>",
   "image_list":
   [
     {
@@ -26,7 +26,7 @@
       "tweet_html": "",
       "explain_dom": "The Red in Mildred's spiritual portrait represents her Feeling preference.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  It's difficult for me to imagine a pet making logical decisions.",
       "explain_aux": "The Yellow in Mildred's spiritual portrait represents her pragmatism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  It's difficult for me to imagine a pet being idealistic.",
-      "story_html": "<p>Just for fun I took the Groja Quiz, answering the questions as I imagine my cat, Mildred, might.</p><p>When I first got her, she was a bit timid.  She hid under my bed for two days, and would usually hide from strangers when they'd visit, so clearly she was Introverted.</p><p>But after awhile she'd warm up to people, and everyone eventually agreed that deep down she was a real sweetheart.</p><p>So I thought her portrait would look a bit shy but be quite <q>warm</q> nonetheless, and sure enough it does!</p><p>For what it's worth, I can see how pets can be Extraverted or Introverted, and Judging or Perceiving, but have difficulty imagining how they might be iNtuitive or logical (Thinking).</p>",
+      "story_html": "<p>I got Mildred from my friends Dan and Tiffiny, who were my swing dance teachers at the time.</p><p>When I first got her, she was extremely timid.  She actually hid under my bed for two days!  Also, she would usually hide from strangers when they'd visit, so she was clearly Introverted.</p><p>But after awhile she'd warm up to people, and everyone who met her could see that deep down she was a real sweetheart.  I suspected her portrait would look a bit shy but be quite <q>warm,</q> and sure enough it does!</p><p>I loved her deeply to the very end, and it was so sad to see her go.  I feel this spiritual portrait helps me remember her every bit as much as the photos I have of her!</p>",
       "compare_to": { "gallery_file_name": "7700-real-kitties", "image_id": "7706" },
       "contrast_with": { }
     }, {
@@ -50,14 +50,11 @@
       "gallery_page_teaser": "Zeronimo is a black-and-white 'tuxedo' kitty who is very out-going and often follows me around the house.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Yellow in Zeronimo's spiritual portrait represents his pragmatism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
-      "explain_aux": "The Red in Zeronimo's spiritual portrait represents his preference for making logical decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  ",
-      "story_html": "<p>I got Zeronimo from the Denver Dumb Friends League.  Zeronimo's name there was <q>Zero,</q> and when I saw it the song by the Smashing Pumpkins jumped into my head &mdash; a good omen if ever there was one!</p><p>After getting to know him a bit, I decided <q>Zero</q> was not appropriate.  He has serious jumping skills, and after giving it some thought, I decided <q>Zeronimo</q> was much more appropriate!</p>",
+      "explain_dom": "The Yellow in Zeronimo's spiritual portrait represents his pragmatism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  Zeronimo loves to look out the window at squirrels and birdies, has always got his eye out for bugs, and jumps at the slightest unusual sound!",
+      "explain_aux": "The Red in Zeronimo's spiritual portrait represents his preference for being friendly.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  I might fall asleep alone sometimes, but almost always wake up with him there, most often snuggled into a bend in my knees.  He is truly a lovable friend!",
+      "story_html": "<p>I got Zeronimo from the Denver Dumb Friends League.  Zeronimo's name there was <q>Zero,</q> and when I saw that on the sign there, the song by the Smashing Pumpkins jumped into my head &mdash; a good omen if ever there was one!</p><p>After getting to know him a bit, I decided <q>Zero</q> was unacceptable, because song or no song, he was definitely greater than nothing!  For one thing, he has serious jumping skills.</p><p>After giving it some thought &mdash; and remembering how as a kid sometimes we'd yell <q><b>Gernonimo</b></q> when jumping, I decided <q>Zeronimo</q> was much more appropriate.</p>",
       "compare_to": { "gallery_file_name": "7700-real-kitties", "image_id": "7700" },
       "contrast_with": { }
-    }, {
-      "id": "7009",
-      "title": "responsive_ad"
     }
   ]
 }
