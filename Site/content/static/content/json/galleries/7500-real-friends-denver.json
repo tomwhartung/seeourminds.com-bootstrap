@@ -1,0 +1,60 @@
+{
+  "gallery_title": "Friends in Denver",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "I often get my friends to answer the questionnaire so I can learn more about them and draw their image.  View this gallery to see the resultant images, and learn about them as well.",
+  "description_html": "<p>These are some images of my friends in Denver, drawn with the latest version of the Groja &copy; program.</p><p>I will be adding more friends to this page, as I gather their scores and get their ok to add them, so check back soon!</p>",
+  "story_html": "",
+  "image_list":
+  [
+    {
+      "id": "7500",
+      "title": "Chantee",
+      "subtitle_html": "",
+      "image_file_name": "infp-chantee-1.jpg",
+      "composition": "O",
+      "score": [
+        { "e_score": "9", "i_score": "10" },
+        { "n_score": "17", "s_score": "2" },
+        { "f_score": "15", "t_score": "4" },
+        { "j_score": "9", "p_score": "10" }
+      ],
+      "four_letter_type": "INFP",
+      "archetype": "Fi",
+      "quiz_type": "K",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Red in Chantee's spiritual portrait represents her making emotional decisions.",
+      "explain_aux": "The Blue in Chantee's spiritual portrait represents her openness and idealism.",
+      "story_html": "<p></p><p></p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "7503",
+      "title": "responsive_ad"
+    }, {
+      "id": "7506",
+      "title": "V.M.",
+      "subtitle_html": "",
+      "image_file_name": "enfp-veronica-1.jpg",
+      "composition": "O",
+      "score": [
+        { "e_score": "15", "i_score": "4" },
+        { "n_score": "13", "s_score": "6" },
+        { "f_score": "10", "t_score": "9" },
+        { "j_score": "6", "p_score": "13" }
+      ],
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "K",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue in VM's spiritual portrait represents her openness and idealism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
+      "explain_aux": "The Red in VM's spiritual portrait represents her preference for making emotional decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  ",
+      "story_html": "<p></p><p></p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }
+  ]
+}
