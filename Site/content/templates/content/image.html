@@ -38,12 +38,6 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
-        <div class="text-center">
-          <a class="btn btn-warning btn-md som-btn-all"
-             href="{{ back_to_gallery_href }}"
-             title="Go Back to the Gallery containing this image">
-            Back to Gallery</a>
-        </div><!-- .text-center -->
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
@@ -66,14 +60,19 @@
               {{ image_dict.explain_aux }}</p>
           {% endif %}
         {% endif %}
-        {% if image_dict.story_html %}
-          <div class="text-center">
+        <div class="text-center">
+          {% if image_dict.story_html %}
             <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
-              title="Show the story behind these images">See the Story</a>
-          </div><!-- .text-center -->
-          <div id="story-html" class="som-text-to-toggle">
-            {{ image_dict.story_html | safe }}</div>
-        {% endif %}
+               title="Show the story behind these images">
+              Tell the Story</a>
+            <div id="story-html" class="som-text-to-toggle">
+              {{ image_dict.story_html | safe }}</div>
+          {% endif %}
+          <a class="btn btn-warning btn-md som-btn-all"
+             href="{{ back_to_gallery_href }}"
+             title="Go Back to the Gallery containing this image">
+            Go Back to the Gallery</a>
+        </div><!-- .text-center -->
 
         {% if image_dict.compare_to or image_dict.contrast_with %}
           <div class="text-center">
