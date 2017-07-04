@@ -71,61 +71,13 @@
       "explain_aux": "The Green in Spock's spiritual portrait represents his strong tendency to make rational decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Due to his Vulcan heritage, Spock is extremely logical, and he perceives humans as being vulnerable and even flawed due to their emotions."
     }, {
       "id": "2830",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "story_html": "",
-      "explain_dom": "",
-      "explain_aux": ""
+      "title": "responsive_ad"
     }, {
       "id": "2833",
-      "title": "square_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "story_html": "",
-      "explain_dom": "",
-      "explain_aux": ""
+      "title": "square_ad"
     }, {
       "id": "2836",
-      "title": "responsive_ad",
-      "subtitle_html": "",
-      "image_file_name": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "", "i_score": "" }, { "n_score": "", "s_score": "" },
-         { "f_score": "", "t_score": "" }, { "j_score": "", "p_score": "" }
-      ],
-      "four_letter_type": "",
-      "archetype": "",
-      "quiz_type": "",
-      "gallery_page_teaser": "",
-      "subject_line": "",
-      "tweet_html": "",
-      "story_html": "",
-      "explain_dom": "",
-      "explain_aux": ""
+      "title": "responsive_ad"
     }
   ]
 }
