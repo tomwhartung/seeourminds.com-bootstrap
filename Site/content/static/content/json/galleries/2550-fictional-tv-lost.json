@@ -1,0 +1,60 @@
+{
+  "gallery_title": "Lost",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "X",
+  "description_html": "<p> </p><p> </p>",
+  "story_html": "<p> </p><p> </p>",
+  "image_list":
+  [
+    {
+      "id": "2557",
+      "title": "Mr. Eko",
+      "subtitle_html": "",
+      "image_file_name": "intj-mr_eko-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "4", "t_score": "15" },
+         { "j_score": "13", "p_score": "6" }
+      ],
+      "four_letter_type": "INTJ",
+      "archetype": "Ni",
+      "quiz_type": "K",
+      "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The X in this image represents X's dominant function, X.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The X in this image represents X's auxiliary function, X.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
+      "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
+    }, {
+      "id": "2558",
+      "title": "Charlie Pace",
+      "subtitle_html": "",
+      "image_file_name": "esfp-charlie_pace-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "19", "i_score": "0" },
+         { "n_score": "6", "s_score": "13" },
+         { "f_score": "14", "t_score": "5" },
+         { "j_score": "4", "p_score": "15" }
+      ],
+      "four_letter_type": "ESFP",
+      "archetype": "Se",
+      "quiz_type": "K",
+      "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The X in this image represents X's ....  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The X in this image represents X's ....  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "2559",
+      "title": "responsive_ad"
+    }
+  ]
+}
