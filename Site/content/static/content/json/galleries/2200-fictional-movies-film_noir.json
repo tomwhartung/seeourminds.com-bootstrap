@@ -13,10 +13,10 @@
       "image_file_name": "infp-philip_marlowe-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "7", "p_score": "12" }
       ],
       "four_letter_type": "INFP",
       "archetype": "Fi",
@@ -39,10 +39,10 @@
       "image_file_name": "istj-mike_hammer-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "2", "s_score": "17" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ISTJ",
       "archetype": "Si",
