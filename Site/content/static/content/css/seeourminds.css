@@ -365,8 +365,8 @@ figcaption {
 .single-img {
     margin: 4px;
     padding: 4px;
-    height: 515px;
-    width: 515px;
+    height: auto;
+    width: 500px;
 }
 /*
  * Create our own bootstrap button colors that match the colors in the images
