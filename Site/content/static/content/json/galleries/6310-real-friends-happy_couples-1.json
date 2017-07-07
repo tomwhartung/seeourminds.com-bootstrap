@@ -7,16 +7,16 @@
   "image_list":
   [
     {
-      "id": "6320",
+      "id": "6310",
       "title": "V",
       "subtitle_html": "",
       "image_file_name": "enfp-valerie-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "11", "i_score": "8" },
+         { "n_score": "14", "s_score": "5" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "7", "p_score": "12" }
       ],
       "four_letter_type": "ENFP",
       "archetype": "Ne",
@@ -30,16 +30,16 @@
       "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
       "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
     }, {
-      "id": "6323",
+      "id": "6313",
       "title": "R",
       "subtitle_html": "",
       "image_file_name": "intp-ryan-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "8", "t_score": "11" },
+         { "j_score": "3", "p_score": "16" }
       ],
       "four_letter_type": "INTP",
       "archetype": "Ti",
@@ -53,7 +53,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "6326",
+      "id": "6316",
       "title": "square_ad"
     }
   ]
