@@ -1,15 +1,15 @@
 {
-  "gallery_title": "Happy Couple: V & R",
+  "gallery_title": "Happy Couple: VS & RE",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "V & R",
-  "description_html": "<p> </p><p> </p>",
-  "story_html": "<p> </p><p> </p>",
+  "list_page_teaser": "VS & RE have been going together for many years.  Click to learn how they make their relationship last!",
+  "description_html": "<p>This couple has been together for many years.</p><p>If you ask them what makes their relationship last, they will tell you....</p>",
+  "story_html": "<p>I met them at the Goth clubs in Denver.</p><p> </p>",
   "image_list":
   [
     {
       "id": "6310",
-      "title": "V",
-      "subtitle_html": "",
+      "title": "VS",
+      "subtitle_html": "Art Gallery Director",
       "image_file_name": "enfp-valerie-1.jpg",
       "composition": "O",
       "score": [
@@ -31,8 +31,8 @@
       "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
     }, {
       "id": "6313",
-      "title": "R",
-      "subtitle_html": "",
+      "title": "RE",
+      "subtitle_html": "Artist",
       "image_file_name": "intp-ryan-1.jpg",
       "composition": "O",
       "score": [
