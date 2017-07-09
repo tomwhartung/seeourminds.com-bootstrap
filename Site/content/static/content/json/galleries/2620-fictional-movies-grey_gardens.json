@@ -1,15 +1,15 @@
 {
   "gallery_title": "Grey Gardens",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "X",
-  "description_html": "<p> </p><p> </p>",
-  "story_html": "<p> </p><p> </p>",
+  "list_page_teaser": "Do the incredibly gracious and wonderfully enchanting Little Edie and Big Edie have similar personalities, or are they opposites?  Click to find out!",
+  "description_html": "<p>The two Beales are kind of opposites, and kind of the same.</p><p>Between them they have all four of the functions &mdash; iNtuition (Blue), Sensation (Yellow), Feeling (Red), and Thinking (Green) &mdash; covered.  So as long as they respect each others' differences, they make an excellent team.</p><p>Also, they are both Extraverted and Perceiving, making them both outgoing and open-minded &mdash; in a word, delightful!</p>",
+  "story_html": "<p>I saw <a href='https://en.wikipedia.org/wiki/Grey_Gardens' title='Wikipedia page for Grey Gardens' target='_blank'>Grey Gardens</a> for the first time on the big screen at the <a href='https://www.denverfilm.org' title='Link to the home page of the Sie FilmCenter' target='_blank'>Sie FilmCenter</a> here in Denver.  It was a special occasion and I had no idea what I was in for.</p><p>The Beales' voices echoed in my mind for a week.  This is extremely rare &mdash; an excellent film might continue to affect me for a day &mdash; so the film made a huge impression on me!</p><p>For the record, these profiles are based on the <a href='http://www.imdb.com/title/tt0073076/?ref_=nv_sr_1' title='Page on imdb.com for the original Grey Gardens movie' target='_blank'>original movie</a> only, not <a href='http://www.imdb.com/title/tt0758751/?ref_=nv_sr_2' title='Page on imdb.com for the 2009 HBO remake of Grey Gardens' target='_blank'>the remake</a>.</p><p>Their Extraversion explains why they sometimes seem to compete for attention from the <a href='https://en.wikipedia.org/wiki/Albert_and_David_Maysles' title='Wikipedia page for Albert and David Maysles' target='_blank'>filmmakers</a>.  This sometimes deteriorates into bickering, but even then it's fun to watch.</p><p>And it's easy to see how some people &mdash; relatives, for example &mdash; might sense their openness, and try to condescend or even take advantage.  These people are in for a big surprise, however, because beneath the surface, Little Edie is most definitely <q><a href='https://www.youtube.com/watch?v=g-VnU3WQuyk' title='Link to the youtube video, S.T.A.U.N.C.H.' target='_blank'>a Staunch Character</a>!</q></p><p>If you have not seen this historic film, I cannot recommend it highly enough.  It's easy to find online, but I was able to find it in the <a href='https://www.denverlibrary.org/' title='Link to the home page of the Denver Public Library' target='_blank'>Denver Public Library</a>, so I could watch it a few more times both by myself and with some friends.</p>",
   "image_list":
   [
     {
       "id": "2620",
       "title": "Little Edie Bouvier Beale",
-      "subtitle_html": "",
+      "subtitle_html": "Famous Resident of <a href='https://en.wikipedia.org/wiki/Grey_Gardens' title='Wikipedia page for Grey Gardens' target='_blank'>Grey Gardens</a>",
       "image_file_name": "enfp-little_edie_bouvier_beale.jpg",
       "composition": "O",
       "score": [
@@ -35,7 +35,7 @@
     }, {
       "id": "2626",
       "title": "Big Edie Bouvier",
-      "subtitle_html": "",
+      "subtitle_html": "Famous Resident of <a href='https://en.wikipedia.org/wiki/Grey_Gardens' title='Wikipedia page for Grey Gardens' target='_blank'>Grey Gardens</a>",
       "image_file_name": "estp-big_edie_bouvier.jpg",
       "composition": "O",
       "score": [
