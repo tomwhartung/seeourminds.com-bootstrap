@@ -1,15 +1,15 @@
 {
-  "gallery_title": "Happy Couple: S & J",
+  "gallery_title": "Happy Couple: SSG & DJG",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "S & J",
-  "description_html": "<p> </p><p> </p>",
-  "story_html": "<p> </p><p> </p>",
+  "list_page_teaser": "SSG & DJG have been going together for many years.  Click to learn how they make their relationship last!",
+  "description_html": "<p>This couple has been together for many years.</p><p>If you ask them what makes their relationship last, they will tell you ....</p>",
+  "story_html": "<p>I met them at the Goth clubs in Denver.</p><p> </p>",
   "image_list":
   [
     {
       "id": "6320",
-      "title": "S",
-      "subtitle_html": "",
+      "title": "SSG",
+      "subtitle_html": "Music Promoter",
       "image_file_name": "esfj-sarah-1.jpg",
       "composition": "O",
       "score": [
@@ -31,8 +31,8 @@
       "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
     }, {
       "id": "6323",
-      "title": "J",
-      "subtitle_html": "",
+      "title": "DJG",
+      "subtitle_html": "Disc Jockey and Grad Student",
       "image_file_name": "intp-jacob-1.jpg",
       "composition": "O",
       "score": [
