@@ -1,41 +1,15 @@
 {
   "gallery_title": "Film Noir",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "X",
-  "description_html": "<p> </p><p> </p>",
-  "story_html": "<p> </p><p> </p>",
+  "list_page_teaser": "Do all hard-boiled PIs fit a certain psychological mold, or are their personalities as varied as any other loosely-knit groupof people?  Click to find out!",
+  "description_html": "<p>A quick glance at the images below make it obvious that <a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigators' target='_blank'>Private Investigators</a> (PIs) do <b>not</b> fit into a certain <q>psychological mold.</q></p><p>Moreover, temptation, tragedy, and ambiguous morality can <q>happen</q> to anyone, regardless of type!</p>",
+  "story_html": "<p>Once upon a time, I went into the <a href='http://www.tatteredcover.com/' title='Link to the home page of the Tattered Cover Bookstore' target='_blank'>Tattered Cover in Lodo</a> to buy a technical book.  (This was long ago, and I believe I was looking for something having to do with <a href='https://en.wikipedia.org/wiki/C%2B%2B' title='Wikipedia page for C++' target='_blank'>C++</a>.)</p><p>While browsing, I came across a book entitled <a href='https://www.amazon.com/Film-Noir-Reader-Alain-Silver-ebook/dp/B0045UB7AS' title='Buy the Film Noir Reader on amazon.com' target='_blank'>Film Noir Reader</a>.  Reading about the significance of these early films led to a life-long interest in the genre.</p><p>I plan to post more images of unforgettable characters from other movies soon.</p><p>To keep up to date, follow the site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
       "id": "2200",
-      "title": "Philip Marlowe",
-      "subtitle_html": "",
-      "image_file_name": "infp-philip_marlowe-1.jpg",
-      "composition": "O",
-      "score": [
-         { "e_score": "7", "i_score": "12" },
-         { "n_score": "10", "s_score": "9" },
-         { "f_score": "10", "t_score": "9" },
-         { "j_score": "7", "p_score": "12" }
-      ],
-      "four_letter_type": "INFP",
-      "archetype": "Fi",
-      "quiz_type": "K",
-      "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "The X in this image represents X's dominant function, X.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
-      "explain_aux": "The X in this image represents X's auxiliary function, X.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
-      "story_html": "<p> </p><p> </p>",
-      "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
-      "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
-    }, {
-      "id": "2204",
-      "title": "responsive_ad"
-    }, {
-      "id": "2208",
       "title": "Mike Hammer",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the film <a href='https://en.wikipedia.org/wiki/Kiss_Me_Deadly' title='Wikipedia page for the film, Kiss Me, Deadly' target='_blank'>Kiss Me, Deadly</a>",
       "image_file_name": "istj-mike_hammer-1.jpg",
       "composition": "O",
       "score": [
@@ -55,6 +29,32 @@
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
+    }, {
+      "id": "2203",
+      "title": "responsive_ad"
+    }, {
+      "id": "2206",
+      "title": "Philip Marlowe",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the novel <a href='https://en.wikipedia.org/wiki/The_Big_Sleep' title='Wikipedia page for the novel, The Big Sleep' target='_blank'>The Big Sleep</a>",
+      "image_file_name": "infp-philip_marlowe-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "7", "p_score": "12" }
+      ],
+      "four_letter_type": "INFP",
+      "archetype": "Fi",
+      "quiz_type": "K",
+      "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The X in this image represents X's dominant function, X.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The X in this image represents X's auxiliary function, X.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
+      "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
     }
   ]
 }
