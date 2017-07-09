@@ -1,15 +1,15 @@
 {
   "gallery_title": "True Detective 1",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "X",
-  "description_html": "<p> </p><p> </p>",
-  "story_html": "<p> </p><p> </p>",
+  "list_page_teaser": "True Detective is a great new show and the first season features a two characters whose personalities are as different as night and day.  Click to learn more!",
+  "description_html": "<p>Detectives <a href='http://www.imdb.com/character/ch0403515/?ref_=fn_al_ch_1' title='Page on imdb.com for Detective Marty Hart' target='_blank'>Marty Hart</a> and <a href='https://en.wikipedia.org/wiki/Rust_Cohle' title='Page on the wikipedia for Detective Rust Cohle' target='_blank'>Rust Cohle</a> have very different personalities, to say the least.</p><p><b>Mild Spoiler Alert</b> (vague only)!  After a bit of a struggle starting out, they learn how to get along and build on each others' strengths and connections.</p>",
+  "story_html": "<p>The substantial amounts of Green (for <q>T</q>hinking) in both of their portraits represents their no-nonsense approach to their work.  Their different backgrounds and personal lives may interfere from time to time, but the universal appeal of this logic gives them common ground and they share an important goal: to get the bad guys.</p><p>I've thoroughly enjoyed watching both seasons of this show!  Listening to the commentary tracks &mdash; which are excellent in quality &mdash; <a href='https://en.wikipedia.org/wiki/Nic_Pizzolatto' title='Wikipedia page for Nic Pizzolatto' target='_blank'>Nic Pizzolatto</a> impresses me as a very perceptive individual.  I am definitely hopeful that there will be additional seasons!</p><p>Be sure to check out the <a href='/gallery/2320-fictional-tv-true_detective-2/' title='Link to the True Detective Season 2 gallery on this site'>True Detective Season 2</a> gallery on this site!</p>",
   "image_list":
   [
     {
       "id": "2310",
       "title": "Marty Hart",
-      "subtitle_html": "",
+      "subtitle_html": "Louisiana State Detective",
       "image_file_name": "esfj-marty_hart-1.jpg",
       "composition": "O",
       "score": [
@@ -35,7 +35,7 @@
     }, {
       "id": "2316",
       "title": "Rust Cohle",
-      "subtitle_html": "",
+      "subtitle_html": "Louisiana State Detective",
       "image_file_name": "intp-rust_cohle-1.jpg",
       "composition": "O",
       "score": [
