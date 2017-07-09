@@ -1,15 +1,15 @@
 {
   "gallery_title": "True Detective 2",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "X",
-  "description_html": "<p> </p><p> </p>",
-  "story_html": "<p> </p><p> </p>",
+  "list_page_teaser": "The three True Detctives in the second season all work for different jurisdictions, but two have rather similar personalities.  Click to learn more!",
+  "description_html": "<p>Vinci City Detective <a href='http://true-detective.wikia.com/wiki/Ray_Velcoro' title='Page on true-detective.wikia.com for Ray Velcoro' target='_blank'>Ray Velcoro</a>, <a href='https://en.wikipedia.org/wiki/Ventura_County_Sheriff%27s_Office' title='Wikipedia page for Ventura County Sherriffs Office</' target='_blank'>Ventura County Sherriff's Office</a> Sergeant Ani Bezzerides, and <a href='https://en.wikipedia.org/wiki/California_Highway_Patrol' title='Wikipedia page for the California Highway Patrol' target='_blank'>California Highway Patrol </a>Officer Paul Woodrugh team up to solve the murder of a Vinci City official.  They comprise a unique team, and their underlying personal issues help give this crime drama many fascinating threads.</p><p> </p>",
+  "story_html": "<p>As a huge fan of <a href='https://en.wikipedia.org/wiki/The_Wire' title='Wikipedia page for The Wire' target='_blank'>The Wire</a>, I'd say the <a href='https://en.wikipedia.org/wiki/True_Detective_(season_2)' title='Wikpedia page for the second season of True Detective' target='_blank'>second season of True Detective</a> is built of the same stuff.</p><p>Of course, with only a single season to work with, <a href='https://en.wikipedia.org/wiki/Nic_Pizzolatto' title='Wikipedia page for Nic Pizzolatto' target='_blank'>Nic Pizzolatto</a> can't offer the same amount of depth and variety.  But that doesn't stop him from trying!</p><p>In my mind I can hear Wire fans protesting this assertion, but will refrain from defending it so as to not risk spoiling anything for those who haven't seen it (and we can't have silly spoiler alerts on every page).</p><p>Look for Spiritual Portraits of characters from <a href='https://en.wikipedia.org/wiki/The_Wire' title='Wikipedia page for The Wire' target='_blank'>The Wire</a> coming soon to this site!  To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
       "id": "2320",
       "title": "Ray Velcoro",
-      "subtitle_html": "",
+      "subtitle_html": "Vinci Police Department Detective",
       "image_file_name": "infp-ray_velcoro-1.jpg",
       "composition": "O",
       "score": [
@@ -32,7 +32,7 @@
     }, {
       "id": "2322",
       "title": "Ani Bezzerides",
-      "subtitle_html": "",
+      "subtitle_html": "Ventura County Police Sergeant",
       "image_file_name": "estj-ani_bezzerides-1.jpg",
       "composition": "O",
       "score": [
@@ -58,7 +58,7 @@
     }, {
       "id": "2326",
       "title": "Paul Woodrugh",
-      "subtitle_html": "",
+      "subtitle_html": "California Highway Patrol Officer",
       "image_file_name": "istj-paul_woodrugh-1.jpg",
       "composition": "O",
       "score": [
@@ -84,7 +84,7 @@
     }, {
       "id": "2329",
       "title": "Frank Semyon",
-      "subtitle_html": "",
+      "subtitle_html": "Night Club Owner",
       "image_file_name": "entj-frank_semyon-1.jpg",
       "composition": "O",
       "score": [
