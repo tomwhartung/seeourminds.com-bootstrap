@@ -2,7 +2,7 @@
   "gallery_title": "Classic Movies",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "It can be challenging building a personality profile based on only a few hours' worth of entertainment, but some characters are iconic and demand to be explored.  Visit this gallery to see if it contains images of any of your favorite characters!",
-  "description_html": "<p>This gallery is for fans of Classic Movies such as <a href='https://en.wikipedia.org/wiki/Citizen_Kane' title='Wikipedia page for the movie Citizen Kane' target='_blank'>Citizen Kane</a> and <a href='https://en.wikipedia.org/wiki/Taxi_Driver' title='Wikipedia page for the movie Taxi Driver' target='_blank'>Taxi Driver</a>.</p><p>For more images of iconic characters from classic movies, see the <a href='/gallery/2200-fictional-movies-film_noir/' title='Film Noir Gallery'>Film Noir Gallery</a> on this site.</p>",
+  "description_html": "<p>This gallery is for fans of Classic Movies such as <a href='https://en.wikipedia.org/wiki/Citizen_Kane' title='Wikipedia page for the movie Citizen Kane' target='_blank'>Citizen Kane</a> and <a href='https://en.wikipedia.org/wiki/Taxi_Driver' title='Wikipedia page for the movie Taxi Driver' target='_blank'>Taxi Driver</a>.</p><p>For more images of iconic characters from classic movies, see the <a href='/gallery/1200-fictional-movies-star_wars-prequel/' title='Link to the Star Wars Prequel Gallery on this site'>Star Wars Prequel</a> and <a href='/gallery/2200-fictional-movies-film_noir/' title='Link to the Film Noir Gallery on this site'>Film Noir</a> Galleries on this site.</p>",
   "story_html": "<p>I plan to post more images of unforgettable characters from other movies soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
@@ -24,8 +24,8 @@
       "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The X in this image represents X's ....  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
-      "explain_aux": "The X in this image represents X's ....  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, openness rationality emotion pragmatism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, openness rationality emotion pragmatism.  In Extraverts, the auxiliary function is directed inwardly, and spiritual portraits use a horizontal line to represent this, because it is less evident than the dominant function.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
@@ -50,8 +50,8 @@
       "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The X in this image represents X's dominant function, X.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
-      "explain_aux": "The X in this image represents X's auxiliary function, X.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, openness rationality emotion pragmatism.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, openness rationality emotion pragmatism.  In Introverts, the auxiliary function is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
       "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
