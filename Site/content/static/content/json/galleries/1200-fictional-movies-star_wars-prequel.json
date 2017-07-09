@@ -1,9 +1,9 @@
 {
   "gallery_title": "Star Wars - Prequel",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Spoiler Alert!  This Gallery has a couple of images from the three Star Wars prequel movies, and a spoiler lurks in one of the image titles!  If you haven't seen the prequel trilogy yet, do not click!",
-  "description_html": "<p>These images of <a href='https://en.wikipedia.org/wiki/Darth_Vader' title='Wikipedia page for Anakin Skywalker' target='_blank'>Anakin Skywalker</a> and <a href='https://en.wikipedia.org/wiki/Padm%C3%A9_Amidala' title='Wikipedia page for Padme Amidala' target='_blank'>Padme Amidala</a> show that they are opposites in three out of the four pairs.</p><p>Opposites attract, and it's natural for these differences to lead to miscommunications, unwarranted and unreasonable expectations, and ultimately a bit of drama &mdash; sometimes quite a bit of drama!</p><p>These images are based on the <a href='https://en.wikipedia.org/wiki/Star_Wars#Prequel_trilogy' title='Wikipedia page for Star Wars Prequel Trilogy' target='_blank'>Star Wars Prequel Trilogy</a> movies only.</p>",
-  "story_html": "<p>I plan to post more images of characters from other <a href='https://en.wikipedia.org/wiki/Star_Wars' title='Wikipedia page for Star Wars' target='_blank'>Star Wars</a> movies soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "Spoiler Alert!  Even though this Gallery has only a couple of images, spoilers lurk on this page!  If you haven't yet seen the prequel trilogy, do not click!",
+  "description_html": "<p>These images of <a href='https://en.wikipedia.org/wiki/Darth_Vader' title='Wikipedia page for Anakin Skywalker' target='_blank'>Anakin Skywalker</a> and <a href='https://en.wikipedia.org/wiki/Padm%C3%A9_Amidala' title='Wikipedia page for Padme Amidala' target='_blank'>Padme Amidala</a> show that they are opposites in three out of the four pairs.</p><p>Opposites attract, and it's natural for these differences to lead to miscommunications, unwarranted and unreasonable expectations, and ultimately a bit of drama &mdash; sometimes quite a bit of drama!</p>",
+  "story_html": "<p>These images are based on the <a href='https://en.wikipedia.org/wiki/Star_Wars#Prequel_trilogy' title='Wikipedia page for Star Wars Prequel Trilogy' target='_blank'>Star Wars Prequel Trilogy</a> movies only.</p><p>I plan to post more images of characters from other <a href='https://en.wikipedia.org/wiki/Star_Wars' title='Wikipedia page for Star Wars' target='_blank'>Star Wars</a> movies soon.  I've seen the other movies, but working through the process to create these images takes some time, so please be patient!</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
@@ -21,11 +21,11 @@
       "four_letter_type": "ENFJ",
       "archetype": "Fe",
       "quiz_type": "K",
-      "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
+      "gallery_page_teaser": "The Blue represents Padme's idealism, the Red her Feeling and concern for the well-being of others.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The X in this image represents X's ....  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
-      "explain_aux": "The X in this image represents X's ....  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, openness rationality emotion pragmatism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, openness rationality emotion pragmatism.  In Extraverts, the auxiliary function is directed inwardly, and spiritual portraits use a horizontal line to represent this, because it is less evident than the dominant function.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
@@ -44,11 +44,11 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "K",
-      "gallery_page_teaser": "The X in this image shows that X is ....  Click on the image to learn more!",
+      "gallery_page_teaser": "The Yellow represents Anakin's pragmatism.  In addition to lacking Padme's idealism, the Green shows he's more concerned about efficiency than the well-being of others.  Dun-dun-dunnnn!!!  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The X in this image represents X's dominant function, X.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
-      "explain_aux": "The X in this image represents X's auxiliary function, X.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, openness rationality emotion pragmatism.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, openness rationality emotion pragmatism.  In Introverts, the auxiliary function is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
       "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
