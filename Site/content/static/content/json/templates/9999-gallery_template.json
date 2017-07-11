@@ -9,7 +9,8 @@
     {
       "id": "0000",
       "title": "X",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "x.jpg",
       "composition": "O",
       "score": [
@@ -21,7 +22,6 @@
       "four_letter_type": "EXXX",
       "archetype": "Xe",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
@@ -35,7 +35,8 @@
     }, {
       "id": "0006",
       "title": "X",
-      "subtitle_html": "",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "x.jpg",
       "composition": "O",
       "score": [
@@ -47,7 +48,6 @@
       "four_letter_type": "IXXX",
       "archetype": "Xi",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
