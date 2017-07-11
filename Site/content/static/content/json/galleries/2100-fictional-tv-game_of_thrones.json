@@ -2,14 +2,15 @@
   "gallery_title": "Game of Thrones 1",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Spoiler Alert!  If you have not seen Season 1, do not click!  What sort of personality types survive the best in a brutal world where the possibility of instanteous death lurks over everyone like a cloud?  Click to find out this and more!",
-  "description_html": "<p><a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a> has a lot of characters and plots.   It makes sense to start with Season 1, and go from there.</p><p><b>Spoiler Alert!  If you have not seen <a href='https://en.wikipedia.org/wiki/Game_of_Thrones_(season_1)' title='Wikipedia page for Season 1 of Game of Thrones' target='_blank'>Season 1 of Game of Thrones</a> in its entirety, leave this page immediately!</b></p>",
-    "story_html": "<p>At the time of this writing, the series is not yet over.  More importantly, <b>this gallery contains characters who appeared only in Season 1.</b>  Characters who appear in subsequent seasons may appear in other galleries.</p><p>I plan to post more images of characters from other seasons of <a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a> soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "description_html": "<p><a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a> has a lot of characters and plots.   It makes sense to start with Season 1, and go from there.</p><p><b>Spoiler Alert!</b>  If you have not seen <a href='https://en.wikipedia.org/wiki/Game_of_Thrones_(season_1)' title='Wikipedia page for Season 1 of Game of Thrones' target='_blank'>Season 1 of Game of Thrones</a> in its entirety, <b>leave this page immediately!</b></p>",
+    "story_html": "<p>It's best to have as much information about a character as possible before drawing their spiritual portrait.  At the time of this writing, the series is not yet over.</p><p>It's tempting to investigate the personalities of many of the star characters, but they I am still gathering information!</p><p>As a result, this gallery contains characters who appeared only in Season 1.  Characters who appear in subsequent seasons may appear in other galleries.</p><p>If you've seen the first season, you know what I'm talking about.  <b>If you haven't seen the first season, go away now!</b></p><p>I do not want to be the one who spoils one of the most shocking scenes in the history of television!  So yeah, I am making kind of a <b>big deal</b> about this!</p><p>I plan to post more images of characters from other seasons of <a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a> soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
       "id": "2100",
       "title": "Robert Baratheon",
       "subtitle_html": "King of <a href='https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Westeros' title='Section about Westeros on the wikipedia page about the World of the book A Song of Ice and Fire' target='_blank'>Westeros</a>",
+      "gallery_page_teaser": "The overabundance of Green in this portrait of The King shows he is not someone you want to mess with.  Click on the image to learn more!",
       "image_file_name": "estj-robert_baratheon-1.jpg",
       "composition": "O",
       "score": [
@@ -21,7 +22,6 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Green in this spiritual portrait represents Robert Baratheon's dominant trait, rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait in his ....",
@@ -36,6 +36,7 @@
       "id": "2106",
       "title": "Ned Stark",
       "subtitle_html": "Lord of <a href='https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Winterfell' title='Section about Winterfell on the wikipedia page about the World of the book A Song of Ice and Fire' target='_blank'>Winterfell</a>",
+      "gallery_page_teaser": "The nice balance of both warm and cool colors in Ned's portrait show he's well-balanced and relatable.  Click on the image to learn more!",
       "image_file_name": "isfj-ned_stark-1.jpg",
       "composition": "O",
       "score": [
@@ -47,7 +48,6 @@
       "four_letter_type": "ISFJ",
       "archetype": "Si",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Ned Stark's dominant trait, his pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his ....",
