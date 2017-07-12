@@ -2,14 +2,15 @@
   "gallery_title": "True Detective 1",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "The two True Detectives in the first season have personalities as different as night and day.  Click to learn more!",
-  "description_html": "<p>Detectives <a href='http://www.imdb.com/character/ch0403515/?ref_=fn_al_ch_1' title='Page on imdb.com for Detective Marty Hart' target='_blank'>Marty Hart</a> and <a href='https://en.wikipedia.org/wiki/Rust_Cohle' title='Page on the wikipedia for Detective Rust Cohle' target='_blank'>Rust Cohle</a> have very different personalities, to say the least.</p><p><b>Mild Spoiler Alert</b> (vague only)!  After a bit of a struggle starting out, they learn how to get along and build on each others' strengths and connections.</p>",
-  "story_html": "<p>The substantial amounts of Green (for <q>T</q>hinking) in both of their portraits represents their no-nonsense approach to their work.  Their different backgrounds and personal lives may interfere from time to time, but the universal appeal of this logic gives them common ground and they share an important goal: to get the bad guys.</p><p>I've thoroughly enjoyed watching both seasons of this show!  Listening to the commentary tracks &mdash; which are excellent in quality &mdash; <a href='https://en.wikipedia.org/wiki/Nic_Pizzolatto' title='Wikipedia page for Nic Pizzolatto' target='_blank'>Nic Pizzolatto</a> impresses me as a very perceptive individual.  I am definitely hopeful that there will be additional seasons!</p><p>Be sure to check out the <a href='/gallery/2320-fictional-tv-true_detective-2/' title='Link to the True Detective Season 2 gallery on this site'>True Detective Season 2</a> gallery on this site!</p>",
+  "description_html": "<p>Fans of this show do not need to see spiritual portraits of Detectives <a href='http://www.imdb.com/character/ch0403515/?ref_=fn_al_ch_1' title='Page on imdb.com for Detective Marty Hart' target='_blank'>Marty Hart</a> and <a href='https://en.wikipedia.org/wiki/Rust_Cohle' title='Page on the wikipedia for Detective Rust Cohle' target='_blank'>Rust Cohle</a> to realize have very different personalities.  Their attitudes, manner, and behavior make this obvious from the start.</p><p>When it comes to fighting crime, however, they are able to put these differences aside.  As <a href='https://en.wikipedia.org/wiki/True_Detective_(season_1)' title='Wikipedia page for Season 1 of True Detective' target='_blank'>True Detectives</a> they share an important goal &mdash; to get the bad guys &mdash; and they spend the better part of their lives working to achieve it.</p>",
+  "story_html": "<p>Their spiritual portraits reveal the foundation of their shared abilities.  Both images contain substantial amounts of Green &mdash; which represents their ability to make logical decisions &mdash; and this is their common ground.</p><p>Their different backgrounds and personal lives may interfere from time to time, but this rational decision-making forces them to realize they need to get over their differences and focus on solving the case.</p><p>This objective rationality &mdash; known as <q>T</q>hinking in the four-letter-type parlance used for these portraits &mdash; also enables them to do just that.</p><p>Be sure to check out the <a href='/gallery/2320-fictional-tv-true_detective-2/' title='Link to the True Detective Season 2 gallery on this site'>True Detective Season 2</a> gallery on this site!</p>",
   "image_list":
   [
     {
       "id": "2310",
       "title": "Marty Hart",
       "subtitle_html": "Louisiana State Detective",
+      "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "esfj-marty_hart-1.jpg",
       "composition": "O",
       "score": [
@@ -21,7 +22,6 @@
       "four_letter_type": "ESFJ",
       "archetype": "Fe",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Red in this spiritual portrait represents Hart's dominant trait, his passion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Marty demonstrates this trait in his ....",
@@ -36,6 +36,7 @@
       "id": "2316",
       "title": "Rust Cohle",
       "subtitle_html": "Louisiana State Detective",
+      "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "intp-rust_cohle-1.jpg",
       "composition": "O",
       "score": [
@@ -47,7 +48,6 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Green in this spiritual portrait represents Cohle's dominant trait, his rationality.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his ....",
