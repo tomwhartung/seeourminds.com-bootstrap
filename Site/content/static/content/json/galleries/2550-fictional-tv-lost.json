@@ -2,14 +2,15 @@
   "gallery_title": "Lost",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Lost was an interesting show with many fascinating characters.  Click to see the Spiritual Portraits of a few of them!",
-  "description_html": "<p>This page currently has only two portraits, and they are distinct opposites.  Fans of the show &mdash; even those who haven't seen it in years &mdash; should remember both <a href='https://en.wikipedia.org/wiki/Charlie_Pace' title='Wikipedia page for Charlie Pace' target='_blank'>Charlie Pace</a> and <a href='https://en.wikipedia.org/wiki/Mr._Eko' title='Wikipedia page for Mr. Eko' target='_blank'>Mr. Eko</a>.</p><p> </p><p>Look for more characters to be added soon!</p>",
-  "story_html": "<p>I will be adding more characters from <a href='https://en.wikipedia.org/wiki/Lost_(TV_series)' title='Wikipedia page for the Lost tv show' target='_blank'>Lost</a> soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "description_html": "<p>This page is still a work in progress and as such currently has only two spiritual portraits.</p><p>These two characters are of particular interest because they are complete opposites.  Fans of the show should be able to remember both <a href='https://en.wikipedia.org/wiki/Charlie_Pace' title='Wikipedia page for Charlie Pace' target='_blank'>Charlie Pace</a> and <a href='https://en.wikipedia.org/wiki/Mr._Eko' title='Wikipedia page for Mr. Eko' target='_blank'>Mr. Eko</a>, and should be able to appreciate how their portraits would look so different.</p><p>Look for more characters from this series to be added soon!</p>",
+  "story_html": "<p>I am in the process of re-watching <a href='https://en.wikipedia.org/wiki/Lost_(TV_series)' title='Wikipedia page for the Lost tv show' target='_blank'>Lost</a> and will be adding more characters from it soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
       "id": "2557",
       "title": "Mr. Eko",
       "subtitle_html": "Aka. Father Tunde",
+      "gallery_page_teaser": "Mr. Eko is an intriguing character with a past distinctly different from that of the other characters in the series.  Click on the image to learn more!",
       "image_file_name": "intj-mr_eko-1.jpg",
       "composition": "O",
       "score": [
@@ -21,18 +22,18 @@
       "four_letter_type": "INTJ",
       "archetype": "Ni",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Mr. Eko's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait by ....",
       "explain_aux": "The Green in this spiritual portrait represents Mr. Eko's auxiliary trait, his rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait by ....",
       "story_html": "<p> </p><p> </p>",
-      "compare_to": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" },
-      "contrast_with": { "gallery_file_name": "7990-real-self_portraits", "image_id": "7993" }
+      "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9103" },
+      "contrast_with": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9103" }
     }, {
       "id": "2558",
       "title": "Charlie Pace",
       "subtitle_html": "Guitar and Vocals, Drive Shaft",
+      "gallery_page_teaser": "As the show's only major rock star, Charlie Pace's past is unique as well.  Click on the image to learn more!",
       "image_file_name": "esfp-charlie_pace-1.jpg",
       "composition": "O",
       "score": [
@@ -44,7 +45,6 @@
       "four_letter_type": "ESFP",
       "archetype": "Se",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Charlie's dominant trait, his pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait by ....",
