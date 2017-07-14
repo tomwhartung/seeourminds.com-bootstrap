@@ -24,11 +24,11 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Blue in this spiritual portrait represents Mr. Eko's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait by ....",
-      "explain_aux": "The Green in this spiritual portrait represents Mr. Eko's auxiliary trait, his rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait by ....",
+      "explain_dom": "The Blue in this spiritual portrait represents Mr. Eko's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his spirituality.",
+      "explain_aux": "The Green in this spiritual portrait represents Mr. Eko's auxiliary trait, his rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait by his ability to be ruthless, when the situation calls for it.",
       "story_html": "<p> </p><p> </p>",
-      "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9103" },
-      "contrast_with": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9103" }
+      "compare_to": { },
+      "contrast_with": { "gallery_file_name": "2550-fictional-tv-lost", "image_id": "2558" }
     }, {
       "id": "2558",
       "title": "Charlie Pace",
@@ -47,11 +47,11 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Yellow in this spiritual portrait represents Charlie's dominant trait, his pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait by ....",
-      "explain_aux": "The Red in this spiritual portrait represents Charlie's auxiliary trait, his passion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait by ....",
+      "explain_dom": "The Yellow in this spiritual portrait represents Charlie's dominant trait, his pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait in the way he is down-to-earth and shows little or no interest in ideas, philosophy, or religion.",
+      "explain_aux": "The Red in this spiritual portrait represents Charlie's auxiliary trait, his passion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait by being friendly to most of the people he meets.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
-      "contrast_with": { }
+      "contrast_with": { "gallery_file_name": "2550-fictional-tv-lost", "image_id": "2557" }
     }, {
       "id": "2559",
       "title": "responsive_ad"
