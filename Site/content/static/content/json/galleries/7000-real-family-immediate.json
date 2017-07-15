@@ -1,26 +1,26 @@
 {
-  "gallery_title": "X",
+  "gallery_title": "Immediate Family",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "This gallery contains spiritual portraits of my immediate family.  Click to learn more!",
+  "description_html": "<p>These are spiritual portraits of my immediate family.</p><p> </p>",
+  "story_html": "<p>Note that I am the only Introvert in the bunch!</p>",
   "image_list":
   [
     {
-      "id": "0000",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "id": "7000",
+      "title": "Jeanne S.",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Mother' title='Wikipedia page for Mother' target='_blank'>Mom</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "entj-jeanne_s_mom-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "9", "t_score": "10" },
+         { "j_score": "12", "p_score": "7" }
       ],
-      "four_letter_type": "EXXX",
-      "archetype": "Xe",
+      "four_letter_type": "ENTJ",
+      "archetype": "Te",
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
@@ -28,36 +28,102 @@
       "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
-      "contrast_with": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" }
+      "contrast_with": { }
     }, {
-      "id": "0003",
+      "id": "7001",
       "title": "responsive_ad"
     }, {
-      "id": "0006",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "id": "7002",
+      "title": "Homer H.",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Father' title='Wikipedia page for Father' target='_blank'>Dad</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "entp-homer_h_dad-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "13", "i_score": "6" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "6", "t_score": "13" },
+         { "j_score": "9", "p_score": "10" }
       ],
-      "four_letter_type": "IXXX",
-      "archetype": "Xi",
+      "four_letter_type": "ENTP",
+      "archetype": "Ne",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "7004",
+      "title": "Tom H.",
+      "subtitle_html": "Oldest Son",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "image_file_name": "infp-tomh-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "9", "p_score": "10" }
+      ],
+      "four_letter_type": "INFP",
+      "archetype": "Fi",
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
       "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
       "story_html": "<p> </p><p> </p>",
-      "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" },
+      "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "0009",
-      "title": "square_ad"
+      "id": "7005",
+      "title": "Marti H.",
+      "subtitle_html": "Middle Daughter",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "image_file_name": "enfp-marti_h-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "11", "i_score": "8" },
+         { "n_score": "16", "s_score": "3" },
+         { "f_score": "14", "t_score": "5" },
+         { "j_score": "8", "p_score": "11" }
+      ],
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "7006",
+      "title": "Matt H.",
+      "subtitle_html": "Youngest Son",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "image_file_name": "enfp-matt_h-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "13", "i_score": "6" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "12", "t_score": "7" },
+         { "j_score": "5", "p_score": "14" }
+      ],
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
+      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
     }
   ]
 }
