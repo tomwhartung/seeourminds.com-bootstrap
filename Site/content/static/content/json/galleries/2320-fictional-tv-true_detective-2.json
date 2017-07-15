@@ -27,8 +27,8 @@
       "explain_dom": "The Red in this spiritual portrait represents Velcoro's dominant trait, his passion.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his unconditional love for his son.",
       "explain_aux": "The Blue in this spiritual portrait represents Velcoro's auxiliary trait, his idealism.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait when he breaks the rules to pursue his own idea of what is just.",
       "story_html": "<p>The way <a href='http://true-detective.wikia.com/wiki/Ray_Velcoro' title='Wikipedia page for Ray Velcoro' target='_blank'>Ray Velcoro</a> cares for his kid is rare for a law enforcement-type character.  His role is pivotal, and it's rather sad that no one, except us, can really see some of his more redeeming qualities.</p><p>His spiritual portrait looks remarkably different from those of the other two cops in this season of the series, Ani Bezzerides and Paul Woodrugh.  He does share some idealism &mdash; represented by the Blue &mdash; with Frank, though, And this is no doubt how they manage to get along so well.</p>",
-      "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" },
-      "contrast_with": { }
+      "compare_to": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2206" },
+      "contrast_with": { "gallery_file_name": "2320-fictional-tv-true_detective-2", "image_id": "2322" }
     }, {
       "id": "2322",
       "title": "Ani Bezzerides",
@@ -50,8 +50,8 @@
       "explain_dom": "The Green in this spiritual portrait represents Bezzerides' dominant trait, her rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait by doing her best to impartially uphold the law.",
       "explain_aux": "The Yellow in this spiritual portrait represents Bezzerides' auxiliary trait, her pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  She demonstrates this trait by having little patience for her father, who leads a cult with religious overtones.",
       "story_html": "<p>Ani has a past that haunts her, and superiors who set her against Ray.  She is resilient enough, however, to face these challenges head-on.</p><p>As the portraits show, her personality is most similar to Paul's, and they do indeed work well together.  But as a woman, her abilities and perspective set her apart from him:</p><blockquote><b>Ani:</b> Maybe, and this is just a thought, maybe you were put on earth for more than fucking.<br /><b>Vera:</b> Everything is fucking.</blockquote><p>The solid grounding of Ani's and Paul's personalities provide a solid moral footing in a universe that is largely lacking in any sort of morality whatsoever.</p>",
-      "compare_to": { },
-      "contrast_with": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" }
+      "compare_to": { "gallery_file_name": "2400-fictional-tv-sopranos", "image_id": "2400" },
+      "contrast_with": { "gallery_file_name": "2320-fictional-tv-true_detective-2", "image_id": "2320" }
     }, {
       "id": "2324",
       "title": "responsive_ad"
@@ -75,8 +75,8 @@
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Woodrugh's dominant trait, his pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in the way he prefers the sensation of riding his motorcycle to the relatively boring experience of riding in a car.",
       "explain_aux": "The Green in this spiritual portrait represents Woodrugh's auxiliary trait, his rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in the way he struggles to express or even acknowledge his emotions.",
-      "story_html": "<p> </p><p> </p>",
-      "compare_to": { },
+      "story_html": "<p>It's fascinating to watch as Paul's inner torment reveals itself.  Once it was all done, I had to rewatch the season in this new light, as it ultimately showed through his Introversion and revealed the sources of his motivations, decisions, and actions.</p><p>Paul really shows his stuff in a shootout scene.  He acts without hesitation, without fear, and without missing a thing.  It's the ultimate portrayal of a finely tuned killing machine, protecting the citizenry and fighting the good fight.</p>",
+      "compare_to": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2200" },
       "contrast_with": { }
     }, {
       "id": "2328",
@@ -102,8 +102,8 @@
       "explain_dom": "The Green in this spiritual portrait represents Semyon's dominant trait, his rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait by his ability to mete out brutal punishments on employees who get on his wrong side.",
       "explain_aux": "The Blue in this spiritual portrait represents Semyon's auxiliary trait, his idealism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait by his being open to receiving advice from his wife, which is uncommon in his line of work.",
       "story_html": "<p> </p><p> </p>",
-      "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9103" },
-      "contrast_with": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9103" }
+      "compare_to": { "gallery_file_name": "2550-fictional-tv-lost", "image_id": "2557" },
+      "contrast_with": { "gallery_file_name": "2400-fictional-tv-sopranos", "image_id": "2400" }
     }
   ]
 }
