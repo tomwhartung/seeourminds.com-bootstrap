@@ -24,9 +24,9 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
-      "story_html": "<p>Lin lives in Virginia.</p><p>I will let her know about this image soon, and hopefully get her permission to post more information.</p>",
+      "explain_dom": "The Yellow in this spiritual portrait represents Lin's dominant trait, her pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The Green in this spiritual portrait represents Lin's auxiliary trait, her rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
+      "story_html": "<p>Lin lives in Virginia.</p><p>Once the site is in fairly decent shape, I will let her know I've posted her portrait, and hopefully get her permission to post more information.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -50,9 +50,9 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Blue Green Red Yellow in this spiritual portrait represents X's dominant trait, idealism rationality passion pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-      "explain_aux": "The Blue Green Red Yellow in this spiritual portrait represents X's auxiliary trait, idealism rationality passion pragmatism.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
-      "story_html": "<p>Oren lives in Oregon.</p><p>I will let him know about this image soon, and hopefully get his permission to post more information.</p>",
+      "explain_dom": "The Blue in this spiritual portrait represents Oren's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The Green in this spiritual portrait represents Oren's auxiliary trait, his rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
+      "story_html": "<p>Oren lives in Oregon.</p><p>Once the site is in fairly decent shape, I will let him know I've posted his portrait, and hopefully get his permission to post more information.</p>",
       "compare_to": { },
       "contrast_with": { }
     }
