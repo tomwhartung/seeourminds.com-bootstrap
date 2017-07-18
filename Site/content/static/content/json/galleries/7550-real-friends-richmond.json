@@ -154,6 +154,55 @@
       "id": "7566",
       "title": "responsive_ad"
     }, {
+      "id": "7568",
+      "title": "Greg L",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Greg and I have been friends for many years.  He used to be 'famous' for having annual Snakebite Parties!  Click on the image to learn more!",
+      "image_file_name": "estj-greg_l-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "6", "s_score": "13" },
+         { "f_score": "4", "t_score": "15" },
+         { "j_score": "15", "p_score": "4" }
+      ],
+      "four_letter_type": "ESTJ",
+      "archetype": "Te",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Green in this spiritual portrait represents Greg's dominant trait, his rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Greg's auxiliary trait, his pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "7570",
+      "title": "Tom P",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Tom and I have been friends since Elementary School.  In junior high and high school we were both in band, and at one time we both played in a classic rock band named Snowball!  Click on the image to learn more!",
+      "image_file_name": "entp-tom_p-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "8", "t_score": "11" },
+         { "j_score": "9", "p_score": "10" }
+      ],
+      "four_letter_type": "ENTP",
+      "archetype": "Ne",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue in this spiritual portrait represents Tom's dominant trait, his idealism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The Green in this spiritual portrait represents Tom's auxiliary trait, his rationality.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "7572",
+      "title": "responsive_ad"
+    }, {
       "id": "7596",
       "title": "Roy B. Scherer",
       "subtitle_html": "Lobbyist for Liberty",
