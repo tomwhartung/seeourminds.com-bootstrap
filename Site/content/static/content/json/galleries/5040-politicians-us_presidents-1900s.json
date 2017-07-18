@@ -1,0 +1,60 @@
+{
+  "gallery_title": "American Presidents - 1900s",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "American Presidents, just like any other group of individuals, have different personalities.  Learn how the images of some popular and recent presidents reflect their idealism, decisiveness, and other qualities.",
+  "description_html": "<p>Which politicians &ndash; &#x263A; if any &#x263A; &ndash; are your favorites? How does your personality compare to theirs?</p><p>This gallery contains some spiritual portraits of our presidents, past, recent, and present.  If you know your four-letter type, you can easily answer these questions for yourself!</p>",
+  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
+  "image_list":
+  [
+    {
+      "id": "5077",
+      "title": "George Herbert Walker Bush",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA - Jan. 20, 1989 to Jan. 20 1993",
+      "image_file_name": "istj-george_h_w_bush-41st_president.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "9", "i_score": "10" },
+        { "n_score": "3", "s_score": "16" },
+        { "f_score": "0", "t_score": "19" },
+        { "j_score": "16", "p_score": "3" }
+      ],
+      "four_letter_type": "ISTJ",
+      "archetype": "Si",
+      "quiz_type": "K",
+      "gallery_page_teaser": "The preponderance of Green in this spiritual portrait of George Herbert Walker Bush (George W.'s father) shows that he is a very logical thinker.  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Yellow in this spiritual portrait represents Bush's preference for being down-to-earth.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  This ability to pay attention to details served him well in his work in the military, business, and the many government posts he held prior to being elected president.",
+      "explain_aux": "The Green in this spiritual portrait represents Bush's preference for logic and rationality.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  It is clear from this image that he was a very logical individual!",
+      "story_html": "<p>When I wrote the original version of this program in the late 1980s, sometimes I would get with some friends and we would answer the questions in the Keirsey Temperament Sorter, guessing how famous people would answer them.  I used the results of one of these exercises to create this portrait of George H. W. Bush, the 41st president &mdash; father of and not to be confused with <a href='/image/5000-politicians-us_presidents/5030/' title='Link to the image of his son George W. Bush on this site'>George W. Bush</a>, the 43rd president.</p><p>It is <b>extremely important</b> to note that unlike many of the other presidents' images this one is <b>not</b> based on fixed percentages, but rather based on the impression he made at the time on my friends and me.  We perceived that he was extremely logical, and this image reflects that by containing a preponderance of Green.</p><p>It is interesting to compare this image to the one of <a href='/image/2800-fictional-tv-star_trek/2820/' title='Link to the image of Mr. Spock on this site'>Mr. Spock</a>, Chief Scientist of Star Trek's USS Enterprise.</p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "5078",
+      "title": "responsive_ad"
+    }, {
+      "id": "5079",
+      "title": "Bill Clinton",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President</a> of the USA - Jan. 20, 1993 to Jan. 20, 2001",
+      "image_file_name": "enfp-bill_clinton.jpeg",
+      "composition": "O",
+      "score": [
+        { "e_score": "11", "i_score": "8" },
+        { "n_score": "11", "s_score": "8" },
+        { "f_score": "11", "t_score": "8" },
+        { "j_score": "8", "p_score": "11" }
+      ],
+      "four_letter_type": "ENFP",
+      "archetype": "Ne",
+      "quiz_type": "J",
+      "gallery_page_teaser": "There is some disagreement regarding Bill Clinton's personality type, but at least one article claims he is 'verified' as an ENFP.  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue in this spiritual portrait represents Clinton's iNtuition.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  His preference for embracing possibilities surely contributed to the fact that he presided over a long period of peacetime economic expansion.",
+      "explain_aux": "The Red in this spiritual portrait represents Clinton's preference for making judgements using his emotions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  In Bill's case, allowing his heart to rule over his head certainly contributed to his fooling around with women who were not his wife, ultimately leading to his being impeached.",
+      "story_html": "<p>This image is based on <a href='http://www.personalitydesk.com/enfp-type-description.php' title='Link to an article at personalitydesk.com, that is no longer online, claiming Clinton is an ENFP' target='_blank'>an article at personalitydesk.com</a> that claimed Bill Clinton is an ENFP.  This article is no longer online, but this <a href='https://www.truity.com/blog/much-disputed-personality-types-presidential-candidates' title='' target='_blank'>article at truity.com</a> claims that he is <q>verified as an ENFP</q> (whatever that means).</p><p>Digging a bit deeper though reveals there is no real consensus about Bill's type.  David Keirsey <a href='http://www.keirsey.com/4temps/bill_clinton.asp' title='Page on keirsey.com claiming Bill Clinton is an ESFP' target='_blank'>claims he is an ESFP</a> while <a href='https://www.babble.com/entertainment/16-celebrity-myers-briggs-personality-types/' title='Article claiming Bill Clinton is an ESFJ' target='_blank'>this article at babble.com</a> claims he is an ESFJ.  In an effort to resolve the uncertainty, an <a href='http://www.celebritytypes.com/blog/2013/12/why-bill-clinton-is-esfp-enfp/' title='Article at celebritytypes.com arguing that Keirsey is correct' target='_blank'>article at celebritytypes.com</a> also argues that Bill is an ESFP (and not an ENFP).  But I thought he was <q>verified as an ENFP!?!</q></p><p>This is clearly a controversial issue, and it makes me think that not everyone conforms to a single personality type 100% of the time.  I, for one, consider myself to be extremely flexible and I enjoy fitting into different roles as the situation warrants it.</p><p>Some people change as they age, and some people like to exercise their flexibility and choose to use the abilities most suited for our current environment.  And as a matter of fact, I tend to do both!  However introspection and mindfulness over the years has led me to think I am most comfortable being an INFP.</p><p>It is entirely possible that Bill has equal, or nearly equal, preferences when it comes to choosing between pairs of opposites.  As the scales that accompany each image show &ndash; except for those that are based on just the four-letter-type, and hence use fixed percentages, of course &ndash; some people have stronger preferences than others.</p><p>In my experience, this is entirely reasonable and not at all uncommon.  This is why I emphasize it when presenting images that are 'generic,' due to having only the four-letter-type available.</p><p>And this image, being based on a four-letter-type, is one of those images of a 'generic' personality, that as a result uses fixed percentages.</p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }
+  ]
+}
