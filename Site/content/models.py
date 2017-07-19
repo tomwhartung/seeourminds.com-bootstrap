@@ -38,22 +38,38 @@ class GalleriesList:
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         gallery_files = sorted(os.listdir(galleries_root_dir))
 
-        if galleries_list_name == 'fictional_people':
-            self.galleries_list_title = 'Fictional People'
-            phrase = 'these galleries of images of <b>fictional characters:</b>'
-            fnmatch_string = '[0-9]*fictional*'
+        if galleries_list_name == 'sixteen_types':
+            self.galleries_list_title = 'Sixteen Types'
+            phrase = 'these galleries of <b>generic images:</b>'
+            fnmatch_string = '[0-9]*generic_images*'
+        elif galleries_list_name == 'movies':
+            self.galleries_list_title = 'Movies'
+            phrase = 'these galleries of images of fictional characters in <b>movies:</b>'
+            fnmatch_string = '[0-9]*-movies-*'
+        elif galleries_list_name == 'tv':
+            self.galleries_list_title = 'TV Shows'
+            phrase = 'these galleries of images of fictional characters from <b>tv shows:</b>'
+            fnmatch_string = '[0-9]*-tv-*'
         elif galleries_list_name == 'politicians':
             self.galleries_list_title = 'American Politicians'
             phrase = 'these galleries, containing images of American politicians:'
-            fnmatch_string = '[0-9]*politicians*'
-        elif galleries_list_name == 'real_people':
-            self.galleries_list_title = 'Real People'
-            phrase = 'these galleries containing images of <b>real people:</b>'
-            fnmatch_string = '[0-9]*real*'
+            fnmatch_string = '[0-9]*-politicians-*'
+        elif galleries_list_name == 'friends':
+            self.galleries_list_title = 'Friends'
+            phrase = 'these galleries containing images of <b>some of my friends:</b>'
+            fnmatch_string = '[0-9]*-friends-*'
+        elif galleries_list_name == 'family':
+            self.galleries_list_title = 'Family'
+            phrase = 'these galleries containing images of <b>people in my family:</b>'
+            fnmatch_string = '[0-9]*-family-*'
+        elif galleries_list_name == 'others':
+            self.galleries_list_title = 'Other People I Know'
+            phrase = 'these galleries containing images of <b>other real people I know:</b>'
+            fnmatch_string = '[0-9]*-others-*'
         elif galleries_list_name == 'experiments':
             self.galleries_list_title = 'Experimental Compositions'
             phrase = 'these galleries containing <b>experimental</b> images:'
-            fnmatch_string = '[0-9]*experiments*'
+            fnmatch_string = '[0-9]*-experiments-*'
         else: # default: get all galleries
             self.galleries_list_title = 'All Galleries'
             phrase = '<b>all</b> available galleries!'
