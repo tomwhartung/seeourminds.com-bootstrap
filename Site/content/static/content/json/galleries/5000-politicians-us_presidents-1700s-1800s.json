@@ -3,14 +3,16 @@
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "American Presidents, just like any other group of individuals, have different personalities.  Learn how the images of some popular and recent presidents reflect their idealism, decisiveness, and other qualities.",
   "description_html": "<p>Which politicians &ndash; &#x263A; if any &#x263A; &ndash; are your favorites? How does your personality compare to theirs?</p><p>This gallery contains some spiritual portraits of our presidents, past, recent, and present.  If you know your four-letter type, you can easily answer these questions for yourself!</p>",
-  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
+  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images-original/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
   "image_list":
   [
     {
       "id": "5000",
       "title": "George Washington",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President</a> of the USA - Apr. 30, 1789 to Mar. 4, 1797",
+      "gallery_page_teaser": "The Green and Yellow in this spiritual portrait of George Washington shows that he was a strong leader.  Click on the image to learn more!",
       "image_file_name": "estj-george_washington.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
       "composition": "O",
       "score": [
         { "e_score": "11", "i_score": "8" },
@@ -21,7 +23,6 @@
       "four_letter_type": "ESTJ",
       "archetype": "Te",
       "quiz_type": "J",
-      "gallery_page_teaser": "The Green and Yellow in this spiritual portrait of George Washington shows that he was a strong leader.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Green in this spiritual portrait represents Washington's rationality.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  He was a strong leader and his tendency to be logical enabled him to keep a cool head during the many trials and difficulties he expereicned in leading the Continental Army during the American Revolution.",
@@ -36,7 +37,9 @@
       "id": "5006",
       "title": "Thomas Jefferson",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President</a> of the USA - Mar. 4, 1801 to Mar. 4, 1809",
+      "gallery_page_teaser": "The Blue and Green in this portrait of Thomas Jefferson shows that he was a logical thinker and open to new ideas.  Click on the image to learn more!",
       "image_file_name": "intj-thomas_jefferson.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
       "composition": "O",
       "score": [
         { "e_score": "8", "i_score": "11" },
@@ -47,7 +50,6 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "gallery_page_teaser": "The Blue and Green in this portrait of Thomas Jefferson shows that he was a logical thinker and open to new ideas.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Green in this spiritual portrait represents Jefferson's tendency to be logical.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  This preference is evident in his interests in topics such as philosophy, science, and technology.",
@@ -62,7 +64,9 @@
       "id": "5020",
       "title": "Abraham Lincoln",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President</a> of the USA - Mar. 4, 1861 to Apr. 15, 1865",
+      "gallery_page_teaser": "The Blue and Green in this portrait of Abraham Lincoln show that he was, like Jefferson, a logical person and open to new ideas.  Click on the image to learn more!",
       "image_file_name": "intp-abraham_lincoln.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
       "composition": "O",
       "score": [
         { "e_score": "8", "i_score": "11" },
@@ -73,7 +77,6 @@
       "four_letter_type": "INTP",
       "archetype": "Ti",
       "quiz_type": "J",
-      "gallery_page_teaser": "The Blue and Green in this portrait of Abraham Lincoln show that he was, like Jefferson, a logical person and open to new ideas.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Green in this spiritual portrait represents Lincoln's preference for logic over emotion.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  His ability to reason logically surely served him well during the days he spent as a lawyer.",
