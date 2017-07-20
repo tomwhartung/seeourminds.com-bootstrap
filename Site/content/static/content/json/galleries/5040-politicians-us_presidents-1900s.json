@@ -3,14 +3,16 @@
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "American Presidents, just like any other group of individuals, have different personalities.  Learn how the images of some popular and recent presidents reflect their idealism, decisiveness, and other qualities.",
   "description_html": "<p>Which politicians &ndash; &#x263A; if any &#x263A; &ndash; are your favorites? How does your personality compare to theirs?</p><p>This gallery contains some spiritual portraits of our presidents, past, recent, and present.  If you know your four-letter type, you can easily answer these questions for yourself!</p>",
-  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
+  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images-original/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
   "image_list":
   [
     {
       "id": "5077",
       "title": "George Herbert Walker Bush",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA - Jan. 20, 1989 to Jan. 20 1993",
+      "gallery_page_teaser": "The preponderance of Green in this spiritual portrait of George Herbert Walker Bush (George W.'s father) shows that he is a very logical thinker.  Click on the image to learn more!",
       "image_file_name": "istj-george_h_w_bush-41st_president.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait.jpg",
       "composition": "O",
       "score": [
         { "e_score": "9", "i_score": "10" },
@@ -21,7 +23,6 @@
       "four_letter_type": "ISTJ",
       "archetype": "Si",
       "quiz_type": "K",
-      "gallery_page_teaser": "The preponderance of Green in this spiritual portrait of George Herbert Walker Bush (George W.'s father) shows that he is a very logical thinker.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Bush's preference for being down-to-earth.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  This ability to pay attention to details served him well in his work in the military, business, and the many government posts he held prior to being elected president.",
@@ -36,7 +37,9 @@
       "id": "5079",
       "title": "Bill Clinton",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President</a> of the USA - Jan. 20, 1993 to Jan. 20, 2001",
+      "gallery_page_teaser": "There is some disagreement regarding Bill Clinton's personality type, but at least one article claims he is 'verified' as an ENFP.  Click on the image to learn more!",
       "image_file_name": "enfp-bill_clinton.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Bill_Clinton.jpg",
       "composition": "O",
       "score": [
         { "e_score": "11", "i_score": "8" },
@@ -47,7 +50,6 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "gallery_page_teaser": "There is some disagreement regarding Bill Clinton's personality type, but at least one article claims he is 'verified' as an ENFP.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Clinton's iNtuition.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  His preference for embracing possibilities surely contributed to the fact that he presided over a long period of peacetime economic expansion.",
