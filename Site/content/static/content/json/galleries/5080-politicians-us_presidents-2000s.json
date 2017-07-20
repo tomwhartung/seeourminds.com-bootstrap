@@ -3,14 +3,16 @@
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "American Presidents, just like any other group of individuals, have different personalities.  Learn how the images of some popular and recent presidents reflect their idealism, decisiveness, and other qualities.",
   "description_html": "<p>Which politicians &ndash; &#x263A; if any &#x263A; &ndash; are your favorites? How does your personality compare to theirs?</p><p>This gallery contains some spiritual portraits of our presidents, past, recent, and present.  If you know your four-letter type, you can easily answer these questions for yourself!</p>",
-  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
+  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I can say that I, for one, definitely admire the more idealistic presidents, such as Jefferson and Lincoln, the most.</p><p>For a few of these images, I consulted with one or more friends while going through the Questionnaire in David Keirsey's <a href='http://www.keirsey.com/pum_2.aspx' title='Link to Please Understand Me on keirsey.com' target='_blank'>Please Understand Me</a>.  For many of the others I used the type from his book, <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>, and created a generic image using the same fixed percentages (58%/42%) as those used to make the generic images in the <a href='/gallery/0000-generic_images-original/' title='Link to the Sixteen Types gallery'>Sixteen Types gallery</a>.  (The graphs that appear beneath each image make it easy to see which process I used to create it.)</p><p>If this topic interests you, definitely check out <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>David Keirsey's book</a>.  It covers this topic in depth!</p>",
   "image_list":
   [
     {
       "id": "5080",
       "title": "George W. Bush",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_W._Bush' target='_blank' title='Wikipedia page for George W. Bush'>43rd President</a> of the USA - Jan. 20, 2001 to Jan. 20, 2009",
+      "gallery_page_teaser": "A frequently-referenced article (see the Story for the link) claims that George W. Bush is an ESTP.  Click on the image to learn more!",
       "image_file_name": "estp-george_w_bush.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:George-W-Bush.jpeg",
       "composition": "O",
       "score": [
         { "e_score": "11", "i_score": "8" },
@@ -21,7 +23,6 @@
       "four_letter_type": "ESTP",
       "archetype": "Se",
       "quiz_type": "J",
-      "gallery_page_teaser": "A frequently-referenced article (see the Story for the link) claims that George W. Bush is an ESTP.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Bush's preference for facts over ideas.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This preference explains why he would choose to study business at Harvard, and his very practical desire to cut taxes.",
@@ -36,7 +37,9 @@
       "id": "5082",
       "title": "Barack Obama",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Barack_Obama' target='_blank' title='Wikipedia page for Barack Obama'>44th President</a> of the USA - Jan. 20, 2009 to Jan. 20, 2017",
+      "gallery_page_teaser": "Some experts claim Obama is an ENFP, and that is how he's represented in this image.  However, there are reasons to doubt this claim.  Click on the image to learn more!",
       "image_file_name": "enfp-barack_obama.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:President_Barack_Obama.jpg",
       "composition": "O",
       "score": [
         { "e_score": "11", "i_score": "8" },
@@ -47,7 +50,6 @@
       "four_letter_type": "ENFP",
       "archetype": "Ne",
       "quiz_type": "J",
-      "gallery_page_teaser": "Some experts claim Obama is an ENFP, and that is how he's represented in this image.  However, there are reasons to doubt this claim.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait of represents Obama's idealism and hope for the future.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  Obama shows he has this trait by having hope for the future.",
@@ -62,7 +64,9 @@
       "id": "5084",
       "title": "Donald Trump",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Donald_Trump' target='_blank' title='Wikipedia page for Donald Trump'>45th President</a> of the USA - Jan. 21, 2017 to present",
+      "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "esfj-donald_trump-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Donald_Trump_Pentagon_2017.jpg",
       "composition": "O",
       "score": [
         { "e_score": "17", "i_score": "2" },
@@ -73,7 +77,6 @@
       "four_letter_type": "ESFJ",
       "archetype": "Fe",
       "quiz_type": "K",
-      "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Red in this spiritual portrait of represents Trump's emotional side.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  Trump demonstrates this trait when he gets angry with his detractors.",
