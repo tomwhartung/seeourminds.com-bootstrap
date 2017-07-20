@@ -17,6 +17,12 @@
 {% block middle_content %}
   <div class="col-md-8">
     <section id="image">
+      <div class="pull-right">
+        <a class="btn btn-danger btn-xs som-btn-all"
+           href="{{ back_to_gallery_href }}"
+           title="Go Back to the Gallery containing this image">
+          Back</a>
+      </div><!-- .pull-right -->
       <div class="single-image">
         <h1 class='image-page'>{{ image_dict.title }}</h1>
         <figure>
@@ -33,6 +39,14 @@
             {% endif %}
           {% endif %}
         </div><!-- .text-center -->
+        {% if image_dict.meat_portrait_href %}
+          <div class="text-center">
+            <a class="btn btn-success btn-md som-btn-all" id="show-meat-portrait"
+               href="{{ image_dict.meat_portrait_href }}" target="_blank"
+               title="Link to a photograph of {{ image_dict.title }}">
+            Show the Meat Portrait</a>
+          </div><!-- .text-center -->
+        {% endif %}
         {% if image_dict.score %}
           <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
         {% else %}
@@ -66,10 +80,6 @@
                title="Show the story behind these images">
               Tell the Story</a>
           {% endif %}
-          <a class="btn btn-warning btn-md som-btn-all"
-             href="{{ back_to_gallery_href }}"
-             title="Go Back to the Gallery containing this image">
-            Go Back to the Gallery</a>
         </div><!-- .text-center -->
         {% if image_dict.story_html %}
           <div id="story-html" class="som-text-to-toggle">

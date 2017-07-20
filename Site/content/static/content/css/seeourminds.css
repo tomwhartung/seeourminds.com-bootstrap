@@ -355,25 +355,25 @@ img.gallery-image {
  * =========================
  */
 figcaption {
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
 }
 .single-image {
-    width: 100%;
+  width: 100%;
 }
 .single-img {
-    margin: 4px;
-    padding: 4px;
-    height: auto;
-    width: 500px;
+  margin: 4px;
+  padding: 4px;
+  height: auto;
+  width: 500px;
 }
 /*
  * Create our own bootstrap button colors that match the colors in the images
  */
- .som-btn-all {
-   margin: .33em;
- }
+.som-btn-all {
+  margin: .33em;
+}
 .som-btn-blue {
   background: #0000FF;
   color: #FFFFFF;
