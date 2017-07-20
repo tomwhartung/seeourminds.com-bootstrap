@@ -12,6 +12,7 @@
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "x.jpg",
+      "meat_portrait_href": "",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -38,6 +39,7 @@
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "x.jpg",
+      "meat_portrait_href": "",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
