@@ -21,6 +21,7 @@
         { "j_score": "16", "p_score": "3" }
       ],
       "four_letter_type": "ISTJ",
+      "fixed_percentages": "",
       "archetype": "Si",
       "quiz_type": "K",
       "subject_line": "",
@@ -48,6 +49,7 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ENFP",
+      "fixed_percentages": "True",
       "archetype": "Ne",
       "quiz_type": "J",
       "subject_line": "",
