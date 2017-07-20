@@ -12,6 +12,7 @@
       "subtitle_html": "Everyone's Favorite <a href='https://en.wikipedia.org/wiki/Charles_Foster_Kane' title='Wikipedia page for Charles Foster Kane' target='_blank'>Newspaper Tycoon</a>",
       "gallery_page_teaser": "This portrait of Charles Foster Kane shows he is outgoing, warm, and personable.  Click on the image to learn more!",
       "image_file_name": "esfj-charles_foster_kane-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Orson_Welles-Citizen_Kane1.jpg",
       "composition": "O",
       "score": [
          { "e_score": "15", "i_score": "4" },
@@ -27,7 +28,7 @@
       "explain_dom": "The Red in this spiritual portrait represents Kane's dominant trait, his emotion.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Kane exhibits this trait in his enthusiasm during the Inquirer's growth period, and his (mild spoiler alert!) extended angry outburst towards the end of the film, when things do not go his way.",
       "explain_aux": "The Yellow in this spiritual portrait represents Kane's auxiliary trait, his pragmatism.  In Extraverts, the auxiliary function is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Kane exhibits this trait in his (spoiler alert!) willingness to compromise his principles in the interest of increasing the Inquirer's readership.",
       "story_html": "<p>The first time I saw <a href='https://en.wikipedia.org/wiki/Citizen_Kane' title='Wikipedia page for Citizen Kane' target='_blank'>Citizen Kane</a> was in a film class offered by VCU's <a href='https://arts.vcu.edu/' title='Home page of School of the Arts' target='_blank'>School of the Arts</a>.  It was one of many art classes I took there while in <a href='https://www.youtube.com/watch?v=zjU8L6go1VA' title='youtube.com video of Sitting in Limbo by Jimmy Cliff' target='_blank'>limbo</a> between undergraduate and grad school.</p><p>The teacher was a part-time filmmaker, and this was decades before digitization would take over the industry.  He said he'd seen the film over 80 times, and saw something new with every viewing.  Several times during the film he would pause the projector and point out things only a filmmaker's eye could see.</p><p>Recently I found the three-disk <a href='https://www.amazon.com/Citizen-Kane-Anniversary-Ultimate-Collectors/dp/B0050FXDDQ' title='Link to buy the 70th Anniversary Edition at amazon.com' target='_blank'>70th Anniversary Edition</a> at the <a href='https://www.denverlibrary.org/' title='Link to the Denver Public Library' target='_blank'>Denver Public Library</a>.  Although watching it again was not quite as enlightening and exciting as that first viewing, listening to the two commentary tracks by <a href='https://en.wikipedia.org/wiki/Peter_Bogdanovich' title='Wikipedia page for Peter Bogdanovich' target='_blank'>Peter Bogdanovich</a> and <a href='https://en.wikipedia.org/wiki/Roger_Ebert' title='Wikipedia page for Roger Ebert' target='_blank'>Roger Ebert</a> comes close.</p><p>My teacher was not alone in his enthusiasm for this work of art &mdash; and if you take the time to learn the story behind it and its historical significance, this enthusiasm is extremely contagious!</p>",
-      "compare_to": { "gallery_file_name": "5000-politicians-us_presidents", "image_id": "5036" },
+      "compare_to": { "gallery_file_name": "5080-politicians-us_presidents-2000s", "image_id": "5084" },
       "contrast_with": { "gallery_file_name": "2310-fictional-tv-true_detective-1", "image_id": "2316" }
     }, {
       "id": "1602",
@@ -38,6 +39,7 @@
       "subtitle_html": "Everyone's Favorite <a href='https://en.wikipedia.org/wiki/Travis_Bickle' title='Wikipedia page for Travis Bickle' target='_blank'>Taxi Driver</a>",
       "gallery_page_teaser": "This portrait of Travis Bickle shows he is distant, deep, and emotional.  Remind you of anyone?  Click on the image to learn more!",
       "image_file_name": "infp-travis_bickle-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:TravisBickle.jpg",
       "composition": "O",
       "score": [
          { "e_score": "7", "i_score": "12" },
