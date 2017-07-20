@@ -52,6 +52,11 @@
         {% else %}
           <p>{{ image_dict.four_letter_type }}</p>
         {% endif %}
+        {% if image_dict.fixed_percentages %}
+          <div class="text-center">
+            <p class="fixed-percentages">Score Is in Fixed Percentages</p>
+          </div><!-- .text-center -->
+        {% endif %}
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
