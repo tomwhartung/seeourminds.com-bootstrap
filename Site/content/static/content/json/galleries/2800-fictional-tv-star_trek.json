@@ -12,6 +12,7 @@
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Leonard_McCoy' title='Wikipedia page for Chief Medical Officer Leonard McCoy' target='_blank'>Chief Medical Officer</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "gallery_page_teaser": "Dr. McCoy's spiritual portrait looks so different from Mr. Spock's because their personalities are so different.  Click on the image to learn more!",
       "image_file_name": "esfp-dr_mccoy-star_trek.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:DeForest_Kelley,_Dr._McCoy,_Star_Trek.jpg",
       "composition": "O",
       "score": [
          { "e_score": "11", "i_score": "8" },
@@ -36,6 +37,7 @@
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/James_T._Kirk' title='Wikipedia page for James T. Kirk' target='_blank'>Captain</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "gallery_page_teaser": "The preponderance of Green in Kirk's spiritual portrait shows he is rational and decisive, but in practice he relies heavily on both Spock and Dr. McCoy for input to his decisions.  Click on the image to learn more!",
       "image_file_name": "estj-captain_kirk-star_trek.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Star_Trek_William_Shatner.JPG",
       "composition": "O",
       "score": [
          { "e_score": "17", "i_score": "2" },
@@ -59,6 +61,7 @@
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Spock' title='Wikipedia page for Spock' target='_blank'>First Officer</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "gallery_page_teaser": "Mr. Spock's spiritual portrait looks so different from Dr. McCoy's because their personalities are so different.  Click on the image to learn more!",
       "image_file_name": "istj-mr_spock-star_trek.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Leonard_Nimoy_as_Spock_1967.jpg",
       "composition": "O",
       "score": [
          { "e_score": "9", "i_score": "10" },
