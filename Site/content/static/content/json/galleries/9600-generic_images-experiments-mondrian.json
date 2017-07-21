@@ -10,6 +10,7 @@
       "id": "9601",
       "title": "ENFJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a>.",
+      "gallery_page_teaser": "Images of ENFJs, like the images of the other xNFx types, contain more Red and Blue, and less Green and Yellow.  Click on the image to see a full-sized version, and to learn more about ENFJs and their images.",
       "image_file_name": "enfj.jpg",
       "composition": "O",
       "score": [
@@ -19,9 +20,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ENFJ",
+      "fixed_percentages": "True",
       "archetype": "Fe",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ENFJs, like the images of the other xNFx types, contain more Red and Blue, and less Green and Yellow.  Click on the image to see a full-sized version, and to learn more about ENFJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Red rectangle represents the ENFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and enables them to make strong social connections.  This Extraverted Feeling makes ENFJs outgoing, polite, friendly, charming, and loyal.",
@@ -33,6 +34,7 @@
       "id": "9604",
       "title": "ENFP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a>.",
+      "gallery_page_teaser": "Images of ENFPs, like the images of the other xNFx types, contain more Blue and Red, and less Yellow and Green.  Click on the image to see a full-sized version, and to learn more about ENFPs and their images.",
       "image_file_name": "enfp.jpg",
       "composition": "O",
       "score": [
@@ -42,9 +44,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ENFP",
+      "fixed_percentages": "True",
       "archetype": "Ne",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ENFPs, like the images of the other xNFx types, contain more Blue and Red, and less Yellow and Green.  Click on the image to see a full-sized version, and to learn more about ENFPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Blue rectangle represents the ENFP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  This Extraverted iNtuition makes ENFPs perceptive, charismatic, versatile, clever, and enthusiastic about making things happen.",
@@ -59,6 +61,7 @@
       "id": "9611",
       "title": "ENTJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a>.",
+      "gallery_page_teaser": "Images of ENTJs, like the images of the other xNTx types, contain more Green and Blue, and less Red and Yellow.  Click on the image to see a full-sized version, and to learn more about ENTJs and their images.",
       "image_file_name": "entj.jpg",
       "composition": "O",
       "score": [
@@ -68,9 +71,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ENTJ",
+      "fixed_percentages": "True",
       "archetype": "Te",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ENTJs, like the images of the other xNTx types, contain more Green and Blue, and less Red and Yellow.  Click on the image to see a full-sized version, and to learn more about ENTJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Green rectangle represents the ENTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  This Extraverted Thinking makes ENTJs analytical and decisive.  They value truth, seek logical explanations, work well in organizations, and can make excellent leaders.",
@@ -82,6 +85,7 @@
       "id": "9614",
       "title": "ENTP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a>.",
+      "gallery_page_teaser": "Images of ENTPs, like the images of the other xNTx types, contain more Blue and Green, and less Yellow and Red.  Click on the image to see a full-sized version, and to learn more about ENTPs and their images.",
       "image_file_name": "entp.jpg",
       "composition": "O",
       "score": [
@@ -91,9 +95,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ENTP",
+      "fixed_percentages": "True",
       "archetype": "Ne",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ENTPs, like the images of the other xNTx types, contain more Blue and Green, and less Yellow and Red.  Click on the image to see a full-sized version, and to learn more about ENTPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Blue rectangle represents the ENTP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  This Extraverted iNtuition makes ENTPs perceptive, charismatic, versatile, clever, and enthusiastic about making things happen.",
@@ -108,6 +112,7 @@
       "id": "9621",
       "title": "ESFJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJ'>ESFJ</a>.",
+      "gallery_page_teaser": "Images of ESFJs, like the images of the other xSFx types, contain more Red and Yellow, and less Green and Blue.  Click on the image to see a full-sized version, and to learn more about ESFJs and their images.",
       "image_file_name": "esfj.jpg",
       "composition": "O",
       "score": [
@@ -117,9 +122,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ESFJ",
+      "fixed_percentages": "True",
       "archetype": "Fe",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ESFJs, like the images of the other xSFx types, contain more Red and Yellow, and less Green and Blue.  Click on the image to see a full-sized version, and to learn more about ESFJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Red rectangle represents the ESFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and enables them to make strong social connections.  This Extraverted Feeling makes ESFJs outgoing, polite, friendly, considerate, and loyal.",
@@ -131,6 +136,7 @@
       "id": "9624",
       "title": "ESFP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFP'>ESFP</a>.",
+      "gallery_page_teaser": "Images of ESFPs, like the images of the other xSFx types, contain more Yellow and Red, and less Blue and Green.  Click on the image to see a full-sized version, and to learn more about ESFPs and their images.",
       "image_file_name": "esfp.jpg",
       "composition": "O",
       "score": [
@@ -140,9 +146,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ESFP",
+      "fixed_percentages": "True",
       "archetype": "Se",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ESFPs, like the images of the other xSFx types, contain more Yellow and Red, and less Blue and Green.  Click on the image to see a full-sized version, and to learn more about ESFPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Yellow rectangle represents the ESFP's Dominant personality trait, their Extraverted Sensation.  Their curiousity and preference for living in the present moment makes them practical and realistic, and can lead to spontaneous action.  This Extraverted Sensation makes ESFPs observant, adaptable, tolerant, persuasive, fun, and generous.",
@@ -157,6 +163,7 @@
       "id": "9631",
       "title": "ESTJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJ'>ESTJ</a>.",
+      "gallery_page_teaser": "Images of ESTJs, like the images of the other xSTx types, contain more Green and Yellow, and less Red and Blue.  Click on the image to see a full-sized version, and to learn more about ESTJs and their images.",
       "image_file_name": "estj.jpg",
       "composition": "O",
       "score": [
@@ -166,9 +173,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ESTJ",
+      "fixed_percentages": "True",
       "archetype": "Te",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ESTJs, like the images of the other xSTx types, contain more Green and Yellow, and less Red and Blue.  Click on the image to see a full-sized version, and to learn more about ESTJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Green rectangle represents the ESTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  This Extraverted Thinking makes ESTJs analytical and decisive.  They value truth, seek logical explanations, are natural leaders, and can be superior administrators.",
@@ -180,6 +187,7 @@
       "id": "9634",
       "title": "ESTP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a>.",
+      "gallery_page_teaser": "Images of ESTPs, like the images of the other xSTx types, contain more Yellow and Green, and less Blue and Red.  Click on the image to see a full-sized version, and to learn more about ESTPs and their images.",
       "image_file_name": "estp.jpg",
       "composition": "O",
       "score": [
@@ -189,9 +197,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ESTP",
+      "fixed_percentages": "True",
       "archetype": "Se",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ESTPs, like the images of the other xSTx types, contain more Yellow and Green, and less Blue and Red.  Click on the image to see a full-sized version, and to learn more about ESTPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Yellow rectangle represents the ESTP's Dominant personality trait, their Extraverted Sensation.  Their curiousity and preference for living in the present moment makes them practical and realistic, and can lead to spontaneous action.  This Extraverted Sensation makes ESTPs resourceful, tolerant, outgoing and popular, persuasive, fun, and generous.",
@@ -206,6 +214,7 @@
       "id": "9641",
       "title": "INFJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a>.",
+      "gallery_page_teaser": "Images of INFJs, like the images of the other xNFx types, contain more Blue and Red, and less Yellow and Green.  Click on the image to see a full-sized version, and to learn more about INFJs and their images.",
       "image_file_name": "infj.jpg",
       "composition": "O",
       "score": [
@@ -215,9 +224,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "INFJ",
+      "fixed_percentages": "True",
       "archetype": "Ni",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of INFJs, like the images of the other xNFx types, contain more Blue and Red, and less Yellow and Green.  Click on the image to see a full-sized version, and to learn more about INFJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Blue rectangle represents the INFJ's Dominant personality trait, their Introverted iNtuition.  Their inner vision makes them insightful, ingenious, and individualistic.  This Introverted iNtuition makes INFJs driven, inspired, and determined.  When properly motivated, they can overcome difficulties and find new paths in any field they choose.",
@@ -229,6 +238,7 @@
       "id": "9644",
       "title": "INFP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a>.",
+      "gallery_page_teaser": "Images of INFPs, like the images of the other xNFx types, contain more Red and Blue, and less Green and Yellow.  Click on the image to see a full-sized version, and to learn more about INFPs and their images.",
       "image_file_name": "infp.jpg",
       "composition": "O",
       "score": [
@@ -238,9 +248,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "INFP",
+      "fixed_percentages": "True",
       "archetype": "Fi",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of INFPs, like the images of the other xNFx types, contain more Red and Blue, and less Green and Yellow.  Click on the image to see a full-sized version, and to learn more about INFPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Red rectangle represents the INFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality or 'gut feeling' takes precedence, so the opinions of others may matter little.  This Introverted Feeling makes INFPs idealistic, authentic and faithful, and gives them a strong sense of duty.",
@@ -255,6 +265,7 @@
       "id": "9651",
       "title": "INTJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a>.",
+      "gallery_page_teaser": "Images of INTJs, like the images of the other xNTx types, contain more Blue and Green, and less Yellow and Red.  Click on the image to see a full-sized version, and to learn more about INTJs and their images.",
       "image_file_name": "intj.jpg",
       "composition": "O",
       "score": [
@@ -264,9 +275,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "INTJ",
+      "fixed_percentages": "True",
       "archetype": "Ni",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of INTJs, like the images of the other xNTx types, contain more Blue and Green, and less Yellow and Red.  Click on the image to see a full-sized version, and to learn more about INTJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Blue rectangle represents the INTJ's Dominant personality trait, their Introverted iNtuition.  Their inner vision makes them insightful, ingenious, and individualistic.  This Introverted iNtuition makes INTJs driven, inspired, and determined.  When properly motivated, they can overcome difficulties and find new paths in any field they choose.",
@@ -278,6 +289,7 @@
       "id": "9654",
       "title": "INTP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a>.",
+      "gallery_page_teaser": "Images of INTPs, like the images of the other xNTx types, contain more Green and Blue, and less Red and Yellow.  Click on the image to see a full-sized version, and to learn more about INTPs and their images.",
       "image_file_name": "intp.jpg",
       "composition": "O",
       "score": [
@@ -287,9 +299,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "INTP",
+      "fixed_percentages": "True",
       "archetype": "Ti",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of INTPs, like the images of the other xNTx types, contain more Green and Blue, and less Red and Yellow.  Click on the image to see a full-sized version, and to learn more about INTPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Green rectangle represents the INTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  This Introverted Thinking makes INTPs quiet, curious, adaptable, perceptive, and interested in finding underlying principles.",
@@ -304,6 +316,7 @@
       "id": "9661",
       "title": "ISFJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a>.",
+      "gallery_page_teaser": "Images of ISFJs, like the images of the other xSFx types, contain more Yellow and Red, and less Blue and Green.  Click on the image to see a full-sized version, and to learn more about ISFJs and their images.",
       "image_file_name": "isfj.jpg",
       "composition": "O",
       "score": [
@@ -313,9 +326,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ISFJ",
+      "fixed_percentages": "True",
       "archetype": "Si",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ISFJs, like the images of the other xSFx types, contain more Yellow and Red, and less Blue and Green.  Click on the image to see a full-sized version, and to learn more about ISFJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Yellow rectangle represents the ISFJ's Dominant personality trait, their Introverted Sensation.  Their practical perceptions and deeply stored impressions make them protective of all things they find familiar.  This Introverted Sensation makes ISFJs systematic, responsible, hard-working, and adaptable to routine.",
@@ -327,6 +340,7 @@
       "id": "9664",
       "title": "ISFP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a>.",
+      "gallery_page_teaser": "Images of ISFPs, like the images of the other xSFx types, contain more Red and Yellow, and less Green and Blue.  Click on the image to see a full-sized version, and to learn more about ISFPs and their images.",
       "image_file_name": "isfp.jpg",
       "composition": "O",
       "score": [
@@ -336,9 +350,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ISFP",
+      "fixed_percentages": "True",
       "archetype": "Fi",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ISFPs, like the images of the other xSFx types, contain more Red and Yellow, and less Green and Blue.  Click on the image to see a full-sized version, and to learn more about ISFPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Red rectangle represents the ISFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality or 'gut feeling' takes precedence, so the opinions of others may matter little.  This Introverted Feeling makes ISFPs authentic, faithful, idealistic, and gives them a strong sense of duty.",
@@ -353,6 +367,7 @@
       "id": "9671",
       "title": "ISTJ - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a>.",
+      "gallery_page_teaser": "Images of ISTJs, like the images of the other xSTx types, contain more Yellow and Green, and less Blue and Red.  Click on the image to see a full-sized version, and to learn more about ISTJs and their images.",
       "image_file_name": "istj.jpg",
       "composition": "O",
       "score": [
@@ -362,9 +377,9 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ISTJ",
+      "fixed_percentages": "True",
       "archetype": "Si",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ISTJs, like the images of the other xSTx types, contain more Yellow and Green, and less Blue and Red.  Click on the image to see a full-sized version, and to learn more about ISTJs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Yellow rectangle represents the ISTJ's Dominant personality trait, their Introverted Sensation.  Their practical perceptions and deeply stored impressions make them protective of all things they find familiar.  This Introverted Sensation makes ISTJs systematic, responsible, hard-working, and adaptable to routine.",
@@ -376,6 +391,7 @@
       "id": "9674",
       "title": "ISTP - Mondrianesque",
       "subtitle_html": "<q>Mondrianesque</q> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a>.",
+      "gallery_page_teaser": "Images of ISTPs, like the images of the other xSTx types, contain more Green and Yellow, and less Red and Blue.  Click on the image to see a full-sized version, and to learn more about ISTPs and their images.",
       "image_file_name": "istp.jpg",
       "composition": "O",
       "score": [
@@ -385,9 +401,9 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ISTP",
+      "fixed_percentages": "True",
       "archetype": "Ti",
       "quiz_type": "J",
-      "gallery_page_teaser": "Images of ISTPs, like the images of the other xSTx types, contain more Green and Yellow, and less Red and Blue.  Click on the image to see a full-sized version, and to learn more about ISTPs and their images.",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The large Green rectangle represents the ISTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  This Introverted Thinking makes ISTPs quiet, curious, adaptable, perceptive, and interested in solving problems efficiently.",
