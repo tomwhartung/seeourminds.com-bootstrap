@@ -344,6 +344,14 @@ img.gallery-image {
     height: 125px;
     width: 125px;
 }
+p.fixed-percentages {
+   color: red;
+   font-size: 85%;
+   font-style: italic;
+   margin-top: -1em;
+   margin-bottom: 0;
+   text-decoration: underline;
+}
 .gallery-page-text-remainder,
 .gallery-page-less-link {
   display: none;
