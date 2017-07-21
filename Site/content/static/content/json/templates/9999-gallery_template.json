@@ -26,15 +26,19 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
+
       "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, idealism openness.",
       "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
       "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
       "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook.",
+
       "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
+
       "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, idealism openness.",
-      "explain_aux": "The Green represents X's auxiliary trait, rationality cool-headedness.",
-      "explain_aux": "The Red spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
       "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook.",
+
       "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
