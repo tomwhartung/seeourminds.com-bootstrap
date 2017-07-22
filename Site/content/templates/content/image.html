@@ -47,11 +47,15 @@
             Show the Meat Portrait</a>
           </div><!-- .text-center -->
         {% endif %}
-        {% if image_dict.score %}
-          <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
-        {% else %}
-          <p>{{ image_dict.four_letter_type }}</p>
-        {% endif %}
+        <a href="https://en.wikipedia.org/wiki/{{ image_dict.four_letter_type }}"
+           title="Click to open the wikipedia page for {{ image_dict.four_letter_type }}s in a new window"
+           target="_blank">
+          {% if image_dict.score %}
+            <div class="score-svg" id="score-bars"></div><!-- #score-bars -->
+          {% else %}
+            <p>{{ image_dict.four_letter_type }}</p>
+          {% endif %}
+        </a>
         {% if image_dict.fixed_percentages %}
           <div class="text-center">
             <p class="fixed-percentages">Score Is in Fixed Percentages</p>
