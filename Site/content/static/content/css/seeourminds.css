@@ -325,8 +325,8 @@ ul.square-bullets {
 div.gallery-image {
     border: 2px solid midnightblue;
     border-radius: 1em;
-    margin: 1em;
-    padding: 2em;
+    margin: .5em;
+    padding: .5em 1.5em 2em;
     text-align: left;
 }
 h1.image-page,
