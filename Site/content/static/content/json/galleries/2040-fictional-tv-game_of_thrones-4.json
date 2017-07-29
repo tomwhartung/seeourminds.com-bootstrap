@@ -2,7 +2,7 @@
   "gallery_title": "Game of Thrones - 4",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>These are Spiritual Portraits of characters from <a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a>, based on what they do in the fourth season of the series.</p><p> </p>",
+  "description_html": "<p>These are Spiritual Portraits of characters from <a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a>, based on what they do in the fourth season of the series.</p><p><b>Spoiler Alert:</b> visitors who have not seen season 4 may find that some of the details describing these images contain mild spoilers.  For best results, do not enter the gallery for a season of the show until after watching all of its episodes.</p>",
   "story_html": "<p>At the time of this writing, the series is not yet complete.  I will be adding more Spiritual Portraits once it does complete.</p><p>If a character evolves or changes, I may post an updated image of the personality that results from this growth.  Although this <b>is</b> possible, it is <b>highly unlikely</b>.</p><p>To learn when I post new images of characters from <a href='https://en.wikipedia.org/wiki/Game_of_Thrones' title='Wikipedia page for Game of Thrones' target='_blank'>Game of Thrones</a> and other shows, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
@@ -26,20 +26,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition idealism openness to ideas.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition idealism openness to ideas.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
+      "explain_dom": "The Blue in this spiritual portrait represents Joffrey's dominant trait, his preference for ideas over facts.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait when he ignores his mother Cersei's advice concerning the fate of Ned Stark.",
+      "explain_aux": "The Green in this spiritual portrait represents Joffrey's auxiliary trait, his preference for making logical rather than emotional decisions.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in his ability to kill animals and people without a hint of remorse.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
@@ -63,20 +51,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition idealism openness to ideas.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition idealism openness to ideas.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
+      "explain_dom": "The Green in this spiritual portrait represents The Hound's dominant trait, his preference for making logical rather emotional decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his ability to kill complete strangers without hesitation or a hint of remorse.",
+      "explain_aux": "The Yellow in this spiritual portrait represents The Hound's auxiliary trait, his realistic outlook.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in his keen fighting ability.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
@@ -103,20 +79,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition idealism openness to ideas.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition idealism openness to ideas.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
+      "explain_dom": "The Yellow in this spiritual portrait represents Tywin's dominant trait, his pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his down-to-earth manner and attention to business.",
+      "explain_aux": "The Green in this spiritual portrait represents Tywin's auxiliary trait, his preference for making logical rather than emotional decisions.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in his the way he treats people, including his children without any hint of emotion.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
@@ -140,20 +104,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition idealism openness to ideas.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition idealism openness to ideas.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
+      "explain_dom": "The Yellow in this spiritual portrait represents Shea's dominant trait, her realistic outlook.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait in her choice of a profession based on sensory satisfaction.",
+      "explain_aux": "The Red in this spiritual portrait represents Shea's auxiliary trait, her preference for making emotional rather than logical decisions.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Shje demonstrates this trait in the way she refused to leave King's Landing despite being warned repeatedly that her life was in danger.",
       "story_html": "<p> </p><p> </p>",
       "compare_to": { },
       "contrast_with": { }
