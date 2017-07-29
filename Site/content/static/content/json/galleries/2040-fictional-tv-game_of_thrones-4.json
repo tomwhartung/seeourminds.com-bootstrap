@@ -9,20 +9,20 @@
     {
       "id": "2040",
       "title": "Joffrey Baratheon",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "King of <a href='https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Westeros' title='Wikipedia page for Westeros' target='_blank'>Westeros</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "image_file_name": "infj-joffrey_baratheon-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Joffrey_Baratheon-Jack_Gleeson.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "11", "p_score": "8" }
       ],
-      "four_letter_type": "IXXX",
+      "four_letter_type": "INTJ",
       "fixed_percentages": "",
-      "archetype": "Xi",
+      "archetype": "Ni",
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
@@ -45,24 +45,21 @@
       "contrast_with": { }
     }, {
       "id": "2042",
-      "title": "responsive_ad"
-    }, {
-      "id": "2044",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "title": "Sandor Clegane",
+      "subtitle_html": "The <a href='https://en.wikipedia.org/wiki/Sandor_Clegane' title='Wikipedia page for Sandor Clegane, aka. the Hound' target='_blank'>Hound</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "image_file_name": "istp-sandor_clegane-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Sandor_Clegane-The_Hound-Rory_McCann.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "1", "s_score": "18" },
+         { "f_score": "5", "t_score": "14" },
+         { "j_score": "6", "p_score": "13" }
       ],
-      "four_letter_type": "IXXX",
+      "four_letter_type": "ISTP",
       "fixed_percentages": "",
-      "archetype": "Xi",
+      "archetype": "Ti",
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
@@ -84,22 +81,62 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
+      "id": "2044",
+      "title": "responsive_ad"
+    }, {
       "id": "2046",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "title": "Tywin Lannister",
+      "subtitle_html": "Lord of <a href='https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Casterly_Rock' title='Wikipedia page for the world of Game of Thrones, with the section for Casterly Rock at the top' target='_blank'>Casterly Rock</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "image_file_name": "istj-tywin_lannister-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Tywin_Lannister-Charles_Dance.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "1", "t_score": "18" },
+         { "j_score": "18", "p_score": "1" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ISTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Si",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition idealism openness to ideas.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook openness to experiences.",
+
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition idealism openness to ideas.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook openness to experiences.",
+
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
+      "story_html": "<p> </p><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "2047",
+      "title": "Shea",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Tyrion_Lannister' title='Wikipedia page for Tyrion Lannister' target='_blank'>Tyrion Lannister's</a> Whore",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "image_file_name": "esfp-shae-1.jpg",
+      "meat_portrait_href": "http://www.imdb.com/name/nm1402546/mediaviewer/rm2690108928",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "8", "s_score": "11" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "6", "p_score": "13" }
+      ],
+      "four_letter_type": "ESFP",
+      "fixed_percentages": "",
+      "archetype": "Se",
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
@@ -121,48 +158,8 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2047",
-      "title": "responsive_ad"
-    }, {
-      "id": "2048",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
-      ],
-      "four_letter_type": "IXXX",
-      "fixed_percentages": "",
-      "archetype": "Xi",
-      "quiz_type": "K",
-      "subject_line": "",
-      "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition idealism openness to ideas.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, rationality cool-headedness.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, passion friendliness compassion warmth.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition idealism openness to ideas.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, rationality cool-headedness.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, passion friendliness compassion warmth.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, pragmatism realism realistic outlook openness to experiences.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
-      "story_html": "<p> </p><p> </p>",
-      "compare_to": { },
-      "contrast_with": { }
-    }, {
       "id": "2049",
-      "title": "square_ad"
+      "title": "responsive_ad"
     }
   ]
 }
