@@ -28,7 +28,7 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Joffrey's dominant trait, his preference for ideas over facts.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait when he ignores his mother Cersei's advice concerning the fate of Ned Stark.",
       "explain_aux": "The Green in this spiritual portrait represents Joffrey's auxiliary trait, his preference for making logical rather than emotional decisions.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in his ability to kill animals and people without a hint of remorse.",
-      "story_html": "<p> </p><p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -53,7 +53,7 @@
       "tweet_html": "",
       "explain_dom": "The Green in this spiritual portrait represents The Hound's dominant trait, his preference for making logical rather emotional decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his ability to kill complete strangers without hesitation or a hint of remorse.",
       "explain_aux": "The Yellow in this spiritual portrait represents The Hound's auxiliary trait, his realistic outlook.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in his keen fighting ability.",
-      "story_html": "<p> </p><p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -81,14 +81,14 @@
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Tywin's dominant trait, his pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his down-to-earth manner and attention to business.",
       "explain_aux": "The Green in this spiritual portrait represents Tywin's auxiliary trait, his preference for making logical rather than emotional decisions.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in his the way he treats people, including his children without any hint of emotion.",
-      "story_html": "<p> </p><p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
       "id": "2047",
-      "title": "Shea",
+      "title": "Shae",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Tyrion_Lannister' title='Wikipedia page for Tyrion Lannister' target='_blank'>Tyrion Lannister's</a> Whore",
-      "gallery_page_teaser": "Shea's spiritual portrait shows that her skills are much different from those required of a soldier.  Click on the image to learn more!",
+      "gallery_page_teaser": "Shae's spiritual portrait shows that her skills are much different from those required of a soldier.  Click on the image to learn more!",
       "image_file_name": "esfp-shae-1.jpg",
       "meat_portrait_href": "http://www.imdb.com/name/nm1402546/mediaviewer/rm2690108928",
       "composition": "O",
@@ -104,9 +104,9 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Yellow in this spiritual portrait represents Shea's dominant trait, her realistic outlook.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait in her choice of a profession based on sensory satisfaction.",
-      "explain_aux": "The Red in this spiritual portrait represents Shea's auxiliary trait, her preference for making emotional rather than logical decisions.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Shje demonstrates this trait in the way she refused to leave King's Landing despite being warned repeatedly that her life was in danger.",
-      "story_html": "<p> </p><p> </p>",
+      "explain_dom": "The Yellow in this spiritual portrait represents Shae's dominant trait, her realistic outlook.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait in her choice of a profession based on sensory satisfaction.",
+      "explain_aux": "The Red in this spiritual portrait represents Shae's auxiliary trait, her preference for making emotional rather than logical decisions.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Shje demonstrates this trait in the way she refused to leave King's Landing despite being warned repeatedly that her life was in danger.",
+      "story_html": "<p>The Yellow and Blue in <a href='http://gameofthrones.wikia.com/wiki/Shae' title='Game of Thrones Wikia page for Shae' target='_blank'>Shae's</a> spiritual portrait show that she is open to both experiences and ideas.  These qualities are helpful &mdash; if not necessary &mdash; in a prostitute.</p><blockquote>Shae: Cities make me want to fuck.<br />Tyrion Lannister: And so did the country.</blockquote><p>Shae's personality is quite different from the personalities of most of the other characters depicted on this site, and her spiritual portrait reflects that.</p><p>Given that <a href='http://gameofthrones.wikia.com/wiki/Ros' title='Gameofthrones.Wikia page for Ros' target='_blank'>Ros's</a> occupation is similar, I suspect that her spiritual portrait would be somewhat similar.  If anything, I suspect that Ros's personality might show more decisiveness, given that she has shown some interest in management.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
