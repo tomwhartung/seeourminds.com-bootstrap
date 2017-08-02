@@ -1,28 +1,28 @@
 {
-  "gallery_title": "X",
+  "gallery_title": "Famous People",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "This gallery contains spiritual portraits of famous, real people.  Click to learn more!",
+  "description_html": "<p>Here are a few images of real people.</p><p>Hopefully everyone will recognize these names and appreciate the ability to see their personalities.</p>",
+  "story_html": "<p>These images are based on some dvds I found at the Denver Public Library.  I chose these individuals because their stories were readily available and believe most, if not all, visitors will recognize their names and have some knowledge of them.</p><p>I plan to add more portraits to this gallery soon.  To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
-      "id": "0000",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "id": "4000",
+      "title": "Woody Allen",
+      "subtitle_html": "Comedian, Filmmaker, <a href='https://en.wikipedia.org/wiki/Auteur' title='Wikipedia page for Auteur' target='_blank'>Auteur</a>",
+      "gallery_page_teaser": "Born Allan Stewart Konigsberg, Woody has averaged putting out one film per year for fourty years.  Click on the image to learn more!",
+      "image_file_name": "infp-woody_allen-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Woody_Allen_Cannes_2016.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "8", "p_score": "11" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "INFP",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Fi",
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
@@ -34,7 +34,7 @@
       "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
       "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
 
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their ....",
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
 
       "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
       "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
@@ -43,42 +43,56 @@
       "explain_aux": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
       "explain_aux": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
 
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their ....",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
-      "compare_to": { },
-      "contrast_with": { }
-    }, {
-      "id": "0003",
-      "title": "responsive_ad"
-    }, {
-      "id": "0006",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
-      "composition": "O",
-      "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
-      ],
-      "four_letter_type": "IXXX",
-      "fixed_percentages": "",
-      "archetype": "Xi",
-      "quiz_type": "K",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "The XXXXXX in this spiritual portrait represents X's dominant trait, XXXXXX.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
-      "explain_aux": "The XXXXXX in this spiritual portrait represents X's auxiliary trait, XXXXXX.",
       "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "0009",
+      "id": "4002",
+      "title": "responsive_ad"
+    }, {
+      "id": "4004",
+      "title": "Edward Snowden",
+      "subtitle_html": "System Administrator, <a href='https://en.wikipedia.org/wiki/Whistleblower' title='Wikipedia page for Whistleblower' target='_blank'>Whistleblower</a>",
+      "gallery_page_teaser": "Edward Snowden achieved notoriety by releasing classified information detailing how the United States government collects information on all citizens.  Click on the image to learn more!",
+      "image_file_name": "intj-edward_snowden-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Edward_Snowden-2.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "7", "t_score": "12" },
+         { "j_score": "15", "p_score": "4" }
+      ],
+      "four_letter_type": "INTJ",
+      "fixed_percentages": "",
+      "archetype": "Ni",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
+
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_aux": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
+      "explain_aux": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
+
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their ....",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "4009",
       "title": "square_ad"
     }
   ]
