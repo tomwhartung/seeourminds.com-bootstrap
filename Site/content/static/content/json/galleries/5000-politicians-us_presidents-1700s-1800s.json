@@ -85,6 +85,31 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
+      "id": "5008",
+      "title": "Ulysses S. Grant",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' target='_blank' title='Wikipedia page for Ulysses S. Grant'>18th President</a> of the USA - Mar. 4, 1869 to Mar. 4, 1877",
+      "gallery_page_teaser": "This spiritual portrait of Ulysses S. Grant ....  Click on the image to learn more!",
+      "image_file_name": "istj-ulysses_s_grant-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Ulysses_S._Grant_1870-1880.jpg",
+      "composition": "O",
+      "score": [
+        { "e_score": "7", "i_score": "12" },
+        { "n_score": "9", "s_score": "10" },
+        { "f_score": "8", "t_score": "11" },
+        { "j_score": "10", "p_score": "9" }
+      ],
+      "four_letter_type": "ISTJ",
+      "fixed_percentages": "",
+      "archetype": "Si",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Green in this spiritual portrait represents Lincoln's preference for logic over emotion.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  His ability to reason logically surely served him well during the days he spent as a lawyer.",
+      "explain_aux": "The Blue in this spiritual portrait represents Lincoln's iNtuition.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  He is certainly most famous for his ability to see the possibility of the United States as being a country without slaves.",
+      "story_html": "<p></p><p></p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
       "id": "5009",
       "title": "responsive_ad"
     }
