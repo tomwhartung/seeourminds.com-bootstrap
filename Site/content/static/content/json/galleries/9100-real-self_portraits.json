@@ -9,7 +9,7 @@
     {
       "id": "9100",
       "title": "Tom H. I",
-      "subtitle_html": "Results of the <a href='http://www.keirsey.com/sorter/register.aspx' title='Link to the Keirsey Temperament Sorter'>Keirsey Temperament Sorter</a>, 1987",
+      "subtitle_html": "Results of the <a href='http://www.keirsey.com/sorter/register.aspx' target='_blank' title='Link to the Keirsey Temperament Sorter'>Keirsey Temperament Sorter</a>, 1987",
       "image_file_name": "infp-tomh_1987.jpeg",
       "composition": "O",
       "score": [
@@ -21,7 +21,7 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "K",
-      "gallery_page_teaser": "This image is based on the results of one of the first times I answered Keirsey's questionnaire.  Click on the image to learn more!",
+      "gallery_page_teaser": "This spiritual portrait is based on the results of one of the first times I answered Keirsey's questionnaire.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Red in this image represents my very slight preference for using emotion rather than logic to make decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Looking at the score scales, you can see that this is a very slight preference, allowing me to adapt and use logic when the situation calls for it.",
@@ -30,9 +30,9 @@
       "compare_to": { "gallery_file_name": "1600-fictional-movies-classics", "image_id": "1606" },
       "contrast_with": { }
     }, {
-      "id": "9103",
+      "id": "9102",
       "title": "Tom H. II",
-      "subtitle_html": "Results of the <a href='http://www.humanmetrics.com/cgi-win/jtypes2.asp' title='Link to the questionnaire at humanmetrics.com'>Questionnaire at Humanmetrics.com</a>, 2008",
+      "subtitle_html": "Results of the <a href='http://www.humanmetrics.com/cgi-win/jtypes2.asp' target='_blank' title='Link to the questionnaire at humanmetrics.com'>Questionnaire at Humanmetrics.com</a>, 2008",
       "image_file_name": "infj-tom_2008-humanmetrics.jpeg",
       "composition": "O",
       "score": [
@@ -44,7 +44,7 @@
       "four_letter_type": "INFJ",
       "archetype": "Ni",
       "quiz_type": "K",
-      "gallery_page_teaser": "This image is based on my score when answering a different questionnaire.  It also demonstrates the use of some drawing options that I did not use on the other images on the rest of this site.  Click on the image to learn more!",
+      "gallery_page_teaser": "This spiritual portrait is based on the results of the questionnaire at humanmentrics.com .  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Red in this image represents my very slight preference for using emotion rather than logic to make decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Looking at the score scales, you can see that this is a very slight preference, allowing me to adapt and use logic when the situation calls for it.",
@@ -53,9 +53,12 @@
       "compare_to": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2700" },
       "contrast_with": { }
     }, {
-      "id": "9105",
+      "id": "9104",
+      "title": "responsive_ad"
+	 }, {
+      "id": "9106",
       "title": "Tom H. III",
-      "subtitle_html": "Results of the <a href='http://www.myersbriggs.org/' title='Link to the home page of myersbriggs.org'>MBTI &reg;</a>, 2017",
+      "subtitle_html": "Results of the <a href='http://www.myersbriggs.org/' target='_blank' title='Link to the home page of myersbriggs.org'>MBTI &reg;</a>, 2017",
       "image_file_name": "intp-tomh-real_mbti-card.jpg",
       "composition": "O",
       "score": [
@@ -67,7 +70,7 @@
       "four_letter_type": "INTP",
       "archetype": "Fi",
       "quiz_type": "K",
-      "gallery_page_teaser": "This image is based on the most recent time I answered Keirsey's questionnaire.  The results are very similar, but I used some exclusive features of the Groja program to make a more intricate image.  Click on the image to learn more!",
+      "gallery_page_teaser": "This spiritual portrait is based on the results of the most recent time I took the MBTI (r).  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Red in this image represents my very slight preference for using emotion rather than logic to make decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Looking at the score scales, you can see that this is a very slight preference, allowing me to adapt and use logic when the situation calls for it.",
@@ -76,9 +79,9 @@
       "compare_to": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2700" },
       "contrast_with": { }
     }, {
-      "id": "9107",
+      "id": "9108",
       "title": "Tom H. IV",
-      "subtitle_html": "Results of the <a href='http://www.keirsey.com/sorter/register.aspx' title='Link to the Keirsey Temperament Sorter'>Keirsey Temperament Sorter</a>, 2017",
+      "subtitle_html": "Results of the <a href='http://www.keirsey.com/sorter/register.aspx' target='_blank' title='Link to the Keirsey Temperament Sorter'>Keirsey Temperament Sorter</a>, 2017",
       "image_file_name": "infp-tomh_2017-1.jpg",
       "composition": "O",
       "score": [
@@ -90,7 +93,7 @@
       "four_letter_type": "INFP",
       "archetype": "Fi",
       "quiz_type": "K",
-      "gallery_page_teaser": "This image is based on the most recent time I answered Keirsey's questionnaire.  The results are very similar, but I used some exclusive features of the Groja program to make a more intricate image.  Click on the image to learn more!",
+      "gallery_page_teaser": "This spiritual portrait is based on the results of the most recent time I took the Keirsey Temperament Sorter.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Red in this image represents my very slight preference for using emotion rather than logic to make decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Looking at the score scales, you can see that this is a very slight preference, allowing me to adapt and use logic when the situation calls for it.",
