@@ -29,7 +29,7 @@
       "explain_aux": "The Blue in this image represents my preference for idealism over pragmatism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This preference is fairly strong and shows up consistently when I take different versions of the various online four-letter type quizzes.",
       "story_html": "<p>This image is based on a score from one of the first times I took the Keirsey Temperament Sorter.  Like others I have talked to, at first I was surprised to learn I was an INFP!</p><p>I have actually taken various versions of the quiz &ndash; this is kind of a hobby of mine &ndash; and have even <a href='/quiz' title='Link to take the quiz on this site'>written my own!</a>.</p><p>Because this is my first self-portrait, it holds a special signifigance for me and is my favorite.</p>",
       "compare_to": { "gallery_file_name": "1600-fictional-movies-classics", "image_id": "1606" },
-      "contrast_with": { }
+      "contrast_with": { "gallery_file_name": "2400-fictional-tv-sopranos", "image_id": "2400" }
     }, {
       "id": "9102",
       "title": "Tom H. II",
@@ -52,7 +52,7 @@
       "explain_dom": "The Blue in this image represents my preference for idealism over pragmatism.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  This preference is fairly strong and shows up consistently when I take different versions of the various online four-letter type quizzes.",
       "explain_aux": "The Red in this image represents my slight preference for using emotion rather than logic to make decisions in many situations.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  Because this is a very slight preference, I can be flexible and make logical decisions when the situation calls for it.",
       "story_html": "<p>This image is based on a score from one of the first times I took the Keirsey Temperament Sorter.  Like others I have talked to, at first I was surprised to learn I was an INFP!</p><p>I have actually taken various versions of the quiz &ndash; this is kind of a hobby of mine &ndash; and have even <a href='/quiz' title='Link to take the quiz on this site'>written my own!</a>.</p><p>Because this is my first self-portrait, it holds a special signifigance for me and is my favorite.</p>",
-      "compare_to": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2700" },
+      "compare_to": { },
       "contrast_with": { }
     }, {
       "id": "9104",
@@ -79,8 +79,8 @@
       "explain_dom": "The Green in this image represents my slight preference for using logic rather than emotion to make decisions in many situations.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Because this is a very slight preference, I can be flexible and make emotional decisions when the situation calls for it.",
       "explain_aux": "The Blue in this image represents my preference for idealism over pragmatism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This preference is fairly strong and shows up consistently when I take different versions of the various online four-letter type quizzes.",
       "story_html": "<p>This image is based on a score from one of the first times I took the Keirsey Temperament Sorter.  Like others I have talked to, at first I was surprised to learn I was an INFP!</p><p>I have actually taken various versions of the quiz &ndash; this is kind of a hobby of mine &ndash; and have even <a href='/quiz' title='Link to take the quiz on this site'>written my own!</a>.</p><p>Because this is my first self-portrait, it holds a special signifigance for me and is my favorite.</p>",
-      "compare_to": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2700" },
-      "contrast_with": { }
+      "compare_to": { },
+      "contrast_with": { "gallery_file_name": "1600-fictional-movies-classics", "image_id": "1600" }
     }, {
       "id": "9108",
       "title": "Tom H. IV",
@@ -103,8 +103,8 @@
       "explain_dom": "The Red in this image represents my slight preference for using emotion rather than logic to make decisions in many situations.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Because this is a very slight preference, I can be flexible and make logical decisions when the situation calls for it.",
       "explain_aux": "The Blue in this image represents my preference for idealism over pragmatism.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This preference is fairly strong and shows up consistently when I take different versions of the various online four-letter type quizzes.",
       "story_html": "<p>This image is based on a score from one of the first times I took the Keirsey Temperament Sorter.  Like others I have talked to, at first I was surprised to learn I was an INFP!</p><p>I have actually taken various versions of the quiz &ndash; this is kind of a hobby of mine &ndash; and have even <a href='/quiz' title='Link to take the quiz on this site'>written my own!</a>.</p><p>Because this is my first self-portrait, it holds a special signifigance for me and is my favorite.</p>",
-      "compare_to": { "gallery_file_name": "2700-fictional-tv-x_files", "image_id": "2700" },
-      "contrast_with": { }
+      "compare_to": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2206" },
+      "contrast_with": { "gallery_file_name": "2400-fictional-tv-sopranos", "image_id": "2400" }
     }
   ]
 }
