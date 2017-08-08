@@ -7,7 +7,7 @@
   "image_list":
   [
     {
-      "id": "1",
+      "id": "9501",
       "title": "ENFJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ENFJs, like the images of the other xNFx types, contain more Red and Blue, and less Green and Yellow.  Click on the image to see a full-sized version, and to learn more about ENFJs and their images.",
@@ -29,9 +29,9 @@
       "explain_aux": "The shorter horizontal Blue lines represent the ENFJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9601" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "74" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9574" }
     }, {
-      "id": "4",
+      "id": "9504",
       "title": "ENFP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ENFPs, like the images of the other xNFx types, contain more Blue and Red, and less Yellow and Green.  Click on the image to see a full-sized version, and to learn more about ENFPs and their images.",
@@ -53,12 +53,12 @@
       "explain_aux": "The shorter horizontal Red lines represent the ENFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9704" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "71" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9571" }
     }, {
-      "id": "7",
+      "id": "9507",
       "title": "responsive_ad"
     }, {
-      "id": "11",
+      "id": "9511",
       "title": "ENTJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ENTJs, like the images of the other xNTx types, contain more Green and Blue, and less Red and Yellow.  Click on the image to see a full-sized version, and to learn more about ENTJs and their images.",
@@ -80,9 +80,9 @@
       "explain_aux": "The shorter horizontal Blue lines represent the ENTJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9611" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "64" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9564" }
     }, {
-      "id": "14",
+      "id": "9514",
       "title": "ENTP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ENTPs, like the images of the other xNTx types, contain more Blue and Green, and less Yellow and Red.  Click on the image to see a full-sized version, and to learn more about ENTPs and their images.",
@@ -104,12 +104,12 @@
       "explain_aux": "The shorter horizontal Green lines represent the ENTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9714" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "61" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9561" }
     }, {
-      "id": "17",
+      "id": "9517",
       "title": "large_rectangle_ad"
     }, {
-      "id": "21",
+      "id": "9521",
       "title": "ESFJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJ'>ESFJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ESFJs, like the images of the other xSFx types, contain more Red and Yellow, and less Green and Blue.  Click on the image to see a full-sized version, and to learn more about ESFJs and their images.",
@@ -131,9 +131,9 @@
       "explain_aux": "The shorter horizontal Yellow lines represent the ESFJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJs'>ESFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9621" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "54" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9554" }
     }, {
-      "id": "24",
+      "id": "9524",
       "title": "ESFP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFP'>ESFP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ESFPs, like the images of the other xSFx types, contain more Yellow and Red, and less Blue and Green.  Click on the image to see a full-sized version, and to learn more about ESFPs and their images.",
@@ -155,12 +155,12 @@
       "explain_aux": "The shorter horizontal Red lines represent the ESFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFPs'>ESFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9724" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "51" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9551" }
     }, {
-      "id": "27",
+      "id": "9527",
       "title": "medium_rectangle_ad"
     }, {
-      "id": "31",
+      "id": "9531",
       "title": "ESTJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJ'>ESTJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ESTJs, like the images of the other xSTx types, contain more Green and Yellow, and less Red and Blue.  Click on the image to see a full-sized version, and to learn more about ESTJs and their images.",
@@ -182,9 +182,9 @@
       "explain_aux": "The shorter horizontal Yellow lines represent the ESTJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJs'>ESTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9631" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "44" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9544" }
     }, {
-      "id": "34",
+      "id": "9534",
       "title": "ESTP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ESTPs, like the images of the other xSTx types, contain more Yellow and Green, and less Blue and Red.  Click on the image to see a full-sized version, and to learn more about ESTPs and their images.",
@@ -206,12 +206,12 @@
       "explain_aux": "The shorter horizontal Green lines represent the ESTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9734" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "41" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9541" }
     }, {
-      "id": "37",
+      "id": "9537",
       "title": "large_rectangle_ad"
     }, {
-      "id": "41",
+      "id": "9541",
       "title": "INFJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of INFJs, like the images of the other xNFx types, contain more Blue and Red, and less Yellow and Green.  Click on the image to see a full-sized version, and to learn more about INFJs and their images.",
@@ -233,9 +233,9 @@
       "explain_aux": "The shorter vertical Red lines represent the INFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9641" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "34" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9534" }
     }, {
-      "id": "44",
+      "id": "9544",
       "title": "INFP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of INFPs, like the images of the other xNFx types, contain more Red and Blue, and less Green and Yellow.  Click on the image to see a full-sized version, and to learn more about INFPs and their images.",
@@ -257,12 +257,12 @@
       "explain_aux": "The shorter vertical Blue lines represent the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9744" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "31" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9531" }
     }, {
-      "id": "47",
+      "id": "9547",
       "title": "responsive_ad"
     }, {
-      "id": "51",
+      "id": "9551",
       "title": "INTJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of INTJs, like the images of the other xNTx types, contain more Blue and Green, and less Yellow and Red.  Click on the image to see a full-sized version, and to learn more about INTJs and their images.",
@@ -284,9 +284,9 @@
       "explain_aux": "The shorter vertical Green lines represent the INTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9651" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "24" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9524" }
     }, {
-      "id": "54",
+      "id": "9554",
       "title": "INTP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of INTPs, like the images of the other xNTx types, contain more Green and Blue, and less Red and Yellow.  Click on the image to see a full-sized version, and to learn more about INTPs and their images.",
@@ -308,12 +308,12 @@
       "explain_aux": "The shorter vertical Blue lines represent the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9754" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "21" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9521" }
     }, {
-      "id": "57",
+      "id": "9557",
       "title": "square_ad"
     }, {
-      "id": "61",
+      "id": "9561",
       "title": "ISFJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ISFJs, like the images of the other xSFx types, contain more Yellow and Red, and less Blue and Green.  Click on the image to see a full-sized version, and to learn more about ISFJs and their images.",
@@ -335,9 +335,9 @@
       "explain_aux": "The shorter vertical Red lines represent the ISFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9661" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "14" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9514" }
     }, {
-      "id": "64",
+      "id": "9564",
       "title": "ISFP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ISFPs, like the images of the other xSFx types, contain more Red and Yellow, and less Green and Blue.  Click on the image to see a full-sized version, and to learn more about ISFPs and their images.",
@@ -359,12 +359,12 @@
       "explain_aux": "The shorter vertical Yellow lines represent the ISFP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9764" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "11" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9511" }
     }, {
-      "id": "67",
+      "id": "9567",
       "title": "small_square_ad"
     }, {
-      "id": "71",
+      "id": "9571",
       "title": "ISTJ - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ISTJs, like the images of the other xSTx types, contain more Yellow and Green, and less Blue and Red.  Click on the image to see a full-sized version, and to learn more about ISTJs and their images.",
@@ -386,9 +386,9 @@
       "explain_aux": "The shorter vertical Green lines represent the ISTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTJ</em> personality types.",
       "compare_to": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9671" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "4" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9504" }
     }, {
-      "id": "74",
+      "id": "9574",
       "title": "ISTP - Generic",
       "subtitle_html": "Image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> using fixed percentages.",
       "gallery_page_teaser": "Images of ISTPs, like the images of the other xSTx types, contain more Green and Yellow, and less Red and Blue.  Click on the image to see a full-sized version, and to learn more about ISTPs and their images.",
@@ -410,9 +410,9 @@
       "explain_aux": "The shorter vertical Yellow lines represent the ISTP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTP</em> personality types.",
       "compare_to": { "gallery_file_name": "9700-generic_images-experiments-rhythm", "image_id": "9774" },
-      "contrast_with": { "gallery_file_name": "0000-generic_images-original", "image_id": "1" }
+      "contrast_with": { "gallery_file_name": "9500-generic_images-original", "image_id": "9501" }
     }, {
-      "id": "77",
+      "id": "9577",
       "title": "square_ad"
     }
   ]
