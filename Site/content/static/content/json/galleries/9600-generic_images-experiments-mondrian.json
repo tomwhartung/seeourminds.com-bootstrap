@@ -3,7 +3,7 @@
   "see_gallery_button_text": "See the Images",
   "list_page_teaser": "This gallery presents images of each of the sixteen personality types drawn using an experimental composition based on one of Piet Mondrian's paintings.  Visit this gallery to see these alternate compositions.",
   "description_html": "<p>This gallery contains an image of each of the Sixteen Types drawn using an experimental composition I call <q>Mondrianesque.</q>  The inspiration for this composition was the painting <a href='https://en.wikipedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg' title='Wikipedia page showing a fairly large-sized version of the painting Composition II in Red, Blue, and Yellow' target='_blank'>Composition II in Red, Blue, and Yellow</a> (1930) by <a href='https://en.wikipedia.org/wiki/Piet_Mondrian' title='Wikipedia page for Piet Mondrian' target='_blank'>Piet Mondrian</a>.</p><p>Although some of the images look good, some do not.  And this is definitely not fair to those types for which the composition does not <q>work</q> as well.</p><p>Therefore I consider this to be a failed experiment, and the option to use this composition is not available in the current version of the program.</p>",
-  "story_html": "<p>If you think about it, there can be any number of ways to represent a personality visually.  (Sometimes I wonder if I am the only person who thinks about these things!)</p><p>Naturally, some of these representations are going to work better than others.  And there's only one way to find out which ones will work and which won't &mdash; and that is to try them and see!</p><p>After getting the <a href='/gallery/0000-generic_images-original/' title='Link to the Sixteen Types Gallery on this site, which contains the Original Composition images' target='_blank'>Original Compositions</a> working in the third version of this program (using PHP Nuke), I decided to try a couple of ideas I had for different compositions.  These images, and those in the <a href='/gallery/9700-generic_images-experiments-rhythm/' title='Link to the experimental images in the Rhythm Composition Gallery'>Rhythm Composition Gallery</a>, are the results of those experiments.</p><p>Some of the images in this gallery do not look all that bad, but some are actually pretty horrible.  In my opinion, the images of the Introverts in particular are quite hideous!  (Note that these appear further down the page, due to the images being in alphabetical order by four-letter-type.)</p><p>Things like this often remind me of ballet class.  The dancer's job is to make their art look effortless, but anyone who has tried to do what they do can appreciate that it is extremely difficult!</p>",
+  "story_html": "<p>If you think about it, there can be any number of ways to represent a personality visually.  (Sometimes I wonder if I am the only person who thinks about these things!)</p><p>Naturally, some of these representations are going to work better than others.  And there's only one way to find out which ones will work and which won't &mdash; and that is to try them and see!</p><p>After getting the <a href='/gallery/9500-generic_images-original/' title='Link to the Sixteen Types Gallery on this site, which contains the Original Composition images' target='_blank'>Original Compositions</a> working in the third version of this program (using PHP Nuke), I decided to try a couple of ideas I had for different compositions.  These images, and those in the <a href='/gallery/9700-generic_images-experiments-rhythm/' title='Link to the experimental images in the Rhythm Composition Gallery'>Rhythm Composition Gallery</a>, are the results of those experiments.</p><p>Some of the images in this gallery do not look all that bad, but some are actually pretty horrible.  In my opinion, the images of the Introverts in particular are quite hideous!  (Note that these appear further down the page, due to the images being in alphabetical order by four-letter-type.)</p><p>Things like this often remind me of ballet class.  The dancer's job is to make their art look effortless, but anyone who has tried to do what they do can appreciate that it is extremely difficult!</p>",
   "image_list":
   [
     {
@@ -28,7 +28,7 @@
       "explain_dom": "The large Red rectangle represents the ENFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and enables them to make strong social connections.  This Extraverted Feeling makes ENFJs outgoing, polite, friendly, charming, and loyal.",
       "explain_aux": "The smaller Blue rectangle represents the ENFJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFJ' target='_blank' title='Wikipedia page for ENFJs'>ENFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "1" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9501" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9674" }
     }, {
       "id": "9604",
@@ -52,7 +52,7 @@
       "explain_dom": "The large Blue rectangle represents the ENFP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  This Extraverted iNtuition makes ENFPs perceptive, charismatic, versatile, clever, and enthusiastic about making things happen.",
       "explain_aux": "The smaller Red rectangle represents the ENFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENFP' target='_blank' title='Wikipedia page for ENFPs'>ENFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENFP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "4" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9504" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9671" }
     }, {
       "id": "9607",
@@ -79,7 +79,7 @@
       "explain_dom": "The large Green rectangle represents the ENTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  This Extraverted Thinking makes ENTJs analytical and decisive.  They value truth, seek logical explanations, work well in organizations, and can make excellent leaders.",
       "explain_aux": "The smaller Blue rectangle represents the ENTJ's Auxiliary personality trait, their Introverted iNtuition.  Their openness to new ideas gives them the ability to reconcile seemingly contradictory evidence and gain sudden insight - an 'Aha!' moment - into future possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTJ' target='_blank' title='Wikipedia page for ENTJs'>ENTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "11" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9511" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9664" }
     }, {
       "id": "9614",
@@ -103,7 +103,7 @@
       "explain_dom": "The large Blue rectangle represents the ENTP's Dominant personality trait, their Extraverted iNtuition.  Their openness causes them to explore alternatives and find hidden possibilities.  This Extraverted iNtuition makes ENTPs perceptive, charismatic, versatile, clever, and enthusiastic about making things happen.",
       "explain_aux": "The smaller Green rectangle represents the ENTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ENTP' target='_blank' title='Wikipedia page for ENTPs'>ENTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ENTP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "14" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9514" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9661" }
     }, {
       "id": "9617",
@@ -130,7 +130,7 @@
       "explain_dom": "The large Red rectangle represents the ESFJ's Dominant personality trait, their Extraverted Feeling.  Their warmth causes them to seek harmonious relationships and enables them to make strong social connections.  This Extraverted Feeling makes ESFJs outgoing, polite, friendly, considerate, and loyal.",
       "explain_aux": "The smaller Yellow rectangle represents the ESFJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFJ' target='_blank' title='Wikipedia page for ESFJs'>ESFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "21" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9521" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9654" }
     }, {
       "id": "9624",
@@ -154,7 +154,7 @@
       "explain_dom": "The large Yellow rectangle represents the ESFP's Dominant personality trait, their Extraverted Sensation.  Their curiousity and preference for living in the present moment makes them practical and realistic, and can lead to spontaneous action.  This Extraverted Sensation makes ESFPs observant, adaptable, tolerant, persuasive, fun, and generous.",
       "explain_aux": "The smaller Red rectangle represents the ESFP's Auxiliary personality trait, their Introverted Feeling.  Their desire for authenticity and inner harmony can give them 'gut feelings' when it comes to discerning the finer distinctions between good and bad, and truth and falsehood.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESFP' target='_blank' title='Wikipedia page for ESFPs'>ESFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESFP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "24" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9524" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9651" }
     }, {
       "id": "9627",
@@ -181,7 +181,7 @@
       "explain_dom": "The large Green rectangle represents the ESTJ's Dominant personality trait, their Extraverted Thinking.  Their ability to reason logically enables them to organize their environment and schedule events to efficiently produce results.  This Extraverted Thinking makes ESTJs analytical and decisive.  They value truth, seek logical explanations, are natural leaders, and can be superior administrators.",
       "explain_aux": "The smaller Yellow rectangle represents the ESTJ's Auxiliary personality trait, their Introverted Sensation.  They are hard-working and responsible, and their detailed memories can give them a heightened awareness of any differences or changes, making them want to relive and protect these experiences and memories.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTJ' target='_blank' title='Wikipedia page for ESTJs'>ESTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "31" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9531" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9644" }
     }, {
       "id": "9634",
@@ -205,7 +205,7 @@
       "explain_dom": "The large Yellow rectangle represents the ESTP's Dominant personality trait, their Extraverted Sensation.  Their curiousity and preference for living in the present moment makes them practical and realistic, and can lead to spontaneous action.  This Extraverted Sensation makes ESTPs resourceful, tolerant, outgoing and popular, persuasive, fun, and generous.",
       "explain_aux": "The smaller Green rectangle represents the ESTP's Auxiliary personality trait, their Introverted Thinking.  Their ability to reason, categorize, and analyze ideas and things enables them to solve problems efficiently and can compel them to figure out how things work.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ESTP' target='_blank' title='Wikipedia page for ESTPs'>ESTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ESTP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "34" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9534" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9641" }
     }, {
       "id": "9637",
@@ -232,7 +232,7 @@
       "explain_dom": "The large Blue rectangle represents the INFJ's Dominant personality trait, their Introverted iNtuition.  Their inner vision makes them insightful, ingenious, and individualistic.  This Introverted iNtuition makes INFJs driven, inspired, and determined.  When properly motivated, they can overcome difficulties and find new paths in any field they choose.",
       "explain_aux": "The smaller Red rectangle represents the INFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFJ' target='_blank' title='Wikipedia page for INFJs'>INFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "41" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9541" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9634" }
     }, {
       "id": "9644",
@@ -256,7 +256,7 @@
       "explain_dom": "The large Red rectangle represents the INFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality or 'gut feeling' takes precedence, so the opinions of others may matter little.  This Introverted Feeling makes INFPs idealistic, authentic and faithful, and gives them a strong sense of duty.",
       "explain_aux": "The smaller Blue rectangle represents the INFP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INFP' target='_blank' title='Wikipedia page for INFPs'>INFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INFP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "44" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9544" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9631" }
     }, {
       "id": "9647",
@@ -283,7 +283,7 @@
       "explain_dom": "The large Blue rectangle represents the INTJ's Dominant personality trait, their Introverted iNtuition.  Their inner vision makes them insightful, ingenious, and individualistic.  This Introverted iNtuition makes INTJs driven, inspired, and determined.  When properly motivated, they can overcome difficulties and find new paths in any field they choose.",
       "explain_aux": "The smaller Green rectangle represents the INTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTJ' target='_blank' title='Wikipedia page for INTJs'>INTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "51" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9551" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9624" }
     }, {
       "id": "9654",
@@ -307,7 +307,7 @@
       "explain_dom": "The large Green rectangle represents the INTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  This Introverted Thinking makes INTPs quiet, curious, adaptable, perceptive, and interested in finding underlying principles.",
       "explain_aux": "The smaller Blue rectangle represents the INTP's Auxiliary personality trait, their Extraverted iNtuition.  Their openness to others' thoughts, experiences, ideas, and feelings makes them a source of inspiration and enthusiastic about pursuing all sorts of different possibilities.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/INTP' target='_blank' title='Wikipedia page for INTPs'>INTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>INTP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "54" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9554" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9621" }
     }, {
       "id": "9657",
@@ -334,7 +334,7 @@
       "explain_dom": "The large Yellow rectangle represents the ISFJ's Dominant personality trait, their Introverted Sensation.  Their practical perceptions and deeply stored impressions make them protective of all things they find familiar.  This Introverted Sensation makes ISFJs systematic, responsible, hard-working, and adaptable to routine.",
       "explain_aux": "The smaller Red rectangle represents the ISFJ's Auxiliary personality trait, their Extraverted Feeling.  Their desire for warm, harmonious relationships makes them tactful, polite, and open to what others want.  They are conscientious, sensitive and loyal, and radiate warmth.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFJ' target='_blank' title='Wikipedia page for ISFJs'>ISFJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "61" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9561" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9614" }
     }, {
       "id": "9664",
@@ -358,7 +358,7 @@
       "explain_dom": "The large Red rectangle represents the ISFP's Dominant personality trait, their Introverted Feeling.  Their deep passion for inner harmony rarely surfaces, and an inner morality or 'gut feeling' takes precedence, so the opinions of others may matter little.  This Introverted Feeling makes ISFPs authentic, faithful, idealistic, and gives them a strong sense of duty.",
       "explain_aux": "The smaller Yellow rectangle represents the ISFP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISFP' target='_blank' title='Wikipedia page for ISFPs'>ISFP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISFP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "64" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9564" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9611" }
     }, {
       "id": "9667",
@@ -385,7 +385,7 @@
       "explain_dom": "The large Yellow rectangle represents the ISTJ's Dominant personality trait, their Introverted Sensation.  Their practical perceptions and deeply stored impressions make them protective of all things they find familiar.  This Introverted Sensation makes ISTJs systematic, responsible, hard-working, and adaptable to routine.",
       "explain_aux": "The smaller Green rectangle represents the ISTJ's Auxiliary personality trait, their Extraverted Thinking.  They are analytical, decisive, and strive to make things more efficient. They value the truth and enjoy taking charge by scheduling and organizing the time they spend with others.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTJ' target='_blank' title='Wikipedia page for ISTJs'>ISTJ</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTJ</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "71" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9571" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9604" }
     }, {
       "id": "9674",
@@ -409,7 +409,7 @@
       "explain_dom": "The large Green rectangle represents the ISTP's Dominant personality trait, their Introverted Thinking.  Their impersonal analysis of concepts and facts can make them seem shy and aloof.  This Introverted Thinking makes ISTPs quiet, curious, adaptable, perceptive, and interested in solving problems efficiently.",
       "explain_aux": "The smaller Yellow rectangle represents the ISTP's Auxiliary personality trait, their Extraverted Sensation.  They are frequently curious, always tolerant of themselves and others, and have a constant desire for real world experiences that can make them seem to act somewhat impulsively.",
       "story_html": "This <span class='air-quotes'>generic</span> image of an <a href='https://en.wikipedia.org/wiki/ISTP' target='_blank' title='Wikipedia page for ISTPs'>ISTP</a> is based on fixed percentages and is <em>not</em> an image of any person, real or fictional.  This image exists solely to demonstrate the overall appearance of <em>ISTP</em> personality types.",
-      "compare_to": { "gallery_file_name": "0000-generic_images-original", "image_id": "74" },
+      "compare_to": { "gallery_file_name": "9500-generic_images-original", "image_id": "9574" },
       "contrast_with": { "gallery_file_name": "9600-generic_images-experiments-mondrian", "image_id": "9601" }
     }, {
       "id": "9677",
