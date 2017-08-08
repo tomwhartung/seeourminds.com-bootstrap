@@ -81,7 +81,7 @@ class GalleriesList:
             if fnmatch.fnmatch(gal_file, fnmatch_string):
                 self.gallery_files.append(gal_file)
 
-        print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
+        # print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
         # print('GalleriesList - __init__ - gallery_files:', gallery_files)
         # print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
@@ -106,14 +106,12 @@ class GalleriesList:
                 = list_page_teaser[:self.LIST_PAGE_TEXT_INTRO_LENGTH]
             gallery_dict['list_page_teaser_remainder'] \
                 = list_page_teaser[self.LIST_PAGE_TEXT_INTRO_LENGTH:]
-            # print('gal_file_name:', gal_file_name)
-            # print('gallery_dict:', gallery_dict)
             self.galleries_list_data.append(gallery_dict)
             if ad_added_last_time:   # do NOT show an ad until MAYBE next time
                 ad_added_last_time = False
             else:  # MAYBE add an ad, randomly
                 random_int_1_2 = random.randint(1,2)
-                print("random_int_1_2:", random_int_1_2)
+                # print("random_int_1_2:", random_int_1_2)
                 if random_int_1_2 == 2:
                     gallery_dict = { "gallery_title": "responsive_ad" }
                     self.galleries_list_data.append(gallery_dict)
@@ -134,7 +132,7 @@ class Gallery:
         if gallery_file_name == None:
             self.gallery_dict = {}
         else:
-            print('gallery_file_name:', gallery_file_name)
+            # print('gallery_file_name:', gallery_file_name)
             data_file_name = gallery_file_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
             data_file_dir = site_content_dir + GalleriesList.GALLERIES_DIRECTORY
