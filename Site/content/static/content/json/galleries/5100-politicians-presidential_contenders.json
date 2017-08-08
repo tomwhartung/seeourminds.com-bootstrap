@@ -2,15 +2,15 @@
   "gallery_title": "Presidential Contenders",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Not everyone who runs for president wins.  See the images of several recent contenders for this office who did not win, and compare them to the images of the winners in the Presidents gallery.",
-  "description_html": "<p>These are images of some candidates who have recently run for <a href='https://en.wikipedia.org/wiki/President_of_the_United_States' title='Wikipedia page describing the office of President of the United States' target='_blank'>President of the United States</a> and lost.</p><p>It is important to note that all of the images in this gallery are based on a four-letter-types, and are therefore of 'generic' personalities using fixed percentages.",
+  "description_html": "<p>These are images of some candidates who have recently run for <a href='https://en.wikipedia.org/wiki/President_of_the_United_States' title='Wikipedia page describing the office of President of the United States' target='_blank'>President of the United States</a> and lost.</p><p>It is important to note that many of the images in this gallery are based on a four-letter-types, and are therefore of 'generic' personalities using fixed percentages.",
   "story_html": "<p>Did one of your favorite candidates recently lose a presidential election?  If so, was their personality type more similar to yours than the winner?</p><p>Are you someone who thinks those who run as a candidate of one of the two major parties offer no real choice, and that third parties offer the best options?  (If so, you might find this gallery particularly enlightening!)</p><p>Or do you think this personality type stuff is irrelevant to your politics?  Perhaps your voting habits are based strictly a candidate's political party, or their ideology or stance on a specific issue that has nothing to do with these preferences?</p><p>My hope is that sharing these images will help you answer these questions for yourself!</p>",
   "image_list":
   [
     {
-      "id": "5050",
+      "id": "5100",
       "title": "Hillary Clinton 2016",
       "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>2008 and 2016</a>",
-      "gallery_page_teaser": "Click on the image to learn more!",
+      "gallery_page_teaser": "A friend who campaigned for Hillary in 2016 helped me create this profile of her.  Click on the image to learn more!",
       "image_file_name": "istj-hillary_clinton_2016-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg",
       "composition": "O",
@@ -21,6 +21,7 @@
         { "j_score": "15", "p_score": "4" }
       ],
       "four_letter_type": "ISTJ",
+      "fixed_percentages": "",
       "archetype": "Si",
       "quiz_type": "K",
       "subject_line": "",
@@ -31,35 +32,11 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "5052",
-      "title": "Hillary Clinton",
-      "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>2008 and 2016</a>",
-      "gallery_page_teaser": "Some articles claim that Hillary is an ESTJ, but this may not actually be true.  Click on the image to learn more!",
-      "image_file_name": "estj-hillary_clinton.jpeg",
-      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg",
-      "composition": "O",
-      "score": [
-        { "e_score": "11", "i_score": "8" },
-        { "n_score": "8", "s_score": "11" },
-        { "f_score": "8", "t_score": "11" },
-        { "j_score": "11", "p_score": "8" }
-      ],
-      "four_letter_type": "ESTJ",
-      "archetype": "Te",
-      "quiz_type": "J",
-      "subject_line": "",
-      "tweet_html": "",
-      "explain_dom": "The Green represents her preference to make logical decisions.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This trait is evident in her decision to pursue a law degree at Yale University.",
-      "explain_aux": "The Yellow represents her pragmatism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  This trait is evident in her willingness to take 'hawkish' stances with regard to military measures.",
-      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that Hillary is an ESTJ' target='_blank'> article at slate.com</a> claims that Hillary is an ESTJ.  This <a href='http://www.celebritytypes.com/estj.php' title='Link article at celebritytypes.com that also claims she is an ESTJ' target='_blank'</a>article at celebritytypes.com</a> also claims she is an ESTJ, but makes it evident there is some disagreement about this.</p><p>Importantly, the second article notes that she self-identifies as an Introvert.</p><p>As an Introvert myself, it is difficult to imagine running for president, and constantly being in the limelight, especially against an Extravert like Donald Trump.  She certainly has earned my respect for giving it a go, and I feel it's very important to note that even though she obviously had a significant number of things working against her, she did win the popular vote.</p><p>Note that this is an image of a 'generic' personality, and is based on a four-letter-type (fixed percentages) only.</p>",
-      "compare_to": { },
-      "contrast_with": { }
-    }, {
-      "id": "5056",
+      "id": "5102",
       "title": "responsive_ad"
     }, {
-      "id": "5060",
-      "title": "John McCain",
+      "id": "5104",
+      "title": "John McCain (slate.com)",
       "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/John_McCain' target='_blank' title='Wikipedia page for John McCain'>2000 and 2008</a>",
       "gallery_page_teaser": "A frequently-referenced article at slate.com claims that John McCain is an ESTP.  Click on the image to learn more!",
       "image_file_name": "estp-john_mccain.jpeg",
@@ -72,6 +49,7 @@
         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ESTP",
+      "fixed_percentages": "True",
       "archetype": "Se",
       "quiz_type": "J",
       "subject_line": "",
@@ -82,8 +60,8 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "5063",
-      "title": "Ralph Nader",
+      "id": "5106",
+      "title": "Ralph Nader (Keirsey.com)",
       "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/Ralph_Nader' target='_blank' title='Wikipedia page for Ralph Nader'>1972-2008</a>",
       "gallery_page_teaser": "An article on keirsey.com claims that Ralph Nader is an ENFJ.  Click on the image to learn more!",
       "image_file_name": "enfj-ralph_nader.jpeg",
@@ -96,6 +74,7 @@
         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ENFJ",
+      "fixed_percentages": "True",
       "archetype": "Fe",
       "quiz_type": "J",
       "subject_line": "",
@@ -106,13 +85,32 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "5066",
-      "title": "responsive_ad"
+      "id": "5108",
+      "title": "Hillary Clinton (slate.com)",
+      "subtitle_html": "Presidential Contender, <a href='https://en.wikipedia.org/wiki/Hillary_Clinton' target='_blank' title='Wikipedia page for Hillary Clinton'>2008 and 2016</a>",
+      "gallery_page_teaser": "Some articles claim that Hillary is an ESTJ, but this may not actually be true.  Click on the image to learn more!",
+      "image_file_name": "estj-hillary_clinton.jpeg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg",
+      "composition": "O",
+      "score": [
+        { "e_score": "11", "i_score": "8" },
+        { "n_score": "8", "s_score": "11" },
+        { "f_score": "8", "t_score": "11" },
+        { "j_score": "11", "p_score": "8" }
+      ],
+      "four_letter_type": "ESTJ",
+      "fixed_percentages": "True",
+      "archetype": "Te",
+      "quiz_type": "J",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Green represents her preference to make logical decisions.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  This trait is evident in her decision to pursue a law degree at Yale University.",
+      "explain_aux": "The Yellow represents her pragmatism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  This trait is evident in her willingness to take 'hawkish' stances with regard to military measures.",
+      "story_html": "<p>This <a href='http://www.slate.com/id/2184696/' title='Link to article at slate.com claiming that Hillary is an ESTJ' target='_blank'> article at slate.com</a> claims that Hillary is an ESTJ.  This <a href='http://www.celebritytypes.com/estj.php' title='Link article at celebritytypes.com that also claims she is an ESTJ' target='_blank'</a>article at celebritytypes.com</a> also claims she is an ESTJ, but makes it evident there is some disagreement about this.</p><p>Importantly, the second article notes that she self-identifies as an Introvert.</p><p>As an Introvert myself, it is difficult to imagine running for president, and constantly being in the limelight, especially against an Extravert like Donald Trump.  She certainly has earned my respect for giving it a go, and I feel it's very important to note that even though she obviously had a significant number of things working against her, she did win the popular vote.</p><p>Note that this is an image of a 'generic' personality, and is based on a four-letter-type (fixed percentages) only.</p>",
+      "compare_to": { },
+      "contrast_with": { }
     }, {
-      "id": "5067",
-      "title": "square_ad"
-    }, {
-      "id": "5068",
+      "id": "5109",
       "title": "responsive_ad"
     }
   ]
