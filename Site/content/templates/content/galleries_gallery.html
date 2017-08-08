@@ -57,6 +57,11 @@
                    class="center gallery-image">
             </figure>
           </a>
+          {% if image_dict.fixed_percentages %}
+            <div class="text-center">
+              <p class="fixed-percentages">Image Based on Four-Letter Type</p>
+            </div><!-- .text-center -->
+          {% endif %}
           {% if image_dict.subtitle_html %}
             <div class="text-center">
               <h4 class="gallery-image">{{ image_dict.subtitle_html | safe }}</h4>
@@ -67,11 +72,6 @@
             </div><!-- #score-bars-{{ image_dict.id }} -->
           {% else %}
             <p>{{ image_dict.four_letter_type }}</p>
-          {% endif %}
-          {% if image_dict.fixed_percentages %}
-            <div class="text-center">
-              <p class="fixed-percentages">Image Based on Four-Letter Type</p>
-            </div><!-- .text-center -->
           {% endif %}
           {% if image_dict.subject_line %}
             <p>{{ image_dict.subject_line }}</p>
