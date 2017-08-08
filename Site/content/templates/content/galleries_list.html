@@ -13,16 +13,18 @@
       <p>
         This page lists and links to
           {{ galleries_list_obj.descriptive_phrase_html | safe }}</p>
-      <ul>
-        {% for gal_dict in galleries_list_obj.galleries_list_data %}
-          {% if gal_dict.gallery_title != 'responsive_ad' %}
-            <li>
-              <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
-                 title="View the {{ gal_dict.gallery_title }} gallery">
-                {{ gal_dict.gallery_title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      {% if galleries_list_obj.galleries_list_title != 'All Galleries' %}
+        <ul>
+          {% for gal_dict in galleries_list_obj.galleries_list_data %}
+            {% if gal_dict.gallery_title != 'responsive_ad' %}
+              <li>
+                <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+                   title="View the {{ gal_dict.gallery_title }} gallery">
+                  {{ gal_dict.gallery_title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
       <p>
         Below are sample thumbnails and a brief description of
           each of these galleries.</p>
