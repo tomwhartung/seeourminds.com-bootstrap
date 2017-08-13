@@ -50,7 +50,7 @@
             {% if image_dict.story_html %}
               <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
                  title="Show the story behind these images">
-                Tell the Story</a>
+                Show the Story</a>
             {% endif %}
             {% if image_dict.meat_portrait_href %}
               <a class="btn btn-success btn-md som-btn-all" id="show-meat-portrait"
@@ -140,14 +140,14 @@
         $("#toggle-story-html").click(function() {
           $("#story-html").toggle(toggle_text_effect, "slow");
           var button_text = $("#toggle-story-html").text();
-          if ( button_text.includes('Tell') ) {
+          if ( button_text.includes('Show') ) {
             $("#toggle-story-html").removeClass("btn-success");
             $("#toggle-story-html").addClass("btn-danger");
             $("#toggle-story-html").text("Hide the Story");
           } else {
             $("#toggle-story-html").removeClass("btn-danger");
             $("#toggle-story-html").addClass("btn-success");
-            $("#toggle-story-html").text("Tell the Story");
+            $("#toggle-story-html").text("Show the Story");
           }
         });
       {% endif %}
