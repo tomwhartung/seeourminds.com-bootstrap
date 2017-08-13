@@ -45,13 +45,27 @@
             {% endif %}
           {% endif %}
         </div><!-- .text-center -->
-        {% if image_dict.meat_portrait_href %}
+        {% if image_dict.story_html or image_dict.meat_portrait_href %}
           <div class="text-center">
-            <a class="btn btn-success btn-md som-btn-all" id="show-meat-portrait"
-               href="{{ image_dict.meat_portrait_href }}" target="_blank"
-               title="Link to a photograph of {{ image_dict.title }}">
-            Show the Meat Portrait</a>
+            {% if image_dict.story_html %}
+              <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
+                 title="Show the story behind these images">
+                Tell the Story</a>
+            {% endif %}
+            {% if image_dict.meat_portrait_href %}
+              <a class="btn btn-success btn-md som-btn-all" id="show-meat-portrait"
+                 href="{{ image_dict.meat_portrait_href }}" target="_blank"
+                 title="Link to a photograph of {{ image_dict.title }}">
+                Show the Meat Portrait</a>
+            {% endif %}
           </div><!-- .text-center -->
+          {% if image_dict.story_html %}
+            <div class="text-justify">
+              <div id="story-html" class="som-text-to-toggle">
+                {{ image_dict.story_html | safe }}
+              </div><!-- #story-html -->
+            </div><!-- .text-justify -->
+          {% endif %}
         {% endif %}
         <a href="https://en.wikipedia.org/wiki/{{ image_dict.four_letter_type }}"
            title="Click to open the wikipedia page for {{ image_dict.four_letter_type }}s in a new window"
@@ -83,17 +97,6 @@
             <p id="explain-aux" class="som-text-to-toggle">
               {{ image_dict.explain_aux }}</p>
           {% endif %}
-        {% endif %}
-        <div class="text-center">
-          {% if image_dict.story_html %}
-            <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
-               title="Show the story behind these images">
-              Tell the Story</a>
-          {% endif %}
-        </div><!-- .text-center -->
-        {% if image_dict.story_html %}
-          <div id="story-html" class="som-text-to-toggle">
-            {{ image_dict.story_html | safe }}</div>
         {% endif %}
 
         {% if image_dict.compare_to or image_dict.contrast_with %}
