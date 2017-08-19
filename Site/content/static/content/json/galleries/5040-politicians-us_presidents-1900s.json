@@ -7,6 +7,55 @@
   "image_list":
   [
     {
+      "id": "5040",
+      "title": "Theodore Roosevelt",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Theodore_Roosevelt' target='_blank' title='Wikipedia page for Theodore Roosevelt'>26st President</a> of the USA - Sept. 14, 1901 to Mar. 4 1909",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "image_file_name": "estj-theodore_roosevelt.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:President_Roosevelt_-_Pach_Bros.tif",
+      "composition": "O",
+      "score": [
+         { "e_score": "0", "i_score": "0" },
+         { "n_score": "0", "s_score": "0" },
+         { "f_score": "0", "t_score": "0" },
+         { "j_score": "0", "p_score": "0" }
+      ],
+      "four_letter_type": "ESTJ",
+      "fixed_percentages": "",
+      "archetype": "Te",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "5050",
+      "title": "responsive_ad"
+    }, {
       "id": "5077",
       "title": "George Herbert Walker Bush",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA - Jan. 20, 1989 to Jan. 20 1993",
