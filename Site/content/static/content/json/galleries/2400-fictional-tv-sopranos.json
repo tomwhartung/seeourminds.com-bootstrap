@@ -40,10 +40,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:CarmelaSoprano.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "19", "i_score": "0" },
+         { "n_score": "3", "s_score": "16" },
+         { "f_score": "12", "t_score": "7" },
+         { "j_score": "13", "p_score": "6" }
       ],
       "four_letter_type": "ESFJ",
       "fixed_percentages": "",
@@ -89,10 +89,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Christopher_Moltisanti.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "11", "i_score": "8" },
+         { "n_score": "7", "s_score": "12" },
+         { "f_score": "6", "t_score": "13" },
+         { "j_score": "13", "p_score": "6" }
       ],
       "four_letter_type": "ESTJ",
       "fixed_percentages": "",
@@ -135,10 +135,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:The_Sopranos_Paulie.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "3", "s_score": "16" },
+         { "f_score": "5", "t_score": "14" },
+         { "j_score": "9", "p_score": "10" }
       ],
       "four_letter_type": "ESTP",
       "fixed_percentages": "",
@@ -184,10 +184,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Sopranos_ep304.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "15", "s_score": "4" },
+         { "f_score": "9", "t_score": "10" },
+         { "j_score": "9", "p_score": "10" }
       ],
       "four_letter_type": "INTP",
       "fixed_percentages": "",
