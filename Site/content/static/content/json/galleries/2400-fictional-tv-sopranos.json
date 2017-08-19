@@ -34,10 +34,10 @@
     }, {
       "id": "2402",
       "title": "Carmela Soprano",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Tony Soprano's <a href='https://en.wikipedia.org/wiki/Wife' title='Wikipedia page about wives' target='_blank'>Wife</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "esfj-carmela_soprano.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:CarmelaSoprano.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -83,10 +83,10 @@
     }, {
       "id": "2407",
       "title": "Christopher Moltisanti",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Soldato' title='Wikipedia page for Soldato (mafia Soldier)' target='_blank'>Soldier</a>, <a href='https://en.wikipedia.org/wiki/Made_man' title='Wikipedia page for Made Man' target='_blank'>Made Man</a>, and <a href='https://en.wikipedia.org/wiki/Underboss' title='Wikipedia page for Underboss' target='_blank'>Underboss</a> in the <a href='https://en.wikipedia.org/wiki/List_of_characters_from_The_Sopranos_in_the_Soprano_crime_family' title='Wikipedia page for the DiMeo Crime Family' target='_blank'>DiMeo Crime Family</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "estj-christopher_moltisanti.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Christopher_Moltisanti.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -129,10 +129,10 @@
     }, {
       "id": "2410",
       "title": "Paulie Gualtieri",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Soldato' title='Wikipedia page for Soldato (mafia Soldier)' target='_blank'>Soldier</a>, <a href='https://en.wikipedia.org/wiki/Caporegime' title='Wikipedia page for Caporegime' target='_blank'>Caporegime</a>, and <a href='https://en.wikipedia.org/wiki/Underboss' title='Wikipedia page for Underboss' target='_blank'>Underboss</a> in the <a href='https://en.wikipedia.org/wiki/List_of_characters_from_The_Sopranos_in_the_Soprano_crime_family' title='Wikipedia page for the DiMeo Crime Family' target='_blank'>DiMeo Crime Family</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "estp-paulie_gualtieri.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:The_Sopranos_Paulie.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -178,10 +178,10 @@
     }, {
       "id": "2415",
       "title": "Dr. Jennifer Melfi",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Tony Soprano's <a href='https://en.wikipedia.org/wiki/Psychiatrist' title='Wikipedia page for Psychiatrist' target='_blank'>Psychiatrist</a>",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "intp-dr_jennifer_melfi.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Sopranos_ep304.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -225,7 +225,7 @@
     }, {
       "id": "2417",
       "title": "Ralph Cifaretto",
-      "subtitle_html": "Soldier in the <a href='https://en.wikipedia.org/wiki/List_of_characters_from_The_Sopranos_in_the_Soprano_crime_family' title='Wikipedia page for the DiMeo Crime Family' target='_blank'>DiMeo Crime Family</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Soldato' title='Wikipedia page for Soldato (mafia Soldier)' target='_blank'>Soldier</a> in the <a href='https://en.wikipedia.org/wiki/List_of_characters_from_The_Sopranos_in_the_Soprano_crime_family' title='Wikipedia page for the DiMeo Crime Family' target='_blank'>DiMeo Crime Family</a>",
       "gallery_page_teaser": "This portrait of Ralphie Cifaretto shows he's pragmatic and a bit emotional.  Click on the image to learn more!",
       "image_file_name": "esfp-ralph_cifaretto-1.jpg",
       "meat_portrait_href": "http://www.imdb.com/character/ch0011339/mediaviewer/rm38286080",
