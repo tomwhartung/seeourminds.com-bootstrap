@@ -15,10 +15,10 @@
       "meat_portrait_href": "http://www.imdb.com/character/ch0008840/mediaviewer/rm1808434944",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "13", "i_score": "6" },
+         { "n_score": "9", "s_score": "10" },
+         { "f_score": "5", "t_score": "14" },
+         { "j_score": "9", "p_score": "10" }
       ],
       "four_letter_type": "ESTP",
       "fixed_percentages": "",
@@ -88,10 +88,10 @@
       "meat_portrait_href": "http://www.imdb.com/character/ch0006098/mediaviewer/rm1283329024",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "6", "s_score": "13" },
+         { "f_score": "6", "t_score": "13" },
+         { "j_score": "10", "p_score": "9" }
       ],
       "four_letter_type": "ESTJ",
       "fixed_percentages": "",
