@@ -7,8 +7,51 @@
   "image_list":
   [
     {
-      "id": "2201",
-      "title": "Sam Spade"
+      "id": "2200",
+      "title": "Sam Spade",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Click on the image to learn more!",
+      "image_file_name": "x.jpg",
+      "meat_portrait_href": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "0", "i_score": "0" },
+         { "n_score": "0", "s_score": "0" },
+         { "f_score": "0", "t_score": "0" },
+         { "j_score": "0", "p_score": "0" }
+      ],
+      "four_letter_type": "EXXX",
+      "fixed_percentages": "",
+      "archetype": "Xe",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
     }, {
       "id": "2203",
       "title": "responsive_ad"
@@ -36,6 +79,9 @@
       "story_html": "<p>The <a href='http://www.imdb.com/title/tt0038355/?ref_=nv_sr_1' title='Page on imdb.com for the original film version (1946)' target='_blank'>original film version (1946)</a> of this book is still my favorite movie of all time.  The film is fast-paced, however, so it can be a bit difficult to track who killed whom.</p><p>Also, the production code at the time prevents a full-on treatment of the seedy underground culture of LA <a href='https://en.wikipedia.org/wiki/Raymond_Chandler' title='Wikipedia page for Raymond Chandler' target='_blank'>Raymond Chandler</a> paints in his original.  But those are just a couple of reasons the book is so wonderful!</p><p>The main reason I prefer the book is, although the movie includes many great quotes from it (a favorite of mine is <q>My my my, such a lot of guns around town and so few brains.</q>), it does not and cannot possibly include all of Chandler's descriptions (<q>It seemed like a nice neighborhood to have bad habits in</q>), similies (<q>It was a smooth silvery voice that matched her hair. It had a tiny tinkle in it, like bells in a doll's house.</q>), and metaphors (<q>Shake your business up and pour it. I don't have all day.</q>).</p><p>So perhaps you can imagine my delight upon learning Philip Marlowe's personality was such a close match to mine &mdash; but I doubt it!</p>",
       "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" },
       "contrast_with": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2216" }
+    }, {
+      "id": "2214",
+      "title": "responsive_ad"
     }, {
       "id": "2216",
       "title": "Mike Hammer",
