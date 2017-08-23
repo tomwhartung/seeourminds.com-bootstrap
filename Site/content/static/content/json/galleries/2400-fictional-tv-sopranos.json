@@ -51,29 +51,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Red in this spiritual portrait represents Carmela's dominant trait, her compassion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait in the way she cares for the people in her family more than anything else.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Carmela's auxiliary trait, her pragmatism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  She demonstrates this trait in her down-to-earth manner.",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
@@ -100,28 +79,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+      "explain_dom": "The Green in this spiritual portrait represents Chris's dominant trait, his preference for making logical rather than emotional decisions.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait in the way he is ruthless with people who don't pay up when he is making collections.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Chris's auxiliary trait, Sensing: his realism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this in his down-to-earth manner.",
 
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
@@ -147,27 +106,8 @@
       "subject_line": "",
       "tweet_html": "",
 
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+      "explain_dom": "The Yellow in this spiritual portrait represents Paulie's dominant trait, his realism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this in his down-to-earth manner.",
+      "explain_aux": "The Green in this spiritual portrait represents Paulie's auxiliary trait, his cool-headedness.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait in the way he can be cool and ruthless with people who do not pay up when they are supposed to.",
 
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
@@ -195,30 +135,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Dr. Melfi's dominant trait, her objectivity.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  She demonstrates this trait in the way she can remain objective and impersonal when helping her patients with their psychological problems.",
+      "explain_aux": "The Blue in this spiritual portrait represents Dr. Melfi's auxiliary trait, her openness.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  She demonstrates this trait in the way she is open to listening to others' perceptions and experiences.",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
