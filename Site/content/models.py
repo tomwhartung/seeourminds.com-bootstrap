@@ -219,6 +219,11 @@ class Image:
                 image_file_directory = gallery_file_name
                 self.image_dict["path"] = self.IMAGES_DIRECTORY \
                     + image_file_directory + '/' + image_dict["image_file_name"]
+                if self.image_dict.get("story_html_intro"):
+                    self.image_dict["show_story_btn_text"] \
+                        = 'Show the Whole Story'
+                else:
+                    self.image_dict["show_story_btn_text"] = 'Show the Story'
 
     def set_default_image_dict(self):
 
