@@ -45,12 +45,26 @@
             {% endif %}
           {% endif %}
         </div><!-- .text-center -->
+        {% if image_dict.story_html %}
+          <div class="text-justify">
+            {% spaceless %}
+              {% if image_dict.story_html_intro %}
+                <div id="story-html-intro">
+                  {{ image_dict.story_html_intro | safe }} ....</p>
+                </div><!-- #story-html -->
+              {% endif %}
+              <div id="story-html" class="som-text-to-toggle">
+                {{ image_dict.story_html | safe }}
+              </div><!-- #story-html -->
+            {% endspaceless %}
+          </div><!-- .text-justify -->
+        {% endif %}
         {% if image_dict.story_html or image_dict.meat_portrait_href %}
           <div class="text-center">
             {% if image_dict.story_html %}
               <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
-                 title="Show the story behind these images">
-                Show the Story</a>
+                 title="Show the entire story behind these images">
+                {{ image_dict.show_story_btn_text }}</a>
             {% endif %}
             {% if image_dict.meat_portrait_href %}
               <a class="btn btn-success btn-md som-btn-all" id="show-meat-portrait"
@@ -59,13 +73,6 @@
                 Show the Meat Portrait</a>
             {% endif %}
           </div><!-- .text-center -->
-          {% if image_dict.story_html %}
-            <div class="text-justify">
-              <div id="story-html" class="som-text-to-toggle">
-                {{ image_dict.story_html | safe }}
-              </div><!-- #story-html -->
-            </div><!-- .text-justify -->
-          {% endif %}
         {% endif %}
         <a href="https://en.wikipedia.org/wiki/{{ image_dict.four_letter_type }}"
            title="Click to open the wikipedia page for {{ image_dict.four_letter_type }}s in a new window"
@@ -147,7 +154,7 @@
           } else {
             $("#toggle-story-html").removeClass("btn-danger");
             $("#toggle-story-html").addClass("btn-success");
-            $("#toggle-story-html").text("Show the Story");
+            $("#toggle-story-html").text("{{ image_dict.show_story_btn_text }}");
           }
         });
       {% endif %}
