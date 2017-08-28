@@ -157,6 +157,11 @@
             $("#toggle-story-html").text("{{ image_dict.show_story_btn_text }}");
           }
         });
+        if ( $("#story-html-intro") != null ) {
+          $("#toggle-story-html").click(function() {
+            $("#story-html-intro").toggle("fade", "slow");
+          });
+        }
       {% endif %}
       {% if image_dict.explain_dom %}
         /*
