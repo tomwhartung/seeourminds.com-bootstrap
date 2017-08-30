@@ -55,6 +55,32 @@
       "story_html": "<p>Oren lives in Oregon.</p><p>Once the site is in fairly decent shape, I will let him know I've posted his portrait, and hopefully get his permission to post more information.</p>",
       "compare_to": { },
       "contrast_with": { }
+    }, {
+      "id": "7026",
+      "title": "Richard H",
+      "subtitle_html": "Retired President of <a href='https://www.facebook.com/TimeOutSportsCafe/' title='Facebook page of Time Out Sports Cafe' target='_blank'>Time Out Sports Cafe</a>",
+      "gallery_page_teaser": "Richard H is a cousin on my father's side.  Having worked in the restarant business for many years, he is experienced with all aspects of it.  Click on the image to learn more!",
+      "image_file_name": "infp-richard_h-1.jpg",
+      "meat_portrait_href": "https://www.facebook.com/photo.php?fbid=10208702268693881",
+      "composition": "O",
+      "score": [
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "11", "s_score": "8" },
+         { "f_score": "11", "t_score": "8" },
+         { "j_score": "7", "p_score": "12" }
+      ],
+      "four_letter_type": "INFP",
+      "fixed_percentages": "",
+      "archetype": "Fi",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Red in this spiritual portrait represents Richard's dominant trait, a moderate preference for using emotion for making decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this in his love of music.",
+      "explain_aux": "The Blue in this spiritual portrait represents Richard's auxiliary trait, a moderate preference for perceiving ideas rather than facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this in the way he encourages his friends to show more tolerance toward others and overlook relatively minor negative traits.",
+      "story_html_intro": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
     }
   ]
 }
