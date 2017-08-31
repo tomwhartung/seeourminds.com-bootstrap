@@ -5,29 +5,35 @@
 
 Following are some guidelines for the stories that appear with the Gallery images on SeeOurMinds.com :
 
-The story can be as long or as short as you like.  I can leave it totally empty, which causes the button to be removed completely.
+### General
 
-If it is going to be more than one paragraph, it should have an arc: a beginning, a middle, and an end.
+The story can be as long or as short as you like.
 
-It should be as positive as possible.  At least, anything negative should have a corresponding positive aspect to balance it.
+- I can leave it totally empty, which causes the button to be removed completely.
 
-If you'd like to promote your business or a website, it would be great to link to that in the story.
+- If it is going to be more than one paragraph, it should have an arc: a beginning, a middle, and an end.
 
-If you'd like to mention your favorite movie, tv show, band, sports team, etc., it would be fun to link to that in the story.
+- It should be as positive as possible.  At least, anything negative should have a corresponding positive aspect to balance it.
 
-If you'd like to get people join one of your social networking sites, it would be great to link to that to the story.
+- I am finding it's best to put quotes in the stories on the site.  This makes them authentic and easier to do.
 
-I am finding it's best to put quotes in the stories on the site.  This makes them authentic and easier to do.
+### Links Are Good
 
-If one or a few of the traits or characteristics listed on the wikipedia page for your type resonates with you,
-that would be great to mention.
+If you want to promote your business or a website, it would be great to link to that in the story.
 
-If one or a few of the traits or characteristics listed on the wikipedia page for your type DOES NOT resonate with you,
-that would be great to mention - but I'd want to have a positive to balance out any negativity.
+- If you want to mention your favorite movie, tv show, band, sports team, etc., it would be fun to link to that in the story.
 
-If you emphathize or idolize one or a few of the fictional characters on the site, that would be great to mention.
-The opposite holds as well, although I don't want to have a negative without a positive to balance it out.
+- If you want to get people join one of your social networking sites, it would be great to link to that to the story.
 
-If people typically get the wrong impression of you somehow, that would be good to mention.
+### Showing How It Applies
 
-If you'd like to ....
+If a hobby or other favorite activity applies, we should mention that.
+
+- If people frequently get the wrong impression of you somehow - especially if you're introverted - this would be a good time to "set the record straight."
+
+- If one or a few of the traits or characteristics listed on the wikipedia page for your type resonates with you, that would be great to mention.
+- - Similarly, if one or a few of the traits or characteristics listed on the wikipedia page for your type DOES NOT resonate with you, that would be great to mention - but I'd want to have a positive to balance out any negativity.
+
+- If you emphathize or idolize one or a few of the fictional characters on the site, that would be great to mention.  The opposite holds as well, although I don't want to have a negative without a positive to balance it out.
+
+
