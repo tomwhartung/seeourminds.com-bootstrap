@@ -1,59 +1,29 @@
 
-# story-strategies.md
+# gallery_text-3-stories.md
 
-## SeeOurMinds.com Story Guidelines
+## This Is Part 3
 
-Following are some guidelines for the stories that appear with the Gallery images on SeeOurMinds.com :
+This part contains some guidelines for the stories that appear with the Gallery images on SeeOurMinds.com .
 
-## General
+- For part 1, general information, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-1-general.md
+- For part 2, about the short text fields, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-2-nuggets.md
 
-### Goals
+# SeeOurMinds.com Story Guidelines
 
-These are the goals of all descriptive text on the site:
+Like the other text fields ("nuggets"), the story is optional.
+Having good stories though, makes it much worth while.
 
-1. Transparency
-2. Putting each tidbit of information in the correct place
+**Unless you want me to leave it blank, the story is the part I need help with.**
 
-### Ideally and Realistically
+For examples of the best stories, see the images in the galleries nearest the top of the list of "All" of them.
 
-Ideally, each image should be able to stand on its own.
+# Story: on the Image Page Only
 
-Realistically, without some sort of context, each image is "just a bunch of squares."
+The story can contain html.  However, most of the stories on the site currently contain only links and quotes.
 
-#### The Strategy: Compromise
+Stories can contain headings, bullet or numbered lists, images, videos, etc., but at this time none of the other images have any of those.
 
-I use the following compromises to balance the ideal with reality:
-
-- Have several specific short descriptions
-- Have a long story for each image
-
-All fields are optional.
-
-## Specific Fields
-
-### Short Descriptions
-
-I will take care of all short descriptions.
-
-**Just let me know if what I put there is wrong or if you don't like it.**
-
-#### Gallery Page and Image Page
-
-- `Title` Image Title, i.e., Person's Name - text only (no html)
-- `subtitle_html` Image Sub-title - may contain html (e.g., a link)
-
-#### Gallery Page Only
-
-- `gallery_page_teaser` Gallery Page Teaser - text only (no html)
-
-#### Image Page Only
-
-- `explain_dom` Explain Dominant Color/Function - text only (no html)
-- `explain_aux` Explain Auxiliary Color/Function - text only (no html)
-
-### Long Descriptions - Stories
-
-#### Image Page Only
+## Length
 
 The story can be as long or as short as you like.
 
@@ -65,7 +35,7 @@ The story can be as long or as short as you like.
 
 - I am finding it's best to put quotes in the stories on the site.  This makes them authentic and easier to do.
 
-### Links Are Good
+## Links Are Good
 
 If you want to promote your business or a website, it would be great to link to that in the story.
 
@@ -73,7 +43,7 @@ If you want to promote your business or a website, it would be great to link to 
 
 - If you want to get people join one of your social networking sites, it would be great to link to that to the story.
 
-### Showing How It Applies
+## Showing How It Applies
 
 If a hobby or other favorite activity applies, we should mention that.
 
