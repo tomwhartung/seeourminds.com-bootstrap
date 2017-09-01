@@ -51,6 +51,13 @@ The most important fields, in order of their importance, are:
 2. Image teaser text on gallery page - why the visitor should see the larger version of it
 3. The "Explain the [color]" buttons - explain the most prevalent colors in the image
 
+### Use of Pronouns
+
+These fields are "objective" and **must NOT use any first person (I, me, etc.) or second person (you, etc.) pronouns.**
+
+Any third person pronouns (he, she, etc.) **must be unambiguous** with regards to whether they refer to the
+person whose image is displayed or other individuals in the world at large.
+
 ## The Story is of "Medium" Importance
 
 The stories can really help visitors understand the person, and hence the image.
@@ -59,6 +66,8 @@ The downside is that these:
 
 - Are very personal and may require revealing information best kept private
 - Can be difficult and time-consuming to write
+
+Stories are personal so it is OK to use first person (I, me, etc.) and second person (you, etc.) pronouns.
 
 ### Stories and My Comfort Level
 
@@ -73,4 +82,20 @@ The least important fields are:
 - Link to the "Meat Portrait"
 - "Compare To" Link
 - "Contrast With" Link
+
+# Conclusion
+
+I fully understand that most people will not get the images, at least not at first.
+
+I fully understand that some people will, after a while, understand the images.
+The idea is really quite simple.
+
+I fully understand that some people will refuse to open themselves to this idea.
+My response to these people is the following series of articles on https://medium.com/@seeourminds
+
+- The Good ...: https://medium.com/@seeourminds/the-good-d47132c25032
+- ... The Bad ...: https://medium.com/@seeourminds/the-bad-46947a663f4d
+- ... And The Ugly: https://medium.com/@seeourminds/and-the-ugly-8921a8e9c721
+
+Thank you very much for your kind and open-minded attention to all this, my *magnum opus!*
 
