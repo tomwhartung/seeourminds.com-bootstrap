@@ -1,17 +1,24 @@
 
-# gallery_text-3-stories.md
+# gallery_text-4-stories.md
 
-## This Is Part 3
+## This Is Part 4
 
 This part contains some guidelines for the stories that appear with the Gallery images on SeeOurMinds.com .
 
 - For part 1, general information, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-1-general.md
-- For part 2, about the short text fields, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-2-nuggets.md
+- For part 2, about what the colors represent, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-2-the_language.md
+- For part 3, about the short text fields, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-3-nuggets.md
 
-I will take care of all short descriptions.  They are optional, but I want to have them for consistency, and
-I want them to "sound" and be consistent, to a certain extent, for all images.
+# Short Descriptions
 
-**Just let me know if what I put there is wrong or if you don't like it.**
+These are covered in part 3 (see link above).
+
+You don't need to read part 3, because I will take care of all short descriptions - but you can check it out if you like.
+
+Short descriptions are optional, but I want to be sure to have something in each of them for consistency.
+Also, I want them to "sound" and be consistent (e.g., no first or second person), to a certain extent, for all images.
+
+**Just let me know if what I put in one of the short descriptions is wrong or if you don't like it.**
 
 # The SeeOurMinds.com Story Is Optional
 
