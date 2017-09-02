@@ -1,5 +1,5 @@
 
-# gallery_text-2-nuggets.md
+# gallery_text-3-nuggets.md
 
 "Nuggets" are short text fields.
 
