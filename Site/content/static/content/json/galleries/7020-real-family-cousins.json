@@ -8,7 +8,7 @@
   [
     {
       "id": "7020",
-      "title": "Lin C",
+      "title": "Lin C.",
       "subtitle_html": "Works for <a href='https://en.wikipedia.org/wiki/NASA' title='Wikipedia page for NASA' target='_blank'>NASA</a>",
       "gallery_page_teaser": "Lin is a cousin on my father's side.  She works for NASA.  Click on the image to learn more!",
       "image_file_name": "istj-lin_c-1.jpg",
@@ -34,7 +34,7 @@
       "title": "responsive_ad"
     }, {
       "id": "7024",
-      "title": "Oren B",
+      "title": "Oren B.",
       "subtitle_html": "Technical Manager at <a href='https://en.wikipedia.org/wiki/Air_National_Guard' title='Wikipedia page for Air National Guard' target='_blank'>Air National Guard</a> Recruiting",
       "gallery_page_teaser": "Oren is a cousin on my mother's side.  He works for the Air National Guard.  Click on the image to learn more!",
       "image_file_name": "intj-oren_b-1.jpg",
@@ -57,7 +57,7 @@
       "contrast_with": { }
     }, {
       "id": "7026",
-      "title": "Richard H",
+      "title": "Richard H.",
       "subtitle_html": "Retired President of <a href='https://www.facebook.com/TimeOutSportsCafe/' title='Facebook page of Time Out Sports Cafe' target='_blank'>Time Out Sports Cafe</a>",
       "gallery_page_teaser": "Richard H is a cousin on my father's side.  Having worked in the restarant business for many years, he is experienced with all aspects of it.  Click on the image to learn more!",
       "image_file_name": "infp-richard_h-1.jpg",
@@ -77,13 +77,12 @@
       "tweet_html": "",
       "explain_dom": "The Red in this spiritual portrait represents Richard's dominant trait, a moderate preference for using emotion for making decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this in his love of music.",
       "explain_aux": "The Blue in this spiritual portrait represents Richard's auxiliary trait, a moderate preference for perceiving ideas rather than facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this in the way he encourages his friends to show more tolerance toward others and overlook relatively minor negative traits.",
-      "story_html_intro": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "story_html": "<p>Richard lives in Mississippi.  I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
       "id": "7027",
-      "title": "Debbie H",
+      "title": "Debbie H.",
       "subtitle_html": "Richard's Ex-Wife",
       "gallery_page_teaser": "Debbie's spiritual portrait is similar to Richard's, but shows more Extraversion and emotion (Red).  They are no longer married but still close.  Click on the image to learn more!",
       "image_file_name": "enfj-debbie_h-1.jpg",
@@ -103,8 +102,7 @@
       "tweet_html": "",
       "explain_dom": "The Red in this spiritual portrait represents Debbie's dominant trait, her warmth and compassion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Blue in this spiritual portrait represents Debbie's auxiliary trait, her iNtuition.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_html_intro": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "story_html": "<p>Debbie lives in Mississippi.  I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }
