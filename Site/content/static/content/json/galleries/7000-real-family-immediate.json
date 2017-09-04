@@ -9,7 +9,7 @@
     {
       "id": "7000",
       "title": "Jeanne S.",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Mother' title='Wikipedia page for Mother' target='_blank'>Mom</a>",
+      "subtitle_html": "My <a href='https://en.wikipedia.org/wiki/Mother' title='Wikipedia page for Mother' target='_blank'>Mom</a>",
       "gallery_page_teaser": "My Mom grew up in Iowa with her younger brother Tom.  Click on the image to learn more!",
       "image_file_name": "entj-jeanne_s_mom-1.jpg",
       "composition": "O",
@@ -35,7 +35,7 @@
     }, {
       "id": "7002",
       "title": "Homer H.",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Father' title='Wikipedia page for Father' target='_blank'>Dad</a>",
+      "subtitle_html": "My <a href='https://en.wikipedia.org/wiki/Father' title='Wikipedia page for Father' target='_blank'>Dad</a>",
       "gallery_page_teaser": "My Dad grew up in Baltimore with two younger brothers, Richard (Dick) and Victor.  Click on the image to learn more!",
       "image_file_name": "entp-homer_h_dad-1.jpg",
       "composition": "O",
@@ -58,7 +58,7 @@
     }, {
       "id": "7004",
       "title": "Tom H.",
-      "subtitle_html": "Oldest Son",
+      "subtitle_html": "Oldest Son and Creator of This Site",
       "gallery_page_teaser": "I grew up in Richmond, Virginia and now live in Denver, Colorado.  Click on the image to learn more!",
       "image_file_name": "infp-tomh-1.jpg",
       "composition": "O",
