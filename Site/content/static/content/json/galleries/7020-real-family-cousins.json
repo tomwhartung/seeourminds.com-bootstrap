@@ -26,7 +26,8 @@
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Lin's dominant trait, her pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
       "explain_aux": "The Green in this spiritual portrait represents Lin's auxiliary trait, her rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
-      "story_html": "<p>Lin lives in Virginia.</p><p>I will share more information as it becomes available.</p>",
+      "story_html_intro": "<p>Lin lives in Virginia with her husband Henry.  Their daughter is a graduate of ....</p>",
+      "story_html": "<p>Lin lives in Virginia with her husband Henry.  Their daughter is a graduate of Yale University and now works as a Research and Instrument Analyst at the Space Telescope Science Institute.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
