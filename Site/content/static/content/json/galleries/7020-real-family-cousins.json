@@ -53,7 +53,8 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Oren's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
       "explain_aux": "The Green in this spiritual portrait represents Oren's auxiliary trait, his rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
-      "story_html": "<p>Oren lives in Oregon.</p><p>I will share more information as it becomes available.</p>",
+      "story_html_intro": "<p>Oren lives in Oregon.  He has a Bachelor of Science in Industrial/Organizational Psychology from ....</p>",
+      "story_html": "<p>Oren lives in Oregon.  He has a Bachelor of Science in Industrial/Organizational Psychology from <a href='' title='Wikipedia page for Christopher Newport University' target='_blank'>Christopher Newport University</a> and a Master's degree from <a href='https://en.wikipedia.org/wiki/Lutheran_Theological_Southern_Seminary' title='Wikipedia page for Lutheran Theological Southern Seminary' target='_blank'>Lutheran Theological Southern Seminary</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
