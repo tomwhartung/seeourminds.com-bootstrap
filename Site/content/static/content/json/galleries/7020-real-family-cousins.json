@@ -79,7 +79,8 @@
       "tweet_html": "",
       "explain_dom": "The Red in this spiritual portrait represents Richard's dominant trait, a moderate preference for using emotion for making decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this in his love of music.",
       "explain_aux": "The Blue in this spiritual portrait represents Richard's auxiliary trait, a moderate preference for perceiving ideas rather than facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this in the way he encourages his friends to show more tolerance toward others and overlook relatively minor negative traits.",
-      "story_html": "<p>Richard lives in Mississippi.</p><p>I will share more information as it becomes available.</p>",
+      "story_html_intro": "<p>Richard lives in Mississippi.  He went to college at ...</p>",
+      "story_html": "<p>Richard lives in Mississippi.  He went to college at <a href='https://en.wikipedia.org/wiki/Hinds_Community_College' title='Wikipedia page for Hinds Community College' target='_blank'>Hinds Community College</a> and now goes to <a href='https://www.facebook.com/St-Marks-United-Methodist-Church-100170244914/' title='Facebook page for St. Marks United Methodist Church' target='_blank'>St. Marks United Methodist Church</a> in Brandon Mississippi.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -104,7 +105,8 @@
       "tweet_html": "",
       "explain_dom": "The Red in this spiritual portrait represents Debbie's dominant trait, her warmth and compassion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Blue in this spiritual portrait represents Debbie's auxiliary trait, her iNtuition.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_html": "<p>Debbie lives in Mississippi.</p><p>I will share more information as it becomes available.</p>",
+      "story_html_intro": "<p>Debbie lives in Mississippi.  She has a degree from The University of ....</p>",
+      "story_html": "<p>Debbie lives in Mississippi.  She has a degree from The <a href='https://en.wikipedia.org/wiki/University_of_Southern_Mississippi' title='Wikipedia page for The University of Southern Mississippi' target='_blank'>University of Southern Mississippi</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }
