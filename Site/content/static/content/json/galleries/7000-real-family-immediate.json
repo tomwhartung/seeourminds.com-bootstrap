@@ -125,7 +125,8 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Matt's dominant trait, his rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Red in this spiritual portrait represents Matt's auxiliary trait, his compassion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait in the way he cares deeply for his wife and their children.",
-      "story_html": "<p>Matt is happily married with a wife and three children.</p><p>I will share more information as it becomes available.</p>",
+      "story_html_intro": "<p>Matt is happily married with a wife and three children.  They live in ....</p>",
+      "story_html": "<p>Matt is happily married with a wife and three children.  They live in Charlottesville, Virginia.</p><p>I will share more information as it becomes available.</p><p>I hope to eventually create a separate gallery with images of him and his other family members here, but their youngest son is only 9, so it might be awhile before I get all of them.</p>",
       "compare_to": { },
       "contrast_with": { }
     }
