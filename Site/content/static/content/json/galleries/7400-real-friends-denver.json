@@ -7,7 +7,7 @@
   "image_list":
   [
     {
-      "id": "7500",
+      "id": "7400",
       "title": "Chantee H.",
       "subtitle_html": "",
       "image_file_name": "infp-chantee-1.jpg",
@@ -24,16 +24,16 @@
       "gallery_page_teaser": "Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
-      "explain_dom": "The Red in Chantee's spiritual portrait represents her making emotional decisions.",
-      "explain_aux": "The Blue in Chantee's spiritual portrait represents her openness and idealism.",
+      "explain_dom": "The Red in Chantee's spiritual portrait represents her preference for making emotional rather than logical decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The Blue in Chantee's spiritual portrait represents her openness and idealism.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
       "story_html": "<p></p><p></p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "7503",
+      "id": "7403",
       "title": "responsive_ad"
     }, {
-      "id": "7506",
+      "id": "7406",
       "title": "Veronica M.",
       "subtitle_html": "",
       "image_file_name": "enfp-veronica-1.jpg",
