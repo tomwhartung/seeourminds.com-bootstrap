@@ -85,7 +85,7 @@
     }, {
       "id": "7513",
       "title": "Tom P.",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Managing Director at <a href='https://en.wikipedia.org/wiki/KPMG' title='Wikipedia page for KPMG' target='_blank'>KPMG</a>",
       "gallery_page_teaser": "Tom and I have been friends since Elementary School.  In junior high and high school we were both in band, and at one time we both played in a classic rock band named Snowball!  Click on the image to learn more!",
       "image_file_name": "entp-tom_p-1.jpg",
       "composition": "O",
@@ -102,7 +102,8 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Tom's dominant trait, his idealism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Green in this spiritual portrait represents Tom's auxiliary trait, his rationality.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_html": "<p> </p><p> </p>",
+      "story_html_intro": "<p>Tom lives in Oakland, California.  He studied Computer Science and Mathematics at ....</p>",
+      "story_html": "<p>Tom lives in Oakland, California.  He studied Computer Science and Mathematics at <a href='https://www.vcu.edu' title='Link to home page of vcu.edu' target='_blank'>Virginia Commonwealth University</a> and now works at <a href='http://www.kpmg.com/' title='Link to home page at kpmg.com' target='_blank'>KPMG</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
