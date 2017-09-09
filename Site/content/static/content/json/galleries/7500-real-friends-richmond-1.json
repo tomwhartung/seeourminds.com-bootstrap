@@ -61,7 +61,7 @@
     }, {
       "id": "7510",
       "title": "Buddy H.",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Sells Stuff at <a href='https://www.facebook.com/elecequipco/' title='Facebook page for Electrical Equipment Company' target='_blank'>Electrical Equipment Company</a>",
       "gallery_page_teaser": "Buddy and I have been friends since High School.  We were roommates for awhile in a four-bedroom flat that cost $160 per month!  Click on the image to learn more!",
       "image_file_name": "infj-buddy_h-1.jpg",
       "composition": "O",
@@ -78,7 +78,8 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Buddy's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
       "explain_aux": "The Red in this spiritual portrait represents Buddy's auxiliary trait, his passion.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
-      "story_html": "<p> </p><p> </p>",
+      "story_html_intro": "<p>Buddy lives in Richmond, Virginia. He has a degree in Business Administration from ....</p>",
+      "story_html": "<p>Buddy lives in Richmond, Virginia. He has a degree in Business Administration from <a href='http://www.reynolds.edu/' title='Link to home page at www.reynolds.edu' target='_blank'>J. Sargeant Reynolds Community College</a> and now works at <a href='https://www.linkedin.com/company/101026/' title='Link to Electrical Equipment Company at linkedin.com' target='_blank'>Electrical Equipment Company</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
