@@ -34,7 +34,7 @@
     }, {
       "id": "7505",
       "title": "Bill E.",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Retired Technician at <a href='https://en.wikipedia.org/wiki/Dominion_Energy' title='Wikipedia page for Dominion Energy' target='_blank'>Dominion Energy</a>",
       "gallery_page_teaser": "I have known Bill since the fifth grade.  We used to play trucks together!  Click on the image to learn more!",
       "image_file_name": "esfp-bill_e-1.jpg",
       "composition": "O",
@@ -51,7 +51,8 @@
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Bill's dominant trait, his pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Red in this spiritual portrait represents Bill's auxiliary trait, his passion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_html": "<p> </p><p> </p>",
+      "story_html_intro": "<p>Bill lives in Richmond, Virginia.  He went to college at <a href='https://en.wikipedia.org/wiki/Ferrum_College' title='Wikipedia page for Ferrum College' target='_blank'>Ferrum College</a> and is now ....</p>",
+      "story_html": "<p>Bill lives in Richmond, Virginia.  He went to college at <a href='https://en.wikipedia.org/wiki/Ferrum_College' title='Wikipedia page for Ferrum College' target='_blank'>Ferrum College</a> and is now retired from his job as a Technician for <a href='https://en.wikipedia.org/wiki/Dominion_Energy' title='Wikipedia page for Dominion Energy' target='_blank'>Dominion Energy</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
