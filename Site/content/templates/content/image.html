@@ -145,23 +145,27 @@
          */
         var toggle_text_effect = seeourminds.effect_for_type["{{ image_dict.four_letter_type }}"];
         $("#toggle-story-html").click(function() {
-          $("#story-html").toggle(toggle_text_effect, "slow");
           var button_text = $("#toggle-story-html").text();
           if ( button_text.includes('Show') ) {
+            $("#story-html-intro").toggle("fade", "fast");
+            $("#story-html").toggle(toggle_text_effect, "slow");
             $("#toggle-story-html").removeClass("btn-success");
             $("#toggle-story-html").addClass("btn-danger");
             $("#toggle-story-html").text("Hide the Story");
           } else {
+            $("#story-html").toggle(toggle_text_effect, "slow");
+            $("#story-html-intro").toggle("fade", "fast");
             $("#toggle-story-html").removeClass("btn-danger");
             $("#toggle-story-html").addClass("btn-success");
             $("#toggle-story-html").text("{{ image_dict.show_story_btn_text }}");
           }
         });
-        if ( $("#story-html-intro") != null ) {
-          $("#toggle-story-html").click(function() {
-            $("#story-html-intro").toggle("fade", 100);
-          });
-        }
+        /* if ( $("#story-html-intro") != null ) {
+         *   $("#toggle-story-html").click(function() {
+         *     $("#story-html-intro").toggle("fade", 100);
+         *   });
+         * }
+         */
       {% endif %}
       {% if image_dict.explain_dom %}
         /*
