@@ -55,8 +55,7 @@ class GalleriesList:
     }
     phrase_dict = {
         'sixteen_types': '<b>generic images:</b>',
-        'fictional':
-            'images of <b>fictional</b> people, from movies and tv shows:',
+        'fictional': 'images of <b>fictional</b> people, from movies, etc.:',
         'real': 'images of <b>real</b> people:',
         'famous': 'images of <b>famous</b> people:',
         'movies': 'images of fictional characters in <b>movies:</b>',
@@ -79,50 +78,10 @@ class GalleriesList:
         gallery_files = sorted(os.listdir(galleries_root_dir))
         phrase = 'these galleries, containing '
 
-        if galleries_list_name == 'sixteen_types':
-            self.galleries_list_title = self.title_dict.get('sixteen_types')
-            phrase += self.phrase_dict.get('sixteen_types')
-            fnmatch_string = self.fnmatch_string_dict.get('sixteen_types')
-        elif galleries_list_name == 'fictional':
-            self.galleries_list_title = self.title_dict.get('fictional')
-            phrase += self.phrase_dict.get('fictional')
-            fnmatch_string = self.fnmatch_string_dict.get('fictional')
-        elif galleries_list_name == 'real':
-            self.galleries_list_title = self.title_dict.get('real')
-            phrase += self.phrase_dict.get('real')
-            fnmatch_string = self.fnmatch_string_dict.get('real')
-        elif galleries_list_name == 'famous':
-            self.galleries_list_title = self.title_dict.get('famous')
-            phrase += self.phrase_dict.get('famous')
-            fnmatch_string = self.fnmatch_string_dict.get('famous')
-        elif galleries_list_name == 'movies':
-            self.galleries_list_title = self.title_dict.get('movies')
-            phrase += self.phrase_dict.get('movies')
-            fnmatch_string = self.fnmatch_string_dict.get('movies')
-        elif galleries_list_name == 'tv':
-            self.galleries_list_title = self.title_dict.get('tv')
-            phrase += self.phrase_dict.get('tv')
-            fnmatch_string = self.fnmatch_string_dict.get('tv')
-        elif galleries_list_name == 'politicians':
-            self.galleries_list_title = self.title_dict.get('politicians')
-            phrase += self.phrase_dict.get('politicians')
-            fnmatch_string = self.fnmatch_string_dict.get('politicians')
-        elif galleries_list_name == 'friends':
-            self.galleries_list_title = self.title_dict.get('friends')
-            phrase += self.phrase_dict.get('friends')
-            fnmatch_string = self.fnmatch_string_dict.get('friends')
-        elif galleries_list_name == 'family':
-            self.galleries_list_title = self.title_dict.get('family')
-            phrase += self.phrase_dict.get('family')
-            fnmatch_string = self.fnmatch_string_dict.get('family')
-        elif galleries_list_name == 'others':
-            self.galleries_list_title = self.title_dict.get('others')
-            phrase += self.phrase_dict.get('others')
-            fnmatch_string = self.fnmatch_string_dict.get('others')
-        elif galleries_list_name == 'experiments':
-            self.galleries_list_title = self.title_dict.get('experiments')
-            phrase += self.phrase_dict.get('experiments')
-            fnmatch_string = self.fnmatch_string_dict.get('experiments')
+        if self.title_dict.get(galleries_list_name):
+            self.galleries_list_title = self.title_dict.get(galleries_list_name)
+            phrase += self.phrase_dict.get(galleries_list_name)
+            fnmatch_string = self.fnmatch_string_dict.get(galleries_list_name)
         else: # default: get all galleries
             self.galleries_list_title = 'All Galleries'
             phrase = '<b>all</b> available galleries!'
