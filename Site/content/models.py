@@ -223,7 +223,7 @@ class Image:
                 image_file_directory = gallery_file_name
                 self.image_dict["path"] = self.IMAGES_DIRECTORY \
                     + image_file_directory + '/' + image_dict["image_file_name"]
-                if self.image_dict.get("story_html_intro"):
+                if self.image_dict.get("story_intro_html"):
                     self.image_dict["show_story_btn_text"] \
                         = 'Show the Whole Story'
                 else:
