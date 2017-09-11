@@ -27,7 +27,8 @@ class GalleriesList:
     galleries_list_name and support listing them on a single page
     """
     phrase_dict = {
-        'sixteen_types': ''
+        'sixteen_types': '<b>generic images:</b>',
+        'fictional': 'images of <b>fictional</b> people, from movies and tv shows:'
     }
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
     LIST_PAGE_TEXT_INTRO_LENGTH = 60
@@ -39,10 +40,11 @@ class GalleriesList:
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         gallery_files = sorted(os.listdir(galleries_root_dir))
+        phrase = 'these galleries, containing '
 
         if galleries_list_name == 'sixteen_types':
             self.galleries_list_title = 'Sixteen Types'
-            phrase = 'these galleries, containing <b>generic images:</b>'
+            phrase += self.phrase_dict.get('sixteen_types')
             fnmatch_string = '[0-9]*generic_images*'
         elif galleries_list_name == 'fictional':
             self.galleries_list_title = 'Fictional'
