@@ -42,6 +42,10 @@ class GalleriesList:
             self.galleries_list_title = 'Sixteen Types'
             phrase = 'these galleries of <b>generic images:</b>'
             fnmatch_string = '[0-9]*generic_images*'
+        elif galleries_list_name == 'fictional':
+            self.galleries_list_title = 'Fictional'
+            phrase = 'these galleries of images of <b>fictional</b> people, from movies and tv shows:'
+            fnmatch_string = '[0-9]*-fictional*'
         elif galleries_list_name == 'real':
             self.galleries_list_title = 'Real'
             phrase = 'these galleries of images of <b>real</b> people:'
