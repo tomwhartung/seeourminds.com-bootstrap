@@ -55,7 +55,8 @@ class GalleriesList:
     }
     phrase_dict = {
         'sixteen_types': '<b>generic images:</b>',
-        'fictional': 'images of <b>fictional</b> people, from movies and tv shows:',
+        'fictional':
+            'images of <b>fictional</b> people, from movies and tv shows:',
         'real': 'images of <b>real</b> people:',
         'famous': 'images of <b>famous</b> people:',
         'movies': 'images of fictional characters in <b>movies:</b>',
@@ -83,45 +84,45 @@ class GalleriesList:
             phrase += self.phrase_dict.get('sixteen_types')
             fnmatch_string = self.fnmatch_string_dict.get('sixteen_types')
         elif galleries_list_name == 'fictional':
-            self.galleries_list_title = 'Fictional'
-            phrase = 'these galleries, containing images of <b>fictional</b> people, from movies and tv shows:'
-            fnmatch_string = '[0-9]*-fictional*'
+            self.galleries_list_title = self.title_dict.get('fictional')
+            phrase += self.phrase_dict.get('fictional')
+            fnmatch_string = self.fnmatch_string_dict.get('fictional')
         elif galleries_list_name == 'real':
-            self.galleries_list_title = 'Real'
-            phrase = 'these galleries, containing images of <b>real</b> people:'
-            fnmatch_string = '[0-9]*-real*'
+            self.galleries_list_title = self.title_dict.get('real')
+            phrase += self.phrase_dict.get('real')
+            fnmatch_string = self.fnmatch_string_dict.get('real')
         elif galleries_list_name == 'famous':
-            self.galleries_list_title = 'Famous'
-            phrase = 'these galleries, containing images of <b>famous</b> people:'
-            fnmatch_string = '[0-9]*-famous*'
+            self.galleries_list_title = self.title_dict.get('famous')
+            phrase += self.phrase_dict.get('famous')
+            fnmatch_string = self.fnmatch_string_dict.get('famous')
         elif galleries_list_name == 'movies':
-            self.galleries_list_title = 'Movies'
-            phrase = 'these galleries, containing images of fictional characters in <b>movies:</b>'
-            fnmatch_string = '[0-9]*-movies-*'
+            self.galleries_list_title = self.title_dict.get('movies')
+            phrase += self.phrase_dict.get('movies')
+            fnmatch_string = self.fnmatch_string_dict.get('movies')
         elif galleries_list_name == 'tv':
-            self.galleries_list_title = 'TV Shows'
-            phrase = 'these galleries, containing images of fictional characters from <b>tv shows:</b>'
-            fnmatch_string = '[0-9]*-tv-*'
+            self.galleries_list_title = self.title_dict.get('tv')
+            phrase += self.phrase_dict.get('tv')
+            fnmatch_string = self.fnmatch_string_dict.get('tv')
         elif galleries_list_name == 'politicians':
-            self.galleries_list_title = 'American Politicians'
-            phrase = 'these galleries, containing images of American politicians:'
-            fnmatch_string = '[0-9]*-politicians-*'
+            self.galleries_list_title = self.title_dict.get('politicians')
+            phrase += self.phrase_dict.get('politicians')
+            fnmatch_string = self.fnmatch_string_dict.get('politicians')
         elif galleries_list_name == 'friends':
-            self.galleries_list_title = 'Friends'
-            phrase = 'these galleries, containing images of <b>some of my friends:</b>'
-            fnmatch_string = '[0-9]*-friends-*'
+            self.galleries_list_title = self.title_dict.get('friends')
+            phrase += self.phrase_dict.get('friends')
+            fnmatch_string = self.fnmatch_string_dict.get('friends')
         elif galleries_list_name == 'family':
-            self.galleries_list_title = 'Family'
-            phrase = 'these galleries, containing images of <b>people in my family:</b>'
-            fnmatch_string = '[0-9]*-family-*'
+            self.galleries_list_title = self.title_dict.get('family')
+            phrase += self.phrase_dict.get('family')
+            fnmatch_string = self.fnmatch_string_dict.get('family')
         elif galleries_list_name == 'others':
-            self.galleries_list_title = 'Other People I Know'
-            phrase = 'these galleries, containing images of <b>other real people I know:</b>'
-            fnmatch_string = '[0-9]*-others-*'
+            self.galleries_list_title = self.title_dict.get('others')
+            phrase += self.phrase_dict.get('others')
+            fnmatch_string = self.fnmatch_string_dict.get('others')
         elif galleries_list_name == 'experiments':
-            self.galleries_list_title = 'Experimental Compositions'
-            phrase = 'these galleries, containing <b>experimental</b> images:'
-            fnmatch_string = '[0-9]*-experiments-*'
+            self.galleries_list_title = self.title_dict.get('experiments')
+            phrase += self.phrase_dict.get('experiments')
+            fnmatch_string = self.fnmatch_string_dict.get('experiments')
         else: # default: get all galleries
             self.galleries_list_title = 'All Galleries'
             phrase = '<b>all</b> available galleries!'
