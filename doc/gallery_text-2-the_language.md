@@ -53,3 +53,13 @@ Represents the person's function supporting their most obvious function (color),
 In Extraverts, this is the supporting (auxiliary) function.
 In Introverts, this is the strongest (dominant) function.
 
+# Summary
+
+The Perceiving functions - iNtuition-idealism-Blue and Sensation-pragmatism-Yellow - cause the most difference between people.
+
+- Idealistic people seem to be from a different planet than pragmatic types.
+
+The Judging functions - Thinking-logical-Green and Feeling-emotional-Red - cause the most conflicts between people.
+
+- Both logical and emotional people are convinced that they are right and anyone who disagrees is wrong.
+
