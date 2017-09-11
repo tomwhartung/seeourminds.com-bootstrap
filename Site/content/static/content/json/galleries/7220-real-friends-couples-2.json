@@ -29,6 +29,7 @@
       "story_html_intro": "<p>Sarah lives in Corvallis, Oregon....</p>",
       "story_html": "<p>Sarah lives in Corvallis, Oregon.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
+      "compare_to": { "gallery_file_name": "7220-real-friends-couples-2", "image_id": "7223" },
       "contrast_with": { }
     }, {
       "id": "7223",
@@ -53,6 +54,7 @@
       "story_html_intro": "<p>DJ Ghrimm lives in Corvallis, Oregon....</p>",
       "story_html": "<p>DJ Ghrimm lives in Corvallis, Oregon.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
+      "compare_to": { "gallery_file_name": "7220-real-friends-couples-2", "image_id": "7220" },
       "contrast_with": { }
     }, {
       "id": "7226",
