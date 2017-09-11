@@ -48,9 +48,9 @@
         {% if image_dict.story_html %}
           <div class="text-justify">
             {% spaceless %}
-              {% if image_dict.story_html_intro %}
+              {% if image_dict.story_intro_html %}
                 <div id="story-html-intro">
-                  {{ image_dict.story_html_intro | safe }}
+                  {{ image_dict.story_intro_html | safe }}
                 </div><!-- #story-html-intro -->
               {% endif %}
               <div id="story-html" class="som-text-to-toggle">
