@@ -26,8 +26,8 @@
       "tweet_html": "",
       "explain_dom": "The Red in Jim's spiritual portrait represents his passion.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  Jim was one of the warmest, friendliest people I have ever met!",
       "explain_aux": "The Yellow in Jim's spiritual portrait represents his realism.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  In those days I would frequently vote for third parties (that ended in 2000), but Jim was more realistic and, to my knowledge anyway, always voted Democratic.",
-      "story_html_intro": "<p>When I lived in Richmond, Jim was one of my best friends. He was the center of a group of us and the only one ....</p>",
-      "story_html_intro": "<p>When I lived in Richmond, Jim was one of my best friends. He was the center of ....</p>",
+      "story_intro_html": "<p>When I lived in Richmond, Jim was one of my best friends. He was the center of a group of us and the only one ....</p>",
+      "story_intro_html": "<p>When I lived in Richmond, Jim was one of my best friends. He was the center of ....</p>",
       "story_html": "<p>When I lived in Richmond, Jim was one of my best friends. He was the center of a group of us and the only one I have seen to score 100% Extraverted on the Keirsey Temperament Sorter.</p><p>Working my way through school, spare time was rare, and if some free time opened up, I of course wanted to make the best of it.  Whenever this happened, Jim was at the top of my list to find out what was going on with everyone in <q>our gang.</q></p><p>If there was something happening with one of our friends, Jim always knew about it.  Not only that, he would always invite people to join in &mdash; if he could, of course.  This is what it means to be <q>Extraverted!</q></p><p>The Red and Yellow in his portrait shows that Jim was a very outgoing, warm, and friendly person.  And I regret I must say <q>was,</q> because Jim passed away April 5th, 2002.</p><p>Many years later, a lot of us from the old group continue stay in touch on Facebook.  Jim helped us form relationships that have lasted longer than he did!</p><p>I know for a fact I am not alone in missing him very much, even after all these years!</p>",
       "compare_to": { },
       "contrast_with": { }
@@ -51,7 +51,7 @@
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Bill's dominant trait, his pragmatism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Red in this spiritual portrait represents Bill's auxiliary trait, his passion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_html_intro": "<p>Bill lives in Richmond, Virginia.  He went to college at <a href='https://en.wikipedia.org/wiki/Ferrum_College' title='Wikipedia page for Ferrum College' target='_blank'>Ferrum College</a> and is now ....</p>",
+      "story_intro_html": "<p>Bill lives in Richmond, Virginia.  He went to college at <a href='https://en.wikipedia.org/wiki/Ferrum_College' title='Wikipedia page for Ferrum College' target='_blank'>Ferrum College</a> and is now ....</p>",
       "story_html": "<p>Bill lives in Richmond, Virginia.  He went to college at <a href='https://en.wikipedia.org/wiki/Ferrum_College' title='Wikipedia page for Ferrum College' target='_blank'>Ferrum College</a> and is now retired from his job as a Technician for <a href='https://en.wikipedia.org/wiki/Dominion_Energy' title='Wikipedia page for Dominion Energy' target='_blank'>Dominion Energy</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
@@ -78,7 +78,7 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Buddy's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
       "explain_aux": "The Red in this spiritual portrait represents Buddy's auxiliary trait, his passion.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
-      "story_html_intro": "<p>Buddy lives in Richmond, Virginia. He has a degree in Business Administration from ....</p>",
+      "story_intro_html": "<p>Buddy lives in Richmond, Virginia. He has a degree in Business Administration from ....</p>",
       "story_html": "<p>Buddy lives in Richmond, Virginia. He has a degree in Business Administration from <a href='http://www.reynolds.edu/' title='Link to home page at www.reynolds.edu' target='_blank'>J. Sargeant Reynolds Community College</a> and now works at <a href='https://www.linkedin.com/company/101026/' title='Link to Electrical Equipment Company at linkedin.com' target='_blank'>Electrical Equipment Company</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
@@ -102,7 +102,7 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this spiritual portrait represents Tom's dominant trait, his idealism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Green in this spiritual portrait represents Tom's auxiliary trait, his rationality.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_html_intro": "<p>Tom lives in Oakland, California.  He studied Computer Science and Mathematics at ....</p>",
+      "story_intro_html": "<p>Tom lives in Oakland, California.  He studied Computer Science and Mathematics at ....</p>",
       "story_html": "<p>Tom lives in Oakland, California.  He studied Computer Science and Mathematics at <a href='https://www.vcu.edu' title='Link to home page of vcu.edu' target='_blank'>Virginia Commonwealth University</a> and now works at <a href='http://www.kpmg.com/' title='Link to home page at kpmg.com' target='_blank'>KPMG</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }

@@ -26,7 +26,7 @@
       "tweet_html": "",
       "explain_dom": "The Green in this portrait represents Steve's dominant trait, his rationality.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
       "explain_aux": "The Yellow in this portrait represents Steve's auxiliary trait, his pragmatism.  In Introverts, the auxiliary trait is directed outwardly and is more evident than the dominant trait.",
-      "story_html_intro": "<p>Steve and Sue live in Richmond, Virginia.  Steve went to school at ....</p>",
+      "story_intro_html": "<p>Steve and Sue live in Richmond, Virginia.  Steve went to school at ....</p>",
       "story_html": "<p>Steve and Sue live in Richmond, Virginia.  Steve went to school at <a href='https://www.vcu.edu' title='Home page at vcu.edu' target='_blank'>Virginia Commonwealth University</a> and is a retired driver for <a href='https://en.wikipedia.org/wiki/United_Parcel_Service' title='Wikipedia page for United Parcel Service' target='_blank'>United Parcel Service</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { "gallery_file_name": "7200-real-friends-couples-0", "image_id": "7203" },
       "contrast_with": { }
@@ -50,7 +50,7 @@
       "tweet_html": "",
       "explain_dom": "The Blue in this portrait represents Sue's dominant trait, her idealism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Red in this portrait represents Sue's auxiliary trait, her passion.  In Extraverts, the auxiliary trait is directed inwardly and is less evident than the dominant trait.",
-      "story_html_intro": "<p>Sue and Steve live in Richmond, Virginia.  Sue studied teaching and ....</p>",
+      "story_intro_html": "<p>Sue and Steve live in Richmond, Virginia.  Sue studied teaching and ....</p>",
       "story_html": "<p>Sue and Steve live in Richmond, Virginia.  Sue studied teaching and archeology at <a href='http://www.vcu.edu/' title='Link to the home page of vcu.edu' target='_blank'>Virginia Commonwealth University</a> and is a retired teacher.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { "gallery_file_name": "7200-real-friends-couples-0", "image_id": "7200" },
       "contrast_with": { }
