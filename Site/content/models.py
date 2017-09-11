@@ -26,9 +26,45 @@ class GalleriesList:
     Read in the gallery files appropriate for the (optional) specified
     galleries_list_name and support listing them on a single page
     """
+
+    title_dict = {
+        'sixteen_types': 'Sixteen Types',
+        'fictional': 'Fictional',
+        'real': 'Real',
+        'famous': 'Famous',
+        'movies': 'Movies',
+        'tv': 'TV Shows',
+        'politicians': 'American Politicians',
+        'friends': 'Friends',
+        'family': 'Family',
+        'others': 'Other People I Know',
+        'experiments': 'Experimental Compositions',
+    }
+    fnmatch_string_dict = {
+        'sixteen_types': '[0-9]*generic_images*',
+        'fictional': '[0-9]*-fictional*',
+        'real': '[0-9]*-real*',
+        'famous': '[0-9]*-famous*',
+        'movies': '[0-9]*-movies-*',
+        'tv': '[0-9]*-tv-*',
+        'politicians': '[0-9]*-politicians-*',
+        'friends': '[0-9]*-friends-*',
+        'family': '[0-9]*-family-*',
+        'others': '[0-9]*-others-*',
+        'experiments': '[0-9]*-experiments-*',
+    }
     phrase_dict = {
         'sixteen_types': '<b>generic images:</b>',
-        'fictional': 'images of <b>fictional</b> people, from movies and tv shows:'
+        'fictional': 'images of <b>fictional</b> people, from movies and tv shows:',
+        'real': 'images of <b>real</b> people:',
+        'famous': 'images of <b>famous</b> people:',
+        'movies': 'images of fictional characters in <b>movies:</b>',
+        'tv': 'images of fictional characters from <b>tv shows:</b>',
+        'politicians': 'images of American politicians:',
+        'friends': 'images of <b>some of my friends:</b>',
+        'family': 'images of <b>people in my family:</b>',
+        'others': 'images of <b>other real people I know:</b>',
+        'experiments': '<b>experimental</b> images:',
     }
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
     LIST_PAGE_TEXT_INTRO_LENGTH = 60
@@ -43,9 +79,9 @@ class GalleriesList:
         phrase = 'these galleries, containing '
 
         if galleries_list_name == 'sixteen_types':
-            self.galleries_list_title = 'Sixteen Types'
+            self.galleries_list_title = self.title_dict.get('sixteen_types')
             phrase += self.phrase_dict.get('sixteen_types')
-            fnmatch_string = '[0-9]*generic_images*'
+            fnmatch_string = self.fnmatch_string_dict.get('sixteen_types')
         elif galleries_list_name == 'fictional':
             self.galleries_list_title = 'Fictional'
             phrase = 'these galleries, containing images of <b>fictional</b> people, from movies and tv shows:'
