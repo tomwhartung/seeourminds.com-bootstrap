@@ -49,9 +49,9 @@
           <div class="text-justify">
             {% spaceless %}
               {% if image_dict.story_intro_html %}
-                <div id="story-html-intro">
+                <div id="story-intro-html">
                   {{ image_dict.story_intro_html | safe }}
-                </div><!-- #story-html-intro -->
+                </div><!-- #story-intro-html -->
               {% endif %}
               <div id="story-html" class="som-text-to-toggle">
                 {{ image_dict.story_html | safe }}
@@ -147,22 +147,22 @@
         $("#toggle-story-html").click(function() {
           var button_text = $("#toggle-story-html").text();
           if ( button_text.includes('Show') ) {
-            $("#story-html-intro").toggle("fade", "fast");
+            $("#story-intro-html").toggle("fade", "fast");
             $("#story-html").toggle(toggle_text_effect, "slow");
             $("#toggle-story-html").removeClass("btn-success");
             $("#toggle-story-html").addClass("btn-danger");
             $("#toggle-story-html").text("Hide the Story");
           } else {
             $("#story-html").toggle(toggle_text_effect, "slow");
-            $("#story-html-intro").toggle("fade", "fast");
+            $("#story-intro-html").toggle("fade", "fast");
             $("#toggle-story-html").removeClass("btn-danger");
             $("#toggle-story-html").addClass("btn-success");
             $("#toggle-story-html").text("{{ image_dict.show_story_btn_text }}");
           }
         });
-        /* if ( $("#story-html-intro") != null ) {
+        /* if ( $("#story-intro-html") != null ) {
          *   $("#toggle-story-html").click(function() {
-         *     $("#story-html-intro").toggle("fade", 100);
+         *     $("#story-intro-html").toggle("fade", 100);
          *   });
          * }
          */
