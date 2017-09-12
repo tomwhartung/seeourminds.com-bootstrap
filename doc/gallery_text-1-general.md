@@ -72,8 +72,8 @@ For details about stories, see Part 4 of this series:
 The least important fields are:
 
 - Link to the "Meat Portrait"
-- - This link sounds condescending on purpose
-- - If desired, friends can embed one or more images in the story
+  - This link sounds condescending on purpose
+  - If desired, friends can embed one or more images in the story
 - "Compare To" Link
 - "Contrast With" Link
 
@@ -88,7 +88,7 @@ Note that the words "I," "me," etc. refer to me, Tom Hartung, the Site's creator
 ## All Other Text Fields: *NO* First or Second Person!
 
 All fields other than the stories are "objective" and
-**must NOT use any first person (I, me, etc.) or second person (you, etc.) pronouns.**
+**must NOT use any first person** (I, me, etc.) or **second person** (you, etc.) pronouns.
 
 ## Third Person Pronouns **Must** Be Unambiguous
 
@@ -111,7 +111,7 @@ I fully understand that some people will refuse to open themselves to this idea.
 - It's easy to anticipate some religious people might take exception to the term "spiritual portrait,"
 if it doesn't include their specific religious icon, or whatever.
 - It's the internet, so people are always getting pissed off for no reason.  "Oh Well."
-- - https://www.youtube.com/watch?v=O8RhZDGLEXM
+  - https://www.youtube.com/watch?v=O8RhZDGLEXM
 
 My response to these people is the following series of articles on https://medium.com/@seeourminds
 
