@@ -9,35 +9,55 @@ The SeeOurMinds.com language consists of the following six terms:
 
 ## Blue: Perception of Ideas
 
-The color Blue represents iNtuition: a preference for perceiving ideas rather than facts
+The color Blue represents iNtuition: a preference for perceiving ideas rather than facts.
 
-- Ideas tend to come to us at night
-- Perception implies openness
-- We tend to reflect on things at night
-- Night is when our conscience may hit us, and we may regret our actions
-- When we think of cruel people, we may think: "How do they sleep at night?"
+### Why Blue?
+
+- Opposite of Yellow
+- Perception implies openness, and very dark colors are more open
+- Compared to the other colors, Blue feels like it is moving away (receeding)
+- Ideas tend to come to us during the night
+- We tend to reflect on things during the night
+  - Night is when our conscience may hit us, and we may regret our actions
+  - When we think of cruel people, we may think: "How do they sleep at night?"
 
 ## Yellow: Perception of Facts
 
-The color Yellow represents Sensation: a preference for perceiving facts rather than ideas
+The color Yellow represents Sensation: a preference for perceiving facts rather than ideas.
 
+### Why Yellow?
+
+- Opposite of Blue
+- Perception implies openness, and very light colors are more open
+- Compared to the other colors, Yellow feels like it is coming forward
 - Facts tend to come to us during the day
-- Perception implies openness
-- Yellow: the sun, daytime
+- We tend to work with things during the day
+  - Yellow is associated with the sun and daytime
+  - It's difficult to sleep in the day so we are more active
 
 ## Green: Decisions Made Logically
 
-The color Green represents Thinking: a preference for objective decisions
+The color Green represents Thinking: a preference for making objective, logical decisions.
 
+### Why Green?
+
+- Opposite of Red
+- Compared to Blue and Yellow, Green is stationary and closed: strong, unwavering
 - Logic - universal, cool, unemotional
-- 
+  - Law of the jungle: survival of the fittest
+  - No feelings, no mercy, kill or be killed
 
 ## Red: Decisions Made Emotionally
 
-The color Red represents Feeling: a preference for personal decisions
+The color Red represents Feeling: a preference for making personal, emotional decisions.
 
+### Why Red?
+
+- Opposite of Green
+- Compared to Blue and Yellow, Red is closed and stationary: strong, unwavering
 - Emotion - human, blood
-- Getting mad and seeing red
+  - Very personal, loving caring: hearts are Red, not Green
+  - Getting mad and seeing Red
 
 ## Vertical:
 
