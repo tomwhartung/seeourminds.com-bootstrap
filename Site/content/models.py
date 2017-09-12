@@ -149,7 +149,7 @@ class Gallery:
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
             data_file_dir = site_content_dir + GalleriesList.GALLERIES_DIRECTORY
             data_file_path = data_file_dir + data_file_name
-            gallery_json_file = open(data_file_path)
+            gallery_json_file = open(data_file_path, encoding='utf-8', mode="r")
             gallery_json_string = gallery_json_file.read()
             gallery_json_file.close()
             self.gallery_dict = json.loads(gallery_json_string)
