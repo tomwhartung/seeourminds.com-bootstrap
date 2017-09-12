@@ -11,6 +11,13 @@ The SeeOurMinds.com language consists of the following six terms:
 
 The color Blue represents iNtuition: a preference for perceiving ideas rather than facts.
 
+### Types With the Most Blue: xNxP
+
+The following types have the most Blue in their images:
+
+- ENTP and INTP
+- ENFP and INFP
+
 ### Why Blue?
 
 - Opposite of Yellow
@@ -24,6 +31,13 @@ The color Blue represents iNtuition: a preference for perceiving ideas rather th
 ## Yellow: Perception of Facts
 
 The color Yellow represents Sensation: a preference for perceiving facts rather than ideas.
+
+### Types With the Most Yellow: xSxP
+
+The following types have the most Yellow in their images:
+
+- ESTP and ISTP
+- ESFP and ISFP
 
 ### Why Yellow?
 
@@ -39,6 +53,13 @@ The color Yellow represents Sensation: a preference for perceiving facts rather 
 
 The color Green represents Thinking: a preference for making objective, logical decisions.
 
+### Types With the Most Green: xxTJ
+
+The following types have the most Red in their images:
+
+- ENTJ and INTJ
+- ESTJ and ISTJ
+
 ### Why Green?
 
 - Opposite of Red
@@ -50,6 +71,13 @@ The color Green represents Thinking: a preference for making objective, logical 
 ## Red: Decisions Made Emotionally
 
 The color Red represents Feeling: a preference for making personal, emotional decisions.
+
+### Types With the Most Red: xxFJ
+
+The following types have the most Red in their images:
+
+- ENFJ and INFJ
+- ESFJ and ISFJ
 
 ### Why Red?
 
@@ -66,20 +94,41 @@ Represents the person's most obvious function (color), and is directed outwardly
 - In Extraverts, this is the strongest (dominant) function.
 - In Introverts, this is the supporting (auxiliary) function.
 
+In personalities with **strong** preferences, the Vertical can get "lost" due to the image containing a plethora of just the one color.
+
 ## Horizontal:
 
 Represents the person's function supporting their most obvious function (color), and is directed inwardly.
 
-In Extraverts, this is the supporting (auxiliary) function.
-In Introverts, this is the strongest (dominant) function.
+- In Extraverts, this is the supporting (auxiliary) function.
+- In Introverts, this is the strongest (dominant) function.
 
-# Summary
+In personalities with **extremely strong** preferences, the Horizontal can be very minimal, but it's still there!
+
+# Misunderstandings and Conflicts
+
+## Differing Perceptions Cause Misunderstandings
 
 The Perceiving functions - iNtuition-idealism-Blue and Sensation-pragmatism-Yellow - cause the most difference between people.
 
 - Idealistic people seem to be from a different planet than pragmatic types.
 
+## Differences in Judging Cause Conflicts
+
 The Judging functions - Thinking-logical-Green and Feeling-emotional-Red - cause the most conflicts between people.
 
 - Both logical and emotional people are convinced that they are right and anyone who disagrees is wrong.
+
+# How Spiritual Portraits Can Help
+
+Spiritual Portraits based on a score (percentages) rather than just a four-letter type show the
+relative strengths of the preferences.
+
+
+
+For more information, see the team building series of posts on linkedin.com:
+
+- Link is TBD
+- Sorry, I only have a series of outlines right now.  If you want to see those:
+  - https://github.com/tomwhartung/jmws_accoutrements/tree/master/social_networking/groja-som/linkedin/1-team_building-shorter
 
