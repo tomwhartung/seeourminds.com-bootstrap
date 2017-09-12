@@ -44,7 +44,8 @@ I believe these come from copy-and-pasting quotes found online.
 I am fixing **both** the characters and the source of the error, and advise you to do the same.
 
 - Use grep to find and vi to remove the characters see the (partial) list below
-- Programmatic fix:
+- Programmatic fix - found at this url and verified to work with the bad characters:
+- - https://stackoverflow.com/questions/42762556/how-to-interpret-this-error-unicodedecodeerror-ascii-codec-cant-decode-byte
 
 ## List of Bad Characters:
 
