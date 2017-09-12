@@ -306,7 +306,7 @@ class Questions:
         QUIZ_FILE_NAME = 'seeourminds_quiz.json'
 
         quiz_file_path = QUIZ_FILE_DIR + QUIZ_FILE_NAME
-        quiz_json_file = open(quiz_file_path)
+        quiz_json_file = open(quiz_file_path, encoding='utf-8', mode="r")
         quiz_json_string = quiz_json_file.read()
         quiz_json_file.close()
         question_list = json.loads(quiz_json_string)
