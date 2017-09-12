@@ -33,6 +33,8 @@ The characters listed below cause this ascii decode error:
 
 - 'ascii' codec can't decode byte 0xe2 in position 16501: ordinal not in range(128)
 
+**Note: this error occurs only when serving page in apache** - not when using local server!
+
 ## Cause
 
 I believe these come from copy-and-pasting quotes found online.
@@ -40,6 +42,9 @@ I believe these come from copy-and-pasting quotes found online.
 ## The Double-Fix
 
 I am fixing **both** the characters and the source of the error, and advise you to do the same.
+
+- Use grep to find and vi to remove the characters see the (partial) list below
+- Programmatic fix:
 
 ## List of Bad Characters:
 
@@ -58,3 +63,4 @@ grep '—' *
 ```
 
 Only this `README.md` file should show up as output from any of these commands.
+
