@@ -23,12 +23,13 @@ I use the following compromises to balance the ideal with reality:
 
 - Hide some or even most of the text until the visitor clicks on a button to see it
 - Have several specific short descriptions
-- - Teaser on galleries list page (click to see gallery)
-- - Teaser on gallery page (click to see image)
-- - Explain the Dominant function - on image page
-- - Explain the Auxiliary function - on image page
+  - Teaser on galleries list page (click to see gallery)
+  - Teaser on gallery page (click to see image)
+  - Explain the Dominant function - on image page
+  - Explain the Auxiliary function - on image page
 - Have a long story for each image
-- - Intro text acts as a teaser of sorts
+  - Story intro text acts as another teaser
+  - Actually, it functions a bit differently, because it can include html...
 
 Having buttons allows me to use Google Analytics to learn which fields visitors are actually looking at.
 
