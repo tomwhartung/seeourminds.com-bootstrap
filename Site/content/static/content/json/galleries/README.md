@@ -3,7 +3,7 @@
 
 This file contains very important information!
 
-# Tempate
+# Template
 
 There is a template for new gallery json files "next door" in:
 
@@ -27,3 +27,34 @@ Article "...The Bad..." contains a link to image:
 Article "...And The Ugly" contains a link to image:
 - Padme Amidala: /image/1200-fictional-movies-star_wars-prequel/1200/
 
+# Bad Characters!
+
+The characters listed below cause this ascii decode error:
+
+- 'ascii' codec can't decode byte 0xe2 in position 16501: ordinal not in range(128)
+
+## Cause
+
+I believe these come from copy-and-pasting quotes found online.
+
+## The Double-Fix
+
+I am fixing **both** the characters and the source of the error, and advise you to do the same.
+
+## List of Bad Characters:
+
+- –
+- ’
+- …
+- —
+
+## List of Commands to Find the Bad Characters:
+
+```
+grep '…' *
+grep '–' *
+grep '’' *
+grep '—' *
+```
+
+Only this `README.md` file should show up as output from any of these commands.
