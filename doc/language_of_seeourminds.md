@@ -109,30 +109,11 @@ Represents the person's function supporting their most obvious function (color),
 
 In personalities with **extremely strong** preferences, the Horizontal can be very minimal, but it's still there!
 
-# Misunderstandings and Conflicts
+# Conclusion
 
-## Differing Perceptions Cause Misunderstandings
+Differing Perceptions can cause misunderstandings and differences in Judging preferences can cause conflicts.
 
-The Perceiving functions - iNtuition-idealism-Blue and Sensation-pragmatism-Yellow - cause the most difference between people.
+For information about how spiritual portraits can help, see:
 
-- Idealistic people seem to be from a different planet than pragmatic types.
-
-## Differences in Judging Cause Conflicts
-
-The Judging functions - Thinking-logical-Green and Feeling-emotional-Red - cause the most conflicts between people.
-
-- Both logical and emotional people are convinced that they are right and anyone who disagrees is wrong.
-
-# How Spiritual Portraits Can Help
-
-Spiritual Portraits based on a score (percentages) rather than just a four-letter type show the
-relative strengths of the preferences.
-
-
-
-For more information, see the team building series of posts on linkedin.com:
-
-- Link is TBD
-- Sorry, I only have a series of outlines right now.  If you want to see those:
-  - https://github.com/tomwhartung/jmws_accoutrements/tree/master/social_networking/groja-som/linkedin/1-team_building-shorter
+- https://github.com/tomwhartung/seeourminds.com/blob/master/doc/how_they_can_help.md
 
