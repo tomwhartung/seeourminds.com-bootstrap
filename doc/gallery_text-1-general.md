@@ -64,9 +64,9 @@ The most important fields, in order of their importance, are:
 The stories can really help visitors understand the person, and hence the image.
 However, they can be rather personal, and difficult and time-consuming to write.
 
-For details about stories, see Part 4 of this series:
+For details about stories, see:
 
-- https://github.com/tomwhartung/seeourminds.com/blob/master/doc/gallery_text-4-stories.md
+- https://github.com/tomwhartung/seeourminds.com/blob/master/doc/gallery_text-3-stories.md
 
 ## 3. Least Important Fields: Link Buttons
 
