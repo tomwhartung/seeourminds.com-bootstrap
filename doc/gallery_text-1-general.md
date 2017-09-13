@@ -91,34 +91,36 @@ Note that the words "I," "me," etc. refer to me, Tom Hartung, the Site's creator
 All fields other than the stories are "objective" and
 **must NOT use any first person** (I, me, etc.) or **second person** (you, etc.) pronouns.
 
-## Third Person Pronouns **Must** Be Unambiguous
+## Third Person Pronouns Must **Not** Be Ambiguous
 
 Any third person pronouns (he, she, etc.) **must be unambiguous** with regards to whether they refer to the
 person whose image is displayed or other individuals in the world at large.
 
 # Conclusion
 
+## The Good, the Bad, and the Ugly
+
 I fully understand that many people may not "get" the images, at least not at first.
 
-I fully understand that some people will, after a while, get to grokking the images.
-The idea is really quite simple, and enough examples of people that "everyone knows"
-will help people understand them without the text.
-
-## Assholes Will Be Assholes
-
 I fully understand that some people will refuse to open themselves to this idea.
-
-- Not everyone enjoys abstract thought the way I do.
-- It's easy to anticipate some religious people might take exception to the term "spiritual portrait,"
-if it doesn't include their specific religious icon, or whatever.
-- It's the internet, so people are always getting pissed off for no reason.  "Oh Well."
-  - https://www.youtube.com/watch?v=O8RhZDGLEXM
 
 My response to these people is the following series of articles on https://medium.com/@seeourminds
 
 - The Good ...: https://medium.com/@seeourminds/the-good-d47132c25032
 - ... The Bad ...: https://medium.com/@seeourminds/the-bad-46947a663f4d
 - ... And The Ugly: https://medium.com/@seeourminds/and-the-ugly-8921a8e9c721
+
+## Examples Are the Key
+
+I do believe that with enough examples, after a while, people will get it!
+
+I do believe I just need enough examples of people that "everyone knows" and people will start to understand them without the text!
+
+Because when it comes right down to it, it's really quite simple: just a language with six terms:
+
+- https://github.com/tomwhartung/seeourminds.com/blob/master/doc/language_of_seeourminds.md
+
+## Thanks!
 
 Thank you very much for your kind and open-minded attention to all this, my *magnum opus!*
 
