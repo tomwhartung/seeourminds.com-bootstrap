@@ -1,49 +1,30 @@
 
-# gallery_text-4-stories.md
+# gallery_text-3-stories.md
 
-## This Is Part 4
+# Short Descriptions
 
-This part contains some guidelines for the stories that appear with the Gallery images on SeeOurMinds.com .
+I will take care of all short descriptions.
+They are optional, but I want them to be consistent.
 
-- For part 1, general information, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-1-general.md
-- For part 2, about what the colors represent, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-2-the_language.md
-- For part 3, about the short text fields, see https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-3-nuggets.md
+If you don't like what I put in one of the short descriptions or if it is wrong, let me know.
 
-**If you're a friend or family member, you don't need to worry about those.**
+# The Story Is Optional
 
-## Don't Worry About the Short Descriptions
-
-These are described in part 3 (see link above).
-
-You don't need to read part 3, because I will take care of all short descriptions - but you can check it out if you like.
-
-Short descriptions are optional, but I want to be sure to have something in each of them for consistency.
-Also, I want them to "sound" and be consistent (e.g., no first or second person), to a certain extent, for all images.
-
-**Just let me know if what I put in one of the short descriptions is wrong or if you don't like it.**
-
-# The SeeOurMinds.com Story Is Optional
-
-Like the other text fields ("nuggets"), the story is optional.
 Having good stories though, is what makes the site consistent and much more worth while.
 
 **Unless you want me to leave it blank, the story is the part I need help with.**
 
 ## Default Story
 
-The "story" I use by default is just a few html tags with no text.
-This causes the "Show the Story" button to appear, but display nothing when it's clicked.
+The default story is just a few sentences about work and school, whatever I can get from Facebook.
 
-I use this as a reminder that I need to contact the person and either get them to give me a story or tell me they don't want one.
-
-**If you don't want to have a story for your image, let me know and I will remove the empty html, which will remove the button from the page.**
-
-# Examples: My Favorite Stories
+## Good Examples
 
 For examples of the best stories, see the images in the galleries nearest the top of the list of "All" of them.
-
 I am very happy with some of the stories in the Game of Thrones and Sopranos galleries, but they took a long time to write.
-In some cases, just writing one took 2-4 hours!  But I think they are good, *so whatevs!*
+
+The stories about my parents were difficult to write.
+They are very personal but they have a reasonably happy ending.
 
 # Story Guidelines
 
@@ -59,11 +40,9 @@ At this time, however, the stories on the site currently contain only links and 
 The story can be as long or as short as you like.
 
 - I can leave it totally empty, which causes the button to be removed completely.
-
 - If it is going to be more than one paragraph, it should have an arc: a beginning, a middle, and an end.
-
 - It should be as positive as possible.
-- - At least, anything negative should have a corresponding positive aspect to balance it.
+- At the least, anything negative should have a corresponding positive aspect to balance it.
 
 ## Quotes Are Excellent
 
@@ -85,17 +64,16 @@ If you want to promote your business or a website, it would be great to link to 
 
 Describing how the colors and composition apply in your daily life would be most excellent - but is not required.
 
-For a description of what they all mean, see part 2 of this series: https://github.com/tomwhartung/seeourminds.com/blob/master/Site/doc/gallery_text-2-the_language.md
-
 - If a hobby or other favorite activity applies, we should mention that.
-
+- If any of the traits or characteristics listed on the wikipedia page for your type resonates with you, that would be great to mention.
+- Likewise, if any of the traits or characteristics listed on the wikipedia page for your type DOES NOT resonate with you, that would be great to mention - but I'd want to have a positive to balance out any negativity.
+- If you emphathize or idolize one or more of the fictional characters on the site, that would be great to mention.
+- Likewise if you can't empathize with a fictional character that is the opposite type from you, that would be great to mention.
 - If people frequently get the wrong impression of you somehow - especially if you're introverted - this would be a good time to "set the record straight."
 
-- If one or a few of the traits or characteristics listed on the wikipedia page for your type resonates with you, that would be great to mention.
+For a description of what the colors mean, see this article:
 
-- Similarly, if one or a few of the traits or characteristics listed on the wikipedia page for your type DOES NOT resonate with you, that would be great to mention - but I'd want to have a positive to balance out any negativity.
-
-- If you emphathize or idolize one or a few of the fictional characters on the site, that would be great to mention.  The opposite holds as well, although I don't want to have a negative without a positive to balance it out.
+- https://github.com/tomwhartung/seeourminds.com/blob/master/doc/language_of_seeourminds.md
 
 # Conclusion
 
