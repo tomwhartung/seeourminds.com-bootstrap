@@ -1,7 +1,11 @@
 
-# gallery_text-2-the_language.md
+# language_of_seeourminds.md
 
 The spiritual portraits on SeeOurMinds.com implement a very simple language.
+
+# Basis of the Language
+
+Most of these ideas come from or were inspired by the book Concerning the Spiritual in Art, by Wasilly Kandinsky.
 
 # The SeeOurMinds.com Language
 
