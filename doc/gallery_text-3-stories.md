@@ -30,10 +30,15 @@ They are very personal but they have a reasonably happy ending.
 
 Stories appear on the image page only.
 
+- It should be as positive as possible.
+- At the least, anything negative should have a corresponding positive aspect to balance it.
+
+## Content
+
 The story can contain html.  This means stories can contain links, quotes, headings, bullet or
 numbered lists, images, videos, etc. - anything that can appear on a web page.
 
-At this time, however, the stories on the site currently contain only links and quotes.
+A photo or video of you would be excellent on your personal image page.
 
 ## Length
 
@@ -41,23 +46,19 @@ The story can be as long or as short as you like.
 
 - I can leave it totally empty, which causes the button to be removed completely.
 - If it is going to be more than one paragraph, it should have an arc: a beginning, a middle, and an end.
-- It should be as positive as possible.
-- At the least, anything negative should have a corresponding positive aspect to balance it.
 
 ## Quotes Are Excellent
 
 I am finding it's best to put quotes in the stories on the site.  This makes the story more authentic and easier to do.
 
-**Do you have a favorite quote, or maybe a "theme song?"**
+Do you have a favorite quote, or maybe a "theme song?"
+Embedding a youtube video would be cool.
 
-If you want to embed a youtube video, that is cool, but at this time would be a first.
-
-## Links Are Also Excellent
+## Links Are Excellent
 
 If you want to promote your business or a website, it would be great to link to that in the story.
 
 - If you want to mention your favorite movie, tv show, band, sports team, etc., it would be fun to link to that in the story.
-
 - If you want to get people join one of your social networking sites, it would be great to link to that to the story.
 
 ## Showing How It Applies: Most Excellent!
@@ -81,5 +82,5 @@ Thanks for helping add content to my site!
 
 I have yet to monetize this idea, so can not offer any sort of payment, other than my gratitude.
 
-**I do hope learning about all this enriches your life!**
+I hope learning about all this enriches your life!
 
