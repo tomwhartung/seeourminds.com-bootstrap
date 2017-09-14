@@ -7,9 +7,14 @@ Short text fields are important.
 
 All fields are optional, but an image without at least a title is pretty meaningless.
 
+For consistency with other portraits, all short text fields should be populated with values consistent with the other galleries.
+
+The buttons on the image page are less important, and should be populated only if appropriate values are easily obtainable.
+
 # Specific Fields
 
-I will fill in most or all short descriptions, but **if you don't like what I put there or it is wrong, let me know.**
+For friends and family, I fill in most or all short descriptions,
+but **if you don't like what I put there or it is wrong, let me know.**
 
 ## Gallery Page and Image Page
 
@@ -18,16 +23,16 @@ I will fill in most or all short descriptions, but **if you don't like what I pu
 
 ## Gallery Page Only
 
-- `gallery_page_teaser` Gallery Page Teaser - text only (no html)
+- `gallery_page_teaser` [Gallery](https://www.youtube.com/watch?v=XEl7devfqdc) Page Teaser - text only (no html)
 
-## Short Text Fields - Image Page Only
+## Image Page Only: Short Text Fields
 
 - `explain_dom` Explain Dominant Color/Function - text only (no html)
 - `explain_aux` Explain Auxiliary Color/Function - text only (no html)
 
 Note that these `explain_*` short text fields should **not** contain any first (I, etc.) or second (you, etc.) person pronouns.
 
-## Buttons (Links) - Image Page Only
+## Image Page Only - Buttons (Links)
 
 These are the least important values.
 
