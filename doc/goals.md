@@ -14,7 +14,7 @@ These goals are listed in the order of their priority, and goals that have been 
 - [x] 1. Gain experience working with new technology
 - [x] 2. Express my vision of how I look at the world in general and the people in it in particular
 - [x] 3. Share this visualization technique to help myself and others learn about people, with the hope we can all have more harmonious relationships
-- [ ] 4. Make money from this idea
+- [ ] 4. Make [money](https://www.youtube.com/watch?v=Kjgwjh4H7wg) from this idea
 - [ ] 5. Establish a unique brand and be recognized for contributing a unique way of looking at the world
 - [ ] 6. Move [Kandinsky's triangle](https://medium.com/@tomwhartung/concerning-kandinskys-concerning-the-spiritual-in-art-f2f3d1ca750e)
 
