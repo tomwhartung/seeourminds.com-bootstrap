@@ -3,8 +3,6 @@
 
 This information is for the friends and family members who I've posted spiritual portraits of on [SeeOurMinds.com](https://SeeOurMinds.com/).
 
-For more general information, see [part 1 of this series](https://github.com/tomwhartung/seeourminds.com/blob/master/doc/gallery_text-1-general.md).
-
 ## Short Descriptions
 
 I will take care of all [short descriptions](https://github.com/tomwhartung/seeourminds.com/blob/master/doc/gallery_text-2-short_fields.md).
@@ -14,30 +12,21 @@ If you don't like what I put in one of the short descriptions or if it is wrong,
 
 # Stories
 
-**Unless you want me to leave it blank, the story is the part I need help with.**
+For more general information about all of the text fields,
+see [part 1 of this series](https://github.com/tomwhartung/seeourminds.com/blob/master/doc/gallery_text-1-general.md).
 
 ## The Story Is Optional
 
 They are optional, but having good [stories](https://www.youtube.com/watch?v=AP9nassRt2Y) is
 what makes the site consistent and much more worth while.
 
+**Unless you want me to leave it as-is or blank, the story is the part I need help with.**
+
 ## Default Story
 
 The default story is just a few sentences about work and school, whatever I can get from Facebook.
 
-## Good Examples
-
-For examples of the best stories, see the images in the galleries nearest the top of the list of "All" of them.
-
-- At this time, I am happiest with some of the stories in the Game of Thrones and Sopranos galleries
-- These may take only a moment or two to read, but they took a long time to write!
-
-### Examples of Good Friends and Family Stories
-
-These stories were difficult to write, are very personal and a bit sad, but they have a reasonably happy ending.
-
-- The stories about my Mom and Dad
-- The stories about my late friends Jim and Eric
+- If you are happy with the minimal default story and just want me to remove the "I will share more information as it becomes available" boilerplate sentence, let me know.
 
 # Story Guidelines
 
@@ -103,7 +92,7 @@ For a description of what the colors mean, see this article:
 There is ample information online about each type.
 Favorite resources include the [wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [pinterest](https://www.pinterest.com).
 
-**Clicking on any score on the site opens the corresponding page for that type in the wikipedia.**
+**Clicking on any score in the gallery opens the corresponding page for that four-letter type in the wikipedia.**
 
 ### How it Applies
 
@@ -126,11 +115,23 @@ Opposites attract, but can cause difficulties in communications.
 If you are a member of one of the couples posted on the site, it would be great to know how you achieve this longevity
 in light of your underlying similarities and differences.
 
+# Examples of Good Stories
+
+For examples of the best stories, see the images in the galleries nearest the top of the list of "All" of them.
+
+- At this time, I am happiest with some of the stories in the Game of Thrones and Sopranos galleries
+- These may take only a moment or two to read, but they took a long time to write!
+
+## Examples of Good Friends and Family Stories
+
+These stories were difficult to write, are very personal and a bit sad, but they have a reasonably happy ending.
+
+- The stories about my Mom and Dad
+- The stories about my late friends Jim and Eric
+
 # Conclusion
 
-Thanks for helping add content to my site!
-
-I have yet to monetize this idea, so can not offer any sort of payment, other than my gratitude.
+Thanks for helping add honest content to my site!
 
 I hope learning about all this enriches your life!
 
