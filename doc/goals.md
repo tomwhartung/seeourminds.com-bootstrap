@@ -18,7 +18,7 @@ These goals are listed in the order of their priority, and goals that have been 
 - [ ] 5. Establish a unique brand and be recognized for contributing a unique way of looking at the world
 - [ ] 6. Move [Kandinsky's triangle](https://medium.com/@tomwhartung/concerning-kandinskys-concerning-the-spiritual-in-art-f2f3d1ca750e)
 
-Having achieved (temporarily, anyway) the first three goals, I am actively working on the fourth.
+Having achieved (temporarily, anyway) the first three goals, I am actively working on the fourth, by serving ads on [seeourminds.com](https://seeourminds.com) and personalized portraits on [groja.com](https://groja.com).
 
 I feel it is important for others to realize that, although it is the goal I am currently working towards,
 it is not one of the primary goals of the project.
