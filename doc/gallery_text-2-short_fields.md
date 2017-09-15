@@ -20,6 +20,8 @@ but **if you don't like what I put there or it is wrong, let me know.**
 
 ## Gallery Page and Image Page
 
+These are the **most important** values.
+
 - `title` Image Title, i.e., Person's Name - text only (no html)
 - `subtitle_html` Image Sub-title - may contain html (e.g., a link)
 
@@ -29,7 +31,7 @@ but **if you don't like what I put there or it is wrong, let me know.**
 
 ## Image Page Only: Short Text Fields
 
-These are the **most important** values.
+These are **very important** values.
 
 - `explain_dom` Explain Dominant Color/Function, some is boilerplate - text only (no html)
 - `explain_aux` Explain Auxiliary Color/Function, some is boilerplate - text only (no html)
