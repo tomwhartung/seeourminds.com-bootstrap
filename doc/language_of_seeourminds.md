@@ -5,11 +5,20 @@ The spiritual portraits on SeeOurMinds.com implement a very simple language.
 
 # Basis of the Language
 
-Most of these ideas come from or were inspired by the book Concerning the Spiritual in Art, by Wasilly Kandinsky.
+Most of these ideas come from or were inspired by the book [Concerning the Spiritual in Art, by Wassily Kandinsky](https://archive.org/details/onspiritualinart00kand).
 
 # The SeeOurMinds.com Language
 
 The SeeOurMinds.com language consists of the following six terms:
+
+- Blue: Perception of Ideas
+- Yellow: Perception of Facts
+- Green: Decisions Made Logically
+- Red: Decisions Made Emotionally
+- Vertical: The Dominant Personality Function
+- Horizontal: The Auziliary Personality Function
+
+The text below describes each of these terms a bit more thoroughly.
 
 ## Blue: Perception of Ideas
 
@@ -91,18 +100,18 @@ The following types have the most Red in their images:
   - Very personal, loving caring: hearts are Red, not Green
   - Getting mad and seeing Red
 
-## Vertical:
+## Vertical: The Dominant Personality Function
 
-Represents the person's most obvious function (color), and is directed outwardly.
+Represents the person's **most obvious** function (color), and is directed outwardly.
 
 - In Extraverts, this is the strongest (dominant) function.
 - In Introverts, this is the supporting (auxiliary) function.
 
-In personalities with **strong** preferences, the Vertical can get "lost" due to the image containing a plethora of just the one color.
+In personalities with **extremely strong** preferences, the Vertical can get "lost" due to the image containing a plethora of just the one color.
 
-## Horizontal:
+## Horizontal: The Auziliary Personality Function
 
-Represents the person's function supporting their most obvious function (color), and is directed inwardly.
+Represents the function **supporting** the person's most obvious function (color), and is directed inwardly.
 
 - In Extraverts, this is the supporting (auxiliary) function.
 - In Introverts, this is the strongest (dominant) function.
