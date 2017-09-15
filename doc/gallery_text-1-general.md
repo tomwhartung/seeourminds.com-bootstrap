@@ -8,7 +8,7 @@ Following is an overview of the text and link fields that appear in galleries on
 These are the goals of all descriptive text on the site:
 
 1. **Honesty** - to the point of complete transparency
-2. Keep it positive **without violating goal 1**
+2. Keep it **positive without violating goal 1**
 3. Put each tidbit of information [in its right place](https://www.youtube.com/watch?v=hvMql9XgIg0)
 
 # Ideally and Realistically
@@ -17,7 +17,7 @@ Ideally, each image should be able to stand on its own.
 
 Realistically, without some sort of context, each image is "just a bunch of squares."
 
-# The Strategy: Compromise
+# The Compromise
 
 I use the following compromises to balance the ideal with reality:
 
@@ -89,7 +89,7 @@ For consistency with all other stories, the first person refers to me, Tom Hartu
 
 ## OK to Use Second Person in Stories, If Desired
 
-At this time, I see no reason to use second person (you, etc.) pronouns.
+Right now, I do not see a reason to use second person (you, etc.) pronouns.
 
 However if a situation arises in which using the second person in a story is appropriate, it is ok to do so.
 
