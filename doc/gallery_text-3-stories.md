@@ -32,7 +32,7 @@ The default story is just a few sentences about work and school, whatever I can 
 
 Stories appear on the image page only.
 
-- Stories should be as positive as possible
+- Stories should be as **positive** as possible
 - At the least, anything negative should have a corresponding positive aspect to balance it
 
 ## Timing
@@ -66,6 +66,7 @@ The story can be as long or as short as you like.
 I am finding it's best to put quotes in the stories on the site.  This makes the story more authentic and easier to do.
 
 Do you have a favorite quote, or maybe a "theme song?"
+
 Embedding a youtube video would be cool.
 
 ## Links Are Excellent
@@ -81,7 +82,7 @@ Describing how the colors and composition apply in your daily life would be most
 
 ### What the Colors Mean
 
-This idea is really not complicated, just different.
+This idea of drawing personalities is really not complicated, just different.
 
 For a description of what the colors mean, see this article:
 
