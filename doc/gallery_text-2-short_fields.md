@@ -1,7 +1,9 @@
 
 # gallery_text-2-short_fields.md
 
-Short text fields are important.
+All short text fields are important.
+
+The buttons at the bottom of the page should appear (have values) only when appropriate.
 
 # Guidelines for Short Text Fields
 
@@ -27,14 +29,16 @@ but **if you don't like what I put there or it is wrong, let me know.**
 
 ## Image Page Only: Short Text Fields
 
-- `explain_dom` Explain Dominant Color/Function - text only (no html)
-- `explain_aux` Explain Auxiliary Color/Function - text only (no html)
+These are the **most important** values.
+
+- `explain_dom` Explain Dominant Color/Function, some is boilerplate - text only (no html)
+- `explain_aux` Explain Auxiliary Color/Function, some is boilerplate - text only (no html)
 
 Note that these `explain_*` short text fields should **not** contain any first (I, etc.) or second (you, etc.) person pronouns.
 
 ## Image Page Only - Buttons (Links)
 
-These are the least important values.
+These are the **least important** values.
 
 - `meat_portrait_href` activates the "Show the Meat Portrait" button - link to photo
   - Rather than use this button, it's ok to embed a photo in the story
