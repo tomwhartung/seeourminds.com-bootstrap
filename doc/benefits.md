@@ -1,9 +1,14 @@
 
-# how_they_can_help.md
+# benefits.md
+
+This file hightlights some of the benefits offered by Spiritual Portraits to those who are open-minded enough to embrace them.
 
 # Insights
 
-## Misunderstandings and Conflicts
+Learning about a person's preferences, and the relative strength of each, offers
+many insights to the person's personality and ultimately their behavior.
+
+# Misunderstandings and Conflicts
 
 ### Differing Perceptions Cause Misunderstandings
 
@@ -11,18 +16,18 @@ The Perceiving functions - iNtuition-idealism-Blue and Sensation-pragmatism-Yell
 
 - Idealistic people seem to be from a different planet than pragmatic types.
 
-### Differences in Judging Cause Conflicts
+## Differences in Judging Cause Conflicts
 
 The Judging functions - Thinking-logical-Green and Feeling-emotional-Red - cause the most conflicts between people.
 
 - Both logical and emotional people are convinced that they are right and anyone who disagrees is wrong.
 
-### How Spiritual Portraits Can Help
+## How Spiritual Portraits Can Help
 
 Comparing your spiritual portrait with others' images can help you quickly learn who is really looking at the world
 and making decisions the the same way you do, and who has different preferences.
 
-## Projection
+# Projection
 
 We tend to want to get along with one another.
 
@@ -30,12 +35,14 @@ We tend to think others are like us.
 
 When someone acts or sees things differently than we expect, it can cause misunderstandings and even conflicts.
 
-### How Spiritual Portraits Can Help
+Despite my best efforts, I fall into this trap more frequently than I care to admit.
+
+## How Spiritual Portraits Can Help
 
 Comparing your spiritual portrait with others' images can help you quickly learn who is really looking at the world
 and making decisions the the same way you do, and who has different preferences.
 
-## We All Need Strong Auxiliary Functions
+# Strong Auxiliary Functions Are Important
 
 In the book Gifts Differing by Isabel Briggs Myers and Peter B. Myers, the authors break down why each type
 needs a strong auxiliary function to support the dominant function.
@@ -47,7 +54,7 @@ I have no desire to repeat any of that here, but it should be obvious that:
 
 For more information, find a copy of the book at amazon.com or your local library.
 
-### How Spiritual Portraits Can Help
+## How Spiritual Portraits Can Help
 
 Spiritual Portraits based on a score (percentages) rather than just a four-letter type show the
 relative strengths of the preferences.
