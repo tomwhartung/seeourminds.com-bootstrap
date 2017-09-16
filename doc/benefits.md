@@ -3,6 +3,14 @@
 
 This file hightlights some of the benefits offered by Spiritual Portraits to those who are open-minded enough to embrace them.
 
+# Dependencies
+
+The benefits one can receive from having spiritual portraits of themself and their friends depends on these factors:
+
+- Who they are
+- Who their friends are
+- The context of their relationship (work, family, social, etc.)
+
 # Insights
 
 Learning about a person's preferences, and the relative strength of each, offers
