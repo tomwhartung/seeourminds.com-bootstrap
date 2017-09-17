@@ -15,19 +15,50 @@ Links to and quotes from works by Piet Mondrian.
 
 *Emphasis in original.*
 
+> If art is an expression of life and anticipates it, we can state that the new life is *the culture of equivalent relationships.*
+> ....
 > Thus in the same way as art, life reaches a state of real equilibrium
 > *through pure and equivalent relationships of increasingly free individuals.*
+(p. 248)
 
-> [T]he equilibrium in the new art is ... *a continuatious and mutually annihilating opposition of equivalent but unequal elements.*
+> [T]he equilibrium in the new art is ... *a continuous and mutually annihilating opposition of equivalent but unequal elements.*
+(p. 252)
 
-> *The physical aspect of man, of life, diminisjhes in opposition to the spiritual aspect, which becomes stronger.*
+> *The physical aspect of man, of life, diminishes in opposition to the spiritual aspect, which becomes stronger.*
+(p. 254)
 
-> The rhythmof the straight line in rectangular opposition indicates
+> The rhythm of the straight line in rectangular opposition indicates
 > *the need for equivalence* of these two aspects in life: *the equal value of the material and spiritual,
 > the masculine and feminine, the collective and individual, etc.*
 > Just as the vertical line differes in character from the horizontal, so in life the two aspects have their inherent and opposed character.
 > But just as in art these lines have different dimensions, so individuals and their groups differ in strength or size.
 > *Art demonstrates that life, through equivalence of its opposed aspects - despite tehir different nature - can approach real equilibrium.*
+(p. 254)
+
+> Art demonstrates that the true realization of real life requires *individual liberty.*
+> ....
+> The new art gives *independent existence* to line and color in that they are *neither oppressed nor deformed by particular form,* but
+> establish their own limitations *appropriate to their nature.*
+> Likewise, in future life society will allow each individual in *independent existence consistent with his own character.*
+(p. 255)
+
+> When we understand the equivalence of contrary oppositions of art's rhythm, we work more consciously to build truly human life.
+> For least attention is given to establishing equilibrium through *equivalence of the two fundamental oppositions.*
+(p. 257)
+
+> If evil is synonymous with abolition and thus with suffering, and
+> good is synonymous with creation and thus with joy, then in real life good and evil destroy each other.
+(p. 260)
+
+> *[C]oncrete life is our actual human life, and it is logical that we are constrained to givit first attention.*
+(p. 263)
+
+> If all men were just and honest, all would be well and universal equilibrium would be spontaneously established.
+(p. 265)
+
+> 
+(p. 265)
+
 
 
 
