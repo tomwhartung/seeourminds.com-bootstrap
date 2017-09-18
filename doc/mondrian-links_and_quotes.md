@@ -11,7 +11,9 @@ Links to and quotes from works by Piet Mondrian.
 
 # Quotes
 
-## The New Art - The New Life: Thc Culture of Pure Relationships
+## The New Art - The New Life: The Culture of Pure Relationships (1931)
+
+Written over a period of three years, based on ideas developed over the previous decade, but never published during his lifetime.
 
 *Emphasis in original.*
 
@@ -56,11 +58,54 @@ Links to and quotes from works by Piet Mondrian.
 > If all men were just and honest, all would be well and universal equilibrium would be spontaneously established.
 (p. 265)
 
-> 
-(p. 265)
+> Capitalism as cultivated until now is a limiting form that is abolishing itself and
+> will be abolished in the culture of equivalent relationships.
+(p. 266)
 
+> A just solution must be found, for all human beings are basically equal and all are entitled to an equivalent existence.
+> This is not achieved by charity or love or friendship, for these qualities cannot create pure relationships.
+> *The essential value of each individual entitles him to an existence equivalent to that of others;*
+> if disabled, he must be supported *in keeping with the value* that he is unable to realize; he is a communal responsibility.
+> This is important not only for those who are incapable of contributing equivalent values,
+> but also for the others who, being assured of a livelihood, will have the strength to cultivate themselves,
+> to live their own lives, that is, to give u p their dependence upon limiting forms.
+> The entire community would thus benefit.
+(p. 267)
 
+> Just as art itself has slowly created a new plastic expression of more real equilibrium,
+> life itself will slowly create this equilibrium in a new social and economic organization.
+(p. 269)
 
+> High universal morality finds its expression in the apogee of the culture of equivalent relationships.
+> Art in its end demonstrates that only line and color free from all oppression of form can constitute equivalent relationships.
+> Thus in life only the free individual and groups of free individuals can form a mutually equivalent organization and
+> become capable of realizing the content of high universal morality, which prescibes that we live for each and for all.
+(p. 270)
+
+**This sums it up quite nicely:**
+
+> Every day we are astonished by the complete absence of true love, friendship, brotherhood, kindness.
+> Centuries and centuries ago the great mesage of universal love was proclaimed: although its influence is undeniable, man has not changed.
+> Therefore, let us not insist upon what has shown itself as unrealizable.
+> Art demonstrates that *life impels humanity toward equivalence of its two opposed aspects and
+> thus toward the destruction of individual limitations.*
+> This is how life can realize the high ideals proclaimed so long ago.
+(p. 273)
+
+## Introduction to The New Art - The New Life (1932)
+
+> The culture of art demonstrates that only *man's development* in the distant future can create
+> universal equilibrium through the *establishment of equivalent relationships.*
+> These relationships are already realized in pure art - art free from figuration and all limiting form - expressing the
+> beauty of equivalent relationships exclusively through pure line and color.
+> This art is an image of the ideal human goal toward which humanity is moving.
+(p. 278)
+
+> Until now the search for universal equilibrium has been neglected in favor of individual interests.
+> Art demonstrates that, as long as these dominate, world equilibrium cannot exist.
+> To achieve universal equilibrium, the new art had to sacrifice the beauty of limiting and particular form in order to
+> establish equivalent relationships through their universal aspect of color and line.
+(p. 280)
 
 ## Liberation from Oppression in Art and Life (1939-1940)
 
