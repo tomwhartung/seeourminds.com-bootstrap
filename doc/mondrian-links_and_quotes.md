@@ -6,8 +6,8 @@ Links to and quotes from works by Piet Mondrian.
 # Links
 
 - [Neoplasticism in Painting (1917-1918)](https://modernistarchitecture.wordpress.com/2010/10/17/piet-mondrian%E2%80%99s-%E2%80%9Cneoplasticism-in-painting%E2%80%9D-1917-1918/)
-- [Plastic Art and Pure Plastic Art - Part 1](https://arthistoryproject.com/artists/piet-mondrian/the-collected-writings-of-piet-mondrian/plastic-art-and-pure-plastic-art/)
-- [Plastic Art and Pure Plastic Art - Part 2](https://arthistoryproject.com/artists/piet-mondrian/the-collected-writings-of-piet-mondrian/plastic-art-and-pure-plastic-art-part-2/)
+- [Plastic Art and Pure Plastic Art - Part 1 (1936)](https://arthistoryproject.com/artists/piet-mondrian/the-collected-writings-of-piet-mondrian/plastic-art-and-pure-plastic-art/)
+- [Plastic Art and Pure Plastic Art - Part 2 (1936)](https://arthistoryproject.com/artists/piet-mondrian/the-collected-writings-of-piet-mondrian/plastic-art-and-pure-plastic-art-part-2/)
 
 # Quotes
 
@@ -106,6 +106,23 @@ Written over a period of three years, based on ideas developed over the previous
 > To achieve universal equilibrium, the new art had to sacrifice the beauty of limiting and particular form in order to
 > establish equivalent relationships through their universal aspect of color and line.
 (p. 280)
+
+This introduction ends with a paragraph that addresses people who are not ready for abstract art.
+
+## Neo-Plastic (1938)
+
+> Neo-Plastic reduces particular form to its fundamental elements, that is, to straight lines in rectangular opposition.
+> We then can say that Neo-Plastic annihilates limited form and creates pure relationships.
+> For in Neo-Plastic composition, the straight lines constantly intersect each other,
+> so that the rectangles apparently formed are not asserted as such.
+> The relationships are established determinately.  Color is primary.
+> Because of the inherent consistency of the plastic means, there is real equivalence between these means and
+> the space represented by the ground [*le fond*]: the work is a unity.
+> The relationship of position - the right angle - is constant.
+> Through opposition, the relationships of dimension vary continually so that all symmetry can be destroyed.
+> Precisely through these variable relationships in Neo-Plastic composition,
+> the static character of the constant relationship is annihilated and the work can be dynamic and truly human.
+(p. 305)
 
 ## Liberation from Oppression in Art and Life (1939-1940)
 
