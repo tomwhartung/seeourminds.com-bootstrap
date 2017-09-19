@@ -26,8 +26,11 @@ All people are roughly equivalent, just different shapes and colors.
 - People tend to appreciate this
 - What someone says and How they act is more important to me than how they look
 - Our bodies are restrictive, confining, a jail (Lose This Skin)
+- I for one believe those who seek out plastic surgery would be better off investing in learning yoga and meditation
+- Proof of the importance of promoting this way of looking at things is evident in the extreme behavior of beautiful women who
+make themselves ill (anorexia and bulemia), destroying their inner beauty, in an effort to be more superficially beautiful
 
-# Sick of This and That
+# Sick of All the *Isms
 
 Sick of ["racism,"](http://www.recordnet.com/article/20130105/A_OPINION0623/301050313) sexism, ageism, and all the rest.
 
@@ -35,6 +38,8 @@ Sick of ["racism,"](http://www.recordnet.com/article/20130105/A_OPINION0623/3010
 - Being aware of types may cause some to build prejudices against them.
   - I think this is already going on, on a sub-conscious level
   - Greater awareness can help make any bias work for rather than against us and our ideals
+
+Decisions made on the basis of external qualities are bound to be erroneous at best, and at worst become self-fulfilling prophecies.
 
 # Harmonious Relationships
 
