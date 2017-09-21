@@ -35,6 +35,10 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > Rightly seen, there remains *a single path of evolution* that, regardless of time, *is identical for life and for art.*
 (p. 249)
 
+> By using subject matter or even particular form alone, figurative art always shows a descriptive,
+> literary side that veils the purely plastic expression of line, color, and relationships.
+(p. 251)
+
 > However, even in the new aesthetic, the word "equilibrium" has caused many misunderstandings and repeated errors.
 > The only way to correct them will be by attentive study of the plastic expression of the new art.
 > It will be seen that the equilibrium in the new art is not a static state without action, as is generally thought but,
@@ -58,6 +62,7 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > The new life will attain this liberty materially and spiritually.
 > Although joined to others by mutual equivalent relationships, the individual will be no less free,
 > because of the equivalence of these relationships.
+>
 > The new art gives *independent existence* to line and color in that they are *neither oppressed nor deformed by particular form,* but
 > establish their own limitations *appropriate to their nature.*
 > Likewise, in future life society will allow each individual in *independent existence consistent with his own character.*
@@ -66,6 +71,12 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > Art in its end shows that individual liberty - until now an "ideal" - will become reality in the distant future.
 > This requires a stage of evolution in which man will no longer abuse his liberty.
 (p. 255)
+
+> By following the rhythm of the two contrary oppositions of the straight line, we can say
+> that the real life basic to man is simply the action of equilibrated opposition - for example,
+> the double movement of respiration, which is contrary and complementary.
+> It is a pure expression of vital rhythm....
+(p. 256)
 
 > When we understand the equivalence of contrary oppositions of art's rhythm, we work more consciously to build truly human life.
 > For least attention is given to establishing equilibrium through *equivalence of the two fundamental oppositions.*
@@ -80,14 +91,20 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 (p. 257)
 
 > Whether we conceive life as joy or as suffering depends on which is most important to us: abolition or creation.
+>
 > The beauty and the misery of concrete life consists precisely in the fact that we can escape neither abolition nor creation,
 > thus neither joy nor suffering.
 (p. 259)
 
 > If evil is synonymous with abolition and thus with suffering, and
 > good is synonymous with creation and thus with joy, then in real life good and evil destroy each other.
+>
 > But in concrete life good and evil oppose each other.
 > And it is also a characteristic of life's beauty and misery that we can escape neither one.
+(p. 260)
+
+> But the new art also reveals another thing of the greatest importance: *to show ourselves as we really are.*
+> It reveals that frankness and sincerity are the primordial conditions for the new life.
 (p. 260)
 
 > Nothing is more unfortunate for life than the concealment of reality: truth.
@@ -100,6 +117,7 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 
 > The actions of creation and abolition will become increasingly united,
 > so that more and more we will be able to create by abolishing.
+>
 > Gradually the long periods of abolition and of creation will diminish;
 > gradually peace and war will become one and annihilate each other.
 > As we appropach *equivalence of the two contrary aspects within us and outside us,*
@@ -108,9 +126,10 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 
 > The culture of art clearly shows that life is *continual transformation* in the sense of growth from birth until death.
 > Nothing recurs in the same way, nor remains the same.  Thus *life itself is opposed to all conservatism.*
-> Only for a time do the new forms recur in a similar way.  Yest, are they actually similar?
+> Only for a time do the new forms recur in a similar way.  Yet, are they actually similar?
 > The fact that they often seem identical sustains the conservative mentality, and causes error.
-> Certainly, conservative action is p resent in life but always opposed to creative action,
+>
+> Certainly, conservative action is present in life but always opposed to creative action,
 > so that each annihilates the other, and progress - growth - continues.
 (p. 261)
 
@@ -122,16 +141,19 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > producers and consumers in equivalent mutual relationships.*
 (p. 262)
 
+> The creation of the machine itself proves that man has already lost much of his animal force and has therefore sought to replace it.
 > The machine can free man from his state of slavery.
+>
 > This cannot happen in a single day.
 > But in time the machine can restore man to himself.
 > For man *does not live in order to work; he works in order to "live."*
 (p. 262)
 
 > The content of Western culture is above all to make man conscious.
+>
 > Man was not originally conscious of the life deep within him, which we have called "real life" (the essential in man).
-> He was mor or less conscious of the concrete side of life - the physical, the sensual, the intellectual.
-> *Therefore, concrete life is our actual human life, and it is logical that we are constrained to givit first attention.*
+> He was more or less conscious of the concrete side of life - the physical, the sensual, the intellectual.
+> *Therefore, concrete life is our actual human life, and it is logical that we are constrained to give it first attention.*
 (p. 263)
 
 > If life and art demonstrate that evolution takes place through the action of creation and abolition,
@@ -141,15 +163,27 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > But those who see both actions as reciprocal understand life as *eternal growth.*
 (p. 264)
 
+> The more human progress asserts itself, the more violently does natural instinct fight against it.
+> For progress involves *diminishing the privileges of the natural state.*
+>
+> This explains the present hostility to all manifestations of progresss and the reactionary efforts in art and in life.
+>
+> These arise from a narrow conception, from a failure to see clearly.  One does not see the improvement progress brings.
+> One is not aware that despite all its defects - which are simply vestiges of man's primitive state - the true content of life
+> not only remains intact but shets its harmful disguises.
+(pp. 264-265)
+
 > If all men were just and honest, all would be well and universal equilibrium would be spontaneously established.
+> If kings were just, a republic would be no better than a monarchy.
 (p. 265)
 
 > In life as in art, we must reckon with reality.  Not all men are just.
 > That is why those who are just must try *to elevate the true and the just in man,
 > must strive to create situations favorable to this development, and must attempt to
 > establish a mutual organization that prevents disequilibrium and constrains man to be just in his social relationships.*
-(p. 265)
-
+>
+> By transforming social organization, we transform the individual.
+> Those who attept to oppose the new order will nevertheless be obliged to follow it.
 > There will be nothing despotic in this constraint.
 > And in a probably distant future, order will be imposed only by *mutual necessity.*
 (p. 265)
