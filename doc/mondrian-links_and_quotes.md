@@ -18,17 +18,33 @@ Written over a period of three years, based on ideas developed over the previous
 *Emphasis in original.*
 
 > If art is an expression of life and anticipates it, we can state that the new life is *the culture of equivalent relationships.*
-> ....
+> Just as with the plastic means in art, it is evident that for this life our mentality must become more ore less purified,
+> not in an old-fashioned puritanical way, but so as to rise above the oppression of limiting, particular forms.
 > Thus in the same way as art, life reaches a state of real equilibrium
 > *through pure and equivalent relationships of increasingly free individuals.*
 (p. 248)
 
-> [T]he equilibrium in the new art is ... *a continuous and mutually annihilating opposition of equivalent but unequal elements.*
+> Today we see subject and particular form, once of such great importance in the work,
+> rejected not only as being a primitive means of expression, but also as limiting expression.
+> Until now their use has been prolongd by tradition and necessity - equally by convention and inertia.
+(p. 249)
+
+> In this evolution of art and life it is sincerity, rather than conformity, that matters:
+> In life every sincere effort leads to human evolution, and it is the same in art.
+> Rightly seen, there remains *a single path of evolution* that, regardless of time, *is identical for life and for art.*
+(p. 249)
+
+> However, even in the new aesthetic, the word equilibrium has caused many misunderstandings and repeated errors.
+> The only way to correct them will be by attentive study of the plastic expression of the new art.
+> It will be seen that the equilibrium in the new art is not a static state without action, as is generally thought but,
+> on the contrary, *a continuous and mutually annihilating opposition of equivalent but unequal elements.*
 (p. 252)
 
 > *The physical aspect of man, of life, diminishes in opposition to the spiritual aspect, which becomes stronger.*
 (p. 254)
 
+> It is therefore of great importance for humanity that art manifest in an exact way the constant but varying
+> rhythm of opposition of the two principal aspects of all life.
 > The rhythm of the straight line in rectangular opposition indicates
 > *the need for equivalence* of these two aspects in life: *the equal value of the material and spiritual,
 > the masculine and feminine, the collective and individual, etc.*
@@ -38,7 +54,9 @@ Written over a period of three years, based on ideas developed over the previous
 (p. 254)
 
 > Art demonstrates that the true realization of real life requires *individual liberty.*
-> ....
+> The new life will attain this liberty materially and spiritually.
+> Although joined to others by mutual equivalent relationships, the individual will be no less free,
+> because of the equivalence of these relationships.
 > The new art gives *independent existence* to line and color in that they are *neither oppressed nor deformed by particular form,* but
 > establish their own limitations *appropriate to their nature.*
 > Likewise, in future life society will allow each individual in *independent existence consistent with his own character.*
