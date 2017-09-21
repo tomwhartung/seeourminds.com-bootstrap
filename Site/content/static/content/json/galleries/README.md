@@ -18,14 +18,19 @@ then we will **NEED TO UPDATE THE LINK IN ANY POSTS THAT REFER TO THE IMAGE!!**
 
 ## Medium.com/@seeourminds
 
-Article "The Good..." contains a link to image:
+Article "The Good..." contains a link to the image:
 - Dana Scully: /image/2700-fictional-tv-x_files/2720/
 
-Article "...The Bad..." contains a link to image:
+Article "...The Bad..." contains a link to the image:
 - Woody Allen: /image/0500-real-famous/0500/
 
-Article "...And The Ugly" contains a link to image:
+Article "...And The Ugly" contains a link to the image:
 - Padme Amidala: /image/1200-fictional-movies-star_wars-prequel/1200/
+
+## Medium.com/@tomwhartung
+
+Article "The New Art - The New Life: 100 Years Later" contains a link to the gallery:
+- Mondrianesque Compositions: https://www.seeourminds.com/gallery/9600-generic_images-experiments-mondrian/
 
 # Bad Characters!
 
