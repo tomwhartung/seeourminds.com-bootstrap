@@ -63,8 +63,20 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > Likewise, in future life society will allow each individual in *independent existence consistent with his own character.*
 (p. 255)
 
+> Art in its end shows that individual liberty - until now an "ideal" - will become reality in the distant future.
+> This requires a stage of evolution in which man will no longer abuse his liberty.
+(p. 255)
+
 > When we understand the equivalence of contrary oppositions of art's rhythm, we work more consciously to build truly human life.
 > For least attention is given to establishing equilibrium through *equivalence of the two fundamental oppositions.*
+(pp. 256-257)
+
+> With regard to limiting forms, it is not only conventional forms that constitute obstacles to the new life,
+> but so do most of the new forms arising in political, social, and economic areas.
+> For instance, aristocratic limitations are re-created under democratic forms, and "socialism" often proves
+> synonymous with bourgeoisie.
+> And with regard to equivalence, we can say that modern man, although cultivated and refined,
+> despite his spiritual improvement is not of really new mentality if he fails to seek equivalence.
 (p. 257)
 
 > Whether we conceive life as joy or as suffering depends on which is most important to us: abolition or creation.
@@ -94,14 +106,32 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > we will gradually be less "lived by" life and become more capable of "living."
 (p. 261)
 
+> The culture of art clearly shows that life is *continual transformation* in the sense of growth from birth until death.
+> Nothing recurs in the same way, nor remains the same.  Thus *life itself is opposed to all conservatism.*
+> Only for a time do the new forms recur in a similar way.  Yest, are they actually similar?
+> The fact that they often seem identical sustains the conservative mentality, and causes error.
+> Certainly, conservative action is p resent in life but always opposed to creative action,
+> so that each annihilates the other, and progress - growth - continues.
+(p. 261)
+
 > The perfecting of science is one of the principal ways by which human progress leads to a more equilibrated state.
 (p. 262)
 
-> The machine can free man from his state of slavery.  This cannot happen in a single day.
-> But in time the machine can restore man to himself.  For man *does not live in order to work; he works in order to "live."*
+> In all areas of life, social and economic, we must create new organizations - not in the old way,
+> dominated by other organizations - but as true socialism envisages, *self-governed organizations composed of
+> producers and consumers in equivalent mutual relationships.*
 (p. 262)
 
-> *[C]oncrete life is our actual human life, and it is logical that we are constrained to givit first attention.*
+> The machine can free man from his state of slavery.
+> This cannot happen in a single day.
+> But in time the machine can restore man to himself.
+> For man *does not live in order to work; he works in order to "live."*
+(p. 262)
+
+> The content of Western culture is above all to make man conscious.
+> Man was not originally conscious of the life deep within him, which we have called "real life" (the essential in man).
+> He was mor or less conscious of the concrete side of life - the physical, the sensual, the intellectual.
+> *Therefore, concrete life is our actual human life, and it is logical that we are constrained to givit first attention.*
 (p. 263)
 
 > If life and art demonstrate that evolution takes place through the action of creation and abolition,
@@ -174,6 +204,13 @@ This is a good quote to support using spiritual portraits for transparency and b
 > In art, Neo-Plastic demonstrates this necessity most exactly.
 > Through intersecting lines, the mutual relationships destroy each plane's separateness so that all unite completely.
 (p. 268)
+
+> Religion became a limiting form, as the church, but shows its true content as it progressively frees itself from
+> its trappings in the course of human culture.
+> If art demonstrates that the mutual separation of forms increases their intrinsic value and produces a more perfect union,
+> we can also note with satisfaction that the separation of church and state, the separation of religion from learning or philosophy.
+> Liberated and restored to independence, everything more easily achieves profundity.
+(p. 269)
 
 > Just as art itself has slowly created a new plastic expression of more real equilibrium,
 > life itself will slowly create this equilibrium in a new social and economic organization.
