@@ -15,7 +15,7 @@ Links to and quotes from works by Piet Mondrian.
 
 Written over a period of three years, based on ideas developed over the previous decade, but never published during his lifetime.
 
-*Emphasis in original.*
+*All emphasis is in the original.*
 
 > If art is an expression of life and anticipates it, we can state that the new life is *the culture of equivalent relationships.*
 > Just as with the plastic means in art, it is evident that for this life our mentality must become more ore less purified,
@@ -29,12 +29,13 @@ Written over a period of three years, based on ideas developed over the previous
 > Until now their use has been prolongd by tradition and necessity - equally by convention and inertia.
 (p. 249)
 
-> In this evolution of art and life it is sincerity, rather than conformity, that matters:
+In this evolution of art and life it is sincerity, rather than conformity, that matters:
+
 > In life every sincere effort leads to human evolution, and it is the same in art.
 > Rightly seen, there remains *a single path of evolution* that, regardless of time, *is identical for life and for art.*
 (p. 249)
 
-> However, even in the new aesthetic, the word equilibrium has caused many misunderstandings and repeated errors.
+> However, even in the new aesthetic, the word "equilibrium" has caused many misunderstandings and repeated errors.
 > The only way to correct them will be by attentive study of the plastic expression of the new art.
 > It will be seen that the equilibrium in the new art is not a static state without action, as is generally thought but,
 > on the contrary, *a continuous and mutually annihilating opposition of equivalent but unequal elements.*
@@ -50,7 +51,7 @@ Written over a period of three years, based on ideas developed over the previous
 > the masculine and feminine, the collective and individual, etc.*
 > Just as the vertical line differes in character from the horizontal, so in life the two aspects have their inherent and opposed character.
 > But just as in art these lines have different dimensions, so individuals and their groups differ in strength or size.
-> *Art demonstrates that life, through equivalence of its opposed aspects - despite tehir different nature - can approach real equilibrium.*
+> *Art demonstrates that life, through equivalence of its opposed aspects - despite their different nature - can approach real equilibrium.*
 (p. 254)
 
 > Art demonstrates that the true realization of real life requires *individual liberty.*
@@ -66,12 +67,49 @@ Written over a period of three years, based on ideas developed over the previous
 > For least attention is given to establishing equilibrium through *equivalence of the two fundamental oppositions.*
 (p. 257)
 
+> Whether we conceive life as joy or as suffering depends on which is most important to us: abolition or creation.
+> The beauty and the misery of concrete life consists precisely in the fact that we can escape neither abolition nor creation,
+> thus neither joy nor suffering.
+(p. 259)
+
 > If evil is synonymous with abolition and thus with suffering, and
 > good is synonymous with creation and thus with joy, then in real life good and evil destroy each other.
+> But in concrete life good and evil oppose each other.
+> And it is also a characteristic of life's beauty and misery that we can escape neither one.
 (p. 260)
+
+> Nothing is more unfortunate for life than the concealment of reality: truth.
+> Since life is truth, life is then concealed.
+(p. 260)
+
+> By enclosing ourselves within the small circle of what is agreeable to us, we unjustly separate ourselves from others,
+> from universal life and all its beauties, which then remain concealed.
+(p. 261)
+
+> The actions of creation and abolition will become increasingly united,
+> so that more and more we will be able to create by abolishing.
+> Gradually the long periods of abolition and of creation will diminish;
+> gradually peace and war will become one and annihilate each other.
+> As we appropach *equivalence of the two contrary aspects within us and outside us,*
+> we will gradually be less "lived by" life and become more capable of "living."
+(p. 261)
+
+> The perfecting of science is one of the principal ways by which human progress leads to a more equilibrated state.
+(p. 262)
+
+> The machine can free man from his state of slavery.  This cannot happen in a single day.
+> But in time the machine can restore man to himself.  For man *does not live in order to work; he works in order to "live."*
+(p. 262)
 
 > *[C]oncrete life is our actual human life, and it is logical that we are constrained to givit first attention.*
 (p. 263)
+
+> If life and art demonstrate that evolution takes place through the action of creation and abolition,
+> then all the miseries and all the advantages brought by the progresss of civilization *are so many necessities for man's evolution.*
+> But we generally see only one or the other of these two actions: thus life is seen either as declining or as unchanging.
+> Creation alone would mean no change, and abolition alone would mean ruin.
+> But those who see both actions as reciprocal understand life as *eternal growth.*
+(p. 264)
 
 > If all men were just and honest, all would be well and universal equilibrium would be spontaneously established.
 (p. 265)
