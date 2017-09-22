@@ -194,14 +194,21 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > General concentration upon proper and mutual relationships is the way to solve all the problems of society.
 (p. 266)
 
+> Concentration on the mutual relationships of social life will change our conception of life, and thus our efforts.
+> Instead of complaining, for instance, that men of our time are interested only in making money by any means,
+> we must try to create social and economic circumstances that not only prefent them from resorting to unjust means,
+> but will actually impose just means and make them possible.
 > Because of corrupt conditions, man is often pressed, if not forced, to be exclusively preoccupied with money.
-> Money, that invaluable means of cifilization, should be only a "means of exchange" and not
+> Money, that invaluable means of civilization, should be only a "means of exchange" and not
 > assume a *limiting form* that oppresses and debases other forms of life.
 (p. 266)
 
 > Capitalism as cultivated until now is a limiting form that is abolishing itself and
 > will be abolished in the culture of equivalent relationships.
-> ....
+> Already, today's disequilibrated social and economic conditions show that this form has matured and is about to transform itself.
+> This form, instead of becoming open, so as to make possible an equivalent distribution of values,
+> will probably remain a "form" - as art clearly shows by its transformation of particular form into
+> purified form before its destruction of all limited form.
 > Although a more stable world equilibrium will follow, the new form will still be too dominated by money to allow it to
 > spread equivalently through the world.
 > For the future, Neo-Plastic demonstrates for every area *an organization of equivalent relationships and not a new form.*
@@ -212,11 +219,14 @@ This is a good quote to support using spiritual portraits for transparency and b
 > Love and friendship play an important role in mutual nonequivalent exchange.
 > The new art demonstrates that in order to achieve real equivalence the oppositions of a relationship must be pure.
 > To become pure they must first be separated, that is, disengaged from whatever they are confounded with.
+>
 > When the two aspects of life are confounded, hypocrisy controls and betrays us.
 > This is why it is enormously important for the new art to establish *purified forms and pure relationships:
 > they do not conceal, they are real and show themselves for what they are.*
 (p. 267)
 
+> In communal life the question will always arise whther all are capable of contributing equivalent value if they
+> lack the physical or mental power; physically, for example, old people, children, and especially the sick.
 > A just solution must be found, for all human beings are basically equal and all are entitled to an equivalent existence.
 > This is not achieved by charity or love or friendship, for these qualities cannot create pure relationships.
 > *The essential value of each individual entitles him to an existence equivalent to that of others;*
@@ -235,9 +245,20 @@ This is a good quote to support using spiritual portraits for transparency and b
 
 > In politics it is not enough to work toward internally equivalent relationships, we must above all
 > achieve equivalent relationships of international order.
+>
 > In art, Neo-Plastic demonstrates this necessity most exactly.
 > Through intersecting lines, the mutual relationships destroy each plane's separateness so that all unite completely.
-(p. 268)
+>
+> The rectangular planes of varying dimensions and colors visibly demonstrate that *internationalism* does not mean
+> chaos ruled by monotony but an ordered and clearly divided unity.
+> In Neo-Plastict there are, in fact, very definite boundaries.
+(p. 268-269)
+
+> Although Neo-Plastic establishes the goal of human culture, this goal points the way for tomorrow.
+> And if the mutual equality that Neo-Plastic manifests cannot be realized in life today,
+> the new art nevertheless shows that pure forms and relationships can be established,
+> and thus a *new organization* that already makes possible a freer and more really unified life.
+(p. 269)
 
 > Religion became a limiting form, as the church, but shows its true content as it progressively frees itself from
 > its trappings in the course of human culture.
