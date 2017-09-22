@@ -271,21 +271,73 @@ This is a good quote to support using spiritual portraits for transparency and b
 > life itself will slowly create this equilibrium in a new social and economic organization.
 (p. 269)
 
+> Conventional morality, however, is not the pure expression of high universal morality.
+> Just as in the figurative work of art, purely plastic expression is not only confused but distorted,
+> so in life conventional morality is confused and distored by enclosing itself within its various forms.
+(p. 270)
+
+> What high universal morality - which is an expression of human eveolution - requires is
+> precisely *the same thing that life* - which is equally an expression of human evolution - demands.
+(p. 270)
+
+> High universal morality missed its goal because of the limited understanding of men, whose very nature must oppose it.
+> This is very logical because high universal morality is not the essential expression of the culture of the past,
+> which is characterized as the culture of particular form.
+> Despite the fact that high universal morality could not be realized, men nevertheless sought to impose it in the
+> form of conventional morality.
+> Thus arose all the hypocritical and corrupt conditions for which life has been the scene.
+(p. 270)
+
 > High universal morality finds its expression in the apogee of the culture of equivalent relationships.
 > Art in its end demonstrates that only line and color free from all oppression of form can constitute equivalent relationships.
 > Thus in life only the free individual and groups of free individuals can form a mutually equivalent organization and
 > become capable of realizing the content of high universal morality, which prescibes that we live for each and for all.
 (p. 270)
 
+> If the culture of particular form creates and cultivates this form and equally destroys it,
+> morality must accord with this double action.  *It must accept evil as well as good.*
+>
+> But the distorted or confused morality of the past could not accept evil and considered it to be abnormal, a disease, a defect of life.
+(p. 271)
+
+> Toward the end of the culture of particular forms, high universal morality - which basically contains
+> only good - appears to dictate that we must do evil to these forms.
+> But actually, it envisages only the establishment of pure and equivalent relationships, and therefore requires purified forms.
+(p. 271)
+
+> The new morality therefore demands that we *accept the abolition of oppressive particular forms;*
+> in this sense it is for a time *a morality of evil.*
+> But it is against the mutual abolition of particular forms to the point of their total destruction,
+> because the new culture needs *what is essential in these forms* for its new creation.
+>
+> The new morality therefore requires that we recognize evil as being basically good.
+> For high universal morality transcends the limitations of time.
+(p. 271)
+
+> Because of the need to secure his personal existence, man, egoist by nature, will remain so throughout his evolution.
+> But in the course of evolution, egoism at the expense of others is increasingly transformed into egoism directly benefiting all.
+(p. 273)
+
 **This sums it up quite nicely:**
 
 > Every day we are astonished by the complete absence of true love, friendship, brotherhood, kindness.
-> Centuries and centuries ago the great mesage of universal love was proclaimed: although its influence is undeniable, man has not changed.
+> Centuries and centuries ago the great message of universal love was proclaimed: although its influence is undeniable, man has not changed.
+>
 > Therefore, let us not insist upon what has shown itself as unrealizable.
 > Art demonstrates that *life impels humanity toward equivalence of its two opposed aspects and
 > thus toward the destruction of individual limitations.*
 > This is how life can realize the high ideals proclaimed so long ago.
 (p. 273)
+
+> As the new life approaches, a new morality is clearly being established, clearly founded on the new culture revealed by life and by art.
+> During the culture of equivalent relationships, it will be based on the apogee of this culture, that is,
+> on the realization of *equivalent mutual relationships* that the new life will attain.
+>
+> The new morality is that of *social life* in contrast to the morality of the past,
+> which strove toward the same goal but in reality fostered only particular life, individual or collective.
+> While the morality of the past was sustained by church and state, the new morality is sustained by society.
+> Its content, conceived abstractly, is *universal international justice.*
+(p. 274)
 
 ## Introduction to The New Art - The New Life (1932)
 
