@@ -18,7 +18,7 @@ Written over a period of three years, based on ideas developed over the previous
 *All emphasis is in the original.*
 
 > If art is an expression of life and anticipates it, we can state that the new life is *the culture of equivalent relationships.*
-> Just as with the plastic means in art, it is evident that for this life our mentality must become more ore less purified,
+> Just as with the plastic means in art, it is evident that for this life our mentality must become more or less purified,
 > not in an old-fashioned puritanical way, but so as to rise above the oppression of limiting, particular forms.
 > Thus in the same way as art, life reaches a state of real equilibrium
 > *through pure and equivalent relationships of increasingly free individuals.*
@@ -157,7 +157,7 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 (p. 263)
 
 > If life and art demonstrate that evolution takes place through the action of creation and abolition,
-> then all the miseries and all the advantages brought by the progresss of civilization *are so many necessities for man's evolution.*
+> then all the miseries and all the advantages brought by the progress of civilization *are so many necessities for man's evolution.*
 > But we generally see only one or the other of these two actions: thus life is seen either as declining or as unchanging.
 > Creation alone would mean no change, and abolition alone would mean ruin.
 > But those who see both actions as reciprocal understand life as *eternal growth.*
@@ -166,11 +166,11 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > The more human progress asserts itself, the more violently does natural instinct fight against it.
 > For progress involves *diminishing the privileges of the natural state.*
 >
-> This explains the present hostility to all manifestations of progresss and the reactionary efforts in art and in life.
+> This explains the present hostility to all manifestations of progress and the reactionary efforts in art and in life.
 >
 > These arise from a narrow conception, from a failure to see clearly.  One does not see the improvement progress brings.
 > One is not aware that despite all its defects - which are simply vestiges of man's primitive state - the true content of life
-> not only remains intact but shets its harmful disguises.
+> not only remains intact but sheds its harmful disguises.
 (pp. 264-265)
 
 > If all men were just and honest, all would be well and universal equilibrium would be spontaneously established.
@@ -183,7 +183,7 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > establish a mutual organization that prevents disequilibrium and constrains man to be just in his social relationships.*
 >
 > By transforming social organization, we transform the individual.
-> Those who attept to oppose the new order will nevertheless be obliged to follow it.
+> Those who attempt to oppose the new order will nevertheless be obliged to follow it.
 > There will be nothing despotic in this constraint.
 > And in a probably distant future, order will be imposed only by *mutual necessity.*
 (p. 265)
@@ -225,7 +225,7 @@ This is a good quote to support using spiritual portraits for transparency and b
 > they do not conceal, they are real and show themselves for what they are.*
 (p. 267)
 
-> In communal life the question will always arise whther all are capable of contributing equivalent value if they
+> In communal life the question will always arise whether all are capable of contributing equivalent value if they
 > lack the physical or mental power; physically, for example, old people, children, and especially the sick.
 > A just solution must be found, for all human beings are basically equal and all are entitled to an equivalent existence.
 > This is not achieved by charity or love or friendship, for these qualities cannot create pure relationships.
@@ -276,7 +276,7 @@ This is a good quote to support using spiritual portraits for transparency and b
 > so in life conventional morality is confused and distored by enclosing itself within its various forms.
 (p. 270)
 
-> What high universal morality - which is an expression of human eveolution - requires is
+> What high universal morality - which is an expression of human evolution - requires is
 > precisely *the same thing that life* - which is equally an expression of human evolution - demands.
 (p. 270)
 
