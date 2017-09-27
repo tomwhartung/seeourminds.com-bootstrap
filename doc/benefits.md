@@ -1,7 +1,7 @@
 
 # benefits.md
 
-This file hightlights some of the benefits offered by Spiritual Portraits to those who are open-minded enough to embrace them.
+This file hightlights some of the benefits offered by spiritual portraits to those who are open-minded enough to embrace them.
 
 # Dependencies
 
@@ -10,6 +10,16 @@ The benefits one can receive from having spiritual portraits of themself and the
 - Who they are
 - Who their friends are
 - The context of their relationship (work, family, social, etc.)
+
+## Who Will Benefit the Most
+
+These spiritual portraits are not going to appeal to everyone.
+After all it is difficult to sell hambuger to a vegetarian and tofu to a steak-lover.
+
+In general:
+
+- This idea will appeal to people who are more iNtuitive than to Sensing types, because the whole idea is based on abstractions
+- Likewise it will appeal to people who are more Feeling than to Thinking types, because the whole idea is about people
 
 # Insights
 
