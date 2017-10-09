@@ -62,6 +62,42 @@
       "id": "5005",
       "title": "responsive_ad"
     }, {
+      "id": "5006",
+      "title": "Andrew Jackson",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Andrew_Jackson' title='Wikipedia page for Andrew Jackson' target='_blank'>7th President</a> of the USA - Mar. 4, 1829 to Mar. 4, 1837",
+      "gallery_page_teaser": "Andrew Jackson's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "estj-andrew_jackson-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Andrew_jackson_head.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "13", "i_score": "6" },
+         { "n_score": "2", "s_score": "17" },
+         { "f_score": "5", "t_score": "14" },
+         { "j_score": "15", "p_score": "4" }
+      ],
+      "four_letter_type": "ESTJ",
+      "fixed_percentages": "",
+      "archetype": "Te",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "5005",
+      "title": "responsive_ad"
+    }, {
       "id": "5007",
       "title": "Abraham Lincoln (Keirsey.com)",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President</a> of the USA - Mar. 4, 1861 to Apr. 15, 1865",
