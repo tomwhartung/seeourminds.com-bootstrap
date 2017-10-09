@@ -31,7 +31,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "7525",
+      "id": "7522",
       "title": "Bob N.",
       "subtitle_html": "Expert at Buying <a href='http://www.rollingstones.com/' title='Home page of rollingstones.com' target='_blank'>Stones</a> Tickets",
       "gallery_page_teaser": "Bob and I have been to see many concerts together.  We have even seen the Rolling Stones a few times!  Click on the image to learn more!",
@@ -55,7 +55,40 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "7527",
+      "id": "7523",
+      "title": "BJ N",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "BJ N's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "infp-bj_n-1.jpg",
+      "meat_portrait_href": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "15", "s_score": "4" },
+         { "f_score": "12", "t_score": "7" },
+         { "j_score": "8", "p_score": "11" }
+      ],
+      "four_letter_type": "INFP",
+      "fixed_percentages": "",
+      "archetype": "Fi",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "7528",
       "title": "responsive_ad"
     }, {
       "id": "7530",
@@ -105,6 +138,9 @@
       "story_html": "<p>Greg lives in Richmond, Virginia.  He has a BS in Information Systems from <a href='https://www.vcu.edu' title='Home page at vcu.edu' target='_blank'>Virginia Commonwealth University</a> and is now a self-employed independent consultant.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
+    }, {
+      "id": "7577",
+      "title": "responsive_ad"
     }, {
       "id": "7578",
       "title": "Roy B. Scherer",
