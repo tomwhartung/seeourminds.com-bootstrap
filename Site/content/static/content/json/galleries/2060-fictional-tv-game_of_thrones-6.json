@@ -1,5 +1,5 @@
 {
-  "gallery_title": "X",
+  "gallery_title": "Game of Thrones Season 6",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
   "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
@@ -8,11 +8,11 @@
   [
     {
       "id": "0000",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "title": "Margaery Tyrell",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Margaery_Tyrell' title='Wikipedia page for Margaery Tyrell' target='_blank'>Queen Margaery</a> of the <a href='https://en.wikipedia.org/wiki/World_of_A_Song_of_Ice_and_Fire#Westeros' title='Wikipedia page for Westeros' target='_blank'>Seven Kingdoms</a>",
+      "gallery_page_teaser": "Margaery Tyrell's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "enfp-margaery_tyrell-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Margery_Tyrell-Natalie_Dormer.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -20,10 +20,10 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENFP",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Ne",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -54,15 +54,12 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "0003",
-      "title": "responsive_ad"
-    }, {
-      "id": "0006",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "id": "0002",
+      "title": "Tommen Baratheon",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Tommen_Baratheon' title='Wikipedia page for Tommen Baratheon' target='_blank'>King of the Andals and the First Men,</a> Lord of the Seven Kingdoms, and Protector of the Realm",
+      "gallery_page_teaser": "Tommen Baratheon's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "isfp-tommen_baratheon-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Tommen_Baratheon-Dean-Charles_Chapman.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -70,10 +67,10 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "IXXX",
+      "four_letter_type": "ISFP",
       "fixed_percentages": "",
-      "archetype": "Xi",
-      "quiz_type": "K",
+      "archetype": "Fi",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -87,6 +84,43 @@
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
       "contrast_with": { }
+    }, {
+      "id": "0004",
+      "title": "responsive_ad"
+    }, {
+      "id": "0006",
+      "title": "High Sparrow",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/High_Sparrow' xtitle='Wikipedia page for High Sparrow' target='_blank'>High Septon</a>, Father of the Faithful, and Voice of the Seven on Earth",
+      "gallery_page_teaser": "High Sparrow's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "intj-high_sparrow-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:The_High_Sparrow-Jonathan_Pryce.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "0", "i_score": "0" },
+         { "n_score": "0", "s_score": "0" },
+         { "f_score": "0", "t_score": "0" },
+         { "j_score": "0", "p_score": "0" }
+      ],
+      "four_letter_type": "INTJ",
+      "fixed_percentages": "",
+      "archetype": "Ni",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The XXXXXX in this spiritual portrait represents X's dominant trait, XXXXXX (SEE ABOVE FOR POPULAR PHRASES).",
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "explain_aux": "The XXXXXX in this spiritual portrait represents X's auxiliary trait, XXXXXX (SEE ABOVE FOR POPULAR PHRASES).",
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "0008",
+      "title": "responsive_ad"
     }, {
       "id": "0009",
       "title": "square_ad"
