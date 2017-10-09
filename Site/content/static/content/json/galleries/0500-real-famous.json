@@ -88,6 +88,76 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
+      "id": "0512",
+      "title": "Fidel Castro",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Fidel_Castro' title='Wikipedia page for Fidel Castro' target='_blank'>17th President</a> of <a href='https://en.wikipedia.org/wiki/Cuba' title='Wikipedia page for Cuba' target='_blank'>Cuba</a> - Dec. 2, 1976 - Feb. 24, 2008",
+      "gallery_page_teaser": "Fidel Castro's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "enfj-fidel_castro-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Fidel_Castro_in_Washington.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "12", "p_score": "7" }
+      ],
+      "four_letter_type": "ENFJ",
+      "fixed_percentages": "",
+      "archetype": "Fe",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "0515",
+      "title": "Imelda Marcos",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Imelda_Marcos' title='Wikipedia page for Imelda Marcos' target='_blank'>10th First Lady</a> of the <a href='https://en.wikipedia.org/wiki/Philippines' title='Wikipedia page for the Philippines' target='_blank'>Philippines</a> - Dec. 30, 1965 - Feb. 25, 1986",
+      "gallery_page_teaser": "Imelda Marcos's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "enfp-imelda_romualdez_marcos-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Imelda_Marcos_(1984).jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "16", "t_score": "3" },
+         { "j_score": "6", "p_score": "13" }
+      ],
+      "four_letter_type": "ENFP",
+      "fixed_percentages": "",
+      "archetype": "Ne",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
       "id": "0510",
       "title": "square_ad"
     }
