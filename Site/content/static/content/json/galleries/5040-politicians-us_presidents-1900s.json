@@ -34,6 +34,39 @@
       "contrast_with": { }
     }, {
       "id": "5042",
+      "title": "Woodrow Wilson",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Woodrow_Wilson' title='Wikipedia page for Woodrow Wilson' target='_blank'>28th President</a> of the USA - Mar. 4, 1913 to Mar. 4, 1921",
+      "gallery_page_teaser": "Woodrow Wilson's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "intj-woodrow_wilson-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:President_Wilson_1919.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "11", "s_score": "8" },
+         { "f_score": "8", "t_score": "11" },
+         { "j_score": "15", "p_score": "4" }
+      ],
+      "four_letter_type": "INTJ",
+      "fixed_percentages": "",
+      "archetype": "Ni",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "5044",
       "title": "responsive_ad"
     }, {
       "id": "5048",
