@@ -33,9 +33,6 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2203",
-      "title": "responsive_ad"
-    }, {
       "id": "2206",
       "title": "Philip Marlowe",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the novel <a href='https://en.wikipedia.org/wiki/The_Big_Sleep' title='Wikipedia page for the novel, The Big Sleep' target='_blank'>The Big Sleep</a>",
@@ -61,9 +58,12 @@
       "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" },
       "contrast_with": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2216" }
     }, {
+      "id": "2209",
+      "title": "responsive_ad"
+    }, {
       "id": "2212",
       "title": "Jake J. Gittes",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the film <a href='https://en.wikipedia.org/wiki/Chinatown_(1974_film)' title='Wikipedia page for the film Chinatown' target='_blank'>Chinatown</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the Film <a href='https://en.wikipedia.org/wiki/Chinatown_(1974_film)' title='Wikipedia page for the film Chinatown' target='_blank'>Chinatown</a>",
       "gallery_page_teaser": "Jake Gittes' spiritual portrait shows he can use logical reasoning to put the clues he finds together and deduce 'whodunnit.'  Click on the image to learn more!",
       "image_file_name": "estj-jake_j_gittes-1.jpg",
       "meat_portrait_href": "http://www.imdb.com/character/ch0006098/mediaviewer/rm1283329024",
@@ -88,11 +88,41 @@
       "contrast_with": { }
     }, {
       "id": "2214",
-      "title": "responsive_ad"
+      "title": "Cody Jarrett",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Mother%27s_boy' title='Wikipedia page for Mothers Boy' target='_blank'>Mama's Boy</a> in the Film <a href='https://en.wikipedia.org/wiki/White_Heat' title='Wikipedia page for White Heat' target='_blank'>White Heat</a>",
+      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "image_file_name": "entj-cody_jarrett-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:WhiteHeat.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "5", "t_score": "14" },
+         { "j_score": "10", "p_score": "9" }
+      ],
+      "four_letter_type": "ENTJ",
+      "fixed_percentages": "",
+      "archetype": "Te",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
     }, {
       "id": "2216",
       "title": "Mike Hammer",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the film <a href='https://en.wikipedia.org/wiki/Kiss_Me_Deadly' title='Wikipedia page for the film, Kiss Me, Deadly' target='_blank'>Kiss Me, Deadly</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Private_investigator' title='Wikipedia page for Private Investigator' target='_blank'>PI</a> in the Film <a href='https://en.wikipedia.org/wiki/Kiss_Me_Deadly' title='Wikipedia page for the film, Kiss Me, Deadly' target='_blank'>Kiss Me, Deadly</a>",
       "gallery_page_teaser": "The plethora of Green in this spiritual portrait shows Hammer is logical to the point of stubbornness, and the Yellow shows his preference for facts over ideas.  Click on the image to learn more!",
       "image_file_name": "istj-mike_hammer-1.jpg",
       "meat_portrait_href": "http://www.imdb.com/title/tt0048261/mediaviewer/rm749669632",
@@ -114,6 +144,9 @@
       "story_html": "<p>Although traditionally the term <q><a href='https://en.wikipedia.org/wiki/Hardboiled' title='Wikipedia page for hard-boiled fictional characters' target='_blank'>hard-boiled</a></q> applies equally to fictional PIs like Mike Hammer and Philip Marlowe, I suspect Mike is more the <q>hard</q> one, while Philip would be more <q>boiled.</q></p><p>You can sense Hammer's ruthlessness in his spiritual portrait.  The ample quantity and forceful strength of the green show this is not a man you want to mess with!<p>It's <b>extremely important</b> to realize the four pairs of opposites these images portray do <q>not</q> incorporate any tendencies <a href='https://en.wikipedia.org/wiki/Morality' title='Wikipedia page for morality' target='_blank'>morality</a> or <a href='https://en.wikipedia.org/wiki/Psychopathy' title='Wikipedia page for psycohpathy' target='_blank'>psycohpathy</a>.</p><p>This is why it's interesting to contrast this image with the one of <a href='/image/2800-fictional-tv-star_trek/2804' title='Spiritual portrait of Mr. Spock on this site' target='_blank'>Mr. Spock</a>.  Although the images of the two are very similar, and we would do well to not <q>mess with</q> either one, it is difficult to imagine Spock exhibiting the same sort of sometimes sadistic ruthlessness Hammer is capable of.</p>",
       "compare_to": { "gallery_file_name": "2800-fictional-tv-star_trek", "image_id": "2804" },
       "contrast_with": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2206" }
+    }, {
+      "id": "2218",
+      "title": "responsive_ad"
     }
   ]
 }
