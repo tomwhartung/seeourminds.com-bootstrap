@@ -56,9 +56,9 @@
       "contrast_with": { }
     }, {
       "id": "7523",
-      "title": "BJ N",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "BJ N's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "title": "BJ N.",
+      "subtitle_html": "Music Lover and <a href='https://en.wikipedia.org/wiki/Musician' title='Wikipedia page for Musician' target='_blank'>Musician</a>",
+      "gallery_page_teaser": "BJ's spiritual portrait shows he is the opposite type of his father Bob N.  Click on the image to learn more!",
       "image_file_name": "infp-bj_n-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
@@ -74,17 +74,10 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "explain_dom": "The Red in this spiritual portrait represents BJ's dominant trait, his passion.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his passion for music.",
+      "explain_aux": "The Blue in this spiritual portrait represents BJ's auxiliary trait, his openness to ideas.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
+      "story_intro_html": "<p>BJ lives in Midlothian, Virginia.  His father, Bob N., encouraged him to listen to and appreciate music, and ultim....</p>",
+      "story_html": "<p>BJ lives in Midlothian, Virginia.  His father, Bob N., encouraged him to listen to and appreciate music, and ultimately BJ chose a career as a musician.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
