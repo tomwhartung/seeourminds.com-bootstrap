@@ -29,10 +29,10 @@
 
       "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
       "explain_dom": "The Blue in X's spiritual portrait represents their dominant personality trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their preference for making emotional rather than logical decisions.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic/reson/objectivity over emotion/empathy/subjectivity; their preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their preference for making logical/rational/objective decisions.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion/empathy/subjectivity over logic/reason/objectivity; their preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their preference for making emotional/personal/objective rather than logical/rational/objective decisions; their preference for making emotional/personal/subjective decisions.",
       "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
       "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their preference for seeing the world in terms of facts more than ideas.",
 
@@ -40,10 +40,10 @@
 
       "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary personality trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
       "explain_aux": "The Blue in X's spiritual portrait represents their auxiliary personality trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their preference for making emotional rather than logical decisions.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic/reason/objectivity over emotion/empathy/subjectivity; their preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their preference for making logical/rational/objective decisions.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion/empathy/subjectivity over logic/reason/objectivity; their preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their preference for making emotional/personal/subjective decisions.",
       "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
       "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their preference for seeing the world in terms of facts more than ideas.",
 
