@@ -26,15 +26,8 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary trait, their preference for making emotional rather than logical decisions.",
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Blue in Margaery's spiritual portrait represents her dominant personality trait, her openness to ideas.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait in the way she continually adapts to new situations.",
+      "explain_aux": "The Red in Margaery's spiritual portrait represents her auxiliary personality trait, her warmth and compassion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  She demonstrates this trait in her friendliness and the way she cares for poor people.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
@@ -59,15 +52,8 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, Feeling: passion; friendliness; compassion; warmth; preference for emotion over logic.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant trait, their preference for making emotional rather than logical decisions.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Red in Tommen's spiritual portrait represents his dominant personality trait, his preference for the emotional over the logical.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his compassion for others, even those who would do him harm.",
+      "explain_aux": "The Yellow in Tommen's spiritual portrait represents his auxiliary personality trait, his openness to experiences more than ideas.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in the way he is easily manipulated by those who are more ambitious and decisive than he is.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
@@ -96,11 +82,11 @@
       "subject_line": "",
       "tweet_html": "",
 
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
       "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
       "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
       "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
       "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
