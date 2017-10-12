@@ -65,7 +65,7 @@
       "id": "5006",
       "title": "Andrew Jackson",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Andrew_Jackson' title='Wikipedia page for Andrew Jackson' target='_blank'>7th President</a> of the USA - Mar. 4, 1829 to Mar. 4, 1837",
-      "gallery_page_teaser": "This spiritual portrait of Andrew Jackson shows he was very decisive, prefering to use logic rather than emotion when making decisions.  Click on the image to learn more!",
+      "gallery_page_teaser": "This spiritual portrait of Andrew Jackson shows he was very decisive, prefering to use logic but capable of using emotion when making decisions.  Click on the image to learn more!",
       "image_file_name": "estj-andrew_jackson-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Andrew_jackson_head.jpg",
       "composition": "O",
@@ -81,15 +81,8 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of facts more than ideas.",
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Jackson's dominant trait, his objectivity.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrated this trait in his leadership ability and complete intolerance of insubordination in his ranks.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Jackson's auxiliary trait, his realism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
