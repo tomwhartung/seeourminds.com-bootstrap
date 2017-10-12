@@ -52,15 +52,8 @@
       "quiz_type": "K",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Blue in this spiritual portrait represents Wilson's dominant trait, his idealism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Woodrow demonstrated this trait in the way he resisted entering World War I.",
+      "explain_aux": "The Green in this spiritual portrait represents Wilson's auxiliary trait, his cool-headedness and rationality.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  Woodrow demonstrated this trait when he foresaw that the nationwide prohibition of alcohol would be unenforceable.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
@@ -117,15 +110,8 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant trait, their preference for making logical rather than emotional decisions.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, iNtuition: idealism; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Kennedy's dominant trait, his objectivity and cool-headedness.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  JFK demonstrated this trait in the way he remained calm and decisive during the Cuban Missile Crisis.",
+      "explain_aux": "The Blue in this spiritual portrait represents Kennedy's auxiliary trait, his idealism and hope for the future.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  JFK demonstrated this trait in many of his speeches, such as the one he made on May 25th, 1961, calling for the United States to put a man on the moon.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
@@ -150,15 +136,8 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant trait, their preference for seeing the world in terms of facts more than ideas.",
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, Thinking: objectivity; rationality; cool-headedness; preference for logic over emotion.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary trait, their preference for making logical rather than emotional decisions.",
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Johnson's dominant trait, his realism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  LBJ demonstrated this trait when he realized it was pointless to continue his run for re-election in 1968 and dropped out of the race.",
+      "explain_aux": "The Green in this spiritual portrait represents Johnson's auxiliary trait, his objectivity and preference for making logical decisions.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  LBJ demonstrated this trait in his commitment to racial equality.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
       "compare_to": { },
