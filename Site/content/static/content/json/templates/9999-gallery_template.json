@@ -50,7 +50,7 @@
       "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
       "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -86,7 +86,7 @@
       "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
       "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
