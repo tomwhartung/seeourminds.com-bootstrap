@@ -380,15 +380,15 @@ img.story-img-left,
 img.story-img-right {
   display: inline;
   height: auto;
-  width: 25em;
+  width: 40%;
 }
 img.story-img-left {
   float: left;
-  margin: .6em;
+  margin: .5em 1.5em .5em 0;
 }
 img.story-img-right {
   float: right;
-  margin: .6em;
+  margin: .5em 0 .5em 1.5em;
 }
 /*
  * Create our own bootstrap button colors that match the colors in the images
