@@ -376,6 +376,20 @@ figcaption {
   height: auto;
   width: 500px;
 }
+img.story-img-left,
+img.story-img-right {
+  display: inline;
+  height: auto;
+  width: 25em;
+}
+img.story-img-left {
+  float: left;
+  margin: .6em;
+}
+img.story-img-right {
+  float: right;
+  margin: .6em;
+}
 /*
  * Create our own bootstrap button colors that match the colors in the images
  */
