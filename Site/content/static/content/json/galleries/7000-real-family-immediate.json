@@ -3,7 +3,7 @@
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "This gallery contains spiritual portraits of my immediate family.  Click to learn more!",
   "description_html": "<p>These are spiritual portraits of my <a href='https://www.youtube.com/watch?v=k0poEl_n01I' title='Link to youtube video of The Ramones doing Happy Family' target='_blank'>immediate family</a>.</p><p> </p>",
-  "story_html": "<p>This is a rare image of our family, taken around 1968.</p><img src='/static/content/images/stories/family/we_are_a_happy_family-1968.jpg' class='gallery-story-image' /><p>Regarding the spiritual portraits in this gallery (thumbnails below), note that I am the only Introvert in the bunch!  I always felt rather like the black sheep of the family, but would not be surprised if other family members felt the same way at times.</p>",
+  "story_html": "<p>This is a rare image of our family, taken around 1968.</p><a href='/static/content/images/stories/family/we_are_a_happy_family-1968.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/family/we_are_a_happy_family-1968.jpg' class='gallery-story-image' /></a><p>Regarding the spiritual portraits in this gallery (thumbnails below), note that I am the only Introvert in the bunch!  I always felt rather like the black sheep of the family, but would not be surprised if other family members felt the same way at times.</p>",
   "image_list":
   [
     {
