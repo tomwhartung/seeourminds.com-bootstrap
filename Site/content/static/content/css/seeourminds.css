@@ -340,9 +340,15 @@ h4.gallery-image {
    font-style: italic;
    text-decoration: underline;
 }
+img.gallery-story-image {
+  display: block;
+  margin: 1em 0;
+  height: auto;
+  width: 100%;
+}
 img.gallery-image {
-    height: 125px;
-    width: 125px;
+  height: 125px;
+  width: 125px;
 }
 p.fixed-percentages {
    color: red;
@@ -376,17 +382,17 @@ figcaption {
   height: auto;
   width: 500px;
 }
-img.story-img-left,
-img.story-img-right {
+img.story-image-left,
+img.story-image-right {
   display: inline;
   height: auto;
   width: 40%;
 }
-img.story-img-left {
+img.story-image-left {
   float: left;
   margin: .5em 1.5em .5em 0;
 }
-img.story-img-right {
+img.story-image-right {
   float: right;
   margin: .5em 0 .5em 1.5em;
 }
