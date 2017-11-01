@@ -3,7 +3,7 @@
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "I often get my friends to answer the questionnaire so I can learn more about them and draw their image.  View this gallery to see the resultant images, and learn about them as well.",
   "description_html": "<p>These are some images of my friends, from when I wrote the original version when I was in grad school.</p><p>These are images of real live <q>normal</q> people, whom I have known for many years!</p>",
-  "story_html": "",
+  "story_html": "<a href='/static/content/images/stories/friends-richmond/Dec_28_1977.jpg' title='Link to display a full-size copy of this photo on this site'><img src='/static/content/images/stories/friends-richmond/Dec_28_1977.jpg' class='gallery-story-image' /></a><p>See if you can match the people in the photo above with their spiritual portraits below!</p>",
   "image_list":
   [
     {
