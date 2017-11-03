@@ -51,7 +51,7 @@
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -88,7 +88,7 @@
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
