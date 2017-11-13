@@ -88,9 +88,6 @@
       "compare_to": { "gallery_file_name": "5040-politicians-us_presidents-1900s", "image_id": "5040" },
       "contrast_with": { }
     }, {
-      "id": "5050",
-      "title": "responsive_ad"
-    }, {
       "id": "5058",
       "title": "John Fitzgerald Kennedy",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_F._Kennedy' title='Wikipedia page for John Fitzgerald Kennedy' target='_blank'>35th President</a> of the USA - Jan. 20, 1961 to Nov. 22, 1963",
