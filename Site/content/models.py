@@ -31,6 +31,7 @@ class GalleriesList:
         'sixteen_types': 'Sixteen Types',
         'fictional': 'Fictional',
         'real': 'Real',
+        'presidents': 'American Presidents',
         'famous': 'Famous',
         'movies': 'Movies',
         'tv': 'TV Shows',
@@ -44,6 +45,7 @@ class GalleriesList:
         'sixteen_types': '[0-9]*generic_images*',
         'fictional': '[0-9]*-fictional*',
         'real': '[0-9]*-real*',
+        'presidents': '[0-9]*-politicians-us_presidents*',
         'famous': '[0-9]*-famous*',
         'movies': '[0-9]*-movies-*',
         'tv': '[0-9]*-tv-*',
@@ -57,6 +59,7 @@ class GalleriesList:
         'sixteen_types': '<b>generic images:</b>',
         'fictional': 'images of <b>fictional</b> people, from movies, etc.:',
         'real': 'images of <b>real</b> people:',
+        'presidents': 'images of American Presidents:',
         'famous': 'images of <b>famous</b> people:',
         'movies': 'images of fictional characters in <b>movies:</b>',
         'tv': 'images of fictional characters from <b>tv shows:</b>',
@@ -77,6 +80,7 @@ class GalleriesList:
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         gallery_files = sorted(os.listdir(galleries_root_dir))
         phrase = 'these galleries, containing '
+        print( "galleries_list_name:", galleries_list_name)
 
         if self.title_dict.get(galleries_list_name):
             self.galleries_list_title = self.title_dict.get(galleries_list_name)
