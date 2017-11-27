@@ -114,10 +114,10 @@
       "meat_portrait_href": "http://www.imdb.com/name/nm0095665/mediaviewer/rm1649414912",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "7", "p_score": "12" }
       ],
       "four_letter_type": "INFP",
       "fixed_percentages": "",
@@ -148,10 +148,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Manuel_Waiter.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "7", "s_score": "12" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "6", "p_score": "13" }
       ],
       "four_letter_type": "ISFP",
       "fixed_percentages": "",
