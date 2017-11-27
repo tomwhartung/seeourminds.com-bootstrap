@@ -15,10 +15,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Basil_Fawlty.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "9", "s_score": "10" },
+         { "f_score": "8", "t_score": "11" },
+         { "j_score": "6", "p_score": "13" }
       ],
       "four_letter_type": "ESTP",
       "fixed_percentages": "",
@@ -63,10 +63,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Sybil_Fawlty.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "17", "p_score": "2" }
       ],
       "four_letter_type": "ESFJ",
       "fixed_percentages": "",
