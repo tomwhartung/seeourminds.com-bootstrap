@@ -132,6 +132,30 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
+      "id": "7537",
+      "title": "Sam L",
+      "subtitle_html": "",
+      "image_file_name": "entp-sam_l-1.jpg",
+      "composition": "O",
+      "score": [
+        { "e_score": "11", "i_score": "8" },
+        { "n_score": "11", "s_score": "8" },
+        { "f_score": "8", "t_score": "11" },
+        { "j_score": "9", "p_score": "10" }
+      ],
+      "four_letter_type": "ENTP",
+      "archetype": "Ne",
+      "quiz_type": "K2",
+      "gallery_page_teaser": "... when I lived in Richmond, Virginia.  Click on the image to learn more!",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Blue in Sam's spiritual portrait represents his slight preference for ideas over facts.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
+      "explain_aux": "The Green in Sam's spiritual portrait represents his slight preference for making logical rather than emotional decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  ",
+      "story_intro_html": "<p>....</p>",
+      "story_html": "<p>When I lived in Richmond, Virginia, ....</p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
       "id": "7577",
       "title": "responsive_ad"
     }, {
