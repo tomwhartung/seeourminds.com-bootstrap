@@ -38,15 +38,15 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "72", "i_score": "28" },
+         { "n_score": "51", "s_score": "49" },
+         { "f_score": "42", "t_score": "58" },
+         { "j_score": "57", "p_score": "43" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Te",
+      "quiz_type": "SOM",
       "subject_line": "",
       "tweet_html": "",
 
