@@ -146,13 +146,13 @@
       "four_letter_type": "ENTP",
       "archetype": "Ne",
       "quiz_type": "K2",
-      "gallery_page_teaser": "... when I lived in Richmond, Virginia.  Click on the image to learn more!",
+      "gallery_page_teaser": "Sam and I have been friends for so long, I am not sure when or how we met.  Click on the image to learn more!",
       "subject_line": "",
       "tweet_html": "",
       "explain_dom": "The Blue in Sam's spiritual portrait represents his slight preference for ideas over facts.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  ",
       "explain_aux": "The Green in Sam's spiritual portrait represents his slight preference for making logical rather than emotional decisions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  ",
-      "story_intro_html": "<p>....</p>",
-      "story_html": "<p>When I lived in Richmond, Virginia, ....</p>",
+      "story_intro_html": "<p>Sam lives in Richmond, Virginia.  He went to school at ....</p>",
+      "story_html": "<p>Sam lives in Richmond, Virginia.  He went to school at <a href='https://www.vcu.edu' title='Home page at vcu.edu' target='_blank'>Virginia Commonwealth University</a>.</p><p>I will share more information as it becomes available.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
