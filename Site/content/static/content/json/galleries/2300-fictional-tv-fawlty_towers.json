@@ -107,18 +107,10 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The XXXXXX in this spiritual portrait represents X's dominant personality trait, XXXXXX (SEE ABOVE FOR POPULAR PHRASES).",
-      "explain_dom": "The XXXXXX in X's spiritual portrait represents their dominant personality trait, XXXXXX (SEE ABOVE FOR POPULAR PHRASES).",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The XXXXXX in this spiritual portrait represents X's auxiliary personality trait, XXXXXX (SEE ABOVE FOR POPULAR PHRASES).",
-      "explain_aux": "The XXXXXX in X's spiritual portrait represents their auxiliary personality trait, XXXXXX (SEE ABOVE FOR POPULAR PHRASES).",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  They demonstrate this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Red in this spiritual portrait represents Manuel's dominant personality trait, his compassion for others.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in his care for his pet rat.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Manuel's auxiliary personality trait, his openness to new experiences.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in the way he tries so to understand what Basil wants him to do.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
