@@ -1,0 +1,64 @@
+{
+  "gallery_title": "Couple of Friends: Sarah & Jacob",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "Sarah & Jacob have been going together for many years.  Click to learn more!",
+  "description_html": "<p>Sarah and Jacob are the parents of a still-relatively-young daughter, and have been together for many years.</p><p>Hopefully they will share some of their tips for how they make their relationship last.  Check back soon for updates!</p>",
+  "story_html": "<p>I met Sarah and Jacob at the Goth clubs in Denver and Fort Collins here in Colorado.</p><p>They have relocated to the Pacific Northwest and we have been out of touch.  I wanted to have something for them to look at before asking them to share their story.</p><p>I will share more information as it becomes available.  To learn when I update the site, follow us on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to a page where you can join our email list' target='_blank'>join the email list!</a></p>",
+  "image_list":
+  [
+    {
+      "id": "7220",
+      "title": "Sarah",
+      "subtitle_html": "Music Promoter",
+      "gallery_page_teaser": "The Red and Yellow in Sarah's spiritual portrait say she is passionate and down-to-earth.  Click on the image to learn more!",
+      "image_file_name": "esfj-sarah-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "9", "s_score": "10" },
+         { "f_score": "16", "t_score": "3" },
+         { "j_score": "10", "p_score": "9" }
+      ],
+      "four_letter_type": "ESFJ",
+      "archetype": "Fe",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Red in this portrait represents Sarah's dominant trait, her passion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The Yellow in this portrait represents Sarah's auxiliary trait, her pragmatism.  In Extraverts, the auxiliary trait is directed inwardly and is less evident than the dominant trait.",
+      "story_intro_html": "<p>Sarah lives in Corvallis, Oregon....</p>",
+      "story_html": "<p>Sarah lives in Corvallis, Oregon.</p><p>I will share more information as it becomes available.</p>",
+      "compare_to": { },
+      "compare_to": { "gallery_file_name": "7220-real-friends-couples-2", "image_id": "7223" },
+      "contrast_with": { }
+    }, {
+      "id": "7223",
+      "title": "DJ Ghrimm",
+      "subtitle_html": "Disc Jockey and Grad Student",
+      "gallery_page_teaser": "The Green and Blue in Jacob's spiritual portrait say he is rational and idealistic.  Click on the image to learn more!",
+      "image_file_name": "intp-jacob-1.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "16", "s_score": "3" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "6", "p_score": "13" }
+      ],
+      "four_letter_type": "INTP",
+      "archetype": "Ti",
+      "quiz_type": "K",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Green in this portrait represents Jacob's dominant trait, his rationality.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
+      "explain_aux": "The Blue in this portrait represents Jacob's auxiliary trait, his idealism.  In Introverts, the auxiliary trait is directed outwardly and is more evident than the dominant trait.",
+      "story_intro_html": "<p>DJ Ghrimm lives in Corvallis, Oregon....</p>",
+      "story_html": "<p>DJ Ghrimm lives in Corvallis, Oregon.</p><p>I will share more information as it becomes available.</p>",
+      "compare_to": { },
+      "compare_to": { "gallery_file_name": "7220-real-friends-couples-2", "image_id": "7220" },
+      "contrast_with": { }
+    }, {
+      "id": "7226",
+      "title": "square_ad"
+    }
+  ]
+}
