@@ -14,10 +14,10 @@
       "image_file_name": "entp-scott_p-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "17", "i_score": "2" },
-         { "n_score": "9", "s_score": "10" },
-         { "f_score": "16", "t_score": "3" },
-         { "j_score": "10", "p_score": "9" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "9", "t_score": "10" },
+         { "j_score": "14", "p_score": "5" }
       ],
       "four_letter_type": "ENTP",
       "archetype": "Ne",
@@ -39,13 +39,13 @@
       "image_file_name": "isfj-cathy_p-1.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "4", "i_score": "15" },
-         { "n_score": "16", "s_score": "3" },
-         { "f_score": "3", "t_score": "16" },
-         { "j_score": "6", "p_score": "13" }
+         { "e_score": "2", "i_score": "17" },
+         { "n_score": "7", "s_score": "12" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "13", "p_score": "6" }
       ],
       "four_letter_type": "ISFP",
-      "archetype": "Fi",
+      "archetype": "Si",
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
