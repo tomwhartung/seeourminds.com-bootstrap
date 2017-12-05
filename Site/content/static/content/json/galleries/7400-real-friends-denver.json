@@ -78,8 +78,8 @@
       "tweet_html": "",
       "explain_dom": "The Yellow in this spiritual portrait represents Sharyl's dominant personality trait, her realism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.",
       "explain_aux": "The Green in this spiritual portrait represents Sharyl's auxiliary personality trait, her objectivity.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_intro_html": "<p>Sharyl lives in Denver, Colorado....</p>",
+      "story_html": "<p>Sharyl lives in Denver, Colorado.</p><p>I will share more information as it becomes available.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
       "compare_to": { },
       "contrast_with": { }
