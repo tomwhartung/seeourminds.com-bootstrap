@@ -9,8 +9,8 @@
     {
       "id": "5000",
       "title": "George Washington (Keirsey.com)",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President</a> of the USA - Apr. 30, 1789 to Mar. 4, 1797",
-      "gallery_page_teaser": "This spiritual portrait of George Washington shows that he was logical and pragmatic.  These qualities made him a good soldier and a strong leader.  Click on the image to learn more!",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_Washington' target='_blank' title='Wikipedia page for George Washington'>1st President</a> of the USA &mdash; Apr. 30, 1789 to Mar. 4, 1797",
+      "gallery_page_teaser": "This spiritual portrait of George Washington shows he was logical and pragmatic.  These qualities made him a good soldier and a strong leader.  Click on the image to learn more!",
       "image_file_name": "estj-george_washington.jpeg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
       "composition": "O",
@@ -35,8 +35,8 @@
     }, {
       "id": "5001",
       "title": "John Adams",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "John Adam's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_Adams' title='Wikipedia page for John Adams' target='_blank'>2nd President</a> of the USA &mdash; Mar. 4, 1797 to Mar. 4, 1801",
+      "gallery_page_teaser": "This spiritual portrait of John Adam shows he was very logical and slightly idealistic.  Click on the image to learn more!",
       "image_file_name": "entj-john_adams-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
@@ -52,39 +52,17 @@
       "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; preference for ideas over facts.",
-      "explain_dom": "The Blue in X's spiritual portrait represents their dominant personality trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic/reson/objectivity over emotion/empathy/subjectivity; their preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their preference for making logical/rational/objective decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; preference for emotion/empathy/subjectivity over logic/reason/objectivity; their preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their preference for making emotional/personal/objective rather than logical/rational/objective decisions; their preference for making emotional/personal/subjective decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; preference for ideas over facts.",
-      "explain_aux": "The Blue in X's spiritual portrait represents their auxiliary personality trait, their preference for seeing the world in terms of ideas more than facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; preference for logic/reason/objectivity over emotion/empathy/subjectivity; their preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their preference for making logical/rational/objective decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; preference for emotion/empathy/subjectivity over logic/reason/objectivity; their preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their preference for making emotional/personal/subjective decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; preference for facts over ideas.",
-      "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their preference for seeing the world in terms of facts more than ideas.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "explain_dom": "The Green in this spiritual portrait represents John Adams' dominant personality trait, his rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+      "explain_aux": "The Blue in this spiritual portrait represents John Adams' auxiliary personality trait, his idealism.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  They demonstrate this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+      "story_html": "<p> </p>",
+      "story_intro_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
       "id": "5003",
       "title": "Thomas Jefferson (Keirsey.com)",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President</a> of the USA - Mar. 4, 1801 to Mar. 4, 1809",
-      "gallery_page_teaser": "This spiritual portrait of Thomas Jefferson shows that he was, like Lincoln, an idealist who preferred to make logical decisions.  Click on the image to learn more!",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President</a> of the USA &mdash; Mar. 4, 1801 to Mar. 4, 1809",
+      "gallery_page_teaser": "This spiritual portrait of Thomas Jefferson shows he was, like Lincoln, an idealist who preferred to make logical decisions.  Click on the image to learn more!",
       "image_file_name": "intj-thomas_jefferson.jpeg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
       "composition": "O",
@@ -112,7 +90,7 @@
     }, {
       "id": "5006",
       "title": "Andrew Jackson",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Andrew_Jackson' title='Wikipedia page for Andrew Jackson' target='_blank'>7th President</a> of the USA - Mar. 4, 1829 to Mar. 4, 1837",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Andrew_Jackson' title='Wikipedia page for Andrew Jackson' target='_blank'>7th President</a> of the USA &mdash; Mar. 4, 1829 to Mar. 4, 1837",
       "gallery_page_teaser": "This spiritual portrait of Andrew Jackson shows he was very decisive, prefering to use logic but capable of using emotion when making decisions.  Click on the image to learn more!",
       "image_file_name": "estj-andrew_jackson-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Andrew_jackson_head.jpg",
@@ -141,7 +119,7 @@
     }, {
       "id": "5007",
       "title": "Abraham Lincoln (Keirsey.com)",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President</a> of the USA - Mar. 4, 1861 to Apr. 15, 1865",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Abraham_Lincoln' target='_blank' title='Wikipedia page for Abraham Lincoln'>16th President</a> of the USA &mdash; Mar. 4, 1861 to Apr. 15, 1865",
       "gallery_page_teaser": "This spiritual portrait of Abraham Lincoln shows he was, like Jefferson, an idealist who preferred to make logical decisions.  Click on the image to learn more!",
       "image_file_name": "intp-abraham_lincoln.jpeg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
@@ -167,7 +145,7 @@
     }, {
       "id": "5008",
       "title": "Ulysses S. Grant",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' target='_blank' title='Wikipedia page for Ulysses S. Grant'>18th President</a> of the USA - Mar. 4, 1869 to Mar. 4, 1877",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' target='_blank' title='Wikipedia page for Ulysses S. Grant'>18th President</a> of the USA &mdash; Mar. 4, 1869 to Mar. 4, 1877",
       "gallery_page_teaser": "This spiritual portrait of Ulysses S. Grant shows that he is logical and pragmatic.  These qualities mean he makes a good soldier.  Click on the image to learn more!",
       "image_file_name": "istj-ulysses_s_grant-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Ulysses_S._Grant_1870-1880.jpg",
@@ -187,7 +165,7 @@
       "explain_dom": "The Yellow in this spiritual portrait represents Grant's very slight preference for pragmatism over idealism.  In Introverts, the dominant function is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  This preference is very slight and would be more evident in his role as a soldier than it would be in his role as president.",
       "explain_aux": "The Green in this spiritual portrait represents Grant's very slight preference for making logical decisions.  In Introverts, the auxiliary function is directed outwardly and is more evident than the dominant function.  This preference is very slight and would be more evident in his role as a soldier than it would be in his role as a father.",
       "story_intro_html": "<p>Although my process identifies <a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' title='Wikipedia page for Ulysses S. Grant' target='_blank'>Ulysses S. Grant</a> as an ISTJ, it shows very slight preferences in all four pairs of opposites.  Interestingly, one source ....</p>",
-      "story_html": "<p>Although my process identifies <a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' title='Wikipedia page for Ulysses S. Grant' target='_blank'>Ulysses S. Grant</a> as an ISTJ, it shows very slight preferences in all four pairs of opposites.  Interestingly, one source identifies him as an <a href='http://www.keirsey.com/4temps/us_grant.asp' title='Page on keirsey.com identifying Ulysses S. Grant as an NTJ' target='_blank'>xNTJ</a> and another identifies him as an <a href='http://www.typologycentral.com/forums/popular-culture-and-type/25504-ulysses-grant-isfp.html' title='Page on typologycentral.com identifying Ulysses S. Grant as an ISFP' target='_blank'>ISFJ</a>.</p><h4>Colorful Images Mean Versatile Personalities</h4><p>The spiritual portraits of people with mild preferences are more colorful than the images of people with strong preferences.  This reflects the fact that they are more versatile and adaptable rather than inflexible and set in their ways.</p><p>I believe it is much more important to recognize Grant's preferences were slight than it is to agree on a specific four-letter type.  Although it can be interesting to speculate what type historical characters were, it's important to realize that ultimately this is all purely speculation &mdash; especially when it comes to Introverts.</p><h4>Clearly an Introvert</h4><p>It's clear to me that he was an Introvert.  Time and again historians have remarked he liked to be alone to reflect on things and could be <q>hard to read.</q></p><blockquote>He felt he was at his best when he was alone.  He liked to think through things.  He liked quiet time.<br /> - Donald L. Miller, Historian</blockquote><h4>Seeing Both the <q>Forest</q> and the <q>Trees</q></h4><p>Although failing to immediately notice certain facts can quickly get a soldier in trouble, a general who can see both the <q>forest</q> and the <q>trees</q> is in a better position than his peers who can't see the <q>big picture.</q></p><blockquote>A general who can ride around the battlefield, and by glimpsing: men advancing over there, troops forming up over here, artillery firing somewhere in the distance, and can put all of these pieces together in his head, and see what is actually happening, through the smoke, that is a General who has an extraordinary gift.<br /> - Geoffrey Perret, Biographer</blockquote><p>Along with an attention to detail, Grant certainly had his ideals.  Before the war, he set a slave free rather than sell him, and after the war he wanted nothing more than to find peace with the plains indians and stubborn racist southerners.  But this does not mean he had his <q>head in the clouds:</q></p><h4>Keeping It Real</h4><p>Later in life, Grant became friends with <a href='https://en.wikipedia.org/wiki/Mark_Twain' title='Wikipedia page for Mark Twain' target='_blank'>Mark Twain</a>, who helped him publish his <a href='https://en.wikipedia.org/wiki/Personal_Memoirs_of_Ulysses_S._Grant' title='Wikipedia page for ' target='_blank'>personal memoirs</a> shortly after Grant's death in 1885.  </p><blockquote>Having lunch with Grant is like having pork and beans with Julius Ceasar.<br />- Mark Twain</blockquote><p>Twain's quote makes me wish we had time machines and could visit with people who are no longer with us.  Rather than long for things we will never have, it's probably best to just be grateful for the next best thing: having videos such as this one that we can watch!</p><hr /><p>This profile of <a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' title='Wikipedia page for Ulysses S. Grant' target='_blank'>Ulysses S. Grant</a> is based on the nearly four-hour-long <a href='http://www.imdb.com/title/tt0365877/' title='Page on imdb.com for the Warrior President DVD' target='_blank'>Ulysses S. Grant Warrior President DVD</a>.</p>",
+      "story_html": "<p>Although my process identifies <a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' title='Wikipedia page for Ulysses S. Grant' target='_blank'>Ulysses S. Grant</a> as an ISTJ, it shows very slight preferences in all four pairs of opposites.  Interestingly, one source identifies him as an <a href='http://www.keirsey.com/4temps/us_grant.asp' title='Page on keirsey.com identifying Ulysses S. Grant as an NTJ' target='_blank'>xNTJ</a> and another identifies him as an <a href='http://www.typologycentral.com/forums/popular-culture-and-type/25504-ulysses-grant-isfp.html' title='Page on typologycentral.com identifying Ulysses S. Grant as an ISFP' target='_blank'>ISFJ</a>.</p><h4>Colorful Images Mean Versatile Personalities</h4><p>The spiritual portraits of people with mild preferences are more colorful than the images of people with strong preferences.  This reflects the fact that they are more versatile and adaptable rather than inflexible and set in their ways.</p><p>I believe it is much more important to recognize Grant's preferences were slight than it is to agree on a specific four-letter type.  Although it can be interesting to speculate what type historical characters were, it's important to realize that ultimately this is all purely speculation &mdash; especially when it comes to Introverts.</p><h4>Clearly an Introvert</h4><p>It's clear to me he was an Introvert.  Time and again historians have remarked he liked to be alone to reflect on things and could be <q>hard to read.</q></p><blockquote>He felt he was at his best when he was alone.  He liked to think through things.  He liked quiet time.<br /> - Donald L. Miller, Historian</blockquote><h4>Seeing Both the <q>Forest</q> and the <q>Trees</q></h4><p>Although failing to immediately notice certain facts can quickly get a soldier in trouble, a general who can see both the <q>forest</q> and the <q>trees</q> is in a better position than his peers who can't see the <q>big picture.</q></p><blockquote>A general who can ride around the battlefield, and by glimpsing: men advancing over there, troops forming up over here, artillery firing somewhere in the distance, and can put all of these pieces together in his head, and see what is actually happening, through the smoke, that is a General who has an extraordinary gift.<br /> - Geoffrey Perret, Biographer</blockquote><p>Along with an attention to detail, Grant certainly had his ideals.  Before the war, he set a slave free rather than sell him, and after the war he wanted nothing more than to find peace with the plains indians and stubborn racist southerners.  But this does not mean he had his <q>head in the clouds:</q></p><h4>Keeping It Real</h4><p>Later in life, Grant became friends with <a href='https://en.wikipedia.org/wiki/Mark_Twain' title='Wikipedia page for Mark Twain' target='_blank'>Mark Twain</a>, who helped him publish his <a href='https://en.wikipedia.org/wiki/Personal_Memoirs_of_Ulysses_S._Grant' title='Wikipedia page for ' target='_blank'>personal memoirs</a> shortly after Grant's death in 1885.  </p><blockquote>Having lunch with Grant is like having pork and beans with Julius Ceasar.<br />- Mark Twain</blockquote><p>Twain's quote makes me wish we had time machines and could visit with people who are no longer with us.  Rather than long for things we will never have, it's probably best to just be grateful for the next best thing: having videos such as this one that we can watch!</p><hr /><p>This profile of <a href='https://en.wikipedia.org/wiki/Ulysses_S._Grant' title='Wikipedia page for Ulysses S. Grant' target='_blank'>Ulysses S. Grant</a> is based on the nearly four-hour-long <a href='http://www.imdb.com/title/tt0365877/' title='Page on imdb.com for the Warrior President DVD' target='_blank'>Ulysses S. Grant Warrior President DVD</a>.</p>",
       "compare_to": { "gallery_file_name": "2050-fictional-tv-game_of_thrones-5", "image_id": "2050" },
       "contrast_with": { }
     }, {
