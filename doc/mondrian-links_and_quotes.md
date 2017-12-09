@@ -11,6 +11,25 @@ Links to and quotes from works by Piet Mondrian.
 
 # Quotes
 
+## Introduction to The New Art - The New Life (1932)
+
+Note: although he wrote this introduction **after** writing the book (in 1931), it appears after this, because it is the Introduction.
+
+> The culture of art demonstrates that only *man's development* in the distant future can create
+> universal equilibrium through the *establishment of equivalent relationships.*
+> These relationships are already realized in pure art - art free from figuration and all limiting form - expressing the
+> beauty of equivalent relationships exclusively through pure line and color.
+> This art is an image of the ideal human goal toward which humanity is moving.
+(p. 278)
+
+> Until now the search for universal equilibrium has been neglected in favor of individual interests.
+> Art demonstrates that, as long as these dominate, world equilibrium cannot exist.
+> To achieve universal equilibrium, the new art had to sacrifice the beauty of limiting and particular form in order to
+> establish equivalent relationships through their universal aspect of color and line.
+(p. 280)
+
+This introduction ends with a paragraph that addresses people who are not ready for abstract art.
+
 ## The New Art - The New Life: The Culture of Pure Relationships (1931)
 
 Written over a period of three years, based on ideas developed over the previous decade, but never published during his lifetime.
@@ -338,23 +357,6 @@ This is a good quote to support using spiritual portraits for transparency and b
 > While the morality of the past was sustained by church and state, the new morality is sustained by society.
 > Its content, conceived abstractly, is *universal international justice.*
 (p. 274)
-
-## Introduction to The New Art - The New Life (1932)
-
-> The culture of art demonstrates that only *man's development* in the distant future can create
-> universal equilibrium through the *establishment of equivalent relationships.*
-> These relationships are already realized in pure art - art free from figuration and all limiting form - expressing the
-> beauty of equivalent relationships exclusively through pure line and color.
-> This art is an image of the ideal human goal toward which humanity is moving.
-(p. 278)
-
-> Until now the search for universal equilibrium has been neglected in favor of individual interests.
-> Art demonstrates that, as long as these dominate, world equilibrium cannot exist.
-> To achieve universal equilibrium, the new art had to sacrifice the beauty of limiting and particular form in order to
-> establish equivalent relationships through their universal aspect of color and line.
-(p. 280)
-
-This introduction ends with a paragraph that addresses people who are not ready for abstract art.
 
 ## Neo-Plastic (1938)
 
