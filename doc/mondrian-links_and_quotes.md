@@ -11,6 +11,9 @@ Links to and quotes from works by Piet Mondrian.
 
 # Quotes
 
+Note: these quotes form the basis of one or more articles - e.g., `3-new_art_new_life*.md` - in
+the `social_networking/tomh/medium/articles/` directory of the `jmws_accoutrements` repo.
+
 ## Introduction to The New Art - The New Life (1932)
 
 Note: although he wrote this introduction **after** writing the book (in 1931), it appears after this, because it is the Introduction.
