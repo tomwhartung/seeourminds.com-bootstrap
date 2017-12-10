@@ -37,6 +37,19 @@ This introduction ends with a paragraph that addresses people who are not ready 
 
 Written over a period of three years, based on ideas developed over the previous decade, but never published during his lifetime.
 
+### Original Was in French
+
+Written in French, this "book" remained unpublished in his lifetime.
+
+Titles used on some of the manuscripts:
+
+- L'Art Et La Vie
+  - The Art and the Life
+- L'Art Nouveau - La Vie Nouvelle (La Culture des Rapports Purs)
+  - The New Art - The New Life (The Culture of Pure Relationships)
+- L'Art Et La Vie - La Culture de la Forme et de Ses Rapports Vers Une Equivalence Universelle
+  - Art and Life: The Culture of Form and of its Relationships toward Universal Equivalence
+
 *All emphasis is in the original.*
 
 > We distinguish various tendencies in the new painting.
@@ -369,6 +382,11 @@ This is a good quote to support using spiritual portraits for transparency and b
 > But the distorted or confused morality of the past could not accept evil and considered it to be abnormal, a disease, a defect of life.
 (p. 271)
 
+> Art demonstrates that at the beginning of the culture of particular form, the action of creation and cultivation is dominant,
+> while toward the end the action of abolition apparently becomes all important.  If the same is true in life, then the two
+> oppositions of morality must become accentuated in the same way.
+(p. 271)
+
 > Toward the end of the culture of particular forms, high universal morality - which basically contains
 > only good - appears to dictate that we must do evil to these forms.
 > But actually, it envisages only the establishment of pure and equivalent relationships, and therefore requires purified forms.
@@ -383,6 +401,9 @@ This is a good quote to support using spiritual portraits for transparency and b
 > For high universal morality transcends the limitations of time.
 (p. 271)
 
+> Even now, when the culture of particular form is not yet ended, morality is wrong if it would have us believe that we live for others.
+> In reality we live for ourselves, and *by the fact of our own improvement* we live for the improvement of others.
+>
 > Because of the need to secure his personal existence, man, egoist by nature, will remain so throughout his evolution.
 > But in the course of evolution, egoism at the expense of others is increasingly transformed into egoism directly benefiting all.
 (p. 273)
@@ -406,6 +427,11 @@ This is a good quote to support using spiritual portraits for transparency and b
 > which strove toward the same goal but in reality fostered only particular life, individual or collective.
 > While the morality of the past was sustained by church and state, the new morality is sustained by society.
 > Its content, conceived abstractly, is *universal international justice.*
+(p. 274)
+
+> Although the new morality and reason can guide us, and art can lead the way, let us emphasize that, in art as in life, "realization"
+> is foremost and that the new life is created by qualities that might seem simple and insignificant but have the highest value.
+> The new art demonstratees that its values of exactness and purity of execution can exist in life.
 (p. 274)
 
 ## Neo-Plastic (1938)
