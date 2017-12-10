@@ -82,6 +82,11 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > literary side that veils the purely plastic expression of line, color, and relationships.
 (p. 251)
 
+> The new art reveals that its plastic expression of harmony is entirely different from the harmony of the
+> past; that is, it manifests the same content altogether differently.  That is why the new aesthetic
+> speaks of "equilibrium" instead of harmony.  Moreover, while the "harmony" of the past expresses a veiled state,
+> the equilibrium of the new art denotes an exact state.
+>
 > However, even in the new aesthetic, the word "equilibrium" has caused many misunderstandings and repeated errors.
 > The only way to correct them will be by attentive study of the plastic expression of the new art.
 > It will be seen that the equilibrium in the new art is not a static state without action, as is generally thought but,
@@ -91,6 +96,11 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > *The physical aspect of man, of life, diminishes in opposition to the spiritual aspect, which becomes stronger.*
 (p. 254)
 
+> On the contrary, we must *oppose every limitation by the various forms that oppress the rhythm of life,*
+> because, just as in art, *these limitations cause the disequilibrium of life.*
+> And again, just as in art, the liberated, purified forms must be brought through pure relationships toward
+> *the state of mutual equivalence.  This dual action of art is reflected everywhere in life.*
+>
 > It is therefore of great importance for humanity that art manifest in an exact way the constant but varying
 > rhythm of opposition of the two principal aspects of all life.
 > The rhythm of the straight line in rectangular opposition indicates
@@ -133,6 +143,12 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > despite his spiritual improvement is not of really new mentality if he fails to seek equivalence.
 (p. 257)
 
+> By abolishing first particular form and then purified form and neutral form, the new art has liberated line and color:
+> the essential means of plastic expression.  Likewise, after long culture, the true content of man and of life is in the
+> process of freeing itself by abolishing every kind of limiting form.
+> This abolition involves suffering but, being necessary, is inevitable.  But it is always accompanied by joy,
+> for abolotion also involves creation: new life.
+>
 > Whether we conceive life as joy or as suffering depends on which is most important to us: abolition or creation.
 >
 > The beauty and the misery of concrete life consists precisely in the fact that we can escape neither abolition nor creation,
