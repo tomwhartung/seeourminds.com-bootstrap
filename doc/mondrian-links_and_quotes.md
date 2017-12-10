@@ -193,6 +193,10 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 (p. 261)
 
 > The perfecting of science is one of the principal ways by which human progress leads to a more equilibrated state.
+> Who can deny the enormous influence of science and technology on international relationships through progress in the
+> use of steam and electricity?  And if some of the things that have evolved - such as poison gas - fill us with
+> horror and terror, human evolution will still result.  As others have recently shown, such things will eventually abolish war;
+> the very development of weapons will make it impossible.  Thus *through concrete achievements* real equilibrium will be generated.
 (p. 262)
 
 > In all areas of life, social and economic, we must create new organizations - not in the old way,
@@ -309,8 +313,10 @@ This is a good quote to support using spiritual portraits for transparency and b
 > Through intersecting lines, the mutual relationships destroy each plane's separateness so that all unite completely.
 >
 > The rectangular planes of varying dimensions and colors visibly demonstrate that *internationalism* does not mean
-> chaos ruled by monotony but an ordered and clearly divided unity.
-> In Neo-Plastict there are, in fact, very definite boundaries.
+> chaos ruled by monotony but an ordered and clearly divided unity.  In Neo-Plastic there are, in fact, very definite boundaries.
+> But these boundaries are not really closed; the straight lines in rectangular opposition constantly intersect,
+> so that their rhythm continues througout the whole work.  In the same way, in the international order of the future
+> the different countries, while being mutually equivalent, will have their unique and diffferent value.
 (p. 268-269)
 
 > Although Neo-Plastic establishes the goal of human culture, this goal points the way for tomorrow.
@@ -328,6 +334,10 @@ This is a good quote to support using spiritual portraits for transparency and b
 
 > Just as art itself has slowly created a new plastic expression of more real equilibrium,
 > life itself will slowly create this equilibrium in a new social and economic organization.
+(p. 269)
+
+> Necessity creates the progress that carries man forward.  While progress (in science, technology, etc.) is too advanced
+> for most men to follow, some misuse it and often all mankind suffers by it.  Therefore, experience and education are two imperatives.
 (p. 269)
 
 > Conventional morality, however, is not the pure expression of high universal morality.
