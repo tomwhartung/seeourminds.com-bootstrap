@@ -485,6 +485,13 @@ This is a good quote to support using spiritual portraits for transparency and b
 > Limiting form always tells us something: it is *descriptive.*
 (p. 343)
 
->
-(p. 343)
+> Although qualified by aesthetic conceptions, our environment is, above all, created by necessity, utility, and function.
+> In our time, there exists a tendency to suppress aesthetic feelings.
+> Nevertheless, these are essential in order to guide any realization, so that our physical and normal needs may be satisfied.
+> A new aesthetic for our actual environment, which exerts such a profound influence on our mentality, can be deduced from the
+> principles of pure plastic expression in art.
+> In the future, the realization of pure plastic expression in palpable reality will replace the work of art.
+> But in order to achieve this, orientation toward a universal conception and detachment from the oppression of nature is necessary.
+> Then we will no longer have the need of pictures and sculpture, for we will live in realized art.
+(p. 343-344)
 
