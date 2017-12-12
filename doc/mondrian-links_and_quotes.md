@@ -461,3 +461,30 @@ This is a good quote to support using spiritual portraits for transparency and b
 > But subjective factors prevent this from being seen.  It is seen only as continual change.
 
 -- from Liberation from Oppression in Art and Life, by Piet Mondrian, 1939-40.
+
+## Pure Plastic Art (March, 1942)
+
+> Thus, gradually through the centuries, the culture of painting has led to *the total abolition of the limiting form and
+> particular representation.*  In our time, art has been liberated from everything that prevents it from being truly plastic.
+> This liberation is of the greatest importance for art, the purpose of which is to conquer individual expression and
+> to reveal, as far as possible, the universal aspect of life.
+>
+> *Every expression of art has its own laws which accord with the principal law of art and of life: that of equilibrium.*
+(p. 342)
+
+> Art tiday, after a secular culture of limited form, has succeeded in establishing this plastic expression:
+> *it is the clear realization of liberated and universal rhythm distorted and hidden in the individual rhythm of the limiting form.*
+> The way toward the creation of a new plastic expression, that of liberated rhythm, in literature as well as in sculpture and
+> painting, has been prepared by different movements in art, above all, by Cubism, Futurism, and Dadaism.
+(p. 343)
+
+> When it avoids establishing limiting form, *this liberated rhythm is the plastic expression hidden in reality, created through
+> conscious feeling for universal equilibrium.  It is the expression of palpable reality on a more elevated plane: the expression of
+> true reality and of truly "human life" - constant yet always changing.
+>
+> Limiting form always tells us something: it is *descriptive.*
+(p. 343)
+
+>
+(p. 343)
+
