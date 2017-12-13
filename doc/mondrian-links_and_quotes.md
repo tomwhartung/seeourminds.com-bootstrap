@@ -119,7 +119,7 @@ In this evolution of art and life it is sincerity, rather than conformity, that 
 > The rhythm of the straight line in rectangular opposition indicates
 > *the need for equivalence* of these two aspects in life: *the equal value of the material and spiritual,
 > the masculine and feminine, the collective and individual, etc.*
-> Just as the vertical line differes in character from the horizontal, so in life the two aspects have their inherent and opposed character.
+> Just as the vertical line differs in character from the horizontal, so in life the two aspects have their inherent and opposed character.
 > But just as in art these lines have different dimensions, so individuals and their groups differ in strength or size.
 > *Art demonstrates that life, through equivalence of its opposed aspects - despite their different nature - can approach real equilibrium.*
 (p. 254)
