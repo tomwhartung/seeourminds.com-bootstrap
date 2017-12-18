@@ -1,7 +1,7 @@
 {
   "gallery_title": "Twin Peaks",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
+  "list_page_teaser": "David Lynch's characters can be quite quirky.  Is their quirkiness evident in their spiritual portraits?  Click to find out!",
   "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
   "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
@@ -28,8 +28,8 @@
       "tweet_html": "",
       "explain_dom": "The Blue in Laura Palmer's spiritual portrait represents her dominant personality trait, her preference for seeing the world in terms of ideas more than facts.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She exhibits this trait in the way her conversations with others, especially her close friends and lovers, often take on a dreamy, surrealistic quality.",
       "explain_aux": "The Red in Laura Palmer's spiritual portrait represents her auxiliary personality trait, her passion and warmth.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  She exhibits this trait in the way she is friendly and popular with her friends, schoolmates, and other acquaintances.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on the movie <a href='http://www.imdb.com/title/tt0105665/' title='Page for the movie Twin Peaks: Fire, Walk With Me on imdb.com' target='_blank'>Twin Peaks: Fire, Walk With Me</a>.</p>",
+      "story_html": "<p> </p>",
+      "story_intro_html": " <p> </p> <blockquote> </blockquote> <p> </p><hr /> <p>This spiritual portrait is based on the movie <a href='http://www.imdb.com/title/tt0105665/' title='Page for the movie Twin Peaks: Fire, Walk With Me on imdb.com' target='_blank'>Twin Peaks: Fire, Walk With Me</a>.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
