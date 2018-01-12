@@ -7,12 +7,12 @@
   "image_list":
   [
     {
-      "id": "0000",
-      "title": "X",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
-      "meat_portrait_href": "",
+      "id": "4900",
+      "title": "Alexander Hamilton",
+      "subtitle_html": "First <a href='https://en.wikipedia.org/wiki/United_States_Secretary_of_the_Treasury' title='Wikipedia page for United States Secretary of the Treasury' target='_blank'>Secretary of the Treasury</a> of the USA &mdash; Sep. 11, 1789 to Jan. 31, 1795",
+      "gallery_page_teaser": "Alexander Hamilton's spiritual portrait shows he is extremely decisive.  Click on the image to learn more!",
+      "image_file_name": "estj-alexander_hamilton-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Alexander_Hamilton_portrait_by_John_Trumbull_1806.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -20,10 +20,10 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ESTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Te",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -50,8 +50,7 @@
       "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
       "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_html": "<p>Yadda yadda <a href='https://en.wikipedia.org/wiki/Alexander_Hamilton' title='Wikipedia page for Alexander Hamilton' target='_blank'>Alexander Hamilton</a> yadda yadda. </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
