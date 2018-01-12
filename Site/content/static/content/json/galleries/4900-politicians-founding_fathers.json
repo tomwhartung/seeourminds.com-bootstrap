@@ -8,6 +8,9 @@
   [
     {
       "id": "4900",
+      "title": "responsive_ad"
+    }, {
+      "id": "4903",
       "title": "Alexander Hamilton",
       "subtitle_html": "First <a href='https://en.wikipedia.org/wiki/United_States_Secretary_of_the_Treasury' title='Wikipedia page for United States Secretary of the Treasury' target='_blank'>Secretary of the Treasury</a> of the USA &mdash; Sep. 11, 1789 to Jan. 31, 1795",
       "gallery_page_teaser": "Alexander Hamilton's spiritual portrait shows he is extremely decisive.  Click on the image to learn more!",
@@ -53,9 +56,6 @@
       "story_html": "<p>Yadda yadda <a href='https://en.wikipedia.org/wiki/Alexander_Hamilton' title='Wikipedia page for Alexander Hamilton' target='_blank'>Alexander Hamilton</a> yadda yadda. </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "compare_to": { },
       "contrast_with": { }
-    }, {
-      "id": "4903",
-      "title": "responsive_ad"
     }, {
       "id": "4909",
       "title": "square_ad"
