@@ -63,14 +63,14 @@
       "title": "Thomas Jefferson (Keirsey.com)",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Thomas_Jefferson' target='_blank' title='Wikipedia page for Thomas Jefferson'>3rd President</a> of the USA &mdash; Mar. 4, 1801 to Mar. 4, 1809",
       "gallery_page_teaser": "This spiritual portrait of Thomas Jefferson shows he was, like Lincoln, an idealist who preferred to make logical decisions.  Click on the image to learn more!",
-      "image_file_name": "intj-thomas_jefferson.jpeg",
+      "image_file_name": "intp-thomas_jefferson-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
       "composition": "O",
       "score": [
-        { "e_score": "8", "i_score": "11" },
-        { "n_score": "11", "s_score": "8" },
-        { "f_score": "8", "t_score": "11" },
-        { "j_score": "8", "p_score": "11" }
+        { "e_score": "2", "i_score": "17" },
+        { "n_score": "15", "s_score": "4" },
+        { "f_score": "9", "t_score": "10" },
+        { "j_score": "4", "p_score": "15" }
       ],
       "four_letter_type": "INTP",
       "fixed_percentages": "True",
