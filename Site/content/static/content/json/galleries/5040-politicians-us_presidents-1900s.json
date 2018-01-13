@@ -143,11 +143,11 @@
       "compare_to": { },
       "contrast_with": { "gallery_file_name": "5040-politicians-us_presidents-1900s", "image_id": "5058" }
     }, {
-      "id": "0000",
-      "title": "X",
+      "id": "5062",
+      "title": "Richard Milhous Nixon",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "entj-ronald_reagan-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -156,10 +156,10 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Te",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -191,14 +191,14 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "5050",
+      "id": "5068",
       "title": "responsive_ad"
     }, {
-      "id": "0000",
-      "title": "X",
+      "id": "5074",
+      "title": "Ronald Wilson Reagan",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "entj-ronald_reagan-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -207,10 +207,10 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Te",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -242,7 +242,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "5077",
+      "id": "5076",
       "title": "George Herbert Walker Bush",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA - Jan. 20, 1989 to Jan. 20 1993",
       "gallery_page_teaser": "The preponderance of Green in this spiritual portrait of George Herbert Walker Bush (George W.'s father) shows that he is a very logical thinker.  Click on the image to learn more!",
