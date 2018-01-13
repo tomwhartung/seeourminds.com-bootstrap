@@ -9,7 +9,7 @@
     {
       "id": "5080",
       "title": "George W. Bush (Slate.com)",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_W._Bush' target='_blank' title='Wikipedia page for George W. Bush'>43rd President</a> of the USA - Jan. 20, 2001 to Jan. 20, 2009",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_W._Bush' target='_blank' title='Wikipedia page for George W. Bush'>43rd President</a> of the USA &mdash; Jan. 20, 2001 to Jan. 20, 2009",
       "gallery_page_teaser": "A frequently-referenced article (see the Story for the link) claims that George W. Bush is an ESTP.  Click on the image to learn more!",
       "image_file_name": "estp-george_w_bush.jpeg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:George-W-Bush.jpeg",
@@ -38,7 +38,7 @@
     }, {
       "id": "5082",
       "title": "Barack Obama (Slate.com)",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Barack_Obama' target='_blank' title='Wikipedia page for Barack Obama'>44th President</a> of the USA - Jan. 20, 2009 to Jan. 20, 2017",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Barack_Obama' target='_blank' title='Wikipedia page for Barack Obama'>44th President</a> of the USA &mdash; Jan. 20, 2009 to Jan. 20, 2017",
       "gallery_page_teaser": "Some experts claim Obama is an ENFP, and that is how he's represented in this image.  However, there are reasons to doubt this claim.  Click on the image to learn more!",
       "image_file_name": "enfp-barack_obama.jpeg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:President_Barack_Obama.jpg",
@@ -67,7 +67,7 @@
     }, {
       "id": "5084",
       "title": "Donald Trump",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Donald_Trump' target='_blank' title='Wikipedia page for Donald Trump'>45th President</a> of the USA - Jan. 21, 2017 to present",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Donald_Trump' target='_blank' title='Wikipedia page for Donald Trump'>45th President</a> of the USA &mdash; Jan. 21, 2017 to present",
       "gallery_page_teaser": "Click on the image to learn more!",
       "image_file_name": "esfj-donald_trump-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Donald_Trump_Pentagon_2017.jpg",
