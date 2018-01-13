@@ -151,10 +151,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "14", "p_score": "5" }
       ],
       "four_letter_type": "ESTJ",
       "fixed_percentages": "",
@@ -202,10 +202,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "19", "i_score": "0" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "5", "t_score": "14" },
+         { "j_score": "11", "p_score": "8" }
       ],
       "four_letter_type": "ENTJ",
       "fixed_percentages": "",
