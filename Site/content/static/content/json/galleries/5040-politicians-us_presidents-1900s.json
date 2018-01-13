@@ -9,7 +9,7 @@
     {
       "id": "5040",
       "title": "Theodore Roosevelt",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Theodore_Roosevelt' target='_blank' title='Wikipedia page for Theodore Roosevelt'>26th President</a> of the USA - Sept. 14, 1901 to Mar. 4 1909",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Theodore_Roosevelt' target='_blank' title='Wikipedia page for Theodore Roosevelt'>26th President</a> of the USA &mdash; Sept. 14, 1901 to Mar. 4 1909",
       "gallery_page_teaser": "TR's spiritual portrait shows he is very outgoing and decisive, and uses a mix of logic and emotion to make decisions.  Click on the image to learn more!",
       "image_file_name": "estj-theodore_roosevelt-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:President_Roosevelt_-_Pach_Bros.tif",
@@ -35,7 +35,7 @@
     }, {
       "id": "5042",
       "title": "Woodrow Wilson",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Woodrow_Wilson' title='Wikipedia page for Woodrow Wilson' target='_blank'>28th President</a> of the USA - Mar. 4, 1913 to Mar. 4, 1921",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Woodrow_Wilson' title='Wikipedia page for Woodrow Wilson' target='_blank'>28th President</a> of the USA &mdash; Mar. 4, 1913 to Mar. 4, 1921",
       "gallery_page_teaser": "Woodrow Wilson's spiritual portrait shows he is private and decisive, and someone who holds strongly to their ideals.  Click on the image to learn more!",
       "image_file_name": "intj-woodrow_wilson-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:President_Wilson_1919.jpg",
@@ -64,7 +64,7 @@
     }, {
       "id": "5048",
       "title": "Franklin Delano Roosevelt",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Franklin_D._Roosevelt' target='_blank' title='Wikipedia page for Franklin D. Roosevelt'>32nd President</a> of the USA - Mar. 4, 1933 to Apr. 12 1945",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Franklin_D._Roosevelt' target='_blank' title='Wikipedia page for Franklin D. Roosevelt'>32nd President</a> of the USA &mdash; Mar. 4, 1933 to Apr. 12 1945",
       "gallery_page_teaser": "FDR's spiritual portrait shows his personality is very similar to, but a bit more logical and idealistic than, his older cousin TR's.  Click on the image to learn more!",
       "image_file_name": "estj-franklin_delano_roosevelt-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:FDR_1944_Color_Portrait.tif",
@@ -93,7 +93,7 @@
     }, {
       "id": "5058",
       "title": "John Fitzgerald Kennedy",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_F._Kennedy' title='Wikipedia page for John Fitzgerald Kennedy' target='_blank'>35th President</a> of the USA - Jan. 20, 1961 to Nov. 22, 1963",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/John_F._Kennedy' title='Wikipedia page for John Fitzgerald Kennedy' target='_blank'>35th President</a> of the USA &mdash; Jan. 20, 1961 to Nov. 22, 1963",
       "gallery_page_teaser": "John Fitzgerald Kennedy's spiritual portrait shows he is idealistic and logical, but prefers privacy to the limelight.  Click on the image to learn more!",
       "image_file_name": "intp-john_fitzgerald_kennedy-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:John_F._Kennedy,_White_House_photo_portrait,_looking_up.jpg",
@@ -119,7 +119,7 @@
     }, {
       "id": "5060",
       "title": "Lyndon Baines Johnson",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Lyndon_B._Johnson' title='Wikipedia page for Lyndon Baines Johnson' target='_blank'>36th President</a> of the USA - Nov. 22, 1963 to Jan. 20, 1968",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Lyndon_B._Johnson' title='Wikipedia page for Lyndon Baines Johnson' target='_blank'>36th President</a> of the USA &mdash; Nov. 22, 1963 to Jan. 20, 1968",
       "gallery_page_teaser": "Lyndon Baines Johnson's spiritual portrait shows he is out-going, realistic, and logical.  Click on the image to learn more!",
       "image_file_name": "estp-lyndon_baines_johnson-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:37_Lyndon_Johnson_3x4.jpg",
@@ -145,10 +145,10 @@
     }, {
       "id": "5062",
       "title": "Richard Milhous Nixon",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "entj-ronald_reagan-1.jpg",
-      "meat_portrait_href": "",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Richard_Nixon' title='Wikipedia page for Richard Nixon' target='_blank'>37th President</a> of the USA &mdash; Jan. 20, 1969 to Aug. 9, 1974",
+      "gallery_page_teaser": "Richard Nixon's spiritual portrait shows he is very logical and a bit pragmatic.  Click on the image to learn more!",
+      "image_file_name": "estj-richard_nixon-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -156,7 +156,7 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "ENTJ",
+      "four_letter_type": "ESTJ",
       "fixed_percentages": "",
       "archetype": "Te",
       "quiz_type": "K2",
@@ -196,10 +196,10 @@
     }, {
       "id": "5074",
       "title": "Ronald Wilson Reagan",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ronald_Reagan' title='Wikipedia page for Ronald Reagan' target='_blank'>40th President</a> of the USA &mdash; Jan. 20, 1981 to Jan. 20, 1989",
+      "gallery_page_teaser": "Ronald Reagan's spiritual portrait shows he is very logical and slightly idealistic.  Click on the image to learn more!",
       "image_file_name": "entj-ronald_reagan-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg",
       "composition": "O",
       "score": [
          { "e_score": "0", "i_score": "0" },
@@ -244,7 +244,7 @@
     }, {
       "id": "5076",
       "title": "George Herbert Walker Bush",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA - Jan. 20, 1989 to Jan. 20 1993",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/George_H._W._Bush' target='_blank' title='Wikipedia page for George H. W. Bush'>41st President</a> of the USA &mdash; Jan. 20, 1989 to Jan. 20 1993",
       "gallery_page_teaser": "The preponderance of Green in this spiritual portrait of George Herbert Walker Bush (George W.'s father) shows that he is a very logical thinker.  Click on the image to learn more!",
       "image_file_name": "istj-george_h_w_bush-41st_president.jpeg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait.jpg",
@@ -270,7 +270,7 @@
     }, {
       "id": "5078",
       "title": "Bill Clinton",
-      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President</a> of the USA - Jan. 20, 1993 to Jan. 20, 2001",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bill_Clinton' target='_blank' title='Wikipedia page for Bill Clinton'>42nd President</a> of the USA &mdash; Jan. 20, 1993 to Jan. 20, 2001",
       "gallery_page_teaser": "There is some disagreement regarding Bill Clinton's personality type, but at least one article claims he is 'verified' as an ENFP.  Click on the image to learn more!",
       "image_file_name": "enfp-bill_clinton-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Bill_Clinton.jpg",
