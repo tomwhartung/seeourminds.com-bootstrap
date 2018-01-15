@@ -36,8 +36,8 @@
       "id": "2502",
       "title": "Donna Hayward",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "gallery_page_teaser": "Donna Hayward's spiritual portrait shows she is outgoing and rational.  Click on the image to learn more!",
+      "image_file_name": "entj-donna_hayward-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -46,7 +46,7 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENTJ",
       "fixed_percentages": "",
       "archetype": "Xe",
       "quiz_type": "K",
@@ -77,7 +77,6 @@
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -87,8 +86,8 @@
       "id": "2506",
       "title": "James Hurley",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "gallery_page_teaser": "James Hurley's spiritual portrait shows he is shy and a bit moody.  Click on the image to learn more!",
+      "image_file_name": "infp-james_hurley-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -97,7 +96,7 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "IXXX",
+      "four_letter_type": "INFP",
       "fixed_percentages": "",
       "archetype": "Xi",
       "quiz_type": "K",
@@ -114,15 +113,14 @@
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
       "id": "2508",
       "title": "Madeline Ferguson",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait is/shows they are ....  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "gallery_page_teaser": "Maddie Furguson's spiritual portrait shows she is friendly, warm, and down-to-earth.  Click on the image to learn more!",
+      "image_file_name": "esfp-madelyn_ferguson-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -131,7 +129,7 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ESFP",
       "fixed_percentages": "",
       "archetype": "Xe",
       "quiz_type": "K",
@@ -162,7 +160,6 @@
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
