@@ -35,21 +35,21 @@
     }, {
       "id": "2502",
       "title": "Donna Hayward",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Laura's <a href='https://en.wikipedia.org/wiki/Donna_Hayward' title='Wikipedia page for Donna Hayward' target='_blank'>Best Friend</a>",
       "gallery_page_teaser": "Donna Hayward's spiritual portrait shows she is outgoing and rational.  Click on the image to learn more!",
       "image_file_name": "entj-donna_hayward-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Lara_Flynn_Boyle_and_Moira_Kelly_as_Donna_Hayward.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "7", "t_score": "12" },
+         { "j_score": "13", "p_score": "6" }
       ],
       "four_letter_type": "ENTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Te",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -85,21 +85,21 @@
     }, {
       "id": "2506",
       "title": "James Hurley",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Laura's <a href='https://en.wikipedia.org/wiki/List_of_Twin_Peaks_characters#James_Hurley' title='Wikipedia page for James Hurley' target='_blank'>Secret Boyfriend</a>",
       "gallery_page_teaser": "James Hurley's spiritual portrait shows he is shy and a bit moody.  Click on the image to learn more!",
       "image_file_name": "infp-james_hurley-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "http://www.imdb.com/title/tt0098936/mediaviewer/rm2147535872?ft0=name&fv0=nm0338614&ft1=image_type&fv1=still_frame",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "4", "p_score": "15" }
       ],
       "four_letter_type": "INFP",
       "fixed_percentages": "",
-      "archetype": "Xi",
-      "quiz_type": "K",
+      "archetype": "Fi",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
@@ -117,22 +117,22 @@
       "contrast_with": { }
     }, {
       "id": "2508",
-      "title": "Madeline Ferguson",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Maddie Furguson's spiritual portrait shows she is friendly, warm, and down-to-earth.  Click on the image to learn more!",
+      "title": "Maddy Ferguson",
+      "subtitle_html": "Laura's <a href='https://en.wikipedia.org/wiki/Maddy_Ferguson' title='Wikipedia page for Maddy Ferguson' target='_blank'>Cousin</a>",
+      "gallery_page_teaser": "Maddy Furguson's spiritual portrait shows she is warm, friendly, and down-to-earth.  Click on the image to learn more!",
       "image_file_name": "esfp-madelyn_ferguson-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/Maddy_Ferguson",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "6", "s_score": "13" },
+         { "f_score": "15", "t_score": "4" },
+         { "j_score": "6", "p_score": "13" }
       ],
       "four_letter_type": "ESFP",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "K",
+      "archetype": "Se",
+      "quiz_type": "K2",
       "subject_line": "",
       "tweet_html": "",
 
