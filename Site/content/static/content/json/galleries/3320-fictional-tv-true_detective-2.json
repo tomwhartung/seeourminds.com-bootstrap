@@ -7,7 +7,7 @@
   "image_list":
   [
     {
-      "id": "2320",
+      "id": "3320",
       "title": "Ray Velcoro",
       "subtitle_html": "Vinci Police Department Detective",
       "gallery_page_teaser": "Ray is not a typical cop, but Vinci is not a typical city, and they are uniquely suited for each other.  Click on the image to learn more!",
@@ -30,9 +30,9 @@
       "story_intro_html": "<p>The way <a href='http://true-detective.wikia.com/wiki/Ray_Velcoro' title='Wikipedia page for Ray Velcoro' target='_blank'>Ray Velcoro</a> cares for his kid is rare for a law enforcement-type character.  His role is ....</p>",
       "story_html": "<p>The way <a href='http://true-detective.wikia.com/wiki/Ray_Velcoro' title='Wikipedia page for Ray Velcoro' target='_blank'>Ray Velcoro</a> cares for his kid is rare for a law enforcement-type character.  His role is pivotal, and it's rather sad that no one, except us, can really see some of his more redeeming qualities.</p><p>His spiritual portrait looks remarkably different from those of the other two cops in this season of the series, Ani Bezzerides and Paul Woodrugh.  He does share some idealism &mdash; represented by the Blue &mdash; with Frank, though, And this is no doubt how they manage to get along so well.</p>",
       "compare_to": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2206" },
-      "contrast_with": { "gallery_file_name": "2320-fictional-tv-true_detective-2", "image_id": "2322" }
+      "contrast_with": { "gallery_file_name": "3320-fictional-tv-true_detective-2", "image_id": "3322" }
     }, {
-      "id": "2322",
+      "id": "3322",
       "title": "Ani Bezzerides",
       "subtitle_html": "Ventura County Police Sergeant",
       "gallery_page_teaser": "As a woman, Ani faces challenges fitting in with the typically male cops in the Ventura County's Sheriff's Office.  Click on the image to learn more!",
@@ -55,12 +55,12 @@
       "story_intro_html": "<p>Ani has a past that haunts her, and superiors who set her against Ray.  She is resilient enough, however, to ....</p>",
       "story_html": "<p>Ani has a past that haunts her, and superiors who set her against Ray.  She is resilient enough, however, to face these challenges head-on.</p><p>As the portraits show, her personality is most similar to Paul's, and they do indeed work well together.  But as a woman, her abilities and perspective set her apart from him:</p><blockquote><b>Ani:</b> Maybe, and this is just a thought, maybe you were put on earth for more than fucking.<br /><b>Vera:</b> Everything is fucking.</blockquote><p>The solid grounding of Ani's and Paul's personalities provide a solid moral footing in a universe that is largely lacking in any sort of morality whatsoever.</p>",
       "compare_to": { "gallery_file_name": "2400-fictional-tv-sopranos", "image_id": "2400" },
-      "contrast_with": { "gallery_file_name": "2320-fictional-tv-true_detective-2", "image_id": "2320" }
+      "contrast_with": { "gallery_file_name": "3320-fictional-tv-true_detective-2", "image_id": "3320" }
     }, {
-      "id": "2324",
+      "id": "3324",
       "title": "responsive_ad"
     }, {
-      "id": "2326",
+      "id": "3326",
       "title": "Paul Woodrugh",
       "subtitle_html": "California Highway Patrol Officer",
       "gallery_page_teaser": "Paul is a cop with a painful past, and a future he has difficulty facing up to.  Click on the image to learn more!",
@@ -85,10 +85,10 @@
       "compare_to": { "gallery_file_name": "2200-fictional-movies-film_noir", "image_id": "2216" },
       "contrast_with": { }
     }, {
-      "id": "2328",
+      "id": "3328",
       "title": "square_ad"
     }, {
-      "id": "2329",
+      "id": "3329",
       "title": "Frank Semyon",
       "subtitle_html": "Night Club Owner",
       "gallery_page_teaser": "Frank is a gangster, but as Ray puts it, he's 'not that bad.'  What's going on in his mind?  Click on the image to learn more!",
