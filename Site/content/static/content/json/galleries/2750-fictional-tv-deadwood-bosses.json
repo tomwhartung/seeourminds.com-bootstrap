@@ -77,17 +77,8 @@
       "fixed_percentages": "",
       "archetype": "Si",
       "quiz_type": "S",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Sol Star's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Sol Star's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Sol Star's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Sol Star's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Sol Star's dominant personality trait, his pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in the way he sticks to business and shows no interest in religion or other ideas, even though he is regarded as being Jewish.",
+      "explain_aux": "The Green in this spiritual portrait represents Sol Star's auxiliary personality trait, his moderate preference for logic.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait when he works to show Trixie how to manage the account books.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
@@ -95,6 +86,9 @@
       "contrast_with": { }
     }, {
       "id": "2755",
+      "title": "square_ad"
+    }, {
+      "id": "2756",
       "title": "Cy Tolliver",
       "subtitle_html": "Owner of the <a href='https://en.wikipedia.org/wiki/Bella_Union_Saloon' title='Wikipedia page for the Bella Union Saloon' target='_blank'>Bella Union Saloon</a>",
       "gallery_page_teaser": "Cy Tolliver's spiritual portrait shows he is extremely logical and pragmatic.  Click on the image to learn more!",
@@ -111,25 +105,13 @@
       "fixed_percentages": "",
       "archetype": "Si",
       "quiz_type": "S",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Cy Tolliver's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Cy Tolliver's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Cy Tolliver's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Cy Tolliver's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Cy Tolliver's dominant personality trait, his extreme pragmatism.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in the cynicism he shows towards religion and Al Swearengen's strategizing.",
+      "explain_aux": "The Green in this spiritual portrait represents Cy Tolliver's auxiliary personality trait, his extreme objectivity.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in the way he completely objectifies the people who work for him, men and women alike.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
       "compare_to": { },
       "contrast_with": { }
-    }, {
-      "id": "2756",
-      "title": "square_ad"
     }, {
       "id": "2757",
       "title": "George Hearst",
