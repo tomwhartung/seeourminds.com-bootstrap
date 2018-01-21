@@ -7,7 +7,7 @@
   "image_list":
   [
     {
-      "id": "2800",
+      "id": "3900",
       "title": "Dr. Leonard H. 'Bones' McCoy",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Leonard_McCoy' title='Wikipedia page for Chief Medical Officer Leonard McCoy' target='_blank'>Chief Medical Officer</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "gallery_page_teaser": "Dr. McCoy's spiritual portrait looks so different from Mr. Spock's because their personalities are so different.  Click on the image to learn more!",
@@ -28,11 +28,11 @@
       "explain_dom": "The Yellow in Dr. McCoy's spiritual portrait represents his realism.  In Extraverts, the dominant function is directed outwardly, and spiritual portraits use a long vertical line to represent this.  His realism makes him somewhat suspicious of technology, and he favors natural methods of healing to more intrusive methods.",
       "explain_aux": "The Red in Dr. McCoy's spiritual portrait represents his strong emotions.  In Extraverts, the auxiliary function is directed inwardly and is less evident than the dominant function.  His emotions frequently cause him to get frustrated with the captain, and he expresses this frustration repeatedly in lines such as 'Dammit Jim!'",
       "story_intro_html": "<p>Once I finished writing the first version of the Groja &copy; program, I wanted to <q>test it out</q> it by seeing how it would draw characters like Dr. McCoy and Mr. ....</p>",
-      "story_html": "<p>Once I finished writing the first version of the Groja &copy; program, I wanted to <q>test it out</q> it by seeing how it would draw characters like Dr. McCoy and Mr. Spock if I answered the questions as the character might answer them.</p><p>This image of Dr. McCoy's personality is one of the results.  As you can see, it is very warm and full of Feeling, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/2800-fictional-tv-star_trek/2804/' title='Link to the image of Mr. Spock on this site'>Mr. Spock</a>.</p>",
+      "story_html": "<p>Once I finished writing the first version of the Groja &copy; program, I wanted to <q>test it out</q> it by seeing how it would draw characters like Dr. McCoy and Mr. Spock if I answered the questions as the character might answer them.</p><p>This image of Dr. McCoy's personality is one of the results.  As you can see, it is very warm and full of Feeling, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/3900-fictional-tv-star_trek/3904/' title='Link to the image of Mr. Spock on this site'>Mr. Spock</a>.</p>",
       "compare_to": { },
-      "contrast_with": { "gallery_file_name": "2800-fictional-tv-star_trek", "image_id": "2804" }
+      "contrast_with": { "gallery_file_name": "3900-fictional-tv-star_trek", "image_id": "3904" }
     }, {
-      "id": "2802",
+      "id": "3902",
       "title": "James T. Kirk",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/James_T._Kirk' title='Wikipedia page for James T. Kirk' target='_blank'>Captain</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "gallery_page_teaser": "The preponderance of Green in Kirk's spiritual portrait shows he is rational and decisive, but in practice he relies heavily on both Spock and Dr. McCoy for input to his decisions.  Click on the image to learn more!",
@@ -57,7 +57,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2804",
+      "id": "3904",
       "title": "Spock",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Spock' title='Wikipedia page for Spock' target='_blank'>First Officer</a> of the <a href='https://en.wikipedia.org/wiki/Starship_Enterprise' title='Wikipedia page for the USS Starship Enterprise' target='_blank'>USS Enterprise</a>",
       "gallery_page_teaser": "Mr. Spock's spiritual portrait looks so different from Dr. McCoy's because their personalities are so different.  Click on the image to learn more!",
@@ -80,15 +80,15 @@
       "story_intro_html": "<p>Once I finished writing the first version of the Groja &copy; program, I wanted to <q>test it out</q> it by seeing how it would draw characters like Mr. Spock and Dr. ....</p>",
       "story_html": "<p>Once I finished writing the first version of the Groja &copy; program, I wanted to <q>test it out</q> it by seeing how it would draw characters like Mr. Spock and Dr. McCoy if I answered the questions as the character might answer them.</p><p>This image of Spock's personality is one of the results.  As you can see, it is very cool and consistent, just like his personality!  And as hoped, it stands in stark contrast to the image of his <q>foil</q>, <a href='/image/2600-fictional-tv-star_trek/2600/' title='Link to image of Dr. McCoy on this site'>Dr. McCoy</a>.</p><p>It is interesting to compare this image to the one of <a href='/image/5040-politicians-us_presidents-1900s/5077/' title='Link to the image of George Herbert Walker Bush on this site'>George Herbert Walker Bush</a>, who was our president at that time, in the late 1980s.</p>",
       "compare_to": { "gallery_file_name": "5040-politicians-us_presidents-1900s", "image_id": "5077" },
-      "contrast_with": { "gallery_file_name": "2800-fictional-tv-star_trek", "image_id": "2800" }
+      "contrast_with": { "gallery_file_name": "3900-fictional-tv-star_trek", "image_id": "3900" }
     }, {
-      "id": "2806",
+      "id": "3906",
       "title": "responsive_ad"
     }, {
-      "id": "2807",
+      "id": "3907",
       "title": "square_ad"
     }, {
-      "id": "2808",
+      "id": "3908",
       "title": "responsive_ad"
     }
   ]
