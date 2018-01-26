@@ -1,0 +1,37 @@
+{
+  "gallery_title": "American Presidents - Nixon",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "American Presidents, just like any other group of individuals, have different personalities.  Learn how the images of some popular and recent presidents reflect their idealism, decisiveness, and other qualities.",
+  "description_html": "<p>Which politicians &ndash; &#x263A; if any &#x263A; &ndash; are your favorites? How does your personality compare to theirs?</p><p>This gallery contains a few spiritual portraits of our presidents from the 1900s.  If you know your four-letter type, perhaps you can see similarities between your personality and that of your favorite president &mdash; assuming you have one!</p>",
+  "story_html": "<p>I frequently wonder whether an individual's personality type has any bearing on how they lean politically.  As an idealist, I am definitely biased toward idealistic presidents, such as Jefferson and Lincoln.</p><p>If this topic interests you, check out David Keirsey's book <a href='http://www.keirsey.com/pres_book.aspx' title='Link to Presidential Temperament on Keirsey.com' target='_blank'>Presidential Temperament</a>.  It covers this topic in depth!</p><p>I will be adding portraits to this gallery soon.  To keep up to date and learn when I post new images, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to a small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "image_list":
+  [
+    {
+      "id": "5062",
+      "title": "Richard Milhous Nixon",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Richard_Nixon' title='Wikipedia page for Richard Nixon' target='_blank'>37th President</a> of the USA &mdash; Jan. 20, 1969 to Aug. 9, 1974",
+      "gallery_page_teaser": "Richard Nixon's spiritual portrait shows he is very logical and a bit pragmatic.  Click on the image to learn more!",
+      "image_file_name": "estj-richard_nixon-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Richard_M._Nixon,_ca._1935_-_1982_-_NARA_-_530679.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "14", "p_score": "5" }
+      ],
+      "four_letter_type": "ESTJ",
+      "fixed_percentages": "",
+      "archetype": "Te",
+      "quiz_type": "K2",
+      "subject_line": "",
+      "tweet_html": "",
+      "explain_dom": "The Green in Richard Nixon's spiritual portrait represents his dominant personality trait, his strong preference for making logical rather than emotional decisions.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrated this preference in the Nixon Doctrine, which assured allies the US would honor its treaties and provide a nuclear shield, while addressing both waning support for the Vietnam War in the US and budget concerns about similar costly endeavors in other countries.",
+      "explain_aux": "The Yellow in Richard Nixon's spiritual portrait represents his auxiliary personality trait, his fairly strong preference for seeing a world of facts rather than ideas.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrated this preference in the way he adopted a more realistic, pragmatic view of the war in Vietnam than many of his predecessors did.",
+      "story_intro_html": " <p>born 1913 2 years after Reagan blah blah blah, VP, CA like Reagan, but a loser in the early 1960s.  </p> <blockquote> loser quote </blockquote> <h4> </h4> <p> logical - wanted peace but did not get all emotional about it.  </p> <blockquote> peace quote </blockquote> <p> that is his epitaph btw </p> <h4> </h4> <p> </p> <blockquote> </blockquote> <p> </p> <hr /> <h4>About This Portrait </h4> <p>This spiritual portrait is based on _______.</p>",
+      "story_html": "<p> </p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }
+  ]
+}
