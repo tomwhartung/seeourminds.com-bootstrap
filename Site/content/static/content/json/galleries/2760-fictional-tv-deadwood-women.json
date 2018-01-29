@@ -78,17 +78,8 @@
       "fixed_percentages": "",
       "archetype": "Se",
       "quiz_type": "S1",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Jane's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents Jane's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Jane's dominant personality trait, her realism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Jane demonstrates this trait in the way she is always in the current moment, and rarely talks about the past or the future.",
+      "explain_aux": "The Red in this spiritual portrait represents Jane's auxiliary personality trait, her amiability and friendliness.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Jane demonstrates this trait in the deep feelings she has for her friends such as Wild Bill Hickock, Charlie Utter, and Joanie Stubbs.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
