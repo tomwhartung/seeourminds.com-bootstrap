@@ -139,11 +139,11 @@
   {{ block.super }}
   {% if image_dict.story_html or image_dict.explain_dom or image_dict.explain_aux %}
     <script>
+      var toggle_text_effect = seeourminds.effect_for_type["{{ image_dict.four_letter_type }}"];
       {% if image_dict.story_html %}
         /*
          * Event handler for the Toggle Story button:
          */
-        var toggle_text_effect = seeourminds.effect_for_type["{{ image_dict.four_letter_type }}"];
         $("#toggle-story-html").click(function() {
           var button_text = $("#toggle-story-html").text();
           if ( button_text.includes('Show') ) {
