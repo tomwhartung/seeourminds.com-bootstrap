@@ -51,17 +51,8 @@
       "fixed_percentages": "",
       "archetype": "Se",
       "quiz_type": "S1",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Trixie's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents Trixie's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Trixie's dominant personality trait, her openness to new experiences.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Trixie demonstrates this trait in the way she is willing to try out a number of different occupations in various businesses in the town.",
+      "explain_aux": "The Red in this spiritual portrait represents Trixie's auxiliary personality trait, her warmth and passion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Trixie demonstrates this preference in the way she obviously continues to have deep feelings for Al even when she has stopped working for him and moved on to other opportunities for employment.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
