@@ -110,10 +110,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "1", "s_score": "18" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "13", "p_score": "6" }
       ],
       "four_letter_type": "ISFJ",
       "fixed_percentages": "",
