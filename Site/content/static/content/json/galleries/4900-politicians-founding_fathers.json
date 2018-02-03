@@ -41,10 +41,10 @@
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "7", "t_score": "12" },
+         { "j_score": "6", "p_score": "13" }
       ],
       "four_letter_type": "ENTP",
       "fixed_percentages": "",
