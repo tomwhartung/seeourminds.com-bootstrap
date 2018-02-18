@@ -71,7 +71,7 @@
       "title": "Johnny Burns",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "Johnny Burns' spiritual portrait shows he is ....  Click on the image to learn more!",
-      "image_file_name": "estp-johnny_burns-1.jpg",
+      "image_file_name": "esfp-johnny_burns-2.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -80,19 +80,12 @@
          { "f_score": "11", "t_score": "8" },
          { "j_score": "4", "p_score": "15" }
       ],
-      "four_letter_type": "ESTP",
+      "four_letter_type": "ESFP",
       "fixed_percentages": "",
       "archetype": "Se",
       "quiz_type": "C0",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Johnny Burns' dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Johnny Burns' auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Johnny Burns' dominant personality trait, his strong preference for being realistic.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Johnny demonstrates this trait in the way his is very practical and down-to-earth.",
+      "explain_aux": "The Red in this spiritual portrait represents Johnny Burns' auxiliary personality trait, his preference for emotion over reason.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Johnny demonstrates this trait when he is unable to kill the innocent prostitute Jen, due to his feelings for her.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
