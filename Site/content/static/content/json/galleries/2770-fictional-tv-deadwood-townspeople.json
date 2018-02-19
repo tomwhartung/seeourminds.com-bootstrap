@@ -33,8 +33,8 @@
     }, {
       "id": "2771",
       "title": "Doc Cochran",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Doc Cochran's spiritual portrait shows he is ....  Click on the image to learn more!",
+      "subtitle_html": "Deadwood's Only <a href='http://deadwoodchronicles.com/deadwood-character-collections/deadwood-character-doc-cochran/' title='Link to a page about Doc Cochran at deadwoodchronicles.com' target='_blank'>Doctor</a>",
+      "gallery_page_teaser": "Doc Cochran's spiritual portrait shows he is very logical and comfortable with abstractions.  Click on the image to learn more!",
       "image_file_name": "intj-doc_cochran-2.jpg",
       "meat_portrait_href": "https://www.hbo.com/deadwood/cast-and-crew/doc-cochran",
       "composition": "O",
@@ -48,15 +48,8 @@
       "fixed_percentages": "",
       "archetype": "Ni",
       "quiz_type": "C0",
-
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_dom": "The Blue in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Blue in this spiritual portrait represents Doc Cochran's dominant personality trait, his openness to ideas.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  The Doctor demonstrates this trait in the curiosity he shows when dissecting corpses in an effort to better understand the human body and how he might heal people's illnesses.",
+      "explain_aux": "The Green in this spiritual portrait represents Doc Cochran's auxiliary personality trait, his strong preference for logic over emotion.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  The Doc demonstrates his ability to reason when he advises patients on how they should treat their ailments and, in some cases, change their self-destructive behaviors.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
