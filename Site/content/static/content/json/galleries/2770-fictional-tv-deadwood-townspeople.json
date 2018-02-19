@@ -60,8 +60,8 @@
     }, {
       "id": "2774",
       "title": "Whitney Ellsworth",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Whitney Ellsworth's spiritual portrait shows he is ....  Click on the image to learn more!",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Prospecting' title='Wikipedia page for Prospecting' target='_blank'>Prospector</a> and <a href='/image/2760-fictional-tv-deadwood-women/2760/' title='Link to spiritual portrait of Alma Garret on this site'>Alma Garret's</a> Husband",
+      "gallery_page_teaser": "Whitney Ellsworth's spiritual portrait shows he is down-to-earth and friendly.  Click on the image to learn more!",
       "image_file_name": "esfp-whitney_ellsworth-1.jpg",
       "meat_portrait_href": "https://www.hbo.com/deadwood/cast-and-crew/ellsworth",
       "composition": "O",
@@ -75,17 +75,8 @@
       "fixed_percentages": "",
       "archetype": "Se",
       "quiz_type": "C0",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Whitney Ellsworth's dominant personality trait, his pragmatism and realistic outlook.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Ellsworth demonstrates this trait when he 'looks the other way' after Dan Dority kills Alma Garret's husband.",
+      "explain_aux": "The Red in this spiritual portrait represents Whitney Ellsworth's auxiliary personality trait, his amiability and compassion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Ellsworth demonstrates this trait in the way he is, in general, quite friendly to most of the people he encounters and, in particular, able to quickly befriend Alma Garret's traumatized adoptive daughter Sofia.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
