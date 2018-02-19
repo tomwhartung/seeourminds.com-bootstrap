@@ -108,8 +108,8 @@
     }, {
       "id": "2777",
       "title": "Charlie Utter",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Charlie Utter's spiritual portrait shows he is ....  Click on the image to learn more!",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Charlie_Utter' title='Wikipedia page for Charlie Utter' target='_blank'>Friend</a> of <a href='/image/2760-fictional-tv-deadwood-women/2766/' title='Link to spiritual portrait of Calamity Jane on this site'>Calamity Jane</a> and <a href='http://www.history.com/this-day-in-history/wild-bill-hickok-is-murdered' title='Link to an article about Wild Bill Hickock at www.history.com' target='_blank'>Wild Bill Hickock</a>",
+      "gallery_page_teaser": "Charlie Utter's spiritual portrait shows he is pragmatic and a bit emotional, but able to keep his emotions under control, for the most part.  Click on the image to learn more!",
       "image_file_name": "isfp-charlie_utter-2.jpg",
       "meat_portrait_href": "https://www.hbo.com/deadwood/cast-and-crew/charlie-utter",
       "composition": "O",
@@ -123,15 +123,8 @@
       "fixed_percentages": "",
       "archetype": "Fi",
       "quiz_type": "C0",
-
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Red in this spiritual portrait represents Charlie Utter's dominant personality trait, his passion and friendliness.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Charlie demonstrates this trait in the way he is friendly to most people, but cannot hide the contempt he feels for the wealthy, murdering interloper George Hearst.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Charlie Utter's auxiliary personality trait, his pragmatic and realistic outlook.  Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  Charlie demonstrates this trait when he senses that the romantic feelings he has for Joanie Stubbs will not be reciprocated, and so tries to keep these feelings to himself.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
