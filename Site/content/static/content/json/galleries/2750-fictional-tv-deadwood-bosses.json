@@ -31,34 +31,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2751",
-      "title": "Al Swearengen",
-      "subtitle_html": "Owner of the <a href='https://en.wikipedia.org/wiki/Gem_Theater' title='Wikipedia page for the Gem Theater' target='_blank'>Gem</a>",
-      "gallery_page_teaser": "Al Swearengen's spiritual portrait shows he is logical and comfortable with theories and abstractions.  Click on the image to learn more!",
-      "image_file_name": "entp-al_swearengen-1.jpg",
-      "meat_portrait_href": "http://www.imdb.com/title/tt0348914/mediaviewer/rm448971008",
-      "composition": "O",
-      "score": [
-         { "e_score": "17", "i_score": "2" },
-         { "n_score": "16", "s_score": "3" },
-         { "f_score": "3", "t_score": "16" },
-         { "j_score": "8", "p_score": "11" }
-      ],
-      "four_letter_type": "ENTP",
-      "fixed_percentages": "",
-      "archetype": "Ne",
-      "quiz_type": "C0",
-      "explain_dom": "The Blue in this spiritual portrait represents Al Swearengen's dominant personality trait, his strong preference for ideas over facts.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait in the way he seeks to understand his opponents' motivations and strategies before making decisions and taking action.",
-      "explain_aux": "The Green in this spiritual portrait represents Al Swearengen's auxiliary personality trait, his strong preference for rationality and cool-headedness.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait in the way he values money more than people and puts business before pleasure.",
-      "story_intro_html": "",
-      "story_html": "",
-      "compare_to": { },
-      "contrast_with": { }
-    }, {
       "id": "2752",
-      "title": "responsive_ad"
-    }, {
-      "id": "2754",
       "title": "Sol Star",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Hardware_store' title='Wikipedia page for Hardware store' target='_blank'>Hardware Store</a> Owner",
       "gallery_page_teaser": "Sol Star's spiritual portrait shows he pragmatic and extremely decisive.  Click on the image to learn more!",
@@ -83,7 +56,28 @@
       "contrast_with": { }
     }, {
       "id": "2755",
-      "title": "square_ad"
+      "title": "Al Swearengen",
+      "subtitle_html": "Owner of the <a href='https://en.wikipedia.org/wiki/Gem_Theater' title='Wikipedia page for the Gem Theater' target='_blank'>Gem</a>",
+      "gallery_page_teaser": "Al Swearengen's spiritual portrait shows he is logical and comfortable with theories and abstractions.  Click on the image to learn more!",
+      "image_file_name": "entp-al_swearengen-1.jpg",
+      "meat_portrait_href": "http://www.imdb.com/title/tt0348914/mediaviewer/rm448971008",
+      "composition": "O",
+      "score": [
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "16", "s_score": "3" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "8", "p_score": "11" }
+      ],
+      "four_letter_type": "ENTP",
+      "fixed_percentages": "",
+      "archetype": "Ne",
+      "quiz_type": "C0",
+      "explain_dom": "The Blue in this spiritual portrait represents Al Swearengen's dominant personality trait, his strong preference for ideas over facts.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait in the way he seeks to understand his opponents' motivations and strategies before making decisions and taking action.",
+      "explain_aux": "The Green in this spiritual portrait represents Al Swearengen's auxiliary personality trait, his strong preference for rationality and cool-headedness.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait in the way he values money more than people and puts business before pleasure.",
+      "story_intro_html": "",
+      "story_html": "",
+      "compare_to": { },
+      "contrast_with": { }
     }, {
       "id": "2756",
       "title": "Cy Tolliver",
@@ -110,6 +104,9 @@
       "contrast_with": { }
     }, {
       "id": "2757",
+      "title": "responsive_ad"
+    }, {
+      "id": "2758",
       "title": "George Hearst",
       "subtitle_html": "<a href='https://www.urbandictionary.com/define.php?term=interloper' title='Page for Interloper at www.urbandictionary.com ' target='_blank'>Interloper</a>",
       "gallery_page_teaser": "George Hearst's spiritual portrait shows he is extremely logical and mostly interested in facts.  Click on the image to learn more!",
@@ -132,9 +129,6 @@
       "story_html": "",
       "compare_to": { },
       "contrast_with": { }
-    }, {
-      "id": "2758",
-      "title": "responsive_ad"
     }, {
       "id": "2759",
       "title": "responsive_ad"
