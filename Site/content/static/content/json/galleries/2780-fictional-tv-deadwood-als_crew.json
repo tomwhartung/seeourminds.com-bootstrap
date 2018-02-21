@@ -2,8 +2,8 @@
   "gallery_title": "Deadwood - Al's Crew",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "description_html": "<p><a href='/image/2780-fictional-tv-deadwood-als_crew/2786/' title='Link to spiritual portrait of Al Swearengen on this site'>Al Swearengen</a>'s team is like a family, and their spiritual portraits show some diversity.</p> <ul><li><a href='/image/2780-fictional-tv-deadwood-als_crew/2780/' title='Link to spiritual portrait of Dan Dority on this site'>Dan Dority</a>'s image shows he is pragmatic and rational.</li><li><a href='/image/2780-fictional-tv-deadwood-als_crew/2782/' title='Link to spiritual portrait of Johnny Burns on this site'>Johnny Burns</a>'s image shows he is friendly and very open to new experiences.</li><li><a href='/image/2780-fictional-tv-deadwood-als_crew/2784/' title='Link to spiritual portrait of Silas Adams on this site'>Silas Adams</a>'s image shows he is decisive and has a head for strategies.</li><li><a href='/image/2780-fictional-tv-deadwood-als_crew/2787/' title='Link to spiritual portrait of Trixie on this site'>Trixie</a>'s image she is passionate and very open to new experiences.</li></ul><p>Everyone on <a href='/image/2780-fictional-tv-deadwood-als_crew/2788/' title='Link to spiritual portrait of Al Swearengen on this site'>Al Swearengen</a>'s crew respects and admires him, and his image shows he is good at formulating strategies that can help his businesses succeed.</p>",
+  "story_html": "",
   "image_list":
   [
     {
@@ -56,9 +56,6 @@
       "contrast_with": { }
     }, {
       "id": "2784",
-      "title": "responsive_ad"
-    }, {
-      "id": "2785",
       "title": "Silas Adams",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Bagman' title='Wikipedia page for Bagman' target='_blank'>Bagman</a> from <a href='http://www.cityofyankton.org/' title='Link to the home page at www.cityofyankton.org' target='_blank'>Yankton</a>",
       "gallery_page_teaser": "Silas Adams' spiritual portrait shows he has a head for strategies and the decisiveness needed to carry out cold-blooded acts.  Click on the image to learn more!",
@@ -82,29 +79,8 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2786",
-      "title": "Al Swearengen",
-      "subtitle_html": "Owner of the <a href='https://en.wikipedia.org/wiki/Gem_Theater' title='Wikipedia page for the Gem Theater' target='_blank'>Gem Theater</a>",
-      "gallery_page_teaser": "Al Swearengen's spiritual portrait shows he is good at formulating strategies that can help his businesses succeed.  Click on the image to learn more!",
-      "image_file_name": "entp-al_swearengen-1.jpg",
-      "meat_portrait_href": "https://www.hbo.com/deadwood/cast-and-crew/al-swearengen",
-      "composition": "O",
-      "score": [
-         { "e_score": "17", "i_score": "2" },
-         { "n_score": "16", "s_score": "3" },
-         { "f_score": "3", "t_score": "16" },
-         { "j_score": "8", "p_score": "11" }
-      ],
-      "four_letter_type": "ENTP",
-      "fixed_percentages": "",
-      "archetype": "Ne",
-      "quiz_type": "C0",
-      "explain_dom": "The Blue in this spiritual portrait represents Al Swearengen's dominant personality trait, a strong preference for ideas over facts.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Al demonstrates this trait in the way he deals with adversaries such as George Hearst, by focusing on figuring out what strategies to use before deciding on specific tactics.",
-      "explain_aux": "The Green in this spiritual portrait represents Al Swearengen's auxiliary personality trait, his ability to stay cool and objective in times of stress.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Al demonstrates this trait when he insists on walking back to the Gem under his own power after Hearst cuts off his finger.",
-      "story_intro_html": "",
-      "story_html": "",
-      "compare_to": { },
-      "contrast_with": { }
+      "id": "2785",
+      "title": "responsive_ad"
     }, {
       "id": "2787",
       "title": "Trixie",
@@ -125,6 +101,30 @@
       "quiz_type": "C0",
       "explain_dom": "The Yellow in this spiritual portrait represents Trixie's dominant personality trait, her openness to new experiences.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Trixie demonstrates this trait in the way she is willing to try out a number of different occupations in various businesses in the town.",
       "explain_aux": "The Red in this spiritual portrait represents Trixie's auxiliary personality trait, her warmth and passion.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Trixie demonstrates this preference in the way she obviously continues to have deep feelings for Al even when she has stopped working for him and moved on to other opportunities for employment.",
+      "story_intro_html": "",
+      "story_html": "",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "2788",
+      "title": "Al Swearengen",
+      "subtitle_html": "Owner of the <a href='https://en.wikipedia.org/wiki/Gem_Theater' title='Wikipedia page for the Gem Theater' target='_blank'>Gem Theater</a>",
+      "gallery_page_teaser": "Al Swearengen's spiritual portrait shows he is good at formulating strategies that can help his businesses succeed.  Click on the image to learn more!",
+      "image_file_name": "entp-al_swearengen-1.jpg",
+      "meat_portrait_href": "https://www.hbo.com/deadwood/cast-and-crew/al-swearengen",
+      "composition": "O",
+      "score": [
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "16", "s_score": "3" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "8", "p_score": "11" }
+      ],
+      "four_letter_type": "ENTP",
+      "fixed_percentages": "",
+      "archetype": "Ne",
+      "quiz_type": "C0",
+      "explain_dom": "The Blue in this spiritual portrait represents Al Swearengen's dominant personality trait, a strong preference for ideas over facts.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Al demonstrates this trait in the way he deals with adversaries such as George Hearst, by focusing on figuring out what strategies to use before deciding on specific tactics.",
+      "explain_aux": "The Green in this spiritual portrait represents Al Swearengen's auxiliary personality trait, his ability to stay cool and objective in times of stress.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Al demonstrates this trait when he insists on walking back to the Gem under his own power after Hearst cuts off his finger.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
