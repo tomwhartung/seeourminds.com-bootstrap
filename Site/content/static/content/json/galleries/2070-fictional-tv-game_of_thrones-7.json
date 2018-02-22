@@ -15,10 +15,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "14", "s_score": "5" },
+         { "f_score": "4", "t_score": "15" },
+         { "j_score": "3", "p_score": "16" }
       ],
       "four_letter_type": "INTP",
       "fixed_percentages": "",
