@@ -34,6 +34,28 @@
               Image Is Based on a Four-Letter Type (Fixed Percentages)</p>
           </div><!-- .text-center -->
         {% endif %}
+        {% if image_dict.explain_dom or image_dict.explain_aux %}
+          <div class="text-center">
+            {% if image_dict.explain_dom  %}
+              <a class="btn btn-md som-btn-all" id="toggle-explain-dom"
+                 title="Toggle explanation of how the image represents the dominant personality function">
+                Explain Dominant Color</a>
+            {% endif %}
+            {% if image_dict.explain_aux %}
+              <a class="btn btn-md som-btn-all" id="toggle-explain-aux"
+                 title="Toggle explanation of how the image represents the auxiliary personality function">
+                Explain Auxiliary Color</a>
+            {% endif %}
+          </div><!-- .text-center -->
+          {% if image_dict.explain_dom  %}
+            <p id="explain-dom" class="som-text-to-toggle">
+              {{ image_dict.explain_dom }}</p>
+          {% endif %}
+          {% if image_dict.explain_aux %}
+            <p id="explain-aux" class="som-text-to-toggle">
+              {{ image_dict.explain_aux }}</p>
+          {% endif %}
+        {% endif %}
         <div class="text-center">
           {% if image_dict.subtitle_html %}
             <h3 class="image-page">{{ image_dict.subtitle_html | safe }}</h3>
@@ -83,28 +105,6 @@
             <p>{{ image_dict.four_letter_type }}</p>
           {% endif %}
         </a>
-        {% if image_dict.explain_dom or image_dict.explain_aux %}
-          <div class="text-center">
-            {% if image_dict.explain_dom  %}
-            <a class="btn btn-md som-btn-all" id="toggle-explain-dom"
-                 title="Toggle explanation of how the image represents the dominant personality function">
-                Explain Dominant Color</a>
-            {% endif %}
-            {% if image_dict.explain_aux %}
-              <a class="btn btn-md som-btn-all" id="toggle-explain-aux"
-                 title="Toggle explanation of how the image represents the auxiliary personality function">
-                Explain Auxiliary Color</a>
-            {% endif %}
-          </div><!-- .text-center -->
-          {% if image_dict.explain_dom  %}
-            <p id="explain-dom" class="som-text-to-toggle">
-              {{ image_dict.explain_dom }}</p>
-          {% endif %}
-          {% if image_dict.explain_aux %}
-            <p id="explain-aux" class="som-text-to-toggle">
-              {{ image_dict.explain_aux }}</p>
-          {% endif %}
-        {% endif %}
 
         {% if image_dict.compare_to or image_dict.contrast_with %}
           <div class="text-center">
