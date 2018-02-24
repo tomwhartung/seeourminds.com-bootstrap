@@ -26,8 +26,8 @@
       "quiz_type": "C0",
       "explain_dom": "The Green in Bran's spiritual portrait represents his dominant personality trait, his preference for making objective rather than subjective decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in the way he remains relatively calm in the face of the remarkable things that happen to him.",
       "explain_aux": "The Blue in Bran's spiritual portrait represents his auxiliary personality trait, his preference for seeing the world more in terms of ideas than of facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in the way he is open to being a warg - someone whose spirit can inhabit another person or creature, such as Hodor or his wolf Summer.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_html": "<p>....</p>",
+      "story_intro_html": " <h4> </h4> <p> </p> <blockquote> </blockquote> <p> </p> <h4>Green: Logic</h4> <p> </p> <blockquote>Brandon: You're leaving.<br />Meera: I don't want to leave you.  But when - when they come, I need to be with my family.  You're safe.  Well, safe as anyone can be now.  You don't need me anymore.<br />Brandon: No, I don't.<br />Meera: That's all you've got to say?<br />Brandon: Thank you.<br />Meera: <q>Thank you?</q><br />Brandon: For helping me.<br />Meera: My brother died for you.  Hodor and Summer died for you.  I almost died for you.  Bran &mdash;<br />Brandon: I'm not, really.  Not anymore.  I remember what it felt like to be Brandon Stark.  But I remember so much else now.<br />Meera: [Voice breaking, trying not to cry.]  You died in that cave.  [Leaves.]</blockquote> <p> </p> <h4>Conclusion</h4> <p> </p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -50,8 +50,8 @@
       "quiz_type": "C0",
       "explain_dom": "The Green in Olenna's spiritual portrait represents her dominant personality trait, her fairly strong preference for making rational rather than emotional decisions.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait in the way she does not hesitate to share her opinions of people - which can be quite negative and harsh - with them publicly, and show absolutely no regard for how it might make them feel.",
       "explain_aux": "The Yellow in Olenna's spiritual portrait represents her auxiliary personality trait, her fairly strong preference for being pragmatic and realistic.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  She demonstrates this trait in the way she realistically accepts her fate when Jamie comes to visit her after his conquest of Highgarden.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_html": "",
+      "story_intro_html": "<p> </p> <blockquote> </blockquote> <p> </p> <blockquote> </blockquote> <p> </p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -77,8 +77,8 @@
       "quiz_type": "C0",
       "explain_dom": "The Green in Petyr's spiritual portrait represents his dominant personality trait, his preference for logic over emotion.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He demonstrates this trait in the way he is calm while treating people very coldly, even to the point of betraying them completely.",
       "explain_aux": "The Blue in Petyr's spiritual portrait represents his auxiliary personality trait, his fairly strong preference for ideas over facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He demonstrates this trait in the way he builds his entire life around an idea - the idea of him sitting on the Iron Throne.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_intro_html": "<p> </p> <blockquote> </blockquote> <p> </p> <blockquote> </blockquote> <p> </p>",
+      "story_html": "",
       "compare_to": { },
       "contrast_with": { }
     }, {
