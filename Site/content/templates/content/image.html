@@ -34,6 +34,11 @@
               Image Is Based on a Four-Letter Type (Fixed Percentages)</p>
           </div><!-- .text-center -->
         {% endif %}
+        {% if image_dict.year  %}
+          <div class="pull-right">
+            &copy;&nbsp;{{ image_dict.year }}
+          </div><!-- .pull-right -->
+        {% endif %}
         {% if image_dict.explain_dom or image_dict.explain_aux %}
           <div class="text-center">
             {% if image_dict.explain_dom  %}
