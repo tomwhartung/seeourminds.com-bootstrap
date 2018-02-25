@@ -396,6 +396,9 @@ img.story-image-right {
   float: right;
   margin: .5em 0 .5em 1.5em;
 }
+.image-year {
+  margin-top: .8em;
+}
 /*
  * Create our own bootstrap button colors that match the colors in the images
  */
