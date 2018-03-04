@@ -24,8 +24,7 @@
       "fixed_percentages": "",
       "archetype": "Te",
       "quiz_type": "K2",
-      "subject_line": "",
-      "tweet_html": "",
+      "year": "2018",
       "explain_dom": "The Green in this spiritual portrait represents Alexander Hamilton's dominant personality trait, his rationality.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrated this trait when he used logic to write pamphlets explaining his position on controversial issues, such as the assumption of state debts by the federal government for the Revolutionary War.",
       "explain_aux": "The Yellow in this spiritual portrait represents Alexander Hamilton's auxiliary personality trait, his realistic outlook.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrated this trait in his ongoing insistence that America needed a strong military to protect its borders and presence on the seas.",
       "story_intro_html": "<p><a href='https://en.wikipedia.org/wiki/Alexander_Hamilton' title='Wikipedia page for Alexander Hamilton' target='_blank'>Alexander Hamilton</a> was born on January 11 of either 1755 or 1757, in <a href='https://en.wikipedia.org/wiki/Charlestown,_Nevis' title='Wikipedia page for Charlestown' target='_blank'>Charlestown</a>, the capital of the island of <a href='https://en.wikipedia.org/wiki/Nevis' title='Wikipedia page for the island of Nevis' target='_blank'>Nevis</a> in the <a href='https://en.wikipedia.org/wiki/Caribbean_Sea' title='Wikipedia page for the Caribbean Sea' target='_blank'>Caribbean Sea</a>.  Although no one is sure which year he was born, it <em>is</em> certain he was ....</p>",
@@ -50,6 +49,7 @@
       "fixed_percentages": "",
       "archetype": "Ne",
       "quiz_type": "K2",
+      "year": "2018",
       "explain_dom": "The Blue in this spiritual portrait represents Benjamin Franklin's dominant personality trait, his openness to new ideas.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrated this trait by imagining and creating inventions, such as lightening rods, bifocal glasses, and the Franklin stove.",
       "explain_aux": "The Green in this spiritual portrait represents Benjamin Franklin's auxiliary personality trait, his preference for objectivity over subjectivity.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrated this trait in the way he regarded all religions to be equal and did not consider any single one of them to be any better than the others.",
       "story_html": "<p> </p>",
@@ -57,11 +57,8 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "4904",
-      "title": "responsive_ad"
-    }, {
       "id": "4909",
-      "title": "square_ad"
+      "title": "responsive_ad"
     }
   ]
 }
