@@ -8,11 +8,11 @@
   [
     {
       "id": "0500",
-      "title": "Samuel 'Mark Twain' Clemmons",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Mark Twain's spiritual portrait shows he is ______________.  Click on the image to learn more!",
+      "title": "Mark Twain",
+      "subtitle_html": "Samuel Langhorne Clemens' <a href='https://www.urbandictionary.com/define.php?term=Nom%20de%20Plume' title='Page for the term nom de plume www.urbandictionary.com' target='_blank'>Nom de Plume</a>",
+      "gallery_page_teaser": "Mark Twain's spiritual portrait shows he is idealistic and very passionate.  Click on the image to learn more!",
       "image_file_name": "enfp-mark_twain-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Mark_Twain,_Brady-Handy_photo_portrait,_Feb_7,_1871,_cropped.jpg",
       "composition": "O",
       "score": [
          { "e_score": "13", "i_score": "6" },
