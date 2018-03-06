@@ -8,8 +8,8 @@
   [
     {
       "id": "0500",
-      "title": "Mark Twain",
-      "subtitle_html": "Samuel Langhorne Clemens' <a href='https://www.urbandictionary.com/define.php?term=Nom%20de%20Plume' title='Page for the term nom de plume www.urbandictionary.com' target='_blank'>Nom de Plume</a>",
+      "title": "Mark Twain (Samuel Clemens)",
+      "subtitle_html": "Humorist and Author of <a href='https://en.wikipedia.org/wiki/Great_American_Novel' title='Wikipedia page for Great American Novel' target='_blank'>Great American Novels</a>",
       "gallery_page_teaser": "Mark Twain's spiritual portrait shows he is idealistic and very passionate.  Click on the image to learn more!",
       "image_file_name": "enfp-mark_twain-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Mark_Twain,_Brady-Handy_photo_portrait,_Feb_7,_1871,_cropped.jpg",
@@ -48,9 +48,8 @@
 
       "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_html": "<p> </p>",
+      "story_intro_html": "<p>Mark Twain is the <a href='https://www.urbandictionary.com/define.php?term=Nom%20de%20Plume' title='Page for the term nom de plume www.urbandictionary.com' target='_blank'>Nom de Plume</a> of author and humorist Samuel Langhorne Clemens.</p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "compare_to": { },
       "contrast_with": { }
     }, {
