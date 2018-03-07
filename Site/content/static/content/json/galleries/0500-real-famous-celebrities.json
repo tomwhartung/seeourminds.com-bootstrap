@@ -90,7 +90,7 @@
       "id": "0513",
       "title": "Frank Lloyd Wright",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Frank Lloyd Wright's spiritual portrait shows he is ______________.  Click on the image to learn more!",
+      "gallery_page_teaser": "Frank Lloyd Wright's spiritual portrait shows he is very logical and a bit idealistic.  Click on the image to learn more!",
       "image_file_name": "entj-frank_lloyd_wright-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
@@ -100,10 +100,10 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
-      "quiz_type": "C0",
+      "archetype": "Te",
+      "quiz_type": "K2",
       "year": "2018",
 
       "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
