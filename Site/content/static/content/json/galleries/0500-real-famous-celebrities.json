@@ -107,9 +107,8 @@
       "year": "2018",
       "explain_dom": "The Green in this spiritual portrait represents Frank Lloyd Wright's dominant personality trait, his moderate preference for logic over emotion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrated this trait in his ability to create rational and logical architectural drawings that were also beautiful and original.",
       "explain_aux": "The Blue in this spiritual portrait represents Frank Lloyd Wright's auxiliary personality trait, his preference for ideas over facts.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrated this trait when he created houses later identified to be part of the Prairie School style of architecture.  This style incorporated a modern and uniquely American aesthetic, encouraging the use of horizontal bands that integrate with the buildings' surroundings and echo the flat landscape of the American prairie.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_html": "<p> </p>",
+      "story_intro_html": " <p> </p> <h4>Green: Logic</h4> <p> </p> <blockquote> </blockquote> <p> </p> <h4>Blue: Idealism</h4> <p> </p> <blockquote> </blockquote> <p> </p> <h4>Conclusion</h4> <p> </p> <blockquote> </blockquote> <p> </p> <hr /> <h4>About This Portrait</h4> <p>This spiritual portrait is based on _______.</p> ",
       "compare_to": { },
       "contrast_with": { }
     }, {
