@@ -2,12 +2,12 @@
   "gallery_title": "Classic Movies",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "It can be challenging building a personality profile based on only a few hours' worth of entertainment, but some characters are iconic and demand to be explored.  Visit this gallery to see if it contains images of any of your favorite characters!",
-  "description_html": "<p>This gallery is for fans of Classic Movies such as <a href='https://en.wikipedia.org/wiki/Citizen_Kane' title='Wikipedia page for the movie Citizen Kane' target='_blank'>Citizen Kane</a> and <a href='https://en.wikipedia.org/wiki/Taxi_Driver' title='Wikipedia page for the movie Taxi Driver' target='_blank'>Taxi Driver</a>.</p><p>For more images of iconic characters from classic movies, see the <a href='/gallery/1200-fictional-movies-star_wars-prequel/' title='Link to the Star Wars Prequel Gallery on this site'>Star Wars Prequel</a> and <a href='/gallery/2200-fictional-movies-film_noir/' title='Link to the Film Noir Gallery on this site'>Film Noir</a> Galleries on this site.</p>",
+  "description_html": "<p>This gallery is for fans of Classic Movies such as <a href='https://en.wikipedia.org/wiki/Citizen_Kane' title='Wikipedia page for the movie Citizen Kane' target='_blank'>Citizen Kane</a> and <a href='https://en.wikipedia.org/wiki/Taxi_Driver' title='Wikipedia page for the movie Taxi Driver' target='_blank'>Taxi Driver</a>.</p><p>For more images of iconic characters from classic movies, see the <a href='/gallery/1230-fictional-movies-star_wars-prequel/' title='Link to the Star Wars Prequel Gallery on this site'>Star Wars Prequel</a> and <a href='/gallery/2200-fictional-movies-film_noir/' title='Link to the Film Noir Gallery on this site'>Film Noir</a> Galleries on this site.</p>",
   "story_html": "<p>I plan to post more images of unforgettable characters from other movies soon.</p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
-      "id": "1600",
+      "id": "1100",
       "title": "Charles Foster Kane",
       "subtitle_html": "Everyone's Favorite <a href='https://en.wikipedia.org/wiki/Charles_Foster_Kane' title='Wikipedia page for Charles Foster Kane' target='_blank'>Newspaper Tycoon</a>",
       "gallery_page_teaser": "This portrait of Charles Foster Kane shows he is outgoing, warm, and personable.  Click on the image to learn more!",
@@ -31,10 +31,10 @@
       "compare_to": { "gallery_file_name": "5080-politicians-us_presidents-2000s", "image_id": "5084" },
       "contrast_with": { "gallery_file_name": "3310-fictional-tv-true_detective-1", "image_id": "3316" }
     }, {
-      "id": "1602",
+      "id": "1102",
       "title": "responsive_ad"
     }, {
-      "id": "1606",
+      "id": "1106",
       "title": "Travis Bickle",
       "subtitle_html": "Everyone's Favorite <a href='https://en.wikipedia.org/wiki/Travis_Bickle' title='Wikipedia page for Travis Bickle' target='_blank'>Taxi Driver</a>",
       "gallery_page_teaser": "This portrait of Travis Bickle shows he is distant, deep, and emotional.  Remind you of anyone?  Click on the image to learn more!",
@@ -56,7 +56,7 @@
       "explain_aux": "The Blue in this spiritual portrait represents Bickle's auxiliary trait, his idealism and thoughts of the future.  In Introverts, the auxiliary function is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  Travis exhibits this trait in his forecast of a 'real rain' that will come someday to finally wash clean the streets of New York City.",
       "story_html": "<p>At first I was a bit surprised to see Travis Bickle turned out to be an INFP, but after thinking about it a bit, it makes perfect sense.</p><p>It's customary to see villians motivated by things &mdash; greed, fame, an attractive member of their preferred gender, and the like.  But idealism, misplaced or not, can motivate someone just as much as the temptations of wealth and all the other types of materialistic gains.</p><p>I suppose if we had a personality test that could predict someone's propensity for wrong-doing, we could use it to eliminate violence and other types of senseless suffering from our society.  And I suppose if we thought we had something like that, it could turn out to be just as flawed as all of us ultimaely are, and the innocent would suffer nonetheless.</p>",
       "compare_to": { "gallery_file_name": "9100-real-self_portraits", "image_id": "9100" },
-      "contrast_with": { "gallery_file_name": "1600-fictional-movies-classics", "image_id": "1600" }
+      "contrast_with": { "gallery_file_name": "1100-fictional-movies-classics", "image_id": "1100" }
     }
   ]
 }
