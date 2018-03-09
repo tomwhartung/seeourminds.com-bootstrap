@@ -9,16 +9,16 @@
     {
       "id": "1210",
       "title": "Yoda",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Grand Master of the <a href='https://en.wikipedia.org/wiki/Jedi' title='Wikipedia page for the Jedi' target='_blank'>Jedi Order</a>",
       "gallery_page_teaser": "Yoda's spiritual portrait shows he is, like Obi-Wan Kenobi, idealistic and logical.  Click on the image to learn more!",
       "image_file_name": "entp-yoda-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Yoda_Empire_Strikes_Back.png",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "13", "i_score": "6" },
+         { "n_score": "15", "s_score": "4" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "6", "p_score": "13" }
       ],
       "four_letter_type": "ENTP",
       "fixed_percentages": "",
@@ -42,16 +42,16 @@
     }, {
       "id": "1213",
       "title": "Obi-Wan Kenobi",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Jedi' title='Wikipedia page for Jedi' target='_blank'>Jedi</a> Master and Mentor of <a href='https://en.wikipedia.org/wiki/Luke_Skywalker' title='Wikipedia page for Luke Skywalker' target='_blank'>Luke Skywalker</a>",
       "gallery_page_teaser": "Obi-Wan Kenobi's spiritual portrait shows he is, like Yoda, idealistic and logical.  Click on the image to learn more!",
       "image_file_name": "intp-obi_wan_kenobi-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Ben_Kenobi.png",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "6", "p_score": "13" }
       ],
       "four_letter_type": "INTP",
       "fixed_percentages": "",
