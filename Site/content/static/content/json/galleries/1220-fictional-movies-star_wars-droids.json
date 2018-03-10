@@ -56,13 +56,8 @@
       "archetype": "Ti",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Green in this spiritual portrait represents R2-D2's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  R2-D2 demonstrates this _______.",
-
+      "explain_dom": "The Green in this spiritual portrait represents R2-D2's dominant personality trait, his very strong preference for the logical over the emotional.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  R2-D2 demonstrates this in his ability to solve problems, such as when he stops the trash compactor in Star Wars, A New Hope, saving Luke, Leia, Han, and Chewbacca from being crushed.",
       "explain_aux": "The Yellow in this spiritual portrait represents R2-D2's auxiliary personality trait, his very strong preference for facts over ideas.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  R2-D2 demonstrates this in his total lack of concern for principles, theories and the big picture, and his complete focus on details, day-to-day events and the concerns of the current moment.",
-
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
