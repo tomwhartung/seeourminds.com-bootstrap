@@ -9,16 +9,16 @@
     {
       "id": "1220",
       "title": "C-3PO",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Humanoid <a href='https://en.wikipedia.org/wiki/Droid_(robot)#Protocol_droid' title='Wikipedia page for Droids, cued to the section about Protocol Droids' target='_blank'>Protocol Droid</a> and Fluent <a href='https://en.wikipedia.org/wiki/Universal_translator' title='Wikipedia page for Universal Translators' target='_blank'>Communicator</a>",
       "gallery_page_teaser": "C-3PO's spiritual portrait shows he is pragmatic and emotional.  Click on the image to learn more!",
       "image_file_name": "esfp-c_3po-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:C-3PO_droid.png",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "6", "s_score": "13" },
+         { "f_score": "18", "t_score": "1" },
+         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ESFP",
       "fixed_percentages": "",
@@ -26,11 +26,11 @@
       "quiz_type": "KTS2",
       "year": "2018",
 
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_dom": "The Yellow in this spiritual portrait represents C-3PO's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
       "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
       "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_aux": "The Red in this spiritual portrait represents C-3PO's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
       "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
       "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
@@ -42,16 +42,16 @@
     }, {
       "id": "1223",
       "title": "R2-D2",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Small <a href='https://en.wikipedia.org/wiki/Droid_(robot)#Astromech_droid' title='Wikipedia page for Droids, cued to the section about Astromech droids' target='_blank'>Astromech Droid</a>",
       "gallery_page_teaser": "R2-D2's spiritual portrait shows he is pragmatic and logical.  Click on the image to learn more!",
       "image_file_name": "istp-r2_d2-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:R2-D2_Droid.png",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "4", "i_score": "15" },
+         { "n_score": "2", "s_score": "17" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ISTP",
       "fixed_percentages": "",
@@ -59,11 +59,11 @@
       "quiz_type": "KTS2",
       "year": "2018",
 
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_dom": "The Green in this spiritual portrait represents R2-D2's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
       "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
       "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_aux": "The Yellow in this spiritual portrait represents R2-D2's auxiliary personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
       "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
       "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
