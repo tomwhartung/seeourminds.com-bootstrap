@@ -34,7 +34,7 @@
     }, {
       "id": "1232",
       "title": "Anakin Skywalker",
-      "subtitle_html": "Aka. <a href='https://en.wikipedia.org/wiki/Darth_Vader' title='Wikipedia page for Darth Vader' target='_blank'>Darth Vader</a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Jedi' title='Wikipedia page for Jedi' target='_blank'>Jedi</a> Knight and <a href='https://en.wikipedia.org/wiki/Darth_Vader' title='Wikipedia page for Darth Vader' target='_blank'>Darth Vader</a>",
       "gallery_page_teaser": "The Yellow represents Anakin's pragmatism.  In addition to lacking Padme's idealism, the Green shows he's more concerned about efficiency than the well-being of others.  Dun-dun-dunnnn!!!  Click on the image to learn more!",
       "image_file_name": "istj-anakin_skywalker-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Darth_Vader.jpg",
@@ -56,6 +56,53 @@
       "story_html": "<p>I thoroughly enjoyed watching all three of the movies in the prequel series.  Truth be told, I watched them multiple times, having learned it's nice to re-watch stories after seeing how they end, to learn how these expert story-tellers set things up.</p><p>I believe we have all felt anguish similar to Anakin's, torn between our heads and our hearts.  It brings to mind the <a href='http://www.pbs.org/jefferson/archives/documents/frame_ih195811.htm' title='Copy of the My Head and My Heart letter at in the archives at pbs.org' target='_blank'>anguish Thomas Jefferson felt</a> when he met Maria Cosway.</p><p>It was remarkable to see how a truly evil, selfish, power-mad man exploited Anakin's love and transformed his innocence into guilt.  Having recently seen the sold-out <a href='http://www.denverfilm.org/fotr/rogueone-2/' title='Link to page announcing Rogue One at Film on the Rocks' target='_blank'>Rogue One at Film on the Rocks</a>, I am happy to be one of the legion of fans looking forward to future installments!</p>",
       "compare_to": { },
       "contrast_with": { "gallery_file_name": "1230-fictional-movies-star_wars-prequel", "image_id": "1230" }
+    }, {
+      "id": "1236",
+      "title": "Sheev Palpatine",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Emperor' title='Wikipedia page for Emperor' target='_blank'>Emperor</a> and <a href='https://en.wikipedia.org/wiki/Darth_Sidious' title='Wikipedia page for Darth Sidious' target='_blank'>Darth Sidious</a>",
+      "gallery_page_teaser": "Sheev Palpatine's spiritual portrait shows he is extremely logical and decisive.  Click on the image to learn more!",
+      "image_file_name": "istj-sheev_palpatine-1.jpg",
+      "meat_portrait_href": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "0", "i_score": "0" },
+         { "n_score": "0", "s_score": "0" },
+         { "f_score": "0", "t_score": "0" },
+         { "j_score": "0", "p_score": "0" }
+      ],
+      "four_letter_type": "IXXX",
+      "fixed_percentages": "",
+      "archetype": "Xi",
+      "quiz_type": "KTS2",
+      "year": "2018",
+
+      "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
+      "explain_dom": "The Blue in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
+      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
+      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
+      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
+
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
+      "explain_aux": "The Blue in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
+      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
+      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
+      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
+
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
+      "compare_to": { },
+      "contrast_with": { }
     }, {
       "id": "1239",
       "title": "responsive_ad"
