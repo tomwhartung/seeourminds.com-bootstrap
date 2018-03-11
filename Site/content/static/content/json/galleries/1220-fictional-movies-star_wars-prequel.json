@@ -7,7 +7,7 @@
   "image_list":
   [
     {
-      "id": "1230",
+      "id": "1220",
       "title": "Padme Amidala",
       "subtitle_html": "Queen <a href='https://en.wikipedia.org/wiki/Padm%C3%A9_Amidala' title='Wikipedia page for Padme Amidala' target='_blank'>Padme Amidala</a> of <a href='https://en.wikipedia.org/wiki/Naboo' title='Wikipedia page for Naboo' target='_blank'>Naboo</a>",
       "gallery_page_teaser": "The Blue represents Padme's idealism, the Red her Feeling and concern for the well-being of others.  Click on the image to learn more!",
@@ -30,9 +30,9 @@
       "story_intro_html": "<p>My favorite scene from all three movies was of Padme and Anakin having a <a href='http://www.starwars.com/news/galactic-backpacking-part-2-visiting-real-world-naboo' title='Link to a page on starwars.com describing the picnic scene' target='_blank'>picnic in a meadow</a> on ....</p>",
       "story_html": "<p>My favorite scene from all three movies was of Padme and Anakin having a <a href='http://www.starwars.com/news/galactic-backpacking-part-2-visiting-real-world-naboo' title='Link to a page on starwars.com describing the picnic scene' target='_blank'>picnic in a meadow</a> on Naboo.  You could tell they were very much in love.  I guess I'm just an old softie.</p><p>If you do not remember this scene, I recommend you re-watch all three of the prequel movies.  They are certainly rich enough to withstand repeated viewings!</p><p>As a fan of <a href='/gallery/2200-fictional-movies-film_noir/' title='Gallery of film noir spiritual portraits on this site' target='_blank'>film noir</a>, I find it interesting that one can become a <a href='https://en.wikipedia.org/wiki/Femme_fatale' title='Wikipedia page for femme fatale' target='_blank'>femme fatale</a> without even realizing it.</p><p>It's nice to see that they are planning to release more movies in the <a href='https://en.wikipedia.org/wiki/Star_Wars' title='Wikipedia page for the Star Wars franchise' target='_blank'>Star Wars franchise</a>!</p>",
       "compare_to": { },
-      "contrast_with": { "gallery_file_name": "1230-fictional-movies-star_wars-prequel", "image_id": "1232" }
+      "contrast_with": { "gallery_file_name": "1220-fictional-movies-star_wars-prequel", "image_id": "1222" }
     }, {
-      "id": "1232",
+      "id": "1222",
       "title": "Anakin Skywalker",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Jedi' title='Wikipedia page for Jedi' target='_blank'>Jedi</a> Knight and <a href='https://en.wikipedia.org/wiki/Darth_Vader' title='Wikipedia page for Darth Vader' target='_blank'>Darth Vader</a>",
       "gallery_page_teaser": "The Yellow represents Anakin's pragmatism.  In addition to lacking Padme's idealism, the Green shows he's more concerned about efficiency than the well-being of others.  Dun-dun-dunnnn!!!  Click on the image to learn more!",
@@ -55,9 +55,9 @@
       "story_intro_html": "<p>I thoroughly enjoyed watching all three of the movies in the prequel series.  Truth be told, I watched them multiple times, having learned ....</p>",
       "story_html": "<p>I thoroughly enjoyed watching all three of the movies in the prequel series.  Truth be told, I watched them multiple times, having learned it's nice to re-watch stories after seeing how they end, to learn how these expert story-tellers set things up.</p><p>I believe we have all felt anguish similar to Anakin's, torn between our heads and our hearts.  It brings to mind the <a href='http://www.pbs.org/jefferson/archives/documents/frame_ih195811.htm' title='Copy of the My Head and My Heart letter at in the archives at pbs.org' target='_blank'>anguish Thomas Jefferson felt</a> when he met Maria Cosway.</p><p>It was remarkable to see how a truly evil, selfish, power-mad man exploited Anakin's love and transformed his innocence into guilt.  Having recently seen the sold-out <a href='http://www.denverfilm.org/fotr/rogueone-2/' title='Link to page announcing Rogue One at Film on the Rocks' target='_blank'>Rogue One at Film on the Rocks</a>, I am happy to be one of the legion of fans looking forward to future installments!</p>",
       "compare_to": { },
-      "contrast_with": { "gallery_file_name": "1230-fictional-movies-star_wars-prequel", "image_id": "1230" }
+      "contrast_with": { "gallery_file_name": "1220-fictional-movies-star_wars-prequel", "image_id": "1220" }
     }, {
-      "id": "1236",
+      "id": "1226",
       "title": "Sheev Palpatine",
       "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Emperor' title='Wikipedia page for Emperor' target='_blank'>Emperor</a> and <a href='https://en.wikipedia.org/wiki/Darth_Sidious' title='Wikipedia page for Darth Sidious' target='_blank'>Darth Sidious</a>",
       "gallery_page_teaser": "Sheev Palpatine's spiritual portrait shows he is extremely logical and decisive.  Click on the image to learn more!",
@@ -82,7 +82,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "1239",
+      "id": "1229",
       "title": "responsive_ad"
     }
   ]
