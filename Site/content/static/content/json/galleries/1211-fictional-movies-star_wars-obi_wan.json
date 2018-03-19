@@ -1,0 +1,36 @@
+{
+  "gallery_title": "Star Wars - Obi-Wan (temporary)",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "Obi-Wan Kenobi and Yoda have similar personalities - and their spiritual portraits are similar as well.  Click to learn more!",
+  "description_html": "<p>....</p>",
+  "story_html": "<p>....</p>",
+  "image_list":
+  [
+    {
+      "id": "1212",
+      "title": "Obi-Wan Kenobi",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Jedi' title='Wikipedia page for Jedi' target='_blank'>Jedi</a> Master and Mentor of <a href='https://en.wikipedia.org/wiki/Luke_Skywalker' title='Wikipedia page for Luke Skywalker' target='_blank'>Luke Skywalker</a>",
+      "gallery_page_teaser": "Obi-Wan Kenobi's spiritual portrait shows he is, like Yoda, idealistic and logical.  Click on the image to learn more!",
+      "image_file_name": "intp-obi_wan_kenobi-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Ben_Kenobi.png",
+      "composition": "O",
+      "score": [
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "3", "t_score": "16" },
+         { "j_score": "6", "p_score": "13" }
+      ],
+      "four_letter_type": "INTP",
+      "fixed_percentages": "",
+      "archetype": "Ti",
+      "quiz_type": "KTS2",
+      "year": "2018",
+      "explain_dom": "The Green in this spiritual portrait represents Obi-Wan Kenobi's dominant personality trait, his strong preference for making logical rather than emotional decisions.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  Obi-Wan demonstrates this trait when he remains focused when fighting, refusing to let emotions like fear interfere with his determination to vanquish his opponent.",
+      "explain_aux": "The Blue in this spiritual portrait represents Obi-Wan Kenobi's auxiliary personality trait, his preference for seeing the world more in terms of ideas than facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  Obi-Wan demonstrates this trait when he performs psychokinesis, using his powers of concentration to get The Force to move objects.",
+      "story_html": "<p> </p>",
+      "story_intro_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }
+  ]
+}
