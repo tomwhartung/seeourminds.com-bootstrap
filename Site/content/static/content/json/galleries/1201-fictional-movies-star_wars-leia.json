@@ -1,0 +1,36 @@
+{
+  "gallery_title": "Star Wars - Original Trilogy - Leia (temporary)",
+  "see_gallery_button_text": "See Their Minds",
+  "list_page_teaser": "Luke Skywalker, Leia Organa, and Han Solo have different personalities, but get along very well.  Click to learn more!",
+  "description_html": "<p>This gallery contains spiritual portraits of the main characters in the <a href='https://en.wikipedia.org/wiki/Star_Wars#Original_trilogy' title='Wikipedia page for Star Wars, cued to the section about the Original Trilogy' target='_blank'>Star Wars Original Trilogy</a>.</p><p>To see the personalities of some <a href='https://en.wikipedia.org/wiki/Jedi' title='Wikipedia page for Jedi' target='_blank'>Jedi Masters</a> and <a href='http://starwars.wikia.com/wiki/Droid/Legends' title='Wookieepedia page for droids' target='_blank'>droids</a>, see the <a href='/gallery/1210-fictional-movies-star_wars-jedi_and_droids/' title='Link to the gallery on this site containing spiritual portraits of Star Wars Jedi Masters and droids'>Jedi Masters and droids gallery</a>.  To see the personalities of main characters in the <a href='https://en.wikipedia.org/wiki/Star_Wars#Prequel_trilogy' title='Wikipedia page for the Star Wars, cued to the section about the prequel trilogy' target='_blank'>prequel trilogy</a> &mdash; including <a href='/image/1220-fictional-movies-star_wars-prequel/1222/' title='Link to the spiritual portrait of Darth Vader on this site'>Darth Vader</a> and <a href='/image/1220-fictional-movies-star_wars-prequel/1226/' title='Link to the spiritual portrait of Emporer Palpatine on this site'>Emporer Palpatine</a> &mdash; see the <a href='/gallery/1220-fictional-movies-star_wars-prequel/' title='Link to the gallery on this site containing spiritual portraits of characters in prequel trilogy'>prequel trilogy gallery</a> on this site.</p>",
+  "story_html": "<p>These three people make a good team.</p><p>The Blue in Luke's spiritual portrait shows that he, with his Jedi training, is the deep, idealistic one.  His image looks very similar to <a href='/image/1210-fictional-movies-star_wars-jedi_and_droids/1210/' title='Link to the spiritual portrait of Yoda on this site'>Yoda</a>'s and <a href='/image/1210-fictional-movies-star_wars-jedi_and_droids/1212/' title='Link to the spiritual portrait of Obi-Wan Kenobi on this site'>Obi-Wan Kenobi</a>'s.</p><p>The Green in Leia's spiritual portrait shows she is, by a small margin, the most decisive member of this group.  Her very versatile, well-rounded personality makes it very easy for almost everyone to like her.</p><p>Meanwhile, the Yellow in Han's image shows he has the sharp awareness needed to support superior piloting skills, and the Red shows he is amiable and willing to help.  His pragmatism and emotion &mdash; represented by the Yellow and Red &mdash; are the opposite of Leia's idealism and logic &mdash; represented by the Blue and Green &mdash; fueling a strong attraction.</p><p>To learn more about a character's personality, click on their thumbnail to see a larger version, then click on the <b>Show the Whole Story</b> button to read the character's story.</p>",
+  "image_list":
+  [
+    {
+      "id": "1203",
+      "title": "Leia Organa",
+      "subtitle_html": "Princess of <a href='https://en.wikipedia.org/wiki/Alderaan' title='Wikipedia page for Alderaan' target='_blank'>Alderaan</a> and Twin Sister of <a href='https://en.wikipedia.org/wiki/Luke_Skywalker' title='Wikipedia page for Luke Skywalker' target='_blank'>Luke Skywalker</a>",
+      "gallery_page_teaser": "Leia's spiritual portrait shows she is a bit logical and idealistic, but very flexible and well-rounded.  Click on the image to learn more!",
+      "image_file_name": "entj-leia_organa-1.jpg",
+      "meat_portrait_href": "https://en.wikipedia.org/wiki/File:Princess_Leia%27s_characteristic_hairstyle.jpg",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "9", "t_score": "10" },
+         { "j_score": "10", "p_score": "9" }
+      ],
+      "four_letter_type": "ENTJ",
+      "fixed_percentages": "",
+      "archetype": "Te",
+      "quiz_type": "KTS2",
+      "year": "2018",
+      "explain_dom": "The Green in this spiritual portrait represents Leia's dominant personality trait, her very slight preference for logic over emotion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Leia demonstrates her decisiveness in the way she asserts command after Obi-Wan, Luke, Han, and Chewbacca rescue her from Darth Vader in the original Star Wars, A New Hope.",
+      "explain_aux": "The Blue in this spiritual portrait represents Leia's auxiliary personality trait, her very slight preference for ideas over facts.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Leia demonstrates her openness to ideas when she senses Luke is in trouble after his fight with Darth Vader at the end of The Empire Strikes Back, and insists they interrupt their escape to return to get him.",
+      "story_html": "<p> </p>",
+      "story_intro_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "compare_to": { },
+      "contrast_with": { }
+    }
+  ]
+}
