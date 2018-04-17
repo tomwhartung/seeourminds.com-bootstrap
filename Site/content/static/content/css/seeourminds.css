@@ -41,6 +41,9 @@ h1 {
 nav {
     margin-top: 2.2em;
 }
+q {
+    font-style: italic;
+}
 img.site-header {
     float: left;
     margin: .6em;
