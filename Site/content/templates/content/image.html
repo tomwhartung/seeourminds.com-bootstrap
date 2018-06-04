@@ -146,14 +146,7 @@
     <script>
       function send_ga_image_page_event(label, value)
       {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Button',
-          eventAction: 'Click',
-          eventLabel: label,
-          eventValue: value
-        });
-        // console.log('sent ga event for label = ' + label + ' and value = ' + value);
+        send_ga_click_event('Button', label, value);   // defined in base.html
       };
       var toggle_text_effect = seeourminds.effect_for_type["{{ image_dict.four_letter_type }}"];
       {% if image_dict.story_html %}
@@ -168,14 +161,14 @@
             $("#toggle-story-html").removeClass("btn-success");
             $("#toggle-story-html").addClass("btn-danger");
             $("#toggle-story-html").text("Hide the Story");
-            send_ga_image_page_event("Show the Story", "{{ image_dict.title }}");
+            send_ga_image_page_event("Show Image Story", "{{ image_dict.title }}");
           } else {
             $("#story-html").toggle(toggle_text_effect, "slow");
             $("#story-intro-html").toggle("fade", "fast");
             $("#toggle-story-html").removeClass("btn-danger");
             $("#toggle-story-html").addClass("btn-success");
             $("#toggle-story-html").text("{{ image_dict.show_story_btn_text }}");
-            send_ga_image_page_event("Hide the Story", "{{ image_dict.title }}");
+            send_ga_image_page_event("Hide Image Story", "{{ image_dict.title }}");
           }
         });
         /* if ( $("#story-intro-html") != null ) {
