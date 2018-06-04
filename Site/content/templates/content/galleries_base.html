@@ -2,19 +2,6 @@
 
 {% block head %}
   {{ block.super }}
-  <script>
-    function send_ga_gallery_page_event(category, label, value)
-    {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: category,
-        eventAction: 'Click',
-        eventLabel: label,
-        eventValue: value
-      });
-      // console.log('sent ga gallery page event for category = ' + category + ', label = ' + label + ' and value = ' + value);
-    };
-  </script>
 {% endblock %}
 
 {% block top_row_ad %}
