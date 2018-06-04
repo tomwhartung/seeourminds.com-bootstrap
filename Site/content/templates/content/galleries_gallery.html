@@ -5,19 +5,6 @@
   {% load static %}
   <script src="{% static 'content/js/vendor/d3.v4.min.js' %}"></script>
   <script src="{% static 'content/js/score_bars.js' %}"></script>
-  <script>
-    function send_ga_gallery_page_event(category, label, value)
-    {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: category,
-        eventAction: 'Click',
-        eventLabel: label,
-        eventValue: value
-      });
-      // console.log('sent ga gallery page event for category = ' + category + ', label = ' + label + ' and value = ' + value);
-    };
-  </script>
 {% endblock %}
 
 {% block top_content_left %}
