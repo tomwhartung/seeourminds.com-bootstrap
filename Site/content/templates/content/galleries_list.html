@@ -20,7 +20,7 @@
               <li>
                 <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
                    title="View the {{ gal_dict.gallery_title }} gallery"
-                   onclick="send_ga_gallery_page_event('Link', 'Enter Gallery', '{{ gal_dict.gallery_title }}');">
+                   onclick="send_ga_click_event('Link', 'Enter Gallery', '{{ gal_dict.gallery_title }}');">
                   {{ gal_dict.gallery_title }}</a></li>
             {% endif %}
           {% endfor %}
@@ -49,7 +49,7 @@
         <div class="gallery-image">
           <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
              title="View the {{ gal_dict.gallery_title }} gallery"
-             onclick="send_ga_gallery_page_event('Image', 'Enter Gallery', '{{ gal_dict.gallery_title }}');"
+             onclick="send_ga_click_event('Image', 'Enter Gallery', '{{ gal_dict.gallery_title }}');"
              class="gallery-title">
             <h2>{{ gal_dict.gallery_title }}</h2>
           </a>
@@ -78,7 +78,8 @@
           {% endspaceless %}
           <div class="text-center">
             <a class="btn-lg btn-primary"
-               href="/gallery/{{ gal_dict.gallery_file_name }}/" role="button">
+               href="/gallery/{{ gal_dict.gallery_file_name }}/" role="button"
+               onclick="send_ga_click_event('Button', 'Enter Gallery', '{{ gal_dict.gallery_title }}');">
               {{ gal_dict.see_gallery_button_text }} &raquo;</a>
           </div><!-- .text-center -->
         </div><!-- .gallery-image -->
@@ -107,7 +108,12 @@
           $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").toggle("fade", "slow");
           $("#{{ gal_dict.gallery_file_name }}-lpt-more").toggle("fade", "slow");
           $("#{{ gal_dict.gallery_file_name }}-lpt-less").toggle("fade", "slow");
-          send_ga_gallery_page_event("Link", "Show Gallery List Page Teaser", "{{ gal_dict.gallery_title }}");
+        });
+        $("#{{ gal_dict.gallery_file_name }}-lpt-more").on("click", function() {
+          send_ga_click_event("Link", "Show More Gallery List Page Teaser", "{{ gal_dict.gallery_title }}");
+        });
+        $("#{{ gal_dict.gallery_file_name }}-lpt-less").on("click", function() {
+          send_ga_click_event("Link", "Show Less Gallery List Page Teaser", "{{ gal_dict.gallery_title }}");
         });
       </script>
     {% endif %}
