@@ -111,6 +111,17 @@
   {{ block.super }}
   {% if gallery_dict.story_html %}
     <script>
+      function send_ga_gallery_page_event(label, value)
+      {
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'Button',
+          eventAction: 'Click',
+          eventLabel: label,
+          eventValue: value
+        });
+        // console.log('sent ga event for label = ' + label + ' and value = ' + value);
+      };
       /*
        * Event handler for the Toggle Story button:
        */
@@ -121,10 +132,12 @@
           $("#toggle-story-html").removeClass("btn-success");
           $("#toggle-story-html").addClass("btn-danger");
           $("#toggle-story-html").text("Hide the Story");
+          send_ga_gallery_page_event("Show Gallery Story", "{{ gallery_dict.gallery_title }}");
         } else {
           $("#toggle-story-html").removeClass("btn-danger");
           $("#toggle-story-html").addClass("btn-success");
           $("#toggle-story-html").text("See the Story");
+          send_ga_gallery_page_event("Hide Gallery Story", "{{ gallery_dict.gallery_title }}");
         }
       });
     </script>
