@@ -6,16 +6,16 @@
   <script src="{% static 'content/js/vendor/d3.v4.min.js' %}"></script>
   <script src="{% static 'content/js/score_bars.js' %}"></script>
   <script>
-    function send_ga_show_image_page_event(label, value)
+    function send_ga_gallery_page_event(category, label, value)
     {
       ga('send', {
         hitType: 'event',
-        eventCategory: 'Link',
+        eventCategory: category,
         eventAction: 'Click',
         eventLabel: label,
         eventValue: value
       });
-      console.log('sent ga see image page event for label = ' + label + ' and value = ' + value);
+      // console.log('sent ga gallery page event for category = ' + category + ', label = ' + label + ' and value = ' + value);
     };
   </script>
 {% endblock %}
@@ -65,7 +65,7 @@
         <div class="gallery-image">
           <a href="{{ image_dict.image_link_href }}"
              title="{{ image_dict.image_link_title }}"
-             onclick="send_ga_show_image_page_event('See Image Page', '{{ image_dict.title }}');">
+             onclick="send_ga_gallery_page_event('Image', 'See Image Page', '{{ image_dict.title }}');">
             <h3 class="gallery-image">{{ image_dict.title }}</h3>
             <figure>
               <img src="{% static image_dict.image_file_path %}"
@@ -126,17 +126,6 @@
   {{ block.super }}
   {% if gallery_dict.story_html %}
     <script>
-      function send_ga_gallery_page_event(label, value)
-      {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Button',
-          eventAction: 'Click',
-          eventLabel: label,
-          eventValue: value
-        });
-        // console.log('sent ga event for label = ' + label + ' and value = ' + value);
-      };
       /*
        * Event handler for the Toggle Story button:
        */
@@ -147,12 +136,12 @@
           $("#toggle-story-html").removeClass("btn-success");
           $("#toggle-story-html").addClass("btn-danger");
           $("#toggle-story-html").text("Hide the Story");
-          send_ga_gallery_page_event("Show Gallery Story", "{{ gallery_dict.gallery_title }}");
+          send_ga_gallery_page_event("Button", "Show Gallery Story", "{{ gallery_dict.gallery_title }}");
         } else {
           $("#toggle-story-html").removeClass("btn-danger");
           $("#toggle-story-html").addClass("btn-success");
           $("#toggle-story-html").text("See the Story");
-          send_ga_gallery_page_event("Hide Gallery Story", "{{ gallery_dict.gallery_title }}");
+          send_ga_gallery_page_event("Button", "Hide Gallery Story", "{{ gallery_dict.gallery_title }}");
         }
       });
     </script>
@@ -167,6 +156,7 @@
         $("#{{ image_dict.id }}-gpt-remainder").toggle("fade", "slow");
         $("#{{ image_dict.id }}-gpt-more").toggle("fade", "slow");
         $("#{{ image_dict.id }}-gpt-less").toggle("fade", "slow");
+        send_ga_gallery_page_event("Link", "Show Gallery Page Teaser", "{{ image_dict.title }}");
       });
     </script>
     {% if image_dict.score %}
