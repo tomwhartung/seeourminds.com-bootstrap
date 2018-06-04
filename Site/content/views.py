@@ -28,9 +28,11 @@ def home(request):
     """ Load and render the Home page template """
 
     template = loader.get_template('content/home.html')
+    title = 'SeeOurMinds.com';
     context = {
         'adsense_ads': adsense_ads,
         'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
+        'title': title,
     }
     return HttpResponse(template.render(context, request))
 
