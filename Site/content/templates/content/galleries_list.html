@@ -19,7 +19,8 @@
             {% if gal_dict.gallery_title != 'responsive_ad' %}
               <li>
                 <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
-                   title="View the {{ gal_dict.gallery_title }} gallery">
+                   title="View the {{ gal_dict.gallery_title }} gallery"
+                   onclick="send_ga_gallery_page_event('Link', 'Enter Gallery', '{{ gal_dict.gallery_title }}');">
                   {{ gal_dict.gallery_title }}</a></li>
             {% endif %}
           {% endfor %}
@@ -48,6 +49,7 @@
         <div class="gallery-image">
           <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
              title="View the {{ gal_dict.gallery_title }} gallery"
+             onclick="send_ga_gallery_page_event('Image', 'Enter Gallery', '{{ gal_dict.gallery_title }}');"
              class="gallery-title">
             <h2>{{ gal_dict.gallery_title }}</h2>
           </a>
@@ -105,6 +107,7 @@
           $("#{{ gal_dict.gallery_file_name }}-lpt-remainder").toggle("fade", "slow");
           $("#{{ gal_dict.gallery_file_name }}-lpt-more").toggle("fade", "slow");
           $("#{{ gal_dict.gallery_file_name }}-lpt-less").toggle("fade", "slow");
+          send_ga_gallery_page_event("Link", "Show Gallery List Page Teaser", "{{ gal_dict.gallery_title }}");
         });
       </script>
     {% endif %}
