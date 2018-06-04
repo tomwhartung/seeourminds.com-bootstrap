@@ -5,6 +5,19 @@
   {% load static %}
   <script src="{% static 'content/js/vendor/d3.v4.min.js' %}"></script>
   <script src="{% static 'content/js/score_bars.js' %}"></script>
+  <script>
+    function send_ga_show_image_page_event(label, value)
+    {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Link',
+        eventAction: 'Click',
+        eventLabel: label,
+        eventValue: value
+      });
+      console.log('sent ga see image page event for label = ' + label + ' and value = ' + value);
+    };
+  </script>
 {% endblock %}
 
 {% block top_content_left %}
@@ -50,7 +63,9 @@
     {% else %}
       <div class="col-md-4">
         <div class="gallery-image">
-          <a href="{{ image_dict.image_link_href }}" title="{{ image_dict.image_link_title }}">
+          <a href="{{ image_dict.image_link_href }}"
+             title="{{ image_dict.image_link_title }}"
+             onclick="send_ga_show_image_page_event('See Image Page', '{{ image_dict.title }}');">
             <h3 class="gallery-image">{{ image_dict.title }}</h3>
             <figure>
               <img src="{% static image_dict.image_file_path %}"
