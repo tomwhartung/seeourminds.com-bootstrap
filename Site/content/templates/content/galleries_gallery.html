@@ -52,7 +52,7 @@
         <div class="gallery-image">
           <a href="{{ image_dict.image_link_href }}"
              title="{{ image_dict.image_link_title }}"
-             onclick="send_ga_click_event('Image', 'See Image Page', '{{ image_dict.title }}');">
+             onclick="send_ga_event_with_value_1('Image', 'See Image Page', '{{ image_dict.title }}');">
             <h3 class="gallery-image">{{ image_dict.title }}</h3>
             <figure>
               <img src="{% static image_dict.image_file_path %}"
@@ -123,12 +123,12 @@
           $("#toggle-story-html").removeClass("btn-success");
           $("#toggle-story-html").addClass("btn-danger");
           $("#toggle-story-html").text("Hide the Story");
-          send_ga_click_event("Button", "Show Gallery Story", "{{ gallery_dict.gallery_title }}");
+          send_ga_event_with_value_1("Button", "Show Gallery Story", "{{ gallery_dict.gallery_title }}");
         } else {
           $("#toggle-story-html").removeClass("btn-danger");
           $("#toggle-story-html").addClass("btn-success");
           $("#toggle-story-html").text("See the Story");
-          send_ga_click_event("Button", "Hide Gallery Story", "{{ gallery_dict.gallery_title }}");
+          send_ga_event_with_value_1("Button", "Hide Gallery Story", "{{ gallery_dict.gallery_title }}");
         }
       });
     </script>
@@ -145,10 +145,10 @@
         $("#{{ image_dict.id }}-gpt-less").toggle("fade", "slow");
       });
       $("#{{ image_dict.id }}-gpt-more").on("click", function() {
-        send_ga_click_event("Link", "Show More Gallery Page Image Teaser", "{{ image_dict.title }}");
+        send_ga_event_with_value_1("Link", "Show More Gallery Page Image Teaser", "{{ image_dict.title }}");
       });
       $("#{{ image_dict.id }}-gpt-less").on("click", function() {
-        send_ga_click_event("Link", "Show Less Gallery Page Image Teaser", "{{ image_dict.title }}");
+        send_ga_event_with_value_1("Link", "Show Less Gallery Page Image Teaser", "{{ image_dict.title }}");
       });
     </script>
     {% if image_dict.score %}
