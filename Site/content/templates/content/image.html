@@ -144,9 +144,9 @@
   {{ block.super }}
   {% if image_dict.story_html or image_dict.explain_dom or image_dict.explain_aux %}
     <script>
-      function send_ga_image_page_event(label, value)
+      function send_ga_image_page_event(action, label)
       {
-        send_ga_click_event('Button', label, value);   // defined in base.html
+        send_ga_event_with_value_1('Button', action, label);   // defined in base.html
       };
       var toggle_text_effect = seeourminds.effect_for_type["{{ image_dict.four_letter_type }}"];
       {% if image_dict.story_html %}
@@ -198,6 +198,7 @@
             send_ga_image_page_event("Explain the dom color: " + color_name_for_dom, "{{ image_dict.title }}");
           } else {
             $("#toggle-explain-dom").text("Explain the " + color_name_for_dom);
+            send_ga_image_page_event("Hide Explanation, dom: " + color_name_for_dom, "{{ image_dict.title }}");
           }
         });
       {% endif %}
@@ -221,6 +222,7 @@
             send_ga_image_page_event("Explain the aux color: " + color_name_for_aux, "{{ image_dict.title }}");
           } else {
             $("#toggle-explain-aux").text("Explain the " + color_name_for_aux);
+            send_ga_image_page_event("Hide Explanation, aux: " + color_name_for_dom, "{{ image_dict.title }}");
           }
         });
       {% endif %}
