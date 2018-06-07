@@ -86,7 +86,7 @@
         {% endfor %}
         <input type="submit" class="btn btn-primary btn-lg"
           id="score-questionnaire" value="Score Questionnaire"
-          onclick="send_google_analytics_event('Quiz', 'Completion', 'Version', '{{ quiz_info.quiz_size_abbr }}');"></input>
+          onclick="send_ga_event_with_value_1('Complete Quiz', 'Complete Quiz Version', '{{ quiz_info.quiz_size_abbr }}');"></input>
       </form>
     </section>
     <hr />
