@@ -1,5 +1,5 @@
 {
-  "gallery_title": "X",
+  "gallery_title": "Cheers - The Team",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
   "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
@@ -7,11 +7,11 @@
   "image_list":
   [
     {
-      "id": "0000",
-      "title": "X",
+      "id": "2810",
+      "title": "Carla Tortelli",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "X's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "gallery_page_teaser": "Carla Tortelli's spiritual portrait shows she is ______________.  Click on the image to learn more!",
+      "image_file_name": "esfj-carla_tortelli-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -20,30 +20,18 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ESFJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Fe",
       "quiz_type": "KTS2",
       "year": "2018",
 
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_dom": "The Blue in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_dom": "The Red in this spiritual portrait represents Carla Tortelli's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
       "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
 
       "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_aux": "The Blue in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Carla Tortelli's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
       "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
 
       "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
@@ -54,14 +42,11 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "0003",
-      "title": "responsive_ad"
-    }, {
-      "id": "0006",
-      "title": "X",
+      "id": "2812",
+      "title": "Ernie 'Coach' Pantuso",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "X's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "esfp-ernie_coach_pantuso-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -70,42 +55,103 @@
          { "f_score": "0", "t_score": "0" },
          { "j_score": "0", "p_score": "0" }
       ],
-      "four_letter_type": "IXXX",
+      "four_letter_type": "ESFP",
       "fixed_percentages": "",
-      "archetype": "Xi",
+      "archetype": "Se",
       "quiz_type": "KTS2",
       "year": "2018",
 
-      "explain_dom": "The Blue in this spiritual portrait represents X's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_dom": "The Blue in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
-      "explain_dom": "The Green in this spiritual portrait represents X's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_dom": "The Red in this spiritual portrait represents X's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_dom": "The Red in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-      "explain_dom": "The Yellow in this spiritual portrait represents X's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_dom": "The Yellow in this spiritual portrait represents Coach's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
       "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
 
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
-      "explain_aux": "The Blue in this spiritual portrait represents X's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_aux": "The Blue in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
-      "explain_aux": "The Green in this spiritual portrait represents X's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
-      "explain_aux": "The Red in this spiritual portrait represents X's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_aux": "The Red in this spiritual portrait represents Coach's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
       "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-      "explain_aux": "The Yellow in this spiritual portrait represents X's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
 
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "0009",
-      "title": "square_ad"
+      "id": "2813",
+      "title": "responsive_ad"
+    }, {
+      "id": "2815",
+      "title": "Woody Boyd",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Woody Boyd's spiritual portrait shows she is ______________.  Click on the image to learn more!",
+      "image_file_name": "esfp-woody_boyd-1.jpg",
+      "meat_portrait_href": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "0", "i_score": "0" },
+         { "n_score": "0", "s_score": "0" },
+         { "f_score": "0", "t_score": "0" },
+         { "j_score": "0", "p_score": "0" }
+      ],
+      "four_letter_type": "ESFP",
+      "fixed_percentages": "",
+      "archetype": "Se",
+      "quiz_type": "KTS2",
+      "year": "2018",
+
+      "explain_dom": "The Yellow in this spiritual portrait represents Woody's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Red in this spiritual portrait represents Woody's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "2817",
+      "title": "Rebecca Howe",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Rebecca Howe's spiritual portrait shows she is ______________.  Click on the image to learn more!",
+      "image_file_name": "esfp-rebecca_howe-1.jpg",
+      "meat_portrait_href": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "0", "i_score": "0" },
+         { "n_score": "0", "s_score": "0" },
+         { "f_score": "0", "t_score": "0" },
+         { "j_score": "0", "p_score": "0" }
+      ],
+      "four_letter_type": "ESFP",
+      "fixed_percentages": "",
+      "archetype": "Se",
+      "quiz_type": "KTS2",
+      "year": "2018",
+
+      "explain_dom": "The Yellow in this spiritual portrait represents Rebecca's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "explain_aux": "The Red in this spiritual portrait represents Rebecca's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "2819",
+      "title": "responsive_ad"
     }
   ]
 }
