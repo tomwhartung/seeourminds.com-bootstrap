@@ -15,10 +15,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "19", "i_score": "0" },
+         { "n_score": "3", "s_score": "16" },
+         { "f_score": "7", "t_score": "12" },
+         { "j_score": "9", "p_score": "10" }
       ],
       "four_letter_type": "ESTP",
       "fixed_percentages": "",
@@ -26,7 +26,7 @@
       "quiz_type": "KTS2",
       "year": "2018",
       "explain_dom": "The Yellow in this spiritual portrait represents Sam's dominant personality trait, his realism.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He demonstrates this trait in the way he prefers sports and women to academic and intellectual pursuits.",
-      "explain_aux": "The Green in this spiritual portrait represents Sam's auxiliary personality trait, his ability to (usually) keep a cool head.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait in the way he helps to smooth things over when people get upset.  In fact, only Diane and John Allen Hill, who owns Melville's, can make Sam lose his cool.",
+      "explain_aux": "The Green in this spiritual portrait represents Sam's auxiliary personality trait, his ability to (usually) keep a cool head.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He demonstrates this trait in the way he helps to smooth things over when people get upset.  In fact, only John Allen Hill, who owns Melville's, and of course Diane, can make Sam lose his cool.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
