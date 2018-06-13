@@ -2,8 +2,8 @@
   "gallery_title": "Cheers - The Crew",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>In these spiritual portraits of the team at <a href='http://cheers.wikia.com/wiki/Cheers_Wiki' title='Link to the Home page at cheers.wikia.com' target='_blank'>Cheers</a>, Carla's image contrasts strongly with the images of the other team members' personalities.</p><p>The large amounts of Red and Green in Carla's image depicts her decisiveness, while Yellow dominates the images of Coach, Woody, and Rebecca to varying degrees, indicating they are more open than Carla.</p>",
-  "story_html": "<p>Clearly, Carla needs to be decisive because she is a single mom with eight children: she needs to get things done and doesn't have any time for any sort of folderol, whatsoever.</p><p>Meanwhile, because they are single, Coach, Woody, and Rebecca have a much easier time of it.  With Rebecca kind of but not really in charge, and Sam there to pick up the slack, Coach and Woody are free to concern themselves only with making drinks.</p>",
+  "description_html": "<p>The people who work at <a href='http://cheers.wikia.com/wiki/Cheers_Wiki' title='Link to the Home page at cheers.wikia.com' target='_blank'>Cheers</a> are mostly a friendly bunch &mdash; with Carla being the obvious exception.  This is visible in the spiritual portraits of the team: her image contrasts strongly with the images of the other team members' personalities.</p><p>The large amounts of Red and Green in Carla's image depict her decisiveness, while Yellow dominates the images of Coach, Woody, and Rebecca to varying degrees.  The Yellow and Blue in their images indicates they are more open to new experiences and ideas than Carla.</p>",
+  "story_html": "<p>Clearly, Carla needs to be decisive because she is a single mom with eight children.  She needs to get things done and doesn't have any time for any sort of folderol, whatsoever.</p><p>Meanwhile, Coach, Woody, and Rebecca have a much easier time of it, because they are single and not caring for any children.  With Rebecca kind of, but not really, in charge, and the very experienced Sam there to pick up the slack, Coach and Woody only have to worry about making drinks.</p>",
   "image_list":
   [
     {
@@ -117,7 +117,7 @@
     }, {
       "id": "2817",
       "title": "Rebecca Howe",
-      "subtitle_html": "Manager at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
+      "subtitle_html": "'Manager' at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
       "gallery_page_teaser": "Rebecca Howe's spiritual portrait is very colorful, showing her preferences are slight and she is very flexible.  Click on the image to learn more!",
       "image_file_name": "esfp-rebecca_howe-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/Rebecca_Howe#/media/File:Rebecca_Howe_in_Cheers_episode_Don%27t_Paint_Your_Chickens.png",
@@ -133,17 +133,8 @@
       "archetype": "Se",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Rebecca's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in X's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents Rebecca's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in X's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Rebecca's dominant personality trait, her very slight preference for facts over ideas.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  She demonstrates this trait when she pursues rich men rather than looking for men with less tangible, but equally important qualities, such as warmth, honesty, and integrity.",
+      "explain_aux": "The Red in this spiritual portrait represents Rebecca's auxiliary personality trait, her mild preference for passion over reason.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  She demonstrates this trait in the way she is always looking for romance, even though her ultimate goal is cold, pragmatic, and strictly monetary.",
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr /><p>This spiritual portrait is based on _______.</p>",
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
