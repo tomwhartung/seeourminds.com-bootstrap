@@ -1,5 +1,5 @@
 {
-  "gallery_title": "Cheers - The Team",
+  "gallery_title": "Cheers - The Crew",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
   "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
@@ -9,7 +9,7 @@
     {
       "id": "2810",
       "title": "Carla Tortelli",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Waitress at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
       "gallery_page_teaser": "Carla Tortelli's spiritual portrait shows she is ______________.  Click on the image to learn more!",
       "image_file_name": "esfj-carla_tortelli-1.jpg",
       "meat_portrait_href": "",
@@ -44,7 +44,7 @@
     }, {
       "id": "2812",
       "title": "Ernie 'Coach' Pantuso",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Bartender at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
       "gallery_page_teaser": "X's spiritual portrait shows she is ______________.  Click on the image to learn more!",
       "image_file_name": "esfp-ernie_coach_pantuso-1.jpg",
       "meat_portrait_href": "",
@@ -82,7 +82,7 @@
     }, {
       "id": "2815",
       "title": "Woody Boyd",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Bartender at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
       "gallery_page_teaser": "Woody Boyd's spiritual portrait shows she is ______________.  Click on the image to learn more!",
       "image_file_name": "esfp-woody_boyd-1.jpg",
       "meat_portrait_href": "",
@@ -117,7 +117,7 @@
     }, {
       "id": "2817",
       "title": "Rebecca Howe",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Manager at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
       "gallery_page_teaser": "Rebecca Howe's spiritual portrait shows she is ______________.  Click on the image to learn more!",
       "image_file_name": "esfp-rebecca_howe-1.jpg",
       "meat_portrait_href": "",
