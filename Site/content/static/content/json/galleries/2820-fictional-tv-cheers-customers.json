@@ -1,16 +1,16 @@
 {
   "gallery_title": "Cheers - Customers",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "Norm Peterson and Lilith Sternin have extreme personalities and are total opposites.  Click to learn more!",
+  "description_html": "<p>Norm's personality is similar to the personalities of Woody, Coach, and Rebecca &mdash; but much more extreme.  Cliff's personality is similar to Sam's &mdash; but the mail man is a bit <em>less</em> down-to-earth.</p><p>Frasier's personality is similar to Diane's &mdash; but he's a bit <em>more</em> down-to-earth.  And Lilith's personality is an extreme one &mdash; and the opposite of Norm's.</p>",
+  "story_html": "<p> </p><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
   "image_list":
   [
     {
       "id": "2820",
-      "title": "Norm Petersen",
+      "title": "Norm Peterson",
       "subtitle_html": "<a href='https://www.urbandictionary.com/define.php?term=bar+fly' title='Link to the page for the term Barfly at www.urbandictionary.com' target='_blank'>Barfly</a> at <a href='https://en.wikipedia.org/wiki/Cheers' title='Wikipedia page for Cheers' target='_blank'>Cheers</a>",
-      "gallery_page_teaser": "Norm Petersen's spiritual portrait shows he is friendly and extremely open to new experiences.  Click on the image to learn more!",
+      "gallery_page_teaser": "Norm Peterson's spiritual portrait shows he is friendly and extremely open to new experiences.  Click on the image to learn more!",
       "image_file_name": "esfp-norm_peterson-1.jpg",
       "meat_portrait_href": "https://en.wikipedia.org/wiki/Norm_Peterson#/media/File:Norm_Peterson_Cheers_Motion_Picture.png",
       "composition": "O",
