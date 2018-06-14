@@ -15,10 +15,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "1", "s_score": "18" },
+         { "f_score": "17", "t_score": "2" },
+         { "j_score": "1", "p_score": "18" }
       ],
       "four_letter_type": "ESFP",
       "fixed_percentages": "",
@@ -50,10 +50,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "8", "s_score": "11" },
+         { "f_score": "6", "t_score": "13" },
+         { "j_score": "5", "p_score": "14" }
       ],
       "four_letter_type": "ESTP",
       "fixed_percentages": "",
@@ -88,10 +88,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "13", "t_score": "6" },
+         { "j_score": "5", "p_score": "14" }
       ],
       "four_letter_type": "ENFP",
       "fixed_percentages": "",
@@ -123,10 +123,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "2", "i_score": "17" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "1", "t_score": "18" },
+         { "j_score": "17", "p_score": "2" }
       ],
       "four_letter_type": "INTJ",
       "fixed_percentages": "",
