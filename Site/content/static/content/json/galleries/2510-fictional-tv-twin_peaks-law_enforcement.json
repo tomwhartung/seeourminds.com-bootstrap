@@ -1,9 +1,9 @@
 {
   "gallery_title": "Twin Peaks - Law Enforcement",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "The law enforcement team on Twin Peaks is diverse, and they work well together.  Click to learn more!",
+  "description_html": "<p>The law enforcement team on Twin Peaks is diverse.  Agent Cooper and Sheriff Truman in particular may look at the world differently, but they share a preference for logic over emotion.</p><p>The team also works well together, with very little conflict.  The images show that Lucy can be just as much of a boss as Harry is, and it is natural for Hawk and Andy to cooperate with them.</p><p> </p>",
+  "story_html": "",
   "image_list":
   [
     {
@@ -15,14 +15,14 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "16", "s_score": "3" },
+         { "f_score": "9", "t_score": "10" },
+         { "j_score": "7", "p_score": "12" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ENTP",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Ne",
       "quiz_type": "KTS2",
       "year": "2018",
 
@@ -62,14 +62,14 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "1", "s_score": "18" },
+         { "f_score": "4", "t_score": "15" },
+         { "j_score": "13", "p_score": "6" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ESTJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Te",
       "quiz_type": "KTS2",
       "year": "2018",
 
@@ -112,14 +112,14 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "7", "t_score": "12" },
+         { "j_score": "5", "p_score": "14" }
       ],
-      "four_letter_type": "IXXX",
+      "four_letter_type": "INTP",
       "fixed_percentages": "",
-      "archetype": "Xi",
+      "archetype": "Ti",
       "quiz_type": "KTS2",
       "year": "2018",
 
@@ -159,14 +159,14 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "13", "i_score": "6" },
+         { "n_score": "4", "s_score": "15" },
+         { "f_score": "11", "t_score": "8" },
+         { "j_score": "4", "p_score": "15" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ESFP",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Se",
       "quiz_type": "KTS2",
       "year": "2018",
 
@@ -202,18 +202,18 @@
       "title": "Lucy Moran",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "X's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "esfp-lucy_moran-1.jpg",
+      "image_file_name": "esfj-lucy_moran-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "3", "s_score": "16" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "15", "p_score": "4" }
       ],
-      "four_letter_type": "EXXX",
+      "four_letter_type": "ESFJ",
       "fixed_percentages": "",
-      "archetype": "Xe",
+      "archetype": "Fe",
       "quiz_type": "KTS2",
       "year": "2018",
 
