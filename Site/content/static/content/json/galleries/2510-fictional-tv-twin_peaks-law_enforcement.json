@@ -42,7 +42,7 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2812",
+      "id": "2811",
       "title": "Harry S. Truman",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "Sheriff Truman's spiritual portrait shows he is ______________.  Click on the image to learn more!",
@@ -77,45 +77,45 @@
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2813",
+      "id": "2812",
       "title": "responsive_ad"
     }, {
-      "id": "2815",
-      "title": "Tommy 'Hawk' Hill",
+      "id": "2814",
+      "title": "Lucy Moran",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Hawk's spiritual portrait shows he is ______________.  Click on the image to learn more!",
-      "image_file_name": "intp-deputy_sheriff_hawk_hill-1.jpg",
+      "gallery_page_teaser": "Lucy's spiritual portrait shows she is ______________.  Click on the image to learn more!",
+      "image_file_name": "esfj-lucy_moran-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "7", "i_score": "12" },
-         { "n_score": "13", "s_score": "6" },
-         { "f_score": "7", "t_score": "12" },
-         { "j_score": "5", "p_score": "14" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "3", "s_score": "16" },
+         { "f_score": "10", "t_score": "9" },
+         { "j_score": "15", "p_score": "4" }
       ],
-      "four_letter_type": "INTP",
+      "four_letter_type": "ESFJ",
       "fixed_percentages": "",
-      "archetype": "Ti",
+      "archetype": "Fe",
       "quiz_type": "KTS2",
       "year": "2018",
 
-      "explain_dom": "The Green in this spiritual portrait represents Hawk's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in Hawk's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
+      "explain_dom": "The Red in this spiritual portrait represents Lucy's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
+      "explain_dom": "The Red in Lucy's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
 
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
-      "explain_aux": "The Blue in this spiritual portrait represents Hawk's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_aux": "The Blue in Hawk's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Lucy's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
+      "explain_aux": "The Yellow in Lucy's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
 
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
-      "id": "2816",
+      "id": "2815",
       "title": "Andy Brennan",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "Andy's spiritual portrait shows he is ______________.  Click on the image to learn more!",
@@ -151,37 +151,37 @@
       "contrast_with": { }
     }, {
       "id": "2817",
-      "title": "Lucy Moran",
+      "title": "Tommy 'Hawk' Hill",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Lucy's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "esfj-lucy_moran-1.jpg",
+      "gallery_page_teaser": "Hawk's spiritual portrait shows he is ______________.  Click on the image to learn more!",
+      "image_file_name": "intp-deputy_sheriff_hawk_hill-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "17", "i_score": "2" },
-         { "n_score": "3", "s_score": "16" },
-         { "f_score": "10", "t_score": "9" },
-         { "j_score": "15", "p_score": "4" }
+         { "e_score": "7", "i_score": "12" },
+         { "n_score": "13", "s_score": "6" },
+         { "f_score": "7", "t_score": "12" },
+         { "j_score": "5", "p_score": "14" }
       ],
-      "four_letter_type": "ESFJ",
+      "four_letter_type": "INTP",
       "fixed_percentages": "",
-      "archetype": "Fe",
+      "archetype": "Ti",
       "quiz_type": "KTS2",
       "year": "2018",
 
-      "explain_dom": "The Red in this spiritual portrait represents Lucy's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_dom": "The Red in Lucy's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for making emotional/personal/subjective decisions.",
+      "explain_dom": "The Green in this spiritual portrait represents Hawk's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_dom": "The Green in Hawk's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for making logical/rational/objective decisions.",
 
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
-      "explain_aux": "The Yellow in this spiritual portrait represents Lucy's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in Lucy's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas.",
+      "explain_aux": "The Blue in this spiritual portrait represents Hawk's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
+      "explain_aux": "The Blue in Hawk's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
 
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (NOTE THAT IS EASIER TO FIND EXAMPLES OF DECISIONS THAN PERCEPTIONS!) ....",
+      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
 
       "story_intro_html": "<p> </p>",
       "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-right' /></a>",
       "compare_to": { },
       "contrast_with": { }
     }, {
