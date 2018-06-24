@@ -1,5 +1,5 @@
 {
-  "gallery_title": "Double R Diner",
+  "gallery_title": "Twin Peaks - Double R Diner",
   "see_gallery_button_text": "See Their Minds",
   "list_page_teaser": "Click to learn more!",
   "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
@@ -9,9 +9,9 @@
     {
       "id": "2530",
       "title": "Norma Jennings",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ownership' title='Link to the Wikipedia page for Ownership' target='_blank'>Owner</a> and <a href='https://en.wikipedia.org/wiki/Management' title='Link to the Wikipedia page for Management' target='_blank'>Manager</a> of the <a href='https://en.wikipedia.org/wiki/Double_R_Diner' title='Wikipedia page for the Double R Diner' target='_blank'>Double R Diner</a>",
       "gallery_page_teaser": "Norma Jennings's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "esfj-norma_jennings-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -56,9 +56,9 @@
     }, {
       "id": "2531",
       "title": "Shelly Johnson",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Waiting_staff' title='Link to the Wikipedia page for Waiting staff' target='_blank'>Waitress</a> at the <a href='https://en.wikipedia.org/wiki/Double_R_Diner' title='Wikipedia page for the Double R Diner' target='_blank'>Double R Diner</a>",
       "gallery_page_teaser": "Shelly Johnson's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "esfp-shelly_johnson-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -103,9 +103,9 @@
     }, {
       "id": "2533",
       "title": "Bobby Briggs",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "Bobby Briggs' spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Secondary_school' title='Wikipedia page for Secondary school' target='_blank'>High School</a> Student and <a href='/image/2530-fictional-tv-twin_peaks-double_r_diner/2531/' title='Link to the spiritual portrait of Shelly Johnson on this site'>Shelly Johnson</a>'s Boyfriend",
+      "gallery_page_teaser": "Bobby Briggs' spiritual portrait shows he is ______________.  Click on the image to learn more!",
+      "image_file_name": "estp-bobby_briggs-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -153,9 +153,9 @@
     }, {
       "id": "2537",
       "title": "'Big Ed' Hurley",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
-      "gallery_page_teaser": "'Big Ed' Hurley's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "subtitle_html": "<a href='https://en.wikipedia.org/wiki/Ownership' title='Link to the Wikipedia page for Ownership' target='_blank'>Owner</a> and <a href='https://en.wikipedia.org/wiki/Management' title='Link to the Wikipedia page for Management' target='_blank'>Manager</a> of <q>Big Ed's</q> <a href='https://en.wikipedia.org/wiki/Filling_station' title='Wikipedia page for Filling station' target='_blank'>Gas Station</a>",
+      "gallery_page_teaser": "'Big Ed' Hurley's spiritual portrait shows he is ______________.  Click on the image to learn more!",
+      "image_file_name": "esfp-big_ed_hurley-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
@@ -200,9 +200,9 @@
     }, {
       "id": "2538",
       "title": "Nadine Hurley",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "<a href='/image/2530-fictional-tv-twin_peaks-double_r_diner/2537/' title='Link to the spiritual portrait of Big Ed Hurley on this site'><q>Big Ed</q> Hurley</a>'s Wife",
       "gallery_page_teaser": "Nadine Hurley's spiritual portrait shows she is ______________.  Click on the image to learn more!",
-      "image_file_name": "x.jpg",
+      "image_file_name": "enfj-nadine_hurley-1.jpg",
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
