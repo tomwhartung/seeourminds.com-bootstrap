@@ -27,9 +27,8 @@
       "year": "2018",
       "explain_dom": "The Red in this spiritual portrait represents Norma's dominant personality trait, her warmth, friendliness, and compassion.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Yellow in this spiritual portrait represents Norma's auxiliary personality trait, her realistic, down-to-earth outlook.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_intro_html": "",
+      "story_html": "",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -53,9 +52,8 @@
       "year": "2018",
       "explain_dom": "The Yellow in this spiritual portrait represents Shelly's dominant personality trait, her realism and openness to new experiences.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Red in this spiritual portrait represents Shelly's auxiliary personality trait, her passion, friendliness, and warmth.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_intro_html": "",
+      "story_html": "",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -80,9 +78,8 @@
 
       "explain_dom": "The Yellow in this spiritual portrait represents Bobby's dominant personality trait, his pragmatism and openness to new experiences.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Green in this spiritual portrait represents Bobby's auxiliary personality trait, his preference for being logical - for objectivity over subjectivity.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_intro_html": "",
+      "story_html": "",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -109,9 +106,8 @@
       "year": "2018",
       "explain_dom": "The Yellow in this spiritual portrait represents Big Ed's dominant personality trait, his realistic outlook and openness to new experiences.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  Ed's image also has a lot of Blue, indicating he is also open to new ideas, which helps him get along with Nadine.",
       "explain_aux": "The Red in this spiritual portrait represents Big Ed's auxiliary personality trait, his mild preference to be emotional rather than logical.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_intro_html": "",
+      "story_html": "",
       "compare_to": { },
       "contrast_with": { }
     }, {
@@ -136,9 +132,8 @@
 
       "explain_dom": "The Red in this spiritual portrait represents Nadine's dominant personality trait, her passion and preference for subjectivity over objectivity.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
       "explain_aux": "The Blue in this spiritual portrait represents Nadine's auxiliary personality trait, her openness to - and preference for - new ideas.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.",
-      "story_intro_html": "<p> </p>",
-      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
-      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "story_intro_html": "",
+      "story_html": "",
       "compare_to": { },
       "contrast_with": { }
     }, {
