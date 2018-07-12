@@ -188,9 +188,18 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
     return HttpResponse(template.render(context, request))
 
 
-def google_verification(request):
+def google203aca4a4dd53796(request):
 
-    """ Load and render the google verification template """
+    """ Load and render the google203aca4a4dd53796 verification template """
+
+    template = loader.get_template('content/google203aca4a4dd53796.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
+
+
+def google428ef5aab2bc0870(request):
+
+    """ Load and render the google428ef5aab2bc0870 verification template """
 
     template = loader.get_template('content/google428ef5aab2bc0870.html')
     context = {}
