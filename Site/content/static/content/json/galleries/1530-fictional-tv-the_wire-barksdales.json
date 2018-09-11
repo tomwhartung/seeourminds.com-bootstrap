@@ -15,10 +15,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "2", "s_score": "17" },
+         { "f_score": "13", "t_score": "6" },
+         { "j_score": "14", "p_score": "5" }
       ],
       "four_letter_type": "ISFJ",
       "archetype": "Si",
@@ -49,10 +49,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "16", "p_score": "3" }
       ],
       "four_letter_type": "INTJ",
       "archetype": "Ni",
@@ -86,10 +86,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "2", "s_score": "17" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "7", "p_score": "12" }
       ],
       "four_letter_type": "ISTP",
       "archetype": "Ti",
@@ -120,10 +120,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "0", "i_score": "0" },
-         { "n_score": "0", "s_score": "0" },
-         { "f_score": "0", "t_score": "0" },
-         { "j_score": "0", "p_score": "0" }
+         { "e_score": "9", "i_score": "10" },
+         { "n_score": "1", "s_score": "18" },
+         { "f_score": "2", "t_score": "17" },
+         { "j_score": "8", "p_score": "11" }
       ],
       "four_letter_type": "ISTP",
       "archetype": "Ti",
