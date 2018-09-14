@@ -76,6 +76,41 @@
       "contrast_with": { }
     }, {
       "id": "1554",
+      "title": "Howard Colvin",
+      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "gallery_page_teaser": "Howard Colvin's spiritual portrait shows he is ______________.  Click on the image to learn more!",
+      "image_file_name": "entj-howard_colvin-1.jpg",
+      "meat_portrait_href": "",
+      "composition": "O",
+      "score": [
+         { "e_score": "15", "i_score": "4" },
+         { "n_score": "12", "s_score": "7" },
+         { "f_score": "9", "t_score": "10" },
+         { "j_score": "10", "p_score": "9" }
+      ],
+      "four_letter_type": "ENTJ",
+      "fixed_percentages": "",
+      "archetype": "Te",
+      "quiz_type": "KTS2",
+      "year": "2018",
+
+      "explain_dom": "The Green in this spiritual portrait represents Colvin's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
+      "explain_dom": "The Green in Colvin's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
+
+      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "explain_aux": "The Blue in this spiritual portrait represents Colvin's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
+      "explain_aux": "The Blue in Colvin's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts; need for intellectual stimulation.",
+
+      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+
+      "story_intro_html": "<p> </p>",
+      "story_html": "<p> </p><blockquote> </blockquote><p> </p><hr><p>This spiritual portrait is based on _______.</p>",
+      "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
+      "compare_to": { },
+      "contrast_with": { }
+    }, {
+      "id": "1556",
       "title": "Stan Valchek",
       "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
       "gallery_page_teaser": "Stan Valchek's spiritual portrait shows he is ______________.  Click on the image to learn more!",
@@ -108,9 +143,6 @@
       "story_html_img": "<p>Idea: only include images with stories for family and friends.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='story-image-left' /></a>",
       "compare_to": { },
       "contrast_with": { }
-    }, {
-      "id": "1556",
-      "title": "responsive_ad"
     }, {
       "id": "1558",
       "title": "Clarence V. Royce",
