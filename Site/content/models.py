@@ -36,6 +36,7 @@ class GalleriesList:
         'fictional': 'Fictional',
         'friends': 'Friends',
         'game_of_thrones': 'Game of Thrones',
+        'got': 'Game of Thrones',
         'movies': 'Movies',
         'others': 'Other People I Know',
         'politicians': 'American Politicians',
@@ -43,8 +44,9 @@ class GalleriesList:
         'real': 'Real',
         'sixteen_types': 'Sixteen Types',
         'the_wire': 'The Wire',
-        'tv': 'TV Shows',
         'twin_peaks': 'Twin Peaks',
+        'tv': 'TV Shows',
+        'tp': 'Twin Peaks',
     }
     fnmatch_string_dict = {
         'cheers': '[0-9]*-cheers-*',
@@ -55,6 +57,7 @@ class GalleriesList:
         'fictional': '[0-9]*-fictional*',
         'friends': '[0-9]*-friends-*',
         'game_of_thrones': '[0-9]*-game_of_thrones-*',
+        'got': '[0-9]*-game_of_thrones-*',
         'movies': '[0-9]*-movies-*',
         'others': '[0-9]*-others-*',
         'politicians': '[0-9]*-politicians-*',
@@ -62,6 +65,7 @@ class GalleriesList:
         'real': '[0-9]*-real*',
         'sixteen_types': '[0-9]*generic_images*',
         'the_wire': '[0-9]*-the_wire-*',
+        'tp': '[0-9]*-twin_peaks-*',
         'tv': '[0-9]*-tv-*',
         'twin_peaks': '[0-9]*-twin_peaks-*',
     }
@@ -74,6 +78,7 @@ class GalleriesList:
         'fictional': 'images of <b>fictional</b> people, from movies, etc.:',
         'friends': 'images of <b>some of my friends:</b>',
         'game_of_thrones': 'images of characters in <b>Game of Thrones:</b>',
+        'got': 'images of characters in <b>Game of Thrones:</b>',
         'movies': 'images of characters in <b>movies:</b>',
         'others': 'images of <b>other real people I know:</b>',
         'politicians': 'images of American politicians:',
@@ -81,6 +86,7 @@ class GalleriesList:
         'real': 'images of <b>real</b> people:',
         'sixteen_types': '<b>generic images:</b>',
         'the_wire': 'images of characters from <b>The Wire:</b>',
+        'tp': 'images of characters from <b>Twin Peaks:</b>',
         'tv': 'images of characters from <b>tv shows:</b>',
         'twin_peaks': 'images of characters from <b>Twin Peaks:</b>',
     }
@@ -106,16 +112,65 @@ class GalleriesList:
             phrase = '<b>all</b> available galleries!'
             fnmatch_string = '[0-9]*'
 
+        self.galleries_list_name = galleries_list_name
         self.descriptive_phrase_html = phrase
         self.gallery_files = []
+
         for gal_file in gallery_files:
-            if fnmatch.fnmatch(gal_file, fnmatch_string):
+            if self.include_this_file(gal_file, fnmatch_string):
                 self.gallery_files.append(gal_file)
 
-        # print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
-        # print('GalleriesList - __init__ - gallery_files:', gallery_files)
-        # print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
+        print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
+        print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
+
+
+    def include_this_file(self, gal_file, fnmatch_string):
+        """
+        Determine whether to include gal_file in the list
+        """
+
+        combo_list_page = [
+            'all', 'fictional', 'tv'
+        ]
+        include_first_only = {
+            'cheers': 0,
+            'deadwood': 0,
+            'game_of_thrones': 0,
+            'got': 0,
+            'the_wire': 0,
+            'tp': 0,
+            'twin_peaks': 0,
+        }
+        """
+        For gallery lists such as 'all' and 'tv',
+            when there are multiple files for a show, e.g., cheers
+                we want to include only the first one
+        if processing the gallery explicitly,
+            include all matches
+        else
+            include only the first one
+        """
+        include_this_file = False
+        if fnmatch.fnmatch(gal_file, fnmatch_string):
+            if self.galleries_list_name in combo_list_page:
+                for only_one_key in include_first_only.keys():
+                    str_to_match = self.fnmatch_string_dict.get(only_one_key)
+                    if fnmatch.fnmatch(gal_file, str_to_match):
+                        if include_first_only.get('include_first_only') == 0:
+                            include_this_file = True
+                            include_first_only['include_first_only'] = 1
+                        else:
+                            include_this_file = False
+                    else:
+                        include_this_file = True
+            else:
+                include_this_file = True
+        else:
+            include_this_file = False
+
+        return include_this_file
+
 
     def set_galleries_list_data(self):
 
