@@ -90,6 +90,16 @@ class GalleriesList:
         'tv': 'images of characters from <b>tv shows:</b>',
         'twin_peaks': 'images of characters from <b>Twin Peaks:</b>',
     }
+    combo_list_page = [
+        'all', 'fictional', 'tv'
+    ]
+    include_first_only = {
+        'cheers': False,
+        'deadwood': False,
+        'game_of_thrones': False,
+        'the_wire': False,
+        'twin_peaks': False,
+    }
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
     LIST_PAGE_TEXT_INTRO_LENGTH = 60
 
@@ -116,11 +126,16 @@ class GalleriesList:
 
         for gal_file in gallery_files:
             if self.include_in_gallery_list(gal_file):
+                print('GalleriesList - __init__ - appending gal_file:', gal_file)
                 self.gallery_files.append(gal_file)
 
         print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
         print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
+
+        for only_one_key in self.include_first_only.keys():
+            self.include_first_only[only_one_key] = False
+
 
 
     def include_in_gallery_list(self, gal_file):
@@ -128,16 +143,6 @@ class GalleriesList:
         Determine whether to include gal_file in the list
         """
 
-        combo_list_page = [
-            'all', 'fictional', 'tv'
-        ]
-        include_first_only = {
-            'cheers': 0,
-            'deadwood': 0,
-            'game_of_thrones': 0,
-            'the_wire': 0,
-            'twin_peaks': 0,
-        }
         """
         For gallery lists such as 'all' and 'tv',
             when there are multiple files for a show, e.g., cheers
@@ -158,25 +163,28 @@ class GalleriesList:
         include_this_file = False
         if fnmatch.fnmatch(gal_file, fnmatch_string):
             print('include_in_gallery_list - gal_file matches:', gal_file)
-            if self.galleries_list_name in combo_list_page:
-                print('include_in_gallery_list - on combo_list_page')
-                for only_one_key in include_first_only.keys():
+            if self.galleries_list_name in self.combo_list_page:
+                print('include_in_gallery_list - on self.combo_list_page')
+                for only_one_key in self.include_first_only.keys():
                     str_to_match = self.fnmatch_string_dict.get(only_one_key)
                     print('include_in_gallery_list - only_one_key:', only_one_key)
                     print('include_in_gallery_list - str_to_match:', str_to_match)
                     if fnmatch.fnmatch(gal_file, str_to_match):
+                        got_one_already = self.include_first_only.get(only_one_key)
                         print('include_in_gallery_list - gal_file matches:', gal_file)
-                        if include_first_only.get(only_one_key) == 0:
-                            print('include_in_gallery_list - including first_only gal_file')
-                            include_this_file = True
-                            include_first_only[only_one_key] = 1
-                        else:
+                        print('include_in_gallery_list - got_one_already:', got_one_already)
+                        if got_one_already:
                             print('include_in_gallery_list - rejecting gal_file, not the first')
                             include_this_file = False
+                        else:
+                            print('include_in_gallery_list - including first_only gal_file')
+                            include_this_file = True
+                            self.include_first_only[only_one_key] = True
+                        break
                     else:
                         include_this_file = True
             else:
-                print('include_in_gallery_list - not on combo_list_page, use file')
+                print('include_in_gallery_list - not on a combo page, using gal_file:', gal_file)
                 include_this_file = True
         else:
             print('include_in_gallery_list - no match, gal_file rejected:', gal_file)
