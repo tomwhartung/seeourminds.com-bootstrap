@@ -106,18 +106,16 @@ class GalleriesList:
         if self.title_dict.get(galleries_list_name):
             self.galleries_list_title = self.title_dict.get(galleries_list_name)
             phrase += self.phrase_dict.get(galleries_list_name)
-            fnmatch_string = self.fnmatch_string_dict.get(galleries_list_name)
         else: # default: get all galleries
             self.galleries_list_title = 'All Galleries'
             phrase = '<b>all</b> available galleries!'
-            fnmatch_string = '[0-9]*'
 
         self.galleries_list_name = galleries_list_name
         self.descriptive_phrase_html = phrase
         self.gallery_files = []
 
         for gal_file in gallery_files:
-            if self.include_this_file(gal_file, fnmatch_string):
+            if self.include_in_gallery_list(gal_file):
                 self.gallery_files.append(gal_file)
 
         print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
@@ -125,7 +123,7 @@ class GalleriesList:
         self.galleries_list_data = []
 
 
-    def include_this_file(self, gal_file, fnmatch_string):
+    def include_in_gallery_list(self, gal_file):
         """
         Determine whether to include gal_file in the list
         """
@@ -137,9 +135,7 @@ class GalleriesList:
             'cheers': 0,
             'deadwood': 0,
             'game_of_thrones': 0,
-            'got': 0,
             'the_wire': 0,
-            'tp': 0,
             'twin_peaks': 0,
         }
         """
@@ -151,22 +147,39 @@ class GalleriesList:
         else
             include only the first one
         """
+        galleries_list_name = self.galleries_list_name
+        if self.fnmatch_string_dict.get(galleries_list_name):
+            fnmatch_string = self.fnmatch_string_dict.get(galleries_list_name)
+        else: # default: get all galleries
+            fnmatch_string = '[0-9]*'
+
+        print('include_in_gallery_list - galleries_list_name:', galleries_list_name)
+        print('include_in_gallery_list - fnmatch_string:', '"' + fnmatch_string + '"')
         include_this_file = False
         if fnmatch.fnmatch(gal_file, fnmatch_string):
+            print('include_in_gallery_list - gal_file matches:', gal_file)
             if self.galleries_list_name in combo_list_page:
+                print('include_in_gallery_list - on combo_list_page')
                 for only_one_key in include_first_only.keys():
                     str_to_match = self.fnmatch_string_dict.get(only_one_key)
+                    print('include_in_gallery_list - only_one_key:', only_one_key)
+                    print('include_in_gallery_list - str_to_match:', str_to_match)
                     if fnmatch.fnmatch(gal_file, str_to_match):
-                        if include_first_only.get('include_first_only') == 0:
+                        print('include_in_gallery_list - gal_file matches:', gal_file)
+                        if include_first_only.get(only_one_key) == 0:
+                            print('include_in_gallery_list - including first_only gal_file')
                             include_this_file = True
-                            include_first_only['include_first_only'] = 1
+                            include_first_only[only_one_key] = 1
                         else:
+                            print('include_in_gallery_list - rejecting gal_file, not the first')
                             include_this_file = False
                     else:
                         include_this_file = True
             else:
+                print('include_in_gallery_list - not on combo_list_page, use file')
                 include_this_file = True
         else:
+            print('include_in_gallery_list - no match, gal_file rejected:', gal_file)
             include_this_file = False
 
         return include_this_file
