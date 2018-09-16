@@ -98,15 +98,14 @@
         <img class="site-header"
              src="{% static 'content/images/header/infp-tomh_1987-81x81.gif' %}"
              alt="Image of INFP containing more blue and red squares and fewer yellow and green squares.">
-        </img></a>
+        </img>
       <div class="title">
         <h1 class="site-name">SeeOurMinds.com</h1>
         <span class="tagline">'Visualizing the Invisible'&nbsp;&trade;</span>
-      </div>
+      </div></a>
       <nav>
         <div class="dropdown">
           <ul>
-            <li role="presentation"><a href="/home">Home</a></li>
             <li role="presentation">
               <a href="#" data-toggle="dropdown" class="dropdown-toggle"
                  data-target=".galleries-collapse">
@@ -144,6 +143,23 @@
                 </ul>
               </div>
             </li>
+            <li role="presentation">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle"
+                 data-target=".legal-collapse">
+                 Privacy<b class="caret"></b></a>
+              <div class="legal-collapse">
+                <ul class="dropdown-menu">
+                  <a href="/legal/terms_of_service">
+                   <li>Terms of Service</li></a>
+                  <a href="/legal/privacy_policy">
+                   <li>Privacy Policy</li></a>
+                  <a href="/legal/questionnaire_disclaimer">
+                   <li>Quiz Disclaimer</li></a>
+                  <a href="/legal/affiliate_marketing_disclosure">
+                   <li>Affiliate Marketing Disclosure</li></a>
+                </ul>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>
@@ -152,6 +168,8 @@
 
   <main class="main-container container">
     <div class="main wrapper clearfix">
+     {% block legal_content %}
+     {% endblock %}
       {% block top_row_ad %}
         {% block top_row_large_billboard_ad %}
           <div class="row" id="top-row-large-billboard-ad-block">
