@@ -213,8 +213,11 @@ class GalleriesList:
             gallery_group_title = gallery_dict.get('gallery_group_title')
             gallery_group_page = gallery_dict.get('gallery_group_page')
             if gallery_group_title and gallery_group_page:
-                gallery_dict['gallery_title'] = gallery_group_title
-                link_to_gallery = '/galleries/' + gallery_group_page
+                if self.galleries_list_name == gallery_group_page:
+                    link_to_gallery = '/gallery/' + gal_file_name
+                else:
+                    gallery_dict['gallery_title'] = gallery_group_title
+                    link_to_gallery = '/galleries/' + gallery_group_page
             else:
                 link_to_gallery = '/gallery/' + gal_file_name
             gallery_dict['link_to_gallery'] = link_to_gallery
