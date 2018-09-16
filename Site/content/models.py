@@ -210,9 +210,19 @@ class GalleriesList:
             this_gallery.set_gallery_image_dictionary()
             gallery_dict = this_gallery.gallery_dict
             gallery_dict['gallery_file_name'] = gal_file_name
-            gallery_dict['link_to_gallery'] = '/gallery/' + gal_file_name
-            print('set_galleries_list_data - gallery_dict[link_to_gallery]:', \
-                gallery_dict['link_to_gallery'])
+            gallery_group_title = gallery_dict.get('gallery_group_title')
+            gallery_group_page = gallery_dict.get('gallery_group_page')
+            if gallery_group_title and gallery_group_page:
+                gallery_dict['gallery_title'] = gallery_group_title
+                link_to_gallery = '/galleries/' + gallery_group_page
+            else:
+                link_to_gallery = '/gallery/' + gal_file_name
+            gallery_dict['link_to_gallery'] = link_to_gallery
+            print('set_galleries_list_data:')
+            print('gallery_group_title:', gallery_group_title)
+            print('gallery_group_page:', gallery_group_page)
+            print('gallery_dict[gallery_title]:', gallery_dict['gallery_title'])
+            print('link_to_gallery:', link_to_gallery)
             list_page_teaser = gallery_dict['list_page_teaser']
             gallery_dict['list_page_teaser_intro'] \
                 = list_page_teaser[:self.LIST_PAGE_TEXT_INTRO_LENGTH]
