@@ -13,6 +13,7 @@ import textwrap
 
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import redirect
 from django.shortcuts import render
 from django.template import loader
 from django.views.generic.base import View
@@ -111,7 +112,7 @@ def legal(request):
 
     """ Load and render the default legal template for this site """
 
-    return terms_of_service(request)
+    return redirect('/legal/terms_of_service')
 
 
 def affiliate_marketing_disclosure(request):
@@ -282,4 +283,47 @@ def google428ef5aab2bc0870(request):
 
     template = loader.get_template('content/google428ef5aab2bc0870.html')
     context = {}
+    return HttpResponse(template.render(context, request))
+
+##
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##   Views to suppoert shortcuts e.g., to a specific gallery and 404 not found
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##
+
+def process_shortcut(request, unknown_page='default_unk_pg_1'):
+
+    """ Process recognized shortcuts, and default to 404 """
+
+    gallery_shortcuts = [
+        'cheers',
+        'deadwood',
+        'game_of_thrones',
+        'presidents',
+        'the_wire',
+        'twin_peaks'
+    ]
+    redirect_dict = {
+        'got': '/galleries/game_of_thrones',
+        'tp': '/galleries/twin_peaks'
+    }
+
+    if unknown_page in gallery_shortcuts:
+        redirect_url = '/galleries/' + unknown_page
+    elif unknown_page in redirect_dict.keys():
+        redirect_url = redirect_dict[unknown_page]
+    else:
+        redirect_url = '/404/' + unknown_page
+
+    return redirect(redirect_url, unknown_page=unknown_page)
+
+
+def not_found(request, unknown_page='default_unk_pg_2'):
+
+    """ Load and render the 404 not found template """
+
+    template = loader.get_template('content/404.html')
+    context = {
+        'unknown_page': unknown_page,
+    }
     return HttpResponse(template.render(context, request))
