@@ -54,6 +54,11 @@ def image(request, gallery_file_name=None, image_id=None):
         'title': title,
     })
 
+##
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##   Views for Gallery Pages
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##
 
 def galleries_list(request, galleries_list_name='all'):
 
@@ -96,6 +101,75 @@ def gallery(request, gallery_file_name='None'):
     }
     return HttpResponse(template.render(context, request))
 
+##
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##   Views for Legal Pages
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##
+
+def legal(request):
+
+    """ Load and render the default legal template for this site """
+
+    return terms_of_service(request)
+
+
+def affiliate_marketing_disclosure(request):
+
+    """ Load and render the affiliate_marketing_disclosure template """
+
+    title = 'Disclosure - ArtsyVisions.com';
+    template = 'content/legal/affiliate_marketing_disclosure.html'
+    context = {
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
+        'title': title,
+    }
+    return render(request, template, context)
+
+
+def privacy_policy(request):
+
+    """ Load and render the privacy_policy template """
+
+    title = 'Privacy Policy - ArtsyVisions.com';
+    template = 'content/legal/privacy_policy.html'
+    context = {
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
+        'title': title,
+    }
+    return render(request, template, context)
+
+
+def questionnaire_disclaimer(request):
+
+    """ Load and render the questionnaire_disclaimer template """
+
+    title = 'Disclaimer - ArtsyVisions.com';
+    template = 'content/legal/questionnaire_disclaimer.html'
+    context = {
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
+        'title': title,
+    }
+    return render(request, template, context)
+
+
+def terms_of_service(request):
+
+    """ Load and render the terms_of_service template """
+
+    title = 'Terms of Service - ArtsyVisions.com';
+    template = 'content/legal/terms_of_service.html'
+    context = {
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
+        'title': title,
+    }
+    return render(request, template, context)
+
+##
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##   Views for Quiz Pages
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##
 
 def quiz_about(request):
 
@@ -187,6 +261,11 @@ def quiz_form(request, quiz_size_slug=Questionnaire.DEFAULT_QUIZ_SIZE_SLUG):
     }
     return HttpResponse(template.render(context, request))
 
+##
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##   Views for Pages for Google
+## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+##
 
 def google203aca4a4dd53796(request):
 
