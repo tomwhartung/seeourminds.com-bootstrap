@@ -117,6 +117,7 @@ class GalleriesList:
             self.galleries_list_title = self.title_dict.get(galleries_list_name)
             phrase += self.phrase_dict.get(galleries_list_name)
         else: # default: get all galleries
+            galleries_list_name = 'all'
             self.galleries_list_title = 'All Galleries'
             phrase = '<b>all</b> available galleries!'
 
@@ -137,16 +138,16 @@ class GalleriesList:
             self.include_first_only[only_one_key] = False
 
 
-
     def include_in_gallery_list(self, gal_file):
         """
         Determine whether to include gal_file in the list
         """
 
         """
-        For gallery lists such as 'all' and 'tv',
-            when there are multiple files for a show, e.g., cheers
-                we want to include only the first one
+        The tricky thing is this:
+            When displaying gallery lists such as 'all' and 'tv',
+             and when there are multiple galleries for a show, e.g., cheers
+               we want to include only the first one
         if processing the gallery explicitly,
             include all matches
         else
@@ -155,7 +156,7 @@ class GalleriesList:
         galleries_list_name = self.galleries_list_name
         if self.fnmatch_string_dict.get(galleries_list_name):
             fnmatch_string = self.fnmatch_string_dict.get(galleries_list_name)
-        else: # default: get all galleries
+        else: # default: get all galleries - already checked in __init__ so ...
             fnmatch_string = '[0-9]*'
 
         print('include_in_gallery_list - galleries_list_name:', galleries_list_name)
@@ -198,6 +199,7 @@ class GalleriesList:
         """
         Get the data needed for the galleries list page
         Show ads randomly intermingled with the galleries, but NOT two in a row
+        Note: Called from the view
         """
 
         ad_added_last_time = False
@@ -208,6 +210,9 @@ class GalleriesList:
             this_gallery.set_gallery_image_dictionary()
             gallery_dict = this_gallery.gallery_dict
             gallery_dict['gallery_file_name'] = gal_file_name
+            gallery_dict['link_to_gallery'] = '/gallery/' + gal_file_name
+            print('set_galleries_list_data - gallery_dict[link_to_gallery]:', \
+                gallery_dict['link_to_gallery'])
             list_page_teaser = gallery_dict['list_page_teaser']
             gallery_dict['list_page_teaser_intro'] \
                 = list_page_teaser[:self.LIST_PAGE_TEXT_INTRO_LENGTH]
@@ -235,6 +240,7 @@ class Gallery:
 
     def __init__(self, gallery_file_name=None):
         """ Read in all the json for the passed-in gallery_file_name """
+
         self.gallery_file_name = gallery_file_name
         if gallery_file_name == None:
             self.gallery_dict = {}
@@ -249,8 +255,10 @@ class Gallery:
             gallery_json_file.close()
             self.gallery_dict = json.loads(gallery_json_string)
 
+
     def find_image(self, image_id=None):
         """ Returns all data from the json for image, or None if not found """
+
         image_dict = None
         if image_id != None:
             # print('find_image: Looking for image_id = "' + image_id + '"')
@@ -262,7 +270,12 @@ class Gallery:
         return image_dict
 
     def set_gallery_image_dictionary(self):
-        """ When listing galleries, set image_dict equal to the first image """
+        """
+        When listing galleries, set image_dict equal to the first image
+        If the title indicates it's an "*_ad"
+            the image_dict is irrelevant and will be empty
+        """
+
         for image_dict in self.gallery_dict["image_list"]:
             image_title = image_dict.get('title')
             if image_title.find('_ad') == -1:
@@ -273,13 +286,16 @@ class Gallery:
     def set_image_link_values(self):
         """
         Set derived values in the image list in the gallery_dict
-        NOTE: the image_file_directory equals the passed-in gallery_file_name!
+        I.e., prepend the derived directory to the image file name
+        NOTE: the image_file_directory equals the gallery_file_name!
         """
+
         image_file_directory = self.gallery_file_name
         image_file_dir = 'content/images/galleries/' \
             + image_file_directory + '/'
         for image_dict in self.gallery_dict['image_list']:
-            if image_dict.get('image_file_name'):
+            image_file_name = image_dict.get('image_file_name')
+            if image_file_name:
                 image_dict['image_file_path'] = image_file_dir \
                     + image_dict['image_file_name']
                 image_dict['image_link_href'] = '/image/' \
@@ -288,8 +304,10 @@ class Gallery:
                     + 'this image on a page with more information about it'
         return self
 
+
     def set_image_list_data(self):
         """ Update the raw image list data for display on the gallery page """
+
         self.set_image_link_values()
         for image_dict in self.gallery_dict['image_list']:
             if image_dict.get("gallery_page_teaser"):
