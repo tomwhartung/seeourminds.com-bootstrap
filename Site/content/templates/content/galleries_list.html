@@ -47,7 +47,7 @@
     {% else %}
       <div class="col-md-4">
         <div class="gallery-image">
-          <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+          <a href="{{ gal_dict.link_to_gallery }}/"
              title="View the {{ gal_dict.gallery_title }} gallery"
              onclick="send_ga_event_with_value_1('Image', 'Enter Gallery', '{{ gal_dict.gallery_title }}');"
              class="gallery-title">
@@ -55,7 +55,7 @@
           </a>
           <div class="text-center">
             <figure>
-              <a href="/gallery/{{ gal_dict.gallery_file_name }}/"
+              <a href="{{ gal_dict.link_to_gallery }}/"
                  title="View the {{ gal_dict.gallery_title }} gallery"
                  class="gallery-title">
                 <img src="{% static gal_dict.image_dict.image_file_path %}"
