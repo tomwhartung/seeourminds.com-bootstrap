@@ -109,7 +109,7 @@
             <li role="presentation">
               <a href="#" data-toggle="dropdown" class="dropdown-toggle"
                  data-target=".galleries-collapse">
-               Galleries<b class="caret"></b></a>
+               Gallery &amp;<br>Examples<b class="caret"></b></a>
               <div class="galleries-collapse">
                 <ul class="dropdown-menu">
                   <a href="/galleries"><li>All</li></a>
@@ -132,12 +132,12 @@
             <li role="presentation">
               <a href="#" data-toggle="dropdown" class="dropdown-toggle"
                  data-target=".quizzes-collapse">
-                 Quizzes<b class="caret"></b></a>
+                 Take a<br>Quiz<b class="caret"></b></a>
               <div class="quizzes-collapse">
                 <ul class="dropdown-menu">
                   <a href="/quiz"><li>About</li></a>
                   {% for quiz_size_slug, size_text in quiz_menu_data %}
-                    <a href="/quiz/{{ quiz_size_slug }}"><li>
+                    <a href="/quiz/{{ quiz_size_slug }}/"><li>
                       {{ size_text }}</li></a>
                   {% endfor %}
                 </ul>
@@ -146,7 +146,7 @@
             <li role="presentation">
               <a href="#" data-toggle="dropdown" class="dropdown-toggle"
                  data-target=".legal-collapse">
-                 Privacy<b class="caret"></b></a>
+                 Privacy<br>&amp; Terms<b class="caret"></b></a>
               <div class="legal-collapse">
                 <ul class="dropdown-menu">
                   <a href="/legal/terms_of_service">
@@ -307,15 +307,25 @@
       <p>
        Copyright &copy; 2016&ndash;2018
        <a href="http://www.TomWHartung.com" class="footer"
-          title"TomWHartung.com home page" target="_blank">Tom W. Hartung</a>.
+          title="TomWHartung.com home page" target="_blank">
+        Tom W. Hartung</a> and
+       <a href="https://JooMooWebSites.com" class="footer"
+          title="JooMoo WebSites.com home page" target="_blank">
+        JooMoo WebSites LLC</a>.
        All Rights Reserved.</p>
       <p>
-        <b>Your use of this site implies you consent to our&nbsp;
-         <a class="footer" href="/legal/terms_of_service">Terms of Service</a>&nbsp;and&nbsp;
-         <a class="footer" href="/legal/privacy_policy">Privacy Policy</a>.</b></p>
+        <b>Your use of this site implies you consent to our
+         <a href="/legal/terms_of_service" class="footer"
+            title="Terms of Service for this site">
+          Terms of Service</a> and
+         <a href="/legal/privacy_policy" class="footer"
+            title="Privacy Policy for this site">
+          Privacy Policy</a>.</b></p>
       <p>
         This site 100% designed, created, and maintained by
-         <a class="footer" href="https://JooMooWebSites.com">JooMooWebSites LLC</a>.</p>
+         <a href="https://JooMooWebSites.com" class="footer"
+            title="JooMooWebSites.com home page" target="_blank">
+          JooMoo WebSites LLC</a>.</p>
     </footer>
 
     <script src="{% static 'content/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
