@@ -304,12 +304,26 @@ def process_shortcut(request, unknown_page='default_unk_pg_1'):
         'twin_peaks'
     ]
     redirect_dict = {
-        'got': '/galleries/game_of_thrones',
-        'tp': '/galleries/twin_peaks'
+        'ff': '/gallery/4900-politicians-founding_fathers/',
+        'founding_fathers': '/gallery/4900-politicians-founding_fathers/',
+        'got': '/galleries/game_of_thrones/',
+        'tp': '/galleries/twin_peaks/',
+        'ah': '/image/4900-politicians-founding_fathers/4900/',
+        'bf': '/image/4900-politicians-founding_fathers/4902/',
+        'er': '/image/0500-real-famous-american-celebrities/0509/',
+        'fdr': '/image/5040-politicians-us_presidents-1900s/5048/',
+        'gw': '/image/5000-politicians-us_presidents-1700s-1800s/5000/',
+        'ja': '/image/5000-politicians-us_presidents-1700s-1800s/5001/',
+        'jfk': '/image/5040-politicians-us_presidents-1900s/5058/',
+        'lbj': '/image/5040-politicians-us_presidents-1900s/5060/',
+        'ph': '/image/4900-politicians-founding_fathers/4905/',
+        'tj': '/image/5000-politicians-us_presidents-1700s-1800s/5003/',
+        'tr': '/image/5040-politicians-us_presidents-1900s/5040/',
+        'ww': '/image/5040-politicians-us_presidents-1900s/5042/',
     }
 
     if unknown_page in gallery_shortcuts:
-        redirect_url = '/galleries/' + unknown_page
+        redirect_url = '/galleries/' + unknown_page +'/'
     elif unknown_page in redirect_dict.keys():
         redirect_url = redirect_dict[unknown_page]
     else:
@@ -324,6 +338,7 @@ def not_found(request, unknown_page='default_unk_pg_2'):
 
     template = loader.get_template('content/404.html')
     context = {
+        'quiz_menu_data': Questionnaire.get_quiz_menu_data(),
         'unknown_page': unknown_page,
     }
     return HttpResponse(template.render(context, request))
