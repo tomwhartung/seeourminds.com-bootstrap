@@ -118,7 +118,6 @@ class GalleriesList:
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
         gallery_files = sorted(os.listdir(galleries_root_dir))
         phrase = 'these galleries, containing '
-        print( "galleries_list_name:", galleries_list_name)
 
         if self.title_dict.get(galleries_list_name):
             self.galleries_list_title = self.title_dict.get(galleries_list_name)
@@ -134,11 +133,14 @@ class GalleriesList:
 
         for gal_file in gallery_files:
             if self.include_in_gallery_list(gal_file):
-                print('GalleriesList - __init__ - appending gal_file:', gal_file)
                 self.gallery_files.append(gal_file)
+                if DJANGO_DEBUG:
+                    print('GalleriesList - __init__ using gal_file:', gal_file)
 
-        print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
-        print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
+        if DJANGO_DEBUG:
+            print('GalleriesList - __init__ - galleries_list_name:', galleries_list_name)
+            print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
+
         self.galleries_list_data = []
 
 
@@ -152,8 +154,8 @@ class GalleriesList:
         else: # default: get all galleries - already checked in __init__ so ...
             fnmatch_string = '[0-9]*'
 
-        print('include_in_gallery_list - galleries_list_name:', galleries_list_name)
-        print('include_in_gallery_list - fnmatch_string:', '"' + fnmatch_string + '"')
+        #print('include_in_gallery_list - galleries_list_name:', galleries_list_name)
+        #print('include_in_gallery_list - fnmatch_string:', '"' + fnmatch_string + '"')
         include_this_file = False
         #
         # Lists that contain lists require special handling:
@@ -170,26 +172,24 @@ class GalleriesList:
         if fnmatch.fnmatch(gal_file, fnmatch_string):
             #print('include_in_gallery_list - gal_file matches:', gal_file)
             if self.galleries_list_name in self.list_contains_lists:
-                for only_one_key in self.first_file_included.keys():
-                    str_to_match = self.fnmatch_string_dict.get(only_one_key)
-                    print('include_in_gallery_list - only_one_key:', only_one_key)
-                    print('include_in_gallery_list - str_to_match:', str_to_match)
+                for first_incl_key in self.first_file_included.keys():
+                    str_to_match = self.fnmatch_string_dict.get(first_incl_key)
                     if fnmatch.fnmatch(gal_file, str_to_match):
-                        got_one_already = self.first_file_included.get(only_one_key)
-                        print('include_in_gallery_list - gal_file matches:', gal_file)
-                        print('include_in_gallery_list - got_one_already:', got_one_already)
-                        if got_one_already:
-                            print('include_in_gallery_list - rejecting gal_file, not the first')
+                        first_incl = self.first_file_included.get(first_incl_key)
+                        #print('include_in_gallery_list - gal_file matches:', gal_file)
+                        #print('include_in_gallery_list - first_incl:', first_incl)
+                        if first_incl:
+                            #print('include_in_gallery_list - rejecting gal_file, not the first')
                             include_this_file = False
                         else:
-                            print('include_in_gallery_list - including first_only gal_file')
+                            #print('include_in_gallery_list - including first_only gal_file')
                             include_this_file = True
-                            self.first_file_included[only_one_key] = True
+                            self.first_file_included[first_incl_key] = True
                         break
                     else:
                         include_this_file = True
             else:
-                #print('include_in_gallery_list - not on a combo page, using gal_file:', gal_file)
+                #print('include_in_gallery_list - not a list of lists, using gal_file:', gal_file)
                 include_this_file = True
         else:
             #print('include_in_gallery_list - no match, gal_file rejected:', gal_file)
@@ -224,11 +224,11 @@ class GalleriesList:
             else:
                 link_to_gallery = '/gallery/' + gal_file_name
             gallery_dict['link_to_gallery'] = link_to_gallery
-            print('set_galleries_list_data:')
-            print('gallery_group_title:', gallery_group_title)
-            print('gallery_group_page:', gallery_group_page)
-            print('gallery_dict[gallery_title]:', gallery_dict['gallery_title'])
-            print('link_to_gallery:', link_to_gallery)
+            #print('set_galleries_list_data:')
+            #print('gallery_group_title:', gallery_group_title)
+            #print('gallery_group_page:', gallery_group_page)
+            #print('gallery_dict[gallery_title]:', gallery_dict['gallery_title'])
+            #print('link_to_gallery:', link_to_gallery)
             list_page_teaser = gallery_dict['list_page_teaser']
             gallery_dict['list_page_teaser_intro'] \
                 = list_page_teaser[:self.LIST_PAGE_TEXT_INTRO_LENGTH]
@@ -239,7 +239,6 @@ class GalleriesList:
                 ad_added_last_time = False
             else:  # MAYBE add an ad, randomly
                 random_int_1_2 = random.randint(1,2)
-                # print("random_int_1_2:", random_int_1_2)
                 if random_int_1_2 == 2:
                     gallery_dict = { "gallery_title": "responsive_ad" }
                     self.galleries_list_data.append(gallery_dict)
@@ -261,7 +260,7 @@ class Gallery:
         if gallery_file_name == None:
             self.gallery_dict = {}
         else:
-            # print('gallery_file_name:', gallery_file_name)
+            #print('gallery_file_name:', gallery_file_name)
             data_file_name = gallery_file_name + '.json'
             site_content_dir = os.path.abspath(os.path.dirname(__file__))
             data_file_dir = site_content_dir + GalleriesList.GALLERIES_DIRECTORY
@@ -277,11 +276,11 @@ class Gallery:
 
         image_dict = None
         if image_id != None:
-            # print('find_image: Looking for image_id = "' + image_id + '"')
+            #print('find_image: Looking for image_id = "' + image_id + '"')
             for image_dict in self.gallery_dict["image_list"]:
                 if image_dict["id"] == image_id:
                     image_dict = image_dict
-                    # print('find_image returning image_dict:', image_dict )
+                    #print('find_image returning image_dict:', image_dict )
                     break
         return image_dict
 
@@ -445,8 +444,8 @@ class Questions:
         """ Return the entire quiz question (answers, weights, etc.)"""
 
         quiz_question = self.question_list[question_int]
-        # print('Questions.get_quiz_question - question_int:', question_int)
-        # print('Questions.get_quiz_question - quiz_question:', quiz_question)
+        #print('Questions.get_quiz_question - question_int:', question_int)
+        #print('Questions.get_quiz_question - quiz_question:', quiz_question)
         return quiz_question
 
     def get_question_text(self, question_int):
@@ -495,14 +494,14 @@ class Questions:
             choices.append(choice_6)
 
         answer_7_text = quiz_question.get('answer_7_text')
-        # print("answer_7_text:", answer_7_text)
+        #print("answer_7_text:", answer_7_text)
 
         if answer_7_text is not None:
             choice_7 = ['7', answer_7_text]
             choices.append(choice_7)
 
-        # print('Questions.get_choices - question_int:', question_int)
-        # print('Questions.get_choices - len(choices):', len(choices))
+        #print('Questions.get_choices - question_int:', question_int)
+        #print('Questions.get_choices - len(choices):', len(choices))
         return choices
 
     def get_answer_123_type(self, question_int):
@@ -616,7 +615,7 @@ class Score:
             saved_messages.append('If you want to save these results, ' + \
                 'you need to write them down.')
         else:
-            # print( 'Score - save_questionnaire: saving quiz for "' + email + '"')
+            #print( 'Score - save_questionnaire: saving quiz for "' + email + '"')
             questionnaire = Questionnaire()
             questionnaire.save_questionnaire(cleaned_data, quiz_size_slug)
             question_count = questionnaire.get_question_count_for_slug(quiz_size_slug)
