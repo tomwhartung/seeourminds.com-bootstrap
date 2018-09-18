@@ -300,7 +300,9 @@ def process_shortcut(request, unknown_page='default_unk_pg_1'):
         'deadwood',
         'game_of_thrones',
         'presidents',
+        'star_wars',
         'the_wire',
+        'true_detective',
         'twin_peaks'
     ]
     redirect_dict = {
