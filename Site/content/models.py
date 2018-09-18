@@ -43,7 +43,9 @@ class GalleriesList:
         'presidents': 'American Presidents',
         'real': 'Real',
         'sixteen_types': 'Sixteen Types',
+        'star_wars': 'Star Wars',
         'the_wire': 'The Wire',
+        'true_detective': 'True Detective',
         'twin_peaks': 'Twin Peaks',
         'tv': 'TV Shows',
         'tp': 'Twin Peaks',
@@ -64,8 +66,10 @@ class GalleriesList:
         'presidents': '[0-9]*-politicians-us_presidents*',
         'real': '[0-9]*-real*',
         'sixteen_types': '[0-9]*generic_images*',
+        'star_wars': '[0-9]*-star_wars-*',
         'the_wire': '[0-9]*-the_wire-*',
         'tp': '[0-9]*-twin_peaks-*',
+        'true_detective': '[0-9]*-true_detective-*',
         'tv': '[0-9]*-tv-*',
         'twin_peaks': '[0-9]*-twin_peaks-*',
     }
@@ -85,27 +89,32 @@ class GalleriesList:
         'presidents': 'images of American Presidents:',
         'real': 'images of <b>real</b> people:',
         'sixteen_types': '<b>generic images:</b>',
+        'star_wars': 'images of characters from <b>Star Wars:</b>',
         'the_wire': 'images of characters from <b>The Wire:</b>',
+        'true_detective': 'images of characters from <b>True Detective:</b>',
         'tp': 'images of characters from <b>Twin Peaks:</b>',
         'tv': 'images of characters from <b>tv shows:</b>',
         'twin_peaks': 'images of characters from <b>Twin Peaks:</b>',
     }
-    combo_list_page = [
+    list_contains_lists = [
         'all', 'fictional', 'tv'
     ]
-    include_first_only = {
-        'cheers': False,
-        'deadwood': False,
-        'game_of_thrones': False,
-        'the_wire': False,
-        'twin_peaks': False,
-    }
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
     LIST_PAGE_TEXT_INTRO_LENGTH = 60
 
     def __init__(self, galleries_list_name='all'):
 
         """ Read in all the json for the passed-in galleries_list_name """
+
+        self.include_first_only = {
+            'cheers': False,
+            'deadwood': False,
+            'game_of_thrones': False,
+            'star_wars': False,
+            'the_wire': False,
+            'true_detective': False,
+            'twin_peaks': False,
+        }
 
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
@@ -134,24 +143,10 @@ class GalleriesList:
         print('GalleriesList - __init__ - self.gallery_files:', self.gallery_files)
         self.galleries_list_data = []
 
-        for only_one_key in self.include_first_only.keys():
-            self.include_first_only[only_one_key] = False
-
 
     def include_in_gallery_list(self, gal_file):
         """
         Determine whether to include gal_file in the list
-        """
-
-        """
-        The tricky thing is this:
-            When displaying gallery lists such as 'all' and 'tv',
-             and when there are multiple galleries for a show, e.g., cheers
-               we want to include only the first one
-        if processing the gallery explicitly,
-            include all matches
-        else
-            include only the first one
         """
         galleries_list_name = self.galleries_list_name
         if self.fnmatch_string_dict.get(galleries_list_name):
@@ -162,10 +157,21 @@ class GalleriesList:
         print('include_in_gallery_list - galleries_list_name:', galleries_list_name)
         print('include_in_gallery_list - fnmatch_string:', '"' + fnmatch_string + '"')
         include_this_file = False
+        #
+        # Lists that contain lists require special handling:
+        #   When displaying a list that contains lists - such as 'all' and 'tv',
+        #       When listing a show with multiple galleries, e.g., cheers
+        #          we want to include only the first one
+        # More specifically:
+        #   When listing a single show's galleries explicitly,
+        #       include all file name matches
+        #   else
+        #       include only the first one
+        #       use the gallery_group_title and gallery_group_page
+        #
         if fnmatch.fnmatch(gal_file, fnmatch_string):
-            print('include_in_gallery_list - gal_file matches:', gal_file)
-            if self.galleries_list_name in self.combo_list_page:
-                print('include_in_gallery_list - on self.combo_list_page')
+            #print('include_in_gallery_list - gal_file matches:', gal_file)
+            if self.galleries_list_name in self.list_contains_lists:
                 for only_one_key in self.include_first_only.keys():
                     str_to_match = self.fnmatch_string_dict.get(only_one_key)
                     print('include_in_gallery_list - only_one_key:', only_one_key)
@@ -185,17 +191,16 @@ class GalleriesList:
                     else:
                         include_this_file = True
             else:
-                print('include_in_gallery_list - not on a combo page, using gal_file:', gal_file)
+                #print('include_in_gallery_list - not on a combo page, using gal_file:', gal_file)
                 include_this_file = True
         else:
-            print('include_in_gallery_list - no match, gal_file rejected:', gal_file)
+            #print('include_in_gallery_list - no match, gal_file rejected:', gal_file)
             include_this_file = False
 
         return include_this_file
 
 
     def set_galleries_list_data(self):
-
         """
         Get the data needed for the galleries list page
         Show ads randomly intermingled with the galleries, but NOT two in a row
@@ -312,7 +317,7 @@ class Gallery:
                 image_dict['image_file_path'] = image_file_dir \
                     + image_dict['image_file_name']
                 image_dict['image_link_href'] = '/image/' \
-                    + self.gallery_file_name + '/' + image_dict['id']
+                    + self.gallery_file_name + '/' + image_dict['id'] + '/'
                 image_dict['image_link_title'] = 'Click to see a larger copy of ' \
                     + 'this image on a page with more information about it'
         return self
@@ -364,7 +369,6 @@ class Image:
                     self.image_dict["show_story_btn_text"] = 'Show the Story'
 
     def set_default_image_dict(self):
-
         """ Set self.image_dict data to values used for the default image """
 
         self.image_dict = {}
