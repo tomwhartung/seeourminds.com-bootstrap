@@ -36,7 +36,6 @@ class GalleriesList:
         'fictional': 'Fictional',
         'friends': 'Friends',
         'game_of_thrones': 'Game of Thrones',
-        'got': 'Game of Thrones',
         'movies': 'Movies',
         'others': 'Other People I Know',
         'politicians': 'American Politicians',
@@ -48,7 +47,6 @@ class GalleriesList:
         'true_detective': 'True Detective',
         'twin_peaks': 'Twin Peaks',
         'tv': 'TV Shows',
-        'tp': 'Twin Peaks',
     }
     fnmatch_string_dict = {
         'cheers': '[0-9]*-cheers-*',
@@ -59,7 +57,6 @@ class GalleriesList:
         'fictional': '[0-9]*-fictional*',
         'friends': '[0-9]*-friends-*',
         'game_of_thrones': '[0-9]*-game_of_thrones-*',
-        'got': '[0-9]*-game_of_thrones-*',
         'movies': '[0-9]*-movies-*',
         'others': '[0-9]*-others-*',
         'politicians': '[0-9]*-politicians-*',
@@ -68,7 +65,6 @@ class GalleriesList:
         'sixteen_types': '[0-9]*generic_images*',
         'star_wars': '[0-9]*-star_wars-*',
         'the_wire': '[0-9]*-the_wire-*',
-        'tp': '[0-9]*-twin_peaks-*',
         'true_detective': '[0-9]*-true_detective-*',
         'tv': '[0-9]*-tv-*',
         'twin_peaks': '[0-9]*-twin_peaks-*',
@@ -82,7 +78,6 @@ class GalleriesList:
         'fictional': 'images of <b>fictional</b> people, from movies, etc.:',
         'friends': 'images of <b>some of my friends:</b>',
         'game_of_thrones': 'images of characters in <b>Game of Thrones:</b>',
-        'got': 'images of characters in <b>Game of Thrones:</b>',
         'movies': 'images of characters in <b>movies:</b>',
         'others': 'images of <b>other real people I know:</b>',
         'politicians': 'images of American politicians:',
@@ -92,12 +87,21 @@ class GalleriesList:
         'star_wars': 'images of characters from <b>Star Wars:</b>',
         'the_wire': 'images of characters from <b>The Wire:</b>',
         'true_detective': 'images of characters from <b>True Detective:</b>',
-        'tp': 'images of characters from <b>Twin Peaks:</b>',
         'tv': 'images of characters from <b>tv shows:</b>',
         'twin_peaks': 'images of characters from <b>Twin Peaks:</b>',
     }
     list_contains_lists = [
-        'all', 'fictional', 'tv'
+        'all', 'fictional', 'movies', 'tv'
+    ]
+    """ Shows that contain multiple galleries require special handling """
+    contains_mult_gals = [
+        'cheers',
+        'deadwood',
+        'game_of_thrones',
+        'star_wars',
+        'the_wire',
+        'true_detective',
+        'twin_peaks',
     ]
     GALLERIES_DIRECTORY = '/static/content/json/galleries/'
     LIST_PAGE_TEXT_INTRO_LENGTH = 60
@@ -106,15 +110,9 @@ class GalleriesList:
 
         """ Read in all the json for the passed-in galleries_list_name """
 
-        self.include_first_only = {
-            'cheers': False,
-            'deadwood': False,
-            'game_of_thrones': False,
-            'star_wars': False,
-            'the_wire': False,
-            'true_detective': False,
-            'twin_peaks': False,
-        }
+        self.first_file_included = {}
+        for series in self.contains_mult_gals:
+            self.first_file_included[series] = False
 
         site_content_dir = os.path.abspath(os.path.dirname(__file__))
         galleries_root_dir = site_content_dir + self.GALLERIES_DIRECTORY
@@ -172,12 +170,12 @@ class GalleriesList:
         if fnmatch.fnmatch(gal_file, fnmatch_string):
             #print('include_in_gallery_list - gal_file matches:', gal_file)
             if self.galleries_list_name in self.list_contains_lists:
-                for only_one_key in self.include_first_only.keys():
+                for only_one_key in self.first_file_included.keys():
                     str_to_match = self.fnmatch_string_dict.get(only_one_key)
                     print('include_in_gallery_list - only_one_key:', only_one_key)
                     print('include_in_gallery_list - str_to_match:', str_to_match)
                     if fnmatch.fnmatch(gal_file, str_to_match):
-                        got_one_already = self.include_first_only.get(only_one_key)
+                        got_one_already = self.first_file_included.get(only_one_key)
                         print('include_in_gallery_list - gal_file matches:', gal_file)
                         print('include_in_gallery_list - got_one_already:', got_one_already)
                         if got_one_already:
@@ -186,7 +184,7 @@ class GalleriesList:
                         else:
                             print('include_in_gallery_list - including first_only gal_file')
                             include_this_file = True
-                            self.include_first_only[only_one_key] = True
+                            self.first_file_included[only_one_key] = True
                         break
                     else:
                         include_this_file = True
