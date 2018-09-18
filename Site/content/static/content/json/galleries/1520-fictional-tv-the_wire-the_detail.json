@@ -84,7 +84,7 @@
       "composition": "O",
       "score": [
          { "e_score": "9", "i_score": "10" },
-         { "n_score": "4", "s_score": "15" },
+         { "n_score": "8", "s_score": "11" },
          { "f_score": "5", "t_score": "14" },
          { "j_score": "10", "p_score": "9" }
       ],
