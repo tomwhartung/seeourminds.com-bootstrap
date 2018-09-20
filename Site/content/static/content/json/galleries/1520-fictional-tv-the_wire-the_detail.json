@@ -1,9 +1,9 @@
 {
   "gallery_title": "The Wire - The Detail",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "Officer Pryzbylewski's personality is quite different from the temperaments of the other officers in the detail created to investigate Avon Barksdale's crew.  Click to learn more!",
+  "description_html": "<p>The images of Carver's and Kima's personalities on this page show they are both rational and decisive.  Herc and Sydnor are also logical but less decisive, and all four share a pramatic outlook.</p><p>Prez's spiritual portrait stands in stark contrast to the others on this page, and it's clear from the start he doesn't fit in.  It's only natural for Detective Freamon &mdash; whose portrait is similar to Prez's &mdash; to see redeeming qualities in Prez that the others are blind to.</p>",
+  "story_html": "",
   "image_list":
   [
     {
