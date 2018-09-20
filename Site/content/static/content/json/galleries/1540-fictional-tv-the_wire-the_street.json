@@ -1,9 +1,9 @@
 {
   "gallery_title": "The Wire - The Street",
   "see_gallery_button_text": "See Their Minds",
-  "list_page_teaser": "Click to learn more!",
-  "description_html": "<p>Keep it objective: <b>no</b> first or second person.</p><p> </p>",
-  "story_html": "<p>Make it personal (first and second person ok), preferably with a beginning, middle, and end.</p><a href='/static/content/images/stories/subdir/image_name.jpg' title='Link to display full-size version of this image on this site'><img src='/static/content/images/stories/subdir/image_name.jpg' class='gallery-story-image' /></a><p>To keep up to date, follow this site on social media or <a href='https://groja.com/conversion/seeourminds' title='Link to small form you can use to join the Groja.com and SeeOurMinds.com email list' target='_blank'>join the SeeOurMinds.com email list</a>!</p>",
+  "list_page_teaser": "As one might expect, the streets on The Wire host a wide variety of personalities, with each individual gravitating toward the types of activities best suited to their preferences.  Click to learn more!",
+  "description_html": "<p>These images show Omar and Dennis &mdash; who was formerly known as <q>Cutty</q> &mdash; both have ideals and prefer reason to emotion.  Bubbles and Johnny, on the other hand, prefer to be more pragmatic and emotional.</p><p>Joe's portrait shows he's outgoing, pragmatic, and can stay cool under pressure.  Walon is also socialble, but is idealistic and full of warmth and passion &mdash; in some ways the opposite of Joe.</p>",
+  "story_html": "",
   "image_list":
   [
     {
@@ -117,10 +117,10 @@
       "meat_portrait_href": "",
       "composition": "O",
       "score": [
-         { "e_score": "15", "i_score": "4" },
-         { "n_score": "8", "s_score": "11" },
-         { "f_score": "14", "t_score": "5" },
-         { "j_score": "3", "p_score": "16" }
+         { "e_score": "17", "i_score": "2" },
+         { "n_score": "10", "s_score": "9" },
+         { "f_score": "8", "t_score": "11" },
+         { "j_score": "9", "p_score": "10" }
       ],
       "four_letter_type": "ENTP",
       "archetype": "Se",
