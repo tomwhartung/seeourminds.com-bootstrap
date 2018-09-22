@@ -26,17 +26,8 @@
       "archetype": "Ne",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Blue in this spiritual portrait represents McNulty's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_dom": "The Blue in McNulty's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts; need for intellectual stimulation.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents McNulty's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in McNulty's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for being emotional/personal/subjective rather than logical/impersonal/objective.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Blue in this spiritual portrait represents McNulty's dominant personality trait, his fairly strong preference for seeing the world more in terms of ideas than of facts.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  An example of a time when McNulty favored ideas over facts is when he fabricated evidence in the homeless case.",
+      "explain_aux": "The Green in this spiritual portrait represents McNulty's auxiliary personality trait, his moderate preference for being objective and impersonal rather than personal.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  An example of a time when McNulty showed his reasoning ability is when he figured out the girls in the shipping container did not die accidentally.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -59,17 +50,8 @@
       "archetype": "Se",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Bunk's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Bunk's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents Bunk's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in Bunk's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for being emotional/personal/subjective rather than logical/impersonal/objective.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Bunk's dominant personality trait, his moderate preference for seeing the world more in terms of facts than of ideas.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  An example of a time when Bunk favored facts over ideas is when he chastised McNulty for his handling of the homeless case.",
+      "explain_aux": "The Red in this spiritual portrait represents Bunk's auxiliary personality trait, his very slight preference for being more emotional and personal than cold and logical.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  It's important to note his preference is very slight, and Bunk can be quite logical when the situation calls for it.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -92,17 +74,8 @@
       "archetype": "Fi",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Red in this spiritual portrait represents Freamon's dominant personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_dom": "The Red in Freamon's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/objective decisions; their very slight/moderate/strong preference for being emotional/personal/subjective rather than logical/impersonal/objective.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Blue in this spiritual portrait represents Freamon's auxiliary personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts; need for intellectual stimulation.",
-      "explain_aux": "The Blue in Freamon's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Red in this spiritual portrait represents Freamon's dominant personality trait, his very slight preference for being friendly and personal rather than cold and rational.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  It's important to note his preference is very slight, and Freamon can be very logical in some situations.",
+      "explain_aux": "The Blue in this spiritual portrait represents Freamon's auxiliary personality trait, his moderate preference for seeing the world more in terms of ideas than of facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  An example of a time when Freamon showed a preference for ideas over facts comes in the story he tells to McNulty about how he got assigned to the pawn shop unit for thirteen years and four months.", 
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -125,17 +98,8 @@
       "archetype": "Te",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Green in this spiritual portrait represents Landsman's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in Landsman's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents Landsman's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in Landsman's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Landsman's dominant personality trait, his very strong preference for being logical rather than emotional.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  An example of a time when Landsman was more cool and logical than emotional is when he calmly worked with other police, including Bunk, to track the flight of the gang members who shot up Orlando's car, while it was parked at the end of an alley and being used in an undercover operation.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Landsman's auxiliary personality trait, his very strong preference for being pragmatic rather than idealistic.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Landsman demonstrates this trait every time he chastises McNulty for seeing the big picture and delaying arrests rather than focusing on the department's statistics, especially their annual clearance rate.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
