@@ -24,17 +24,8 @@
       "archetype": "Si",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Avon's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Avon's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Red in this spiritual portrait represents Avon's auxiliary personality trait, Feeling: passion; amiability; friendliness; compassion; warmth; very slight/moderate/strong preference for emotion/empathy/subjectivity over logic/reason/objectivity; their very slight/moderate/strong preference for the emotional/personal/subjective over the logical/rational/objective.",
-      "explain_aux": "The Red in Avon's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making emotional/personal/objective rather than logical/rational/subjective decisions; their very slight/moderate/strong preference for being emotional/personal/subjective rather than logical/impersonal/objective.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Avon's dominant personality trait, his strong preference for seeing the world more in terms of facts rather than ideas.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  An example of a time when Avon was pragmatic comes when he learns the police are closing in on him and he finds he needs to clean up lose ends.",
+      "explain_aux": "The Red in this spiritual portrait represents Avon's auxiliary personality trait, his moderate preference for being personal rather than impersonal.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  An example of a time when Avon showed he was more personal comes when he takes D'Angelow to visit his comatose brother, and they talk about the risks inherent in what they are doing.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -57,17 +48,8 @@
       "archetype": "Ni",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Blue in this spiritual portrait represents Stringer's dominant personality trait, iNtuition: idealism and hope for the future; openness to ideas; very slight/moderate/strong preference for ideas over facts.",
-      "explain_dom": "The Blue in Stringer's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of ideas than of facts; need for intellectual stimulation.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Stringer's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Stringer's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Blue in this spiritual portrait represents Stringer's dominant personality trait, his slight preference for seeing the world more in terms of ideas than of facts.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  An example of a time when Stringer demonstrates this trait comes when he realizes how working with other gangs to make their business with other gangs less violent helps keep the police from chasing them as much.  It's important to realize Stringer's preference is very slight, and he can be quite realistic when the situation calls for it.",
+      "explain_aux": "The Green in this spiritual portrait represents Stringer's auxiliary personality trait, his very strong preference for being rational and objective rather than emotional and subjective.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  An example of a time when Stringer is more logical comes when he decides to burn rather than spend a good deal of money that he suspects is marked by the police and can be traced.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -90,17 +72,8 @@
       "archetype": "Ti",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Green in this spiritual portrait represents Bey's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in Bey's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents Bey's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in Bey's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Bey's dominant personality trait, his very strong preference for being cold and logical rather than warm and personal.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  An example of a time when Bey is cold and logical comes whenever he commits murder.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Bey's auxiliary personality trait, his very strong preference for seeing the world more in terms of facts than of ideas.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -123,18 +96,9 @@
       "archetype": "Ti",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Green in this spiritual portrait represents Slim's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in Slim's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents Slim's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in Slim's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "ory_intro_html": "",
+      "explain_dom": "The Green in this spiritual portrait represents Slim's dominant personality trait, his very strong preference for being cold and logical rather than warm and personal.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  An example of a time when Slim is cold and logical comes whenever he commits murder.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Slim's auxiliary personality trait, his very strong preference for seeing the world more in terms of facts than of ideas.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.",
+      "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
       "contrast_with": { }
