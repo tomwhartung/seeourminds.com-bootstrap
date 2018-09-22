@@ -24,17 +24,8 @@
       "archetype": "Te",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Green in this spiritual portrait represents Carver's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in Carver's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents Carver's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in Carver's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Carver's dominant personality trait, his moderate preference for being logical and rational rather than emotional and irrational.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  An example of a time when Carver is more logical comes when he observes the gangs' methods improve quicker than the police's abilities to counter them \"Because when they fuck up, they get beat.  We fuck up, they give us pensions.\"",
+      "explain_aux": "The Yellow in this spiritual portrait represents Carver's auxiliary personality trait, his very slight preference for seeing the world more in terms of facts than of ideas.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  It's important to note Carver's tendency to be pragmatic is very slight, and Carver can be quite idealistic in some situations.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -57,16 +48,8 @@
       "archetype": "Se",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Herc's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Herc's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Herc's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Herc's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for being emotional/personal/subjective rather than logical/impersonal/objective.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
+      "explain_dom": "The Yellow in this spiritual portrait represents Herc's dominant personality trait, his very strong preference for seeing the world more in terms of facts than of ideas.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  An example of a time when Herc was pragmatic comes when Carver confronts him about a mistake he made, and he says \"Yeah.  I fucked up.  So what?\"",
+      "explain_aux": "The Green in this spiritual portrait represents Herc's auxiliary personality trait, his moderate tendency for being more impersonal and objective rather than personal and emotional.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Herc demonstrates this tendency in the way he lacks compassion for perpetrators beat up by the police, \"the Western District way.\"",
 
       "story_intro_html": "",
       "story_html": "",
@@ -90,17 +73,8 @@
       "archetype": "Si",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Kima's dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Kima's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Kima's auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Kima's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Kima's dominant personality trait, her fairly slight preference for seeing the world more in terms of facts than of ideas.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  It's important to note this preference is very slight, and Kima can be rather idealistic when the situation calls for it.",
+      "explain_aux": "The Green in this spiritual portrait represents Kima's auxiliary personality trait, her moderate preference for being more logical and subjective rather than emotional and objective.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  An example of a time when Kima is cold and logical comes when she is shopping for things for their baby with her pregnant wife Cheryl, who finds a Blues Clues juice box holder and says, \"If the kid can't hold on to a little old box without no help, we got problems.\"",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
