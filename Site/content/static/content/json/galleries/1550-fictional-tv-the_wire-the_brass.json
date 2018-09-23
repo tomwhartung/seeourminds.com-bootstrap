@@ -24,17 +24,8 @@
       "archetype": "Si",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Daniels' dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Daniels' spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Daniels' auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Daniels' spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Daniels' dominant personality trait, his very slight preference for seeing the world more in terms of facts than of ideas.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  It's important to note this preference is very slight, and Cedric can be a bit idealistic in some situations.",
+      "explain_aux": "The Green in this spiritual portrait represents Daniels' auxiliary personality trait, his moderate preference for being more logical and objective rather than emotional and subjective.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  Daniels exhibits this trait in his choice of careers, because there is little call for emotional people in law enforcement.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -57,17 +48,8 @@
       "archetype": "Te",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Yellow in this spiritual portrait represents Rawls' dominant personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_dom": "The Yellow in Rawls' spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_dom_constant": "In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Green in this spiritual portrait represents Rawls' auxiliary personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_aux": "The Green in Rawls' spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for making logical/rational/subjective rather than emotional/personal/objective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_aux_constant": "In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Yellow in this spiritual portrait represents Rawls' dominant personality trait, his very strong tendency to see the world more in terms of facts rather than ideas.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  An example of a way Rawls remains focused on facts comes when he shows more interest in getting a better clearance rate than in nabbing the correct perpetrator.",
+      "explain_aux": "The Green in this spiritual portrait represents Rawls' auxiliary personality trait, his very strong preference for being logical rather than emotional.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  Rawls shows his tendency to be cold to people in the way he openly expresses his contempt for McNulty, without any regard for McNulty's feelings.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -157,17 +139,8 @@
       "archetype": "Te",
       "quiz_type": "KTS2",
       "year": "2018",
-
-      "explain_dom": "The Green in this spiritual portrait represents Burrell's dominant personality trait, Thinking: objectivity; rationality; cool-headedness; very slight/moderate/strong preference for logic/reason/objectivity over emotion/empathy/subjectivity; their very slight/moderate/strong preference for the logical/rational/objective over the emotional/personal/subjective.",
-      "explain_dom": "The Green in Burrell's spiritual portrait represents their dominant personality trait, their very slight/moderate/strong preference for making logical/rational/objective rather than emotional/personal/subjective decisions; their very slight/moderate/strong preference for being logical/rational/objective rather than emotional/personal/subjective.",
-
-      "explain_dom_constant": "In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
-      "explain_aux": "The Yellow in this spiritual portrait represents Burrell's auxiliary personality trait, Sensing: pragmatism; pragmatic; practical; realism; realistic; outlook; openness to experiences; very slight/moderate/strong preference for facts over ideas.",
-      "explain_aux": "The Yellow in Burrell's spiritual portrait represents their auxiliary personality trait, their very slight/moderate/strong preference for seeing the world more in terms of facts than of ideas; need for sensual stimulation.",
-
-      "explain_aux_constant": "In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  He/She demonstrates/exhibits this trait in their (note that is easier to find examples of decisions than perceptions!) ....",
-
+      "explain_dom": "The Green in this spiritual portrait represents Burrell's dominant personality trait, his very strong tendency to be more cold and impersonal than warm and personal.  In Extraverts, the dominant trait is directed outwardly, and spiritual portraits use a long vertical line to represent this, because it is the side of their personality that is most evident.",
+      "explain_aux": "The Yellow in this spiritual portrait represents Burrell's auxiliary personality trait, his very strong tendency to see the world more in terms of facts rather than ideas.  In Extraverts, the auxiliary trait is directed inwardly, and spiritual portraits use a horizontal line to represent this.  An example of a way Burrell remains focused on facts comes when he shows more interest in getting his officers to make low-level busts rather than use wiretaps to try to nab criminals higher up.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
