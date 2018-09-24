@@ -344,14 +344,16 @@ def process_shortcut(request, unknown_page='default_unk_pg_1'):
         'woodrow_wilson': '/image/5040-politicians-us_presidents-1900s/5042/',
     }
 
-    if unknown_page in gallery_shortcuts:
-        redirect_url = '/galleries/' + unknown_page +'/'
-    elif unknown_page in redirect_dict.keys():
-        redirect_url = redirect_dict[unknown_page]
-    else:
-        redirect_url = '/404/' + unknown_page
+    unk_pg_lc = unknown_page.lower()
 
-    return redirect(redirect_url, unknown_page=unknown_page)
+    if unk_pg_lc in gallery_shortcuts:
+        redirect_url = '/galleries/' + unk_pg_lc +'/'
+    elif unk_pg_lc in redirect_dict.keys():
+        redirect_url = redirect_dict[unk_pg_lc]
+    else:
+        redirect_url = '/404/' + unk_pg_lc
+
+    return redirect(redirect_url, unknown_page=unk_pg_lc)
 
 
 def not_found(request, unknown_page='default_unk_pg_2'):
