@@ -11,10 +11,10 @@
     {
       "id": "1500",
       "title": "Jimmy McNulty",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Officer in the Baltimore Police Department",
       "gallery_page_teaser": "The Blue in Jimmy McNulty's spiritual portrait shows he is open to new ideas, and the Green shows is rational.  Click on the image to learn more!",
       "image_file_name": "entp-jimmy_mcnulty-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://www.hbo.com/the-wire/cast-and-crew/officer-james-jimmy-mcnulty",
       "composition": "O",
       "score": [
          { "e_score": "19", "i_score": "0" },
@@ -35,10 +35,10 @@
     }, {
       "id": "1502",
       "title": "Bunk Moreland",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Detective in the Baltimore Police Department",
       "gallery_page_teaser": "The Yellow in Bunk Moreland's spiritual portrait shows he is open to new experiences, and the Red shows he is friendly.  Click on the image to learn more!",
       "image_file_name": "esfp-bunk_moreland-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://www.hbo.com/the-wire/cast-and-crew/detective-william-bunk-moreland",
       "composition": "O",
       "score": [
          { "e_score": "19", "i_score": "0" },
@@ -59,10 +59,10 @@
     }, {
       "id": "1504",
       "title": "Lester Freamon",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Detective in the Baltimore Police Department",
       "gallery_page_teaser": "The Blue in Lester Freamon's spiritual portrait shows he is more comfortable with ideas than facts, and the Red shows he can be warm and friendly.  Click on the image to learn more!",
       "image_file_name": "infp-lester_freamon-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://www.hbo.com/the-wire/cast-and-crew/detective-lester-freamon",
       "composition": "O",
       "score": [
          { "e_score": "9", "i_score": "10" },
@@ -75,7 +75,7 @@
       "quiz_type": "KTS2",
       "year": "2018",
       "explain_dom": "The Red in this spiritual portrait represents Freamon's dominant personality trait, his very slight preference for being friendly and personal rather than cold and rational.  In Introverts, the dominant trait is directed inwardly, and spiritual portraits use a long horizontal line to represent this.  It's important to note his preference is very slight, and Freamon can be very logical in some situations.",
-      "explain_aux": "The Blue in this spiritual portrait represents Freamon's auxiliary personality trait, his moderate preference for seeing the world more in terms of ideas than of facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  An example of a time when Freamon showed a preference for ideas over facts comes in the story he tells to McNulty about how he got assigned to the pawn shop unit for thirteen years and four months.", 
+      "explain_aux": "The Blue in this spiritual portrait represents Freamon's auxiliary personality trait, his moderate preference for seeing the world more in terms of ideas than of facts.  In Introverts, the auxiliary trait is directed outwardly, and spiritual portraits use a vertical line to represent this, because it is more evident than the dominant function.  An example of a time when Freamon showed a preference for ideas over facts comes in the story he tells to McNulty about how he got assigned to the pawn shop unit for thirteen years and four months.",
       "story_intro_html": "",
       "story_html": "",
       "compare_to": { },
@@ -83,10 +83,10 @@
     }, {
       "id": "1506",
       "title": "Jay Landsman",
-      "subtitle_html": "<a href='' title='Wikipedia page for ' target='_blank'></a>",
+      "subtitle_html": "Sergeant in the Baltimore Police Department",
       "gallery_page_teaser": "The Green in Jay Landsman's spiritual portrait shows he is very rational, and the Yellow shows he is down-to-earth and realistic.  Click on the image to learn more!",
       "image_file_name": "estj-jay_landsman-1.jpg",
-      "meat_portrait_href": "",
+      "meat_portrait_href": "https://www.hbo.com/the-wire/cast-and-crew/sergeant-jay-landsman",
       "composition": "O",
       "score": [
          { "e_score": "17", "i_score": "2" },
