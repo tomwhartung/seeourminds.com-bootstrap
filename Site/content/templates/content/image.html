@@ -89,7 +89,8 @@
         {% if image_dict.story_html or image_dict.meat_portrait_href %}
           <div class="text-center">
             {% if image_dict.story_html %}
-              <a class="btn btn-success btn-md som-btn-all" id="toggle-story-html"
+              <a class="btn btn-success btn-md som-btn-all"
+                 id="toggle-story-html"
                  title="Show the entire story behind these images">
                 {{ image_dict.show_story_btn_text }}</a>
             {% endif %}
@@ -126,6 +127,17 @@
                 Contrast With Image of <q>{{ image_dict.contrast_with_title }}</q></a>
             {% endif %}
           </div><!-- .text-center -->
+        {% endif %}
+
+        {% if image_dict.story_html %}
+          <hr/><hr/><hr/>
+          <a name="whole-story"></a>
+          <div class="text-justify">
+            <div id="whole-story-html">
+              <h2>The Whole Story</h2>
+              {{ image_dict.story_html | safe }}
+            </div><!-- #whole-story-html -->
+          </div><!-- .text-justify -->
         {% endif %}
 
       </div><!-- .single-image -->
