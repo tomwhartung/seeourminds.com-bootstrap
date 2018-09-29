@@ -431,6 +431,12 @@ img.story-image-right {
 .som-text-to-toggle {
   display: none;
 }
+.before-whole-story {
+  margin-top: 1.5em;
+}
+#whole-story-html {
+  margin-bottom: 3em;
+}
 /*
  * =================
  * For the Quiz Page
