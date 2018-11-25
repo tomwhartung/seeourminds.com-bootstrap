@@ -1,4 +1,8 @@
-# seeourminds.com
+# seeourminds.com-bootstrap
+
+This obsolete repo contains OLD code for seeourminds.com .
+
+**Please use the new code which uses Material Design Bootstrap and has updated and new content in the current seeourminds.com repo.**
 
 Reinventing seeourminds.com from scratch, in python/django.
 
